@@ -226,7 +226,7 @@ title: Publications & Patents
         <div class="pub-body">
             <h3>IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법</h3>
             <p class="pub-authors">Integrated precast transportation monitoring system and method based on IoT sensors.</p>
-            <p class="pub-venue">KR 1020220159449. Registered on 2022-11-24.</p>
+            <p class="pub-venue">KR 10-2022-0159449. Registered on 2022-11-24.</p>
             <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
@@ -236,7 +236,7 @@ title: Publications & Patents
         <div class="pub-body">
             <h3>클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템</h3>
             <p class="pub-authors">Cloud-based smart IoT sensor data preprocessing method and deep-learning-based anomaly detection automation system for structural monitoring.</p>
-            <p class="pub-venue">KR 1020220021506. Registered on 2022-02-18.</p>
+            <p class="pub-venue">KR 10-2022-0021506. Registered on 2022-02-18.</p>
             <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
@@ -246,7 +246,7 @@ title: Publications & Patents
         <div class="pub-body">
             <h3>센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템</h3>
             <p class="pub-authors">Citizen-participatory smart city system using sensor measurement and data visualization.</p>
-            <p class="pub-venue">KR 1020210126695. Registered on 2021-09-24.</p>
+            <p class="pub-venue">KR 10-2021-0126695. Registered on 2021-09-24.</p>
             <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
@@ -256,7 +256,7 @@ title: Publications & Patents
         <div class="pub-body">
             <h3>스마트 IoT 지진 센서유닛 및 이용한 통보방법</h3>
             <p class="pub-authors">Smart IoT earthquake sensor unit and notification method.</p>
-            <p class="pub-venue">KR 1020200059559. Registered on 2020-05-19.</p>
+            <p class="pub-venue">KR 10-2020-0059559. Registered on 2020-05-19.</p>
             <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
