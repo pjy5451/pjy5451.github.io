@@ -373,10 +373,10 @@ a {
 
 .bio-layout {
 	display: grid;
-	grid-template-columns: 280px minmax(0, 1fr);
-	gap: 34px;
+	grid-template-columns: 320px minmax(0, 1fr);
+	gap: 42px;
 	align-items: start;
-	width: min(1180px, calc(100vw - 56px));
+	width: min(1360px, calc(100vw - 32px));
 	margin-left: 50%;
 	transform: translateX(-50%);
 }
@@ -384,7 +384,7 @@ a {
 .bio-sidebar {
 	position: sticky;
 	top: 24px;
-	padding: 22px;
+	padding: 26px;
 	border: 1px solid var(--line);
 	border-radius: 8px;
 	background: var(--wash);
@@ -439,6 +439,10 @@ a {
 
 .bio-main h2 {
 	margin-top: 0;
+}
+
+.bio-main {
+	min-width: 0;
 }
 
 .publication-list {
@@ -687,8 +691,8 @@ a {
 
 .timeline-item {
 	display: grid;
-	grid-template-columns: 150px minmax(0, 1fr);
-	gap: 20px;
+	grid-template-columns: 180px minmax(0, 1fr);
+	gap: 28px;
 	padding: 18px 0;
 	border-top: 1px solid var(--line);
 }
