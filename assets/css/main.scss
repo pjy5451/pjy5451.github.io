@@ -604,8 +604,8 @@ a {
 .project-grid {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
-	gap: 14px;
-	width: min(1200px, calc(100vw - 56px));
+	gap: 12px;
+	width: min(1360px, calc(100vw - 32px));
 	margin-left: 50%;
 	transform: translateX(-50%);
 }
@@ -613,7 +613,7 @@ a {
 .project-card {
 	display: block;
 	min-height: 0;
-	padding: 16px;
+	padding: 14px;
 	border: 1px solid var(--line);
 	border-radius: 8px;
 	background: #fff;
@@ -631,7 +631,7 @@ a {
 
 .project-type {
 	display: block;
-	margin-bottom: 8px;
+	margin-bottom: 6px;
 	color: var(--warm);
 	font-size: 12px;
 	font-weight: 700;
@@ -639,14 +639,14 @@ a {
 }
 
 .project-card h2 {
-	margin: 0 0 10px;
-	font-size: 18px;
+	margin: 0 0 8px;
+	font-size: 17px;
 	line-height: 1.25;
 }
 
 .project-year {
 	display: inline-flex;
-	margin-bottom: 8px;
+	margin-bottom: 6px;
 	color: var(--accent-strong);
 	font-size: 12px;
 	font-weight: 700;
@@ -655,8 +655,8 @@ a {
 .project-thumb {
 	display: block;
 	width: 100%;
-	aspect-ratio: 2 / 1;
-	margin: 0 0 12px;
+	aspect-ratio: 3 / 1;
+	margin: 0 0 10px;
 	border: 1px solid var(--line);
 	border-radius: 6px;
 	background: var(--wash);
@@ -664,10 +664,10 @@ a {
 }
 
 .project-card p {
-	margin: 0 0 14px;
+	margin: 0 0 10px;
 	color: var(--muted);
-	font-size: 14px;
-	line-height: 1.5;
+	font-size: 13px;
+	line-height: 1.42;
 }
 
 .project-tags {
