@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Research Notes
+title: Miscellaneous
 ---
 
-Research notes, project logs, and technical write-ups. I use this section for public ideas that are useful but not formal publications.
+Miscellaneous notes, project logs, technical write-ups, and short records that do not fit neatly into formal publications or project pages.
 
 <div class="note-list archive-list">
 {% for post in site.posts %}
