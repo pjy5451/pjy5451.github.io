@@ -4,7 +4,7 @@ title: Publications & Patents
 ---
 
 <div class="pub-summary">
-    <p>Selected journal articles, preprints, and patent records related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
+    <p>Selected journal articles, preprints, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
     <span>146 citations</span>
 </div>
@@ -180,82 +180,84 @@ title: Publications & Patents
 
 ## Patents
 
-<div class="patent-section">
-    <h3>Registered Patents</h3>
-
-    <article class="patent-entry">
-        <div class="patent-date">2025.08.28</div>
-        <div>
-            <h4>구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법</h4>
-            <p>Automatic load-event interval recognition and analysis system using IoT sensors for structural load-carrying capacity assessment.</p>
-            <span>KR 10-2853678</span>
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+            <h3>교량 상시 내하력 평가 시스템 및 방법</h3>
+            <p class="pub-authors">Continuous bridge load-carrying capacity assessment system and method.</p>
+            <p class="pub-venue">KR 10-2025-0174354. Application filed on 2025-11-18.</p>
+            <div class="pub-actions"><span>Patent Application</span></div>
         </div>
     </article>
 
-    <article class="patent-entry">
-        <div class="patent-date">2024.02.06</div>
-        <div>
-            <h4>저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템</h4>
-            <p>Concrete crack trajectory monitoring device using a resistive touchpad and long-term measurement history visualization system.</p>
-            <span>KR 10-2024-0017869</span>
+    <article class="pub-entry">
+        <div class="pub-year">2025</div>
+        <div class="pub-body">
+            <h3>구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법</h3>
+            <p class="pub-authors">Automatic load-event interval recognition and analysis system using IoT sensors for structural load-carrying capacity assessment.</p>
+            <p class="pub-venue">KR 10-2853678. Registered on 2025-08-28.</p>
+            <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
 
-    <article class="patent-entry">
-        <div class="patent-date">2022.11.24</div>
-        <div>
-            <h4>IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법</h4>
-            <p>Integrated precast transportation monitoring system and method based on IoT sensors.</p>
-            <span>KR 1020220159449</span>
+    <article class="pub-entry">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+            <h3>FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치</h3>
+            <p class="pub-authors">Real-time correction method and device for dynamic truck operating weight based on an FIR filter.</p>
+            <p class="pub-venue">KR 10-2025-0068214. Application filed on 2024-12-30.</p>
+            <div class="pub-actions"><span>Patent Application</span></div>
         </div>
     </article>
 
-    <article class="patent-entry">
-        <div class="patent-date">2022.02.18</div>
-        <div>
-            <h4>클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템</h4>
-            <p>Cloud-based smart IoT sensor data preprocessing method and deep-learning-based anomaly detection automation system for structural monitoring.</p>
-            <span>KR 1020220021506</span>
+    <article class="pub-entry">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+            <h3>저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템</h3>
+            <p class="pub-authors">Concrete crack trajectory monitoring device using a resistive touchpad and long-term measurement history visualization system.</p>
+            <p class="pub-venue">KR 10-2024-0017869. Registered on 2024-02-06.</p>
+            <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
 
-    <article class="patent-entry">
-        <div class="patent-date">2021.09.24</div>
-        <div>
-            <h4>센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템</h4>
-            <p>Citizen-participatory smart city system using sensor measurement and data visualization.</p>
-            <span>KR 1020210126695</span>
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-body">
+            <h3>IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법</h3>
+            <p class="pub-authors">Integrated precast transportation monitoring system and method based on IoT sensors.</p>
+            <p class="pub-venue">KR 1020220159449. Registered on 2022-11-24.</p>
+            <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
 
-    <article class="patent-entry">
-        <div class="patent-date">2020.05.19</div>
-        <div>
-            <h4>스마트 IoT 지진 센서유닛 및 이용한 통보방법</h4>
-            <p>Smart IoT earthquake sensor unit and notification method.</p>
-            <span>KR 1020200059559</span>
-        </div>
-    </article>
-</div>
-
-<div class="patent-section">
-    <h3>Patent Applications</h3>
-
-    <article class="patent-entry">
-        <div class="patent-date">2025.11.18</div>
-        <div>
-            <h4>교량 상시 내하력 평가 시스템 및 방법</h4>
-            <p>Continuous bridge load-carrying capacity assessment system and method.</p>
-            <span>KR 10-2025-0174354</span>
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-body">
+            <h3>클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템</h3>
+            <p class="pub-authors">Cloud-based smart IoT sensor data preprocessing method and deep-learning-based anomaly detection automation system for structural monitoring.</p>
+            <p class="pub-venue">KR 1020220021506. Registered on 2022-02-18.</p>
+            <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
 
-    <article class="patent-entry">
-        <div class="patent-date">2024.12.30</div>
-        <div>
-            <h4>FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치</h4>
-            <p>Real-time correction method and device for dynamic truck operating weight based on an FIR filter.</p>
-            <span>KR 10-2025-0068214</span>
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-body">
+            <h3>센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템</h3>
+            <p class="pub-authors">Citizen-participatory smart city system using sensor measurement and data visualization.</p>
+            <p class="pub-venue">KR 1020210126695. Registered on 2021-09-24.</p>
+            <div class="pub-actions"><span>Registered Patent</span></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2020</div>
+        <div class="pub-body">
+            <h3>스마트 IoT 지진 센서유닛 및 이용한 통보방법</h3>
+            <p class="pub-authors">Smart IoT earthquake sensor unit and notification method.</p>
+            <p class="pub-venue">KR 1020200059559. Registered on 2020-05-19.</p>
+            <div class="pub-actions"><span>Registered Patent</span></div>
         </div>
     </article>
 </div>

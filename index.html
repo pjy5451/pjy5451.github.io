@@ -83,9 +83,9 @@ cover: false
                 <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project details</a>
             </article>
             <article class="feature-item">
-                <h3>Experimental Data</h3>
-                <p>Introduce a dataset, experiment pipeline, reproducibility note, or analysis result that demonstrates your rigor.</p>
-                <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Data notes</a>
+                <h3>Weight-in-Motion Data</h3>
+                <p>YOLO-based load interval detection and dynamic truck weight correction from sensing and vehicle monitoring data.</p>
+                <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project details</a>
             </article>
             <article class="feature-item">
                 <h3>Publications & Patents</h3>
@@ -95,20 +95,4 @@ cover: false
         </div>
     </section>
 
-    <section class="section-band compact">
-        <div class="section-heading">
-            <p class="eyebrow">Recent Notes</p>
-            <h2>Writing and updates</h2>
-        </div>
-        <div class="note-list">
-            {% for post in site.posts limit:3 %}
-            <article class="note-item">
-                <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
-                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-                <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-            </article>
-            {% endfor %}
-        </div>
-        <a class="text-link" href="{{ '/blog.html' | relative_url }}">All notes</a>
-    </section>
 </main>
