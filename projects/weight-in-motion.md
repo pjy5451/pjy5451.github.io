@@ -6,11 +6,11 @@ permalink: /projects/weight-in-motion.html
 
 ## Overview
 
-This project uses object detection methods to identify load intervals in high-speed weigh-in-motion data.
+This project uses object detection methods to identify load intervals in high-speed weigh-in-motion data. It connects infrastructure sensing, traffic loading data, and automated event recognition.
 
 ## My Role
 
-Add your contribution here: data labeling, YOLO model training, evaluation, analysis, or paper writing.
+My work focuses on turning raw sensing records into a detection workflow that can identify relevant load-event intervals and support automated analysis for structural load assessment.
 
 ## Methods
 
@@ -19,6 +19,13 @@ Add your contribution here: data labeling, YOLO model training, evaluation, anal
 - Load segment identification
 - Performance evaluation
 
+## Results
+
+The project is connected to a journal article and patent work on automatic load-event interval recognition and dynamic truck weight correction.
+
 ## Outputs
 
-Link related publications, datasets, source code, or example results here.
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">Related Paper</a>
+</div>

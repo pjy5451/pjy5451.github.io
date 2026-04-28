@@ -10,7 +10,7 @@ This project investigates portable sensing methods for monitoring precast struct
 
 ## My Role
 
-Describe your contribution to field sensing, signal processing, data interpretation, or system validation.
+This work connects field sensing, signal processing, and system validation for transportation-stage monitoring of precast structures.
 
 ## Methods
 
@@ -21,4 +21,7 @@ Describe your contribution to field sensing, signal processing, data interpretat
 
 ## Outputs
 
-Link related publications, datasets, figures, or field-test summaries here.
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Related Paper</a>
+</div>

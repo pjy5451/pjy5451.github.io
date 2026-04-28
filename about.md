@@ -12,10 +12,16 @@ title: About
             <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
             <a href="https://github.com/pjy5451">GitHub</a>
             <a href="{{ '/publications.html' | relative_url }}">Publications & Patents</a>
+            <span>CV available upon request</span>
         </div>
     </aside>
 
     <div class="bio-main">
+        <section class="research-statement">
+            <p>I work on structural health monitoring systems that connect IoT sensing, cloud computing, field experiments, and data-driven analysis. My research and applied work focus on making infrastructure monitoring more scalable, interpretable, and useful in real operating environments.</p>
+            <p>My recent interests include bridge health monitoring, weigh-in-motion and on-board monitoring, displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure.</p>
+        </section>
+
         <h2>Education</h2>
 
         <div class="timeline">

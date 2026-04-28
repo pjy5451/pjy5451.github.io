@@ -17,4 +17,6 @@ This project focuses on concrete crack trajectory monitoring and visualization o
 
 ## Outputs
 
-Link related patents, experimental figures, and device notes here.
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+</div>

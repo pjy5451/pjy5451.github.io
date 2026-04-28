@@ -17,4 +17,7 @@ This project develops low-cost IoT earthquake sensing and notification methods f
 
 ## Outputs
 
-Link related publications, patents, prototypes, or deployment notes here.
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="https://www.mdpi.com/1424-8220/20/10/2963">Related Paper</a>
+</div>

@@ -10,7 +10,7 @@ This project develops a multisensory monitoring workflow for quay wall events us
 
 ## My Role
 
-Describe your contribution to sensing, event detection, AI model integration, deployment, or analysis.
+This project is connected to multisensory monitoring, event detection, and AI-assisted analysis for port infrastructure.
 
 ## Methods
 
@@ -21,4 +21,7 @@ Describe your contribution to sensing, event detection, AI model integration, de
 
 ## Outputs
 
-Link related publications, data examples, diagrams, or deployment notes here.
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="https://www.mdpi.com/2077-1312/12/11/1902">Related Paper</a>
+</div>

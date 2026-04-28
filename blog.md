@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Notes
+title: Research Notes
 ---
 
-Research notes, project logs, and technical write-ups. I use this section for ideas that are useful to keep public but are not formal publications.
+Research notes, project logs, and technical write-ups. I use this section for public ideas that are useful but not formal publications.
 
 <div class="note-list archive-list">
 {% for post in site.posts %}
