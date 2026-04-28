@@ -1,38 +1,140 @@
 ---
 layout: page
-title: Publications
+title: Publications & Patents
 ---
 
 Publications and preprints listed from my [Google Scholar profile](https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en). As of the latest import, Google Scholar reports 146 citations.
 
 ## Journal Articles
 
-1. **BLESeis: Low-cost IOT sensor for smart earthquake detection and notification.** J Won, J Park, JW Park, IH Kim. *Sensors* 20(10), 2963, 2020. Cited by 44.
+<div class="publication-list">
+    <article class="publication-item">
+        <div class="publication-year">2026</div>
+        <div>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">YOLO 기반 고속축중기 하중 구간 자동 검출 기법</a></h3>
+            <p>박준영, 김종우, 조윤범, 정영우. <em>대한토목학회논문집(국문)</em> 46(1), 95-104.</p>
+        </div>
+    </article>
 
-2. **Development of a reference-free indirect bridge displacement sensing system.** J Won, JW Park, J Park, J Shin, M Park. *Sensors* 21(16), 5647, 2021. Cited by 31.
+    <article class="publication-item">
+        <div class="publication-year">2024</div>
+        <div>
+            <h3><a href="https://www.mdpi.com/2077-1312/12/11/1902">Development of AI-Based Multisensory System for Monitoring Quay Wall Events</a></h3>
+            <p>J Shin, J Park, J Won, J Park, J Min. <em>Journal of Marine Science and Engineering</em> 12(11), 1902. Cited by 1.</p>
+        </div>
+    </article>
 
-3. **Development of low-cost wireless sensing system for smart ultra-high performance concrete.** HV Le, TU Kim, S Khan, JY Park, JW Park, SE Kim, Y Jang, DJ Kim. *Sensors* 21(19), 6386, 2021. Cited by 24.
+    <article class="publication-item">
+        <div class="publication-year">2024</div>
+        <div>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">화물차의 주행 중 동적 상태정보 계측 시스템 안정성 확보</a></h3>
+            <p>박준영, 김진식, 김종우, 조윤범. <em>한국기계기술학회지</em> 26(5), 1041-1046.</p>
+        </div>
+    </article>
 
-4. **SSVM: An ultra-low-power strain sensing and visualization module for long-term structural health monitoring.** S Khan, J Won, J Shin, J Park, JW Park, SE Kim, Y Jang, DJ Kim. *Sensors* 21(6), 2211, 2021. Cited by 16.
+    <article class="publication-item">
+        <div class="publication-year">2023</div>
+        <div>
+            <h3><a href="https://www.mdpi.com/1424-8220/23/11/5040">Tendon stress estimation from strain data of a bridge girder using machine learning-based surrogate model</a></h3>
+            <p>SU Khayam, A Ajmal, J Park, IH Kim, JW Park. <em>Sensors</em> 23(11), 5040. Cited by 10.</p>
+        </div>
+    </article>
 
-5. **Tendon stress estimation from strain data of a bridge girder using machine learning-based surrogate model.** SU Khayam, A Ajmal, J Park, IH Kim, JW Park. *Sensors* 23(11), 5040, 2023. Cited by 10.
+    <article class="publication-item">
+        <div class="publication-year">2023</div>
+        <div>
+            <h3><a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Monitoring Precast Structures During Transportation Using A Portable Sensing System</a></h3>
+            <p>SU Khayam, J Won, J Shin, J Park, JW Park. <em>Automation in Construction</em> 145, 104639. Cited by 10.</p>
+        </div>
+    </article>
 
-6. **Monitoring Precast Structures During Transportation Using A Portable Sensing System.** SU Khayam, J Won, J Shin, J Park, JW Park. *Automation in Construction* 145, 104639, 2023. Cited by 10.
+    <article class="publication-item">
+        <div class="publication-year">2021</div>
+        <div>
+            <h3><a href="https://www.mdpi.com/1424-8220/21/16/5647">Development of a reference-free indirect bridge displacement sensing system</a></h3>
+            <p>J Won, JW Park, J Park, J Shin, M Park. <em>Sensors</em> 21(16), 5647. Cited by 31.</p>
+        </div>
+    </article>
 
-7. **Development of low-power IoT sensor and cloud-based data fusion displacement estimation method for ambient bridge monitoring.** JY Park, JS Shin, JB Won, JW Park, MY Park. *Journal of the Computational Structural Engineering Institute of Korea* 34(5), 2021. Cited by 8.
+    <article class="publication-item">
+        <div class="publication-year">2021</div>
+        <div>
+            <h3><a href="https://www.mdpi.com/1424-8220/21/19/6386">Development of low-cost wireless sensing system for smart ultra-high performance concrete</a></h3>
+            <p>HV Le, TU Kim, S Khan, JY Park, JW Park, SE Kim, Y Jang, DJ Kim. <em>Sensors</em> 21(19), 6386. Cited by 24.</p>
+        </div>
+    </article>
 
-8. **Development of AI-Based Multisensory System for Monitoring Quay Wall Events.** J Shin, J Park, J Won, J Park, J Min. *Journal of Marine Science and Engineering* 12(11), 1902, 2024. Cited by 1.
+    <article class="publication-item">
+        <div class="publication-year">2021</div>
+        <div>
+            <h3><a href="https://www.mdpi.com/1424-8220/21/6/2211">SSVM: An ultra-low-power strain sensing and visualization module for long-term structural health monitoring</a></h3>
+            <p>S Khan, J Won, J Shin, J Park, JW Park, SE Kim, Y Jang, DJ Kim. <em>Sensors</em> 21(6), 2211. Cited by 16.</p>
+        </div>
+    </article>
 
-9. **YOLO 기반 고속축중기 하중 구간 자동 검출 기법.** 박준영, 김종우, 조윤범, 정영우. *대한토목학회논문집(국문)* 46(1), 95-104, 2026.
+    <article class="publication-item">
+        <div class="publication-year">2021</div>
+        <div>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C">Development of low-power IoT sensor and cloud-based data fusion displacement estimation method for ambient bridge monitoring</a></h3>
+            <p>JY Park, JS Shin, JB Won, JW Park, MY Park. <em>Journal of the Computational Structural Engineering Institute of Korea</em> 34(5). Cited by 8.</p>
+        </div>
+    </article>
 
-10. **화물차의 주행 중 동적 상태정보 계측 시스템 안정성 확보.** 박준영, 김진식, 김종우, 조윤범. *한국기계기술학회지* 26(5), 1041-1046, 2024.
+    <article class="publication-item">
+        <div class="publication-year">2021</div>
+        <div>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC">가속도, 변형률 센싱이 가능한 IoT 센서 및 클라우드 컴퓨팅 기반 교량 상시 변위 계측 관리 시스템</a></h3>
+            <p>원종빈, 박준영, 신준식, 강소행, 박종웅, 박민용. <em>대한토목학회지</em> 69(10), 58-65.</p>
+        </div>
+    </article>
 
-11. **가속도, 변형률 센싱이 가능한 IoT 센서 및 클라우드 컴퓨팅 기반 교량 상시 변위 계측 관리 시스템.** 원종빈, 박준영, 신준식, 강소행, 박종웅, 박민용. *대한토목학회지* 69(10), 58-65, 2021.
+    <article class="publication-item">
+        <div class="publication-year">2021</div>
+        <div>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:Se3iqnhoufwC">상시 교량 모니터링을 위한 저전력 IoT 센서 및 클라우드 기반 데이터 융합 변위 측정 기법 개발</a></h3>
+            <p>박준영, 신준식, 원종빈, 박종웅, 박민용. <em>한국전산구조공학회 논문집</em> 34(5), 301-308.</p>
+        </div>
+    </article>
 
-12. **상시 교량 모니터링을 위한 저전력 IoT 센서 및 클라우드 기반 데이터 융합 변위 측정 기법 개발.** 박준영, 신준식, 원종빈, 박종웅, 박민용. *한국전산구조공학회 논문집* 34(5), 301-308, 2021.
+    <article class="publication-item">
+        <div class="publication-year">2020</div>
+        <div>
+            <h3><a href="https://www.mdpi.com/1424-8220/20/10/2963">BLESeis: Low-cost IOT sensor for smart earthquake detection and notification</a></h3>
+            <p>J Won, J Park, JW Park, IH Kim. <em>Sensors</em> 20(10), 2963. Cited by 44.</p>
+        </div>
+    </article>
+</div>
 
 ## Preprints
 
-1. **Development of IoT sensor and cloud-based server for cloud-based bridge long-term monitoring.** J Park, J Shin, J Park. *arXiv preprint arXiv:2209.12186*, 2022. Cited by 1.
+<div class="publication-list compact-list">
+    <article class="publication-item">
+        <div class="publication-year">2022</div>
+        <div>
+            <h3><a href="https://arxiv.org/abs/2209.12186">Development of IoT sensor and cloud-based server for cloud-based bridge long-term monitoring</a></h3>
+            <p>J Park, J Shin, J Park. <em>arXiv:2209.12186</em>. Cited by 1.</p>
+        </div>
+    </article>
 
-2. **Development of AI-cloud based high-sensitivity wireless smart sensor for port structure monitoring.** J Shin, J Park, J Park. *arXiv preprint arXiv:2209.13646*, 2022. Cited by 1.
+    <article class="publication-item">
+        <div class="publication-year">2022</div>
+        <div>
+            <h3><a href="https://arxiv.org/abs/2209.13646">Development of AI-cloud based high-sensitivity wireless smart sensor for port structure monitoring</a></h3>
+            <p>J Shin, J Park, J Park. <em>arXiv:2209.13646</em>. Cited by 1.</p>
+        </div>
+    </article>
+</div>
+
+## Patents
+
+Patents are research outputs too, so I would keep a concise patent section here while the list is short. If the patent list grows, it can become its own page.
+
+<div class="publication-list compact-list">
+    <article class="publication-item">
+        <div class="publication-year">Year</div>
+        <div>
+            <h3>Patent title</h3>
+            <p>Inventors. Application or registration number. Country or office. Status.</p>
+        </div>
+    </article>
+</div>

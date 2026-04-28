@@ -3,24 +3,34 @@ layout: page
 title: Projects
 ---
 
-This page collects selected projects from graduate research, independent experiments, and applied work. Each project should make the research question, method, your contribution, and outcome easy to scan.
+Selected projects from graduate research, independent experiments, and applied work. Each card links to a short detail page that can hold the project context, method, data, and outcomes.
 
-## Graduate Research Project
+<div class="project-grid">
+    <a class="project-card" href="{{ '/projects/bridge-monitoring.html' | relative_url }}">
+        <span class="project-type">Graduate Research</span>
+        <h2>Bridge Monitoring and Displacement Estimation</h2>
+        <p>Low-power sensing, cloud data fusion, and reference-free displacement estimation for long-term bridge monitoring.</p>
+        <span class="project-tags">SHM · IoT sensing · displacement</span>
+    </a>
 
-**Role:** Researcher  
-**Keywords:** Add 3-5 research keywords  
-**Status:** Thesis, manuscript, prototype, or completed study
+    <a class="project-card" href="{{ '/projects/portable-sensing.html' | relative_url }}">
+        <span class="project-type">Applied System</span>
+        <h2>Portable Sensing for Precast Transportation</h2>
+        <p>A portable sensing workflow for measuring strain and acceleration during transportation of precast structures.</p>
+        <span class="project-tags">field sensing · precast · safety</span>
+    </a>
 
-Write a short project summary here. A strong version usually includes the problem, why it matters, the method or system you built, the data you used, and the result.
+    <a class="project-card" href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">
+        <span class="project-type">AI Monitoring</span>
+        <h2>AI-Based Quay Wall Event Monitoring</h2>
+        <p>Multisensory monitoring of quay wall events using wireless sensing and AI-based event recognition.</p>
+        <span class="project-tags">AI · port structures · monitoring</span>
+    </a>
 
-## Applied Project
-
-**Role:** Project owner or contributor  
-**Keywords:** Data analysis, modeling, system design, experiment
-
-Describe a project that shows technical judgment: what constraints existed, what you built, and how you evaluated whether it worked.
-
-## Data & Experiments
-{: #data-experiments }
-
-Use this section for datasets, experimental protocols, reproducibility notes, or notebooks. Overseas readers usually appreciate clear links to data dictionaries, methods, and code when public sharing is possible.
+    <a class="project-card" href="{{ '/projects/weight-in-motion.html' | relative_url }}">
+        <span class="project-type">Data Experiment</span>
+        <h2>Weight-in-Motion Load Segment Detection</h2>
+        <p>YOLO-based detection workflow for identifying load intervals in high-speed weigh-in-motion data.</p>
+        <span class="project-tags">YOLO · WIM · data pipeline</span>
+    </a>
+</div>
