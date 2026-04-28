@@ -3,138 +3,183 @@ layout: page
 title: Publications & Patents
 ---
 
-Publications and preprints listed from my [Google Scholar profile](https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en). As of the latest import, Google Scholar reports 146 citations.
+<div class="pub-summary">
+    <p>Selected journal articles, preprints, and patent records related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
+    <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
+    <span>146 citations</span>
+</div>
 
 ## Journal Articles
 
-<div class="publication-list">
-    <article class="publication-item">
-        <div class="publication-year">2026</div>
-        <div>
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">YOLO 기반 고속축중기 하중 구간 자동 검출 기법</a></h3>
-            <p>박준영, 김종우, 조윤범, 정영우. <em>대한토목학회논문집(국문)</em> 46(1), 95-104.</p>
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2026</div>
+        <div class="pub-body">
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems</a></h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung</p>
+            <p class="pub-venue">Journal of the Korean Society of Civil Engineers, 46(1), 95-104</p>
+            <div class="pub-actions">
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">Scholar</a>
+                <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project</a>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2024</div>
-        <div>
+    <article class="pub-entry">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
             <h3><a href="https://www.mdpi.com/2077-1312/12/11/1902">Development of AI-Based Multisensory System for Monitoring Quay Wall Events</a></h3>
-            <p>J Shin, J Park, J Won, J Park, J Min. <em>Journal of Marine Science and Engineering</em> 12(11), 1902. Cited by 1.</p>
+            <p class="pub-authors">Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jongwoong Park, Jiyoung Min</p>
+            <p class="pub-venue">Journal of Marine Science and Engineering, 12(11), 1902</p>
+            <div class="pub-actions">
+                <a href="https://www.mdpi.com/2077-1312/12/11/1902">Source Document</a>
+                <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Project</a>
+                <span>Cited by 1</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2024</div>
-        <div>
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">화물차의 주행 중 동적 상태정보 계측 시스템 안정성 확보</a></h3>
-            <p>박준영, 김진식, 김종우, 조윤범. <em>한국기계기술학회지</em> 26(5), 1041-1046.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2024</div>
+        <div class="pub-body">
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">Stability Assurance of a Dynamic State Information Measurement System for Trucks in Motion</a></h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Jinsik Kim, Jongwoo Kim, Yunbeom Cho</p>
+            <p class="pub-venue">Journal of the Korean Society of Mechanical Technology, 26(5), 1041-1046</p>
+            <div class="pub-actions">
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">Scholar</a>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2023</div>
-        <div>
-            <h3><a href="https://www.mdpi.com/1424-8220/23/11/5040">Tendon stress estimation from strain data of a bridge girder using machine learning-based surrogate model</a></h3>
-            <p>SU Khayam, A Ajmal, J Park, IH Kim, JW Park. <em>Sensors</em> 23(11), 5040. Cited by 10.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-body">
+            <h3><a href="https://www.mdpi.com/1424-8220/23/11/5040">Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model</a></h3>
+            <p class="pub-authors">SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jongwoong Park</p>
+            <p class="pub-venue">Sensors, 23(11), 5040</p>
+            <div class="pub-actions">
+                <a href="https://www.mdpi.com/1424-8220/23/11/5040">Source Document</a>
+                <span>Cited by 10</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2023</div>
-        <div>
-            <h3><a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Monitoring Precast Structures During Transportation Using A Portable Sensing System</a></h3>
-            <p>SU Khayam, J Won, J Shin, J Park, JW Park. <em>Automation in Construction</em> 145, 104639. Cited by 10.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-body">
+            <h3><a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Monitoring Precast Structures During Transportation Using a Portable Sensing System</a></h3>
+            <p class="pub-authors">SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park</p>
+            <p class="pub-venue">Automation in Construction, 145, 104639</p>
+            <div class="pub-actions">
+                <a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Source Document</a>
+                <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Project</a>
+                <span>Cited by 10</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2021</div>
-        <div>
-            <h3><a href="https://www.mdpi.com/1424-8220/21/16/5647">Development of a reference-free indirect bridge displacement sensing system</a></h3>
-            <p>J Won, JW Park, J Park, J Shin, M Park. <em>Sensors</em> 21(16), 5647. Cited by 31.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-body">
+            <h3><a href="https://www.mdpi.com/1424-8220/21/16/5647">Development of a Reference-Free Indirect Bridge Displacement Sensing System</a></h3>
+            <p class="pub-authors">Jongbin Won, Jongwoong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park</p>
+            <p class="pub-venue">Sensors, 21(16), 5647</p>
+            <div class="pub-actions">
+                <a href="https://www.mdpi.com/1424-8220/21/16/5647">Source Document</a>
+                <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a>
+                <span>Cited by 31</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2021</div>
-        <div>
-            <h3><a href="https://www.mdpi.com/1424-8220/21/19/6386">Development of low-cost wireless sensing system for smart ultra-high performance concrete</a></h3>
-            <p>HV Le, TU Kim, S Khan, JY Park, JW Park, SE Kim, Y Jang, DJ Kim. <em>Sensors</em> 21(19), 6386. Cited by 24.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-body">
+            <h3><a href="https://www.mdpi.com/1424-8220/21/19/6386">Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete</a></h3>
+            <p class="pub-authors">HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim</p>
+            <p class="pub-venue">Sensors, 21(19), 6386</p>
+            <div class="pub-actions">
+                <a href="https://www.mdpi.com/1424-8220/21/19/6386">Source Document</a>
+                <span>Cited by 24</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2021</div>
-        <div>
-            <h3><a href="https://www.mdpi.com/1424-8220/21/6/2211">SSVM: An ultra-low-power strain sensing and visualization module for long-term structural health monitoring</a></h3>
-            <p>S Khan, J Won, J Shin, J Park, JW Park, SE Kim, Y Jang, DJ Kim. <em>Sensors</em> 21(6), 2211. Cited by 16.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-body">
+            <h3><a href="https://www.mdpi.com/1424-8220/21/6/2211">SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring</a></h3>
+            <p class="pub-authors">S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim</p>
+            <p class="pub-venue">Sensors, 21(6), 2211</p>
+            <div class="pub-actions">
+                <a href="https://www.mdpi.com/1424-8220/21/6/2211">Source Document</a>
+                <span>Cited by 16</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2021</div>
-        <div>
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C">Development of low-power IoT sensor and cloud-based data fusion displacement estimation method for ambient bridge monitoring</a></h3>
-            <p>JY Park, JS Shin, JB Won, JW Park, MY Park. <em>Journal of the Computational Structural Engineering Institute of Korea</em> 34(5). Cited by 8.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-body">
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C">Development of Low-Power IoT Sensor and Cloud-Based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</a></h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park</p>
+            <p class="pub-venue">Journal of the Computational Structural Engineering Institute of Korea, 34(5)</p>
+            <div class="pub-actions">
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C">Scholar</a>
+                <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a>
+                <span>Cited by 8</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2021</div>
-        <div>
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC">가속도, 변형률 센싱이 가능한 IoT 센서 및 클라우드 컴퓨팅 기반 교량 상시 변위 계측 관리 시스템</a></h3>
-            <p>원종빈, 박준영, 신준식, 강소행, 박종웅, 박민용. <em>대한토목학회지</em> 69(10), 58-65.</p>
-        </div>
-    </article>
-
-    <article class="publication-item">
-        <div class="publication-year">2021</div>
-        <div>
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:Se3iqnhoufwC">상시 교량 모니터링을 위한 저전력 IoT 센서 및 클라우드 기반 데이터 융합 변위 측정 기법 개발</a></h3>
-            <p>박준영, 신준식, 원종빈, 박종웅, 박민용. <em>한국전산구조공학회 논문집</em> 34(5), 301-308.</p>
-        </div>
-    </article>
-
-    <article class="publication-item">
-        <div class="publication-year">2020</div>
-        <div>
-            <h3><a href="https://www.mdpi.com/1424-8220/20/10/2963">BLESeis: Low-cost IOT sensor for smart earthquake detection and notification</a></h3>
-            <p>J Won, J Park, JW Park, IH Kim. <em>Sensors</em> 20(10), 2963. Cited by 44.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2020</div>
+        <div class="pub-body">
+            <h3><a href="https://www.mdpi.com/1424-8220/20/10/2963">BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification</a></h3>
+            <p class="pub-authors">Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim</p>
+            <p class="pub-venue">Sensors, 20(10), 2963</p>
+            <div class="pub-actions">
+                <a href="https://www.mdpi.com/1424-8220/20/10/2963">Source Document</a>
+                <span>Cited by 44</span>
+            </div>
         </div>
     </article>
 </div>
 
 ## Preprints
 
-<div class="publication-list compact-list">
-    <article class="publication-item">
-        <div class="publication-year">2022</div>
-        <div>
-            <h3><a href="https://arxiv.org/abs/2209.12186">Development of IoT sensor and cloud-based server for cloud-based bridge long-term monitoring</a></h3>
-            <p>J Park, J Shin, J Park. <em>arXiv:2209.12186</em>. Cited by 1.</p>
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-body">
+            <h3><a href="https://arxiv.org/abs/2209.12186">Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring</a></h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jongwoong Park</p>
+            <p class="pub-venue">arXiv:2209.12186</p>
+            <div class="pub-actions">
+                <a href="https://arxiv.org/abs/2209.12186">Preprint</a>
+                <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a>
+                <span>Cited by 1</span>
+            </div>
         </div>
     </article>
 
-    <article class="publication-item">
-        <div class="publication-year">2022</div>
-        <div>
-            <h3><a href="https://arxiv.org/abs/2209.13646">Development of AI-cloud based high-sensitivity wireless smart sensor for port structure monitoring</a></h3>
-            <p>J Shin, J Park, J Park. <em>arXiv:2209.13646</em>. Cited by 1.</p>
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-body">
+            <h3><a href="https://arxiv.org/abs/2209.13646">Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring</a></h3>
+            <p class="pub-authors">Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park</p>
+            <p class="pub-venue">arXiv:2209.13646</p>
+            <div class="pub-actions">
+                <a href="https://arxiv.org/abs/2209.13646">Preprint</a>
+                <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Project</a>
+                <span>Cited by 1</span>
+            </div>
         </div>
     </article>
 </div>
 
 ## Patents
 
-Patents are research outputs too, so I would keep a concise patent section here while the list is short. If the patent list grows, it can become its own page.
-
-<div class="publication-list compact-list">
-    <article class="publication-item">
-        <div class="publication-year">Year</div>
-        <div>
-            <h3>Patent title</h3>
-            <p>Inventors. Application or registration number. Country or office. Status.</p>
-        </div>
-    </article>
+<div class="patent-note">
+    <p>Patents can live here with publications while the list is short. Add title, inventors, application or registration number, country, and status. If the patent list grows, this section can move to its own page.</p>
 </div>
