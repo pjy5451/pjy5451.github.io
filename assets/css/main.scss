@@ -373,9 +373,12 @@ a {
 
 .bio-layout {
 	display: grid;
-	grid-template-columns: 260px minmax(0, 1fr);
+	grid-template-columns: 280px minmax(0, 1fr);
 	gap: 34px;
 	align-items: start;
+	width: min(1180px, calc(100vw - 56px));
+	margin-left: 50%;
+	transform: translateX(-50%);
 }
 
 .bio-sidebar {
@@ -782,6 +785,9 @@ a {
 
 	.bio-layout {
 		grid-template-columns: 1fr;
+		width: auto;
+		margin-left: 0;
+		transform: none;
 	}
 
 	.bio-sidebar {

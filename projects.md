@@ -16,7 +16,7 @@ Selected projects from graduate research, independent experiments, and applied i
     </a>
 
     <a class="project-card" href="{{ '/projects/weight-in-motion.html' | relative_url }}">
-        <span class="project-year">2024 - 2026</span>
+        <span class="project-year">2024 - Present</span>
         <span class="project-type">Data Experiment</span>
         <h2>Weight-in-Motion Load Segment Detection</h2>
         <img class="project-thumb" src="{{ '/assets/images/projects/weight-in-motion.svg' | relative_url }}" alt="Weight-in-motion project preview" />
