@@ -1,19 +1,18 @@
-name: Jun's Note
-description: Blog
-meta_description: "My First Website, Note it"
+name: "Junyoung Park"
+title: "Junyoung Park"
+description: "Researcher and engineer working across data, experiments, and applied systems."
+meta_description: "Personal website of Junyoung Park: research projects, publications, data experiments, and technical notes."
 
 markdown: kramdown
 highlighter: rouge
 logo: false
-paginate: 15
 baseurl: ""
 domain_name: "https://pjy5451.github.io"
 google_analytics: "G-KF38MERZCL"
-plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url: "https://pjy5451.github.io"
-author: "Jun"
+author: "Junyoung Park"
 
 # Disqus config
 disqus-shortname: ""

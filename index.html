@@ -2,63 +2,88 @@
 layout: default
 title: Home
 cover: false
-about: 'about.html'
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-        <a class="subscribe-button icon-feed" href="{{'feed.xml' | relative_url }} ">Subscribe</a>
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.name }}</h1>
-            <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{page.about | relative_url}}'> About me </a> {% endif %}
-            </h2>
+<header class="profile-hero">
+    <nav class="profile-nav">
+        <a class="profile-brand" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+        <div class="profile-nav-links">
+            <a href="{{ '/about.html' | relative_url }}">About</a>
+            <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+            <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+            <a href="{{ '/blog.html' | relative_url }}">Notes</a>
         </div>
-    </div>
-    <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
+    </nav>
+
+    <section class="hero-grid">
+        <div class="hero-copy">
+            <p class="eyebrow">Personal website</p>
+            <h1>{{ site.name }}</h1>
+            <p class="hero-subtitle">{{ site.description }}</p>
+            <p class="hero-summary">
+                I use this site to present selected graduate research, publications,
+                project notes, and experimental datasets for international readers.
+            </p>
+            <div class="hero-actions">
+                <a class="primary-action" href="{{ '/projects.html' | relative_url }}">View projects</a>
+                <a class="secondary-action" href="{{ '/publications.html' | relative_url }}">Read publications</a>
+            </div>
+        </div>
+
+        <aside class="profile-card">
+            <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of {{ site.name }}" />
+            <div>
+                <h2>Research Profile</h2>
+                <p>Graduate-trained researcher focused on building evidence from projects, papers, and experimental data.</p>
+            </div>
+            <ul class="quick-facts">
+                <li><span>Focus</span> Data-driven research and applied systems</li>
+                <li><span>Audience</span> International collaborators and reviewers</li>
+                <li><span>Writing</span> Technical notes, project logs, and research summaries</li>
+            </ul>
+        </aside>
+    </section>
 </header>
 
+<main class="profile-main" role="main">
+    <section class="section-band">
+        <div class="section-heading">
+            <p class="eyebrow">Selected Work</p>
+            <h2>Projects worth showing first</h2>
+        </div>
+        <div class="feature-grid">
+            <article class="feature-item">
+                <h3>Graduate Research Project</h3>
+                <p>Summarize your thesis or major lab project here: research question, method, dataset, and outcome.</p>
+                <a href="{{ '/projects.html' | relative_url }}">Project details</a>
+            </article>
+            <article class="feature-item">
+                <h3>Experimental Data</h3>
+                <p>Introduce a dataset, experiment pipeline, reproducibility note, or analysis result that demonstrates your rigor.</p>
+                <a href="{{ '/projects.html#data-experiments' | relative_url }}">Data notes</a>
+            </article>
+            <article class="feature-item">
+                <h3>Publication Record</h3>
+                <p>Keep peer-reviewed papers, manuscripts, posters, and preprints easy to scan for overseas readers.</p>
+                <a href="{{ '/publications.html' | relative_url }}">Publication list</a>
+            </article>
+        </div>
+    </section>
 
-<main id="content" class="content" role="main">
-
-
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
-
-    {% for post in paginator.posts %}
-
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }} <a class="read-more" href="{{ post.url | relative_url }}">&raquo;</a>
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="{{'/assets/images/profile.png' | relative_url}}" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-            </time> 
-        </footer>
-    </article>
-
-    {% endfor %}
-
-    {% include pagination.html %}
-
+    <section class="section-band compact">
+        <div class="section-heading">
+            <p class="eyebrow">Recent Notes</p>
+            <h2>Writing and updates</h2>
+        </div>
+        <div class="note-list">
+            {% for post in site.posts limit:3 %}
+            <article class="note-item">
+                <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
+                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+            </article>
+            {% endfor %}
+        </div>
+        <a class="text-link" href="{{ '/blog.html' | relative_url }}">All notes</a>
+    </section>
 </main>

@@ -6,9 +6,14 @@ post_class: post-template
 ---
 
 <header class="main-header post-head {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav {% if page.cover %} overlay {% endif %} clearfix">
-        <a class="back-button icon-arrow-left" href="{{'/' | relative_url }}">Home</a>
-        <a class="subscribe-button icon-feed" href="{{'feed.xml' | relative_url }}">Subscribe</a>
+    <nav class="profile-nav page-nav">
+        <a class="profile-brand" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+        <div class="profile-nav-links">
+            <a href="{{ '/about.html' | relative_url }}">About</a>
+            <a href="{{ '/projects.html' | relative_url }}">Projects</a>
+            <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+            <a href="{{ '/blog.html' | relative_url }}">Notes</a>
+        </div>
     </nav>
 </header>
 
@@ -70,9 +75,8 @@ post_class: post-template
                 <section class="author">
                     <!-- Author Name -->
                     <h4> {{ site.author }} </h4>
-                    <!-- Author Bio -->
                     <p>
-                        Here goes the author description. You might want to place some links too in here
+                        Researcher and engineer writing about projects, publications, data, and experiments.
                     </p>
                 </section>
             {% endif %}
