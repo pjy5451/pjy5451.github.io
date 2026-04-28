@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Bridge monitoring preview</title>
+  <desc id="desc">Stylized bridge with sensor nodes and data lines.</desc>
+  <rect width="640" height="360" fill="#eef6f7"/>
+  <path d="M70 232h500" stroke="#174f56" stroke-width="12" stroke-linecap="round"/>
+  <path d="M115 232c45-76 365-76 410 0" fill="none" stroke="#1f6f78" stroke-width="10" stroke-linecap="round"/>
+  <path d="M145 232v54M245 232v54M395 232v54M495 232v54" stroke="#5f6b76" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="190" cy="206" r="13" fill="#b4573d"/>
+  <circle cx="320" cy="190" r="13" fill="#b4573d"/>
+  <circle cx="450" cy="206" r="13" fill="#b4573d"/>
+  <path d="M190 206c42-34 88-39 130-16M320 190c46-21 88-16 130 16" fill="none" stroke="#b4573d" stroke-width="4" stroke-dasharray="8 8"/>
+  <path d="M92 286h456" stroke="#dfe5e9" stroke-width="8" stroke-linecap="round"/>
+</svg>

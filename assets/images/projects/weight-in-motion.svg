@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Weight-in-motion preview</title>
+  <desc id="desc">Stylized truck passing sensor zones with detection boxes.</desc>
+  <rect width="640" height="360" fill="#f7fafb"/>
+  <path d="M72 254h496" stroke="#dfe5e9" stroke-width="12" stroke-linecap="round"/>
+  <rect x="128" y="156" width="268" height="62" rx="8" fill="#1f6f78"/>
+  <rect x="396" y="178" width="86" height="40" rx="6" fill="#174f56"/>
+  <circle cx="184" cy="236" r="27" fill="#17212b"/>
+  <circle cx="408" cy="236" r="27" fill="#17212b"/>
+  <circle cx="184" cy="236" r="10" fill="#f4f7f8"/>
+  <circle cx="408" cy="236" r="10" fill="#f4f7f8"/>
+  <rect x="160" y="136" width="86" height="96" fill="none" stroke="#b4573d" stroke-width="5" stroke-dasharray="10 7"/>
+  <rect x="372" y="160" width="78" height="76" fill="none" stroke="#b4573d" stroke-width="5" stroke-dasharray="10 7"/>
+  <path d="M116 104h156l30 26 42-58 37 42h142" fill="none" stroke="#b4573d" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

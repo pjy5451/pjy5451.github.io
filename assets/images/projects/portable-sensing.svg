@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="title desc">
+  <title id="title">Portable sensing preview</title>
+  <desc id="desc">Stylized precast beam on a truck with portable sensors.</desc>
+  <rect width="640" height="360" fill="#f4f7f8"/>
+  <rect x="92" y="184" width="430" height="46" rx="8" fill="#1f6f78"/>
+  <rect x="118" y="130" width="355" height="50" rx="6" fill="#dfe5e9" stroke="#5f6b76" stroke-width="4"/>
+  <circle cx="184" cy="246" r="30" fill="#17212b"/>
+  <circle cx="444" cy="246" r="30" fill="#17212b"/>
+  <circle cx="184" cy="246" r="12" fill="#f4f7f8"/>
+  <circle cx="444" cy="246" r="12" fill="#f4f7f8"/>
+  <circle cx="210" cy="155" r="11" fill="#b4573d"/>
+  <circle cx="328" cy="155" r="11" fill="#b4573d"/>
+  <path d="M210 155h118M328 155l76-42" stroke="#b4573d" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 7"/>
+  <rect x="397" y="87" width="74" height="44" rx="8" fill="#fff" stroke="#174f56" stroke-width="4"/>
+  <path d="M415 109h38" stroke="#174f56" stroke-width="4" stroke-linecap="round"/>
+</svg>
