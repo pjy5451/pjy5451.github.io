@@ -48,6 +48,19 @@
     <script type="text/javascript" src="{{'/assets/js/jquery-1.11.1.min.js' | relative_url}}"></script>
     <script type="text/javascript" src="{{'/assets/js/jquery.fitvids.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{'/assets/js/index.js' | relative_url }}"></script>
+    <script>
+      document.addEventListener('click', function(event) {
+        var link = event.target.closest('[data-analytics-event="cv_download"]');
+        if (!link || typeof gtag !== 'function') {
+          return;
+        }
+
+        gtag('event', 'cv_download', {
+          event_category: 'engagement',
+          event_label: link.getAttribute('href')
+        });
+      });
+    </script>
 
 </body>
 </html>
