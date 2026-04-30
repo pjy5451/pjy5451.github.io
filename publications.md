@@ -4,7 +4,7 @@ title: Publications & Patents
 ---
 
 <div class="pub-summary">
-    <p>Selected journal articles, preprints, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
+    <p>Selected journal articles, preprints, working papers, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
     <span>146 citations</span>
 </div>
@@ -113,9 +113,19 @@ title: Publications & Patents
     </article>
 </div>
 
-## Preprints (2)
+## Preprints & Working Papers (3)
 
 <div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2026</div>
+        <div class="pub-body">
+            <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940">Working Paper in Progress</a></h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong></p>
+            <p class="pub-venue">SSRN working paper. Manuscript in progress.</p>
+            <div class="pub-actions"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940">SSRN</a><span>In Progress</span></div>
+        </div>
+    </article>
+
     <article class="pub-entry">
         <div class="pub-year">2022</div>
         <div class="pub-body">
