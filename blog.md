@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Miscellaneous
+description: Miscellaneous professional activities, technical notes, field logs, proposal experience, and research visits by Junyoung Park.
 ---
 
 This page collects professional activities that do not fit neatly into formal publications or project pages: international visits, technical notes, proposal experience, field logs, and short writing.

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Biography, education, experience, selected awards, CV, and research profile of Junyoung Park.
 ---
 
 <div class="bio-layout">

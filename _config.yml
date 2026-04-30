@@ -17,3 +17,7 @@ author: "Junyoung Park"
 
 # Disqus config
 disqus-shortname: ""
+
+exclude:
+  - README.md
+  - LICENSE.txt

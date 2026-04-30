@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Projects
+description: Selected infrastructure monitoring, IoT sensing, bridge monitoring, WIM, OBM, and AI-assisted civil engineering projects by Junyoung Park.
 ---
 
 Selected projects from graduate research, independent experiments, and applied infrastructure monitoring work. Each card opens a detail page for context, methods, outputs, and links.
