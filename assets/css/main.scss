@@ -19,6 +19,11 @@
 	--warm: #b4573d;
 }
 
+html {
+	overflow-y: scroll;
+	scrollbar-gutter: stable;
+}
+
 body {
 	color: var(--ink);
 	background: var(--paper);
