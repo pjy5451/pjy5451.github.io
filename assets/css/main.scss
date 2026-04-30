@@ -355,8 +355,10 @@ a {
 
 .post-template .main-header {
 	min-height: 92px;
+	padding: 24px 5vw 0;
 	background: var(--wash);
 	border-bottom: 1px solid var(--line);
+	box-sizing: border-box;
 }
 
 .post-template .post-title {
@@ -788,6 +790,10 @@ a {
 	.profile-hero {
 		min-height: auto;
 		padding: 22px 22px 48px;
+	}
+
+	.post-template .main-header {
+		padding: 22px 22px 0;
 	}
 
 	.profile-nav {
