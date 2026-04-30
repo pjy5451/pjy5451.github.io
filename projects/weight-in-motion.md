@@ -4,6 +4,10 @@ title: Weight-in-Motion Load Segment Detection
 permalink: /projects/weight-in-motion.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/weight-in-motion.svg' | relative_url }}" alt="Weight-in-motion load segment detection project preview" />
+</figure>
+
 ## Overview
 
 This project develops automated analysis methods for high-speed weigh-in-motion data, including load interval detection and truck-weight correction workflows.

@@ -4,6 +4,10 @@ title: QR-Based Bridge Lifecycle Monitoring
 permalink: /projects/qr-lifecycle-monitoring.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/qr-lifecycle.svg' | relative_url }}" alt="QR-based bridge lifecycle monitoring project preview" />
+</figure>
+
 ## Overview
 
 This project explores QR-linked lifecycle monitoring for infrastructure components using low-power sensing, e-paper visualization, and cloud-based data collection.

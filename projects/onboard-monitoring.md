@@ -4,6 +4,10 @@ title: On-Board Monitoring for Vehicle Loads
 permalink: /projects/onboard-monitoring.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/onboard-monitoring.svg' | relative_url }}" alt="On-board monitoring for vehicle loads project preview" />
+</figure>
+
 ## Overview
 
 This project focuses on on-board monitoring for dynamic truck state measurement and operating-weight correction.

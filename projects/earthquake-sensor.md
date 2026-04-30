@@ -4,6 +4,10 @@ title: Smart IoT Earthquake Sensor
 permalink: /projects/earthquake-sensor.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/earthquake-sensor.svg' | relative_url }}" alt="Smart IoT earthquake sensor project preview" />
+</figure>
+
 ## Overview
 
 This project developed a low-cost IoT earthquake sensing and notification concept using embedded event detection and BLE-based communication.

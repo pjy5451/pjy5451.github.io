@@ -4,6 +4,10 @@ title: Citizen-Participatory Smart City Sensing
 permalink: /projects/smart-city-sensing.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/smart-city.svg' | relative_url }}" alt="Citizen-participatory smart city sensing project preview" />
+</figure>
+
 ## Overview
 
 This project connects environmental sensing, QR-based data visualization, and citizen participation for smart city monitoring.

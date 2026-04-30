@@ -736,6 +736,21 @@ a {
 	object-fit: cover;
 }
 
+.project-detail-media {
+	margin: 0 0 34px;
+}
+
+.project-detail-hero {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 7;
+	margin: 0;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--wash);
+	object-fit: cover;
+}
+
 .project-card p {
 	margin: 0 0 10px;
 	color: var(--muted);

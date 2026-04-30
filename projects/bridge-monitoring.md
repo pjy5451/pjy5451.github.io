@@ -4,6 +4,10 @@ title: Bridge Monitoring and Displacement Estimation
 permalink: /projects/bridge-monitoring.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/bridge-monitoring.svg' | relative_url }}" alt="Bridge monitoring and displacement estimation project preview" />
+</figure>
+
 ## Overview
 
 This project developed a scalable bridge monitoring framework that connects low-power IoT sensing, cloud computing, and data fusion for long-term structural health monitoring. It formed the core direction of my master's thesis: *A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing*.

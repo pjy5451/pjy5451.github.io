@@ -4,6 +4,10 @@ title: AI-Based Quay Wall Event Monitoring
 permalink: /projects/quay-wall-monitoring.html
 ---
 
+<figure class="project-detail-media">
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/quay-wall-monitoring.svg' | relative_url }}" alt="AI-based quay wall event monitoring project preview" />
+</figure>
+
 ## Overview
 
 This project developed a multisensory monitoring workflow for quay wall events using wireless sensors and AI-based event recognition.
