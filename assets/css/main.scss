@@ -33,8 +33,7 @@ a {
 .profile-hero {
 	min-height: 72vh;
 	padding: 24px 5vw 52px;
-	background: linear-gradient(180deg, #f7fafb 0%, #ffffff 72%);
-	border-bottom: 1px solid var(--line);
+	background: linear-gradient(180deg, #f7fafb 0%, #fff 86%);
 	box-sizing: border-box;
 }
 
@@ -220,10 +219,6 @@ a {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 	gap: 18px;
-}
-
-.research-overview {
-	border-bottom: 1px solid var(--line);
 }
 
 .research-grid {
