@@ -1,7 +1,8 @@
 name: "Junyoung Park"
 title: "Junyoung Park"
-description: "Researcher and engineer working across data, experiments, and applied systems."
-meta_description: "Personal website of Junyoung Park: research projects, publications, data experiments, and technical notes."
+description: "Researcher working on structural health monitoring, IoT sensing, cloud systems, and field-deployed infrastructure monitoring."
+meta_description: "Junyoung Park is a researcher working on structural health monitoring, IoT sensing, bridge monitoring, WIM/OBM, and AI-assisted infrastructure systems."
+social_image: "/assets/images/social-preview.png"
 
 markdown: kramdown
 highlighter: rouge
