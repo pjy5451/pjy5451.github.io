@@ -21,12 +21,18 @@
 
     {{ content }}
     <footer class="site-footer clearfix">
-      <section class="copyright">
-        <a href="{{ '/' | relative_url }}">{{ site.name }}</a> &copy; 
-              {{"now" | date: "%Y"}} &bull; All rights reserved.
-      </section>
-      <section class="poweredby">Built with Jekyll for research, projects, and notes.
-      </section>
+      <div class="footer-inner">
+        <section class="footer-primary">
+          <a href="{{ '/' | relative_url }}">{{ site.name }}</a> &copy; {{"now" | date: "%Y"}}
+        </section>
+        <section class="footer-links">
+          <a href="mailto:pjy5451@gmail.com">Email</a>
+          <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-3527-8534">ORCID</a>
+          <a href="https://github.com/pjy5451">GitHub</a>
+        </section>
+        <section class="footer-note">Built with Jekyll for research, projects, and miscellaneous notes.</section>
+      </div>
     </footer>
     
     <script type="text/javascript" src="{{'/assets/js/jquery-1.11.1.min.js' | relative_url}}"></script>
