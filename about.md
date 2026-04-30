@@ -12,6 +12,7 @@ title: About
             <a href="mailto:pjy5451@gmail.com">E-mail</a>
             <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
             <a href="https://orcid.org/0000-0002-3527-8534">ORCID</a>
+            <a href="https://www.linkedin.com/in/junyoungp/">LinkedIn</a>
             <a href="https://github.com/pjy5451">GitHub</a>
             <a href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">Download CV</a>
         </div>
