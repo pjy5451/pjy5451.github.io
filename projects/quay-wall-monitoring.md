@@ -6,18 +6,26 @@ permalink: /projects/quay-wall-monitoring.html
 
 ## Overview
 
-This project develops a multisensory monitoring workflow for quay wall events using wireless sensors and AI-based event recognition.
+This project developed a multisensory monitoring workflow for quay wall events using wireless sensors and AI-based event recognition.
+
+## Problem
+
+Port structures can experience berthing, impact, and environmental events that are difficult to monitor continuously with conventional inspection alone. A field system needs to detect events, synchronize sensor data, and support interpretable analysis.
+
+## Approach
+
+- Used wireless multisensory monitoring to collect event-related measurements from quay wall structures.
+- Applied AI-based recognition to classify or detect event patterns.
+- Connected sensing, event triggering, and cloud-side visualization into an applied monitoring workflow.
+- Evaluated multisensory data for port infrastructure operation and safety monitoring.
 
 ## My Role
 
 This project is connected to multisensory monitoring, event detection, and AI-assisted analysis for port infrastructure.
 
-## Methods
+## Results
 
-- Wireless multisensory monitoring
-- AI-based event recognition
-- Long-range triggering
-- Port structure monitoring
+The work is connected to a journal article on AI-based multisensory quay wall event monitoring.
 
 ## Outputs
 

@@ -6,18 +6,22 @@ permalink: /projects/onboard-monitoring.html
 
 ## Overview
 
-This project focuses on on-board monitoring for dynamic vehicle load measurement and correction. It is related to real-time truck operating weight correction and field-ready vehicle sensing workflows.
+This project focuses on on-board monitoring for dynamic truck state measurement and operating-weight correction.
+
+## Problem
+
+Vehicle loads measured under real driving conditions are affected by speed, vibration, suspension behavior, and road conditions. A practical monitoring workflow needs both robust sensing and signal correction methods.
+
+## Approach
+
+- Designed sensing and analysis workflows for vehicle state measurement.
+- Applied FIR filter-based signal processing for real-time dynamic weight correction.
+- Connected on-board measurements with field-ready monitoring and data validation procedures.
+- Developed analysis logic for interpreting dynamic vehicle load signals.
 
 ## My Role
 
 I work on research and applied development around sensing workflows, signal correction, and analysis methods for dynamic vehicle load monitoring.
-
-## Methods
-
-- Vehicle state measurement
-- Dynamic operating weight correction
-- FIR filter-based signal processing
-- Real-time monitoring workflow
 
 ## Results
 

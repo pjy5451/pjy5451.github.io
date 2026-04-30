@@ -6,22 +6,26 @@ permalink: /projects/weight-in-motion.html
 
 ## Overview
 
-This project uses object detection methods to identify load intervals in high-speed weigh-in-motion data. It connects infrastructure sensing, traffic loading data, and automated event recognition.
+This project develops automated analysis methods for high-speed weigh-in-motion data, including load interval detection and truck-weight correction workflows.
+
+## Problem
+
+Bridge load assessment and overload enforcement require reliable extraction of vehicle load events from noisy, high-speed field measurements. Manual segmentation is difficult to scale and sensitive to operator judgment.
+
+## Approach
+
+- Converted WIM-related sensing records into analysis-ready representations for object detection.
+- Applied YOLO-based detection to identify load-generation intervals automatically.
+- Worked on signal preprocessing, filtering, and interval recognition for high-speed field data.
+- Connected load interval detection with dynamic weight correction and bridge load assessment workflows.
 
 ## My Role
 
-My work focuses on turning raw sensing records into a detection workflow that can identify relevant load-event intervals and support automated analysis for structural load assessment.
-
-## Methods
-
-- YOLO-based detection
-- Time-series or signal-to-image preprocessing
-- Load segment identification
-- Performance evaluation
+My work focuses on turning raw field sensing records into a detection pipeline that can identify relevant load-event intervals and support automated analysis for structural load assessment.
 
 ## Results
 
-The project is connected to a journal article and patent work on automatic load-event interval recognition and dynamic truck weight correction.
+The project is connected to journal and patent work on automatic load-event interval recognition, real-time correction methods, and WIM-based bridge monitoring.
 
 ## Outputs
 

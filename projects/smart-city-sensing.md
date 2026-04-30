@@ -6,15 +6,27 @@ permalink: /projects/smart-city-sensing.html
 
 ## Overview
 
-This project connects sensor measurement and data visualization for citizen-participatory smart city monitoring.
+This project connects environmental sensing, QR-based data visualization, and citizen participation for smart city monitoring.
 
-## Methods
+## Problem
 
-- Sensor measurement
-- Public-facing data visualization
-- Smart city data workflows
-- Citizen-participatory monitoring
+Urban sensing systems often require communication infrastructure and dedicated maintenance. A citizen-assisted workflow can reduce communication hardware requirements by letting nearby users collect and upload sensor data through ordinary smartphones.
+
+## Approach
+
+- Built a low-power sensing concept for urban data such as tilt, sound, temperature, humidity, and odor-related measurements.
+- Used e-paper to display sensor data as QR codes.
+- Designed a KakaoTalk chatbot-based workflow for scanning, decoding, and uploading data.
+- Presented a citizen-participatory model for smart city monitoring.
+
+## My Role
+
+I contributed to the sensing concept, QR visualization workflow, data collection pipeline, and competition presentation.
+
+## Field Validation
+
+The prototype was tested in an urban environment and evaluated through citizen feedback. The project received an award in a national land-development technology competition.
 
 ## Outputs
 
-Add related patents, system sketches, dashboards, or field-test notes here.
+This work is connected to patents and award records on citizen-participatory smart city sensing and sensor-data visualization.

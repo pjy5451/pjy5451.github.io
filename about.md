@@ -20,8 +20,8 @@ title: About
 
     <div class="bio-main">
         <section class="research-statement">
-            <p>I work on structural health monitoring systems that connect IoT sensing, cloud computing, field experiments, and data-driven analysis. My research and applied work focus on making infrastructure monitoring more scalable, interpretable, and useful in real operating environments.</p>
-            <p>My recent interests include bridge health monitoring, weigh-in-motion and on-board monitoring, displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure.</p>
+            <p>I work on structural health monitoring systems that connect IoT sensing, embedded hardware, cloud computing, field experiments, and data-driven analysis. My research and applied work focus on making infrastructure monitoring more scalable, interpretable, and useful in real operating environments.</p>
+            <p>My recent interests include bridge health monitoring, weigh-in-motion and on-board monitoring, displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure. I am especially interested in systems that move beyond lab prototypes into field deployment, long-term monitoring, patents, and practical engineering workflows.</p>
         </section>
 
         <h2>Education</h2>
@@ -53,6 +53,50 @@ title: About
                 <div class="timeline-content">
                     <h3>Researcher, UDNS</h3>
                     <p>Working on research and applied development related to sensing, infrastructure monitoring, data analysis, and field-oriented engineering systems.</p>
+                </div>
+            </article>
+        </div>
+
+        <h2>Selected Awards</h2>
+
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="timeline-date">2024</div>
+                <div class="timeline-content">
+                    <h3>Best Paper Presentation Award</h3>
+                    <p>Korea Institute for Structural Maintenance and Inspection. Topic: scalable IoT sensor and cloud-computing framework for bridge monitoring.</p>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-date">2022</div>
+                <div class="timeline-content">
+                    <h3>Gold Prize, Korea Future Talent Festival</h3>
+                    <p>National Research Foundation of Korea. Topic: IoT-based smart monitoring system for precast transportation safety and quality management.</p>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>Excellence Award, LH Land Development Technology Competition</h3>
+                    <p>Korea Land and Housing Corporation. Topic: citizen-participatory smart city system using sensor data and QR-code visualization.</p>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-date">2021</div>
+                <div class="timeline-content">
+                    <h3>Smart Construction Challenge Award</h3>
+                    <p>Korea National Railway President Award. Topic: IoT sensor and cloud-based bridge displacement monitoring system.</p>
+                </div>
+            </article>
+
+            <article class="timeline-item">
+                <div class="timeline-date">2019</div>
+                <div class="timeline-content">
+                    <h3>Minister Award, Smart Earthquake Response Idea Competition</h3>
+                    <p>Ministry of the Interior and Safety. Topic: earthquake notification system using multisensory media and smart sensors.</p>
                 </div>
             </article>
         </div>
