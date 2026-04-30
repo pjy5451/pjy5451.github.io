@@ -119,7 +119,7 @@ title: Publications & Patents
     <article class="pub-entry">
         <div class="pub-year">2026</div>
         <div class="pub-body">
-            <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940">Working Paper in Progress</a></h3>
+            <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940">Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation</a></h3>
             <p class="pub-authors"><strong>Junyoung Park</strong></p>
             <p class="pub-venue">SSRN working paper. Manuscript in progress.</p>
             <div class="pub-actions"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940">SSRN</a><span>In Progress</span></div>
