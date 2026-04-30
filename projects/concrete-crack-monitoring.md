@@ -22,6 +22,11 @@ Crack monitoring often records crack width or visual inspection notes, but track
 - Designed a workflow for recording and visualizing long-term measurement histories.
 - Connected crack tracking with structural damage monitoring and maintenance records.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/concrete-crack.svg' | relative_url }}" alt="Concrete crack trajectory monitoring workflow" />
+    <figcaption>Crack trajectory monitoring concept for recording propagation history and visualizing long-term changes.</figcaption>
+</figure>
+
 ## My Role
 
 I contributed to the sensing-system framing and patent-oriented development of the crack trajectory monitoring workflow.

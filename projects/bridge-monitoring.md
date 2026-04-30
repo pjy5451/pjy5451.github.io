@@ -23,6 +23,11 @@ Conventional bridge load testing and periodic inspection require substantial lab
 - Applied multimetric data fusion to estimate bridge displacement without a fixed external reference.
 - Used field data to evaluate vibration characteristics, displacement histories, and monitoring stability.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/bridge-monitoring.svg' | relative_url }}" alt="Bridge monitoring workflow with sensing, cloud storage, and data fusion" />
+    <figcaption>Conceptual workflow linking bridge sensing, cloud data handling, and displacement estimation.</figcaption>
+</figure>
+
 ## My Role
 
 I worked across the monitoring concept, sensing workflow, cloud data handling, data fusion logic, field deployment, and research documentation. The project connected hardware constraints, field installation, and analysis methods into a practical monitoring system.

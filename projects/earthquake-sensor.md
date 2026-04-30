@@ -23,6 +23,11 @@ Earthquake notification systems need fast event detection, low-cost deployment, 
 - Used time-domain and frequency-domain features to distinguish earthquake-like inputs from random or sinusoidal vibration.
 - Designed a nearby notification workflow using Bluetooth communication.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/earthquake-sensor.svg' | relative_url }}" alt="Smart IoT earthquake sensor event detection workflow" />
+    <figcaption>Embedded earthquake-sensing workflow combining event triggering, classification, and BLE notification.</figcaption>
+</figure>
+
 ## My Role
 
 I worked on the sensing concept, real-time detection logic, algorithm testing, and presentation of the system as an applied disaster-response idea.

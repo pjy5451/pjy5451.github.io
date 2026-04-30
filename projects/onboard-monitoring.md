@@ -23,6 +23,11 @@ Vehicle loads measured under real driving conditions are affected by speed, vibr
 - Connected on-board measurements with field-ready monitoring and data validation procedures.
 - Developed analysis logic for interpreting dynamic vehicle load signals.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/onboard-monitoring.svg' | relative_url }}" alt="On-board vehicle monitoring workflow for dynamic load correction" />
+    <figcaption>On-board monitoring concept for collecting vehicle-state signals and correcting dynamic operating weight.</figcaption>
+</figure>
+
 ## My Role
 
 I work on research and applied development around sensing workflows, signal correction, and analysis methods for dynamic vehicle load monitoring.

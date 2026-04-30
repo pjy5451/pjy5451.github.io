@@ -23,6 +23,11 @@ Long-term infrastructure monitoring often requires communication modules, batter
 - Used a smartphone or chatbot-based workflow to decode QR data and upload it to a cloud database.
 - Explored AI-assisted report generation from collected sensing histories.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/qr-lifecycle.svg' | relative_url }}" alt="QR-based lifecycle monitoring workflow" />
+    <figcaption>QR-based data acquisition concept for low-power lifecycle monitoring and cloud-side reporting.</figcaption>
+</figure>
+
 ## My Role
 
 I contributed to the sensing concept, data collection workflow, QR-based visualization idea, and cloud-side handling of scanned data.

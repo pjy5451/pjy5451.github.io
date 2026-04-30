@@ -23,6 +23,11 @@ Precast components can experience excessive vibration, strain, or support-condit
 - Used threshold-based vibration and strain evaluation to identify potentially unsafe transport conditions.
 - Built an LTE/Bluetooth gateway concept for collecting multi-sensor data from transported members.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/portable-sensing.svg' | relative_url }}" alt="Portable sensing workflow for precast transportation monitoring" />
+    <figcaption>Transportation-stage sensing workflow for measuring strain, tilt, and vibration of precast members.</figcaption>
+</figure>
+
 ## My Role
 
 I worked on field sensing, signal processing, monitoring workflow design, and validation using real transportation data. The project emphasized turning raw transport-stage measurements into interpretable safety information for field engineers.

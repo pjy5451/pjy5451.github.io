@@ -23,6 +23,11 @@ Urban sensing systems often require communication infrastructure and dedicated m
 - Designed a KakaoTalk chatbot-based workflow for scanning, decoding, and uploading data.
 - Presented a citizen-participatory model for smart city monitoring.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/smart-city.svg' | relative_url }}" alt="Citizen-participatory smart city sensing workflow" />
+    <figcaption>Citizen-assisted smart city sensing workflow using low-power sensing, QR visualization, and mobile upload.</figcaption>
+</figure>
+
 ## My Role
 
 I contributed to the sensing concept, QR visualization workflow, data collection pipeline, and competition presentation.

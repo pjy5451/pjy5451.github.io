@@ -23,6 +23,11 @@ Bridge load assessment and overload enforcement require reliable extraction of v
 - Worked on signal preprocessing, filtering, and interval recognition for high-speed field data.
 - Connected load interval detection with dynamic weight correction and bridge load assessment workflows.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/weight-in-motion.svg' | relative_url }}" alt="Weight-in-motion signal detection workflow" />
+    <figcaption>Automated WIM analysis workflow for detecting load intervals from high-speed field measurements.</figcaption>
+</figure>
+
 ## My Role
 
 My work focuses on turning raw field sensing records into a detection pipeline that can identify relevant load-event intervals and support automated analysis for structural load assessment.

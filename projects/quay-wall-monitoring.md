@@ -23,6 +23,11 @@ Port structures can experience berthing, impact, and environmental events that a
 - Connected sensing, event triggering, and cloud-side visualization into an applied monitoring workflow.
 - Evaluated multisensory data for port infrastructure operation and safety monitoring.
 
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/quay-wall-monitoring.svg' | relative_url }}" alt="AI-based quay wall event monitoring workflow" />
+    <figcaption>Multisensory quay wall monitoring workflow from field sensing to AI-assisted event recognition.</figcaption>
+</figure>
+
 ## My Role
 
 This project is connected to multisensory monitoring, event detection, and AI-assisted analysis for port infrastructure.

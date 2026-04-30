@@ -751,6 +751,30 @@ a {
 	object-fit: cover;
 }
 
+.project-body-figure {
+	margin: 28px 0 34px;
+	padding: 18px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: #fff;
+}
+
+.project-body-figure img {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 7;
+	border-radius: 6px;
+	background: var(--wash);
+	object-fit: cover;
+}
+
+.project-body-figure figcaption {
+	margin: 12px 0 0;
+	color: var(--muted);
+	font-size: 14px;
+	line-height: 1.55;
+}
+
 .project-card p {
 	margin: 0 0 10px;
 	color: var(--muted);
