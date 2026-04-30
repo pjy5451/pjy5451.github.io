@@ -353,7 +353,8 @@ a {
 	color: var(--muted);
 }
 
-.post-template .main-header {
+.main-header.post-head,
+.main-header.post-head.no-cover {
 	min-height: 92px;
 	padding: 24px 5vw 0;
 	background: var(--wash);
@@ -792,7 +793,8 @@ a {
 		padding: 22px 22px 48px;
 	}
 
-	.post-template .main-header {
+	.main-header.post-head,
+	.main-header.post-head.no-cover {
 		padding: 22px 22px 0;
 	}
 
