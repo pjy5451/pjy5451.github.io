@@ -290,8 +290,15 @@ html[data-theme="dark"] .post-footer {
 }
 
 .profile-card h2 {
-	margin: 0 0 8px;
+	margin: 0;
 	font-size: 22px;
+}
+
+.profile-card-heading {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 8px;
 }
 
 .profile-card p,
