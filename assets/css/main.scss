@@ -302,6 +302,15 @@ html[data-theme="dark"] .post-footer {
 	align-items: center;
 	gap: 10px;
 	margin: 0 0 8px;
+	flex-wrap: nowrap;
+	white-space: nowrap;
+	width: max-content;
+	max-width: 100%;
+}
+
+.profile-card-heading h2,
+.profile-card-heading .cv-icon-link {
+	flex: 0 0 auto;
 }
 
 .profile-card p,
