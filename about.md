@@ -7,7 +7,17 @@ description: Biography, education, experience, awards, CV, and research profile 
 <div class="bio-layout">
     <aside class="bio-sidebar">
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of Junyoung Park" />
-        <h2>Junyoung Park</h2>
+        <div class="bio-name-row">
+            <h2>Junyoung Park</h2>
+            <a class="cv-icon-link" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download" aria-label="Download CV">
+                <svg viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"></path>
+                    <path d="M14 2v5h5"></path>
+                    <path d="M12 11v6"></path>
+                    <path d="m9 14 3 3 3-3"></path>
+                </svg>
+            </a>
+        </div>
         <p>Researcher at UDNS working on sensing, structural monitoring, and data-driven infrastructure systems.</p>
         <div class="bio-links">
             <a href="mailto:pjy5451@gmail.com">E-mail</a>
@@ -15,7 +25,6 @@ description: Biography, education, experience, awards, CV, and research profile 
             <a href="https://orcid.org/0000-0002-3527-8534">ORCID</a>
             <a href="https://www.linkedin.com/in/junyoungp/">LinkedIn</a>
             <a href="https://github.com/pjy5451">GitHub</a>
-            <a href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">Download CV</a>
         </div>
     </aside>
 

@@ -561,9 +561,46 @@ html[data-theme="dark"] .post-footer {
 }
 
 .bio-sidebar h2 {
-	margin: 0 0 8px;
+	margin: 0;
 	font-size: 24px;
 	line-height: 1.2;
+}
+
+.bio-name-row {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 8px;
+}
+
+.cv-icon-link {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 32px;
+	height: 32px;
+	border: 1px solid var(--line);
+	border-radius: 50%;
+	background: var(--button-bg);
+	color: var(--accent-strong);
+	text-decoration: none;
+	transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.cv-icon-link svg {
+	width: 17px;
+	height: 17px;
+	fill: none;
+	stroke: currentColor;
+	stroke-width: 1.9;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}
+
+.cv-icon-link:hover {
+	border-color: rgba(31, 111, 120, .45);
+	background: var(--button-hover);
+	transform: translateY(-1px);
 }
 
 .bio-sidebar p {
