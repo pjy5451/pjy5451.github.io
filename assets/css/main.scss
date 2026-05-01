@@ -1011,23 +1011,36 @@ html[data-theme="dark"] .project-body-figure img {
 
 .award-list {
 	display: grid;
-	gap: 8px;
+	gap: 0;
 	margin: 14px 0 34px;
 	padding: 0;
 	list-style: none;
+	border-top: 1px solid var(--line);
 }
 
 .award-list li {
+	display: grid;
+	grid-template-columns: 72px minmax(220px, .9fr) minmax(220px, 1fr);
+	gap: 18px;
+	padding: 11px 0;
+	border-bottom: 1px solid var(--line);
 	color: var(--muted);
 	font-size: 14px;
 	line-height: 1.55;
 }
 
-.award-list span {
-	display: inline-block;
-	min-width: 48px;
+.award-year {
 	color: var(--accent-strong);
 	font-weight: 700;
+}
+
+.award-title {
+	color: var(--ink);
+	font-weight: 700;
+}
+
+.award-organization {
+	color: var(--muted);
 }
 
 .archive-list {
@@ -1112,6 +1125,11 @@ html[data-theme="dark"] .project-body-figure img {
 	.timeline-item {
 		grid-template-columns: 1fr;
 		gap: 6px;
+	}
+
+	.award-list li {
+		grid-template-columns: 1fr;
+		gap: 2px;
 	}
 
 	.bio-layout {

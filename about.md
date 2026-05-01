@@ -70,11 +70,31 @@ description: Biography, education, experience, awards, CV, and research profile 
         <h2>Awards</h2>
 
         <ul class="award-list">
-            <li><span>2024</span> Best Paper Presentation Award, Korea Institute for Structural Maintenance and Inspection</li>
-            <li><span>2022</span> Gold Prize, Korea Future Talent Festival, National Research Foundation of Korea</li>
-            <li><span>2021</span> Excellence Award, LH Land Development Technology Competition</li>
-            <li><span>2021</span> Smart Construction Challenge Award, Korea National Railway</li>
-            <li><span>2019</span> Minister Award, Smart Earthquake Response Idea Competition</li>
+            <li>
+                <span class="award-year">2024</span>
+                <span class="award-title">Best Paper Presentation Award</span>
+                <span class="award-organization">Korea Institute for Structural Maintenance and Inspection</span>
+            </li>
+            <li>
+                <span class="award-year">2022</span>
+                <span class="award-title">Gold Prize, Korea Future Talent Festival</span>
+                <span class="award-organization">National Research Foundation of Korea</span>
+            </li>
+            <li>
+                <span class="award-year">2021</span>
+                <span class="award-title">Excellence Award, LH Land Development Technology Competition</span>
+                <span class="award-organization">Korea Land and Housing Corporation</span>
+            </li>
+            <li>
+                <span class="award-year">2021</span>
+                <span class="award-title">Smart Construction Challenge Award</span>
+                <span class="award-organization">Korea National Railway</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Minister Award, Smart Earthquake Response Idea Competition</span>
+                <span class="award-organization">Ministry of the Interior and Safety</span>
+            </li>
         </ul>
 
         <h2>Research Keywords</h2>
