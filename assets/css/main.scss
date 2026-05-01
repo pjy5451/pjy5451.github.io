@@ -98,6 +98,16 @@ body {
 	letter-spacing: 0;
 }
 
+html[lang="ko"] body,
+html[lang="ko"] h1,
+html[lang="ko"] h2,
+html[lang="ko"] h3,
+html[lang="ko"] h4,
+html[lang="ko"] h5,
+html[lang="ko"] h6 {
+	font-family: "Open Sans", "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", Arial, sans-serif;
+}
+
 a {
 	color: var(--accent);
 }
@@ -167,6 +177,15 @@ a {
 	gap: 6px;
 	color: var(--muted);
 	cursor: default;
+}
+
+.language-switch a {
+	color: var(--muted);
+	text-decoration: none;
+}
+
+.language-switch a:hover {
+	color: var(--accent-strong);
 }
 
 .language-option.is-active {

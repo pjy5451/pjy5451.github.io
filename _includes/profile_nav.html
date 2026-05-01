@@ -1,16 +1,32 @@
 <nav class="profile-nav{% if include.variant %} {{ include.variant }}{% endif %}">
-    <a class="profile-brand" href="{{ '/' | relative_url }}">{{ site.name }}</a>
+    {% assign is_ko = false %}
+    {% if page.lang == "ko" %}
+        {% assign is_ko = true %}
+    {% endif %}
+    {% assign en_url = page.en_url | default: page.url | default: "/" %}
+    {% assign ko_url = page.ko_url %}
+    <a class="profile-brand" href="{% if is_ko %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ site.name }}</a>
     <div class="profile-nav-links">
-        <a href="{{ '/' | relative_url }}">Home</a>
-        <a href="{{ '/about.html' | relative_url }}">About</a>
+        <a href="{% if is_ko %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{% if is_ko %}Home{% else %}Home{% endif %}</a>
+        <a href="{% if is_ko %}{{ '/ko/about.html' | relative_url }}{% else %}{{ '/about.html' | relative_url }}{% endif %}">About</a>
         <a href="{{ '/projects.html' | relative_url }}">Projects</a>
         <a href="{{ '/publications.html' | relative_url }}">Publications & Patents</a>
         <a href="{{ '/blog.html' | relative_url }}">Miscellaneous</a>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
         <div class="language-switch" aria-label="Language">
+            {% if is_ko %}
+            <a class="language-option" href="{{ en_url | relative_url }}">EN</a>
+            {% else %}
             <span class="language-option is-active">EN</span>
+            {% endif %}
             <span class="language-divider">/</span>
+            {% if is_ko %}
+            <span class="language-option is-active">KR</span>
+            {% elsif ko_url %}
+            <a class="language-option" href="{{ ko_url | relative_url }}">KR</a>
+            {% else %}
             <span class="language-option is-disabled" aria-disabled="true" title="Korean version planned">KR</span>
+            {% endif %}
         </div>
     </div>
 </nav>
