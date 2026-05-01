@@ -68,22 +68,22 @@ html[data-theme="light"] {
 }
 
 html[data-theme="dark"] {
-		--ink: #edf3f5;
-		--muted: #a8b5bc;
-		--line: #31434b;
-		--paper: #0f171b;
-		--wash: #172227;
-		--surface: #141f24;
-		--hero-bg: linear-gradient(180deg, #111b20 0%, #0f171b 86%);
-		--accent: #79c9d0;
-		--accent-strong: #9ddfe4;
-		--warm: #e09a7d;
-		--copy: #d6e0e4;
-		--button-bg: #18262c;
-		--button-hover: #1d3037;
-		--shadow: rgba(0, 0, 0, .28);
-		--shadow-strong: rgba(0, 0, 0, .36);
-		color-scheme: dark;
+	--ink: #edf3f5;
+	--muted: #a8b5bc;
+	--line: #31434b;
+	--paper: #0f171b;
+	--wash: #172227;
+	--surface: #141f24;
+	--hero-bg: linear-gradient(180deg, #111b20 0%, #0f171b 86%);
+	--accent: #79c9d0;
+	--accent-strong: #9ddfe4;
+	--warm: #e09a7d;
+	--copy: #d6e0e4;
+	--button-bg: #18262c;
+	--button-hover: #1d3037;
+	--shadow: rgba(0, 0, 0, .28);
+	--shadow-strong: rgba(0, 0, 0, .36);
+	color-scheme: dark;
 }
 
 html {
@@ -162,6 +162,41 @@ a {
 .profile-nav-links a:hover,
 .profile-brand:hover {
 	color: var(--accent-strong);
+}
+
+html[data-theme="dark"] .post,
+html[data-theme="dark"] .post-content,
+html[data-theme="dark"] .post-content h1,
+html[data-theme="dark"] .post-content h2,
+html[data-theme="dark"] .post-content h3,
+html[data-theme="dark"] .post-content h4,
+html[data-theme="dark"] .post-footer h4,
+html[data-theme="dark"] .author h4,
+html[data-theme="dark"] table th {
+	color: var(--ink);
+}
+
+html[data-theme="dark"] .post-content p,
+html[data-theme="dark"] .post-content li,
+html[data-theme="dark"] .post-content td,
+html[data-theme="dark"] .post-footer p,
+html[data-theme="dark"] .author-meta,
+html[data-theme="dark"] .author-meta a {
+	color: var(--copy);
+}
+
+html[data-theme="dark"] table,
+html[data-theme="dark"] table table table {
+	background: var(--surface);
+}
+
+html[data-theme="dark"] table tr:nth-child(2n),
+html[data-theme="dark"] table table table tr:nth-child(2n) {
+	background: var(--wash);
+}
+
+html[data-theme="dark"] .post-footer {
+	border-top-color: var(--line);
 }
 
 .hero-grid {
@@ -855,6 +890,12 @@ a {
 	border-radius: 6px;
 	background: var(--wash);
 	object-fit: cover;
+}
+
+html[data-theme="dark"] .project-thumb,
+html[data-theme="dark"] .project-detail-hero,
+html[data-theme="dark"] .project-body-figure img {
+	filter: brightness(.88) contrast(1.12) saturate(.92);
 }
 
 .project-body-figure figcaption {
