@@ -281,24 +281,23 @@ html[data-theme="dark"] .post-footer {
 	box-shadow: 0 18px 45px var(--shadow);
 }
 
+.profile-card-top {
+	display: flex;
+	align-items: flex-start;
+	gap: 14px;
+	margin-bottom: 20px;
+}
+
 .profile-card img {
 	width: 112px;
 	height: 112px;
 	border-radius: 50%;
 	object-fit: cover;
-	margin-bottom: 20px;
 }
 
 .profile-card h2 {
-	margin: 0;
-	font-size: 22px;
-}
-
-.profile-card-heading {
-	display: flex;
-	align-items: center;
-	gap: 10px;
 	margin: 0 0 8px;
+	font-size: 22px;
 }
 
 .profile-card p,
