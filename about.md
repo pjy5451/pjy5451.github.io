@@ -16,6 +16,7 @@ description: Biography, education, experience, awards, CV, and research profile 
                     <path d="M12 11v6"></path>
                     <path d="m9 14 3 3 3-3"></path>
                 </svg>
+                <span>CV</span>
             </a>
         </div>
         <p>Researcher at UDNS working on sensing, structural monitoring, and data-driven infrastructure systems.</p>

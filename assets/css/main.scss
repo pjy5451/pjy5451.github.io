@@ -597,12 +597,16 @@ html[data-theme="dark"] .quick-facts {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 32px;
+	gap: 6px;
+	min-width: 54px;
 	height: 32px;
+	padding: 0 10px;
 	border: 1px solid var(--line);
-	border-radius: 50%;
+	border-radius: 999px;
 	background: var(--button-bg);
 	color: var(--accent-strong);
+	font-size: 12px;
+	font-weight: 800;
 	text-decoration: none;
 	transition: background .2s ease, border-color .2s ease, transform .2s ease;
 }
@@ -615,6 +619,10 @@ html[data-theme="dark"] .quick-facts {
 	stroke-width: 1.9;
 	stroke-linecap: round;
 	stroke-linejoin: round;
+}
+
+.cv-icon-link span {
+	line-height: 1;
 }
 
 .cv-icon-link:hover {
@@ -1020,8 +1028,9 @@ html[data-theme="dark"] .project-body-figure img {
 
 .award-list li {
 	display: grid;
-	grid-template-columns: 72px minmax(220px, .9fr) minmax(220px, 1fr);
-	gap: 18px;
+	grid-template-columns: 72px minmax(260px, .95fr) minmax(240px, 1fr);
+	column-gap: 28px;
+	row-gap: 4px;
 	padding: 11px 0;
 	border-bottom: 1px solid var(--line);
 	color: var(--muted);
@@ -1036,7 +1045,7 @@ html[data-theme="dark"] .project-body-figure img {
 
 .award-title {
 	color: var(--ink);
-	font-weight: 700;
+	font-weight: 600;
 }
 
 .award-organization {
