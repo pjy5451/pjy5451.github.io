@@ -137,7 +137,8 @@ a {
 	text-decoration: none;
 }
 
-.theme-toggle {
+.theme-toggle,
+.language-switch {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
@@ -150,13 +151,35 @@ a {
 	font: inherit;
 	font-size: 13px;
 	font-weight: 700;
-	cursor: pointer;
 	white-space: nowrap;
+}
+
+.theme-toggle {
+	cursor: pointer;
 }
 
 .theme-toggle:hover {
 	border-color: rgba(31, 111, 120, .45);
 	background: var(--button-hover);
+}
+
+.language-switch {
+	gap: 6px;
+	color: var(--muted);
+	cursor: default;
+}
+
+.language-option.is-active {
+	color: var(--accent-strong);
+}
+
+.language-option.is-disabled {
+	opacity: .55;
+}
+
+.language-divider {
+	color: var(--line);
+	font-weight: 400;
 }
 
 .profile-nav-links a:hover,
