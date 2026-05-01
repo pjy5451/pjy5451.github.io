@@ -952,6 +952,27 @@ html[data-theme="dark"] .project-body-figure img {
 	line-height: 1.65;
 }
 
+.award-list {
+	display: grid;
+	gap: 8px;
+	margin: 14px 0 34px;
+	padding: 0;
+	list-style: none;
+}
+
+.award-list li {
+	color: var(--muted);
+	font-size: 14px;
+	line-height: 1.55;
+}
+
+.award-list span {
+	display: inline-block;
+	min-width: 48px;
+	color: var(--accent-strong);
+	font-weight: 700;
+}
+
 .archive-list {
 	margin-top: 26px;
 }

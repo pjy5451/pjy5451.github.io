@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: Biography, education, experience, selected awards, CV, and research profile of Junyoung Park.
+description: Biography, education, experience, awards, CV, and research profile of Junyoung Park.
 ---
 
 <div class="bio-layout">
@@ -58,49 +58,15 @@ description: Biography, education, experience, selected awards, CV, and research
             </article>
         </div>
 
-        <h2>Selected Awards</h2>
+        <h2>Awards</h2>
 
-        <div class="timeline">
-            <article class="timeline-item">
-                <div class="timeline-date">2024</div>
-                <div class="timeline-content">
-                    <h3>Best Paper Presentation Award</h3>
-                    <p>Korea Institute for Structural Maintenance and Inspection. Topic: scalable IoT sensor and cloud-computing framework for bridge monitoring.</p>
-                </div>
-            </article>
-
-            <article class="timeline-item">
-                <div class="timeline-date">2022</div>
-                <div class="timeline-content">
-                    <h3>Gold Prize, Korea Future Talent Festival</h3>
-                    <p>National Research Foundation of Korea. Topic: IoT-based smart monitoring system for precast transportation safety and quality management.</p>
-                </div>
-            </article>
-
-            <article class="timeline-item">
-                <div class="timeline-date">2021</div>
-                <div class="timeline-content">
-                    <h3>Excellence Award, LH Land Development Technology Competition</h3>
-                    <p>Korea Land and Housing Corporation. Topic: citizen-participatory smart city system using sensor data and QR-code visualization.</p>
-                </div>
-            </article>
-
-            <article class="timeline-item">
-                <div class="timeline-date">2021</div>
-                <div class="timeline-content">
-                    <h3>Smart Construction Challenge Award</h3>
-                    <p>Korea National Railway President Award. Topic: IoT sensor and cloud-based bridge displacement monitoring system.</p>
-                </div>
-            </article>
-
-            <article class="timeline-item">
-                <div class="timeline-date">2019</div>
-                <div class="timeline-content">
-                    <h3>Minister Award, Smart Earthquake Response Idea Competition</h3>
-                    <p>Ministry of the Interior and Safety. Topic: earthquake notification system using multisensory media and smart sensors.</p>
-                </div>
-            </article>
-        </div>
+        <ul class="award-list">
+            <li><span>2024</span> Best Paper Presentation Award, Korea Institute for Structural Maintenance and Inspection</li>
+            <li><span>2022</span> Gold Prize, Korea Future Talent Festival, National Research Foundation of Korea</li>
+            <li><span>2021</span> Excellence Award, LH Land Development Technology Competition</li>
+            <li><span>2021</span> Smart Construction Challenge Award, Korea National Railway</li>
+            <li><span>2019</span> Minister Award, Smart Earthquake Response Idea Competition</li>
+        </ul>
 
         <h2>Research Keywords</h2>
 
