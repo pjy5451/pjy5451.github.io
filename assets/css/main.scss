@@ -132,7 +132,9 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	gap: 24px;
+	font-family: "Open Sans", Arial, sans-serif;
 	font-size: 14px;
+	line-height: 1.4;
 }
 
 .profile-brand {
@@ -146,11 +148,13 @@ a {
 	gap: 18px;
 	flex-wrap: wrap;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 .profile-nav-links a {
 	color: var(--muted);
 	text-decoration: none;
+	line-height: 30px;
 }
 
 .theme-toggle,
