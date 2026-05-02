@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Publications & Patents
-lang: en
-ko_url: /ko/publications.html
-description: Journal articles, preprints, working papers, and patents by Junyoung Park in structural health monitoring, IoT sensing, and infrastructure monitoring.
+lang: ko
+en_url: /publications.html
+description: 박준영의 논문, 프리프린트, 특허를 정리한 한국어 페이지입니다.
 ---
 
 <div class="pub-summary">
-    <p>Selected journal articles, preprints, working papers, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
+    <p>구조물 건전성 모니터링, IoT 센싱, 교량 변위 추정, WIM/OBM, AI 기반 인프라 모니터링과 관련된 논문, 프리프린트, 특허를 정리했습니다.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
     <span>146 citations</span>
 </div>
@@ -18,9 +18,9 @@ description: Journal articles, preprints, working papers, and patents by Junyoun
     <article class="pub-entry">
         <div class="pub-year">2026</div>
         <div class="pub-body">
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems</a></h3>
-            <p class="pub-authors"><strong>Junyoung Park</strong>, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung</p>
-            <p class="pub-venue">Journal of the Korean Society of Civil Engineers, 46(1), 95-104</p>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">YOLO 기반 고속축중기 하중 구간 자동 검출 기법</a></h3>
+            <p class="pub-authors"><strong>박준영</strong>, 김종우, 조윤범, 정영우</p>
+            <p class="pub-venue">대한토목학회논문집, 46(1), 95-104</p>
             <div class="pub-actions"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">Scholar</a><a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project</a></div>
         </div>
     </article>
@@ -38,9 +38,9 @@ description: Journal articles, preprints, working papers, and patents by Junyoun
     <article class="pub-entry">
         <div class="pub-year">2024</div>
         <div class="pub-body">
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">Stability Assurance of a Dynamic State Information Measurement System for Trucks in Motion</a></h3>
-            <p class="pub-authors"><strong>Junyoung Park</strong>, Jinsik Kim, Jongwoo Kim, Yunbeom Cho</p>
-            <p class="pub-venue">Journal of the Korean Society of Mechanical Technology, 26(5), 1041-1046</p>
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">주행 중 트럭의 동적 상태 정보 측정 시스템 안정성 확보</a></h3>
+            <p class="pub-authors"><strong>박준영</strong>, 김진식, 김종우, 조윤범</p>
+            <p class="pub-venue">한국기계기술학회지, 26(5), 1041-1046</p>
             <div class="pub-actions"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC">Scholar</a></div>
         </div>
     </article>
@@ -98,10 +98,10 @@ description: Journal articles, preprints, working papers, and patents by Junyoun
     <article class="pub-entry">
         <div class="pub-year">2021</div>
         <div class="pub-body">
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C">Development of Low-Power IoT Sensor and Cloud-Based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</a></h3>
-            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park</p>
-            <p class="pub-venue">Journal of the Computational Structural Engineering Institute of Korea, 34(5)</p>
-            <div class="pub-actions"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C">Scholar</a><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a><span>Cited by 8</span></div>
+            <h3><a href="https://www.jcoseik.or.kr/articles/xml/o4yP/">상시 교량 모니터링을 위한 저전력 IoT 센서 및 클라우드 기반 데이터 융합 변위 측정 기법 개발</a></h3>
+            <p class="pub-authors"><strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용</p>
+            <p class="pub-venue">한국전산구조공학회논문집, 34(5), 301-308</p>
+            <div class="pub-actions"><a href="https://www.jcoseik.or.kr/articles/xml/o4yP/">Source Document</a><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a><span>Cited by 8</span></div>
         </div>
     </article>
 
@@ -153,12 +153,12 @@ description: Journal articles, preprints, working papers, and patents by Junyoun
 ## Patents (8)
 
 <div class="pub-list">
-    <article class="pub-entry"><div class="pub-year">2025</div><div class="pub-body"><h3>Continuous Bridge Load-Carrying Capacity Assessment System and Method</h3><p class="pub-authors">Continuous bridge load-carrying capacity assessment system and method.</p><p class="pub-venue">KR 10-2025-0174354. Application filed on 2025-11-18.</p><div class="pub-actions"><span>Patent Application</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2025</div><div class="pub-body"><h3>Automatic Load-Event Interval Recognition Using IoT Sensors for Structural Capacity Assessment</h3><p class="pub-authors">Automatic load-event interval recognition and analysis system using IoT sensors for structural load-carrying capacity assessment.</p><p class="pub-venue">KR 10-2853678. Registered on 2025-08-28.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020220123693">Patent DOI</a><span>Registered Patent</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-body"><h3>Real-Time Dynamic Truck Operating Weight Correction Based on an FIR Filter</h3><p class="pub-authors">Real-time correction method and device for dynamic truck operating weight based on an FIR filter.</p><p class="pub-venue">KR 10-2025-0068214. Application filed on 2024-12-30.</p><div class="pub-actions"><span>Patent Application</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-body"><h3>Concrete Crack Trajectory Monitoring and Long-Term History Visualization</h3><p class="pub-authors">Concrete crack trajectory monitoring device using a resistive touchpad and long-term measurement history visualization system.</p><p class="pub-venue">KR 10-2024-0017869. Registered on 2024-02-06.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020240017869">Patent DOI</a><span>Registered Patent</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2022</div><div class="pub-body"><h3>IoT Sensor-Based Integrated Monitoring for Precast Transportation</h3><p class="pub-authors">Integrated precast transportation monitoring system and method based on IoT sensors.</p><p class="pub-venue">KR 10-2022-0159449. Registered on 2022-11-24.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020220159449">Patent DOI</a><span>Registered Patent</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2022</div><div class="pub-body"><h3>Cloud-Based IoT Sensor Data Preprocessing and Deep-Learning Anomaly Detection</h3><p class="pub-authors">Cloud-based smart IoT sensor data preprocessing method and deep-learning-based anomaly detection automation system for structural monitoring.</p><p class="pub-venue">KR 10-2022-0021506. Registered on 2022-02-18.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020220021506">Patent DOI</a><span>Registered Patent</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2021</div><div class="pub-body"><h3>Citizen-Participatory Smart City System Using Sensor Measurement and Data Visualization</h3><p class="pub-authors">Citizen-participatory smart city system using sensor measurement and data visualization.</p><p class="pub-venue">KR 10-2021-0126695. Registered on 2021-09-24.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020210126695">Patent DOI</a><span>Registered Patent</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2020</div><div class="pub-body"><h3>Smart IoT Earthquake Sensor Unit and Notification Method</h3><p class="pub-authors">Smart IoT earthquake sensor unit and notification method.</p><p class="pub-venue">KR 10-2020-0059559. Registered on 2020-05-19.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020200059559">Patent DOI</a><span>Registered Patent</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2025</div><div class="pub-body"><h3>교량 상시 내하력 평가 시스템 및 방법</h3><p class="pub-authors">교량 상시 내하력 평가 시스템 및 방법.</p><p class="pub-venue">KR 10-2025-0174354. 출원일: 2025-11-18.</p><div class="pub-actions"><span>특허 출원</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2025</div><div class="pub-body"><h3>구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법</h3><p class="pub-authors">구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법.</p><p class="pub-venue">KR 10-2853678. 등록일: 2025-08-28.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020220123693">Patent DOI</a><span>등록 특허</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-body"><h3>FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치</h3><p class="pub-authors">FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치.</p><p class="pub-venue">KR 10-2025-0068214. 출원일: 2024-12-30.</p><div class="pub-actions"><span>특허 출원</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-body"><h3>저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템</h3><p class="pub-authors">저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템.</p><p class="pub-venue">KR 10-2024-0017869. 등록일: 2024-02-06.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020240017869">Patent DOI</a><span>등록 특허</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2022</div><div class="pub-body"><h3>IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법</h3><p class="pub-authors">IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법.</p><p class="pub-venue">KR 10-2022-0159449. 등록일: 2022-11-24.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020220159449">Patent DOI</a><span>등록 특허</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2022</div><div class="pub-body"><h3>클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템</h3><p class="pub-authors">클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법 및 딥러닝 기반 이상치 감지 자동화시스템.</p><p class="pub-venue">KR 10-2022-0021506. 등록일: 2022-02-18.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020220021506">Patent DOI</a><span>등록 특허</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2021</div><div class="pub-body"><h3>센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템</h3><p class="pub-authors">센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템.</p><p class="pub-venue">KR 10-2021-0126695. 등록일: 2021-09-24.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020210126695">Patent DOI</a><span>등록 특허</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2020</div><div class="pub-body"><h3>스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법</h3><p class="pub-authors">스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법.</p><p class="pub-venue">KR 10-2020-0059559. 등록일: 2020-05-19.</p><div class="pub-actions"><a href="https://doi.org/10.8080/1020200059559">Patent DOI</a><span>등록 특허</span></div></div></article>
 </div>
