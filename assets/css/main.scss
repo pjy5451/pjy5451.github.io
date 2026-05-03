@@ -1141,6 +1141,45 @@ html[data-theme="dark"] .project-body-figure img {
 	color: var(--muted);
 }
 
+.skills-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 18px 24px;
+	margin: 16px 0 8px;
+}
+
+.skills-grid section {
+	padding-top: 14px;
+	border-top: 1px solid var(--line);
+}
+
+.skills-grid h3 {
+	margin: 0 0 10px;
+	color: var(--ink);
+	font-size: 15px;
+	line-height: 1.35;
+}
+
+.skill-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
+
+.skill-tags span {
+	display: inline-flex;
+	align-items: center;
+	min-height: 28px;
+	padding: 0 10px;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	background: var(--button-bg);
+	color: var(--muted);
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
 .archive-list {
 	margin-top: 26px;
 }
@@ -1228,6 +1267,10 @@ html[data-theme="dark"] .project-body-figure img {
 	.award-list li {
 		grid-template-columns: 1fr;
 		gap: 2px;
+	}
+
+	.skills-grid {
+		grid-template-columns: 1fr;
 	}
 
 	.bio-layout {

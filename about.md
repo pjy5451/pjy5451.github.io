@@ -100,8 +100,47 @@ description: Biography, education, experience, awards, CV, and research profile 
             </li>
         </ul>
 
-        <h2>Research Keywords</h2>
+        <h2>Technical Skills</h2>
 
-        <p>Structural Health Monitoring, IoT sensing, bridge health monitoring, displacement estimation, cloud-based monitoring, weigh-in-motion, onboard monitoring, AI-assisted infrastructure monitoring, field experiments, and data analysis.</p>
+        <div class="skills-grid">
+            <section>
+                <h3>Domains</h3>
+                <div class="skill-tags">
+                    <span>Structural Health Monitoring</span>
+                    <span>Bridge Monitoring</span>
+                    <span>WIM/OBM</span>
+                    <span>Smart Infrastructure</span>
+                </div>
+            </section>
+            <section>
+                <h3>Sensing & Systems</h3>
+                <div class="skill-tags">
+                    <span>IoT Sensors</span>
+                    <span>Wireless Sensing</span>
+                    <span>Cloud-Based Monitoring</span>
+                    <span>Field Testing</span>
+                </div>
+            </section>
+            <section>
+                <h3>Data & AI</h3>
+                <div class="skill-tags">
+                    <span>Sensor Data Analysis</span>
+                    <span>Data Fusion</span>
+                    <span>AI-Based Event Detection</span>
+                    <span>Object Detection</span>
+                </div>
+            </section>
+            <section>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>MATLAB</span>
+                    <span>C</span>
+                    <span>JavaScript/Node.js</span>
+                    <span>PyTorch</span>
+                    <span>TensorFlow</span>
+                </div>
+            </section>
+        </div>
     </div>
 </div>
