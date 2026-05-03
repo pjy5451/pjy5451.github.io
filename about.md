@@ -70,36 +70,6 @@ description: Biography, education, experience, awards, CV, and research profile 
             </article>
         </div>
 
-        <h2>Awards</h2>
-
-        <ul class="award-list">
-            <li>
-                <span class="award-year">2024</span>
-                <span class="award-title">Best Paper Presentation Award</span>
-                <span class="award-organization">Korea Institute for Structural Maintenance and Inspection</span>
-            </li>
-            <li>
-                <span class="award-year">2022</span>
-                <span class="award-title">Gold Prize, Korea Future Talent Festival</span>
-                <span class="award-organization">National Research Foundation of Korea</span>
-            </li>
-            <li>
-                <span class="award-year">2021</span>
-                <span class="award-title">Excellence Award, LH Land Development Technology Competition</span>
-                <span class="award-organization">Korea Land and Housing Corporation</span>
-            </li>
-            <li>
-                <span class="award-year">2021</span>
-                <span class="award-title">Smart Construction Challenge Award</span>
-                <span class="award-organization">Korea National Railway</span>
-            </li>
-            <li>
-                <span class="award-year">2019</span>
-                <span class="award-title">Minister Award, Smart Earthquake Response Idea Competition</span>
-                <span class="award-organization">Ministry of the Interior and Safety</span>
-            </li>
-        </ul>
-
         <h2>Technical Skills</h2>
 
         <div class="skills-grid">
@@ -142,5 +112,35 @@ description: Biography, education, experience, awards, CV, and research profile 
                 </div>
             </section>
         </div>
+
+        <h2>Awards</h2>
+
+        <ul class="award-list">
+            <li>
+                <span class="award-year">2024</span>
+                <span class="award-title">Best Paper Presentation Award</span>
+                <span class="award-organization">Korea Institute for Structural Maintenance and Inspection</span>
+            </li>
+            <li>
+                <span class="award-year">2022</span>
+                <span class="award-title">Gold Prize, Korea Future Talent Festival</span>
+                <span class="award-organization">National Research Foundation of Korea</span>
+            </li>
+            <li>
+                <span class="award-year">2021</span>
+                <span class="award-title">Excellence Award, LH Land Development Technology Competition</span>
+                <span class="award-organization">Korea Land and Housing Corporation</span>
+            </li>
+            <li>
+                <span class="award-year">2021</span>
+                <span class="award-title">Smart Construction Challenge Award</span>
+                <span class="award-organization">Korea National Railway</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Minister Award, Smart Earthquake Response Idea Competition</span>
+                <span class="award-organization">Ministry of the Interior and Safety</span>
+            </li>
+        </ul>
     </div>
 </div>
