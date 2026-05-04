@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About
+title: 박준영 소개
+no_site_suffix: true
 lang: ko
 en_url: /about.html
-description: 박준영의 소개, 학력, 경력, 수상, CV, 연구 관심사를 정리한 한국어 페이지입니다.
+description: 박준영의 학력, 경력, 기술 역량, 수상, CV, 구조물 건전성 모니터링 및 IoT 센싱 연구 관심사를 정리한 페이지입니다.
 ---
 
 <div class="bio-layout">

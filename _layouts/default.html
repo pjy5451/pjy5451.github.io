@@ -4,9 +4,15 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    {% assign seo_title = site.name %}
-    {% if page.title and page.title != "Home" %}
+    {% assign seo_title = page.title | default: site.name %}
+    {% if page.no_site_suffix %}
+      {% assign seo_title = page.title %}
+    {% elsif page.title and page.title != "Home" and page.title contains site.name %}
+      {% assign seo_title = page.title %}
+    {% elsif page.title and page.title != "Home" %}
       {% assign seo_title = page.title | append: " - " | append: site.name %}
+    {% else %}
+      {% assign seo_title = site.name %}
     {% endif %}
     {% assign seo_description = page.description | default: site.meta_description | strip %}
     {% assign seo_image = page.image | default: site.social_image | default: "/assets/images/profile.png" %}
