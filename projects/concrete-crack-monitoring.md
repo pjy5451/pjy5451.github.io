@@ -12,6 +12,12 @@ permalink: /projects/concrete-crack-monitoring.html
 
 This project focuses on concrete crack trajectory monitoring and long-term visualization using a resistive touchpad-based sensing concept.
 
+<ul class="project-facts">
+    <li><strong>Period</strong>2024 - 2025 patent-oriented development.</li>
+    <li><strong>Focus</strong>Concrete crack trajectory sensing and long-term measurement-history visualization.</li>
+    <li><strong>Output</strong>Korean patent on resistive touchpad-based crack trajectory monitoring and visualization.</li>
+</ul>
+
 ## Problem
 
 Crack monitoring often records crack width or visual inspection notes, but tracking the trajectory and history of crack propagation over time remains difficult in a compact, field-deployable form.
@@ -21,10 +27,11 @@ Crack monitoring often records crack width or visual inspection notes, but track
 - Developed a resistive touchpad-based sensing concept for crack trajectory monitoring.
 - Designed a workflow for recording and visualizing long-term measurement histories.
 - Connected crack tracking with structural damage monitoring and maintenance records.
+- Framed the concept so crack location, path, and history can be interpreted as a data record rather than a one-time inspection note.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/concrete-crack.svg' | relative_url }}" alt="Concrete crack trajectory monitoring workflow" />
-    <figcaption>Crack trajectory monitoring concept for recording propagation history and visualizing long-term changes.</figcaption>
+    <figcaption>Preserved concept sketch for recording propagation history and visualizing long-term crack changes.</figcaption>
 </figure>
 
 ## My Role

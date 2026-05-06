@@ -5,12 +5,18 @@ permalink: /projects/onboard-monitoring.html
 ---
 
 <figure class="project-detail-media">
-    <img class="project-detail-hero" src="{{ '/assets/images/projects/onboard-monitoring.svg' | relative_url }}" alt="On-board monitoring for vehicle loads project preview" />
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="Portfolio slide showing vehicle load monitoring and WIM signal acquisition work" />
 </figure>
 
 ## Overview
 
 This project focuses on on-board monitoring for dynamic truck state measurement and operating-weight correction.
+
+<ul class="project-facts">
+    <li><strong>Period</strong>2024 - Present.</li>
+    <li><strong>Focus</strong>Dynamic vehicle-state measurement and real-time operating-weight correction.</li>
+    <li><strong>Outputs</strong>Patent work on FIR-filter-based dynamic truck weight correction and applied monitoring workflows.</li>
+</ul>
 
 ## Problem
 
@@ -21,11 +27,12 @@ Vehicle loads measured under real driving conditions are affected by speed, vibr
 - Designed sensing and analysis workflows for vehicle state measurement.
 - Applied FIR filter-based signal processing for real-time dynamic weight correction.
 - Connected on-board measurements with field-ready monitoring and data validation procedures.
-- Developed analysis logic for interpreting dynamic vehicle load signals.
+- Developed analysis logic for interpreting dynamic vehicle load signals under speed, vibration, and road-condition effects.
+- Connected OBM concepts with WIM field data so that vehicle-state information can support bridge load assessment and freight safety applications.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/onboard-monitoring.svg' | relative_url }}" alt="On-board vehicle monitoring workflow for dynamic load correction" />
-    <figcaption>On-board monitoring concept for collecting vehicle-state signals and correcting dynamic operating weight.</figcaption>
+    <figcaption>Preserved concept sketch for collecting vehicle-state signals and correcting dynamic operating weight.</figcaption>
 </figure>
 
 ## My Role

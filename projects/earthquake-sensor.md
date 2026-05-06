@@ -5,12 +5,18 @@ permalink: /projects/earthquake-sensor.html
 ---
 
 <figure class="project-detail-media">
-    <img class="project-detail-hero" src="{{ '/assets/images/projects/earthquake-sensor.svg' | relative_url }}" alt="Smart IoT earthquake sensor project preview" />
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-28.png' | relative_url }}" alt="Portfolio slide showing the smart IoT earthquake sensor award and prototype" />
 </figure>
 
 ## Overview
 
 This project developed a low-cost IoT earthquake sensing and notification concept using embedded event detection and BLE-based communication.
+
+<ul class="project-facts">
+    <li><strong>Period</strong>2019.</li>
+    <li><strong>Recognition</strong>Minister of the Interior and Safety Award, Smart Earthquake Response Idea Competition.</li>
+    <li><strong>Scope</strong>STA/LTA triggering, time-domain and frequency-domain classification, BLE notification, and shaking-table validation.</li>
+</ul>
 
 ## Problem
 
@@ -22,10 +28,16 @@ Earthquake notification systems need fast event detection, low-cost deployment, 
 - Implemented real-time trigger logic using STA/LTA-based event detection.
 - Used time-domain and frequency-domain features to distinguish earthquake-like inputs from random or sinusoidal vibration.
 - Designed a nearby notification workflow using Bluetooth communication.
+- Validated the algorithm on ten input waveforms and correctly classified all test cases during the competition validation.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/earthquake-sensor.svg' | relative_url }}" alt="Smart IoT earthquake sensor event detection workflow" />
-    <figcaption>Embedded earthquake-sensing workflow combining event triggering, classification, and BLE notification.</figcaption>
+    <figcaption>Preserved concept sketch for event triggering, classification, and BLE notification.</figcaption>
+</figure>
+
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/portfolio/portfolio-page-29.png' | relative_url }}" alt="STA LTA triggering and earthquake classification algorithm slide" />
+    <figcaption>Algorithm slide covering STA/LTA triggering and time/frequency-domain classification logic.</figcaption>
 </figure>
 
 ## My Role

@@ -5,12 +5,18 @@ permalink: /projects/quay-wall-monitoring.html
 ---
 
 <figure class="project-detail-media">
-    <img class="project-detail-hero" src="{{ '/assets/images/projects/quay-wall-monitoring.svg' | relative_url }}" alt="AI-based quay wall event monitoring project preview" />
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-19.png' | relative_url }}" alt="Portfolio slide showing port structure monitoring with packaged JANET sensors" />
 </figure>
 
 ## Overview
 
-This project developed a multisensory monitoring workflow for quay wall events using wireless sensors and AI-based event recognition.
+This project developed a multisensory monitoring workflow for port and quay wall events using wireless sensors, ruggedized packaging, cloud communication, and AI-based event recognition.
+
+<ul class="project-facts">
+    <li><strong>Period</strong>2021.03 - 2023.11.</li>
+    <li><strong>Program</strong>Port monitoring system development with Korea Institute of Civil Engineering and Building Technology-related project work.</li>
+    <li><strong>Scope</strong>Waterproof sensor packaging, solar-powered operation, LTE-M cloud upload, event analysis, and AI-assisted monitoring.</li>
+</ul>
 
 ## Problem
 
@@ -22,15 +28,17 @@ Port structures can experience berthing, impact, and environmental events that a
 - Applied AI-based recognition to classify or detect event patterns.
 - Connected sensing, event triggering, and cloud-side visualization into an applied monitoring workflow.
 - Evaluated multisensory data for port infrastructure operation and safety monitoring.
+- Packaged JANET sensors in IP67-class waterproof enclosures for harsh marine and operating environments.
+- Used watchdog-style reliability logic and self-powered operation concepts for long-term deployment.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/quay-wall-monitoring.svg' | relative_url }}" alt="AI-based quay wall event monitoring workflow" />
-    <figcaption>Multisensory quay wall monitoring workflow from field sensing to AI-assisted event recognition.</figcaption>
+    <figcaption>Preserved concept sketch for multisensory quay wall monitoring from field sensing to AI-assisted event recognition.</figcaption>
 </figure>
 
 ## My Role
 
-This project is connected to multisensory monitoring, event detection, and AI-assisted analysis for port infrastructure.
+This project is connected to multisensory monitoring, event detection, ruggedized sensor operation, and AI-assisted analysis for port infrastructure.
 
 ## Results
 

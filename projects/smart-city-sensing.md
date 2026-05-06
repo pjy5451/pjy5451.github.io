@@ -5,12 +5,18 @@ permalink: /projects/smart-city-sensing.html
 ---
 
 <figure class="project-detail-media">
-    <img class="project-detail-hero" src="{{ '/assets/images/projects/smart-city.svg' | relative_url }}" alt="Citizen-participatory smart city sensing project preview" />
+    <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-32.png' | relative_url }}" alt="Portfolio slide showing citizen-participatory QR smart city sensing award" />
 </figure>
 
 ## Overview
 
 This project connects environmental sensing, QR-based data visualization, and citizen participation for smart city monitoring.
+
+<ul class="project-facts">
+    <li><strong>Period</strong>2021.</li>
+    <li><strong>Recognition</strong>Excellence Award, LH Land Development Technology Competition.</li>
+    <li><strong>Scope</strong>Urban sensing, e-paper QR visualization, KakaoTalk chatbot collection, and citizen-assisted data upload.</li>
+</ul>
 
 ## Problem
 
@@ -22,10 +28,16 @@ Urban sensing systems often require communication infrastructure and dedicated m
 - Used e-paper to display sensor data as QR codes.
 - Designed a KakaoTalk chatbot-based workflow for scanning, decoding, and uploading data.
 - Presented a citizen-participatory model for smart city monitoring.
+- Tested the prototype in an urban environment and collected feedback from local participants.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/smart-city.svg' | relative_url }}" alt="Citizen-participatory smart city sensing workflow" />
-    <figcaption>Citizen-assisted smart city sensing workflow using low-power sensing, QR visualization, and mobile upload.</figcaption>
+    <figcaption>Preserved concept sketch for low-power sensing, QR visualization, and mobile upload.</figcaption>
+</figure>
+
+<figure class="project-body-figure">
+    <img src="{{ '/assets/images/projects/portfolio/portfolio-page-33.png' | relative_url }}" alt="Urban QR sensor board, calibration photo, and KakaoTalk QR data pipeline" />
+    <figcaption>QR sensor board, urban test deployment, and KakaoTalk-based QR data collection pipeline.</figcaption>
 </figure>
 
 ## My Role

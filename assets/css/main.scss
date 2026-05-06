@@ -1239,6 +1239,46 @@ html[data-theme="dark"] .project-body-figure img {
 	line-height: 1.55;
 }
 
+.project-facts {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 12px;
+	margin: 24px 0 30px;
+	padding: 0;
+	list-style: none;
+}
+
+.project-facts li {
+	padding: 14px 16px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--surface);
+	color: var(--muted);
+	font-size: 13px;
+	line-height: 1.45;
+	box-sizing: border-box;
+}
+
+.project-facts strong {
+	display: block;
+	margin-bottom: 4px;
+	color: var(--ink);
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: .04em;
+}
+
+.project-figure-grid {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 16px;
+	margin: 28px 0;
+}
+
+.project-figure-grid .project-body-figure {
+	margin: 0;
+}
+
 .project-card p {
 	margin: 0 0 10px;
 	color: var(--muted);
@@ -1390,7 +1430,9 @@ html[data-theme="dark"] .project-body-figure img {
 	.hero-grid,
 	.feature-grid,
 	.research-grid,
-	.project-grid {
+	.project-grid,
+	.project-facts,
+	.project-figure-grid {
 		grid-template-columns: 1fr;
 	}
 
