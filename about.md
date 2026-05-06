@@ -54,7 +54,7 @@ description: Biography, education, experience, technical skills, awards, CV, and
                 <div class="timeline-date">2017 - 2022</div>
                 <div class="timeline-content">
                     <h3>B.S. in Civil, Environmental & Plant Engineering and Mathematics</h3>
-                    <p>Chung-Ang University. Double major in Civil, Environmental & Plant Engineering and Mathematics.</p>
+                    <p>Chung-Ang University. Major: Civil, Environmental & Plant Engineering. Double major: Mathematics.</p>
                 </div>
             </article>
         </div>
@@ -74,6 +74,17 @@ description: Biography, education, experience, technical skills, awards, CV, and
         <h2>Technical Skills</h2>
 
         <div class="skills-grid">
+            <section>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>MATLAB</span>
+                    <span>C</span>
+                    <span>JavaScript/Node.js</span>
+                    <span>PyTorch</span>
+                    <span>TensorFlow</span>
+                </div>
+            </section>
             <section>
                 <h3>Domains</h3>
                 <div class="skill-tags">
@@ -99,17 +110,6 @@ description: Biography, education, experience, technical skills, awards, CV, and
                     <span>Data Fusion</span>
                     <span>AI-Based Event Detection</span>
                     <span>Object Detection</span>
-                </div>
-            </section>
-            <section>
-                <h3>Programming</h3>
-                <div class="skill-tags">
-                    <span>Python</span>
-                    <span>MATLAB</span>
-                    <span>C</span>
-                    <span>JavaScript/Node.js</span>
-                    <span>PyTorch</span>
-                    <span>TensorFlow</span>
                 </div>
             </section>
         </div>

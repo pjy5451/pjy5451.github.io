@@ -21,7 +21,7 @@
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
         <div class="language-switch" aria-label="Language">
             {% if is_ko %}
-            <a class="language-option" href="{{ en_url | relative_url }}">EN</a>
+            <a class="language-option" href="{{ en_url | relative_url }}" data-lang-choice="en">EN</a>
             {% else %}
             <span class="language-option is-active">EN</span>
             {% endif %}
@@ -29,7 +29,7 @@
             {% if is_ko %}
             <span class="language-option is-active">KR</span>
             {% elsif ko_url %}
-            <a class="language-option" href="{{ ko_url | relative_url }}">KR</a>
+            <a class="language-option" href="{{ ko_url | relative_url }}" data-lang-choice="ko">KR</a>
             {% else %}
             <span class="language-option is-disabled" aria-disabled="true" title="Korean version planned">KR</span>
             {% endif %}
