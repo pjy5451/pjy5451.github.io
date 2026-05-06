@@ -177,6 +177,7 @@
         var input = document.querySelector('[data-search-input]');
         var status = document.querySelector('[data-search-status]');
         var results = document.querySelector('[data-search-results]');
+        var currentLang = '{{ page.lang | default: "en" }}';
         var index = [];
         var loaded = false;
 
@@ -271,7 +272,9 @@
           return fetch('{{ "/search.json" | relative_url }}')
             .then(function(response) { return response.json(); })
             .then(function(data) {
-              index = data;
+              index = data.filter(function(item) {
+                return (item.lang || 'en') === currentLang;
+              });
               loaded = true;
             });
         }
