@@ -12,7 +12,12 @@
         <a href="{{ '/projects.html' | relative_url }}">Projects</a>
         <a href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}">Publications & Patents</a>
         <a href="{{ '/blog.html' | relative_url }}">Notes</a>
-        <a href="{{ '/search.html' | relative_url }}">Search</a>
+        <button class="nav-search-toggle" type="button" data-search-toggle aria-label="Search this site">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="11" cy="11" r="7"></circle>
+                <path d="m16.5 16.5 4 4"></path>
+            </svg>
+        </button>
         <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false">Dark</button>
         <div class="language-switch" aria-label="Language">
             {% if is_ko %}

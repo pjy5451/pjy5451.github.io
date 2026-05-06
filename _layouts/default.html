@@ -82,6 +82,16 @@
 
     {% include profile_nav.html %}
 
+    <div class="search-overlay" data-search-overlay hidden>
+      <div class="search-dialog" role="dialog" aria-modal="true" aria-label="Search this site">
+        <button class="search-close" type="button" data-search-close aria-label="Close search">Close</button>
+        <label class="search-label" for="nav-search-input">Search this site</label>
+        <input class="site-search-input" id="nav-search-input" data-search-input type="search" placeholder="Search projects, publications, patents, notes..." autocomplete="off" />
+        <p class="search-status" data-search-status>Type a keyword such as bridge monitoring, IoT sensing, WIM, patent, or Python.</p>
+        <div class="search-results" data-search-results></div>
+      </div>
+    </div>
+
     {{ content }}
     <footer class="site-footer clearfix">
       <div class="footer-inner">
@@ -158,6 +168,141 @@
             }
           });
         }
+      })();
+
+      (function() {
+        var overlay = document.querySelector('[data-search-overlay]');
+        var toggle = document.querySelector('[data-search-toggle]');
+        var close = document.querySelector('[data-search-close]');
+        var input = document.querySelector('[data-search-input]');
+        var status = document.querySelector('[data-search-status]');
+        var results = document.querySelector('[data-search-results]');
+        var index = [];
+        var loaded = false;
+
+        if (!overlay || !toggle || !input || !status || !results) {
+          return;
+        }
+
+        function normalize(value) {
+          return (value || '').toString().toLowerCase();
+        }
+
+        function escapeHtml(value) {
+          return (value || '').replace(/[&<>"']/g, function(match) {
+            return {
+              '&': '&amp;',
+              '<': '&lt;',
+              '>': '&gt;',
+              '"': '&quot;',
+              "'": '&#39;'
+            }[match];
+          });
+        }
+
+        function score(item, terms) {
+          var title = normalize(item.title);
+          var description = normalize(item.description);
+          var content = normalize(item.content);
+          var total = 0;
+
+          terms.forEach(function(term) {
+            if (title.indexOf(term) !== -1) total += 8;
+            if (description.indexOf(term) !== -1) total += 4;
+            if (content.indexOf(term) !== -1) total += 1;
+          });
+
+          return total;
+        }
+
+        function render(items) {
+          if (!items.length) {
+            results.innerHTML = '';
+            status.textContent = 'No results found.';
+            return;
+          }
+
+          status.textContent = items.length + ' result' + (items.length > 1 ? 's' : '') + ' found.';
+          results.innerHTML = items.slice(0, 12).map(function(item) {
+            return '<article class="search-result">' +
+              '<h2><a href="' + item.url + '">' + escapeHtml(item.title) + '</a></h2>' +
+              '<p>' + escapeHtml(item.description || item.content || '') + '</p>' +
+              '<span>' + escapeHtml(item.type || 'Page') + '</span>' +
+            '</article>';
+          }).join('');
+        }
+
+        function runSearch() {
+          var terms = normalize(input.value).split(/\s+/).filter(Boolean);
+          if (!terms.length) {
+            results.innerHTML = '';
+            status.textContent = 'Type a keyword such as bridge monitoring, IoT sensing, WIM, patent, or Python.';
+            return;
+          }
+
+          render(index.map(function(item) {
+            return {
+              item: item,
+              score: score(item, terms)
+            };
+          }).filter(function(result) {
+            return result.score > 0;
+          }).sort(function(a, b) {
+            return b.score - a.score;
+          }).map(function(result) {
+            return result.item;
+          }));
+        }
+
+        function loadIndex() {
+          if (loaded) {
+            return Promise.resolve();
+          }
+
+          return fetch('{{ "/search.json" | relative_url }}')
+            .then(function(response) { return response.json(); })
+            .then(function(data) {
+              index = data;
+              loaded = true;
+            });
+        }
+
+        function openSearch() {
+          overlay.hidden = false;
+          loadIndex()
+            .then(function() {
+              input.focus();
+              input.select();
+              runSearch();
+            })
+            .catch(function() {
+              status.textContent = 'Search index could not be loaded.';
+            });
+        }
+
+        function closeSearch() {
+          overlay.hidden = true;
+          toggle.focus();
+        }
+
+        toggle.addEventListener('click', openSearch);
+        input.addEventListener('input', runSearch);
+
+        if (close) {
+          close.addEventListener('click', closeSearch);
+        }
+
+        overlay.addEventListener('click', function(event) {
+          if (event.target === overlay) {
+            closeSearch();
+          }
+        });
+
+        document.addEventListener('keydown', function(event) {
+          if (event.key === 'Escape' && !overlay.hidden) {
+            closeSearch();
+          }
+        });
       })();
 
       document.addEventListener('click', function(event) {
