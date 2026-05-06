@@ -1,0 +1,30 @@
+---
+layout: null
+---
+[
+{% assign first = true %}
+{% for page in site.pages %}
+  {% unless page.url contains "/assets/" or page.url contains "/feed.xml" or page.url contains "/sitemap.xml" or page.url contains "/robots.txt" or page.url contains "/search.json" %}
+    {% unless first %},{% endunless %}
+    {% assign first = false %}
+    {
+      "title": {{ page.title | default: site.name | jsonify }},
+      "url": {{ page.url | replace: "index.html", "" | relative_url | jsonify }},
+      "description": {{ page.description | default: "" | jsonify }},
+      "type": {% if page.url contains "/projects/" %}"Project"{% elsif page.lang == "ko" %}"Korean Page"{% else %}"Page"{% endif %},
+      "content": {{ page.content | strip_html | normalize_whitespace | truncate: 1200 | jsonify }}
+    }
+  {% endunless %}
+{% endfor %}
+{% for post in site.posts %}
+    {% unless first %},{% endunless %}
+    {% assign first = false %}
+    {
+      "title": {{ post.title | jsonify }},
+      "url": {{ post.url | relative_url | jsonify }},
+      "description": {{ post.description | default: post.excerpt | strip_html | normalize_whitespace | jsonify }},
+      "type": "Note",
+      "content": {{ post.content | strip_html | normalize_whitespace | truncate: 1200 | jsonify }}
+    }
+{% endfor %}
+]
