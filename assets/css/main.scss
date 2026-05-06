@@ -1095,6 +1095,28 @@ html[data-theme="dark"] .search-dialog {
 	color: var(--muted);
 }
 
+.pub-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	margin-top: 9px;
+}
+
+.pub-tags span {
+	display: inline-flex;
+	align-items: center;
+	min-height: 24px;
+	padding: 0 8px;
+	border: 1px solid rgba(31, 111, 120, .2);
+	border-radius: 999px;
+	background: rgba(31, 111, 120, .07);
+	color: var(--accent-strong);
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 1;
+	white-space: nowrap;
+}
+
 .pub-actions {
 	display: flex;
 	flex-wrap: wrap;
