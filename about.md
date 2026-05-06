@@ -22,7 +22,7 @@ description: Biography, education, experience, technical skills, awards, CV, and
                 <span>CV</span>
             </a>
         </div>
-        <p>Researcher at UDNS working on sensing, structural monitoring, and data-driven infrastructure systems.</p>
+        <p>Researcher building field-deployable sensing and data systems for infrastructure monitoring.</p>
         <div class="bio-links">
             <a href="mailto:pjy5451@gmail.com">E-mail</a>
             <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
@@ -34,8 +34,8 @@ description: Biography, education, experience, technical skills, awards, CV, and
 
     <div class="bio-main">
         <section class="research-statement">
-            <p>I work on structural health monitoring systems that connect IoT sensing, embedded hardware, cloud computing, field experiments, and data-driven analysis. My research and applied work focus on making infrastructure monitoring more scalable, interpretable, and useful in real operating environments.</p>
-            <p>My recent interests include bridge health monitoring, weigh-in-motion and on-board monitoring, displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure. I am especially interested in systems that move beyond lab prototypes into field deployment, long-term monitoring, patents, and practical engineering workflows.</p>
+            <p>I build field-deployable sensing and data systems for infrastructure monitoring, connecting low-power IoT sensors, embedded hardware, cloud pipelines, field experiments, and data-driven analysis. My work focuses on turning structural measurements into scalable, interpretable evidence that engineers can use in real operating environments.</p>
+            <p>My recent work spans bridge health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure. I am especially interested in systems that move beyond lab prototypes into field deployment, long-term monitoring, patents, and practical engineering workflows.</p>
         </section>
 
         <h2>Education</h2>
