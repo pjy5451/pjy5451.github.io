@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Publications & Patents | Junyoung Park
+title: Publications & Patents
+no_site_suffix: true
 lang: en
 ko_url: /ko/publications.html
 description: Journal articles, preprints, patents, and research outputs by Junyoung Park in structural health monitoring, IoT sensing, smart infrastructure, and data-driven infrastructure.

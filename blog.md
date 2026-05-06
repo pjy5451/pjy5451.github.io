@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Notes | Junyoung Park
+title: Notes
+no_site_suffix: true
 description: Notes, field logs, research activities, technical writing, proposal experience, and professional updates from Junyoung Park.
 ---
 

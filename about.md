@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About Junyoung Park
+title: About
+no_site_suffix: true
 lang: en
 ko_url: /ko/about.html
 description: Biography, education, experience, technical skills, awards, CV, and research interests of Junyoung Park in structural health monitoring, IoT sensing, and infrastructure data analysis.
