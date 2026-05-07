@@ -49,7 +49,8 @@ This page collects short writing that does not fit neatly into formal publicatio
 ## Notes
 
 <div class="note-index archive-list">
-{% for post in site.posts %}
+{% assign en_posts = site.posts | where_exp: "post", "post.lang != 'ko'" %}
+{% for post in en_posts %}
     <article class="note-row">
         <div class="note-row-meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y.%m.%d" }}</time>
