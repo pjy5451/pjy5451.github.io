@@ -39,6 +39,15 @@ The work is grounded in real driving and high-speed measurement conditions rathe
 
 Raw WIM signals are converted into event-oriented datasets for preprocessing, visualization, object-detection labeling, YOLO-based interval recognition, and post-detection interpretation. This workflow links the sensing hardware layer to automated analysis that can support bridge load assessment and freight safety applications.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/weight-in-motion.svg' | relative_url }}" alt="Weight-in-motion signal detection workflow" />
     <figcaption>Preserved concept sketch for detecting load intervals from high-speed field measurements.</figcaption>

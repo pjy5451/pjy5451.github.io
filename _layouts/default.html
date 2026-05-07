@@ -20,6 +20,9 @@
 
     <title>{{ seo_title }}</title>
     <meta name="description" content="{{ seo_description | escape }}" />
+    {% if page.keywords %}
+    <meta name="keywords" content="{{ page.keywords | join: ', ' | escape }}" />
+    {% endif %}
     <link rel="canonical" href="{{ seo_url }}" />
     {% if page.ko_url %}
     <link rel="alternate" hreflang="ko" href="{{ page.ko_url | absolute_url }}" />

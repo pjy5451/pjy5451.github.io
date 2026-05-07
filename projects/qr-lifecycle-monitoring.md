@@ -58,6 +58,15 @@ The concept was applied to bridge-related field monitoring with embedded strain 
 
 The system connects embedded strain measurement, local QR visualization, smartphone or chatbot-based upload, cloud storage, and AI-assisted report generation. It is a field-oriented alternative for cases where always-on communication is difficult to maintain.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 ## Outputs
 
 This work is connected to patents and project outcomes on QR-based sensing, long-term monitoring, and citizen-assisted data acquisition.

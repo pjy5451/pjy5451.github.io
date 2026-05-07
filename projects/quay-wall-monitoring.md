@@ -39,6 +39,15 @@ The project focuses on port environments where waterproof packaging, power relia
 
 Sensor measurements are organized around event detection, cloud communication, multisensory interpretation, and AI-assisted recognition. This makes the project a field monitoring case study for difficult infrastructure environments such as quay walls and port structures.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/quay-wall-monitoring.svg' | relative_url }}" alt="AI-based quay wall event monitoring workflow" />
     <figcaption>Preserved concept sketch for multisensory quay wall monitoring from field sensing to AI-assisted event recognition.</figcaption>

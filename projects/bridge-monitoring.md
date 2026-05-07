@@ -57,6 +57,15 @@ The system was deployed on real bridges including Paldang Overpass, Cheongdam Br
 
 The monitoring workflow connects synchronized strain and acceleration sensing, cloud upload, database storage, automated FFT analysis, displacement estimation, dashboard visualization, and engineering interpretation. This full chain is the main reason the project works as a field system rather than only a sensing experiment.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 ## Outputs
 
 The work produced journal publications, conference presentations, patent records, and contributed to Korean Construction New Technology No. 959 registration related to bridge monitoring, IoT sensing, and cloud-based data preprocessing.

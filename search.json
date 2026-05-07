@@ -12,7 +12,8 @@ layout: null
       "url": {{ page.url | replace: "index.html", "" | relative_url | jsonify }},
       "description": {{ page.description | default: "" | jsonify }},
       "lang": {{ page.lang | default: "en" | jsonify }},
-      "type": {% if page.url contains "/projects/" %}"Project"{% elsif page.lang == "ko" %}"Korean Page"{% else %}"Page"{% endif %},
+      "type": {% if page.url contains "/projects/" %}"Project"{% elsif page.url contains "field-work" %}"Field Work"{% elsif page.lang == "ko" %}"Korean Page"{% else %}"Page"{% endif %},
+      "keywords": {{ page.keywords | default: "" | jsonify }},
       "content": {{ page.content | strip_html | normalize_whitespace | truncate: 1200 | jsonify }}
     }
   {% endunless %}

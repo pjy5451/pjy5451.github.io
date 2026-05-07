@@ -38,6 +38,15 @@ The project is designed around vehicle measurements under real operating conditi
 
 The monitoring process connects vehicle-state sensing, raw signal acquisition, filtering, dynamic weight correction, and validation against WIM-related field data. The long-term goal is to support both vehicle load monitoring and infrastructure load assessment with a practical data pipeline.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/onboard-monitoring.svg' | relative_url }}" alt="On-board vehicle monitoring workflow for dynamic load correction" />
     <figcaption>Preserved concept sketch for collecting vehicle-state signals and correcting dynamic operating weight.</figcaption>

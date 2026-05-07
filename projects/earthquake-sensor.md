@@ -52,6 +52,15 @@ The system was tested using shaking-table inputs and successfully classified mul
 
 The sensing logic connects event triggering, waveform classification, nearby notification, and validation against controlled vibration inputs. This early project established the pattern of combining embedded sensing with interpretable event detection.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 ## Outputs
 
 <div class="pub-actions resource-links">

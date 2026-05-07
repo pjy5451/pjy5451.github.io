@@ -1632,6 +1632,38 @@ html[data-theme="dark"] .project-body-figure img {
 	line-height: 1.6;
 }
 
+.field-card-details {
+	display: grid;
+	gap: 6px;
+	margin: 14px 0 14px;
+	padding: 0;
+}
+
+.field-card-details div {
+	display: grid;
+	grid-template-columns: 72px minmax(0, 1fr);
+	gap: 10px;
+	padding-top: 6px;
+	border-top: 1px solid var(--line);
+}
+
+.field-card-details dt,
+.field-card-details dd {
+	margin: 0;
+	font-size: 12px;
+	line-height: 1.45;
+}
+
+.field-card-details dt {
+	color: var(--accent-strong);
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.field-card-details dd {
+	color: var(--muted);
+}
+
 .field-gallery a {
 	color: var(--accent-strong);
 	font-size: 13px;
@@ -1668,6 +1700,64 @@ html[data-theme="dark"] .project-body-figure img {
 	color: var(--muted);
 	font-size: 14px;
 	line-height: 1.6;
+}
+
+.field-log-template,
+.project-evidence-template {
+	margin: 26px 0 34px;
+	padding: 18px 20px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--wash);
+}
+
+.field-log-template h3,
+.project-evidence-template h3 {
+	margin: 0 0 12px;
+	color: var(--ink);
+	font-size: 18px;
+	line-height: 1.35;
+}
+
+.field-log-template ul,
+.project-evidence-template ul {
+	margin: 0;
+	padding-left: 20px;
+}
+
+.field-log-template li,
+.project-evidence-template li {
+	color: var(--copy);
+	font-size: 14px;
+	line-height: 1.65;
+}
+
+.project-evidence-grid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	gap: 12px;
+	margin: 22px 0 30px;
+}
+
+.project-evidence-grid section {
+	padding: 14px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--surface);
+}
+
+.project-evidence-grid h3 {
+	margin: 0 0 8px;
+	color: var(--ink);
+	font-size: 15px;
+	line-height: 1.35;
+}
+
+.project-evidence-grid p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 13px;
+	line-height: 1.55;
 }
 
 .timeline {
@@ -1815,6 +1905,7 @@ html[data-theme="dark"] .project-body-figure img {
 	.project-figure-grid,
 	.field-gallery,
 	.field-method-grid,
+	.project-evidence-grid,
 	.update-list,
 	.theme-grid {
 		grid-template-columns: 1fr;

@@ -52,6 +52,15 @@ The prototype was tested in an urban environment and evaluated through citizen f
 
 The workflow connects sensor measurement, QR-code visualization, smartphone-based collection, chatbot upload, and cloud-side data organization. It shows how low-power sensing can be paired with citizen participation instead of relying only on fixed communication infrastructure.
 
+## Field Evidence
+
+<div class="project-evidence-grid">
+    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
+    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
+    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
+    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+</div>
+
 ## Outputs
 
 This work is connected to patents and award records on citizen-participatory smart city sensing and sensor-data visualization.

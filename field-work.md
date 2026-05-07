@@ -5,6 +5,16 @@ no_site_suffix: true
 lang: en
 ko_url: /ko/field-work.html
 description: Field experience framework for Junyoung Park's infrastructure monitoring work, including 50+ field experiments, sensor installation, DAQ workflows, bridge tests, vehicle monitoring, and cloud visualization.
+keywords:
+  - field experiments
+  - infrastructure monitoring
+  - sensor installation
+  - bridge load testing
+  - DAQ
+  - field sensing
+  - structural health monitoring
+  - WIM
+  - OBM
 ---
 
 This page is prepared as a field-work archive for my infrastructure monitoring experience. I have participated in more than 50 field experiments and deployments across bridge monitoring, vehicle load sensing, precast transportation, port structures, sensor installation, DAQ validation, and cloud-based data review.
@@ -30,6 +40,12 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <span>Hardware / Cloud</span>
         <h2>Smart bridge IoT monitoring system</h2>
         <p>Stand-alone sensing units, cloud upload, automated analysis, and dashboard visualization for bridge health monitoring.</p>
+        <dl class="field-card-details">
+            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Site</dt><dd>Bridge monitoring field sites</dd></div>
+            <div><dt>Role</dt><dd>Sensor workflow, deployment, data review</dd></div>
+            <div><dt>Data</dt><dd>Strain, acceleration, displacement, temperature</dd></div>
+        </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article>
@@ -37,6 +53,12 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <span>Bridge Test</span>
         <h2>Field installation and response data</h2>
         <p>Sensor installation, measured response histories, field validation, and debugging under real bridge conditions.</p>
+        <dl class="field-card-details">
+            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Site</dt><dd>Bridge load testing and ambient monitoring</dd></div>
+            <div><dt>Role</dt><dd>Installation, validation, troubleshooting</dd></div>
+            <div><dt>Data</dt><dd>Response histories and sensor status</dd></div>
+        </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article>
@@ -44,6 +66,12 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <span>Visualization</span>
         <h2>Cloud monitoring dashboard</h2>
         <p>Online monitoring interface for sensor status, vibration, displacement, strain, temperature, and interpreted comments.</p>
+        <dl class="field-card-details">
+            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>System</dt><dd>Cloud database and monitoring dashboard</dd></div>
+            <div><dt>Role</dt><dd>Data pipeline and interpretation workflow</dd></div>
+            <div><dt>Data</dt><dd>Sensor status, vibration, displacement, strain</dd></div>
+        </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article>
@@ -51,6 +79,12 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <span>DAQ / WIM</span>
         <h2>Vehicle load sensing and WIM DAQ</h2>
         <p>High-speed signal acquisition, field driving data, load interval detection, and vehicle-weight analysis workflows.</p>
+        <dl class="field-card-details">
+            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Site</dt><dd>Road and WIM measurement environment</dd></div>
+            <div><dt>Role</dt><dd>DAQ validation, signal review, detection workflow</dd></div>
+            <div><dt>Data</dt><dd>High-speed load signals and vehicle events</dd></div>
+        </dl>
         <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Related project</a>
     </article>
     <article>
@@ -58,6 +92,12 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <span>Precast</span>
         <h2>Portable sensing during transportation</h2>
         <p>Portable monitoring of strain, acceleration, tilt, and transport-stage response for precast concrete members.</p>
+        <dl class="field-card-details">
+            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Site</dt><dd>Precast yard and transportation route</dd></div>
+            <div><dt>Role</dt><dd>Portable sensor setup and data interpretation</dd></div>
+            <div><dt>Data</dt><dd>Strain, acceleration, tilt, transport events</dd></div>
+        </dl>
         <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Related project</a>
     </article>
     <article>
@@ -65,8 +105,30 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <span>Port Structure</span>
         <h2>Quay wall event monitoring</h2>
         <p>Ruggedized sensor packaging, harsh-environment monitoring, cloud communication, and AI-assisted event analysis.</p>
+        <dl class="field-card-details">
+            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Site</dt><dd>Port and quay wall monitoring environment</dd></div>
+            <div><dt>Role</dt><dd>Packaging, sensing workflow, event analysis</dd></div>
+            <div><dt>Data</dt><dd>Multisensory event records</dd></div>
+        </dl>
         <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Related project</a>
     </article>
+</div>
+
+## Field Log Template
+
+<div class="field-log-template">
+    <section>
+        <h3>What to Add Later</h3>
+        <ul>
+            <li><strong>Date</strong> Year, month, or project period.</li>
+            <li><strong>Site</strong> Bridge, road, precast yard, port, lab-to-field validation site, or anonymized site name.</li>
+            <li><strong>Role</strong> Sensor installation, DAQ setup, driving test, cloud review, troubleshooting, or data analysis.</li>
+            <li><strong>Hardware</strong> Sensor, gateway, DAQ, power, communication, and packaging details.</li>
+            <li><strong>Data</strong> Signal type, sampling rate, event type, dashboard, visualization, or analysis output.</li>
+            <li><strong>Evidence</strong> Photo, cropped image, short video, dashboard screenshot, or signal visualization.</li>
+        </ul>
+    </section>
 </div>
 
 ## What This Shows
