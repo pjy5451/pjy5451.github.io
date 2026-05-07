@@ -11,7 +11,7 @@
         <a href="{% if is_ko %}{{ '/ko/about.html' | relative_url }}{% else %}{{ '/about.html' | relative_url }}{% endif %}">About</a>
         <a href="{{ '/projects.html' | relative_url }}">Projects</a>
         <a href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}">Publications</a>
-        <a href="{{ '/blog.html' | relative_url }}">Notes</a>
+        <a href="{% if is_ko %}{{ '/ko/blog.html' | relative_url }}{% else %}{{ '/blog.html' | relative_url }}{% endif %}">Notes</a>
         <button class="nav-search-toggle" type="button" data-search-toggle aria-label="Search this site">
             <svg viewBox="0 0 24 24" aria-hidden="true">
                 <circle cx="11" cy="11" r="7"></circle>

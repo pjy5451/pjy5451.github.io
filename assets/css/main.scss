@@ -613,6 +613,48 @@ html[data-theme="dark"] .quick-facts {
 	gap: 14px;
 }
 
+.note-category-grid,
+.activity-list {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 14px;
+	margin: 22px 0 30px;
+}
+
+.note-category,
+.activity-list article {
+	padding: 18px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--surface);
+}
+
+.note-category span {
+	display: inline-flex;
+	margin-bottom: 12px;
+	color: var(--warm);
+	font-size: 11px;
+	font-weight: 800;
+	letter-spacing: .08em;
+	text-transform: uppercase;
+}
+
+.note-category h3,
+.activity-list h3 {
+	margin: 0 0 8px;
+	color: var(--ink);
+	font-size: 17px;
+	line-height: 1.35;
+}
+
+.note-category p,
+.activity-list p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 14px;
+	line-height: 1.65;
+}
+
 .note-item time {
 	display: block;
 	margin-bottom: 10px;
@@ -1203,7 +1245,7 @@ html[data-theme="dark"] .search-dialog {
 	align-items: center;
 	min-height: 19px;
 	padding: 0 6px;
-	border: 1px solid rgba(31, 111, 120, .18);
+	border: 1px solid rgba(31, 111, 120, .2);
 	border-radius: 999px;
 	background: rgba(31, 111, 120, .055);
 	color: var(--accent-strong);
@@ -1211,6 +1253,32 @@ html[data-theme="dark"] .search-dialog {
 	font-weight: 700;
 	line-height: 1;
 	white-space: nowrap;
+}
+
+.pub-tags span::before {
+	content: "";
+	width: 4px;
+	height: 4px;
+	margin-right: 4px;
+	border-radius: 999px;
+	background: currentColor;
+	opacity: .75;
+}
+
+.pub-tags span:nth-child(2n) {
+	border-color: rgba(171, 111, 36, .22);
+	background: rgba(171, 111, 36, .06);
+	color: var(--warm);
+}
+
+.pub-tags span:nth-child(3n) {
+	border-color: rgba(65, 100, 125, .2);
+	background: rgba(65, 100, 125, .065);
+	color: #41647d;
+}
+
+html[data-theme="dark"] .pub-tags span:nth-child(3n) {
+	color: #9db7c9;
 }
 
 .pub-actions {
@@ -1548,6 +1616,8 @@ html[data-theme="dark"] .project-body-figure img {
 	.hero-grid,
 	.feature-grid,
 	.research-grid,
+	.note-category-grid,
+	.activity-list,
 	.project-grid,
 	.project-facts,
 	.project-figure-grid,

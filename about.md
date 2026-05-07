@@ -22,7 +22,7 @@ description: Biography, education, experience, technical skills, awards, CV, and
                 <span>CV</span>
             </a>
         </div>
-        <p>Researcher building field-deployable sensing and data systems for infrastructure monitoring.</p>
+        <p>Researcher in field sensing systems, structural monitoring, and data-driven infrastructure.</p>
         <div class="bio-links">
             <a href="mailto:pjy5451@gmail.com">E-mail</a>
             <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
@@ -34,8 +34,8 @@ description: Biography, education, experience, technical skills, awards, CV, and
 
     <div class="bio-main">
         <section class="research-statement">
-            <p>I build field-deployable sensing and data systems for infrastructure monitoring, connecting low-power IoT sensors, embedded hardware, cloud pipelines, field experiments, and data-driven analysis. My work focuses on turning structural measurements into scalable, interpretable evidence that engineers can use in real operating environments.</p>
-            <p>My recent work spans bridge health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure. I am especially interested in systems that move beyond lab prototypes into field deployment, long-term monitoring, patents, and practical engineering workflows.</p>
+            <p>I develop field sensing systems that turn infrastructure measurements into engineering evidence. My work connects IoT sensors, embedded hardware, cloud-based data pipelines, field experiments, and AI-assisted analysis for bridges and other civil infrastructure.</p>
+            <p>My research and applied development focus on structural health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart IoT sensing devices, and event detection from noisy field data. I am especially interested in systems that move beyond laboratory prototypes into long-term deployment, patentable methods, and practical workflows for infrastructure engineers.</p>
         </section>
 
         <h2>Research Themes</h2>
