@@ -4,49 +4,64 @@ title: Field Work
 no_site_suffix: true
 lang: en
 ko_url: /ko/field-work.html
-description: Field evidence from Junyoung Park's infrastructure monitoring work, including sensor installation, DAQ workflows, bridge tests, vehicle monitoring, and cloud visualization.
+description: Field experience framework for Junyoung Park's infrastructure monitoring work, including 50+ field experiments, sensor installation, DAQ workflows, bridge tests, vehicle monitoring, and cloud visualization.
 ---
 
-This page collects visual evidence of the field-oriented side of my work: sensor hardware, installation, DAQ development, field measurements, cloud dashboards, and data visualization. The goal is to show the full path from physical measurement to engineering interpretation.
+This page is prepared as a field-work archive for my infrastructure monitoring experience. I have participated in more than 50 field experiments and deployments across bridge monitoring, vehicle load sensing, precast transportation, port structures, sensor installation, DAQ validation, and cloud-based data review.
+
+<div class="field-metrics">
+    <section>
+        <strong>50+</strong>
+        <span>field experiments and deployments</span>
+    </section>
+    <section>
+        <strong>4</strong>
+        <span>main field domains: bridges, vehicles, precast, ports</span>
+    </section>
+    <section>
+        <strong>Build to Data</strong>
+        <span>hardware, installation, DAQ, cloud, analysis</span>
+    </section>
+</div>
 
 <div class="field-gallery">
     <article>
-        <img src="{{ '/assets/images/projects/portfolio/portfolio-page-06.png' | relative_url }}" alt="Smart bridge IoT sensor and cloud monitoring system" />
+        <div class="field-placeholder">Image planned</div>
         <span>Hardware / Cloud</span>
         <h2>Smart bridge IoT monitoring system</h2>
         <p>Stand-alone sensing units, cloud upload, automated analysis, and dashboard visualization for bridge health monitoring.</p>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article>
-        <img src="{{ '/assets/images/projects/portfolio/portfolio-page-07.png' | relative_url }}" alt="Bridge field installation and measured response data" />
+        <div class="field-placeholder">Image planned</div>
         <span>Bridge Test</span>
         <h2>Field installation and response data</h2>
         <p>Sensor installation, measured response histories, field validation, and debugging under real bridge conditions.</p>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article>
-        <img src="{{ '/assets/images/projects/portfolio/portfolio-page-24.png' | relative_url }}" alt="Online bridge monitoring dashboard" />
+        <div class="field-placeholder">Image planned</div>
         <span>Visualization</span>
         <h2>Cloud monitoring dashboard</h2>
         <p>Online monitoring interface for sensor status, vibration, displacement, strain, temperature, and interpreted comments.</p>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article>
-        <img src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="WIM DAQ development and field signal processing" />
+        <div class="field-placeholder">Image planned</div>
         <span>DAQ / WIM</span>
         <h2>Vehicle load sensing and WIM DAQ</h2>
         <p>High-speed signal acquisition, field driving data, load interval detection, and vehicle-weight analysis workflows.</p>
         <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Related project</a>
     </article>
     <article>
-        <img src="{{ '/assets/images/projects/portfolio/portfolio-page-11.png' | relative_url }}" alt="Portable sensing system for precast transportation monitoring" />
+        <div class="field-placeholder">Image planned</div>
         <span>Precast</span>
         <h2>Portable sensing during transportation</h2>
         <p>Portable monitoring of strain, acceleration, tilt, and transport-stage response for precast concrete members.</p>
         <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Related project</a>
     </article>
     <article>
-        <img src="{{ '/assets/images/projects/portfolio/portfolio-page-19.png' | relative_url }}" alt="Port structure monitoring using packaged JANET sensors" />
+        <div class="field-placeholder">Image planned</div>
         <span>Port Structure</span>
         <h2>Quay wall event monitoring</h2>
         <p>Ruggedized sensor packaging, harsh-environment monitoring, cloud communication, and AI-assisted event analysis.</p>
