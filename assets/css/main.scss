@@ -935,8 +935,20 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .post-template .post-title {
+	margin-bottom: 10px;
 	color: var(--ink);
+	font-size: 40px;
+	line-height: 1.18;
 	letter-spacing: 0;
+}
+
+.post-template .post-meta {
+	display: block;
+	margin: 0 0 34px;
+	color: var(--muted);
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.4;
 }
 
 .post-template .content {
@@ -946,9 +958,13 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .post-template .post {
-	max-width: 920px;
+	max-width: 820px;
 	margin: 0 auto;
 	padding-bottom: 56px;
+}
+
+.post-template .post-content {
+	font-size: 17px;
 }
 
 .page-template .post-title {
