@@ -38,6 +38,27 @@ description: Biography, education, experience, technical skills, awards, CV, and
             <p>My recent work spans bridge health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart sensing devices, and AI-assisted event detection for civil infrastructure. I am especially interested in systems that move beyond lab prototypes into field deployment, long-term monitoring, patents, and practical engineering workflows.</p>
         </section>
 
+        <h2>Research Themes</h2>
+
+        <div class="theme-grid">
+            <section>
+                <h3>Bridge Monitoring</h3>
+                <p>Long-term field monitoring, load testing, displacement estimation, and cloud-based SHM workflows.</p>
+            </section>
+            <section>
+                <h3>WIM / OBM</h3>
+                <p>Vehicle load sensing, load-event detection, dynamic weight correction, and bridge load assessment.</p>
+            </section>
+            <section>
+                <h3>Smart IoT Sensors</h3>
+                <p>Low-power sensing hardware, wireless acquisition, embedded measurement logic, and field-ready packaging.</p>
+            </section>
+            <section>
+                <h3>Cloud & AI</h3>
+                <p>Cloud pipelines, data fusion, automated preprocessing, anomaly detection, and AI-assisted event recognition.</p>
+            </section>
+        </div>
+
         <h2>Education</h2>
 
         <div class="timeline">

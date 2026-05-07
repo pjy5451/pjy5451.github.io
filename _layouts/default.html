@@ -342,6 +342,39 @@
         });
       })();
 
+      (function() {
+        var filterBar = document.querySelector('[data-pub-filter-bar]');
+        if (!filterBar) {
+          return;
+        }
+
+        var buttons = Array.prototype.slice.call(filterBar.querySelectorAll('[data-pub-filter]'));
+        var entries = Array.prototype.slice.call(document.querySelectorAll('.pub-entry'));
+
+        function tagsFor(entry) {
+          return Array.prototype.slice.call(entry.querySelectorAll('.pub-tags span')).map(function(tag) {
+            return tag.textContent.trim();
+          });
+        }
+
+        function applyFilter(value) {
+          buttons.forEach(function(button) {
+            button.classList.toggle('is-active', button.getAttribute('data-pub-filter') === value);
+          });
+
+          entries.forEach(function(entry) {
+            var visible = value === 'all' || tagsFor(entry).indexOf(value) !== -1;
+            entry.hidden = !visible;
+          });
+        }
+
+        buttons.forEach(function(button) {
+          button.addEventListener('click', function() {
+            applyFilter(button.getAttribute('data-pub-filter'));
+          });
+        });
+      })();
+
       document.addEventListener('click', function(event) {
         var link = event.target.closest('[data-analytics-event="cv_download"]');
         if (!link || typeof gtag !== 'function') {

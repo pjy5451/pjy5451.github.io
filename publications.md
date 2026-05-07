@@ -13,6 +13,17 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
     <span>146 citations</span>
 </div>
 
+<div class="pub-filter-bar" data-pub-filter-bar aria-label="Filter publications by topic">
+    <button type="button" class="is-active" data-pub-filter="all">All</button>
+    <button type="button" data-pub-filter="Bridge">Bridge</button>
+    <button type="button" data-pub-filter="WIM/OBM">WIM/OBM</button>
+    <button type="button" data-pub-filter="IoT">IoT</button>
+    <button type="button" data-pub-filter="AI">AI</button>
+    <button type="button" data-pub-filter="Sensor">Sensor</button>
+    <button type="button" data-pub-filter="Cloud">Cloud</button>
+    <button type="button" data-pub-filter="Field">Field</button>
+</div>
+
 ## Journal Articles (10)
 
 <div class="pub-list">
