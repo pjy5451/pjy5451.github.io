@@ -13,10 +13,10 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
     <span>146 citations</span>
 </div>
 
-<div class="pub-filter-bar" data-pub-filter-bar aria-label="Filter publications by topic">
+<div class="pub-filter-bar" data-pub-filter-bar data-status-all="Showing all outputs" data-status-filtered="Showing filtered outputs" aria-label="Filter publications by topic">
     <button type="button" class="is-active" data-pub-filter="all">All</button>
     <button type="button" data-pub-filter="Bridge">Bridge</button>
-    <button type="button" data-pub-filter="WIM">WIM/OBM</button>
+    <button type="button" data-pub-filter="WIM|OBM">WIM/OBM</button>
     <button type="button" data-pub-filter="IoT">IoT</button>
     <button type="button" data-pub-filter="AI">AI</button>
     <button type="button" data-pub-filter="Sensor">Sensors</button>
@@ -24,6 +24,7 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
     <button type="button" data-pub-filter="Field">Field</button>
     <button type="button" data-pub-filter="Port">Ports</button>
 </div>
+<p class="pub-filter-status" data-pub-filter-status>Showing all outputs.</p>
 
 ## Journal Articles (10)
 

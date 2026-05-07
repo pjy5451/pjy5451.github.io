@@ -1151,7 +1151,7 @@ html[data-theme="dark"] .search-dialog {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
-	margin: 26px 0 30px;
+	margin: 26px 0 10px;
 }
 
 .pub-filter-bar button {
@@ -1169,9 +1169,29 @@ html[data-theme="dark"] .search-dialog {
 
 .pub-filter-bar button:hover,
 .pub-filter-bar button.is-active {
-	border-color: rgba(31, 111, 120, .45);
-	background: var(--button-hover);
-	color: var(--accent-strong);
+	border-color: rgba(31, 111, 120, .75);
+	background: var(--accent-strong);
+	box-shadow: 0 8px 18px rgba(31, 111, 120, .16);
+	color: #fff;
+}
+
+.pub-filter-status {
+	margin: 0 0 26px;
+	color: var(--muted);
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 1.4;
+}
+
+.pub-entry[hidden],
+.pub-list[hidden],
+.post-content h2[hidden] {
+	display: none !important;
+}
+
+html[data-theme="dark"] .pub-filter-bar button.is-active {
+	background: #5eb0ba;
+	color: #0f171b;
 }
 
 .pub-entry {
