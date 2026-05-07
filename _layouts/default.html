@@ -428,6 +428,60 @@
         applyFilter('all');
       })();
 
+      (function() {
+        var filterBar = document.querySelector('[data-field-filter-bar]');
+        if (!filterBar) {
+          return;
+        }
+
+        var buttons = Array.prototype.slice.call(filterBar.querySelectorAll('[data-field-filter]'));
+        var entries = Array.prototype.slice.call(document.querySelectorAll('[data-field-tags]'));
+        var status = document.querySelector('[data-field-filter-status]');
+        var allLabel = filterBar.getAttribute('data-status-all') || 'Showing all field work categories';
+        var filteredLabel = filterBar.getAttribute('data-status-filtered') || 'Showing filtered field work categories';
+
+        function fieldTagsFor(entry) {
+          return (entry.getAttribute('data-field-tags') || '').toLowerCase().split('|').map(function(tag) {
+            return tag.trim();
+          }).filter(Boolean);
+        }
+
+        function matchesFieldFilter(tags, value) {
+          value = value.toLowerCase();
+          return tags.indexOf(value) !== -1;
+        }
+
+        function applyFieldFilter(value) {
+          buttons.forEach(function(button) {
+            var active = button.getAttribute('data-field-filter') === value;
+            button.classList.toggle('is-active', active);
+            button.setAttribute('aria-pressed', active ? 'true' : 'false');
+          });
+
+          var visibleCount = 0;
+          entries.forEach(function(entry) {
+            var visible = value === 'all' || matchesFieldFilter(fieldTagsFor(entry), value);
+            entry.hidden = !visible;
+            if (visible) {
+              visibleCount += 1;
+            }
+          });
+
+          if (status) {
+            var label = value === 'all' ? allLabel : filteredLabel;
+            status.textContent = label + ': ' + visibleCount + ' / ' + entries.length;
+          }
+        }
+
+        buttons.forEach(function(button) {
+          button.addEventListener('click', function() {
+            applyFieldFilter(button.getAttribute('data-field-filter'));
+          });
+        });
+
+        applyFieldFilter('all');
+      })();
+
       document.addEventListener('click', function(event) {
         var link = event.target.closest('[data-analytics-event="cv_download"]');
         if (!link || typeof gtag !== 'function') {

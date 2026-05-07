@@ -34,8 +34,19 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
     </section>
 </div>
 
-<div class="field-gallery">
-    <article>
+<div class="pub-filter-bar field-filter-bar" data-field-filter-bar data-status-all="Showing all field work categories" data-status-filtered="Showing filtered field work categories" aria-label="Filter field work by topic">
+    <button type="button" class="is-active" data-field-filter="all">All</button>
+    <button type="button" data-field-filter="Bridge">Bridge</button>
+    <button type="button" data-field-filter="Vehicle">Vehicle</button>
+    <button type="button" data-field-filter="Precast">Precast</button>
+    <button type="button" data-field-filter="Port">Port</button>
+    <button type="button" data-field-filter="DAQ">DAQ</button>
+    <button type="button" data-field-filter="Cloud">Cloud</button>
+</div>
+<p class="pub-filter-status" data-field-filter-status>Showing all field work categories.</p>
+
+<div class="field-gallery" data-field-gallery>
+    <article data-field-tags="Bridge|Hardware|Cloud|Sensor">
         <div class="field-placeholder">Image planned</div>
         <span>Hardware / Cloud</span>
         <h2>Smart bridge IoT monitoring system</h2>
@@ -48,7 +59,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
-    <article>
+    <article data-field-tags="Bridge|Sensor|Installation|Field">
         <div class="field-placeholder">Image planned</div>
         <span>Bridge Test</span>
         <h2>Field installation and response data</h2>
@@ -61,7 +72,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
-    <article>
+    <article data-field-tags="Bridge|Cloud|Dashboard|Data">
         <div class="field-placeholder">Image planned</div>
         <span>Visualization</span>
         <h2>Cloud monitoring dashboard</h2>
@@ -74,7 +85,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
-    <article>
+    <article data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
         <div class="field-placeholder">Image planned</div>
         <span>DAQ / WIM</span>
         <h2>Vehicle load sensing and WIM DAQ</h2>
@@ -87,7 +98,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Related project</a>
     </article>
-    <article>
+    <article data-field-tags="Precast|Sensor|Transportation|Field">
         <div class="field-placeholder">Image planned</div>
         <span>Precast</span>
         <h2>Portable sensing during transportation</h2>
@@ -100,7 +111,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Related project</a>
     </article>
-    <article>
+    <article data-field-tags="Port|Sensor|Cloud|AI">
         <div class="field-placeholder">Image planned</div>
         <span>Port Structure</span>
         <h2>Quay wall event monitoring</h2>
