@@ -22,7 +22,7 @@ This project connects environmental sensing, QR-based data visualization, and ci
 
 Urban sensing systems often require communication infrastructure and dedicated maintenance. A citizen-assisted workflow can reduce communication hardware requirements by letting nearby users collect and upload sensor data through ordinary smartphones.
 
-## Approach
+## System
 
 - Built a low-power sensing concept for urban data such as tilt, sound, temperature, humidity, and odor-related measurements.
 - Used e-paper to display sensor data as QR codes.
@@ -48,6 +48,15 @@ I contributed to the sensing concept, QR visualization workflow, data collection
 
 The prototype was tested in an urban environment and evaluated through citizen feedback. The project received an award in a national land-development technology competition.
 
+## Data Workflow
+
+The workflow connects sensor measurement, QR-code visualization, smartphone-based collection, chatbot upload, and cloud-side data organization. It shows how low-power sensing can be paired with citizen participation instead of relying only on fixed communication infrastructure.
+
 ## Outputs
 
 This work is connected to patents and award records on citizen-participatory smart city sensing and sensor-data visualization.
+
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+</div>

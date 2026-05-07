@@ -22,7 +22,7 @@ This project developed a portable sensing workflow for monitoring precast concre
 
 Precast components can experience excessive vibration, strain, or support-condition problems during transportation, but these events are difficult to observe once the member leaves the fabrication yard.
 
-## Approach
+## System
 
 - Installed portable JANET sensors on precast panels and girders to measure acceleration, tilt, and strain.
 - Developed a transportation-stage assessment workflow for lifting, loading, driving, and installation phases.
@@ -54,9 +54,14 @@ I worked on field sensing, signal processing, monitoring workflow design, and va
 
 The workflow was tested with actual precast members in collaboration with industry partners. Field cases included precast slabs and concrete girders, where sensor installation procedures, support-condition effects, strap tightening, transport vibration, and data collection reliability were evaluated.
 
+## Data Workflow
+
+The system connects portable sensing, gateway collection, transport-stage data review, threshold-based safety interpretation, and cloud-side alert concepts. This makes the project a useful example of how field data can support construction-stage decision making before a structure is even in service.
+
 ## Outputs
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
     <a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Related Paper</a>
 </div>

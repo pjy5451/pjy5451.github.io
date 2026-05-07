@@ -22,7 +22,7 @@ This project developed a low-cost IoT earthquake sensing and notification concep
 
 Earthquake notification systems need fast event detection, low-cost deployment, and reliable discrimination between meaningful seismic events and ordinary vibration sources.
 
-## Approach
+## System
 
 - Developed a smart sensor concept with low-power BLE communication.
 - Implemented real-time trigger logic using STA/LTA-based event detection.
@@ -48,9 +48,14 @@ I worked on the sensing concept, real-time detection logic, algorithm testing, a
 
 The system was tested using shaking-table inputs and successfully classified multiple input waveforms during competition validation. The project received the Minister of the Interior and Safety Award in a national earthquake response idea competition.
 
+## Data Workflow
+
+The sensing logic connects event triggering, waveform classification, nearby notification, and validation against controlled vibration inputs. This early project established the pattern of combining embedded sensing with interpretable event detection.
+
 ## Outputs
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/1424-8220/20/10/2963">Related Paper</a>
 </div>

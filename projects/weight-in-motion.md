@@ -22,7 +22,7 @@ This project develops automated analysis methods and measurement hardware for hi
 
 Bridge load assessment and overload enforcement require reliable extraction of vehicle load events from noisy, high-speed field measurements. Manual segmentation is difficult to scale and sensitive to operator judgment.
 
-## Approach
+## System
 
 - Converted WIM-related sensing records into analysis-ready representations for object detection.
 - Applied YOLO-based detection to identify load-generation intervals automatically.
@@ -30,6 +30,14 @@ Bridge load assessment and overload enforcement require reliable extraction of v
 - Contributed to WIM DAQ design that replaces bulky measurement equipment with a smaller dedicated acquisition board.
 - Reworked scale-factor and weight-estimation logic under differences between lab equipment and field measurement conditions.
 - Connected load interval detection with dynamic weight correction and bridge load assessment workflows.
+
+## Field Deployment
+
+The work is grounded in real driving and high-speed measurement conditions rather than only simulated signals. Field data are used to check signal quality, load interval visibility, sampling requirements, DAQ stability, and the effect of vehicle speed and dynamic response on weight estimation.
+
+## Data Workflow
+
+Raw WIM signals are converted into event-oriented datasets for preprocessing, visualization, object-detection labeling, YOLO-based interval recognition, and post-detection interpretation. This workflow links the sensing hardware layer to automated analysis that can support bridge load assessment and freight safety applications.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/weight-in-motion.svg' | relative_url }}" alt="Weight-in-motion signal detection workflow" />
@@ -40,7 +48,7 @@ Bridge load assessment and overload enforcement require reliable extraction of v
 
 My work focuses on turning raw field sensing records into a detection pipeline that can identify relevant load-event intervals and support automated analysis for structural load assessment. I also work on measurement-system design decisions such as analog signal acquisition, filtering, and field-ready DAQ structure.
 
-## Results
+## Outcome
 
 The project is connected to journal and patent work on automatic load-event interval recognition, real-time correction methods, and WIM-based bridge monitoring.
 
@@ -48,5 +56,6 @@ The project is connected to journal and patent work on automatic load-event inte
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">Related Paper</a>
+    <a href="https://kscejournal.or.kr/jksce/XmlViewer/f450650">Related Paper</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
 </div>

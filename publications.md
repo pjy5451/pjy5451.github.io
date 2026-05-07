@@ -10,6 +10,7 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
 <div class="pub-summary">
     <p>Selected journal articles, preprints, working papers, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
     <span>146 citations</span>
 </div>
 

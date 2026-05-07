@@ -22,13 +22,21 @@ This project focuses on on-board monitoring for dynamic truck state measurement 
 
 Vehicle loads measured under real driving conditions are affected by speed, vibration, suspension behavior, and road conditions. A practical monitoring workflow needs both robust sensing and signal correction methods.
 
-## Approach
+## System
 
 - Designed sensing and analysis workflows for vehicle state measurement.
 - Applied FIR filter-based signal processing for real-time dynamic weight correction.
 - Connected on-board measurements with field-ready monitoring and data validation procedures.
 - Developed analysis logic for interpreting dynamic vehicle load signals under speed, vibration, and road-condition effects.
 - Connected OBM concepts with WIM field data so that vehicle-state information can support bridge load assessment and freight safety applications.
+
+## Field Deployment
+
+The project is designed around vehicle measurements under real operating conditions, where signals are affected by speed, vibration, suspension response, and road surface variability. This makes the field workflow as important as the correction algorithm itself.
+
+## Data Workflow
+
+The monitoring process connects vehicle-state sensing, raw signal acquisition, filtering, dynamic weight correction, and validation against WIM-related field data. The long-term goal is to support both vehicle load monitoring and infrastructure load assessment with a practical data pipeline.
 
 <figure class="project-body-figure">
     <img src="{{ '/assets/images/projects/onboard-monitoring.svg' | relative_url }}" alt="On-board vehicle monitoring workflow for dynamic load correction" />
@@ -39,7 +47,7 @@ Vehicle loads measured under real driving conditions are affected by speed, vibr
 
 I work on research and applied development around sensing workflows, signal correction, and analysis methods for dynamic vehicle load monitoring.
 
-## Results
+## Outcome
 
 This project is connected to ongoing patent work on real-time correction methods for dynamic truck operating weight.
 
@@ -47,4 +55,5 @@ This project is connected to ongoing patent work on real-time correction methods
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
 </div>

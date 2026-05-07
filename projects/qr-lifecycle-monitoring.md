@@ -22,7 +22,7 @@ This project explores QR-linked lifecycle monitoring for infrastructure componen
 
 Long-term infrastructure monitoring often requires communication modules, battery maintenance, or manual data handling. For embedded or distributed sensors, a lightweight method is needed to expose accumulated measurement histories without complex network infrastructure.
 
-## Approach
+## System
 
 - Designed a low-power strain monitoring concept that can wake periodically and record long-term measurements.
 - Visualized accumulated sensing data as QR codes on an e-paper display.
@@ -54,6 +54,15 @@ I contributed to the sensing concept, data collection workflow, QR-based visuali
 
 The concept was applied to bridge-related field monitoring with embedded strain gauges and QR-based periodic data acquisition. The workflow was also extended toward citizen-assisted and robot-assisted data collection scenarios.
 
+## Data Workflow
+
+The system connects embedded strain measurement, local QR visualization, smartphone or chatbot-based upload, cloud storage, and AI-assisted report generation. It is a field-oriented alternative for cases where always-on communication is difficult to maintain.
+
 ## Outputs
 
 This work is connected to patents and project outcomes on QR-based sensing, long-term monitoring, and citizen-assisted data acquisition.
+
+<div class="pub-actions resource-links">
+    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+</div>

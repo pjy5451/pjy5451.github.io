@@ -22,7 +22,7 @@ This project developed a scalable bridge monitoring framework that connects stan
 
 Conventional bridge load testing and periodic inspection require substantial labor and are difficult to scale across aging infrastructure. Reference-based displacement measurement is also limited in many field environments where fixed ground references are unavailable.
 
-## Approach
+## System
 
 - Designed an IoT sensing workflow for synchronized strain and acceleration measurement.
 - Built a cloud-based data pipeline for wireless upload, database storage, dashboard visualization, and automated analysis.
@@ -53,12 +53,17 @@ I worked across the monitoring concept, sensing workflow, cloud data handling, d
 
 The system was deployed on real bridges including Paldang Overpass, Cheongdam Bridge, and Seongsan Bridge. During development it was applied to more than ten bridge inspection and diagnostic sites by 2022, and later expanded to more than twenty field applications. The field work helped move the system from a laboratory prototype toward a practical long-term monitoring workflow.
 
+## Data Workflow
+
+The monitoring workflow connects synchronized strain and acceleration sensing, cloud upload, database storage, automated FFT analysis, displacement estimation, dashboard visualization, and engineering interpretation. This full chain is the main reason the project works as a field system rather than only a sensing experiment.
+
 ## Outputs
 
 The work produced journal publications, conference presentations, patent records, and contributed to Korean Construction New Technology No. 959 registration related to bridge monitoring, IoT sensing, and cloud-based data preprocessing.
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
     <a href="https://arxiv.org/abs/2209.12186">Preprint</a>
     <a href="https://www.mdpi.com/1424-8220/21/16/5647">Related Paper</a>
 </div>
