@@ -4,57 +4,16 @@ title: Notes
 no_site_suffix: true
 lang: en
 ko_url: /ko/blog.html
-description: Notes, field logs, research activities, technical writing, proposal experience, and professional updates from Junyoung Park.
+description: A chronological list of short notes, personal logs, technical memos, and working reflections from Junyoung Park.
 ---
 
-This page collects short writing that does not fit neatly into formal publications or project pages. I plan to use it as a lightweight research notebook for coursework reviews, technical notes, field logs, and project reflections.
-
-## Note Categories
-
-<div class="note-category-grid">
-    <section class="note-category">
-        <span>Coursework</span>
-        <h3>Concepts I Want to Keep</h3>
-        <p>Short reviews of graduate and undergraduate topics such as structural dynamics, finite element analysis, probability, optimization, machine learning, signal processing, and statistics, written from the perspective of how they are used in infrastructure monitoring.</p>
-    </section>
-    <section class="note-category">
-        <span>Technical Notes</span>
-        <h3>Methods, Code, and Data</h3>
-        <p>Practical notes on sensor preprocessing, filtering, FFT, FIR correction, YOLO-based event detection, time synchronization, cloud databases, MATLAB/Python workflows, and lessons learned while building monitoring pipelines.</p>
-    </section>
-    <section class="note-category">
-        <span>Field Notes</span>
-        <h3>Deployment Lessons</h3>
-        <p>Observations from bridge tests, precast transportation monitoring, sensor packaging, power and communication issues, installation details, data loss, and the small decisions that make field monitoring systems actually work.</p>
-    </section>
-</div>
-
-## Activities
-
-<div class="activity-list">
-    <article>
-        <h3>University of Hawaii Research Visit</h3>
-        <p>Visited Prof. Dosoo Moon's laboratory in 2022 to discuss field use cases for JANET sensors, present ongoing research, and exchange sensor-debugging experience with local students.</p>
-    </article>
-    <article>
-        <h3>Proposal and Project Development</h3>
-        <p>Contributed to research proposals and applied project documents across infrastructure monitoring, sensing systems, bridge diagnostics, freight monitoring, and AI-assisted civil infrastructure.</p>
-    </article>
-    <article>
-        <h3>Writing Backlog</h3>
-        <p>Future notes will collect field observations, data-processing lessons, hardware debugging records, and short reflections from applied monitoring projects.</p>
-    </article>
-</div>
-
-## Notes
+Short notes, personal logs, technical memos, and working reflections while organizing my research, projects, field experience, and career materials.
 
 <div class="note-index archive-list">
-{% assign en_posts = site.posts | where_exp: "post", "post.lang != 'ko'" %}
-{% for post in en_posts %}
+{% for post in site.posts %}
     <article class="note-row">
         <div class="note-row-meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y.%m.%d" }}</time>
-            <span>{{ post.note_category | default: post.categories.first | default: "Note" }}</span>
         </div>
         <div class="note-row-body">
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -64,11 +23,11 @@ This page collects short writing that does not fit neatly into formal publicatio
 {% else %}
     <article class="note-row is-empty">
         <div class="note-row-meta">
-            <span>Coming Soon</span>
+            <time>Coming Soon</time>
         </div>
         <div class="note-row-body">
             <h3>Notes coming soon</h3>
-            <p>Coursework reviews, technical notes, project logs, and field records will be added here over time.</p>
+            <p>Short personal logs, technical memos, and working notes will be added here over time.</p>
         </div>
     </article>
 {% endfor %}
