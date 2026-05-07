@@ -10,7 +10,7 @@
         <a href="{% if is_ko %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{% if is_ko %}Home{% else %}Home{% endif %}</a>
         <a href="{% if is_ko %}{{ '/ko/about.html' | relative_url }}{% else %}{{ '/about.html' | relative_url }}{% endif %}">About</a>
         <a href="{{ '/projects.html' | relative_url }}">Projects</a>
-        <a href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}">Publications & Patents</a>
+        <a href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}">Publications</a>
         <a href="{{ '/blog.html' | relative_url }}">Notes</a>
         <button class="nav-search-toggle" type="button" data-search-toggle aria-label="Search this site">
             <svg viewBox="0 0 24 24" aria-hidden="true">

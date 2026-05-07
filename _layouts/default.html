@@ -357,13 +357,19 @@
           });
         }
 
+        function matchesFilter(tags, value) {
+          return tags.some(function(tag) {
+            return tag === value || tag.indexOf(value) !== -1;
+          });
+        }
+
         function applyFilter(value) {
           buttons.forEach(function(button) {
             button.classList.toggle('is-active', button.getAttribute('data-pub-filter') === value);
           });
 
           entries.forEach(function(entry) {
-            var visible = value === 'all' || tagsFor(entry).indexOf(value) !== -1;
+            var visible = value === 'all' || matchesFilter(tagsFor(entry), value);
             entry.hidden = !visible;
           });
         }

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications & Patents
+title: Publications
 no_site_suffix: true
 lang: en
 ko_url: /ko/publications.html
