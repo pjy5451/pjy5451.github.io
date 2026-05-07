@@ -322,8 +322,8 @@ html[data-theme="dark"] .post-footer {
 .hero-copy h1 {
 	margin: 0;
 	color: var(--ink);
-	font-size: clamp(42px, 6vw, 72px);
-	line-height: 1;
+	font-size: clamp(36px, 4.8vw, 58px);
+	line-height: 1.08;
 	letter-spacing: 0;
 }
 
@@ -1562,7 +1562,7 @@ html[data-theme="dark"] .project-body-figure img {
 	}
 
 	.hero-copy h1 {
-		font-size: 48px;
+		font-size: 40px;
 	}
 
 	.hero-subtitle {
