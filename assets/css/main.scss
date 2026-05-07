@@ -1325,8 +1325,8 @@ html[data-theme="dark"] .pub-filter-bar button.is-active {
 .pub-tags {
 	grid-column: 1;
 	grid-row: 2;
-	display: flex;
-	flex-wrap: wrap;
+	display: grid;
+	justify-items: start;
 	align-content: flex-start;
 	gap: 4px;
 	margin-top: 0;
@@ -1345,6 +1345,12 @@ html[data-theme="dark"] .pub-filter-bar button.is-active {
 	font-weight: 700;
 	line-height: 1;
 	white-space: nowrap;
+}
+
+.pub-tags span.is-filter-match {
+	border-color: rgba(171, 111, 36, .42);
+	background: rgba(171, 111, 36, .1);
+	color: var(--warm);
 }
 
 .pub-tags span::before {
@@ -1641,10 +1647,12 @@ html[data-theme="dark"] .project-body-figure img {
 
 .field-card-details div {
 	display: grid;
-	grid-template-columns: 72px minmax(0, 1fr);
-	gap: 10px;
+	grid-template-columns: minmax(58px, max-content) minmax(0, 1fr);
+	gap: 12px;
 	padding-top: 6px;
 	border-top: 1px solid var(--line);
+	align-items: start;
+	min-width: 0;
 }
 
 .field-card-details dt,
@@ -1658,10 +1666,13 @@ html[data-theme="dark"] .project-body-figure img {
 	color: var(--accent-strong);
 	font-weight: 800;
 	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .field-card-details dd {
 	color: var(--muted);
+	overflow-wrap: anywhere;
+	word-break: normal;
 }
 
 .field-gallery a {

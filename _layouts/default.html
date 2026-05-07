@@ -364,10 +364,22 @@
           });
         }
 
+        function filterValues(value) {
+          return value.toLowerCase().split('|');
+        }
+
         function matchesFilter(tags, value) {
-          var values = value.toLowerCase().split('|');
+          var values = filterValues(value);
           return tags.some(function(tag) {
             return values.indexOf(tag) !== -1;
+          });
+        }
+
+        function syncHighlightedTags(entry, value) {
+          var values = value === 'all' ? [] : filterValues(value);
+          Array.prototype.slice.call(entry.querySelectorAll('.pub-tags span')).forEach(function(tag) {
+            var active = values.indexOf(tag.textContent.trim().toLowerCase()) !== -1;
+            tag.classList.toggle('is-filter-match', active);
           });
         }
 
@@ -382,6 +394,7 @@
           entries.forEach(function(entry) {
             var visible = value === 'all' || matchesFilter(tagsFor(entry), value);
             entry.hidden = !visible;
+            syncHighlightedTags(entry, value);
             if (visible) {
               visibleCount += 1;
             }
