@@ -944,7 +944,7 @@ html[data-theme="dark"] .search-dialog {
 
 .post-template .post-meta {
 	display: block;
-	margin: 0 0 34px;
+	margin: 0 0 28px;
 	color: var(--muted);
 	font-size: 13px;
 	font-weight: 700;
@@ -965,6 +965,50 @@ html[data-theme="dark"] .search-dialog {
 
 .post-template .post-content {
 	font-size: 17px;
+}
+
+.post-template .post-content p {
+	margin: 0 0 1em;
+}
+
+.post-nav {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 14px;
+	margin: 42px 0 0;
+	padding-top: 18px;
+	border-top: 1px solid var(--line);
+}
+
+.post-nav-link {
+	display: block;
+	padding: 14px 0;
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.post-nav-link span {
+	display: block;
+	margin-bottom: 6px;
+	color: var(--muted);
+	font-size: 12px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.post-nav-link strong {
+	display: block;
+	font-size: 15px;
+	line-height: 1.35;
+}
+
+.post-nav-link.next {
+	text-align: right;
+}
+
+.post-nav-link:hover strong {
+	color: var(--accent);
+	text-decoration: underline;
 }
 
 .page-template .post-title {
@@ -2005,6 +2049,14 @@ html[data-theme="dark"] .project-body-figure img {
 		flex-wrap: wrap;
 		align-items: center;
 		gap: 8px;
+	}
+
+	.post-nav {
+		grid-template-columns: 1fr;
+	}
+
+	.post-nav-link.next {
+		text-align: left;
 	}
 
 	.skills-grid {
