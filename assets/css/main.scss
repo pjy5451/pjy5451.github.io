@@ -1357,22 +1357,6 @@ html[data-theme="dark"] .pub-filter-bar button.is-active {
 	opacity: .75;
 }
 
-.pub-tags span:nth-child(2n) {
-	border-color: rgba(171, 111, 36, .22);
-	background: rgba(171, 111, 36, .06);
-	color: var(--warm);
-}
-
-.pub-tags span:nth-child(3n) {
-	border-color: rgba(65, 100, 125, .2);
-	background: rgba(65, 100, 125, .065);
-	color: #41647d;
-}
-
-html[data-theme="dark"] .pub-tags span:nth-child(3n) {
-	color: #9db7c9;
-}
-
 .pub-actions {
 	display: flex;
 	flex-wrap: wrap;
