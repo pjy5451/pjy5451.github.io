@@ -30,10 +30,10 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
     <article class="pub-entry">
         <div class="pub-year">2026</div>
             <div class="pub-tags"><span>WIM/OBM</span><span>AI</span><span>Field</span></div><div class="pub-body">
-            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems</a></h3>
+            <h3><a href="https://kscejournal.or.kr/jksce/XmlViewer/f450650">YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems</a></h3>
             <p class="pub-authors"><strong>Junyoung Park</strong>, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung</p>
             <p class="pub-venue">Journal of the Korean Society of Civil Engineers, 46(1), 95-104</p>
-            <div class="pub-actions"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:8k81kl-MbHgC">Scholar</a><a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project</a></div>
+            <div class="pub-actions"><a href="https://kscejournal.or.kr/jksce/XmlViewer/f450650">Source Document</a><a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project</a></div>
         </div>
     </article>
 
