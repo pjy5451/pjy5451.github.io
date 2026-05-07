@@ -608,9 +608,16 @@ html[data-theme="dark"] .quick-facts {
 	text-decoration: none;
 }
 
-.note-list {
+.note-list,
+.note-index {
 	display: grid;
 	gap: 14px;
+}
+
+.note-index {
+	gap: 0;
+	margin-top: 24px;
+	border-top: 1px solid var(--line);
 }
 
 .note-category-grid,
@@ -665,6 +672,61 @@ html[data-theme="dark"] .quick-facts {
 .note-item h3 a {
 	color: var(--ink);
 	text-decoration: none;
+}
+
+.note-row {
+	display: grid;
+	grid-template-columns: 150px minmax(0, 1fr);
+	gap: 24px;
+	padding: 18px 0;
+	border-bottom: 1px solid var(--line);
+}
+
+.note-row-meta {
+	display: grid;
+	align-content: start;
+	gap: 7px;
+}
+
+.note-row-meta time,
+.note-row-meta span {
+	color: var(--muted);
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.25;
+}
+
+.note-row-meta span {
+	width: max-content;
+	max-width: 100%;
+	padding: 5px 8px;
+	border: 1px solid rgba(31, 111, 120, .18);
+	border-radius: 999px;
+	background: rgba(31, 111, 120, .055);
+	color: var(--accent-strong);
+}
+
+.note-row-body h3 {
+	margin: 0 0 6px;
+	font-size: 18px;
+	line-height: 1.35;
+}
+
+.note-row-body h3 a {
+	color: var(--ink);
+	text-decoration: none;
+}
+
+.note-row-body h3 a:hover {
+	color: var(--accent);
+	text-decoration: underline;
+}
+
+.note-row-body p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 14px;
+	line-height: 1.6;
 }
 
 .text-link {
@@ -1709,6 +1771,18 @@ html[data-theme="dark"] .project-body-figure img {
 	.award-list li {
 		grid-template-columns: 1fr;
 		gap: 2px;
+	}
+
+	.note-row {
+		grid-template-columns: 1fr;
+		gap: 8px;
+	}
+
+	.note-row-meta {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
 	}
 
 	.skills-grid {

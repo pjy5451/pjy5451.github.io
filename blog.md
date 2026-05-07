@@ -48,17 +48,27 @@ This page collects short writing that does not fit neatly into formal publicatio
 
 ## Notes
 
-<div class="note-list archive-list">
+<div class="note-index archive-list">
 {% for post in site.posts %}
-    <article class="note-item">
-        <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_string }}</time>
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt | strip_html | truncate: 180 }}</p>
+    <article class="note-row">
+        <div class="note-row-meta">
+            <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+            <span>{{ post.note_category | default: post.categories.first | default: "Note" }}</span>
+        </div>
+        <div class="note-row-body">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p>{{ post.description | default: post.excerpt | strip_html | truncate: 180 }}</p>
+        </div>
     </article>
 {% else %}
-    <article class="note-item">
-        <h3>Notes coming soon</h3>
-        <p>Coursework reviews, technical notes, project logs, and field records will be added here over time.</p>
+    <article class="note-row is-empty">
+        <div class="note-row-meta">
+            <span>Coming Soon</span>
+        </div>
+        <div class="note-row-body">
+            <h3>Notes coming soon</h3>
+            <p>Coursework reviews, technical notes, project logs, and field records will be added here over time.</p>
+        </div>
     </article>
 {% endfor %}
 </div>
