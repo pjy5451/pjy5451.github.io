@@ -4,7 +4,7 @@ title: About
 no_site_suffix: true
 lang: en
 ko_url: /ko/about.html
-description: Biography, education, experience, technical skills, awards, CV, and research interests of Junyoung Park in structural health monitoring, IoT sensing, and infrastructure data analysis.
+description: Research profile, selected background, technical skills, awards, and CV link for Junyoung Park in structural health monitoring, IoT sensing, and infrastructure data analysis.
 ---
 
 <div class="bio-layout">
@@ -37,6 +37,12 @@ description: Biography, education, experience, technical skills, awards, CV, and
             <p>I develop field sensing systems that turn infrastructure measurements into engineering evidence. My work connects IoT sensors, embedded hardware, cloud-based data pipelines, field experiments, and AI-assisted analysis for bridges and other civil infrastructure.</p>
             <p>My research and applied development focus on structural health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart IoT sensing devices, and event detection from noisy field data. I am especially interested in systems that move beyond laboratory prototypes into long-term deployment, patentable methods, and practical workflows for infrastructure engineers.</p>
         </section>
+
+        <div class="cv-note">
+            <strong>How to read this site</strong>
+            <p>This website highlights selected projects, field experience, publications, and technical direction. The CV keeps the full chronological record of education, appointments, awards, publications, patents, and other formal details.</p>
+            <a href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">Download CV</a>
+        </div>
 
         <h2>Research Themes</h2>
 
