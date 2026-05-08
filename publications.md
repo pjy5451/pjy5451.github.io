@@ -4,11 +4,11 @@ title: Publications
 no_site_suffix: true
 lang: en
 ko_url: /ko/publications.html
-description: Journal articles, preprints, patents, and research outputs by Junyoung Park in structural health monitoring, IoT sensing, smart infrastructure, and data-driven infrastructure.
+description: Journal articles, preprints, conference presentations, patents, and research outputs by Junyoung Park in structural health monitoring, IoT sensing, smart infrastructure, and data-driven infrastructure.
 ---
 
 <div class="pub-summary">
-    <p>Selected journal articles, preprints, working papers, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
+    <p>Selected journal articles, preprints, conference presentations, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
     <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
     <span>146 citations</span>
@@ -23,6 +23,7 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
     <button type="button" data-pub-filter="Sensor">Sensors</button>
     <button type="button" data-pub-filter="Cloud">Cloud</button>
     <button type="button" data-pub-filter="Field">Field</button>
+    <button type="button" data-pub-filter="Conference">Conference</button>
     <button type="button" data-pub-filter="Port">Ports</button>
 </div>
 <p class="pub-filter-status" data-pub-filter-status>Showing all outputs.</p>
@@ -163,6 +164,16 @@ description: Journal articles, preprints, patents, and research outputs by Junyo
             <div class="pub-actions"><a href="https://arxiv.org/abs/2209.13646">Preprint</a><a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Project</a><span>Cited by 1</span></div>
         </div>
     </article>
+</div>
+
+## Conference Presentations
+
+<div class="conference-note">
+    <p>Selected conference presentations will be organized here with title, venue, year, role, topic tags, and related project links.</p>
+    <ul>
+        <li><strong>Recommended fields</strong> Title, authors, conference, location, date, presentation type, and related project.</li>
+        <li><strong>Useful tags</strong> Bridge, WIM/OBM, IoT, Sensor, AI, Field, Cloud, Port, Precast.</li>
+    </ul>
 </div>
 
 ## Patents (8)
