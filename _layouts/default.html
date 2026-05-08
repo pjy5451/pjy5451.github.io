@@ -484,6 +484,55 @@
       })();
 
       (function() {
+        var filterBar = document.querySelector('[data-note-filter-bar]');
+        if (!filterBar) {
+          return;
+        }
+
+        var buttons = Array.prototype.slice.call(filterBar.querySelectorAll('[data-note-filter]'));
+        var entries = Array.prototype.slice.call(document.querySelectorAll('[data-note-category]'));
+        var status = document.querySelector('[data-note-filter-status]');
+        var allLabel = filterBar.getAttribute('data-status-all') || 'Showing all notes';
+        var filteredLabel = filterBar.getAttribute('data-status-filtered') || 'Showing filtered notes';
+
+        function categoryFor(entry) {
+          return (entry.getAttribute('data-note-category') || '').toLowerCase().trim();
+        }
+
+        function applyNoteFilter(value) {
+          value = value.toLowerCase();
+
+          buttons.forEach(function(button) {
+            var active = button.getAttribute('data-note-filter') === value;
+            button.classList.toggle('is-active', active);
+            button.setAttribute('aria-pressed', active ? 'true' : 'false');
+          });
+
+          var visibleCount = 0;
+          entries.forEach(function(entry) {
+            var visible = value === 'all' || categoryFor(entry) === value;
+            entry.hidden = !visible;
+            if (visible) {
+              visibleCount += 1;
+            }
+          });
+
+          if (status) {
+            var label = value === 'all' ? allLabel : filteredLabel;
+            status.textContent = label + ': ' + visibleCount + ' / ' + entries.length;
+          }
+        }
+
+        buttons.forEach(function(button) {
+          button.addEventListener('click', function() {
+            applyNoteFilter(button.getAttribute('data-note-filter'));
+          });
+        });
+
+        applyNoteFilter('all');
+      })();
+
+      (function() {
         var filterBar = document.querySelector('[data-field-filter-bar]');
         if (!filterBar) {
           return;

@@ -4,7 +4,7 @@ title: "개인 웹페이지를 다시 꾸미며"
 date: 2026-05-07 00:00:00 +0900
 categories: notes
 lang: ko
-note_category: Miscellaneous
+note_category: Personal Log
 description: 바이브코딩을 계기로 미뤄왔던 개인 웹페이지 정리를 다시 시작하며 남기는 첫 기록.
 ---
 

@@ -96,7 +96,7 @@ html {
 body {
 	color: var(--ink);
 	background: var(--paper);
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Pretendard Variable", Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Open Sans", Arial, sans-serif;
 	letter-spacing: 0;
 }
 
@@ -157,7 +157,7 @@ a {
 	align-items: center;
 	justify-content: space-between;
 	gap: 24px;
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Pretendard Variable", Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Open Sans", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.4;
 	background: rgba(255, 255, 255, .92);
@@ -819,19 +819,18 @@ html[data-theme="dark"] .feature-metrics span {
 	gap: 7px;
 }
 
-.note-lanes {
+.note-filter-bar {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 8px;
-	margin: 20px 0 10px;
-	padding: 0;
-	list-style: none;
+	margin: 20px 0 8px;
 }
 
-.note-lanes li,
+.note-filter-bar button,
 .note-label {
 	display: inline-flex;
 	align-items: center;
+	justify-content: center;
 	width: max-content;
 	max-width: 100%;
 	min-height: 24px;
@@ -840,9 +839,36 @@ html[data-theme="dark"] .feature-metrics span {
 	border-radius: 999px;
 	background: var(--button-bg);
 	color: var(--muted);
+	font: inherit;
 	font-size: 11px;
 	font-weight: 800;
 	line-height: 1;
+}
+
+.note-filter-bar button {
+	cursor: pointer;
+	transition: border-color .16s ease, background .16s ease, color .16s ease;
+}
+
+.note-filter-bar button:hover,
+.note-filter-bar button.is-active {
+	border-color: rgba(31, 111, 120, .36);
+	background: rgba(31, 111, 120, .08);
+	color: var(--accent-strong);
+}
+
+html[data-theme="dark"] .note-filter-bar button.is-active {
+	border-color: rgba(121, 201, 208, .36);
+	background: rgba(121, 201, 208, .1);
+	color: var(--accent-strong);
+}
+
+.note-filter-status {
+	min-height: 18px;
+	margin: 0 0 12px;
+	color: var(--muted);
+	font-size: 12px;
+	font-weight: 700;
 }
 
 .note-row-meta time {
