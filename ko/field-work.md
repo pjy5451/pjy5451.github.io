@@ -45,8 +45,38 @@ keywords:
 </div>
 <p class="pub-filter-status" data-field-filter-status>전체 현장 작업 카테고리 표시 중.</p>
 
+<div class="field-project-map">
+    <section>
+        <span>Bridge</span>
+        <h2>교량 재하시험과 장기 모니터링</h2>
+        <p>센서 설치, 클라우드 모니터링, 응답 이력, 변위 추정, QR 기반 생애주기 기록으로 이어지는 현장 경험입니다.</p>
+        <div class="pub-actions">
+            <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">교량 모니터링</a>
+            <a href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">QR 생애주기</a>
+        </div>
+    </section>
+    <section>
+        <span>Vehicle</span>
+        <h2>WIM 및 On-board monitoring</h2>
+        <p>고속 DAQ, 하중 구간 탐지, 화물차 동적 중량 보정, 실도로 주행 데이터 검토를 연결합니다.</p>
+        <div class="pub-actions">
+            <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">WIM 탐지</a>
+            <a href="{{ '/projects/onboard-monitoring.html' | relative_url }}">OBM 보정</a>
+        </div>
+    </section>
+    <section>
+        <span>Deployments</span>
+        <h2>프리캐스트, 항만, 현장형 센싱</h2>
+        <p>이동형 센싱, 방수 패키징, 운송 단계 모니터링, 열악한 환경에서의 이벤트 분석을 다룹니다.</p>
+        <div class="pub-actions">
+            <a href="{{ '/projects/portable-sensing.html' | relative_url }}">프리캐스트 센싱</a>
+            <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">안벽 모니터링</a>
+        </div>
+    </section>
+</div>
+
 <div class="field-gallery" data-field-gallery>
-    <article data-field-tags="Bridge|Hardware|Cloud|Sensor">
+    <article id="bridge-monitoring-field" data-field-tags="Bridge|Hardware|Cloud|Sensor">
         <div class="field-placeholder">Image planned</div>
         <span>Hardware / Cloud</span>
         <h2>스마트 교량 IoT 모니터링 시스템</h2>
@@ -59,7 +89,7 @@ keywords:
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
     </article>
-    <article data-field-tags="Bridge|Sensor|Installation|Field">
+    <article id="bridge-installation-field" data-field-tags="Bridge|Sensor|Installation|Field">
         <div class="field-placeholder">Image planned</div>
         <span>Bridge Test</span>
         <h2>현장 설치와 응답 데이터</h2>
@@ -72,7 +102,7 @@ keywords:
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
     </article>
-    <article data-field-tags="Bridge|Cloud|Dashboard|Data">
+    <article id="cloud-dashboard-field" data-field-tags="Bridge|Cloud|Dashboard|Data">
         <div class="field-placeholder">Image planned</div>
         <span>Visualization</span>
         <h2>클라우드 모니터링 대시보드</h2>
@@ -85,7 +115,7 @@ keywords:
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
     </article>
-    <article data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
+    <article id="vehicle-load-field" data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
         <div class="field-placeholder">Image planned</div>
         <span>DAQ / WIM</span>
         <h2>차량 하중 센싱과 WIM DAQ</h2>
@@ -98,7 +128,7 @@ keywords:
         </dl>
         <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">관련 프로젝트</a>
     </article>
-    <article data-field-tags="Precast|Sensor|Transportation|Field">
+    <article id="precast-transport-field" data-field-tags="Precast|Sensor|Transportation|Field">
         <div class="field-placeholder">Image planned</div>
         <span>Precast</span>
         <h2>프리캐스트 운송 중 휴대형 센싱</h2>
@@ -111,7 +141,7 @@ keywords:
         </dl>
         <a href="{{ '/projects/portable-sensing.html' | relative_url }}">관련 프로젝트</a>
     </article>
-    <article data-field-tags="Port|Sensor|Cloud|AI">
+    <article id="port-monitoring-field" data-field-tags="Port|Sensor|Cloud|AI">
         <div class="field-placeholder">Image planned</div>
         <span>Port Structure</span>
         <h2>안벽 이벤트 모니터링</h2>

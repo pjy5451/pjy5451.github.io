@@ -18,11 +18,19 @@ This project developed a multisensory monitoring workflow for port and quay wall
     <li><strong>Scope</strong>Waterproof sensor packaging, solar-powered operation, LTE-M cloud upload, event analysis, and AI-assisted monitoring.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Port structures can experience berthing, impact, and environmental events that are difficult to monitor continuously with conventional inspection alone. A field system needs to detect events, synchronize sensor data, and support interpretable analysis.
 
-## System
+## System / Method {#system}
 
 - Used wireless multisensory monitoring to collect event-related measurements from quay wall structures.
 - Applied AI-based recognition to classify or detect event patterns.
@@ -31,7 +39,7 @@ Port structures can experience berthing, impact, and environmental events that a
 - Packaged JANET sensors in IP67-class waterproof enclosures for harsh marine and operating environments.
 - Used watchdog-style reliability logic and self-powered operation concepts for long-term deployment.
 
-## Field Deployment
+## Field Deployment {#field-deployment}
 
 The project focuses on port environments where waterproof packaging, power reliability, communication stability, and event triggering matter as much as the sensing algorithm. The system was framed around ruggedized field operation rather than controlled laboratory measurement only.
 
@@ -53,7 +61,7 @@ Sensor measurements are organized around event detection, cloud communication, m
     <figcaption>Preserved concept sketch for multisensory quay wall monitoring from field sensing to AI-assisted event recognition.</figcaption>
 </figure>
 
-## My Role
+## My Role {#my-role}
 
 This project is connected to multisensory monitoring, event detection, ruggedized sensor operation, and AI-assisted analysis for port infrastructure.
 
@@ -61,10 +69,10 @@ This project is connected to multisensory monitoring, event detection, ruggedize
 
 The work is connected to a journal article on AI-based multisensory quay wall event monitoring.
 
-## Outputs
+## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#port-monitoring-field' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/2077-1312/12/11/1902">Related Paper</a>
 </div>

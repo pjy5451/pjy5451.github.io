@@ -18,18 +18,26 @@ This project focuses on concrete crack trajectory monitoring and long-term visua
     <li><strong>Output</strong>Korean patent on resistive touchpad-based crack trajectory monitoring and visualization.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Crack monitoring often records crack width or visual inspection notes, but tracking the trajectory and history of crack propagation over time remains difficult in a compact, field-deployable form.
 
-## System
+## System / Method {#system}
 
 - Developed a resistive touchpad-based sensing concept for crack trajectory monitoring.
 - Designed a workflow for recording and visualizing long-term measurement histories.
 - Connected crack tracking with structural damage monitoring and maintenance records.
 - Framed the concept so crack location, path, and history can be interpreted as a data record rather than a one-time inspection note.
 
-## Field Use Case
+## Field Deployment {#field-deployment}
 
 The concept is intended for field maintenance contexts where a crack needs to be observed repeatedly over time. Instead of treating each inspection as an isolated visual record, the sensing layer can preserve trajectory and history as structured monitoring data.
 
@@ -51,13 +59,13 @@ Crack-related sensing records are organized as trajectory information and long-t
     <figcaption>Preserved concept sketch for recording propagation history and visualizing long-term crack changes.</figcaption>
 </figure>
 
-## My Role
+## My Role {#my-role}
 
 I contributed to the sensing-system framing and patent-oriented development of the crack trajectory monitoring workflow.
 
-## Outputs
+## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
 </div>

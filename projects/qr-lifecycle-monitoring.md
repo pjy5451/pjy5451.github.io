@@ -18,11 +18,19 @@ This project explores QR-linked lifecycle monitoring for infrastructure componen
     <li><strong>Scope</strong>Ultra-low-power strain sensing, QR visualization, chatbot upload, cloud database, and AI-assisted reports.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Long-term infrastructure monitoring often requires communication modules, battery maintenance, or manual data handling. For embedded or distributed sensors, a lightweight method is needed to expose accumulated measurement histories without complex network infrastructure.
 
-## System
+## System / Method {#system}
 
 - Designed a low-power strain monitoring concept that can wake periodically and record long-term measurements.
 - Visualized accumulated sensing data as QR codes on an e-paper display.
@@ -46,11 +54,11 @@ Long-term infrastructure monitoring often requires communication modules, batter
     </figure>
 </div>
 
-## My Role
+## My Role {#my-role}
 
 I contributed to the sensing concept, data collection workflow, QR-based visualization idea, chatbot/cloud-side handling of scanned data, and report-generation workflow.
 
-## Field Validation
+## Field Deployment {#field-deployment}
 
 The concept was applied to bridge-related field monitoring with embedded strain gauges and QR-based periodic data acquisition. The workflow was also extended toward citizen-assisted and robot-assisted data collection scenarios.
 
@@ -67,11 +75,11 @@ The system connects embedded strain measurement, local QR visualization, smartph
     <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
 </div>
 
-## Outputs
+## Outputs {#outputs}
 
 This work is connected to patents and project outcomes on QR-based sensing, long-term monitoring, and citizen-assisted data acquisition.
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
 </div>

@@ -18,11 +18,19 @@ This project developed a portable sensing workflow for monitoring precast concre
     <li><strong>Scope</strong>JANET sensing, transport-stage assessment, Bluetooth/LTE gateway, cloud alerts, and field validation.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Precast components can experience excessive vibration, strain, or support-condition problems during transportation, but these events are difficult to observe once the member leaves the fabrication yard.
 
-## System
+## System / Method {#system}
 
 - Installed portable JANET sensors on precast panels and girders to measure acceleration, tilt, and strain.
 - Developed a transportation-stage assessment workflow for lifting, loading, driving, and installation phases.
@@ -46,11 +54,11 @@ Precast components can experience excessive vibration, strain, or support-condit
     </figure>
 </div>
 
-## My Role
+## My Role {#my-role}
 
 I worked on field sensing, signal processing, monitoring workflow design, and validation using real transportation data. The project emphasized turning raw transport-stage measurements into interpretable safety information for field engineers.
 
-## Field Validation
+## Field Deployment {#field-deployment}
 
 The workflow was tested with actual precast members in collaboration with industry partners. Field cases included precast slabs and concrete girders, where sensor installation procedures, support-condition effects, strap tightening, transport vibration, and data collection reliability were evaluated.
 
@@ -67,10 +75,10 @@ The system connects portable sensing, gateway collection, transport-stage data r
     <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
 </div>
 
-## Outputs
+## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#precast-transport-field' | relative_url }}">Field Work</a>
     <a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Related Paper</a>
 </div>

@@ -45,8 +45,38 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
 </div>
 <p class="pub-filter-status" data-field-filter-status>Showing all field work categories.</p>
 
+<div class="field-project-map">
+    <section>
+        <span>Bridge</span>
+        <h2>Bridge load testing and long-term monitoring</h2>
+        <p>Sensor installation, cloud monitoring, response histories, displacement estimation, and QR-based lifecycle records.</p>
+        <div class="pub-actions">
+            <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Bridge monitoring</a>
+            <a href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">QR lifecycle</a>
+        </div>
+    </section>
+    <section>
+        <span>Vehicle</span>
+        <h2>WIM and on-board monitoring</h2>
+        <p>High-speed DAQ, load interval detection, dynamic truck-weight correction, and field driving data review.</p>
+        <div class="pub-actions">
+            <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">WIM detection</a>
+            <a href="{{ '/projects/onboard-monitoring.html' | relative_url }}">OBM correction</a>
+        </div>
+    </section>
+    <section>
+        <span>Deployments</span>
+        <h2>Precast, port, and field-ready sensing</h2>
+        <p>Portable sensing, ruggedized sensor packaging, transport-stage monitoring, and harsh-environment event analysis.</p>
+        <div class="pub-actions">
+            <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Precast sensing</a>
+            <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Quay wall</a>
+        </div>
+    </section>
+</div>
+
 <div class="field-gallery" data-field-gallery>
-    <article data-field-tags="Bridge|Hardware|Cloud|Sensor">
+    <article id="bridge-monitoring-field" data-field-tags="Bridge|Hardware|Cloud|Sensor">
         <div class="field-placeholder">Image planned</div>
         <span>Hardware / Cloud</span>
         <h2>Smart bridge IoT monitoring system</h2>
@@ -59,7 +89,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
-    <article data-field-tags="Bridge|Sensor|Installation|Field">
+    <article id="bridge-installation-field" data-field-tags="Bridge|Sensor|Installation|Field">
         <div class="field-placeholder">Image planned</div>
         <span>Bridge Test</span>
         <h2>Field installation and response data</h2>
@@ -72,7 +102,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
-    <article data-field-tags="Bridge|Cloud|Dashboard|Data">
+    <article id="cloud-dashboard-field" data-field-tags="Bridge|Cloud|Dashboard|Data">
         <div class="field-placeholder">Image planned</div>
         <span>Visualization</span>
         <h2>Cloud monitoring dashboard</h2>
@@ -85,7 +115,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
-    <article data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
+    <article id="vehicle-load-field" data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
         <div class="field-placeholder">Image planned</div>
         <span>DAQ / WIM</span>
         <h2>Vehicle load sensing and WIM DAQ</h2>
@@ -98,7 +128,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Related project</a>
     </article>
-    <article data-field-tags="Precast|Sensor|Transportation|Field">
+    <article id="precast-transport-field" data-field-tags="Precast|Sensor|Transportation|Field">
         <div class="field-placeholder">Image planned</div>
         <span>Precast</span>
         <h2>Portable sensing during transportation</h2>
@@ -111,7 +141,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </dl>
         <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Related project</a>
     </article>
-    <article data-field-tags="Port|Sensor|Cloud|AI">
+    <article id="port-monitoring-field" data-field-tags="Port|Sensor|Cloud|AI">
         <div class="field-placeholder">Image planned</div>
         <span>Port Structure</span>
         <h2>Quay wall event monitoring</h2>

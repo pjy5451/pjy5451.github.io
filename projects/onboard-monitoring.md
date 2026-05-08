@@ -18,11 +18,19 @@ This project focuses on on-board monitoring for dynamic truck state measurement 
     <li><strong>Outputs</strong>Patent work on FIR-filter-based dynamic truck weight correction and applied monitoring workflows.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Vehicle loads measured under real driving conditions are affected by speed, vibration, suspension behavior, and road conditions. A practical monitoring workflow needs both robust sensing and signal correction methods.
 
-## System
+## System / Method {#system}
 
 - Designed sensing and analysis workflows for vehicle state measurement.
 - Applied FIR filter-based signal processing for real-time dynamic weight correction.
@@ -30,7 +38,7 @@ Vehicle loads measured under real driving conditions are affected by speed, vibr
 - Developed analysis logic for interpreting dynamic vehicle load signals under speed, vibration, and road-condition effects.
 - Connected OBM concepts with WIM field data so that vehicle-state information can support bridge load assessment and freight safety applications.
 
-## Field Deployment
+## Field Deployment {#field-deployment}
 
 The project is designed around vehicle measurements under real operating conditions, where signals are affected by speed, vibration, suspension response, and road surface variability. This makes the field workflow as important as the correction algorithm itself.
 
@@ -52,7 +60,7 @@ The monitoring process connects vehicle-state sensing, raw signal acquisition, f
     <figcaption>Preserved concept sketch for collecting vehicle-state signals and correcting dynamic operating weight.</figcaption>
 </figure>
 
-## My Role
+## My Role {#my-role}
 
 I work on research and applied development around sensing workflows, signal correction, and analysis methods for dynamic vehicle load monitoring.
 
@@ -60,9 +68,9 @@ I work on research and applied development around sensing workflows, signal corr
 
 This project is connected to ongoing patent work on real-time correction methods for dynamic truck operating weight.
 
-## Outputs
+## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
 </div>

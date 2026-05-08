@@ -18,11 +18,19 @@ This project connects environmental sensing, QR-based data visualization, and ci
     <li><strong>Scope</strong>Urban sensing, e-paper QR visualization, KakaoTalk chatbot collection, and citizen-assisted data upload.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Urban sensing systems often require communication infrastructure and dedicated maintenance. A citizen-assisted workflow can reduce communication hardware requirements by letting nearby users collect and upload sensor data through ordinary smartphones.
 
-## System
+## System / Method {#system}
 
 - Built a low-power sensing concept for urban data such as tilt, sound, temperature, humidity, and odor-related measurements.
 - Used e-paper to display sensor data as QR codes.
@@ -40,11 +48,11 @@ Urban sensing systems often require communication infrastructure and dedicated m
     <figcaption>QR sensor board, urban test deployment, and KakaoTalk-based QR data collection pipeline.</figcaption>
 </figure>
 
-## My Role
+## My Role {#my-role}
 
 I contributed to the sensing concept, QR visualization workflow, data collection pipeline, and competition presentation.
 
-## Field Validation
+## Field Deployment {#field-deployment}
 
 The prototype was tested in an urban environment and evaluated through citizen feedback. The project received an award in a national land-development technology competition.
 
@@ -61,11 +69,11 @@ The workflow connects sensor measurement, QR-code visualization, smartphone-base
     <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
 </div>
 
-## Outputs
+## Outputs {#outputs}
 
 This work is connected to patents and award records on citizen-participatory smart city sensing and sensor-data visualization.
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#cloud-dashboard-field' | relative_url }}">Field Work</a>
 </div>

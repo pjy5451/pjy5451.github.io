@@ -18,11 +18,19 @@ This project developed a low-cost IoT earthquake sensing and notification concep
     <li><strong>Scope</strong>STA/LTA triggering, time-domain and frequency-domain classification, BLE notification, and shaking-table validation.</li>
 </ul>
 
-## Problem
+<div class="project-flow">
+    <a href="#problem"><span>01</span>Problem</a>
+    <a href="#system"><span>02</span>System / Method</a>
+    <a href="#field-deployment"><span>03</span>Field Deployment</a>
+    <a href="#my-role"><span>04</span>My Role</a>
+    <a href="#outputs"><span>05</span>Outputs</a>
+</div>
+
+## Problem {#problem}
 
 Earthquake notification systems need fast event detection, low-cost deployment, and reliable discrimination between meaningful seismic events and ordinary vibration sources.
 
-## System
+## System / Method {#system}
 
 - Developed a smart sensor concept with low-power BLE communication.
 - Implemented real-time trigger logic using STA/LTA-based event detection.
@@ -40,11 +48,11 @@ Earthquake notification systems need fast event detection, low-cost deployment, 
     <figcaption>Algorithm slide covering STA/LTA triggering and time/frequency-domain classification logic.</figcaption>
 </figure>
 
-## My Role
+## My Role {#my-role}
 
 I worked on the sensing concept, real-time detection logic, algorithm testing, and presentation of the system as an applied disaster-response idea.
 
-## Field Validation
+## Field Deployment {#field-deployment}
 
 The system was tested using shaking-table inputs and successfully classified multiple input waveforms during competition validation. The project received the Minister of the Interior and Safety Award in a national earthquake response idea competition.
 
@@ -61,10 +69,10 @@ The sensing logic connects event triggering, waveform classification, nearby not
     <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
 </div>
 
-## Outputs
+## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work.html#cloud-dashboard-field' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/1424-8220/20/10/2963">Related Paper</a>
 </div>
