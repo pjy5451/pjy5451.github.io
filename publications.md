@@ -166,14 +166,98 @@ description: Journal articles, preprints, conference presentations, patents, and
     </article>
 </div>
 
-## Conference Presentations
+## Conference Presentations (9)
 
-<div class="conference-note">
-    <p>Selected conference presentations will be organized here with title, venue, year, role, topic tags, and related project links.</p>
-    <ul>
-        <li><strong>Recommended fields</strong> Title, authors, conference, location, date, presentation type, and related project.</li>
-        <li><strong>Useful tags</strong> Bridge, WIM/OBM, IoT, Sensor, AI, Field, Cloud, Port, Precast.</li>
-    </ul>
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2025</div>
+        <div class="pub-tags"><span>Conference</span><span>WIM</span><span>Cloud</span></div><div class="pub-body">
+            <h3>Development of a Cloud-Based Integrated Enforcement Platform Technology</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Jongwoo Kim, Junghoon Kim</p>
+            <p class="pub-venue">Korean Society of Civil Engineers. Domestic conference presentation, 2025-11-14.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2024</div>
+        <div class="pub-tags"><span>Conference</span><span>QR</span><span>Cloud</span><span>SHM</span></div><div class="pub-body">
+            <h3>QR SENSOR: A Citizen-Assisted, QR-Based Sensory Data Acquisition and Cloud Computing Approach for Structural Health Monitoring</h3>
+            <p class="pub-authors">Jong-Woong Park, <strong>Junyoung Park</strong>, C. Min</p>
+            <p class="pub-venue">EMI/EMC 2024. International conference presentation, 2024-05-20.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3>A Scalable IoT Sensor and Cloud-Computing-Based Framework for Continuous Bridge Monitoring</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
+            <p class="pub-venue">Korea Institute for Structural Maintenance and Inspection. Domestic conference presentation, 2023-10-12.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3>IoT Sensor and Cloud-Computing-Based Long-Term Bridge Monitoring</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong></p>
+            <p class="pub-venue">Korean Institute of Bridge and Structural Engineers. Domestic conference presentation, 2023-09-18.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Field</span></div><div class="pub-body">
+            <h3>Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
+            <p class="pub-venue">Korea Institute of BIM. International conference presentation, 2023-08-23.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3>Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
+            <p class="pub-venue">Korea Institute of Construction Engineering and Management. International conference presentation, 2022-11-18.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span></div><div class="pub-body">
+            <h3>Cloud-Based IoT Sensor System for Bridge Load-Carrying Capacity Evaluation</h3>
+            <p class="pub-authors">Jong-Woong Park, <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won</p>
+            <p class="pub-venue">Korea Society for Prognostics and Health Management. Domestic conference presentation, 2022-06-30.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Data</span></div><div class="pub-body">
+            <h3>Optimization of an Acceleration-Strain-Based Displacement Estimation Method Considering Bridge Boundary Conditions</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
+            <p class="pub-venue">Korean Society for Noise and Vibration Engineering. Domestic conference presentation, 2022-05-26.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Cloud</span></div><div class="pub-body">
+            <h3>Cloud-Based Bridge Displacement Monitoring System</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jong-Woong Park, Minyong Park</p>
+            <p class="pub-venue">Computational Structural Engineering Institute of Korea. Domestic conference presentation, 2021-04-08.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
 </div>
 
 ## Patents (8)

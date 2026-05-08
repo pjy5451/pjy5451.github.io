@@ -166,14 +166,98 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
     </article>
 </div>
 
-## Conference Presentations
+## Conference Presentations (9)
 
-<div class="conference-note">
-    <p>주요 학회 발표 이력은 제목, 학회명, 연도, 발표 역할, 주제 태그, 관련 프로젝트 링크를 기준으로 정리할 예정입니다.</p>
-    <ul>
-        <li><strong>추천 항목</strong> 제목, 저자, 학회명, 장소, 날짜, 발표 유형, 관련 프로젝트.</li>
-        <li><strong>추천 태그</strong> Bridge, WIM/OBM, IoT, Sensor, AI, Field, Cloud, Port, Precast.</li>
-    </ul>
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2025</div>
+        <div class="pub-tags"><span>Conference</span><span>WIM</span><span>Cloud</span></div><div class="pub-body">
+            <h3>클라우드 기반 자동단속 통합플랫폼 기술 개발</h3>
+            <p class="pub-authors"><strong>박준영</strong>, 김종우, 김정훈</p>
+            <p class="pub-venue">대한토목학회. 국내학술대회 발표, 2025-11-14.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2024</div>
+        <div class="pub-tags"><span>Conference</span><span>QR</span><span>Cloud</span><span>SHM</span></div><div class="pub-body">
+            <h3>QR SENSOR: A Citizen-Assisted, QR-Based Sensory Data Acquisition and Cloud Computing Approach for Structural Health Monitoring</h3>
+            <p class="pub-authors">박종웅, <strong>박준영</strong>, 민찬홍</p>
+            <p class="pub-venue">EMI/EMC 2024. 국제학술대회 발표, 2024-05-20.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3>교량 상시 모니터링을 위한 IoT 센서 및 클라우드 컴퓨팅 기반 확장 가능한 프레임워크</h3>
+            <p class="pub-authors"><strong>박준영</strong>, 신준식, 박종웅</p>
+            <p class="pub-venue">한국구조물진단유지관리공학회. 국내학술대회 발표, 2023-10-12.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3>IoT 센서 및 클라우드 컴퓨팅 기반 교량 장기 모니터링</h3>
+            <p class="pub-authors"><strong>박준영</strong></p>
+            <p class="pub-venue">한국교량및구조공학회. 국내학술대회 발표, 2023-09-18.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2023</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Field</span></div><div class="pub-body">
+            <h3>Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
+            <p class="pub-venue">한국BIM학회. 국제학술대회 발표, 2023-08-23.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3>Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring</h3>
+            <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
+            <p class="pub-venue">한국건설관리학회. 국제학술대회 발표, 2022-11-18.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span></div><div class="pub-body">
+            <h3>교량 내하력 평가를 위한 클라우드 기반 IoT 센서 시스템</h3>
+            <p class="pub-authors">박종웅, <strong>박준영</strong>, 신준식, 원종빈</p>
+            <p class="pub-venue">한국PHM학회. 국내학술대회 발표, 2022-06-30.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2022</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Data</span></div><div class="pub-body">
+            <h3>교량 경계조건을 고려한 가속도-변형률 기반 변위 추정 기법 최적화</h3>
+            <p class="pub-authors"><strong>박준영</strong>, 신준식, 박종웅</p>
+            <p class="pub-venue">한국소음진동공학회. 국내학술대회 발표, 2022-05-26.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
+
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Cloud</span></div><div class="pub-body">
+            <h3>클라우드 기반 교량 변위 모니터링 시스템</h3>
+            <p class="pub-authors"><strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용</p>
+            <p class="pub-venue">한국전산구조공학회. 국내학술대회 발표, 2021-04-08.</p>
+            <div class="pub-actions"><span>Conference</span><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
+        </div>
+    </article>
 </div>
 
 ## Patents (8)
