@@ -27,9 +27,11 @@
     {% if page.ko_url %}
     <link rel="alternate" hreflang="ko" href="{{ page.ko_url | absolute_url }}" />
     <link rel="alternate" hreflang="en" href="{{ page.url | absolute_url }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ page.url | absolute_url }}" />
     {% elsif page.en_url %}
     <link rel="alternate" hreflang="en" href="{{ page.en_url | absolute_url }}" />
     <link rel="alternate" hreflang="ko" href="{{ page.url | absolute_url }}" />
+    <link rel="alternate" hreflang="x-default" href="{{ page.en_url | absolute_url }}" />
     {% endif %}
 
     <meta property="og:site_name" content="{{ site.name }}" />
@@ -47,6 +49,59 @@
     <meta name="twitter:description" content="{{ seo_description | escape }}" />
     <meta name="twitter:image" content="{{ seo_image | absolute_url }}" />
     <meta name="twitter:image:alt" content="{{ site.name }} research portfolio preview" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "{{ '/' | absolute_url }}#person",
+          "name": "Junyoung Park",
+          "alternateName": "박준영",
+          "url": "{{ '/' | absolute_url }}",
+          "image": "{{ '/assets/images/profile.png' | absolute_url }}",
+          "jobTitle": "Researcher",
+          "email": "mailto:pjy5451@gmail.com",
+          "affiliation": {
+            "@type": "Organization",
+            "name": "UDNS"
+          },
+          "alumniOf": [
+            {
+              "@type": "CollegeOrUniversity",
+              "name": "Chung-Ang University"
+            }
+          ],
+          "sameAs": [
+            "https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en",
+            "https://orcid.org/0000-0002-3527-8534",
+            "https://www.linkedin.com/in/junyoungp/",
+            "https://github.com/pjy5451"
+          ],
+          "knowsAbout": [
+            "Structural health monitoring",
+            "IoT sensing",
+            "Bridge monitoring",
+            "Weigh-in-motion",
+            "On-board monitoring",
+            "Data-driven infrastructure"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "{{ '/' | absolute_url }}#website",
+          "url": "{{ '/' | absolute_url }}",
+          "name": "{{ site.name | escape }}",
+          "description": "{{ site.meta_description | escape }}",
+          "publisher": {
+            "@id": "{{ '/' | absolute_url }}#person"
+          },
+          "inLanguage": ["en", "ko"]
+        }
+      ]
+    }
+    </script>
 
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
