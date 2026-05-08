@@ -38,12 +38,6 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             <p>주요 관심 분야는 구조물 건전성 모니터링, WIM/OBM, 기준점 없는 변위 추정, 스마트 IoT 센싱 디바이스, 그리고 잡음이 많은 현장 데이터에서의 이벤트 탐지입니다. 실험실 수준의 프로토타입을 넘어 장기 현장 적용, 특허화 가능한 방법론, 실무 엔지니어가 사용할 수 있는 워크플로로 이어지는 시스템을 지향합니다.</p>
         </section>
 
-        <div class="cv-note">
-            <strong>이 사이트와 CV의 역할</strong>
-            <p>이 웹사이트는 대표 프로젝트, 현장 경험, 논문/특허, 연구 방향을 중심으로 보여주는 공간입니다. 학력, 경력, 수상, 논문, 특허 등 전체 이력은 CV에서 시간순으로 확인할 수 있습니다.</p>
-            <a href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">CV 다운로드</a>
-        </div>
-
         <h2>Research Themes</h2>
 
         <div class="theme-grid">

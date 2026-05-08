@@ -38,12 +38,6 @@ description: Research profile, selected background, technical skills, awards, an
             <p>My research and applied development focus on structural health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart IoT sensing devices, and event detection from noisy field data. I am especially interested in systems that move beyond laboratory prototypes into long-term deployment, patentable methods, and practical workflows for infrastructure engineers.</p>
         </section>
 
-        <div class="cv-note">
-            <strong>How to read this site</strong>
-            <p>This website highlights selected projects, field experience, publications, and technical direction. The CV keeps the full chronological record of education, appointments, awards, publications, patents, and other formal details.</p>
-            <a href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">Download CV</a>
-        </div>
-
         <h2>Research Themes</h2>
 
         <div class="theme-grid">
