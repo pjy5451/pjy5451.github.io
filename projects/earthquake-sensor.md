@@ -63,16 +63,18 @@ The sensing logic connects event triggering, waveform classification, nearby not
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>BLE-based earthquake sensor concept, STA/LTA trigger logic, time/frequency-domain classification, and nearby alert workflow.</p></section>
+    <section><h3>What I Deployed</h3><p>Competition validation setup using shaking-table inputs and smart sensor-based earthquake notification scenarios.</p></section>
+    <section><h3>What I Measured</h3><p>One-axis acceleration waveforms, trigger timing, earthquake/random/sinusoidal classification results, and ten validation input cases.</p></section>
+    <section><h3>Evidence Assets</h3><p>Algorithm diagrams, shaking-table validation photos, waveform classification plots, and award or media-link references.</p></section>
 </div>
 
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#cloud-dashboard-field' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/1424-8220/20/10/2963">Related Paper</a>
 </div>

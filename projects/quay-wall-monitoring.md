@@ -50,10 +50,10 @@ Sensor measurements are organized around event detection, cloud communication, m
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>Waterproof sensor packaging, solar/self-powered operation concepts, MQTT-style data pipeline, cloud storage, and AI-assisted event analysis workflow.</p></section>
+    <section><h3>What I Deployed</h3><p>Port and quay wall monitoring workflow designed for berthing/unberthing events, impact detection, and harsh marine operating conditions.</p></section>
+    <section><h3>What I Measured</h3><p>Multisensory vibration and event records, communication reliability, environmental exposure, and event-triggered monitoring behavior.</p></section>
+    <section><h3>Evidence Assets</h3><p>Packaged sensor photos, quay wall installation context, cloud event logs, and representative AI event-recognition outputs.</p></section>
 </div>
 
 <figure class="project-body-figure">
@@ -73,6 +73,8 @@ The work is connected to a journal article on AI-based multisensory quay wall ev
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications.html#preprints-3' | relative_url }}">Preprints</a>
     <a href="{{ '/field-work.html#port-monitoring-field' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/2077-1312/12/11/1902">Related Paper</a>
 </div>

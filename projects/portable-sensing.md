@@ -69,16 +69,18 @@ The system connects portable sensing, gateway collection, transport-stage data r
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>Portable JANET sensing workflow, Bluetooth/LTE gateway concept, GPS-linked transport monitoring, and threshold-based safety interpretation.</p></section>
+    <section><h3>What I Deployed</h3><p>Precast panel and concrete girder transportation monitoring with sensor installation before lifting, loading, driving, and erection phases.</p></section>
+    <section><h3>What I Measured</h3><p>Acceleration, strain, tilt, transport vibration, support-condition effects, strap-tightening effects, and transport-stage abnormal events.</p></section>
+    <section><h3>Evidence Assets</h3><p>Transport setup photos, gateway PCB/package images, trailer installation photos, stage-wise response plots, and alert examples.</p></section>
 </div>
 
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#precast-transport-field' | relative_url }}">Field Work</a>
     <a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Related Paper</a>
 </div>

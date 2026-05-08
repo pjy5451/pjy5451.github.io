@@ -69,10 +69,10 @@ The system connects embedded strain measurement, local QR visualization, smartph
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>Ultra-low-power strain visualization sensor, e-paper QR display, chatbot-based data upload, cloud database, and AI-assisted report workflow.</p></section>
+    <section><h3>What I Deployed</h3><p>Embedded strain gauge and temperature monitoring workflow for bridge lifecycle records, including periodic QR-based data acquisition.</p></section>
+    <section><h3>What I Measured</h3><p>Long-term strain histories, temperature, periodic measurement records, QR-encoded data payloads, and cloud-side reporting outputs.</p></section>
+    <section><h3>Evidence Assets</h3><p>QR sensor board photos, field installation images, chatbot upload screenshots, and generated data-driven report examples.</p></section>
 </div>
 
 ## Outputs {#outputs}
@@ -81,5 +81,7 @@ This work is connected to patents and project outcomes on QR-based sensing, long
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
 </div>

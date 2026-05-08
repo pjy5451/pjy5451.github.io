@@ -63,10 +63,10 @@ The workflow connects sensor measurement, QR-code visualization, smartphone-base
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>Low-power urban sensing board, QR-code e-paper visualization, KakaoTalk chatbot collection pipeline, and citizen-assisted upload workflow.</p></section>
+    <section><h3>What I Deployed</h3><p>Urban test setup for citizen-participatory smart city sensing, including QR scanning and participant feedback collection.</p></section>
+    <section><h3>What I Measured</h3><p>Tilt, sound, temperature, humidity, odor-related signals, QR-decoded data records, and participant feedback on the proposed workflow.</p></section>
+    <section><h3>Evidence Assets</h3><p>Sensor board photos, QR display examples, chatbot pipeline screenshots, urban calibration images, and survey summary graphics.</p></section>
 </div>
 
 ## Outputs {#outputs}
@@ -75,5 +75,6 @@ This work is connected to patents and award records on citizen-participatory sma
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#cloud-dashboard-field' | relative_url }}">Field Work</a>
 </div>

@@ -82,9 +82,9 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <h2>Smart bridge IoT monitoring system</h2>
         <p>Stand-alone sensing units, cloud upload, automated analysis, and dashboard visualization for bridge health monitoring.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>To be added</dd></div>
-            <div><dt>Site</dt><dd>Bridge monitoring field sites</dd></div>
-            <div><dt>Role</dt><dd>Sensor workflow, deployment, data review</dd></div>
+            <div><dt>Date</dt><dd>2021 - 2024</dd></div>
+            <div><dt>Site</dt><dd>Paldang Overpass, Cheongdam Bridge, Seongsan Bridge, and other bridge sites in Korea</dd></div>
+            <div><dt>Role</dt><dd>Sensor workflow, field deployment, cloud data review, and system improvement</dd></div>
             <div><dt>Data</dt><dd>Strain, acceleration, displacement, temperature</dd></div>
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
@@ -95,8 +95,8 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <h2>Field installation and response data</h2>
         <p>Sensor installation, measured response histories, field validation, and debugging under real bridge conditions.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>To be added</dd></div>
-            <div><dt>Site</dt><dd>Bridge load testing and ambient monitoring</dd></div>
+            <div><dt>Date</dt><dd>2021 - 2024</dd></div>
+            <div><dt>Site</dt><dd>Bridge load testing, ambient monitoring, and inspection/diagnosis sites</dd></div>
             <div><dt>Role</dt><dd>Installation, validation, troubleshooting</dd></div>
             <div><dt>Data</dt><dd>Response histories and sensor status</dd></div>
         </dl>
@@ -108,7 +108,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <h2>Cloud monitoring dashboard</h2>
         <p>Online monitoring interface for sensor status, vibration, displacement, strain, temperature, and interpreted comments.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Date</dt><dd>2022 - 2024</dd></div>
             <div><dt>System</dt><dd>Cloud database and monitoring dashboard</dd></div>
             <div><dt>Role</dt><dd>Data pipeline and interpretation workflow</dd></div>
             <div><dt>Data</dt><dd>Sensor status, vibration, displacement, strain</dd></div>
@@ -121,7 +121,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <h2>Vehicle load sensing and WIM DAQ</h2>
         <p>High-speed signal acquisition, field driving data, load interval detection, and vehicle-weight analysis workflows.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Date</dt><dd>2024 - Present</dd></div>
             <div><dt>Site</dt><dd>Road and WIM measurement environment</dd></div>
             <div><dt>Role</dt><dd>DAQ validation, signal review, detection workflow</dd></div>
             <div><dt>Data</dt><dd>High-speed load signals and vehicle events</dd></div>
@@ -134,8 +134,8 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <h2>Portable sensing during transportation</h2>
         <p>Portable monitoring of strain, acceleration, tilt, and transport-stage response for precast concrete members.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>To be added</dd></div>
-            <div><dt>Site</dt><dd>Precast yard and transportation route</dd></div>
+            <div><dt>Date</dt><dd>2020 - 2023</dd></div>
+            <div><dt>Site</dt><dd>Precast yard, transportation route, panel/girder monitoring cases, and trailer setup</dd></div>
             <div><dt>Role</dt><dd>Portable sensor setup and data interpretation</dd></div>
             <div><dt>Data</dt><dd>Strain, acceleration, tilt, transport events</dd></div>
         </dl>
@@ -147,7 +147,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <h2>Quay wall event monitoring</h2>
         <p>Ruggedized sensor packaging, harsh-environment monitoring, cloud communication, and AI-assisted event analysis.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>To be added</dd></div>
+            <div><dt>Date</dt><dd>2021 - 2023</dd></div>
             <div><dt>Site</dt><dd>Port and quay wall monitoring environment</dd></div>
             <div><dt>Role</dt><dd>Packaging, sensing workflow, event analysis</dd></div>
             <div><dt>Data</dt><dd>Multisensory event records</dd></div>
@@ -156,13 +156,13 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
     </article>
 </div>
 
-## Field Log Template
+## Field Record Format
 
 <div class="field-log-template">
     <section>
-        <h3>What to Add Later</h3>
+        <h3>How Each Field Case Can Be Documented</h3>
         <ul>
-            <li><strong>Date</strong> Year, month, or project period.</li>
+            <li><strong>Date</strong> Year, month, or project period for the field campaign.</li>
             <li><strong>Site</strong> Bridge, road, precast yard, port, lab-to-field validation site, or anonymized site name.</li>
             <li><strong>Role</strong> Sensor installation, DAQ setup, driving test, cloud review, troubleshooting, or data analysis.</li>
             <li><strong>Hardware</strong> Sensor, gateway, DAQ, power, communication, and packaging details.</li>

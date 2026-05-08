@@ -82,9 +82,9 @@ keywords:
         <h2>스마트 교량 IoT 모니터링 시스템</h2>
         <p>독립형 센싱 유닛, 클라우드 업로드, 자동 분석, 대시보드 시각화를 결합한 교량 건전성 모니터링 시스템입니다.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>추가 예정</dd></div>
-            <div><dt>Site</dt><dd>교량 모니터링 현장</dd></div>
-            <div><dt>Role</dt><dd>센서 워크플로, 현장 설치, 데이터 검토</dd></div>
+            <div><dt>Date</dt><dd>2021 - 2024</dd></div>
+            <div><dt>Site</dt><dd>팔당육교, 청담1교, 성산대교 및 국내 교량 현장</dd></div>
+            <div><dt>Role</dt><dd>센서 워크플로, 현장 설치, 클라우드 데이터 검토, 시스템 개선</dd></div>
             <div><dt>Data</dt><dd>변형률, 가속도, 변위, 온도</dd></div>
         </dl>
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
@@ -95,8 +95,8 @@ keywords:
         <h2>현장 설치와 응답 데이터</h2>
         <p>실제 교량 조건에서 센서를 설치하고 응답 이력, 현장 검증, 전원 및 통신 디버깅을 수행했습니다.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>추가 예정</dd></div>
-            <div><dt>Site</dt><dd>교량 재하시험 및 상시 모니터링 현장</dd></div>
+            <div><dt>Date</dt><dd>2021 - 2024</dd></div>
+            <div><dt>Site</dt><dd>교량 재하시험, 상시 모니터링, 정밀안전진단 적용 현장</dd></div>
             <div><dt>Role</dt><dd>설치, 검증, 트러블슈팅</dd></div>
             <div><dt>Data</dt><dd>응답 이력 및 센서 상태</dd></div>
         </dl>
@@ -108,7 +108,7 @@ keywords:
         <h2>클라우드 모니터링 대시보드</h2>
         <p>센서 상태, 진동, 변위, 변형률, 온도, 해석 코멘트를 확인할 수 있는 온라인 모니터링 인터페이스입니다.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>추가 예정</dd></div>
+            <div><dt>Date</dt><dd>2022 - 2024</dd></div>
             <div><dt>System</dt><dd>클라우드 DB 및 모니터링 대시보드</dd></div>
             <div><dt>Role</dt><dd>데이터 파이프라인 및 해석 워크플로</dd></div>
             <div><dt>Data</dt><dd>센서 상태, 진동, 변위, 변형률</dd></div>
@@ -121,7 +121,7 @@ keywords:
         <h2>차량 하중 센싱과 WIM DAQ</h2>
         <p>고속 신호 취득, 실도로 주행 데이터, 하중 구간 탐지, 차량 중량 분석 워크플로를 다룹니다.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>추가 예정</dd></div>
+            <div><dt>Date</dt><dd>2024 - Present</dd></div>
             <div><dt>Site</dt><dd>도로 및 WIM 계측 환경</dd></div>
             <div><dt>Role</dt><dd>DAQ 검증, 신호 검토, 탐지 워크플로</dd></div>
             <div><dt>Data</dt><dd>고속 하중 신호 및 차량 이벤트</dd></div>
@@ -134,8 +134,8 @@ keywords:
         <h2>프리캐스트 운송 중 휴대형 센싱</h2>
         <p>프리캐스트 콘크리트 부재의 변형률, 가속도, 기울기, 운송 단계 응답을 휴대형 시스템으로 모니터링했습니다.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>추가 예정</dd></div>
-            <div><dt>Site</dt><dd>프리캐스트 제작장 및 운송 경로</dd></div>
+            <div><dt>Date</dt><dd>2020 - 2023</dd></div>
+            <div><dt>Site</dt><dd>프리캐스트 제작장, 운송 경로, 패널/거더 모니터링 및 트레일러 설치 사례</dd></div>
             <div><dt>Role</dt><dd>휴대형 센서 설치 및 데이터 해석</dd></div>
             <div><dt>Data</dt><dd>변형률, 가속도, 기울기, 운송 이벤트</dd></div>
         </dl>
@@ -147,7 +147,7 @@ keywords:
         <h2>안벽 이벤트 모니터링</h2>
         <p>방수 패키징, 열악한 현장 환경, 클라우드 통신, AI 기반 이벤트 분석을 결합한 항만 구조물 모니터링입니다.</p>
         <dl class="field-card-details">
-            <div><dt>Date</dt><dd>추가 예정</dd></div>
+            <div><dt>Date</dt><dd>2021 - 2023</dd></div>
             <div><dt>Site</dt><dd>항만 및 안벽 모니터링 환경</dd></div>
             <div><dt>Role</dt><dd>패키징, 센싱 워크플로, 이벤트 분석</dd></div>
             <div><dt>Data</dt><dd>멀티센서 이벤트 기록</dd></div>
@@ -156,11 +156,11 @@ keywords:
     </article>
 </div>
 
-## Field Log Template
+## Field Record Format
 
 <div class="field-log-template">
     <section>
-        <h3>나중에 채울 항목</h3>
+        <h3>현장 사례 기록 양식</h3>
         <ul>
             <li><strong>Date</strong> 연도, 월, 또는 프로젝트 기간.</li>
             <li><strong>Site</strong> 교량, 도로, 프리캐스트 제작장, 항만, 검증 현장, 또는 익명화한 현장명.</li>

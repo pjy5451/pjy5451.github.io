@@ -48,10 +48,10 @@ Crack-related sensing records are organized as trajectory information and long-t
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>Resistive touchpad-based crack trajectory sensing concept and long-term measurement-history visualization workflow.</p></section>
+    <section><h3>What I Deployed</h3><p>Patent-oriented field maintenance scenario for repeatedly tracking crack path and propagation history over time.</p></section>
+    <section><h3>What I Measured</h3><p>Crack trajectory records, propagation history, location/path changes, and structured monitoring data for maintenance decisions.</p></section>
+    <section><h3>Evidence Assets</h3><p>Sensor concept images, crack-path visualization examples, history plots, and patent drawing excerpts if appropriate for public release.</p></section>
 </div>
 
 <figure class="project-body-figure">
@@ -67,5 +67,6 @@ I contributed to the sensing-system framing and patent-oriented development of t
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
 </div>

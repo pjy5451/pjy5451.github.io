@@ -68,10 +68,10 @@ The monitoring workflow connects synchronized strain and acceleration sensing, c
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>JANET-based strain/acceleration sensing workflow, cloud database, dashboard, FFT analysis, and multimetric displacement-estimation pipeline.</p></section>
+    <section><h3>What I Deployed</h3><p>Bridge monitoring systems at Paldang Overpass, Cheongdam Bridge, Seongsan Bridge, and 20+ bridge field applications by 2024.</p></section>
+    <section><h3>What I Measured</h3><p>Acceleration, multi-channel strain, temperature, vibration characteristics, displacement histories, communication status, and power reliability.</p></section>
+    <section><h3>Evidence Assets</h3><p>Sensor installation photos, long-term dashboard captures, response histories, and before/after sensor or firmware update records.</p></section>
 </div>
 
 ## Outputs {#outputs}
@@ -80,6 +80,9 @@ The work produced journal publications, conference presentations, patent records
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
     <a href="https://arxiv.org/abs/2209.12186">Preprint</a>
     <a href="https://www.mdpi.com/1424-8220/21/16/5647">Related Paper</a>

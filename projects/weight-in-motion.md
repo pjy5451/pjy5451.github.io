@@ -50,10 +50,10 @@ Raw WIM signals are converted into event-oriented datasets for preprocessing, vi
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>WIM DAQ workflow with high-speed analog acquisition, ADC/filtering/downsampling logic, event labeling, and YOLO-based load interval detection.</p></section>
+    <section><h3>What I Deployed</h3><p>Field-driving data review workflow for truck load sensing and WIM measurement environments in an ongoing freight-safety project.</p></section>
+    <section><h3>What I Measured</h3><p>High-speed load signals, vehicle events, sampling stability, scale-factor behavior, and signal changes caused by field measurement conditions.</p></section>
+    <section><h3>Evidence Assets</h3><p>DAQ board photos, field-driving signal plots, load-event detection examples, and before/after filtering or downsampling comparisons.</p></section>
 </div>
 
 <figure class="project-body-figure">
@@ -73,6 +73,9 @@ The project is connected to journal and patent work on automatic load-event inte
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="https://kscejournal.or.kr/jksce/XmlViewer/f450650">Related Paper</a>
     <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
 </div>

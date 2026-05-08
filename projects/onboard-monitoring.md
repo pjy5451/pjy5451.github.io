@@ -49,10 +49,10 @@ The monitoring process connects vehicle-state sensing, raw signal acquisition, f
 ## Field Evidence
 
 <div class="project-evidence-grid">
-    <section><h3>What I Built</h3><p>To be filled with sensor, gateway, dashboard, DAQ, or analysis components.</p></section>
-    <section><h3>What I Deployed</h3><p>To be filled with site type, installation setup, field role, and test conditions.</p></section>
-    <section><h3>What I Measured</h3><p>To be filled with signal types, sampling settings, event types, and data volume.</p></section>
-    <section><h3>Evidence to Add</h3><p>Photo, cropped field image, short video, dashboard capture, or signal visualization.</p></section>
+    <section><h3>What I Built</h3><p>Vehicle-state sensing and FIR-filter-based dynamic weight correction workflow connected to WIM-style validation data.</p></section>
+    <section><h3>What I Deployed</h3><p>Ongoing vehicle load monitoring workflow for real operating conditions affected by speed, vibration, suspension response, and road surface variability.</p></section>
+    <section><h3>What I Measured</h3><p>Dynamic vehicle load signals, operating-weight behavior, corrected weight estimates, and validation records against field measurement conditions.</p></section>
+    <section><h3>Evidence Assets</h3><p>Vehicle-mounted sensor photos, driving-test logs, correction-result plots, and comparison tables against reference measurements.</p></section>
 </div>
 
 <figure class="project-body-figure">
@@ -72,5 +72,7 @@ This project is connected to ongoing patent work on real-time correction methods
 
 <div class="pub-actions resource-links">
     <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
     <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
 </div>
