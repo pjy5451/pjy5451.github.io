@@ -68,6 +68,19 @@ description: Research profile, selected background, technical skills, awards, an
                     <h3>M.S. in Civil Engineering</h3>
                     <p>Chung-Ang University. Major: Structural Engineering. Advisor: Prof. Jongwoong Park.</p>
                     <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em>.</p>
+                    <details class="coursework-toggle">
+                        <summary>Selected Coursework</summary>
+                        <div class="coursework-groups">
+                            <section>
+                                <h4>Structural Engineering</h4>
+                                <p>Advanced Structural Analysis, Structural Dynamics, Bridge Engineering, Finite Element Method</p>
+                            </section>
+                            <section>
+                                <h4>Monitoring & Data</h4>
+                                <p>Structural Health Monitoring, Sensor Data Analysis, Reliability-Based Assessment</p>
+                            </section>
+                        </div>
+                    </details>
                 </div>
             </article>
 
@@ -76,6 +89,23 @@ description: Research profile, selected background, technical skills, awards, an
                 <div class="timeline-content">
                     <h3>B.S. in Civil, Environmental & Plant Engineering and Mathematics</h3>
                     <p>Chung-Ang University. Major: Civil, Environmental & Plant Engineering. Double major: Mathematics.</p>
+                    <details class="coursework-toggle">
+                        <summary>Selected Coursework</summary>
+                        <div class="coursework-groups">
+                            <section>
+                                <h4>Civil / Structural</h4>
+                                <p>Structural Mechanics, Reinforced Concrete, Steel Structures, Soil Mechanics, Hydraulics</p>
+                            </section>
+                            <section>
+                                <h4>Mathematics</h4>
+                                <p>Linear Algebra, Differential Equations, Probability, Numerical Analysis, Mathematical Statistics</p>
+                            </section>
+                            <section>
+                                <h4>Computing</h4>
+                                <p>Programming, Numerical Computing, Data-Oriented Problem Solving</p>
+                            </section>
+                        </div>
+                    </details>
                 </div>
             </article>
         </div>

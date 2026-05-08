@@ -68,6 +68,19 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                     <h3>M.S. in Civil Engineering</h3>
                     <p>중앙대학교 토목공학과. 세부전공: 구조공학. 지도교수: 박종웅 교수.</p>
                     <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em>.</p>
+                    <details class="coursework-toggle">
+                        <summary>Selected Coursework</summary>
+                        <div class="coursework-groups">
+                            <section>
+                                <h4>Structural Engineering</h4>
+                                <p>고급구조해석, 구조동역학, 교량공학, 유한요소법</p>
+                            </section>
+                            <section>
+                                <h4>Monitoring & Data</h4>
+                                <p>구조물 건전성 모니터링, 센서 데이터 분석, 신뢰성 기반 평가</p>
+                            </section>
+                        </div>
+                    </details>
                 </div>
             </article>
 
@@ -76,6 +89,23 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                 <div class="timeline-content">
                     <h3>B.S. in Civil, Environmental & Plant Engineering and Mathematics</h3>
                     <p>중앙대학교. 전공: 사회기반시스템공학부. 복수전공: 수학과.</p>
+                    <details class="coursework-toggle">
+                        <summary>Selected Coursework</summary>
+                        <div class="coursework-groups">
+                            <section>
+                                <h4>Civil / Structural</h4>
+                                <p>구조역학, 철근콘크리트, 강구조, 토질역학, 수리학</p>
+                            </section>
+                            <section>
+                                <h4>Mathematics</h4>
+                                <p>선형대수학, 미분방정식, 확률론, 수치해석, 수리통계학</p>
+                            </section>
+                            <section>
+                                <h4>Computing</h4>
+                                <p>프로그래밍, 수치계산, 데이터 기반 문제 해결</p>
+                            </section>
+                        </div>
+                    </details>
                 </div>
             </article>
         </div>

@@ -2180,6 +2180,83 @@ html[data-theme="dark"] .field-gallery article:hover {
 	line-height: 1.65;
 }
 
+.coursework-toggle {
+	margin-top: 12px;
+}
+
+.coursework-toggle summary {
+	display: inline-flex;
+	align-items: center;
+	gap: 6px;
+	min-height: 26px;
+	padding: 0 10px;
+	border: 1px solid var(--line);
+	border-radius: 999px;
+	background: var(--button-bg);
+	color: var(--accent-strong);
+	font-size: 12px;
+	font-weight: 800;
+	line-height: 1;
+	cursor: pointer;
+	list-style: none;
+	transition: border-color .16s ease, background .16s ease, color .16s ease;
+}
+
+.coursework-toggle summary::-webkit-details-marker {
+	display: none;
+}
+
+.coursework-toggle summary::after {
+	content: "▾";
+	font-size: 10px;
+	transition: transform .16s ease;
+}
+
+.coursework-toggle[open] summary {
+	border-color: rgba(31, 111, 120, .36);
+	background: rgba(31, 111, 120, .08);
+}
+
+.coursework-toggle[open] summary::after {
+	transform: rotate(180deg);
+}
+
+.coursework-groups {
+	display: grid;
+	gap: 10px;
+	margin-top: 12px;
+	padding: 14px 16px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--wash);
+}
+
+.coursework-groups section {
+	display: grid;
+	grid-template-columns: 150px minmax(0, 1fr);
+	gap: 14px;
+	align-items: start;
+}
+
+.coursework-groups h4 {
+	margin: 0;
+	color: var(--ink);
+	font-size: 13px;
+	line-height: 1.35;
+}
+
+.coursework-groups p {
+	margin: 0;
+	color: var(--muted);
+	font-size: 13px;
+	line-height: 1.55;
+}
+
+html[data-theme="dark"] .coursework-toggle[open] summary {
+	border-color: rgba(121, 201, 208, .36);
+	background: rgba(121, 201, 208, .1);
+}
+
 .award-list {
 	display: grid;
 	gap: 0;
@@ -2357,6 +2434,11 @@ html[data-theme="dark"] .field-gallery article:hover {
 	.timeline-item {
 		grid-template-columns: 1fr;
 		gap: 6px;
+	}
+
+	.coursework-groups section {
+		grid-template-columns: 1fr;
+		gap: 4px;
 	}
 
 	.award-list li {
