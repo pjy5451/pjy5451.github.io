@@ -8,7 +8,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 ---
 
 <div class="pub-summary">
-    <p>구조물 건전성 모니터링, IoT 센싱, 교량 변위 추정, WIM/OBM, AI 기반 인프라 모니터링과 관련된 논문, 프리프린트, 학회 발표, 특허를 정리했습니다.</p>
+    <p>구조물 건전성 모니터링, IoT 센싱, 교량 변위 추정, WIM/OBM, AI 기반 인프라 모니터링과 관련된 논문, 기술 기사, 프리프린트, 학회 발표, 특허를 정리했습니다.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
     <a href="{{ '/ko/field-work.html' | relative_url }}">Field Work</a>
     <span>146 citations</span>
@@ -107,7 +107,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
             <h3><a href="https://www.mdpi.com/1424-8220/21/6/2211">SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring</a></h3>
             <p class="pub-authors">S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim</p>
             <p class="pub-venue">Sensors, 21(6), 2211</p>
-            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/21/6/2211">Source Document</a><span>Cited by 16</span></div>
+            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/21/6/2211">Source Document</a><span>Cited by 17</span></div>
         </div>
     </article>
 
@@ -127,7 +127,21 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
             <h3><a href="https://www.mdpi.com/1424-8220/20/10/2963">BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification</a></h3>
             <p class="pub-authors">Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim</p>
             <p class="pub-venue">Sensors, 20(10), 2963</p>
-            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/20/10/2963">Source Document</a><span>Cited by 44</span></div>
+            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/20/10/2963">Source Document</a><span>Cited by 43</span></div>
+        </div>
+    </article>
+</div>
+
+## Technical Articles (1)
+
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+            <div class="pub-tags"><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC">가속도, 변형률 센싱이 가능한 IoT 센서 및 클라우드 컴퓨팅 기반 교량 상시 변위 계측 관리 시스템</a></h3>
+            <p class="pub-authors">원종빈, <strong>박준영</strong>, 신준식, 강소행, 박종웅, 박민용</p>
+            <p class="pub-venue">대한토목학회지, 69(10), 58-65</p>
+            <div class="pub-actions"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC">Scholar</a><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
         </div>
     </article>
 </div>

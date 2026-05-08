@@ -8,7 +8,7 @@ description: Journal articles, preprints, conference presentations, patents, and
 ---
 
 <div class="pub-summary">
-    <p>Selected journal articles, preprints, conference presentations, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
+    <p>Selected journal articles, technical articles, preprints, conference presentations, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
     <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
     <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
     <span>146 citations</span>
@@ -107,7 +107,7 @@ description: Journal articles, preprints, conference presentations, patents, and
             <h3><a href="https://www.mdpi.com/1424-8220/21/6/2211">SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring</a></h3>
             <p class="pub-authors">S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim</p>
             <p class="pub-venue">Sensors, 21(6), 2211</p>
-            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/21/6/2211">Source Document</a><span>Cited by 16</span></div>
+            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/21/6/2211">Source Document</a><span>Cited by 17</span></div>
         </div>
     </article>
 
@@ -127,7 +127,21 @@ description: Journal articles, preprints, conference presentations, patents, and
             <h3><a href="https://www.mdpi.com/1424-8220/20/10/2963">BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification</a></h3>
             <p class="pub-authors">Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim</p>
             <p class="pub-venue">Sensors, 20(10), 2963</p>
-            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/20/10/2963">Source Document</a><span>Cited by 44</span></div>
+            <div class="pub-actions"><a href="https://www.mdpi.com/1424-8220/20/10/2963">Source Document</a><span>Cited by 43</span></div>
+        </div>
+    </article>
+</div>
+
+## Technical Articles (1)
+
+<div class="pub-list">
+    <article class="pub-entry">
+        <div class="pub-year">2021</div>
+            <div class="pub-tags"><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+            <h3><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC">IoT Sensor and Cloud-Computing-Based Continuous Bridge Displacement Monitoring System Capable of Acceleration and Strain Sensing</a></h3>
+            <p class="pub-authors">Jongbin Won, <strong>Junyoung Park</strong>, Junsik Shin, Sohaeng Kang, Jongwoong Park, Minyong Park</p>
+            <p class="pub-venue">Magazine of the Korean Society of Civil Engineers, 69(10), 58-65</p>
+            <div class="pub-actions"><a href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC">Scholar</a><a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Project</a></div>
         </div>
     </article>
 </div>
