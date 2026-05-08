@@ -134,11 +134,11 @@ a {
 	position: absolute;
 	inset: 0;
 	pointer-events: none;
-	background-image: url("data:image/svg+xml,%3Csvg width='980' height='360' viewBox='0 0 980 360' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%231f6f78' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='.16'%3E%3Cpath d='M20 232 C90 232 94 232 118 232 C138 232 146 190 164 190 C184 190 190 266 210 266 C236 266 246 132 272 132 C302 132 308 252 332 252 C360 252 366 214 394 214 C430 214 438 214 474 214 C512 214 518 168 548 168 C584 168 588 254 620 254 C654 254 662 206 690 206 C724 206 728 222 758 222 C798 222 806 144 842 144 C884 144 890 232 930 232 C946 232 958 232 966 232'/%3E%3Cpath d='M70 286 H198 M228 286 H356 M386 286 H514 M544 286 H672 M702 286 H900' opacity='.45'/%3E%3Ccircle cx='272' cy='132' r='4' fill='%231f6f78' stroke='none' opacity='.35'/%3E%3Ccircle cx='548' cy='168' r='4' fill='%231f6f78' stroke='none' opacity='.35'/%3E%3Ccircle cx='842' cy='144' r='4' fill='%231f6f78' stroke='none' opacity='.35'/%3E%3C/g%3E%3C/svg%3E");
+	background-image: url("data:image/svg+xml,%3Csvg width='1600' height='320' viewBox='0 0 1600 320' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%231f6f78' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='.15'%3E%3Cpath d='M42 214 C132 214 198 214 270 214 C318 214 326 188 360 188 C394 188 404 236 438 236 C484 236 494 174 536 174 C578 174 588 226 630 226 C680 226 694 204 744 204 C820 204 856 204 928 204 C976 204 992 164 1036 164 C1082 164 1098 240 1144 240 C1194 240 1210 196 1256 196 C1304 196 1328 212 1376 212 C1434 212 1476 188 1558 188'/%3E%3Cpath d='M56 254 H252 M312 254 H508 M568 254 H764 M824 254 H1020 M1080 254 H1276 M1336 254 H1540' opacity='.4'/%3E%3Cpath d='M76 128 H248 M340 128 H512 M604 128 H776 M868 128 H1040 M1132 128 H1304 M1396 128 H1524' opacity='.16'/%3E%3Ccircle cx='360' cy='188' r='4' fill='%231f6f78' stroke='none' opacity='.34'/%3E%3Ccircle cx='536' cy='174' r='4' fill='%231f6f78' stroke='none' opacity='.34'/%3E%3Ccircle cx='1036' cy='164' r='4' fill='%231f6f78' stroke='none' opacity='.34'/%3E%3Ccircle cx='1256' cy='196' r='4' fill='%231f6f78' stroke='none' opacity='.34'/%3E%3C/g%3E%3C/svg%3E");
 	background-repeat: no-repeat;
-	background-position: right 6vw bottom 22px;
-	background-size: min(58vw, 720px) auto;
-	opacity: .72;
+	background-position: center bottom 20px;
+	background-size: min(92vw, 1320px) auto;
+	opacity: .66;
 }
 
 .profile-hero > * {
