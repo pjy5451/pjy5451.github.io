@@ -120,16 +120,7 @@
 
       (function() {
         try {
-          var preferredLang = localStorage.getItem('siteLanguage');
-          var currentLang = '{{ page.lang | default: "en" }}';
-          var koUrl = '{{ page.ko_url | default: "" | relative_url }}';
-          var enUrl = '{{ page.en_url | default: "" | relative_url }}';
-
-          if (preferredLang === 'ko' && currentLang !== 'ko' && koUrl) {
-            window.location.replace(koUrl);
-          } else if (preferredLang === 'en' && currentLang === 'ko' && enUrl) {
-            window.location.replace(enUrl);
-          }
+          localStorage.removeItem('siteLanguage');
         } catch (error) {}
       })();
     </script>
@@ -187,16 +178,6 @@
     <script type="text/javascript" src="{{'/assets/js/jquery.fitvids.js' | relative_url }}"></script>
     <script type="text/javascript" src="{{'/assets/js/index.js' | relative_url }}"></script>
     <script>
-      (function() {
-        document.querySelectorAll('[data-lang-choice]').forEach(function(link) {
-          link.addEventListener('click', function() {
-            try {
-              localStorage.setItem('siteLanguage', link.getAttribute('data-lang-choice'));
-            } catch (error) {}
-          });
-        });
-      })();
-
       (function() {
         var root = document.documentElement;
         var toggle = document.querySelector('[data-theme-toggle]');
