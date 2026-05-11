@@ -1,0 +1,787 @@
+sections:
+- title:
+    en: Journal Articles
+    ko: Journal Articles
+  entries:
+  - year: '2026'
+    tags:
+    - WIM
+    - AI
+    - Data
+    title:
+      en: YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems
+      ko: YOLO 기반 고속축중기 하중 구간 자동 검출 기법
+    authors:
+      en: <strong>Junyoung Park</strong>, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung
+      ko: <strong>박준영</strong>, 김종우, 조윤범, 정영우
+    venue:
+      en: Journal of the Korean Society of Civil Engineers, 46(1), 95-104
+      ko: 대한토목학회논문집, 46(1), 95-104
+    actions:
+      en:
+      - label: Source Document
+        href: https://kscejournal.or.kr/jksce/XmlViewer/f450650
+      - label: Project
+        href: /projects/weight-in-motion.html
+      ko:
+      - label: Source Document
+        href: https://kscejournal.or.kr/jksce/XmlViewer/f450650
+      - label: Project
+        href: /projects/weight-in-motion.html
+    href:
+      en: https://kscejournal.or.kr/jksce/XmlViewer/f450650
+      ko: https://kscejournal.or.kr/jksce/XmlViewer/f450650
+  - year: '2024'
+    tags:
+    - Port
+    - AI
+    - IoT
+    title:
+      en: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
+      ko: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
+    authors:
+      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jongwoong Park, Jiyoung Min
+      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jongwoong Park, Jiyoung Min
+    venue:
+      en: Journal of Marine Science and Engineering, 12(11), 1902
+      ko: Journal of Marine Science and Engineering, 12(11), 1902
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.mdpi.com/2077-1312/12/11/1902
+      - label: Project
+        href: /projects/quay-wall-monitoring.html
+      - label: Cited by 1
+      ko:
+      - label: Source Document
+        href: https://www.mdpi.com/2077-1312/12/11/1902
+      - label: Project
+        href: /projects/quay-wall-monitoring.html
+      - label: Cited by 1
+    href:
+      en: https://www.mdpi.com/2077-1312/12/11/1902
+      ko: https://www.mdpi.com/2077-1312/12/11/1902
+  - year: '2024'
+    tags:
+    - WIM
+    - OBM
+    - Signal
+    title:
+      en: Stability Assurance of a Dynamic State Information Measurement System for Trucks in Motion
+      ko: 주행 중 트럭의 동적 상태 정보 측정 시스템 안정성 확보
+    authors:
+      en: <strong>Junyoung Park</strong>, Jinsik Kim, Jongwoo Kim, Yunbeom Cho
+      ko: <strong>박준영</strong>, 김진식, 김종우, 조윤범
+    venue:
+      en: Journal of the Korean Society of Mechanical Technology, 26(5), 1041-1046
+      ko: 한국기계기술학회지, 26(5), 1041-1046
+    actions:
+      en:
+      - label: Scholar
+        href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
+      ko:
+      - label: Scholar
+        href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
+    href:
+      en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
+      ko: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
+  - year: '2023'
+    tags:
+    - Bridge
+    - AI
+    - SHM
+    title:
+      en: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
+      ko: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
+    authors:
+      en: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jongwoong Park
+      ko: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jongwoong Park
+    venue:
+      en: Sensors, 23(11), 5040
+      ko: Sensors, 23(11), 5040
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/23/11/5040
+      - label: Cited by 10
+      ko:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/23/11/5040
+      - label: Cited by 10
+    href:
+      en: https://www.mdpi.com/1424-8220/23/11/5040
+      ko: https://www.mdpi.com/1424-8220/23/11/5040
+  - year: '2023'
+    tags:
+    - Precast
+    - IoT
+    - Sensor
+    title:
+      en: Monitoring Precast Structures During Transportation Using a Portable Sensing System
+      ko: Monitoring Precast Structures During Transportation Using a Portable Sensing System
+    authors:
+      en: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
+      ko: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
+    venue:
+      en: Automation in Construction, 145, 104639
+      ko: Automation in Construction, 145, 104639
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.sciencedirect.com/science/article/pii/S092658052200509X
+      - label: Project
+        href: /projects/portable-sensing.html
+      - label: Cited by 10
+      ko:
+      - label: Source Document
+        href: https://www.sciencedirect.com/science/article/pii/S092658052200509X
+      - label: Project
+        href: /projects/portable-sensing.html
+      - label: Cited by 10
+    href:
+      en: https://www.sciencedirect.com/science/article/pii/S092658052200509X
+      ko: https://www.sciencedirect.com/science/article/pii/S092658052200509X
+  - year: '2021'
+    tags:
+    - Bridge
+    - Data
+    - SHM
+    title:
+      en: Development of a Reference-Free Indirect Bridge Displacement Sensing System
+      ko: Development of a Reference-Free Indirect Bridge Displacement Sensing System
+    authors:
+      en: Jongbin Won, Jongwoong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park
+      ko: Jongbin Won, Jongwoong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park
+    venue:
+      en: Sensors, 21(16), 5647
+      ko: Sensors, 21(16), 5647
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/21/16/5647
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      - label: Cited by 31
+      ko:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/21/16/5647
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      - label: Cited by 31
+    href:
+      en: https://www.mdpi.com/1424-8220/21/16/5647
+      ko: https://www.mdpi.com/1424-8220/21/16/5647
+  - year: '2021'
+    tags:
+    - Sensor
+    - Concrete
+    - Material
+    title:
+      en: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
+      ko: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
+    authors:
+      en: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
+      ko: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
+    venue:
+      en: Sensors, 21(19), 6386
+      ko: Sensors, 21(19), 6386
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/21/19/6386
+      - label: Cited by 24
+      ko:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/21/19/6386
+      - label: Cited by 24
+    href:
+      en: https://www.mdpi.com/1424-8220/21/19/6386
+      ko: https://www.mdpi.com/1424-8220/21/19/6386
+  - year: '2021'
+    tags:
+    - Sensor
+    - Low Power
+    - SHM
+    title:
+      en: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
+      ko: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
+    authors:
+      en: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
+      ko: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
+    venue:
+      en: Sensors, 21(6), 2211
+      ko: Sensors, 21(6), 2211
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/21/6/2211
+      - label: Cited by 17
+      ko:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/21/6/2211
+      - label: Cited by 17
+    href:
+      en: https://www.mdpi.com/1424-8220/21/6/2211
+      ko: https://www.mdpi.com/1424-8220/21/6/2211
+  - year: '2021'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: Development of Low-Power IoT Sensor and Cloud-Based Data Fusion Displacement Estimation Method for Ambient Bridge
+        Monitoring
+      ko: 상시 교량 모니터링을 위한 저전력 IoT 센서 및 클라우드 기반 데이터 융합 변위 측정 기법 개발
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park
+      ko: <strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용
+    venue:
+      en: Journal of the Computational Structural Engineering Institute of Korea, 34(5)
+      ko: 한국전산구조공학회논문집, 34(5), 301-308
+    actions:
+      en:
+      - label: Scholar
+        href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      - label: Cited by 8
+      ko:
+      - label: Source Document
+        href: https://www.jcoseik.or.kr/articles/xml/o4yP/
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      - label: Cited by 8
+    href:
+      en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C
+      ko: https://www.jcoseik.or.kr/articles/xml/o4yP/
+  - year: '2020'
+    tags:
+    - Sensor
+    - IoT
+    - Event
+    title:
+      en: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
+      ko: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
+    authors:
+      en: Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim
+      ko: Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim
+    venue:
+      en: Sensors, 20(10), 2963
+      ko: Sensors, 20(10), 2963
+    actions:
+      en:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/20/10/2963
+      - label: Cited by 43
+      ko:
+      - label: Source Document
+        href: https://www.mdpi.com/1424-8220/20/10/2963
+      - label: Cited by 43
+    href:
+      en: https://www.mdpi.com/1424-8220/20/10/2963
+      ko: https://www.mdpi.com/1424-8220/20/10/2963
+- title:
+    en: Technical Articles
+    ko: Technical Articles
+  entries:
+  - year: '2021'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: IoT Sensor and Cloud-Computing-Based Continuous Bridge Displacement Monitoring System Capable of Acceleration and
+        Strain Sensing
+      ko: 가속도, 변형률 센싱이 가능한 IoT 센서 및 클라우드 컴퓨팅 기반 교량 상시 변위 계측 관리 시스템
+    authors:
+      en: Jongbin Won, <strong>Junyoung Park</strong>, Junsik Shin, Sohaeng Kang, Jongwoong Park, Minyong Park
+      ko: 원종빈, <strong>박준영</strong>, 신준식, 강소행, 박종웅, 박민용
+    venue:
+      en: Magazine of the Korean Society of Civil Engineers, 69(10), 58-65
+      ko: 대한토목학회지, 69(10), 58-65
+    actions:
+      en:
+      - label: Scholar
+        href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Scholar
+        href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
+      - label: Project
+        href: /projects/bridge-monitoring.html
+    href:
+      en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
+      ko: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
+- title:
+    en: Preprints
+    ko: Preprints
+  entries:
+  - year: '2026'
+    tags:
+    - Bridge
+    - Sensor
+    - Load Test
+    title:
+      en: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
+      ko: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
+    authors:
+      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won
+      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won
+    venue:
+      en: SSRN working paper. Manuscript in progress.
+      ko: SSRN working paper. Manuscript in progress.
+    actions:
+      en:
+      - label: SSRN
+        href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+      - label: In Progress
+      ko:
+      - label: SSRN
+        href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+      - label: In Progress
+    href:
+      en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+      ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+  - year: '2022'
+    tags:
+    - Bridge
+    - Cloud
+    - IoT
+    title:
+      en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
+      ko: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongwoong Park
+      ko: <strong>Junyoung Park</strong>, Junsik Shin, Jongwoong Park
+    venue:
+      en: arXiv:2209.12186
+      ko: arXiv:2209.12186
+    actions:
+      en:
+      - label: Preprint
+        href: https://arxiv.org/abs/2209.12186
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      - label: Cited by 1
+      ko:
+      - label: Preprint
+        href: https://arxiv.org/abs/2209.12186
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      - label: Cited by 1
+    href:
+      en: https://arxiv.org/abs/2209.12186
+      ko: https://arxiv.org/abs/2209.12186
+  - year: '2022'
+    tags:
+    - Port
+    - AI
+    - Cloud
+    title:
+      en: Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring
+      ko: Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring
+    authors:
+      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
+      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
+    venue:
+      en: arXiv:2209.13646
+      ko: arXiv:2209.13646
+    actions:
+      en:
+      - label: Preprint
+        href: https://arxiv.org/abs/2209.13646
+      - label: Project
+        href: /projects/quay-wall-monitoring.html
+      - label: Cited by 1
+      ko:
+      - label: Preprint
+        href: https://arxiv.org/abs/2209.13646
+      - label: Project
+        href: /projects/quay-wall-monitoring.html
+      - label: Cited by 1
+    href:
+      en: https://arxiv.org/abs/2209.13646
+      ko: https://arxiv.org/abs/2209.13646
+- title:
+    en: Conference Presentations
+    ko: Conference Presentations
+  entries:
+  - year: '2025'
+    tags:
+    - WIM
+    - Cloud
+    title:
+      en: Development of a Cloud-Based Integrated Enforcement Platform Technology
+      ko: 클라우드 기반 자동단속 통합플랫폼 기술 개발
+    authors:
+      en: <strong>Junyoung Park</strong>, Jongwoo Kim, Junghoon Kim
+      ko: <strong>박준영</strong>, 김종우, 김정훈
+    venue:
+      en: Korean Society of Civil Engineers. Domestic conference presentation, 2025-11-14.
+      ko: 대한토목학회. 국내학술대회 발표, 2025-11-14.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/weight-in-motion.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/weight-in-motion.html
+  - year: '2024'
+    tags:
+    - QR
+    - Cloud
+    - SHM
+    title:
+      en: 'QR SENSOR: A Citizen-Assisted, QR-Based Sensory Data Acquisition and Cloud Computing Approach for Structural Health
+        Monitoring'
+      ko: 'QR SENSOR: A Citizen-Assisted, QR-Based Sensory Data Acquisition and Cloud Computing Approach for Structural Health
+        Monitoring'
+    authors:
+      en: Jong-Woong Park, <strong>Junyoung Park</strong>, C. Min
+      ko: 박종웅, <strong>박준영</strong>, 민찬홍
+    venue:
+      en: EMI/EMC 2024. International conference presentation, 2024-05-20.
+      ko: EMI/EMC 2024. 국제학술대회 발표, 2024-05-20.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/qr-lifecycle-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/qr-lifecycle-monitoring.html
+  - year: '2023'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: A Scalable IoT Sensor and Cloud-Computing-Based Framework for Continuous Bridge Monitoring
+      ko: 교량 상시 모니터링을 위한 IoT 센서 및 클라우드 컴퓨팅 기반 확장 가능한 프레임워크
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+      ko: <strong>박준영</strong>, 신준식, 박종웅
+    venue:
+      en: Korea Institute for Structural Maintenance and Inspection. Domestic conference presentation, 2023-10-12.
+      ko: 한국구조물진단유지관리공학회. 국내학술대회 발표, 2023-10-12.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+  - year: '2023'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: IoT Sensor and Cloud-Computing-Based Long-Term Bridge Monitoring
+      ko: IoT 센서 및 클라우드 컴퓨팅 기반 교량 장기 모니터링
+    authors:
+      en: <strong>Junyoung Park</strong>
+      ko: <strong>박준영</strong>
+    venue:
+      en: Korean Institute of Bridge and Structural Engineers. Domestic conference presentation, 2023-09-18.
+      ko: 한국교량및구조공학회. 국내학술대회 발표, 2023-09-18.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+  - year: '2023'
+    tags:
+    - Bridge
+    - Cloud
+    title:
+      en: Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements
+      ko: Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+      ko: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+    venue:
+      en: Korea Institute of BIM. International conference presentation, 2023-08-23.
+      ko: 한국BIM학회. 국제학술대회 발표, 2023-08-23.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+  - year: '2022'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
+      ko: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+      ko: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+    venue:
+      en: Korea Institute of Construction Engineering and Management. International conference presentation, 2022-11-18.
+      ko: 한국건설관리학회. 국제학술대회 발표, 2022-11-18.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+  - year: '2022'
+    tags:
+    - Bridge
+    - IoT
+    title:
+      en: Cloud-Based IoT Sensor System for Bridge Load-Carrying Capacity Evaluation
+      ko: 교량 내하력 평가를 위한 클라우드 기반 IoT 센서 시스템
+    authors:
+      en: Jong-Woong Park, <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won
+      ko: 박종웅, <strong>박준영</strong>, 신준식, 원종빈
+    venue:
+      en: Korea Society for Prognostics and Health Management. Domestic conference presentation, 2022-06-30.
+      ko: 한국PHM학회. 국내학술대회 발표, 2022-06-30.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+  - year: '2022'
+    tags:
+    - Bridge
+    - Data
+    title:
+      en: Optimization of an Acceleration-Strain-Based Displacement Estimation Method Considering Bridge Boundary Conditions
+      ko: 교량 경계조건을 고려한 가속도-변형률 기반 변위 추정 기법 최적화
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+      ko: <strong>박준영</strong>, 신준식, 박종웅
+    venue:
+      en: Korean Society for Noise and Vibration Engineering. Domestic conference presentation, 2022-05-26.
+      ko: 한국소음진동공학회. 국내학술대회 발표, 2022-05-26.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+  - year: '2021'
+    tags:
+    - Bridge
+    - Cloud
+    title:
+      en: Cloud-Based Bridge Displacement Monitoring System
+      ko: 클라우드 기반 교량 변위 모니터링 시스템
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jong-Woong Park, Minyong Park
+      ko: <strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용
+    venue:
+      en: Computational Structural Engineering Institute of Korea. Domestic conference presentation, 2021-04-08.
+      ko: 한국전산구조공학회. 국내학술대회 발표, 2021-04-08.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring.html
+- title:
+    en: Patents
+    ko: Patents
+  entries:
+  - year: '2025'
+    tags:
+    - Bridge
+    - WIM
+    title:
+      en: Continuous Bridge Load-Carrying Capacity Assessment System and Method
+      ko: 교량 상시 내하력 평가 시스템 및 방법
+    authors:
+      en: Continuous bridge load-carrying capacity assessment system and method.
+      ko: 교량 상시 내하력 평가 시스템 및 방법.
+    venue:
+      en: KR 10-2025-0174354. Application filed on 2025-11-18.
+      ko: 'KR 10-2025-0174354. 출원일: 2025-11-18.'
+    actions:
+      en:
+      - label: Patent Application
+      ko:
+      - label: 특허 출원
+  - year: '2025'
+    tags:
+    - WIM
+    - IoT
+    - AI
+    title:
+      en: Automatic Load-Event Interval Recognition Using IoT Sensors for Structural Capacity Assessment
+      ko: 구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법
+    authors:
+      en: Automatic load-event interval recognition and analysis system using IoT sensors for structural load-carrying capacity
+        assessment.
+      ko: 구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법.
+    venue:
+      en: KR 10-2853678. Registered on 2025-08-28.
+      ko: 'KR 10-2853678. 등록일: 2025-08-28.'
+    actions:
+      en:
+      - label: Registered Patent
+      ko:
+      - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020220123693
+      ko: https://doi.org/10.8080/1020220123693
+  - year: '2024'
+    tags:
+    - WIM
+    - Signal
+    title:
+      en: Real-Time Dynamic Truck Operating Weight Correction Based on an FIR Filter
+      ko: FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치
+    authors:
+      en: Real-time correction method and device for dynamic truck operating weight based on an FIR filter.
+      ko: FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치.
+    venue:
+      en: KR 10-2025-0068214. Application filed on 2024-12-30.
+      ko: 'KR 10-2025-0068214. 출원일: 2024-12-30.'
+    actions:
+      en:
+      - label: Patent Application
+      ko:
+      - label: 특허 출원
+  - year: '2024'
+    tags:
+    - Concrete
+    - Crack
+    - Sensor
+    title:
+      en: Concrete Crack Trajectory Monitoring and Long-Term History Visualization
+      ko: 저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템
+    authors:
+      en: Concrete crack trajectory monitoring device using a resistive touchpad and long-term measurement history visualization
+        system.
+      ko: 저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템.
+    venue:
+      en: KR 10-2024-0017869. Registered on 2024-02-06.
+      ko: 'KR 10-2024-0017869. 등록일: 2024-02-06.'
+    actions:
+      en:
+      - label: Registered Patent
+      ko:
+      - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020240017869
+      ko: https://doi.org/10.8080/1020240017869
+  - year: '2022'
+    tags:
+    - Precast
+    - IoT
+    title:
+      en: IoT Sensor-Based Integrated Monitoring for Precast Transportation
+      ko: IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법
+    authors:
+      en: Integrated precast transportation monitoring system and method based on IoT sensors.
+      ko: IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법.
+    venue:
+      en: KR 10-2022-0159449. Registered on 2022-11-24.
+      ko: 'KR 10-2022-0159449. 등록일: 2022-11-24.'
+    actions:
+      en:
+      - label: Registered Patent
+      ko:
+      - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020220159449
+      ko: https://doi.org/10.8080/1020220159449
+  - year: '2022'
+    tags:
+    - Cloud
+    - AI
+    - IoT
+    title:
+      en: Cloud-Based IoT Sensor Data Preprocessing and Deep-Learning Anomaly Detection
+      ko: 클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템
+    authors:
+      en: Cloud-based smart IoT sensor data preprocessing method and deep-learning-based anomaly detection automation system
+        for structural monitoring.
+      ko: 클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법 및 딥러닝 기반 이상치 감지 자동화시스템.
+    venue:
+      en: KR 10-2022-0021506. Registered on 2022-02-18.
+      ko: 'KR 10-2022-0021506. 등록일: 2022-02-18.'
+    actions:
+      en:
+      - label: Registered Patent
+      ko:
+      - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020220021506
+      ko: https://doi.org/10.8080/1020220021506
+  - year: '2021'
+    tags:
+    - Sensor
+    - QR
+    - Data
+    title:
+      en: Citizen-Participatory Smart City System Using Sensor Measurement and Data Visualization
+      ko: 센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템
+    authors:
+      en: Citizen-participatory smart city system using sensor measurement and data visualization.
+      ko: 센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템.
+    venue:
+      en: KR 10-2021-0126695. Registered on 2021-09-24.
+      ko: 'KR 10-2021-0126695. 등록일: 2021-09-24.'
+    actions:
+      en:
+      - label: Registered Patent
+      ko:
+      - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020210126695
+      ko: https://doi.org/10.8080/1020210126695
+  - year: '2020'
+    tags:
+    - Sensor
+    - IoT
+    - Event
+    title:
+      en: Smart IoT Earthquake Sensor Unit and Notification Method
+      ko: 스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법
+    authors:
+      en: Smart IoT earthquake sensor unit and notification method.
+      ko: 스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법.
+    venue:
+      en: KR 10-2020-0059559. Registered on 2020-05-19.
+      ko: 'KR 10-2020-0059559. 등록일: 2020-05-19.'
+    actions:
+      en:
+      - label: Registered Patent
+      ko:
+      - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020200059559
+      ko: https://doi.org/10.8080/1020200059559
