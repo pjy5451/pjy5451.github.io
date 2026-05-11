@@ -32,12 +32,12 @@
     {% endif %}
     <a class="profile-brand" href="{% if is_ko %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">{{ site.name }}</a>
     <div class="profile-nav-links">
-        <a class="nav-link{% if home_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}"{% if home_active %} aria-current="page"{% endif %}>{% if is_ko %}Home{% else %}Home{% endif %}</a>
-        <a class="nav-link{% if about_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/about.html' | relative_url }}{% else %}{{ '/about.html' | relative_url }}{% endif %}"{% if about_active %} aria-current="page"{% endif %}>About</a>
-        <a class="nav-link{% if projects_active %} is-active{% endif %}" href="{{ '/projects.html' | relative_url }}"{% if projects_active %} aria-current="page"{% endif %}>Projects</a>
-        <a class="nav-link{% if field_work_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/field-work.html' | relative_url }}{% else %}{{ '/field-work.html' | relative_url }}{% endif %}"{% if field_work_active %} aria-current="page"{% endif %}>Field Work</a>
-        <a class="nav-link{% if publications_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}"{% if publications_active %} aria-current="page"{% endif %}>Publications</a>
-        <a class="nav-link{% if notes_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/blog.html' | relative_url }}{% else %}{{ '/blog.html' | relative_url }}{% endif %}"{% if notes_active %} aria-current="page"{% endif %}>Notes</a>
+        <a class="nav-link{% if home_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}"{% if home_active %} aria-current="page"{% endif %}>{% if is_ko %}홈{% else %}Home{% endif %}</a>
+        <a class="nav-link{% if about_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/about.html' | relative_url }}{% else %}{{ '/about.html' | relative_url }}{% endif %}"{% if about_active %} aria-current="page"{% endif %}>{% if is_ko %}소개{% else %}About{% endif %}</a>
+        <a class="nav-link{% if projects_active %} is-active{% endif %}" href="{{ '/projects.html' | relative_url }}"{% if projects_active %} aria-current="page"{% endif %}>{% if is_ko %}프로젝트{% else %}Projects{% endif %}</a>
+        <a class="nav-link{% if field_work_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/field-work.html' | relative_url }}{% else %}{{ '/field-work.html' | relative_url }}{% endif %}"{% if field_work_active %} aria-current="page"{% endif %}>{% if is_ko %}현장 작업{% else %}Field Work{% endif %}</a>
+        <a class="nav-link{% if publications_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}"{% if publications_active %} aria-current="page"{% endif %}>{% if is_ko %}논문/특허{% else %}Publications{% endif %}</a>
+        <a class="nav-link{% if notes_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/blog.html' | relative_url }}{% else %}{{ '/blog.html' | relative_url }}{% endif %}"{% if notes_active %} aria-current="page"{% endif %}>{% if is_ko %}노트{% else %}Notes{% endif %}</a>
         <button class="nav-search-toggle" type="button" data-search-toggle aria-label="Search this site">
             <svg viewBox="0 0 24 24" aria-hidden="true">
                 <circle cx="11" cy="11" r="7"></circle>

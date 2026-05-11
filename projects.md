@@ -62,30 +62,4 @@ Selected projects from graduate research, independent experiments, and applied i
         <span class="project-tags"><span>Field Sensing</span><span>Precast</span><span>Safety</span></span>
     </a>
 
-    <a class="project-card" href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">
-        <span class="project-year">2021 - 2023</span>
-        <span class="project-type">Lifecycle Monitoring</span>
-        <h2>QR-Based Bridge Lifecycle Monitoring</h2>
-        <span class="project-thumb-wrap"><img class="project-thumb" src="{{ '/assets/images/projects/portfolio/portfolio-page-15.png' | relative_url }}" alt="QR-based lifecycle monitoring sensor hardware" /></span>
-        <p>QR-linked inspection and monitoring records for bridge lifecycle data management.</p>
-        <span class="project-tags"><span>QR</span><span>Lifecycle</span><span>Bridge Records</span></span>
-    </a>
-
-    <a class="project-card" href="{{ '/projects/smart-city-sensing.html' | relative_url }}">
-        <span class="project-year">2021 - 2022</span>
-        <span class="project-type">Smart City</span>
-        <h2>Citizen-Participatory Smart City Sensing</h2>
-        <span class="project-thumb-wrap"><img class="project-thumb" src="{{ '/assets/images/projects/portfolio/portfolio-page-32.png' | relative_url }}" alt="Citizen-participatory QR smart city sensing award and system" /></span>
-        <p>Sensor measurement and data visualization workflows for citizen-participatory smart city systems.</p>
-        <span class="project-tags"><span>Smart City</span><span>Sensing</span><span>Visualization</span></span>
-    </a>
-
-    <a class="project-card" href="{{ '/projects/earthquake-sensor.html' | relative_url }}">
-        <span class="project-year">2020 - 2021</span>
-        <span class="project-type">IoT Sensor</span>
-        <h2>Smart IoT Earthquake Sensor</h2>
-        <span class="project-thumb-wrap"><img class="project-thumb" src="{{ '/assets/images/projects/portfolio/portfolio-page-28.png' | relative_url }}" alt="Smart IoT earthquake sensor prototype and award" /></span>
-        <p>Low-cost earthquake detection and notification using smart IoT sensor units.</p>
-        <span class="project-tags"><span>Earthquake</span><span>BLE</span><span>Sensing</span></span>
-    </a>
 </div>

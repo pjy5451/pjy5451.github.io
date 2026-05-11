@@ -2,6 +2,7 @@
 layout: page
 title: Field Work
 no_site_suffix: true
+body_class: field-work-template
 lang: en
 ko_url: /ko/field-work.html
 description: Field experience framework for Junyoung Park's infrastructure monitoring work, including 50+ field experiments, sensor installation, DAQ workflows, bridge tests, vehicle monitoring, and cloud visualization.
@@ -19,31 +20,39 @@ keywords:
 
 This page is prepared as a field-work archive for my infrastructure monitoring experience. I have participated in more than 50 field experiments and deployments across bridge monitoring, vehicle load sensing, precast transportation, port structures, sensor installation, DAQ validation, and cloud-based data review.
 
-<div class="field-metrics">
-    <section>
-        <strong>50+</strong>
-        <span>field experiments and deployments</span>
-    </section>
-    <section>
-        <strong>4</strong>
-        <span>main field domains: bridges, vehicles, precast, ports</span>
-    </section>
-    <section>
-        <strong>Build to Data</strong>
-        <span>hardware, installation, DAQ, cloud, analysis</span>
-    </section>
-</div>
+<div class="field-command-center">
+    <div class="field-filter-panel">
+        <div>
+            <span class="field-panel-kicker">Browse</span>
+            <h2>Filter field work</h2>
+        </div>
+        <div class="pub-filter-bar field-filter-bar" data-field-filter-bar data-status-all="Showing all field work categories" data-status-filtered="Showing filtered field work categories" aria-label="Filter field work by topic">
+            <button type="button" class="is-active" data-field-filter="all">All</button>
+            <button type="button" data-field-filter="Bridge">Bridge</button>
+            <button type="button" data-field-filter="Vehicle">Vehicle</button>
+            <button type="button" data-field-filter="Precast">Precast</button>
+            <button type="button" data-field-filter="Port">Port</button>
+            <button type="button" data-field-filter="DAQ">DAQ</button>
+            <button type="button" data-field-filter="Cloud">Cloud</button>
+        </div>
+        <p class="pub-filter-status" data-field-filter-status>Showing all field work categories.</p>
+    </div>
 
-<div class="pub-filter-bar field-filter-bar" data-field-filter-bar data-status-all="Showing all field work categories" data-status-filtered="Showing filtered field work categories" aria-label="Filter field work by topic">
-    <button type="button" class="is-active" data-field-filter="all">All</button>
-    <button type="button" data-field-filter="Bridge">Bridge</button>
-    <button type="button" data-field-filter="Vehicle">Vehicle</button>
-    <button type="button" data-field-filter="Precast">Precast</button>
-    <button type="button" data-field-filter="Port">Port</button>
-    <button type="button" data-field-filter="DAQ">DAQ</button>
-    <button type="button" data-field-filter="Cloud">Cloud</button>
+    <div class="field-metrics">
+        <section>
+            <strong>50+</strong>
+            <span>field experiments and deployments</span>
+        </section>
+        <section>
+            <strong>4</strong>
+            <span>main field domains: bridges, vehicles, precast, ports</span>
+        </section>
+        <section>
+            <strong>Build to Data</strong>
+            <span>hardware, installation, DAQ, cloud, analysis</span>
+        </section>
+    </div>
 </div>
-<p class="pub-filter-status" data-field-filter-status>Showing all field work categories.</p>
 
 <div class="field-project-map">
     <section>
@@ -77,7 +86,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
 
 <div class="field-gallery" data-field-gallery>
     <article id="bridge-monitoring-field" data-field-tags="Bridge|Hardware|Cloud|Sensor">
-        <div class="field-placeholder">Image planned</div>
+        <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-06.png' | relative_url }}" alt="Smart bridge IoT sensor and cloud monitoring system" />
         <span>Hardware / Cloud</span>
         <h2>Smart bridge IoT monitoring system</h2>
         <p>Stand-alone sensing units, cloud upload, automated analysis, and dashboard visualization for bridge health monitoring.</p>
@@ -90,7 +99,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article id="bridge-installation-field" data-field-tags="Bridge|Sensor|Installation|Field">
-        <div class="field-placeholder">Image planned</div>
+        <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-07.png' | relative_url }}" alt="Bridge field installation and measured response data" />
         <span>Bridge Test</span>
         <h2>Field installation and response data</h2>
         <p>Sensor installation, measured response histories, field validation, and debugging under real bridge conditions.</p>
@@ -103,7 +112,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article id="cloud-dashboard-field" data-field-tags="Bridge|Cloud|Dashboard|Data">
-        <div class="field-placeholder">Image planned</div>
+        <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-24.png' | relative_url }}" alt="Cloud monitoring dashboard for bridge response data" />
         <span>Visualization</span>
         <h2>Cloud monitoring dashboard</h2>
         <p>Online monitoring interface for sensor status, vibration, displacement, strain, temperature, and interpreted comments.</p>
@@ -116,7 +125,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
     </article>
     <article id="vehicle-load-field" data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
-        <div class="field-placeholder">Image planned</div>
+        <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="Vehicle load sensing and WIM DAQ signal workflow" />
         <span>DAQ / WIM</span>
         <h2>Vehicle load sensing and WIM DAQ</h2>
         <p>High-speed signal acquisition, field driving data, load interval detection, and vehicle-weight analysis workflows.</p>
@@ -129,7 +138,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Related project</a>
     </article>
     <article id="precast-transport-field" data-field-tags="Precast|Sensor|Transportation|Field">
-        <div class="field-placeholder">Image planned</div>
+        <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-11.png' | relative_url }}" alt="Portable sensing for precast transportation monitoring" />
         <span>Precast</span>
         <h2>Portable sensing during transportation</h2>
         <p>Portable monitoring of strain, acceleration, tilt, and transport-stage response for precast concrete members.</p>
@@ -142,7 +151,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Related project</a>
     </article>
     <article id="port-monitoring-field" data-field-tags="Port|Sensor|Cloud|AI">
-        <div class="field-placeholder">Image planned</div>
+        <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-19.png' | relative_url }}" alt="Packaged sensors for quay wall event monitoring" />
         <span>Port Structure</span>
         <h2>Quay wall event monitoring</h2>
         <p>Ruggedized sensor packaging, harsh-environment monitoring, cloud communication, and AI-assisted event analysis.</p>

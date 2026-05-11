@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Notes
+title: 노트
 no_site_suffix: true
 lang: ko
 en_url: /blog.html

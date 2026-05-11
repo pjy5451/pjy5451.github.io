@@ -1937,22 +1937,6 @@ html[data-theme="dark"] .project-card:hover .project-thumb {
 	line-height: 1;
 }
 
-.project-tags span:nth-child(2) {
-	border-color: rgba(180, 87, 61, .22);
-	background: rgba(180, 87, 61, .07);
-	color: var(--warm);
-}
-
-.project-tags span:nth-child(3) {
-	border-color: rgba(73, 111, 133, .2);
-	background: rgba(73, 111, 133, .07);
-	color: #496f85;
-}
-
-html[data-theme="dark"] .project-tags span:nth-child(3) {
-	color: #9dc7dc;
-}
-
 .field-gallery {
 	display: grid;
 	grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1962,13 +1946,53 @@ html[data-theme="dark"] .project-tags span:nth-child(3) {
 	transform: translateX(-50%);
 }
 
+.field-command-center {
+	display: grid;
+	gap: 14px;
+	width: min(1200px, calc(100vw - 32px));
+	margin: 26px 0 30px 50%;
+	transform: translateX(-50%);
+}
+
+.field-filter-panel {
+	display: grid;
+	grid-template-columns: minmax(150px, .36fr) minmax(0, 1fr) minmax(150px, auto);
+	gap: 14px;
+	align-items: center;
+	padding: 16px 0;
+	border-top: 1px solid var(--line);
+	border-bottom: 1px solid var(--line);
+}
+
+.field-panel-kicker {
+	display: block;
+	margin-bottom: 5px;
+	color: var(--warm);
+	font-size: 11px;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.field-filter-panel h2 {
+	margin: 0;
+	color: var(--ink);
+	font-size: 20px;
+	line-height: 1.25;
+}
+
+.field-filter-panel .field-filter-bar {
+	margin: 0;
+}
+
+.field-filter-panel .pub-filter-status {
+	margin: 0;
+	text-align: right;
+}
+
 .field-metrics {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1.2fr;
 	gap: 14px;
-	width: min(1200px, calc(100vw - 32px));
-	margin: 26px 0 28px 50%;
-	transform: translateX(-50%);
 }
 
 .field-metrics section {
@@ -2076,6 +2100,17 @@ html[data-theme="dark"] .field-gallery article:hover {
 	text-transform: uppercase;
 }
 
+.field-card-image {
+	display: block;
+	width: 100%;
+	aspect-ratio: 16 / 8;
+	margin: 0 0 14px;
+	border: 1px solid var(--line);
+	border-radius: 6px;
+	background: var(--wash);
+	object-fit: cover;
+}
+
 .field-gallery h2 {
 	margin: 0 0 8px;
 	color: var(--ink);
@@ -2145,7 +2180,9 @@ html[data-theme="dark"] .field-gallery article:hover {
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0, 1fr));
 	gap: 14px;
-	margin: 22px 0 34px;
+	width: min(1200px, calc(100vw - 32px));
+	margin: 22px 0 34px 50%;
+	transform: translateX(-50%);
 }
 
 .field-method-grid section {
@@ -2167,9 +2204,18 @@ html[data-theme="dark"] .field-gallery article:hover {
 	line-height: 1.6;
 }
 
-.field-log-template,
+.field-log-template {
+	width: min(1200px, calc(100vw - 32px));
+	margin: 26px 0 34px 50%;
+	transform: translateX(-50%);
+}
+
 .project-evidence-template {
 	margin: 26px 0 34px;
+}
+
+.field-log-template,
+.project-evidence-template {
 	padding: 18px 20px;
 	border: 1px solid var(--line);
 	border-radius: 8px;
@@ -2195,6 +2241,26 @@ html[data-theme="dark"] .field-gallery article:hover {
 	color: var(--copy);
 	font-size: 14px;
 	line-height: 1.65;
+}
+
+.field-work-template .content {
+	max-width: min(1280px, 100%);
+	padding-right: 32px;
+	padding-left: 32px;
+}
+
+.field-work-template .post {
+	max-width: 1200px;
+}
+
+.field-work-template .field-gallery,
+.field-work-template .field-command-center,
+.field-work-template .field-project-map,
+.field-work-template .field-method-grid,
+.field-work-template .field-log-template {
+	width: auto;
+	margin-left: 0;
+	transform: none;
 }
 
 .project-evidence-grid {
@@ -2448,6 +2514,7 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 	.project-figure-grid,
 	.field-gallery,
 	.field-project-map,
+	.field-filter-panel,
 	.field-method-grid,
 	.project-evidence-grid,
 	.update-list,
@@ -2566,7 +2633,10 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 		transform: none;
 	}
 
-	.field-gallery {
+	.field-gallery,
+	.field-command-center,
+	.field-method-grid,
+	.field-log-template {
 		width: auto;
 		margin-left: 0;
 		transform: none;
@@ -2580,8 +2650,9 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 
 	.field-metrics {
 		grid-template-columns: 1fr;
-		width: auto;
-		margin-left: 0;
-		transform: none;
+	}
+
+	.field-filter-panel .pub-filter-status {
+		text-align: left;
 	}
 }

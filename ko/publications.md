@@ -21,9 +21,8 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
     <button type="button" data-pub-filter="IoT">IoT</button>
     <button type="button" data-pub-filter="AI">AI</button>
     <button type="button" data-pub-filter="Sensor">Sensors</button>
+    <button type="button" data-pub-filter="Concrete|Crack">Concrete</button>
     <button type="button" data-pub-filter="Cloud">Cloud</button>
-    <button type="button" data-pub-filter="Field">Field</button>
-    <button type="button" data-pub-filter="Conference">Conference</button>
     <button type="button" data-pub-filter="Port">Ports</button>
 </div>
 <p class="pub-filter-status" data-pub-filter-status>전체 항목 표시 중.</p>
@@ -33,7 +32,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 <div class="pub-list">
     <article class="pub-entry">
         <div class="pub-year">2026</div>
-            <div class="pub-tags"><span>WIM</span><span>AI</span><span>Field</span></div><div class="pub-body">
+            <div class="pub-tags"><span>WIM</span><span>AI</span><span>Data</span></div><div class="pub-body">
             <h3><a href="https://kscejournal.or.kr/jksce/XmlViewer/f450650">YOLO 기반 고속축중기 하중 구간 자동 검출 기법</a></h3>
             <p class="pub-authors"><strong>박준영</strong>, 김종우, 조윤범, 정영우</p>
             <p class="pub-venue">대한토목학회논문집, 46(1), 95-104</p>
@@ -73,7 +72,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2023</div>
-            <div class="pub-tags"><span>Precast</span><span>IoT</span><span>Field</span></div><div class="pub-body">
+            <div class="pub-tags"><span>Precast</span><span>IoT</span><span>Sensor</span></div><div class="pub-body">
             <h3><a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Monitoring Precast Structures During Transportation Using a Portable Sensing System</a></h3>
             <p class="pub-authors">SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park</p>
             <p class="pub-venue">Automation in Construction, 145, 104639</p>
@@ -93,7 +92,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2021</div>
-            <div class="pub-tags"><span>Sensor</span><span>Wireless</span><span>Material</span></div><div class="pub-body">
+            <div class="pub-tags"><span>Sensor</span><span>Concrete</span><span>Material</span></div><div class="pub-body">
             <h3><a href="https://www.mdpi.com/1424-8220/21/19/6386">Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete</a></h3>
             <p class="pub-authors">HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim</p>
             <p class="pub-venue">Sensors, 21(19), 6386</p>
@@ -151,7 +150,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 <div class="pub-list">
     <article class="pub-entry">
         <div class="pub-year">2026</div>
-            <div class="pub-tags"><span>Bridge</span><span>Sensor</span><span>Field</span></div><div class="pub-body">
+            <div class="pub-tags"><span>Bridge</span><span>Sensor</span><span>Load Test</span></div><div class="pub-body">
             <h3><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940">Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation</a></h3>
             <p class="pub-authors">Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won</p>
             <p class="pub-venue">SSRN working paper. Manuscript in progress.</p>
@@ -185,7 +184,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 <div class="pub-list">
     <article class="pub-entry">
         <div class="pub-year">2025</div>
-        <div class="pub-tags"><span>Conference</span><span>WIM</span><span>Cloud</span></div><div class="pub-body">
+        <div class="pub-tags"><span>WIM</span><span>Cloud</span></div><div class="pub-body">
             <h3>클라우드 기반 자동단속 통합플랫폼 기술 개발</h3>
             <p class="pub-authors"><strong>박준영</strong>, 김종우, 김정훈</p>
             <p class="pub-venue">대한토목학회. 국내학술대회 발표, 2025-11-14.</p>
@@ -195,7 +194,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2024</div>
-        <div class="pub-tags"><span>Conference</span><span>QR</span><span>Cloud</span><span>SHM</span></div><div class="pub-body">
+        <div class="pub-tags"><span>QR</span><span>Cloud</span><span>SHM</span></div><div class="pub-body">
             <h3>QR SENSOR: A Citizen-Assisted, QR-Based Sensory Data Acquisition and Cloud Computing Approach for Structural Health Monitoring</h3>
             <p class="pub-authors">박종웅, <strong>박준영</strong>, 민찬홍</p>
             <p class="pub-venue">EMI/EMC 2024. 국제학술대회 발표, 2024-05-20.</p>
@@ -205,7 +204,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2023</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
             <h3>교량 상시 모니터링을 위한 IoT 센서 및 클라우드 컴퓨팅 기반 확장 가능한 프레임워크</h3>
             <p class="pub-authors"><strong>박준영</strong>, 신준식, 박종웅</p>
             <p class="pub-venue">한국구조물진단유지관리공학회. 국내학술대회 발표, 2023-10-12.</p>
@@ -215,7 +214,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2023</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
             <h3>IoT 센서 및 클라우드 컴퓨팅 기반 교량 장기 모니터링</h3>
             <p class="pub-authors"><strong>박준영</strong></p>
             <p class="pub-venue">한국교량및구조공학회. 국내학술대회 발표, 2023-09-18.</p>
@@ -225,7 +224,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2023</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Field</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>Cloud</span></div><div class="pub-body">
             <h3>Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements</h3>
             <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
             <p class="pub-venue">한국BIM학회. 국제학술대회 발표, 2023-08-23.</p>
@@ -235,7 +234,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2022</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>IoT</span><span>Cloud</span></div><div class="pub-body">
             <h3>Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring</h3>
             <p class="pub-authors"><strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park</p>
             <p class="pub-venue">한국건설관리학회. 국제학술대회 발표, 2022-11-18.</p>
@@ -245,7 +244,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2022</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>IoT</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>IoT</span></div><div class="pub-body">
             <h3>교량 내하력 평가를 위한 클라우드 기반 IoT 센서 시스템</h3>
             <p class="pub-authors">박종웅, <strong>박준영</strong>, 신준식, 원종빈</p>
             <p class="pub-venue">한국PHM학회. 국내학술대회 발표, 2022-06-30.</p>
@@ -255,7 +254,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2022</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Data</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>Data</span></div><div class="pub-body">
             <h3>교량 경계조건을 고려한 가속도-변형률 기반 변위 추정 기법 최적화</h3>
             <p class="pub-authors"><strong>박준영</strong>, 신준식, 박종웅</p>
             <p class="pub-venue">한국소음진동공학회. 국내학술대회 발표, 2022-05-26.</p>
@@ -265,7 +264,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 
     <article class="pub-entry">
         <div class="pub-year">2021</div>
-        <div class="pub-tags"><span>Conference</span><span>Bridge</span><span>Cloud</span></div><div class="pub-body">
+        <div class="pub-tags"><span>Bridge</span><span>Cloud</span></div><div class="pub-body">
             <h3>클라우드 기반 교량 변위 모니터링 시스템</h3>
             <p class="pub-authors"><strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용</p>
             <p class="pub-venue">한국전산구조공학회. 국내학술대회 발표, 2021-04-08.</p>
@@ -280,7 +279,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
     <article class="pub-entry"><div class="pub-year">2025</div><div class="pub-tags"><span>Bridge</span><span>WIM</span></div><div class="pub-body"><h3>교량 상시 내하력 평가 시스템 및 방법</h3><p class="pub-authors">교량 상시 내하력 평가 시스템 및 방법.</p><p class="pub-venue">KR 10-2025-0174354. 출원일: 2025-11-18.</p><div class="pub-actions"><span>특허 출원</span></div></div></article>
     <article class="pub-entry"><div class="pub-year">2025</div><div class="pub-tags"><span>WIM</span><span>IoT</span><span>AI</span></div><div class="pub-body"><h3><a href="https://doi.org/10.8080/1020220123693">구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법</a></h3><p class="pub-authors">구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법.</p><p class="pub-venue">KR 10-2853678. 등록일: 2025-08-28.</p><div class="pub-actions"><span>등록 특허</span></div></div></article>
     <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-tags"><span>WIM</span><span>Signal</span></div><div class="pub-body"><h3>FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치</h3><p class="pub-authors">FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치.</p><p class="pub-venue">KR 10-2025-0068214. 출원일: 2024-12-30.</p><div class="pub-actions"><span>특허 출원</span></div></div></article>
-    <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-tags"><span>Crack</span><span>Sensor</span></div><div class="pub-body"><h3><a href="https://doi.org/10.8080/1020240017869">저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템</a></h3><p class="pub-authors">저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템.</p><p class="pub-venue">KR 10-2024-0017869. 등록일: 2024-02-06.</p><div class="pub-actions"><span>등록 특허</span></div></div></article>
+    <article class="pub-entry"><div class="pub-year">2024</div><div class="pub-tags"><span>Concrete</span><span>Crack</span><span>Sensor</span></div><div class="pub-body"><h3><a href="https://doi.org/10.8080/1020240017869">저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템</a></h3><p class="pub-authors">저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템.</p><p class="pub-venue">KR 10-2024-0017869. 등록일: 2024-02-06.</p><div class="pub-actions"><span>등록 특허</span></div></div></article>
     <article class="pub-entry"><div class="pub-year">2022</div><div class="pub-tags"><span>Precast</span><span>IoT</span></div><div class="pub-body"><h3><a href="https://doi.org/10.8080/1020220159449">IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법</a></h3><p class="pub-authors">IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법.</p><p class="pub-venue">KR 10-2022-0159449. 등록일: 2022-11-24.</p><div class="pub-actions"><span>등록 특허</span></div></div></article>
     <article class="pub-entry"><div class="pub-year">2022</div><div class="pub-tags"><span>Cloud</span><span>AI</span><span>IoT</span></div><div class="pub-body"><h3><a href="https://doi.org/10.8080/1020220021506">클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템</a></h3><p class="pub-authors">클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법 및 딥러닝 기반 이상치 감지 자동화시스템.</p><p class="pub-venue">KR 10-2022-0021506. 등록일: 2022-02-18.</p><div class="pub-actions"><span>등록 특허</span></div></div></article>
     <article class="pub-entry"><div class="pub-year">2021</div><div class="pub-tags"><span>Sensor</span><span>QR</span><span>Data</span></div><div class="pub-body"><h3><a href="https://doi.org/10.8080/1020210126695">센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템</a></h3><p class="pub-authors">센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템.</p><p class="pub-venue">KR 10-2021-0126695. 등록일: 2021-09-24.</p><div class="pub-actions"><span>등록 특허</span></div></div></article>
