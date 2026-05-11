@@ -567,6 +567,7 @@
         var status = document.querySelector('[data-field-filter-status]');
         var allLabel = filterBar.getAttribute('data-status-all') || 'Showing all field work categories';
         var filteredLabel = filterBar.getAttribute('data-status-filtered') || 'Showing filtered field work categories';
+        var selectedFieldFilters = [];
 
         function fieldTagsFor(entry) {
           return (entry.getAttribute('data-field-tags') || '').toLowerCase().split('|').map(function(tag) {
@@ -574,21 +575,25 @@
           }).filter(Boolean);
         }
 
-        function matchesFieldFilter(tags, value) {
-          value = value.toLowerCase();
-          return tags.indexOf(value) !== -1;
+        function matchesFieldFilter(tags, filters) {
+          return filters.some(function(value) {
+            return tags.indexOf(value.toLowerCase()) !== -1;
+          });
         }
 
-        function applyFieldFilter(value) {
+        function applyFieldFilter() {
+          var showingAll = selectedFieldFilters.length === 0;
+
           buttons.forEach(function(button) {
-            var active = button.getAttribute('data-field-filter') === value;
+            var value = button.getAttribute('data-field-filter');
+            var active = showingAll ? value === 'all' : selectedFieldFilters.indexOf(value) !== -1;
             button.classList.toggle('is-active', active);
             button.setAttribute('aria-pressed', active ? 'true' : 'false');
           });
 
           var visibleCount = 0;
           entries.forEach(function(entry) {
-            var visible = value === 'all' || matchesFieldFilter(fieldTagsFor(entry), value);
+            var visible = showingAll || matchesFieldFilter(fieldTagsFor(entry), selectedFieldFilters);
             entry.hidden = !visible;
             if (visible) {
               visibleCount += 1;
@@ -596,18 +601,29 @@
           });
 
           if (status) {
-            var label = value === 'all' ? allLabel : filteredLabel;
+            var label = showingAll ? allLabel : filteredLabel;
             status.textContent = label + ': ' + visibleCount + ' / ' + entries.length;
           }
         }
 
         buttons.forEach(function(button) {
           button.addEventListener('click', function() {
-            applyFieldFilter(button.getAttribute('data-field-filter'));
+            var value = button.getAttribute('data-field-filter');
+            if (value === 'all') {
+              selectedFieldFilters = [];
+            } else {
+              var index = selectedFieldFilters.indexOf(value);
+              if (index === -1) {
+                selectedFieldFilters.push(value);
+              } else {
+                selectedFieldFilters.splice(index, 1);
+              }
+            }
+            applyFieldFilter();
           });
         });
 
-        applyFieldFilter('all');
+        applyFieldFilter();
       })();
 
       document.addEventListener('click', function(event) {
