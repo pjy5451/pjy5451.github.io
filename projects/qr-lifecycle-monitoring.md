@@ -2,6 +2,7 @@
 layout: page
 title: QR-Based Bridge Lifecycle Monitoring
 permalink: /projects/qr-lifecycle-monitoring.html
+exclude_from_search: true
 ---
 
 <figure class="project-detail-media">

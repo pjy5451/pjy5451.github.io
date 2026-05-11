@@ -2,6 +2,7 @@
 layout: page
 title: On-Board Monitoring for Vehicle Loads
 permalink: /projects/onboard-monitoring.html
+body_class: project-detail-template
 ---
 
 <figure class="project-detail-media">

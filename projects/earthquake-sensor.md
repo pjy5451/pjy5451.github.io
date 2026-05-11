@@ -2,6 +2,7 @@
 layout: page
 title: Smart IoT Earthquake Sensor
 permalink: /projects/earthquake-sensor.html
+exclude_from_search: true
 ---
 
 <figure class="project-detail-media">

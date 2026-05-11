@@ -2,6 +2,7 @@
 layout: page
 title: Concrete Crack Trajectory Monitoring
 permalink: /projects/concrete-crack-monitoring.html
+body_class: project-detail-template
 ---
 
 <figure class="project-detail-media">

@@ -2,6 +2,7 @@
 layout: page
 title: Weight-in-Motion Load Segment Detection
 permalink: /projects/weight-in-motion.html
+body_class: project-detail-template
 ---
 
 <figure class="project-detail-media">

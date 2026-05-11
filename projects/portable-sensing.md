@@ -2,6 +2,7 @@
 layout: page
 title: Portable Sensing for Precast Transportation
 permalink: /projects/portable-sensing.html
+body_class: project-detail-template
 ---
 
 <figure class="project-detail-media">

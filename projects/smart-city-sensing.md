@@ -2,6 +2,7 @@
 layout: page
 title: Citizen-Participatory Smart City Sensing
 permalink: /projects/smart-city-sensing.html
+exclude_from_search: true
 ---
 
 <figure class="project-detail-media">

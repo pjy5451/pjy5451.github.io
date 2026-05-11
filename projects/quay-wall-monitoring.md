@@ -2,6 +2,7 @@
 layout: page
 title: AI-Based Quay Wall Event Monitoring
 permalink: /projects/quay-wall-monitoring.html
+body_class: project-detail-template
 ---
 
 <figure class="project-detail-media">

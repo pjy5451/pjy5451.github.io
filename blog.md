@@ -26,6 +26,7 @@ Short notes, personal logs, technical memos, and working reflections while organ
         <div class="note-row-meta">
             <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%Y.%m.%d" }}</time>
             {% if post.note_category %}<span class="note-label">{{ post.note_category }}</span>{% endif %}
+            {% if post.ko_url %}<a class="note-translation-link" href="{{ post.ko_url | relative_url }}">KR version</a>{% endif %}
         </div>
         <div class="note-row-body">
             <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>

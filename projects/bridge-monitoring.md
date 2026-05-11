@@ -2,6 +2,7 @@
 layout: page
 title: Bridge Monitoring and Displacement Estimation
 permalink: /projects/bridge-monitoring.html
+body_class: project-detail-template
 ---
 
 <figure class="project-detail-media">
