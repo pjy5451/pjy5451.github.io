@@ -151,7 +151,8 @@
     {% endif %}
 
 </head>
-<body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+{% assign body_class = page.post_class | default: layout.post_class | default: 'home-template' %}
+<body class="{{ body_class }}{% if page.body_class %} {{ page.body_class }}{% endif %}">
 
     {% include profile_nav.html %}
 
