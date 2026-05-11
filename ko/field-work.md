@@ -21,6 +21,21 @@ keywords:
 이 페이지는 제가 수행한 현장형 인프라 모니터링 경험을 정리하기 위한 공간입니다. 저는 교량 모니터링, 차량 하중 센싱, 프리캐스트 운송, 항만 구조물, 센서 설치, DAQ 검증, 클라우드 기반 데이터 검토 등 50회 이상의 현장 실험 및 적용 경험을 가지고 있습니다.
 
 <div class="field-command-center">
+    <div class="field-metrics">
+        <section>
+            <strong>50+</strong>
+            <span>현장 실험 및 적용 경험</span>
+        </section>
+        <section>
+            <strong>4</strong>
+            <span>주요 현장 도메인: 교량, 차량, 프리캐스트, 항만</span>
+        </section>
+        <section>
+            <strong>Build to Data</strong>
+            <span>하드웨어, 설치, DAQ, 클라우드, 분석</span>
+        </section>
+    </div>
+
     <div class="field-filter-panel">
         <div>
             <span class="field-panel-kicker">탐색</span>
@@ -37,51 +52,6 @@ keywords:
         </div>
         <p class="pub-filter-status" data-field-filter-status>전체 현장 작업 카테고리 표시 중.</p>
     </div>
-
-    <div class="field-metrics">
-        <section>
-            <strong>50+</strong>
-            <span>현장 실험 및 적용 경험</span>
-        </section>
-        <section>
-            <strong>4</strong>
-            <span>주요 현장 도메인: 교량, 차량, 프리캐스트, 항만</span>
-        </section>
-        <section>
-            <strong>Build to Data</strong>
-            <span>하드웨어, 설치, DAQ, 클라우드, 분석</span>
-        </section>
-    </div>
-</div>
-
-<div class="field-project-map">
-    <section>
-        <span>Bridge</span>
-        <h2>교량 재하시험과 장기 모니터링</h2>
-        <p>센서 설치, 클라우드 모니터링, 응답 이력, 변위 추정, QR 기반 생애주기 기록으로 이어지는 현장 경험입니다.</p>
-        <div class="pub-actions">
-            <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">교량 모니터링</a>
-            <a href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">QR 생애주기</a>
-        </div>
-    </section>
-    <section>
-        <span>Vehicle</span>
-        <h2>WIM 및 On-board monitoring</h2>
-        <p>고속 DAQ, 하중 구간 탐지, 화물차 동적 중량 보정, 실도로 주행 데이터 검토를 연결합니다.</p>
-        <div class="pub-actions">
-            <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">WIM 탐지</a>
-            <a href="{{ '/projects/onboard-monitoring.html' | relative_url }}">OBM 보정</a>
-        </div>
-    </section>
-    <section>
-        <span>Deployments</span>
-        <h2>프리캐스트, 항만, 현장형 센싱</h2>
-        <p>이동형 센싱, 방수 패키징, 운송 단계 모니터링, 열악한 환경에서의 이벤트 분석을 다룹니다.</p>
-        <div class="pub-actions">
-            <a href="{{ '/projects/portable-sensing.html' | relative_url }}">프리캐스트 센싱</a>
-            <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">안벽 모니터링</a>
-        </div>
-    </section>
 </div>
 
 <div class="field-gallery" data-field-gallery>

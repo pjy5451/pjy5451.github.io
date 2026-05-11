@@ -2108,6 +2108,7 @@ html[data-theme="dark"] .field-metrics strong {
 }
 
 .field-gallery article {
+	overflow: hidden;
 	padding: 16px;
 	border: 1px solid var(--line);
 	border-radius: 8px;
@@ -2144,11 +2145,13 @@ html[data-theme="dark"] .field-gallery article:hover {
 .field-card-image {
 	display: block;
 	width: 100%;
+	max-width: 100%;
 	aspect-ratio: 16 / 8;
 	margin: 0 0 14px;
 	border: 1px solid var(--line);
 	border-radius: 6px;
 	background: var(--wash);
+	box-sizing: border-box;
 	object-fit: cover;
 }
 

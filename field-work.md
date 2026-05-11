@@ -21,6 +21,21 @@ keywords:
 This page is prepared as a field-work archive for my infrastructure monitoring experience. I have participated in more than 50 field experiments and deployments across bridge monitoring, vehicle load sensing, precast transportation, port structures, sensor installation, DAQ validation, and cloud-based data review.
 
 <div class="field-command-center">
+    <div class="field-metrics">
+        <section>
+            <strong>50+</strong>
+            <span>field experiments and deployments</span>
+        </section>
+        <section>
+            <strong>4</strong>
+            <span>main field domains: bridges, vehicles, precast, ports</span>
+        </section>
+        <section>
+            <strong>Build to Data</strong>
+            <span>hardware, installation, DAQ, cloud, analysis</span>
+        </section>
+    </div>
+
     <div class="field-filter-panel">
         <div>
             <span class="field-panel-kicker">Browse</span>
@@ -37,51 +52,6 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
         </div>
         <p class="pub-filter-status" data-field-filter-status>Showing all field work categories.</p>
     </div>
-
-    <div class="field-metrics">
-        <section>
-            <strong>50+</strong>
-            <span>field experiments and deployments</span>
-        </section>
-        <section>
-            <strong>4</strong>
-            <span>main field domains: bridges, vehicles, precast, ports</span>
-        </section>
-        <section>
-            <strong>Build to Data</strong>
-            <span>hardware, installation, DAQ, cloud, analysis</span>
-        </section>
-    </div>
-</div>
-
-<div class="field-project-map">
-    <section>
-        <span>Bridge</span>
-        <h2>Bridge load testing and long-term monitoring</h2>
-        <p>Sensor installation, cloud monitoring, response histories, displacement estimation, and QR-based lifecycle records.</p>
-        <div class="pub-actions">
-            <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Bridge monitoring</a>
-            <a href="{{ '/projects/qr-lifecycle-monitoring.html' | relative_url }}">QR lifecycle</a>
-        </div>
-    </section>
-    <section>
-        <span>Vehicle</span>
-        <h2>WIM and on-board monitoring</h2>
-        <p>High-speed DAQ, load interval detection, dynamic truck-weight correction, and field driving data review.</p>
-        <div class="pub-actions">
-            <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">WIM detection</a>
-            <a href="{{ '/projects/onboard-monitoring.html' | relative_url }}">OBM correction</a>
-        </div>
-    </section>
-    <section>
-        <span>Deployments</span>
-        <h2>Precast, port, and field-ready sensing</h2>
-        <p>Portable sensing, ruggedized sensor packaging, transport-stage monitoring, and harsh-environment event analysis.</p>
-        <div class="pub-actions">
-            <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Precast sensing</a>
-            <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Quay wall</a>
-        </div>
-    </section>
 </div>
 
 <div class="field-gallery" data-field-gallery>
