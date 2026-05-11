@@ -628,10 +628,20 @@ html[data-theme="dark"] .feature-metrics span {
 	margin: 18px 0 36px;
 }
 
+.bio-main .theme-grid {
+	grid-template-columns: repeat(2, minmax(240px, 360px));
+	max-width: 780px;
+	gap: 14px 18px;
+}
+
 .update-list article,
 .theme-grid section {
 	padding: 18px 0;
 	border-top: 1px solid var(--line);
+}
+
+.bio-main .theme-grid section {
+	padding: 14px 0;
 }
 
 .update-list time {
@@ -2656,6 +2666,11 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 	.project-evidence-grid,
 	.update-list,
 	.theme-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.bio-main .theme-grid {
+		max-width: none;
 		grid-template-columns: 1fr;
 	}
 
