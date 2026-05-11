@@ -35,8 +35,8 @@ description: Research profile, selected background, technical skills, awards, an
 
     <div class="bio-main">
         <section class="research-statement">
-            <p>I develop field sensing systems that turn infrastructure measurements into engineering evidence. My work connects IoT sensors, embedded hardware, cloud-based data pipelines, field experiments, and AI-assisted analysis for bridges and other civil infrastructure.</p>
-            <p>My research and applied development focus on structural health monitoring, weigh-in-motion and on-board monitoring, reference-free displacement estimation, smart IoT sensing devices, and event detection from noisy field data. I am especially interested in systems that move beyond laboratory prototypes into long-term deployment, patentable methods, and practical workflows for infrastructure engineers.</p>
+            <p>I developed IoT sensor and cloud-based systems for structural monitoring and real-world data analysis. I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.</p>
+            <p>My research interests include Structural Health Monitoring (SHM), WIM/OBM systems, smart IoT sensors, and AI-based data analysis. More recently, I have also been exploring structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.</p>
         </section>
 
         <h2>Research Themes</h2>
@@ -55,8 +55,8 @@ description: Research profile, selected background, technical skills, awards, an
                 <p>Low-power sensing hardware, wireless acquisition, embedded measurement logic, and field-ready packaging.</p>
             </section>
             <section>
-                <h3>Cloud & AI</h3>
-                <p>Cloud pipelines, data fusion, automated preprocessing, anomaly detection, and AI-assisted event recognition.</p>
+                <h3>Physical Systems & AI</h3>
+                <p>Structural dynamics, reliability, aerospace engineering, and AI methods for physical systems.</p>
             </section>
         </div>
 
