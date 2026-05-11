@@ -22,18 +22,34 @@ post_class: post-template
             {{content}}
         </section>
 
-        {% if page.previous or page.next %}
+        {% assign current_lang = page.lang | default: 'en' %}
+        {% assign same_lang_posts = site.posts | where: 'lang', current_lang %}
+        {% assign same_lang_previous = nil %}
+        {% assign same_lang_next = nil %}
+        {% for post in same_lang_posts %}
+            {% if post.url == page.url %}
+                {% assign previous_index = forloop.index0 | plus: 1 %}
+                {% assign next_index = forloop.index0 | minus: 1 %}
+                {% assign same_lang_previous = same_lang_posts[previous_index] %}
+                {% if next_index >= 0 %}
+                    {% assign same_lang_next = same_lang_posts[next_index] %}
+                {% endif %}
+                {% break %}
+            {% endif %}
+        {% endfor %}
+
+        {% if same_lang_previous or same_lang_next %}
         <nav class="post-nav" aria-label="Post navigation">
-            {% if page.previous %}
-            <a class="post-nav-link previous" href="{{ page.previous.url | relative_url }}">
+            {% if same_lang_previous %}
+            <a class="post-nav-link previous" href="{{ same_lang_previous.url | relative_url }}">
                 <span>Previous</span>
-                <strong>{{ page.previous.title }}</strong>
+                <strong>{{ same_lang_previous.title }}</strong>
             </a>
             {% endif %}
-            {% if page.next %}
-            <a class="post-nav-link next" href="{{ page.next.url | relative_url }}">
+            {% if same_lang_next %}
+            <a class="post-nav-link next" href="{{ same_lang_next.url | relative_url }}">
                 <span>Next</span>
-                <strong>{{ page.next.title }}</strong>
+                <strong>{{ same_lang_next.title }}</strong>
             </a>
             {% endif %}
         </nav>
