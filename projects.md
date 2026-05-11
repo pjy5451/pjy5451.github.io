@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 no_site_suffix: true
+body_class: wide-page-template
 description: Research and engineering projects by Junyoung Park on bridge monitoring, IoT sensing, weigh-in-motion, on-board monitoring, smart sensors, and data-driven infrastructure assessment.
 ---
 

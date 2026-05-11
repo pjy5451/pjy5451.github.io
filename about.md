@@ -2,6 +2,7 @@
 layout: page
 title: About
 no_site_suffix: true
+body_class: wide-page-template
 lang: en
 ko_url: /ko/about.html
 description: Research profile, selected background, technical skills, awards, and CV link for Junyoung Park in structural health monitoring, IoT sensing, and infrastructure data analysis.

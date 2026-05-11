@@ -430,7 +430,7 @@
         }
 
         function matchesFilter(tags, groups) {
-          return groups.every(function(group) {
+          return groups.some(function(group) {
             return tags.some(function(tag) {
               return group.indexOf(tag) !== -1;
             });

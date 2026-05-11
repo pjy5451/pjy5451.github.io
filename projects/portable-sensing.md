@@ -8,6 +8,12 @@ permalink: /projects/portable-sensing.html
     <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-11.png' | relative_url }}" alt="Portfolio slide showing portable sensing for precast transportation monitoring" />
 </figure>
 
+<nav class="project-detail-nav" aria-label="Project navigation">
+    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work.html#precast-transport-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+</nav>
+
 ## Overview
 
 This project developed a portable sensing workflow for monitoring precast concrete members during lifting, loading, transportation, and delivery.

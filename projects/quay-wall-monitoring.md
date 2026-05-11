@@ -8,6 +8,12 @@ permalink: /projects/quay-wall-monitoring.html
     <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-19.png' | relative_url }}" alt="Portfolio slide showing port structure monitoring with packaged JANET sensors" />
 </figure>
 
+<nav class="project-detail-nav" aria-label="Project navigation">
+    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work.html#port-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+</nav>
+
 ## Overview
 
 This project developed a multisensory monitoring workflow for port and quay wall events using wireless sensors, ruggedized packaging, cloud communication, and AI-based event recognition.

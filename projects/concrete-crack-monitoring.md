@@ -8,6 +8,12 @@ permalink: /projects/concrete-crack-monitoring.html
     <img class="project-detail-hero" src="{{ '/assets/images/projects/concrete-crack.svg' | relative_url }}" alt="Concrete crack trajectory monitoring project preview" />
 </figure>
 
+<nav class="project-detail-nav" aria-label="Project navigation">
+    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
+    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
+</nav>
+
 ## Overview
 
 This project focuses on concrete crack trajectory monitoring and long-term visualization using a resistive touchpad-based sensing concept.

@@ -8,6 +8,12 @@ permalink: /projects/onboard-monitoring.html
     <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="Portfolio slide showing vehicle load monitoring and WIM signal acquisition work" />
 </figure>
 
+<nav class="project-detail-nav" aria-label="Project navigation">
+    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+</nav>
+
 ## Overview
 
 This project focuses on on-board monitoring for dynamic truck state measurement and operating-weight correction.

@@ -8,6 +8,12 @@ permalink: /projects/bridge-monitoring.html
     <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-06.png' | relative_url }}" alt="Portfolio slide showing the smart bridge IoT sensor and cloud monitoring system" />
 </figure>
 
+<nav class="project-detail-nav" aria-label="Project navigation">
+    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+</nav>
+
 ## Overview
 
 This project developed a scalable bridge monitoring framework that connects stand-alone IoT sensing, cloud computing, and multimetric data fusion for long-term structural health monitoring. It formed the core direction of my master's thesis: *A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing*.

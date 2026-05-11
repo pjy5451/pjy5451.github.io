@@ -8,6 +8,12 @@ permalink: /projects/weight-in-motion.html
     <img class="project-detail-hero" src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="Portfolio slide showing WIM DAQ development and field signal processing" />
 </figure>
 
+<nav class="project-detail-nav" aria-label="Project navigation">
+    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+</nav>
+
 ## Overview
 
 This project develops automated analysis methods and measurement hardware for high-speed weigh-in-motion data, including load interval detection, truck-weight correction workflows, and WIM DAQ development.
