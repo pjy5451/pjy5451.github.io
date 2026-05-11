@@ -26,6 +26,12 @@ post_class: post-template
         {% assign same_lang_posts = site.posts | where: 'lang', current_lang %}
         {% assign same_lang_previous = nil %}
         {% assign same_lang_next = nil %}
+        {% assign previous_label = 'Previous' %}
+        {% assign next_label = 'Next' %}
+        {% if current_lang == 'ko' %}
+            {% assign previous_label = '이전 글' %}
+            {% assign next_label = '다음 글' %}
+        {% endif %}
         {% for post in same_lang_posts %}
             {% if post.url == page.url %}
                 {% assign previous_index = forloop.index0 | plus: 1 %}
@@ -42,13 +48,13 @@ post_class: post-template
         <nav class="post-nav" aria-label="Post navigation">
             {% if same_lang_previous %}
             <a class="post-nav-link previous" href="{{ same_lang_previous.url | relative_url }}">
-                <span>Previous</span>
+                <span>{{ previous_label }}</span>
                 <strong>{{ same_lang_previous.title }}</strong>
             </a>
             {% endif %}
             {% if same_lang_next %}
             <a class="post-nav-link next" href="{{ same_lang_next.url | relative_url }}">
-                <span>Next</span>
+                <span>{{ next_label }}</span>
                 <strong>{{ same_lang_next.title }}</strong>
             </a>
             {% endif %}

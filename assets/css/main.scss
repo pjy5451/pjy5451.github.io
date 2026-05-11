@@ -608,6 +608,7 @@ html[data-theme="dark"] .feature-metrics span {
 	margin-top: 8px;
 	font-size: 13px;
 	line-height: 1.3;
+	overflow-wrap: anywhere;
 }
 
 .home-project-strip a:hover {
@@ -1544,6 +1545,8 @@ html[data-theme="dark"] .search-dialog {
 	font: inherit;
 	font-size: 12px;
 	font-weight: 700;
+	line-height: 1.2;
+	text-align: center;
 	cursor: pointer;
 }
 
@@ -2666,6 +2669,8 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 	.pub-filter-bar button {
 		width: 100%;
 		justify-content: center;
+		min-height: 36px;
+		padding: 6px 8px;
 	}
 
 	.pub-year,
@@ -2681,6 +2686,10 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 
 	.home-project-strip a {
 		min-height: 74px;
+	}
+
+	.home-project-strip {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
 	}
 
 	.timeline-item {
