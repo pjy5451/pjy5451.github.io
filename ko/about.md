@@ -73,12 +73,16 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>Structural Engineering</h4>
-                                <p>고급구조해석, 구조동역학, 교량공학, 유한요소법</p>
+                                <h4>토목공학</h4>
+                                <p>콘크리트시간거동, 강구조특론, 구조동역학, 교량설계특론</p>
                             </section>
                             <section>
-                                <h4>Monitoring & Data</h4>
-                                <p>구조물 건전성 모니터링, 센서 데이터 분석, 신뢰성 기반 평가</p>
+                                <h4>시스템</h4>
+                                <p>선형제어시스템, 센서및계측방법론</p>
+                            </section>
+                            <section>
+                                <h4>컴퓨터</h4>
+                                <p>머신러닝 및 딥러닝 입문, 컴퓨터프로그래밍및인공지능응용</p>
                             </section>
                         </div>
                     </details>
@@ -94,16 +98,16 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>Civil / Structural</h4>
-                                <p>구조역학, 철근콘크리트, 강구조, 토질역학, 수리학</p>
+                                <h4>토목공학</h4>
+                                <p>재료역학, 재료역학실습, 개수로수리학, 토질역학 I-II, 토질역학실험 I-II, 암반역학, 기초측량학 및 연습, 건설계획및시공, 구조역학, 철근콘크리트공학, 지반설계, 사회기반시설종합설계</p>
                             </section>
                             <section>
-                                <h4>Mathematics</h4>
-                                <p>선형대수학, 미분방정식, 확률론, 수치해석, 수리통계학</p>
+                                <h4>수학</h4>
+                                <p>미적분학, 선형대수학, 통계학, 수치해석, 기하학개론, 미분방정식 I-II, 미분기하학 I-II, 해석학 I-II, 편미분방정식, 현대대수학, 확률과통계</p>
                             </section>
                             <section>
-                                <h4>Computing</h4>
-                                <p>프로그래밍, 수치계산, 데이터 기반 문제 해결</p>
+                                <h4>컴퓨터</h4>
+                                <p>파이썬 기초 및 머신러닝 실습, 기초과학데이터분석</p>
                             </section>
                         </div>
                     </details>

@@ -73,12 +73,16 @@ description: Research profile, selected background, technical skills, awards, an
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>Structural Engineering</h4>
-                                <p>Advanced Structural Analysis, Structural Dynamics, Bridge Engineering, Finite Element Method</p>
+                                <h4>Civil Engineering</h4>
+                                <p>Concrete Time-Dependent Behavior, Advanced Steel Structures, Structural Dynamics, Bridge Design Special Topics</p>
                             </section>
                             <section>
-                                <h4>Monitoring & Data</h4>
-                                <p>Structural Health Monitoring, Sensor Data Analysis, Reliability-Based Assessment</p>
+                                <h4>Systems</h4>
+                                <p>Linear Control Systems, Sensor and Measurement Methods</p>
+                            </section>
+                            <section>
+                                <h4>Computing</h4>
+                                <p>Introduction to Machine Learning and Deep Learning, Computer Programming and AI Applications</p>
                             </section>
                         </div>
                     </details>
@@ -94,16 +98,16 @@ description: Research profile, selected background, technical skills, awards, an
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>Civil / Structural</h4>
-                                <p>Structural Mechanics, Reinforced Concrete, Steel Structures, Soil Mechanics, Hydraulics</p>
+                                <h4>Civil Engineering</h4>
+                                <p>Materials Mechanics, Materials Mechanics Lab, Open Channel Hydraulics, Soil Mechanics I-II, Soil Mechanics Lab I-II, Rock Mechanics, Surveying and Surveying Practice, Construction Planning and Execution, Structural Mechanics, Reinforced Concrete Engineering, Geotechnical Design, Civil Infrastructure Capstone Design</p>
                             </section>
                             <section>
                                 <h4>Mathematics</h4>
-                                <p>Linear Algebra, Differential Equations, Probability, Numerical Analysis, Mathematical Statistics</p>
+                                <p>Calculus, Linear Algebra, Statistics, Numerical Analysis, Geometry, Differential Equations I-II, Differential Geometry I-II, Analysis I-II, Partial Differential Equations, Modern Algebra, Probability and Statistics</p>
                             </section>
                             <section>
                                 <h4>Computing</h4>
-                                <p>Programming, Numerical Computing, Data-Oriented Problem Solving</p>
+                                <p>Python Basics and Machine Learning Lab, Basic Scientific Data Analysis</p>
                             </section>
                         </div>
                     </details>
