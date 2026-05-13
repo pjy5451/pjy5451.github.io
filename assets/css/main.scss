@@ -361,7 +361,7 @@ html[data-theme="dark"] .post-footer {
 }
 
 .hero-grid {
-	max-width: 1400px;
+	max-width: 1520px;
 	margin: 62px auto 0;
 	display: grid;
 	grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
@@ -1250,7 +1250,7 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .page-template .content {
-	max-width: min(1500px, calc(100vw - 32px));
+	max-width: min(1620px, calc(100vw - 32px));
 	padding-right: 16px;
 	padding-left: 16px;
 }
@@ -1266,7 +1266,7 @@ html[data-theme="dark"] .search-dialog {
 	grid-template-columns: 230px minmax(0, 1fr);
 	gap: 64px;
 	align-items: start;
-	max-width: 1400px;
+	max-width: 1520px;
 	margin: 0 auto;
 }
 
@@ -1282,7 +1282,7 @@ html[data-theme="dark"] .search-dialog {
 
 .cv-page-template .page-shell {
 	grid-template-columns: 230px minmax(0, 1fr);
-	max-width: 1400px;
+	max-width: 1520px;
 }
 
 .cv-page-template .page-shell > .post {
@@ -2618,7 +2618,7 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .field-work-template .content {
-	max-width: min(1500px, calc(100vw - 32px));
+	max-width: min(1620px, calc(100vw - 32px));
 	padding-right: 16px;
 	padding-left: 16px;
 }
@@ -2638,7 +2638,7 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .wide-page-template .content {
-	max-width: min(1500px, calc(100vw - 32px));
+	max-width: min(1620px, calc(100vw - 32px));
 	padding-right: 16px;
 	padding-left: 16px;
 }
