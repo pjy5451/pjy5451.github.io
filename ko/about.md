@@ -3,7 +3,7 @@ layout: page
 title: CV
 no_site_suffix: true
 hide_title: true
-body_class: wide-page-template
+body_class: wide-page-template cv-page-template
 lang: ko
 en_url: /about.html
 description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상, CV 링크, 구조물 모니터링 및 IoT 센싱 연구 관심사를 정리한 페이지입니다.
