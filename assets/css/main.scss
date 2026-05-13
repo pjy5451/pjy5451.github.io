@@ -360,7 +360,7 @@ html[data-theme="dark"] .post-footer {
 }
 
 .hero-grid {
-	max-width: 1120px;
+	max-width: 1400px;
 	margin: 62px auto 0;
 	display: grid;
 	grid-template-columns: minmax(0, 1.25fr) minmax(280px, .75fr);
@@ -369,8 +369,8 @@ html[data-theme="dark"] .post-footer {
 }
 
 .home-with-profile {
-	grid-template-columns: 218px minmax(0, 1fr);
-	gap: 44px;
+	grid-template-columns: 230px minmax(0, 1fr);
+	gap: 64px;
 	align-items: start;
 }
 
@@ -1248,7 +1248,7 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .page-template .content {
-	max-width: min(1160px, calc(100vw - 32px));
+	max-width: min(1500px, calc(100vw - 32px));
 	padding-right: 16px;
 	padding-left: 16px;
 }
@@ -1261,10 +1261,10 @@ html[data-theme="dark"] .search-dialog {
 
 .page-shell {
 	display: grid;
-	grid-template-columns: 218px minmax(0, 1fr);
-	gap: 44px;
+	grid-template-columns: 230px minmax(0, 1fr);
+	gap: 64px;
 	align-items: start;
-	max-width: 1120px;
+	max-width: 1400px;
 	margin: 0 auto;
 }
 
@@ -1274,14 +1274,13 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .page-shell > .post {
-	max-width: 820px;
+	max-width: 980px;
 	margin: 0;
 }
 
 .cv-page-template .page-shell {
-	grid-template-columns: 210px minmax(0, 980px);
-	gap: 64px;
-	max-width: 1280px;
+	grid-template-columns: 230px minmax(0, 1fr);
+	max-width: 1400px;
 }
 
 .cv-page-template .page-shell > .post {
@@ -1378,18 +1377,21 @@ html[data-theme="dark"] .search-dialog {
 .bio-sidebar {
 	position: sticky;
 	top: 84px;
-	padding: 0;
-	border: 0;
-	border-radius: 0;
-	background: transparent;
+	width: 230px;
+	padding: 18px;
+	border: 1px solid var(--line);
+	border-radius: 8px;
+	background: var(--surface);
 	text-align: center;
+	box-shadow: 0 12px 30px rgba(21, 31, 38, .06);
+	box-sizing: border-box;
 }
 
 .bio-sidebar img {
 	display: block;
 	width: 138px;
 	height: 138px;
-	margin: 12px auto 16px;
+	margin: 14px auto 16px;
 	border-radius: 50%;
 	object-fit: cover;
 }
@@ -2621,9 +2623,9 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .field-work-template .content {
-	max-width: min(1280px, 100%);
-	padding-right: 32px;
-	padding-left: 32px;
+	max-width: min(1500px, calc(100vw - 32px));
+	padding-right: 16px;
+	padding-left: 16px;
 }
 
 .field-work-template .post {
@@ -2641,9 +2643,9 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .wide-page-template .content {
-	max-width: min(1424px, 100%);
-	padding-right: 32px;
-	padding-left: 32px;
+	max-width: min(1500px, calc(100vw - 32px));
+	padding-right: 16px;
+	padding-left: 16px;
 }
 
 .wide-page-template .post {
@@ -3145,6 +3147,7 @@ html[data-theme="dark"] .course-tags span {
 
 	.bio-sidebar {
 		position: static;
+		width: 100%;
 	}
 
 	.project-grid {
