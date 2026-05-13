@@ -2514,26 +2514,42 @@ html[data-theme="dark"] .field-gallery article:hover {
 
 .coursework-groups {
 	display: grid;
-	gap: 10px;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 12px;
 	margin-top: 12px;
-	padding: 14px 16px;
+}
+
+.coursework-groups section {
+	padding: 14px;
 	border: 1px solid var(--line);
 	border-radius: 8px;
 	background: var(--wash);
 }
 
-.coursework-groups section {
-	display: grid;
-	grid-template-columns: 150px minmax(0, 1fr);
-	gap: 14px;
-	align-items: start;
-}
-
 .coursework-groups h4 {
+	display: flex;
+	align-items: center;
+	gap: 8px;
 	margin: 0;
 	color: var(--ink);
 	font-size: 13px;
 	line-height: 1.35;
+}
+
+.coursework-icon {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 auto;
+	width: 28px;
+	height: 28px;
+	border: 1px solid rgba(31, 111, 120, .28);
+	border-radius: 50%;
+	background: rgba(31, 111, 120, .08);
+	color: var(--accent-strong);
+	font-size: 10px;
+	font-weight: 900;
+	letter-spacing: 0;
 }
 
 .coursework-groups p {
@@ -2543,9 +2559,39 @@ html[data-theme="dark"] .field-gallery article:hover {
 	line-height: 1.55;
 }
 
+.course-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 7px;
+	margin-top: 12px;
+}
+
+.course-tags span {
+	display: inline-flex;
+	max-width: 100%;
+	padding: 5px 8px;
+	border: 1px solid rgba(31, 111, 120, .16);
+	border-radius: 999px;
+	background: var(--paper);
+	color: var(--muted);
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.25;
+}
+
 html[data-theme="dark"] .coursework-toggle[open] summary {
 	border-color: rgba(121, 201, 208, .36);
 	background: rgba(121, 201, 208, .1);
+}
+
+html[data-theme="dark"] .coursework-icon {
+	border-color: rgba(121, 201, 208, .32);
+	background: rgba(121, 201, 208, .1);
+}
+
+html[data-theme="dark"] .course-tags span {
+	border-color: rgba(121, 201, 208, .18);
+	background: rgba(255, 255, 255, .03);
 }
 
 .award-list {
@@ -2754,9 +2800,8 @@ html[data-theme="dark"] .coursework-toggle[open] summary {
 		gap: 6px;
 	}
 
-	.coursework-groups section {
+	.coursework-groups {
 		grid-template-columns: 1fr;
-		gap: 4px;
 	}
 
 	.award-list li {

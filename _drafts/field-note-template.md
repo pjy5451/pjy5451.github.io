@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Field Note: [Site or Experiment]"
-date: 2026-01-01 09:00:00
+date: 2026-01-01 09:00:00 +0900
 categories: notes
+lang: en
+ko_url:
 note_category: Field Notes
 description: Short description of the field experiment, deployment, measured data, and lessons learned.
 ---

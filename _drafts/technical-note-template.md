@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Technical Note: [Method or Tool]"
-date: 2026-01-01 09:00:00
+date: 2026-01-01 09:00:00 +0900
 categories: notes
+lang: en
+ko_url:
 note_category: Technical Notes
 description: Short description of the method, code workflow, data-processing step, or tool.
 ---

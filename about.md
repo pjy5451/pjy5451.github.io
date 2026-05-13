@@ -73,16 +73,27 @@ description: Research profile, selected background, technical skills, awards, an
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>Civil Engineering</h4>
-                                <p>Concrete Time-Dependent Behavior, Advanced Steel Structures, Structural Dynamics, Bridge Design Special Topics</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">CE</span>Civil Engineering</h4>
+                                <div class="course-tags">
+                                    <span>Concrete Time-Dependent Behavior</span>
+                                    <span>Advanced Steel Structures</span>
+                                    <span>Structural Dynamics</span>
+                                    <span>Bridge Design Special Topics</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>Systems</h4>
-                                <p>Linear Control Systems, Sensor and Measurement Methods</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">SY</span>Systems</h4>
+                                <div class="course-tags">
+                                    <span>Linear Control Systems</span>
+                                    <span>Sensor and Measurement Methods</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>Computing</h4>
-                                <p>Introduction to Machine Learning and Deep Learning, Computer Programming and AI Applications</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">AI</span>Computing</h4>
+                                <div class="course-tags">
+                                    <span>Introduction to Machine Learning and Deep Learning</span>
+                                    <span>Computer Programming and AI Applications</span>
+                                </div>
                             </section>
                         </div>
                     </details>
@@ -98,16 +109,44 @@ description: Research profile, selected background, technical skills, awards, an
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>Civil Engineering</h4>
-                                <p>Materials Mechanics, Materials Mechanics Lab, Open Channel Hydraulics, Soil Mechanics I-II, Soil Mechanics Lab I-II, Rock Mechanics, Surveying and Surveying Practice, Construction Planning and Execution, Structural Mechanics, Reinforced Concrete Engineering, Geotechnical Design, Civil Infrastructure Capstone Design</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">CE</span>Civil Engineering</h4>
+                                <div class="course-tags">
+                                    <span>Materials Mechanics</span>
+                                    <span>Materials Mechanics Lab</span>
+                                    <span>Open Channel Hydraulics</span>
+                                    <span>Soil Mechanics I-II</span>
+                                    <span>Soil Mechanics Lab I-II</span>
+                                    <span>Rock Mechanics</span>
+                                    <span>Surveying and Surveying Practice</span>
+                                    <span>Construction Planning and Execution</span>
+                                    <span>Structural Mechanics</span>
+                                    <span>Reinforced Concrete Engineering</span>
+                                    <span>Geotechnical Design</span>
+                                    <span>Civil Infrastructure Capstone Design</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>Mathematics</h4>
-                                <p>Calculus, Linear Algebra, Statistics, Numerical Analysis, Geometry, Differential Equations I-II, Differential Geometry I-II, Analysis I-II, Partial Differential Equations, Modern Algebra, Probability and Statistics</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">M</span>Mathematics</h4>
+                                <div class="course-tags">
+                                    <span>Calculus</span>
+                                    <span>Linear Algebra</span>
+                                    <span>Statistics</span>
+                                    <span>Numerical Analysis</span>
+                                    <span>Geometry</span>
+                                    <span>Differential Equations I-II</span>
+                                    <span>Differential Geometry I-II</span>
+                                    <span>Analysis I-II</span>
+                                    <span>Partial Differential Equations</span>
+                                    <span>Modern Algebra</span>
+                                    <span>Probability and Statistics</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>Computing</h4>
-                                <p>Python Basics and Machine Learning Lab, Basic Scientific Data Analysis</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">CS</span>Computing</h4>
+                                <div class="course-tags">
+                                    <span>Python Basics and Machine Learning Lab</span>
+                                    <span>Basic Scientific Data Analysis</span>
+                                </div>
                             </section>
                         </div>
                     </details>

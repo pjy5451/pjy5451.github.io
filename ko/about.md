@@ -73,16 +73,27 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>토목공학</h4>
-                                <p>콘크리트시간거동, 강구조특론, 구조동역학, 교량설계특론</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">CE</span>토목공학</h4>
+                                <div class="course-tags">
+                                    <span>콘크리트시간거동</span>
+                                    <span>강구조특론</span>
+                                    <span>구조동역학</span>
+                                    <span>교량설계특론</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>시스템</h4>
-                                <p>선형제어시스템, 센서및계측방법론</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">SY</span>시스템</h4>
+                                <div class="course-tags">
+                                    <span>선형제어시스템</span>
+                                    <span>센서및계측방법론</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>컴퓨터</h4>
-                                <p>머신러닝 및 딥러닝 입문, 컴퓨터프로그래밍및인공지능응용</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">AI</span>컴퓨터</h4>
+                                <div class="course-tags">
+                                    <span>머신러닝 및 딥러닝 입문</span>
+                                    <span>컴퓨터프로그래밍및인공지능응용</span>
+                                </div>
                             </section>
                         </div>
                     </details>
@@ -98,16 +109,44 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
                             <section>
-                                <h4>토목공학</h4>
-                                <p>재료역학, 재료역학실습, 개수로수리학, 토질역학 I-II, 토질역학실험 I-II, 암반역학, 기초측량학 및 연습, 건설계획및시공, 구조역학, 철근콘크리트공학, 지반설계, 사회기반시설종합설계</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">CE</span>토목공학</h4>
+                                <div class="course-tags">
+                                    <span>재료역학</span>
+                                    <span>재료역학실습</span>
+                                    <span>개수로수리학</span>
+                                    <span>토질역학 I-II</span>
+                                    <span>토질역학실험 I-II</span>
+                                    <span>암반역학</span>
+                                    <span>기초측량학 및 연습</span>
+                                    <span>건설계획및시공</span>
+                                    <span>구조역학</span>
+                                    <span>철근콘크리트공학</span>
+                                    <span>지반설계</span>
+                                    <span>사회기반시설종합설계</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>수학</h4>
-                                <p>미적분학, 선형대수학, 통계학, 수치해석, 기하학개론, 미분방정식 I-II, 미분기하학 I-II, 해석학 I-II, 편미분방정식, 현대대수학, 확률과통계</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">M</span>수학</h4>
+                                <div class="course-tags">
+                                    <span>미적분학</span>
+                                    <span>선형대수학</span>
+                                    <span>통계학</span>
+                                    <span>수치해석</span>
+                                    <span>기하학개론</span>
+                                    <span>미분방정식 I-II</span>
+                                    <span>미분기하학 I-II</span>
+                                    <span>해석학 I-II</span>
+                                    <span>편미분방정식</span>
+                                    <span>현대대수학</span>
+                                    <span>확률과통계</span>
+                                </div>
                             </section>
                             <section>
-                                <h4>컴퓨터</h4>
-                                <p>파이썬 기초 및 머신러닝 실습, 기초과학데이터분석</p>
+                                <h4><span class="coursework-icon" aria-hidden="true">CS</span>컴퓨터</h4>
+                                <div class="course-tags">
+                                    <span>파이썬 기초 및 머신러닝 실습</span>
+                                    <span>기초과학데이터분석</span>
+                                </div>
                             </section>
                         </div>
                     </details>

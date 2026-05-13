@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Coursework Note: [Topic]"
-date: 2026-01-01 09:00:00
+date: 2026-01-01 09:00:00 +0900
 categories: notes
+lang: en
+ko_url:
 note_category: Coursework
 description: Short description of the course concept and how it connects to infrastructure monitoring.
 ---
