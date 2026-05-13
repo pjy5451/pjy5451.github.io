@@ -97,6 +97,7 @@ body {
 	color: var(--ink);
 	background: var(--paper);
 	font-family: "Pretendard Variable", Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Open Sans", Arial, sans-serif;
+	font-size: 17px;
 	letter-spacing: 0;
 }
 
@@ -123,7 +124,7 @@ a {
 .profile-hero {
 	position: relative;
 	overflow: hidden;
-	padding: 24px 5vw 64px;
+	padding: 0 16px 64px;
 	background: var(--hero-bg);
 	border-bottom: 1px solid var(--line);
 	box-sizing: border-box;
@@ -1195,6 +1196,7 @@ html[data-theme="dark"] .search-dialog {
 
 .page-template .main-header.post-head,
 .page-template .main-header.post-head.no-cover {
+	display: none;
 	min-height: 0;
 	padding: 0;
 	border-bottom: 0;
@@ -1342,7 +1344,7 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .page-template .post-content {
-	font-size: 16px;
+	font-size: 17.5px;
 }
 
 .post-content h2 {
@@ -1355,7 +1357,7 @@ html[data-theme="dark"] .search-dialog {
 .post-content p,
 .post-content li {
 	color: var(--copy);
-	line-height: 1.65;
+	line-height: 1.68;
 }
 
 .publication-list,
@@ -1376,7 +1378,7 @@ html[data-theme="dark"] .search-dialog {
 
 .bio-sidebar {
 	position: sticky;
-	top: 84px;
+	top: 78px;
 	width: 230px;
 	padding: 18px;
 	border: 1px solid var(--line);
@@ -1391,21 +1393,14 @@ html[data-theme="dark"] .search-dialog {
 	display: block;
 	width: 138px;
 	height: 138px;
-	margin: 14px auto 16px;
+	margin: 0 auto 16px;
 	border-radius: 50%;
 	object-fit: cover;
 }
 
-.profile-cv-link {
-	margin: 0 auto;
-	min-height: 38px;
-	padding: 0 16px;
-	font-size: 13px;
-}
-
 .bio-sidebar h2 {
 	margin: 0 0 8px;
-	font-size: 22px;
+	font-size: 23px;
 	line-height: 1.2;
 }
 
@@ -1433,9 +1428,9 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .cv-updated {
-	margin: 6px 0 0 !important;
+	margin: 8px 0 0 !important;
 	color: var(--muted);
-	font-size: 11px !important;
+	font-size: 12.5px !important;
 	font-weight: 700;
 	line-height: 1.3 !important;
 }
@@ -1443,13 +1438,13 @@ html[data-theme="dark"] .search-dialog {
 .bio-sidebar p {
 	margin: 0 0 14px;
 	color: var(--muted);
-	font-size: 12.5px;
+	font-size: 13.5px;
 	line-height: 1.55;
 }
 
 .bio-sidebar .bio-role {
 	color: var(--ink);
-	font-size: 13px;
+	font-size: 14px;
 	font-weight: 800;
 	line-height: 1.45;
 }
@@ -1474,7 +1469,7 @@ html[data-theme="dark"] .search-dialog {
 	border-radius: 0;
 	background: transparent;
 	color: var(--accent-strong);
-	font-size: 14px;
+	font-size: 15px;
 	font-weight: 700;
 	text-align: left;
 	text-decoration: none;
@@ -1538,9 +1533,9 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .cv-heading .cv-download-button {
-	min-height: 44px;
-	padding: 0 20px;
-	font-size: 15px;
+	min-height: 52px;
+	padding: 0 26px;
+	font-size: 17px;
 }
 
 .cv-heading h1 {
