@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Weight-in-Motion Load Segment Detection
-permalink: /projects/weight-in-motion.html
+permalink: /projects/weight-in-motion/
 body_class: project-detail-template
 ---
 
@@ -10,9 +10,9 @@ body_class: project-detail-template
 </figure>
 
 <nav class="project-detail-nav" aria-label="Project navigation">
-    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
-    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
-    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work/#vehicle-load-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
 </nav>
 
 ## Overview
@@ -79,10 +79,10 @@ The project is connected to journal and patent work on automatic load-event inte
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
-    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications/#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications/#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
     <a href="https://kscejournal.or.kr/jksce/XmlViewer/f450650">Related Paper</a>
-    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/field-work/#vehicle-load-field' | relative_url }}">Field Work</a>
 </div>

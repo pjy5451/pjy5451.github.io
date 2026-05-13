@@ -3,7 +3,8 @@ layout: page
 title: 노트
 no_site_suffix: true
 lang: ko
-en_url: /blog.html
+permalink: /ko/blog/
+en_url: /blog/
 description: 박준영의 짧은 기록, 개인 로그, 기술 메모, 작업 회고를 시간순으로 모으는 페이지입니다.
 ---
 

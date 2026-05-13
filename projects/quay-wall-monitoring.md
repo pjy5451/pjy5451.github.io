@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AI-Based Quay Wall Event Monitoring
-permalink: /projects/quay-wall-monitoring.html
+permalink: /projects/quay-wall-monitoring/
 body_class: project-detail-template
 ---
 
@@ -10,9 +10,9 @@ body_class: project-detail-template
 </figure>
 
 <nav class="project-detail-nav" aria-label="Project navigation">
-    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
-    <a href="{{ '/field-work.html#port-monitoring-field' | relative_url }}">Field Work</a>
-    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work/#port-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
 </nav>
 
 ## Overview
@@ -79,9 +79,9 @@ The work is connected to a journal article on AI-based multisensory quay wall ev
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
-    <a href="{{ '/publications.html#preprints-3' | relative_url }}">Preprints</a>
-    <a href="{{ '/field-work.html#port-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications/#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications/#preprints-3' | relative_url }}">Preprints</a>
+    <a href="{{ '/field-work/#port-monitoring-field' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/2077-1312/12/11/1902">Related Paper</a>
 </div>

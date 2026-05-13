@@ -3,7 +3,8 @@ layout: page
 title: Study
 no_site_suffix: true
 lang: en
-ko_url: /ko/study.html
+permalink: /study/
+ko_url: /ko/study/
 description: Study notes and coursework interests related to structural engineering, mathematics, sensing systems, and data analysis.
 ---
 

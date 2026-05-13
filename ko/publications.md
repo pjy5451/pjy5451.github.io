@@ -3,7 +3,8 @@ layout: page
 title: 논문 및 특허
 no_site_suffix: true
 lang: ko
-en_url: /publications.html
+permalink: /ko/publications/
+en_url: /publications/
 description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조물 모니터링 및 IoT 센싱 연구 산출물을 정리한 페이지입니다.
 ---
 

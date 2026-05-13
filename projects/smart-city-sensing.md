@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Citizen-Participatory Smart City Sensing
-permalink: /projects/smart-city-sensing.html
+permalink: /projects/smart-city-sensing/
 exclude_from_search: true
 ---
 
@@ -75,7 +75,7 @@ The workflow connects sensor measurement, QR-code visualization, smartphone-base
 This work is connected to patents and award records on citizen-participatory smart city sensing and sensor-data visualization.
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#cloud-dashboard-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#cloud-dashboard-field' | relative_url }}">Field Work</a>
 </div>

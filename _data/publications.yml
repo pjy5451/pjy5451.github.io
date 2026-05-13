@@ -22,12 +22,12 @@ sections:
       - label: Source Document
         href: https://kscejournal.or.kr/jksce/XmlViewer/f450650
       - label: Project
-        href: /projects/weight-in-motion.html
+        href: /projects/weight-in-motion/
       ko:
       - label: Source Document
         href: https://kscejournal.or.kr/jksce/XmlViewer/f450650
       - label: Project
-        href: /projects/weight-in-motion.html
+        href: /projects/weight-in-motion/
     href:
       en: https://kscejournal.or.kr/jksce/XmlViewer/f450650
       ko: https://kscejournal.or.kr/jksce/XmlViewer/f450650
@@ -50,13 +50,13 @@ sections:
       - label: Source Document
         href: https://www.mdpi.com/2077-1312/12/11/1902
       - label: Project
-        href: /projects/quay-wall-monitoring.html
+        href: /projects/quay-wall-monitoring/
       - label: Cited by 1
       ko:
       - label: Source Document
         href: https://www.mdpi.com/2077-1312/12/11/1902
       - label: Project
-        href: /projects/quay-wall-monitoring.html
+        href: /projects/quay-wall-monitoring/
       - label: Cited by 1
     href:
       en: https://www.mdpi.com/2077-1312/12/11/1902
@@ -130,13 +130,13 @@ sections:
       - label: Source Document
         href: https://www.sciencedirect.com/science/article/pii/S092658052200509X
       - label: Project
-        href: /projects/portable-sensing.html
+        href: /projects/portable-sensing/
       - label: Cited by 10
       ko:
       - label: Source Document
         href: https://www.sciencedirect.com/science/article/pii/S092658052200509X
       - label: Project
-        href: /projects/portable-sensing.html
+        href: /projects/portable-sensing/
       - label: Cited by 10
     href:
       en: https://www.sciencedirect.com/science/article/pii/S092658052200509X
@@ -160,13 +160,13 @@ sections:
       - label: Source Document
         href: https://www.mdpi.com/1424-8220/21/16/5647
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       - label: Cited by 31
       ko:
       - label: Source Document
         href: https://www.mdpi.com/1424-8220/21/16/5647
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       - label: Cited by 31
     href:
       en: https://www.mdpi.com/1424-8220/21/16/5647
@@ -243,13 +243,13 @@ sections:
       - label: Scholar
         href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       - label: Cited by 8
       ko:
       - label: Source Document
         href: https://www.jcoseik.or.kr/articles/xml/o4yP/
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       - label: Cited by 8
     href:
       en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C
@@ -304,12 +304,12 @@ sections:
       - label: Scholar
         href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Scholar
         href: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
     href:
       en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
       ko: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:5nxA0vEk-isC
@@ -362,13 +362,13 @@ sections:
       - label: Preprint
         href: https://arxiv.org/abs/2209.12186
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       - label: Cited by 1
       ko:
       - label: Preprint
         href: https://arxiv.org/abs/2209.12186
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       - label: Cited by 1
     href:
       en: https://arxiv.org/abs/2209.12186
@@ -392,13 +392,13 @@ sections:
       - label: Preprint
         href: https://arxiv.org/abs/2209.13646
       - label: Project
-        href: /projects/quay-wall-monitoring.html
+        href: /projects/quay-wall-monitoring/
       - label: Cited by 1
       ko:
       - label: Preprint
         href: https://arxiv.org/abs/2209.13646
       - label: Project
-        href: /projects/quay-wall-monitoring.html
+        href: /projects/quay-wall-monitoring/
       - label: Cited by 1
     href:
       en: https://arxiv.org/abs/2209.13646
@@ -424,11 +424,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/weight-in-motion.html
+        href: /projects/weight-in-motion/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/weight-in-motion.html
+        href: /projects/weight-in-motion/
   - year: '2024'
     tags:
     - QR
@@ -449,11 +449,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/qr-lifecycle-monitoring.html
+        href: /projects/qr-lifecycle-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/qr-lifecycle-monitoring.html
+        href: /projects/qr-lifecycle-monitoring/
   - year: '2023'
     tags:
     - Bridge
@@ -472,11 +472,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
   - year: '2023'
     tags:
     - Bridge
@@ -495,11 +495,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
   - year: '2023'
     tags:
     - Bridge
@@ -517,11 +517,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
   - year: '2022'
     tags:
     - Bridge
@@ -540,11 +540,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
   - year: '2022'
     tags:
     - Bridge
@@ -562,11 +562,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
   - year: '2022'
     tags:
     - Bridge
@@ -584,11 +584,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
   - year: '2021'
     tags:
     - Bridge
@@ -606,11 +606,11 @@ sections:
       en:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
       ko:
       - label: Conference
       - label: Project
-        href: /projects/bridge-monitoring.html
+        href: /projects/bridge-monitoring/
 - title:
     en: Patents
     ko: Patents

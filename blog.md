@@ -3,7 +3,8 @@ layout: page
 title: Notes
 no_site_suffix: true
 lang: en
-ko_url: /ko/blog.html
+permalink: /blog/
+ko_url: /ko/blog/
 description: A chronological list of short notes, personal logs, technical memos, and working reflections from Junyoung Park.
 ---
 

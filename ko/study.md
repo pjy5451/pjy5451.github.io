@@ -3,7 +3,8 @@ layout: page
 title: Study
 no_site_suffix: true
 lang: ko
-en_url: /study.html
+permalink: /ko/study/
+en_url: /study/
 description: 구조공학, 수학, 센싱 시스템, 데이터 분석과 관련된 학습 노트와 수강 과목 기반 정리를 모아두는 페이지입니다.
 ---
 

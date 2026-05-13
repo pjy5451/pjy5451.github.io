@@ -4,7 +4,8 @@ title: 현장 작업
 no_site_suffix: true
 body_class: field-work-template
 lang: ko
-en_url: /field-work.html
+permalink: /ko/field-work/
+en_url: /field-work/
 description: 박준영의 50회 이상 현장 실험 경험, 센서 설치, DAQ, 교량 실험, 차량 모니터링, 클라우드 시각화 등 현장형 인프라 모니터링 작업을 보여주는 페이지입니다.
 keywords:
   - 현장 실험
@@ -66,7 +67,7 @@ keywords:
             <div><dt>Role</dt><dd>센서 워크플로, 현장 설치, 클라우드 데이터 검토, 시스템 개선</dd></div>
             <div><dt>Data</dt><dd>변형률, 가속도, 변위, 온도</dd></div>
         </dl>
-        <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
+        <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">관련 프로젝트</a>
     </article>
     <article id="bridge-installation-field" data-field-tags="Bridge|Sensor|Installation|Field">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-07.png' | relative_url }}" alt="교량 현장 설치와 계측 응답 데이터" />
@@ -79,7 +80,7 @@ keywords:
             <div><dt>Role</dt><dd>설치, 검증, 트러블슈팅</dd></div>
             <div><dt>Data</dt><dd>응답 이력 및 센서 상태</dd></div>
         </dl>
-        <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
+        <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">관련 프로젝트</a>
     </article>
     <article id="cloud-dashboard-field" data-field-tags="Bridge|Cloud|Dashboard|Data">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-24.png' | relative_url }}" alt="교량 응답 데이터 클라우드 모니터링 대시보드" />
@@ -92,7 +93,7 @@ keywords:
             <div><dt>Role</dt><dd>데이터 파이프라인 및 해석 워크플로</dd></div>
             <div><dt>Data</dt><dd>센서 상태, 진동, 변위, 변형률</dd></div>
         </dl>
-        <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">관련 프로젝트</a>
+        <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">관련 프로젝트</a>
     </article>
     <article id="vehicle-load-field" data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="차량 하중 센싱과 WIM DAQ 신호 워크플로" />
@@ -105,7 +106,7 @@ keywords:
             <div><dt>Role</dt><dd>DAQ 검증, 신호 검토, 탐지 워크플로</dd></div>
             <div><dt>Data</dt><dd>고속 하중 신호 및 차량 이벤트</dd></div>
         </dl>
-        <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">관련 프로젝트</a>
+        <a href="{{ '/projects/weight-in-motion/' | relative_url }}">관련 프로젝트</a>
     </article>
     <article id="precast-transport-field" data-field-tags="Precast|Sensor|Transportation|Field">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-11.png' | relative_url }}" alt="프리캐스트 운송 모니터링을 위한 휴대형 센싱" />
@@ -118,7 +119,7 @@ keywords:
             <div><dt>Role</dt><dd>휴대형 센서 설치 및 데이터 해석</dd></div>
             <div><dt>Data</dt><dd>변형률, 가속도, 기울기, 운송 이벤트</dd></div>
         </dl>
-        <a href="{{ '/projects/portable-sensing.html' | relative_url }}">관련 프로젝트</a>
+        <a href="{{ '/projects/portable-sensing/' | relative_url }}">관련 프로젝트</a>
     </article>
     <article id="port-monitoring-field" data-field-tags="Port|Sensor|Cloud|AI">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-19.png' | relative_url }}" alt="안벽 이벤트 모니터링을 위한 패키징 센서" />
@@ -131,7 +132,7 @@ keywords:
             <div><dt>Role</dt><dd>패키징, 센싱 워크플로, 이벤트 분석</dd></div>
             <div><dt>Data</dt><dd>멀티센서 이벤트 기록</dd></div>
         </dl>
-        <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">관련 프로젝트</a>
+        <a href="{{ '/projects/quay-wall-monitoring/' | relative_url }}">관련 프로젝트</a>
     </article>
 </div>
 

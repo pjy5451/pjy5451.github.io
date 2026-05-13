@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Concrete Crack Trajectory Monitoring
-permalink: /projects/concrete-crack-monitoring.html
+permalink: /projects/concrete-crack-monitoring/
 body_class: project-detail-template
 ---
 
@@ -10,9 +10,9 @@ body_class: project-detail-template
 </figure>
 
 <nav class="project-detail-nav" aria-label="Project navigation">
-    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
-    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/projects/' | relative_url }}">All Projects</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
 </nav>
 
 ## Overview
@@ -73,7 +73,7 @@ I contributed to the sensing-system framing and patent-oriented development of t
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#bridge-monitoring-field' | relative_url }}">Field Work</a>
 </div>

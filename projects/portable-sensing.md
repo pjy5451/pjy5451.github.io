@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portable Sensing for Precast Transportation
-permalink: /projects/portable-sensing.html
+permalink: /projects/portable-sensing/
 body_class: project-detail-template
 ---
 
@@ -10,9 +10,9 @@ body_class: project-detail-template
 </figure>
 
 <nav class="project-detail-nav" aria-label="Project navigation">
-    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
-    <a href="{{ '/field-work.html#precast-transport-field' | relative_url }}">Field Work</a>
-    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work/#precast-transport-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
 </nav>
 
 ## Overview
@@ -85,9 +85,9 @@ The system connects portable sensing, gateway collection, transport-stage data r
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#precast-transport-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications/#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#precast-transport-field' | relative_url }}">Field Work</a>
     <a href="https://www.sciencedirect.com/science/article/pii/S092658052200509X">Related Paper</a>
 </div>

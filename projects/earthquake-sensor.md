@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Smart IoT Earthquake Sensor
-permalink: /projects/earthquake-sensor.html
+permalink: /projects/earthquake-sensor/
 exclude_from_search: true
 ---
 
@@ -73,9 +73,9 @@ The sensing logic connects event triggering, waveform classification, nearby not
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#cloud-dashboard-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications/#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#cloud-dashboard-field' | relative_url }}">Field Work</a>
     <a href="https://www.mdpi.com/1424-8220/20/10/2963">Related Paper</a>
 </div>

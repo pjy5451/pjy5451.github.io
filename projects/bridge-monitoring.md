@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bridge Monitoring and Displacement Estimation
-permalink: /projects/bridge-monitoring.html
+permalink: /projects/bridge-monitoring/
 body_class: project-detail-template
 ---
 
@@ -10,9 +10,9 @@ body_class: project-detail-template
 </figure>
 
 <nav class="project-detail-nav" aria-label="Project navigation">
-    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
-    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
-    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work/#bridge-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
 </nav>
 
 ## Overview
@@ -86,11 +86,11 @@ The monitoring workflow connects synchronized strain and acceleration sensing, c
 The work produced journal publications, conference presentations, patent records, and contributed to Korean Construction New Technology No. 959 registration related to bridge monitoring, IoT sensing, and cloud-based data preprocessing.
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Publications & Patents</a>
-    <a href="{{ '/publications.html#journal-articles-10' | relative_url }}">Journal Articles</a>
-    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Publications & Patents</a>
+    <a href="{{ '/publications/#journal-articles-10' | relative_url }}">Journal Articles</a>
+    <a href="{{ '/publications/#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#bridge-monitoring-field' | relative_url }}">Field Work</a>
     <a href="https://arxiv.org/abs/2209.12186">Preprint</a>
     <a href="https://www.mdpi.com/1424-8220/21/16/5647">Related Paper</a>
 </div>

@@ -6,6 +6,7 @@ social_image: "/assets/images/social-preview.png"
 
 markdown: kramdown
 highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
 logo: false
 baseurl: ""
 domain_name: "https://pjy5451.github.io"
@@ -21,3 +22,6 @@ disqus-shortname: ""
 exclude:
   - README.md
   - LICENSE.txt
+  - task.md
+  - website_checklist.xlsx
+  - website_checklist_backup.xlsx

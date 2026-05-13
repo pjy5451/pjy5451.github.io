@@ -1,7 +1,7 @@
 ---
 layout: page
 title: QR-Based Bridge Lifecycle Monitoring
-permalink: /projects/qr-lifecycle-monitoring.html
+permalink: /projects/qr-lifecycle-monitoring/
 exclude_from_search: true
 ---
 
@@ -81,8 +81,8 @@ The system connects embedded strain measurement, local QR visualization, smartph
 This work is connected to patents and project outcomes on QR-based sensing, long-term monitoring, and citizen-assisted data acquisition.
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#bridge-monitoring-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications/#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#bridge-monitoring-field' | relative_url }}">Field Work</a>
 </div>

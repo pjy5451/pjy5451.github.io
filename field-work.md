@@ -4,7 +4,8 @@ title: Field Work
 no_site_suffix: true
 body_class: field-work-template
 lang: en
-ko_url: /ko/field-work.html
+permalink: /field-work/
+ko_url: /ko/field-work/
 description: Field experience framework for Junyoung Park's infrastructure monitoring work, including 50+ field experiments, sensor installation, DAQ workflows, bridge tests, vehicle monitoring, and cloud visualization.
 keywords:
   - field experiments
@@ -66,7 +67,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
             <div><dt>Role</dt><dd>Sensor workflow, field deployment, cloud data review, and system improvement</dd></div>
             <div><dt>Data</dt><dd>Strain, acceleration, displacement, temperature</dd></div>
         </dl>
-        <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
+        <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">Related project</a>
     </article>
     <article id="bridge-installation-field" data-field-tags="Bridge|Sensor|Installation|Field">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-07.png' | relative_url }}" alt="Bridge field installation and measured response data" />
@@ -79,7 +80,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
             <div><dt>Role</dt><dd>Installation, validation, troubleshooting</dd></div>
             <div><dt>Data</dt><dd>Response histories and sensor status</dd></div>
         </dl>
-        <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
+        <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">Related project</a>
     </article>
     <article id="cloud-dashboard-field" data-field-tags="Bridge|Cloud|Dashboard|Data">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-24.png' | relative_url }}" alt="Cloud monitoring dashboard for bridge response data" />
@@ -92,7 +93,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
             <div><dt>Role</dt><dd>Data pipeline and interpretation workflow</dd></div>
             <div><dt>Data</dt><dd>Sensor status, vibration, displacement, strain</dd></div>
         </dl>
-        <a href="{{ '/projects/bridge-monitoring.html' | relative_url }}">Related project</a>
+        <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">Related project</a>
     </article>
     <article id="vehicle-load-field" data-field-tags="Vehicle|WIM|OBM|DAQ|Data">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-26.png' | relative_url }}" alt="Vehicle load sensing and WIM DAQ signal workflow" />
@@ -105,7 +106,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
             <div><dt>Role</dt><dd>DAQ validation, signal review, detection workflow</dd></div>
             <div><dt>Data</dt><dd>High-speed load signals and vehicle events</dd></div>
         </dl>
-        <a href="{{ '/projects/weight-in-motion.html' | relative_url }}">Related project</a>
+        <a href="{{ '/projects/weight-in-motion/' | relative_url }}">Related project</a>
     </article>
     <article id="precast-transport-field" data-field-tags="Precast|Sensor|Transportation|Field">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-11.png' | relative_url }}" alt="Portable sensing for precast transportation monitoring" />
@@ -118,7 +119,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
             <div><dt>Role</dt><dd>Portable sensor setup and data interpretation</dd></div>
             <div><dt>Data</dt><dd>Strain, acceleration, tilt, transport events</dd></div>
         </dl>
-        <a href="{{ '/projects/portable-sensing.html' | relative_url }}">Related project</a>
+        <a href="{{ '/projects/portable-sensing/' | relative_url }}">Related project</a>
     </article>
     <article id="port-monitoring-field" data-field-tags="Port|Sensor|Cloud|AI">
         <img class="field-card-image" src="{{ '/assets/images/projects/portfolio/portfolio-page-19.png' | relative_url }}" alt="Packaged sensors for quay wall event monitoring" />
@@ -131,7 +132,7 @@ This page is prepared as a field-work archive for my infrastructure monitoring e
             <div><dt>Role</dt><dd>Packaging, sensing workflow, event analysis</dd></div>
             <div><dt>Data</dt><dd>Multisensory event records</dd></div>
         </dl>
-        <a href="{{ '/projects/quay-wall-monitoring.html' | relative_url }}">Related project</a>
+        <a href="{{ '/projects/quay-wall-monitoring/' | relative_url }}">Related project</a>
     </article>
 </div>
 

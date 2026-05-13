@@ -1,7 +1,7 @@
 ---
 layout: page
 title: On-Board Monitoring for Vehicle Loads
-permalink: /projects/onboard-monitoring.html
+permalink: /projects/onboard-monitoring/
 body_class: project-detail-template
 ---
 
@@ -10,9 +10,9 @@ body_class: project-detail-template
 </figure>
 
 <nav class="project-detail-nav" aria-label="Project navigation">
-    <a href="{{ '/projects.html' | relative_url }}">All Projects</a>
-    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
-    <a href="{{ '/publications.html' | relative_url }}">Publications</a>
+    <a href="{{ '/projects/' | relative_url }}">All Projects</a>
+    <a href="{{ '/field-work/#vehicle-load-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Publications</a>
 </nav>
 
 ## Overview
@@ -78,8 +78,8 @@ This project is connected to ongoing patent work on real-time correction methods
 ## Outputs {#outputs}
 
 <div class="pub-actions resource-links">
-    <a href="{{ '/publications.html' | relative_url }}">Related Patents</a>
-    <a href="{{ '/publications.html#conference-presentations-9' | relative_url }}">Conference Presentations</a>
-    <a href="{{ '/publications.html#patents-8' | relative_url }}">Patents</a>
-    <a href="{{ '/field-work.html#vehicle-load-field' | relative_url }}">Field Work</a>
+    <a href="{{ '/publications/' | relative_url }}">Related Patents</a>
+    <a href="{{ '/publications/#conference-presentations-9' | relative_url }}">Conference Presentations</a>
+    <a href="{{ '/publications/#patents-8' | relative_url }}">Patents</a>
+    <a href="{{ '/field-work/#vehicle-load-field' | relative_url }}">Field Work</a>
 </div>
