@@ -139,6 +139,62 @@ description: Research profile, selected background, technical skills, awards, an
             </article>
         </div>
 
+        <h2>Experience</h2>
+
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Researcher, UDNS</h3>
+                    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
+                </div>
+            </article>
+        </div>
+
+        <h2>Publications</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% unless section.title.en == "Patents" %}
+                <section class="cv-publication-section">
+                    <h3>{{ section.title.en }}</h3>
+                    {% for entry in section.entries %}
+                        <article class="cv-publication-item">
+                            <span class="cv-publication-year">{{ entry.year }}</span>
+                            <div>
+                                <strong class="cv-publication-title">{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
+                                <p class="cv-publication-authors">{{ entry.authors.en | strip_newlines }}</p>
+                                <p>{{ entry.venue.en | strip_newlines }}</p>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </section>
+                {% endunless %}
+            {% endfor %}
+        </div>
+
+        <a class="cv-section-link" href="{{ '/publications.html' | relative_url }}">View publication filters and links</a>
+
+        <h2>Patents</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% if section.title.en == "Patents" %}
+                    <section class="cv-publication-section">
+                        {% for entry in section.entries %}
+                            <article class="cv-publication-item">
+                                <span class="cv-publication-year">{{ entry.year }}</span>
+                                <div>
+                                    <strong class="cv-publication-title">{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
+                                    <p>{{ entry.venue.en | strip_newlines }}</p>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </div>
+
         <h2>Scholarships</h2>
 
         <ul class="award-list compact-cv-list">
@@ -163,63 +219,6 @@ description: Research profile, selected background, technical skills, awards, an
                 <span class="award-organization">Gwangju Seo-gu Scholarship Foundation</span>
             </li>
         </ul>
-
-
-        <h2>Experience</h2>
-
-        <div class="timeline">
-            <article class="timeline-item">
-                <div class="timeline-date">2024 - Present</div>
-                <div class="timeline-content">
-                    <h3>Researcher, UDNS</h3>
-                    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
-                </div>
-            </article>
-        </div>
-
-        <h2>Publications</h2>
-
-        <div class="cv-publication-list">
-            {% for section in site.data.publications.sections %}
-                {% unless section.title.en == "Patents" %}
-                <section class="cv-publication-section">
-                    <h3>{{ section.title.en }}</h3>
-                    {% for entry in section.entries %}
-                        <article class="cv-publication-item">
-                            <span class="cv-publication-year">{{ entry.year }}</span>
-                            <div>
-                                <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                <p class="cv-publication-authors">{{ entry.authors.en | strip_newlines }}</p>
-                                <p>{{ entry.venue.en | strip_newlines }}</p>
-                            </div>
-                        </article>
-                    {% endfor %}
-                </section>
-                {% endunless %}
-            {% endfor %}
-        </div>
-
-        <a class="cv-section-link" href="{{ '/publications.html' | relative_url }}">View publication filters and links</a>
-
-        <h2>Patents</h2>
-
-        <div class="cv-publication-list">
-            {% for section in site.data.publications.sections %}
-                {% if section.title.en == "Patents" %}
-                    <section class="cv-publication-section">
-                        {% for entry in section.entries %}
-                            <article class="cv-publication-item">
-                                <span class="cv-publication-year">{{ entry.year }}</span>
-                                <div>
-                                    <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                    <p>{{ entry.venue.en | strip_newlines }}</p>
-                                </div>
-                            </article>
-                        {% endfor %}
-                    </section>
-                {% endif %}
-            {% endfor %}
-        </div>
 
         <h2>Technical Skills</h2>
 
