@@ -10,7 +10,9 @@ post_class: post-template page-template
 
 <main class="content" role="main">
     <article class="post">
+        {% unless page.hide_title %}
         <h1 class="post-title">{{ page.title }}</h1>
+        {% endunless %}
 
         <section class="post-content">
             {{content}}

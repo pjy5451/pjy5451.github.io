@@ -1467,6 +1467,7 @@ html[data-theme="dark"] .search-dialog {
 
 .cv-heading {
 	margin: 0 0 20px;
+	text-align: center;
 }
 
 .cv-heading h1 {
@@ -1727,7 +1728,7 @@ html[data-theme="dark"] .search-dialog {
 	line-height: 1.6;
 }
 
-.pub-summary a,
+.pub-summary > a,
 .pub-summary span {
 	display: inline-flex;
 	align-items: center;
@@ -1740,6 +1741,17 @@ html[data-theme="dark"] .search-dialog {
 	font-size: 13px;
 	font-weight: 700;
 	text-decoration: none;
+}
+
+.pub-summary p a {
+	color: var(--accent-strong);
+	font-weight: 800;
+	text-decoration: none;
+}
+
+.pub-summary p a:hover {
+	color: var(--accent);
+	text-decoration: underline;
 }
 
 .pub-list {
@@ -2553,6 +2565,10 @@ html[data-theme="dark"] .field-gallery article:hover {
 	max-width: 1120px;
 }
 
+.wide-page-template .bio-sidebar {
+	transform: translateX(-36px);
+}
+
 .project-detail-nav {
 	display: flex;
 	flex-wrap: wrap;
@@ -3018,6 +3034,14 @@ html[data-theme="dark"] .course-tags span {
 		grid-template-columns: 1fr;
 		width: auto;
 		margin-left: 0;
+		transform: none;
+	}
+
+	.wide-page-template .bio-layout {
+		transform: none;
+	}
+
+	.wide-page-template .bio-sidebar {
 		transform: none;
 	}
 

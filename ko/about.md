@@ -2,6 +2,7 @@
 layout: page
 title: CV
 no_site_suffix: true
+hide_title: true
 body_class: wide-page-template
 lang: ko
 en_url: /about.html
@@ -25,29 +26,9 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
 
     <div class="bio-main">
         <section class="cv-heading">
-            <h1>CV</h1>
             <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">CV 다운로드</a>
             <p class="cv-updated">Last updated: May 2026</p>
         </section>
-
-        <section class="research-statement">
-            <h2>프로필</h2>
-            <p>저는 IoT 센서 및 클라우드 기반 시스템을 개발하여 구조물의 상태를 모니터링하고 실제 현장 데이터를 분석하는 연구를 수행해 왔습니다. 성산대교, 서소문고가, 팔당육교 등 실제 구조물에 시스템을 설치하고 장기간 운영한 경험이 있습니다. 현재는 WIM(Weigh-in-Motion) 및 OBM(On-Board Mass) 시스템을 중심으로 지능형 교통 및 인프라 모니터링 연구를 수행하고 있습니다.</p>
-            <p>주요 관심 분야는 Structural Health Monitoring (SHM), WIM/OBM 시스템, 스마트 IoT 센서, AI 기반 데이터 분석이며, 최근에는 구조동역학, 구조신뢰성, 우주항공, 그리고 피지컬 AI 분야에도 관심을 가지고 있습니다.</p>
-        </section>
-
-        <h2>연구 분야</h2>
-
-        <div class="cv-chip-list">
-            <span>Bridge Monitoring</span>
-            <span>WIM / OBM</span>
-            <span>Smart IoT Sensors</span>
-            <span>AI-Based Data Analysis</span>
-            <span>Structural Dynamics</span>
-            <span>Structural Reliability</span>
-            <span>Aerospace Engineering</span>
-            <span>Physical AI</span>
-        </div>
 
         <h2>학력</h2>
 
@@ -139,86 +120,19 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             </article>
         </div>
 
-        <h2>경력</h2>
+        <h2>연구 관심 분야</h2>
 
-        <div class="timeline">
-            <article class="timeline-item">
-                <div class="timeline-date">2024 - Present</div>
-                <div class="timeline-content">
-                    <h3>연구원, UDNS</h3>
-                    <p>AI 기반 화물차 운송 안전 기술 분야에서 고속 WIM, OBM, 센서 시스템, 임베디드 기술, 데이터 분석 및 현장 적용 기술을 연구·개발하고 있습니다.</p>
-                </div>
-            </article>
+        <div class="cv-chip-list">
+            <span>Structural Health Monitoring</span>
+            <span>Bridge Monitoring</span>
+            <span>WIM / OBM</span>
+            <span>Smart IoT Sensors</span>
+            <span>AI-Based Data Analysis</span>
+            <span>Structural Dynamics</span>
+            <span>Structural Reliability</span>
+            <span>Aerospace Engineering</span>
+            <span>Physical AI</span>
         </div>
-
-        <h2>논문</h2>
-
-        <div class="cv-publication-list">
-            {% for section in site.data.publications.sections %}
-                {% unless section.title.en == "Patents" %}
-                <section class="cv-publication-section">
-                    <h3>{{ section.title.ko }}</h3>
-                    {% for entry in section.entries %}
-                        <article class="cv-publication-item">
-                            <span class="cv-publication-year">{{ entry.year }}</span>
-                            <div>
-                                <strong class="cv-publication-title">{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
-                                <p class="cv-publication-authors">{{ entry.authors.ko | strip_newlines }}</p>
-                                <p>{{ entry.venue.ko | strip_newlines }}</p>
-                            </div>
-                        </article>
-                    {% endfor %}
-                </section>
-                {% endunless %}
-            {% endfor %}
-        </div>
-
-        <a class="cv-section-link" href="{{ '/ko/publications.html' | relative_url }}">필터와 링크가 있는 전체 목록 보기</a>
-
-        <h2>특허</h2>
-
-        <div class="cv-publication-list">
-            {% for section in site.data.publications.sections %}
-                {% if section.title.en == "Patents" %}
-                    <section class="cv-publication-section">
-                        {% for entry in section.entries %}
-                            <article class="cv-publication-item">
-                                <span class="cv-publication-year">{{ entry.year }}</span>
-                                <div>
-                                    <strong class="cv-publication-title">{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
-                                    <p>{{ entry.venue.ko | strip_newlines }}</p>
-                                </div>
-                            </article>
-                        {% endfor %}
-                    </section>
-                {% endif %}
-            {% endfor %}
-        </div>
-
-        <h2>장학</h2>
-
-        <ul class="award-list compact-cv-list">
-            <li>
-                <span class="award-year">2020</span>
-                <span class="award-title">Seah Haiam Scholarship</span>
-                <span class="award-organization">Seah Haiam Academic Scholarship Foundation</span>
-            </li>
-            <li>
-                <span class="award-year">2019</span>
-                <span class="award-title">Hyeeum Scholarship</span>
-                <span class="award-organization">중앙대학교 토목공학과 동문회</span>
-            </li>
-            <li>
-                <span class="award-year">2019</span>
-                <span class="award-title">Hwanju Scholarship</span>
-                <span class="award-organization">중앙대학교</span>
-            </li>
-            <li>
-                <span class="award-year">2018</span>
-                <span class="award-title">Academic Excellence Scholarship</span>
-                <span class="award-organization">광주광역시 서구 장학재단</span>
-            </li>
-        </ul>
 
         <h2>기술 역량</h2>
 
@@ -263,9 +177,65 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             </section>
         </div>
 
+        <h2>경력</h2>
+
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>연구원, UDNS</h3>
+                    <p>AI 기반 화물차 운송 안전 기술 분야에서 고속 WIM, OBM, 센서 시스템, 임베디드 기술, 데이터 분석 및 현장 적용 기술을 연구·개발하고 있습니다.</p>
+                </div>
+            </article>
+        </div>
+
+        <h2>논문 및 특허</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% unless section.title.en == "Conference Presentations" %}
+                <section class="cv-publication-section">
+                    <h3>{{ section.title.ko }}</h3>
+                    {% for entry in section.entries %}
+                        <article class="cv-publication-item">
+                            <span class="cv-publication-year">{{ entry.year }}</span>
+                            <div>
+                                <strong class="cv-publication-title">{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
+                                <p class="cv-publication-authors">{{ entry.authors.ko | strip_newlines }}</p>
+                                <p>{{ entry.venue.ko | strip_newlines }}</p>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </section>
+                {% endunless %}
+            {% endfor %}
+        </div>
+
+        <a class="cv-section-link" href="{{ '/ko/publications.html' | relative_url }}">필터와 링크가 있는 전체 목록 보기</a>
+
+        <h2>학회 발표</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% if section.title.en == "Conference Presentations" %}
+                    <section class="cv-publication-section">
+                        {% for entry in section.entries %}
+                            <article class="cv-publication-item">
+                                <span class="cv-publication-year">{{ entry.year }}</span>
+                                <div>
+                                    <strong class="cv-publication-title">{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
+                                    <p>{{ entry.venue.ko | strip_newlines }}</p>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </div>
+
         <h2>수상</h2>
 
-        <ul class="award-list">
+        <ul class="award-list compact-cv-list">
             <li>
                 <span class="award-year">2024</span>
                 <span class="award-title">우수논문발표상</span>
@@ -292,5 +262,34 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                 <span class="award-organization">행정안전부</span>
             </li>
         </ul>
+
+        <h2>장학</h2>
+
+        <ul class="award-list compact-cv-list">
+            <li>
+                <span class="award-year">2020</span>
+                <span class="award-title">Seah Haiam Scholarship</span>
+                <span class="award-organization">Seah Haiam Academic Scholarship Foundation</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hyeeum Scholarship</span>
+                <span class="award-organization">중앙대학교 토목공학과 동문회</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hwanju Scholarship</span>
+                <span class="award-organization">중앙대학교</span>
+            </li>
+            <li>
+                <span class="award-year">2018</span>
+                <span class="award-title">Academic Excellence Scholarship</span>
+                <span class="award-organization">광주광역시 서구 장학재단</span>
+            </li>
+        </ul>
+
+        <h2>교육 및 기타 활동</h2>
+
+        <p class="cv-pending-note">세부 활동은 확인 후 추가할 예정입니다.</p>
     </div>
 </div>

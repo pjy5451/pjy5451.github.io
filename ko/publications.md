@@ -8,10 +8,7 @@ description: 박준영의 논문, 프리프린트, 학회 발표, 특허, 구조
 ---
 
 <div class="pub-summary">
-    <p>구조물 건전성 모니터링, IoT 센싱, 교량 변위 추정, WIM/OBM, AI 기반 인프라 모니터링과 관련된 논문, 기술 기사, 프리프린트, 학회 발표, 특허를 정리했습니다.</p>
-    <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
-    <a href="{{ '/ko/field-work.html' | relative_url }}">현장 작업</a>
-    <span>146 citations</span>
+    <p>제 논문은 <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar profile</a>에서도 확인할 수 있습니다.</p>
 </div>
 
 <div class="pub-filter-bar" data-pub-filter-bar data-status-all="전체 항목 표시 중" data-status-filtered="필터 적용 항목 표시 중" aria-label="Filter publications by topic">

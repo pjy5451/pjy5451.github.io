@@ -11,6 +11,7 @@
     {% assign projects_active = false %}
     {% assign field_work_active = false %}
     {% assign publications_active = false %}
+    {% assign study_active = false %}
     {% assign notes_active = false %}
     {% if current_url == "/" or current_url == "/ko/" %}
         {% assign home_active = true %}
@@ -27,6 +28,9 @@
     {% if current_url == "/publications.html" or current_url == "/ko/publications.html" %}
         {% assign publications_active = true %}
     {% endif %}
+    {% if current_url == "/study.html" or current_url == "/ko/study.html" %}
+        {% assign study_active = true %}
+    {% endif %}
     {% if current_url == "/blog.html" or current_url == "/ko/blog.html" or current_url contains "/notes/" %}
         {% assign notes_active = true %}
     {% endif %}
@@ -37,6 +41,7 @@
         <a class="nav-link{% if projects_active %} is-active{% endif %}" href="{{ '/projects.html' | relative_url }}"{% if projects_active %} aria-current="page"{% endif %}>{% if is_ko %}프로젝트{% else %}Projects{% endif %}</a>
         <a class="nav-link{% if field_work_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/field-work.html' | relative_url }}{% else %}{{ '/field-work.html' | relative_url }}{% endif %}"{% if field_work_active %} aria-current="page"{% endif %}>{% if is_ko %}현장 작업{% else %}Field Work{% endif %}</a>
         <a class="nav-link{% if publications_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/publications.html' | relative_url }}{% else %}{{ '/publications.html' | relative_url }}{% endif %}"{% if publications_active %} aria-current="page"{% endif %}>{% if is_ko %}논문/특허{% else %}Publications{% endif %}</a>
+        <a class="nav-link{% if study_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/study.html' | relative_url }}{% else %}{{ '/study.html' | relative_url }}{% endif %}"{% if study_active %} aria-current="page"{% endif %}>Study</a>
         <a class="nav-link{% if notes_active %} is-active{% endif %}" href="{% if is_ko %}{{ '/ko/blog.html' | relative_url }}{% else %}{{ '/blog.html' | relative_url }}{% endif %}"{% if notes_active %} aria-current="page"{% endif %}>{% if is_ko %}노트{% else %}Notes{% endif %}</a>
         <button class="nav-search-toggle" type="button" data-search-toggle aria-label="Search this site">
             <svg viewBox="0 0 24 24" aria-hidden="true">

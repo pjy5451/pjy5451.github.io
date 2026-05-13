@@ -8,10 +8,7 @@ description: Journal articles, preprints, conference presentations, patents, and
 ---
 
 <div class="pub-summary">
-    <p>Selected journal articles, technical articles, preprints, conference presentations, and patents related to structural health monitoring, sensing systems, bridge displacement estimation, weigh-in-motion, and AI-assisted infrastructure monitoring.</p>
-    <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
-    <a href="{{ '/field-work.html' | relative_url }}">Field Work</a>
-    <span>146 citations</span>
+    <p>You can also find my articles on my <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar profile</a>.</p>
 </div>
 
 <div class="pub-filter-bar" data-pub-filter-bar data-status-all="Showing all outputs" data-status-filtered="Showing filtered outputs" aria-label="Filter publications by topic">

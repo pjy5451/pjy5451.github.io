@@ -2,6 +2,7 @@
 layout: page
 title: CV
 no_site_suffix: true
+hide_title: true
 body_class: wide-page-template
 lang: en
 ko_url: /ko/about.html
@@ -25,29 +26,9 @@ description: Research profile, selected background, technical skills, awards, an
 
     <div class="bio-main">
         <section class="cv-heading">
-            <h1>CV</h1>
             <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">Download CV</a>
             <p class="cv-updated">Last updated: May 2026</p>
         </section>
-
-        <section class="research-statement">
-            <h2>Profile</h2>
-            <p>I developed IoT sensor and cloud-based systems for structural monitoring and real-world data analysis. I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.</p>
-            <p>My research interests include Structural Health Monitoring (SHM), WIM/OBM systems, smart IoT sensors, and AI-based data analysis. More recently, I have also been exploring structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.</p>
-        </section>
-
-        <h2>Research Areas</h2>
-
-        <div class="cv-chip-list">
-            <span>Bridge Monitoring</span>
-            <span>WIM / OBM</span>
-            <span>Smart IoT Sensors</span>
-            <span>AI-Based Data Analysis</span>
-            <span>Structural Dynamics</span>
-            <span>Structural Reliability</span>
-            <span>Aerospace Engineering</span>
-            <span>Physical AI</span>
-        </div>
 
         <h2>Education</h2>
 
@@ -139,88 +120,21 @@ description: Research profile, selected background, technical skills, awards, an
             </article>
         </div>
 
-        <h2>Experience</h2>
+        <h2>Research Interests</h2>
 
-        <div class="timeline">
-            <article class="timeline-item">
-                <div class="timeline-date">2024 - Present</div>
-                <div class="timeline-content">
-                    <h3>Researcher, UDNS</h3>
-                    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
-                </div>
-            </article>
+        <div class="cv-chip-list">
+            <span>Structural Health Monitoring</span>
+            <span>Bridge Monitoring</span>
+            <span>WIM / OBM</span>
+            <span>Smart IoT Sensors</span>
+            <span>AI-Based Data Analysis</span>
+            <span>Structural Dynamics</span>
+            <span>Structural Reliability</span>
+            <span>Aerospace Engineering</span>
+            <span>Physical AI</span>
         </div>
 
-        <h2>Publications</h2>
-
-        <div class="cv-publication-list">
-            {% for section in site.data.publications.sections %}
-                {% unless section.title.en == "Patents" %}
-                <section class="cv-publication-section">
-                    <h3>{{ section.title.en }}</h3>
-                    {% for entry in section.entries %}
-                        <article class="cv-publication-item">
-                            <span class="cv-publication-year">{{ entry.year }}</span>
-                            <div>
-                                <strong class="cv-publication-title">{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                <p class="cv-publication-authors">{{ entry.authors.en | strip_newlines }}</p>
-                                <p>{{ entry.venue.en | strip_newlines }}</p>
-                            </div>
-                        </article>
-                    {% endfor %}
-                </section>
-                {% endunless %}
-            {% endfor %}
-        </div>
-
-        <a class="cv-section-link" href="{{ '/publications.html' | relative_url }}">View publication filters and links</a>
-
-        <h2>Patents</h2>
-
-        <div class="cv-publication-list">
-            {% for section in site.data.publications.sections %}
-                {% if section.title.en == "Patents" %}
-                    <section class="cv-publication-section">
-                        {% for entry in section.entries %}
-                            <article class="cv-publication-item">
-                                <span class="cv-publication-year">{{ entry.year }}</span>
-                                <div>
-                                    <strong class="cv-publication-title">{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                    <p>{{ entry.venue.en | strip_newlines }}</p>
-                                </div>
-                            </article>
-                        {% endfor %}
-                    </section>
-                {% endif %}
-            {% endfor %}
-        </div>
-
-        <h2>Scholarships</h2>
-
-        <ul class="award-list compact-cv-list">
-            <li>
-                <span class="award-year">2020</span>
-                <span class="award-title">Seah Haiam Scholarship</span>
-                <span class="award-organization">Seah Haiam Academic Scholarship Foundation</span>
-            </li>
-            <li>
-                <span class="award-year">2019</span>
-                <span class="award-title">Hyeeum Scholarship</span>
-                <span class="award-organization">Chung-Ang University Department of Civil Engineering Alumni Association</span>
-            </li>
-            <li>
-                <span class="award-year">2019</span>
-                <span class="award-title">Hwanju Scholarship</span>
-                <span class="award-organization">Chung-Ang University</span>
-            </li>
-            <li>
-                <span class="award-year">2018</span>
-                <span class="award-title">Academic Excellence Scholarship</span>
-                <span class="award-organization">Gwangju Seo-gu Scholarship Foundation</span>
-            </li>
-        </ul>
-
-        <h2>Technical Skills</h2>
+        <h2>Skills</h2>
 
         <div class="skills-grid">
             <section>
@@ -263,9 +177,65 @@ description: Research profile, selected background, technical skills, awards, an
             </section>
         </div>
 
-        <h2>Awards</h2>
+        <h2>Work Experience</h2>
 
-        <ul class="award-list">
+        <div class="timeline">
+            <article class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Researcher, UDNS</h3>
+                    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
+                </div>
+            </article>
+        </div>
+
+        <h2>Publications</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% unless section.title.en == "Conference Presentations" %}
+                <section class="cv-publication-section">
+                    <h3>{{ section.title.en }}</h3>
+                    {% for entry in section.entries %}
+                        <article class="cv-publication-item">
+                            <span class="cv-publication-year">{{ entry.year }}</span>
+                            <div>
+                                <strong class="cv-publication-title">{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
+                                <p class="cv-publication-authors">{{ entry.authors.en | strip_newlines }}</p>
+                                <p>{{ entry.venue.en | strip_newlines }}</p>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </section>
+                {% endunless %}
+            {% endfor %}
+        </div>
+
+        <a class="cv-section-link" href="{{ '/publications.html' | relative_url }}">View publication filters and links</a>
+
+        <h2>Conference Presentations</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% if section.title.en == "Conference Presentations" %}
+                    <section class="cv-publication-section">
+                        {% for entry in section.entries %}
+                            <article class="cv-publication-item">
+                                <span class="cv-publication-year">{{ entry.year }}</span>
+                                <div>
+                                    <strong class="cv-publication-title">{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
+                                    <p>{{ entry.venue.en | strip_newlines }}</p>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <h2>Honors and Awards</h2>
+
+        <ul class="award-list compact-cv-list">
             <li>
                 <span class="award-year">2024</span>
                 <span class="award-title">Best Paper Presentation Award</span>
@@ -292,5 +262,34 @@ description: Research profile, selected background, technical skills, awards, an
                 <span class="award-organization">Ministry of the Interior and Safety</span>
             </li>
         </ul>
+
+        <h2>Scholarships</h2>
+
+        <ul class="award-list compact-cv-list">
+            <li>
+                <span class="award-year">2020</span>
+                <span class="award-title">Seah Haiam Scholarship</span>
+                <span class="award-organization">Seah Haiam Academic Scholarship Foundation</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hyeeum Scholarship</span>
+                <span class="award-organization">Chung-Ang University Department of Civil Engineering Alumni Association</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hwanju Scholarship</span>
+                <span class="award-organization">Chung-Ang University</span>
+            </li>
+            <li>
+                <span class="award-year">2018</span>
+                <span class="award-title">Academic Excellence Scholarship</span>
+                <span class="award-organization">Gwangju Seo-gu Scholarship Foundation</span>
+            </li>
+        </ul>
+
+        <h2>Teaching & Other Activities</h2>
+
+        <p class="cv-pending-note">Details will be added after confirmation.</p>
     </div>
 </div>
