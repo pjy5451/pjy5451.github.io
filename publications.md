@@ -32,8 +32,33 @@ description: Journal articles, preprints, conference presentations, patents, and
 <div class="pub-list">
 {% for item in section.entries %}
     <article class="pub-entry">
-        <div class="pub-year">{{ item.year }}</div>
-        <div class="pub-tags">{% for tag in item.tags %}<span>{{ tag }}</span>{% endfor %}</div>
+        <div class="pub-meta">
+            <div class="pub-year">{{ item.year }}</div>
+            <div class="pub-tags">{% for tag in item.tags limit:2 %}<span>{{ tag }}</span>{% endfor %}</div>
+            {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
+            {% if actions %}
+                {% capture action_markup %}
+                    {% for action in actions %}
+                        {% unless action.label == "Source Document" %}
+                            {% if action.href %}
+                                {% if action.href contains '://' %}
+                                    {% assign action_href = action.href %}
+                                {% else %}
+                                    {% assign action_href = action.href | relative_url %}
+                                {% endif %}
+                                <a href="{{ action_href }}">{{ action.label }}</a>
+                            {% else %}
+                                <span>{{ action.label }}</span>
+                            {% endif %}
+                        {% endunless %}
+                    {% endfor %}
+                {% endcapture %}
+                {% assign action_markup = action_markup | strip %}
+                {% if action_markup != "" %}
+                    <div class="pub-actions">{{ action_markup }}</div>
+                {% endif %}
+            {% endif %}
+        </div>
         <div class="pub-body">
             {% assign item_title = item.title[pub_lang] | default: item.title.en %}
             {% assign item_href = item.href[pub_lang] | default: item.href.en %}
@@ -49,23 +74,6 @@ description: Journal articles, preprints, conference presentations, patents, and
             {% endif %}
             <p class="pub-authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
             <p class="pub-venue">{{ item.venue[pub_lang] | default: item.venue.en }}</p>
-            {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
-            {% if actions %}
-            <div class="pub-actions">
-                {% for action in actions %}
-                    {% if action.href %}
-                        {% if action.href contains '://' %}
-                            {% assign action_href = action.href %}
-                        {% else %}
-                            {% assign action_href = action.href | relative_url %}
-                        {% endif %}
-                        <a href="{{ action_href }}">{{ action.label }}</a>
-                    {% else %}
-                        <span>{{ action.label }}</span>
-                    {% endif %}
-                {% endfor %}
-            </div>
-            {% endif %}
         </div>
     </article>
 {% endfor %}

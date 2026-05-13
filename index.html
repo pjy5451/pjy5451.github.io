@@ -15,7 +15,7 @@ description: Junyoung Park's research portfolio on data-driven infrastructure, s
             <h1>Junyoung Park</h1>
             <p class="hero-subtitle">M.S. in Civil Engineering</p>
             <p class="hero-summary">
-                I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.
+                I developed IoT sensor and cloud-based systems for structural monitoring and real-world data analysis. I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.
             </p>
             <p class="hero-summary">
                 My research interests include Structural Health Monitoring (SHM), WIM/OBM systems, smart IoT sensors, and AI-based data analysis. More recently, I have also been exploring structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.
@@ -26,32 +26,6 @@ description: Junyoung Park's research portfolio on data-driven infrastructure, s
                 <a class="secondary-action" href="{{ '/publications/' | relative_url }}">Publications</a>
             </div>
         </div>
-
-        <aside class="profile-card legacy-home-profile">
-            <div class="profile-card-top">
-                <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of {{ site.name }}" />
-            </div>
-            <div>
-                <div class="profile-card-heading">
-                    <h2>Junyoung Park</h2>
-                    <a class="cv-icon-link" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download" aria-label="Download CV">
-                        <svg viewBox="0 0 24 24" aria-hidden="true">
-                            <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"></path>
-                            <path d="M14 2v5h5"></path>
-                            <path d="M12 11v6"></path>
-                            <path d="m9 14 3 3 3-3"></path>
-                        </svg>
-                        <span>CV</span>
-                    </a>
-                </div>
-                <p>Researcher focused on field-deployable sensing systems for data-driven infrastructure.</p>
-            </div>
-            <ul class="quick-facts">
-                <li><span>Builds</span> Sensor units, DAQ workflows, cloud pipelines, and monitoring dashboards</li>
-                <li><span>Deploys</span> Bridge, vehicle, precast, and port monitoring systems in real field settings</li>
-                <li><span>Connects</span> Hardware, field data, publications, patents, and engineering decisions</li>
-            </ul>
-        </aside>
     </section>
 </header>
 
@@ -82,61 +56,94 @@ description: Junyoung Park's research portfolio on data-driven infrastructure, s
 
     <section class="section-band">
         <div class="section-heading">
-            <p class="eyebrow">Selected Work</p>
-            <h2>Field-tested systems</h2>
+            <p class="eyebrow">Education</p>
+            <h2>Academic background</h2>
         </div>
-        <div class="feature-grid">
-            <article class="feature-item field-feature">
-                <span class="feature-kicker">Bridge / Sensor-to-cloud</span>
-                <h3>Bridge Monitoring System</h3>
-                <p>Field-deployed bridge monitoring with stand-alone IoT sensors, cloud dashboards, and multimetric displacement estimation.</p>
-                <div class="feature-metrics">
-                    <span>Field installation</span>
-                    <span>Cloud dashboard</span>
-                    <span>Displacement estimation</span>
-                </div>
-                <div class="feature-links">
-                    <a href="{{ '/projects/bridge-monitoring/' | relative_url }}">Project</a>
-                    <a href="{{ '/field-work/#bridge-monitoring-field' | relative_url }}">Field work</a>
+        <div class="timeline home-cv-list">
+            <article class="timeline-item">
+                <div class="timeline-date">2022 - 2024</div>
+                <div class="timeline-content">
+                    <h3>MS in Structural Engineering</h3>
+                    <p>Chung-Ang University</p>
+                    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
+                    <p>Advisor: Jongwoong Park</p>
                 </div>
             </article>
-            <article class="feature-item field-feature">
-                <span class="feature-kicker">Vehicle / DAQ</span>
-                <h3>WIM / On-Board Monitoring</h3>
-                <p>High-speed vehicle load sensing, YOLO-based load segment detection, and dynamic truck-weight correction workflows.</p>
-                <div class="feature-metrics">
-                    <span>High-speed signals</span>
-                    <span>Load event detection</span>
-                    <span>Weight correction</span>
-                </div>
-                <div class="feature-links">
-                    <a href="{{ '/projects/weight-in-motion/' | relative_url }}">Project</a>
-                    <a href="{{ '/field-work/#vehicle-load-field' | relative_url }}">Field work</a>
+            <article class="timeline-item">
+                <div class="timeline-date">2017 - 2022</div>
+                <div class="timeline-content">
+                    <h3>BS in Civil Engineering and Mathematics (Double major)</h3>
+                    <p>Chung-Ang University</p>
                 </div>
             </article>
-            <article class="feature-item field-feature">
-                <span class="feature-kicker">Precast / Transport</span>
-                <h3>Portable Sensing for Precast</h3>
-                <p>Transport-stage monitoring for precast members using JANET sensors, Bluetooth/LTE gateways, and field validation data.</p>
-                <div class="feature-metrics">
-                    <span>Portable sensing</span>
-                    <span>Transport response</span>
-                    <span>Cloud alerts</span>
-                </div>
-                <div class="feature-links">
-                    <a href="{{ '/projects/portable-sensing/' | relative_url }}">Project</a>
-                    <a href="{{ '/field-work/#precast-transport-field' | relative_url }}">Field work</a>
-                </div>
-            </article>
-        </div>
-        <div class="home-project-strip" aria-label="Core project links">
-            <a href="{{ '/projects/onboard-monitoring/' | relative_url }}"><span>OBM</span><strong>On-Board Monitoring</strong></a>
-            <a href="{{ '/projects/weight-in-motion/' | relative_url }}"><span>WIM</span><strong>Load Segment Detection</strong></a>
-            <a href="{{ '/projects/concrete-crack-monitoring/' | relative_url }}"><span>Concrete</span><strong>Crack Trajectory Monitoring</strong></a>
-            <a href="{{ '/projects/bridge-monitoring/' | relative_url }}"><span>Bridge</span><strong>Displacement Estimation</strong></a>
-            <a href="{{ '/projects/quay-wall-monitoring/' | relative_url }}"><span>Port</span><strong>Quay Wall Events</strong></a>
-            <a href="{{ '/projects/portable-sensing/' | relative_url }}"><span>Precast</span><strong>Portable Sensing</strong></a>
         </div>
     </section>
 
+    <section class="section-band">
+        <div class="section-heading">
+            <p class="eyebrow">Work Experience</p>
+            <h2>Current role</h2>
+        </div>
+        <div class="timeline home-cv-list">
+            <article class="timeline-item">
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Researcher, UDNS</h3>
+                    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <section class="section-band">
+        <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Technical focus</h2>
+        </div>
+        <div class="skills-grid home-skill-list">
+            <section>
+                <h3>Programming</h3>
+                <div class="skill-tags">
+                    <span>Python</span>
+                    <span>MATLAB</span>
+                    <span>C</span>
+                    <span>JavaScript/Node.js</span>
+                    <span>PyTorch</span>
+                    <span>TensorFlow</span>
+                </div>
+            </section>
+            <section>
+                <h3>Systems</h3>
+                <div class="skill-tags">
+                    <span>IoT Sensors</span>
+                    <span>Wireless Sensing</span>
+                    <span>Cloud-Based Monitoring</span>
+                    <span>Field Testing</span>
+                </div>
+            </section>
+            <section>
+                <h3>Research</h3>
+                <div class="skill-tags">
+                    <span>Structural Health Monitoring</span>
+                    <span>WIM/OBM</span>
+                    <span>Sensor Data Analysis</span>
+                    <span>AI-Based Event Detection</span>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="section-band">
+        <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h2>Profiles and links</h2>
+        </div>
+        <ul class="home-contact-list">
+            <li><strong>E-mail</strong><a href="mailto:pjy5451@gmail.com">pjy5451@gmail.com</a></li>
+            <li><strong>Google Scholar</strong><a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Scholar profile</a></li>
+            <li><strong>ORCID</strong><a href="https://orcid.org/0009-0000-7454-2401">0009-0000-7454-2401</a></li>
+            <li><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/junyoung-park-450432282/">junyoung-park</a></li>
+            <li><strong>GitHub</strong><a href="https://github.com/pjy5451">pjy5451</a></li>
+        </ul>
+    </section>
 </main>
