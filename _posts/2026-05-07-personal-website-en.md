@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Reworking My Personal Website"
 date: 2026-05-07 00:00:00 +0900
 categories: notes
@@ -8,6 +8,10 @@ ko_url: /notes/2026/05/07/personal-website/
 note_category: Personal Log
 description: A first short note on restarting the long-postponed work of organizing my personal website.
 ---
+
+# Reworking My Personal Website
+
+<p class="note-date">May 7, 2026</p>
 
 Vibe coding has made maintaining a personal website feel much easier than before. Something I had only kept in the back of my mind finally became something I could actually start.
 

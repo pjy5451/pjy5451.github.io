@@ -1,0 +1,288 @@
+:root {
+  --text: #1f2933;
+  --muted: #667085;
+  --line: #d8dee6;
+  --link: #1d5f9f;
+  --link-hover: #0d3f6b;
+  --accent: #b44a2b;
+  --bg: #ffffff;
+  --soft: #f7f8fa;
+  --sidebar: 255px;
+  --gap: 48px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: var(--bg);
+  font-size: 16px;
+  line-height: 1.56;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 26px;
+  min-height: 54px;
+  padding: 0 24px;
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(6px);
+}
+
+.topbar__name {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.nav {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 0.98rem;
+}
+
+.nav a {
+  color: #3f4a56;
+}
+
+.site {
+  display: grid;
+  grid-template-columns: var(--sidebar) minmax(0, 820px);
+  gap: var(--gap);
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 44px 28px 56px;
+}
+
+.profile {
+  position: sticky;
+  top: 78px;
+  align-self: start;
+  padding: 0;
+  text-align: center;
+}
+
+.profile__photo {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 18px;
+}
+
+.profile__name {
+  margin: 0;
+  font-size: 1.55rem;
+  line-height: 1.2;
+}
+
+.profile__role,
+.profile__degree {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
+.profile__links {
+  display: grid;
+  gap: 5px;
+  margin: 20px 0 18px;
+  text-align: left;
+  padding-left: 48px;
+}
+
+.profile__links a {
+  color: var(--text);
+}
+
+.profile__cv {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.content {
+  min-width: 0;
+}
+
+.content > h1:first-child {
+  margin-top: 0;
+}
+
+h1 {
+  margin: 0 0 18px;
+  font-size: 2rem;
+  line-height: 1.25;
+}
+
+h2 {
+  margin: 34px 0 12px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.45rem;
+  line-height: 1.3;
+}
+
+h3 {
+  margin: 22px 0 8px;
+  font-size: 1.08rem;
+}
+
+p {
+  margin: 0 0 12px;
+}
+
+ul {
+  margin: 8px 0 16px;
+  padding-left: 20px;
+}
+
+li {
+  margin: 7px 0;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.intro {
+  font-size: 1.05rem;
+}
+
+.quick-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 16px 0 24px;
+}
+
+.quick-links a {
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.entry {
+  display: grid;
+  grid-template-columns: 130px minmax(0, 1fr);
+  gap: 10px 26px;
+  margin: 14px 0 22px;
+}
+
+.entry__date {
+  color: #00566e;
+  font-weight: 700;
+}
+
+.entry__body p:last-child,
+.entry__body ul:last-child {
+  margin-bottom: 0;
+}
+
+.pub {
+  margin: 14px 0 18px;
+}
+
+.pub__title {
+  display: block;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.pub__authors,
+.pub__venue,
+.pub__links {
+  margin: 2px 0;
+}
+
+.pub__venue {
+  color: var(--muted);
+}
+
+.pub__links a,
+.pub__links span {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 0.95rem;
+}
+
+.note-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+.note-list li {
+  margin: 12px 0;
+}
+
+.note-date {
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+@media (max-width: 860px) {
+  .topbar {
+    position: static;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+    padding: 12px 20px;
+  }
+
+  .nav {
+    justify-content: flex-start;
+    gap: 12px;
+  }
+
+  .site {
+    display: block;
+    padding: 28px 20px 44px;
+  }
+
+  .profile {
+    position: static;
+    margin: 0 0 34px;
+  }
+
+  .profile__links {
+    max-width: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 22px;
+  }
+
+  .entry {
+    display: block;
+  }
+
+  .entry__date {
+    margin-bottom: 4px;
+  }
+}

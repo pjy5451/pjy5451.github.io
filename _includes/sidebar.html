@@ -1,25 +1,16 @@
-{% include base_path %}
+<aside class="profile" aria-label="Profile">
+  <img class="profile__photo" src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+  <h1 class="profile__name">{{ site.author.name }}</h1>
+  <p class="profile__role">{{ site.author.role }}</p>
+  <p class="profile__degree">{{ site.author.degree }}</p>
 
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-  <div class="sidebar sticky">
-  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
-  {% if page.sidebar %}
-    {% for s in page.sidebar %}
-      {% if s.image %}
-        <img src=
-        {% if s.image contains "://" %}
-          "{{ s.image }}"
-        {% else %}
-          "{{ s.image | prepend: "/images/" | prepend: base_path }}"
-        {% endif %}
-        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-      {% endif %}
-      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
-      {% if s.text %}{{ s.text | markdownify }}{% endif %}
-    {% endfor %}
-    {% if page.sidebar.nav %}
-      {% include nav_list nav=page.sidebar.nav %}
-    {% endif %}
-  {% endif %}
+  <div class="profile__links">
+    <a href="mailto:{{ site.author.email }}">Email</a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    <a href="{{ site.author.orcid }}">ORCID</a>
+    <a href="{{ site.author.linkedin }}">LinkedIn</a>
+    <a href="{{ site.author.github }}">GitHub</a>
   </div>
-{% endif %}
+
+  <a class="profile__cv" href="{{ site.author.cv | relative_url }}">Download CV</a>
+</aside>

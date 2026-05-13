@@ -1,6 +1,8 @@
 # Junyoung Park Personal Website
 
-Source for <https://pjy5451.github.io>, a Jekyll-based research portfolio for Junyoung Park.
+Source for <https://pjy5451.github.io>.
+
+This branch is a fresh, minimal Jekyll site built around a fixed profile column and document-style CV pages. The site keeps the content lightweight and readable, with custom HTML/CSS instead of a large theme.
 
 ## Local Development
 
@@ -14,17 +16,12 @@ Build the static site:
 jekyll build
 ```
 
-## Content
+## Main Files
 
-- `index.html`: homepage
-- `about.md`: biography, education, experience, selected awards, and profile links
-- `projects.md`: project cards
-- `projects/`: project detail pages
-- `publications.md`: journal articles, preprints, and patents
-- `blog.md`: miscellaneous activities and notes
+- `_layouts/default.html`: shared page layout
+- `_includes/sidebar.html`: profile column
+- `assets/css/site.css`: site styling
+- `_pages/`: main pages
+- `_data/publications.yml`: publication data
+- `images/profile.png`: profile photo
 - `assets/files/Junyoung_Park_CV.pdf`: CV download
-- `sitemap.xml` and `robots.txt`: search indexing support
-
-## Notes
-
-The site uses custom CSS in `assets/css/main.scss`, including automatic dark mode via `prefers-color-scheme`.

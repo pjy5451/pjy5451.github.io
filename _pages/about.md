@@ -1,64 +1,60 @@
 ---
+layout: default
 permalink: /
-title: "Junyoung Park"
-author_profile: true
-redirect_from:
-  - /about/
-  - /about.html
+title: "About"
 ---
 
-I developed IoT sensor and cloud-based systems for structural monitoring and real-world data analysis. I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.
+# Junyoung Park
 
-My research interests include Structural Health Monitoring (SHM), WIM/OBM systems, smart IoT sensors, and AI-based data analysis. More recently, I have also been exploring structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.
+<p class="intro">I develop field-deployable sensing systems for structural monitoring, transportation monitoring, and infrastructure data analysis. My work connects IoT sensors, embedded measurement systems, cloud workflows, and engineering interpretation of real-world field data.</p>
 
-Research Interests
-======
+I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.
 
-- **Infrastructure Monitoring:** Structural Health Monitoring, bridge monitoring, WIM/OBM.
-- **Sensing Systems:** Smart IoT sensors, embedded systems, wireless sensing, and field deployment.
-- **Data & Physical Systems:** AI-based data analysis, structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.
+<div class="quick-links">
+  <a href="/cv/">CV</a>
+  <a href="/publications/">Publications</a>
+  <a href="/research/">Research</a>
+  <a href="/projects/">Projects</a>
+</div>
 
-Current Work
-======
+## Research
+
+- **Structural Health Monitoring:** bridge monitoring, long-term field measurements, displacement estimation, and response interpretation.
+- **Sensing Systems:** IoT sensing, wireless data acquisition, portable monitoring systems, embedded measurement logic, and field packaging.
+- **Data & AI:** WIM/OBM signal analysis, event detection, surrogate modeling, and AI-assisted interpretation of infrastructure data.
+
+## Education
+
+<div class="entry">
+  <div class="entry__date">2022 - 2024</div>
+  <div class="entry__body">
+    <p><strong>M.S. in Structural Engineering</strong></p>
+    <p>Chung-Ang University</p>
+    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
+    <p>Advisor: Jongwoong Park</p>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry__date">2017 - 2022</div>
+  <div class="entry__body">
+    <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong></p>
+    <p>Chung-Ang University</p>
+  </div>
+</div>
+
+## Work Experience
+
+<div class="entry">
+  <div class="entry__date">2024 - Present</div>
+  <div class="entry__body">
+    <p><strong>Researcher, UDNS</strong></p>
+    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
+  </div>
+</div>
+
+## Selected Work
 
 - **High-speed WIM and OBM systems:** DAQ development, high-speed load signals, load-event interval detection, and dynamic truck-weight correction.
-- **Field-deployable sensing systems:** IoT sensors, wireless sensing, embedded measurement logic, field packaging, installation, and data validation.
-- **Infrastructure data workflows:** Cloud upload, database storage, dashboard visualization, signal preprocessing, and engineering interpretation of field records.
-
-Education
-======
-
-- **M.S. in Structural Engineering**, Chung-Ang University, 2022-2024  
-  Thesis: *A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing*  
-  Advisor: Jongwoong Park
-
-- **B.S. in Civil Engineering and Mathematics (Double major)**, Chung-Ang University, 2017-2022
-
-Work Experience
-======
-
-- **Researcher, UDNS**, 2024-present  
-  I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.
-
-Skills
-======
-
-- **Programming:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
-- **Sensing and systems:** IoT sensors, wireless sensing, DAQ workflows, cloud-based monitoring, embedded systems, field testing.
-- **Research and analysis:** Structural Health Monitoring, WIM/OBM, sensor data analysis, AI-based event detection, displacement estimation, signal processing.
-
-Selected Project Areas
-======
-
-- **Bridge monitoring:** Long-term bridge sensing with strain, acceleration, displacement estimation, cloud dashboards, and field validation.
-- **Transportation monitoring:** High-speed WIM, OBM, freight-truck safety monitoring, and transportation-stage monitoring for prefabricated structures.
-- **Smart sensing:** Concrete crack trajectory sensing, QR-based lifecycle monitoring, low-power seismic sensing, and ruggedized port-structure monitoring.
-
-Contact
-======
-
-- **E-mail:** [pjy5451@gmail.com](mailto:pjy5451@gmail.com)
-- **Google Scholar:** [Junyoung Park](https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en)
-- **ORCID:** [0009-0000-7454-2401](https://orcid.org/0009-0000-7454-2401)
-- **LinkedIn:** [junyoung-park](https://www.linkedin.com/in/junyoung-park-450432282/)
-- **GitHub:** [pjy5451](https://github.com/pjy5451)
+- **Bridge monitoring systems:** synchronized strain/acceleration sensing, cloud upload, database storage, dashboard visualization, FFT analysis, and displacement estimation.
+- **Portable field sensing:** transportation-stage monitoring for precast members, port-structure event monitoring, and ruggedized multisensory deployment.

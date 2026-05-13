@@ -1,70 +1,23 @@
-locale: "en-US"
-site_theme: "default"
 title: "Junyoung Park"
-title_separator: "-"
-name: &name "Junyoung Park"
-description: &description "Researcher working on structural health monitoring, IoT sensing, WIM/OBM, and data-driven infrastructure monitoring."
+name: "Junyoung Park"
+description: "Researcher in structural monitoring, sensing systems, WIM/OBM, and applied AI."
 url: "https://pjy5451.github.io"
 baseurl: ""
 repository: "pjy5451/pjy5451.github.io"
+timezone: Asia/Seoul
+locale: "en-US"
 
 author:
-  avatar: "profile.png"
   name: "Junyoung Park"
-  bio: "Researcher, UDNS<br />M.S. in Civil Engineering"
-  location: "Seoul, Korea"
-  employer: "UDNS"
+  role: "Researcher, UDNS"
+  degree: "M.S. in Civil Engineering"
+  avatar: "/images/profile.png"
   email: "pjy5451@gmail.com"
   googlescholar: "https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en"
   orcid: "https://orcid.org/0009-0000-7454-2401"
-  github: "pjy5451"
-  linkedin: "junyoung-park-450432282"
-
-publication_category:
-  journal:
-    title: "Journal Articles"
-  preprint:
-    title: "Preprints"
-  conference:
-    title: "Conference Presentations"
-  patent:
-    title: "Patents"
-
-teaser:
-breadcrumbs: false
-words_per_minute: 160
-future: true
-read_more: "disabled"
-talkmap_link: false
-
-comments:
-  provider:
-
-atom_feed:
-  hide: true
-  path:
-
-google_site_verification:
-bing_site_verification:
-alexa_site_verification:
-yandex_site_verification:
-
-twitter:
-  username:
-facebook:
-  username:
-  app_id:
-  publisher:
-og_image: "/images/profile.png"
-og_description:
-social:
-  type: "Person"
-  name: "Junyoung Park"
-  links:
-    - "https://github.com/pjy5451"
-    - "https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en"
-    - "https://orcid.org/0009-0000-7454-2401"
-    - "https://www.linkedin.com/in/junyoung-park-450432282/"
+  github: "https://github.com/pjy5451"
+  linkedin: "https://www.linkedin.com/in/junyoung-park-450432282/"
+  cv: "/assets/files/Junyoung_Park_CV.pdf"
 
 analytics:
   provider: "google-analytics-4"
@@ -73,141 +26,24 @@ analytics:
 
 include:
   - _pages
-  - files
 
 exclude:
   - README.md
   - task.md
   - website_checklist.xlsx
   - website_checklist_backup.xlsx
-  - .tmp_academicpages_template
-  - .asset-cache
   - .bundle
   - .github
-  - .jekyll-assets-cache
   - .sass-cache
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
-  - CHANGELOG
-  - Capfile
-  - config
-  - Dockerfile
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - local
-  - log
   - node_modules
-  - package.json*
-  - Rakefile
-  - tmp
   - vendor
 
-keep_files:
-  - .git
-  - .svn
-
-encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
+permalink: /notes/:title/
 
 kramdown:
   input: GFM
   hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
-
-collections:
-  publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-  teaching:
-    output: true
-    permalink: /:collection/:path/
-
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: false
-      share: false
-      related: true
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comments: false
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comments: false
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: false
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: false
-      comments: false
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-permalink: /:categories/:title/
-timezone: Asia/Seoul
 
 plugins: []
-
-whitelist: []
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
