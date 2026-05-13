@@ -1,0 +1,11 @@
+---
+layout: archive
+permalink: /notes/
+title: "Notes"
+author_profile: true
+---
+
+{% assign english_posts = site.posts | where: "lang", "en" %}
+{% for post in english_posts %}
+  {% include archive-single.html %}
+{% endfor %}

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "개인 웹페이지를 다시 꾸미며"
 date: 2026-05-07 00:00:00 +0900
 categories: notes

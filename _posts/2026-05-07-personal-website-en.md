@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Reworking My Personal Website"
 date: 2026-05-07 00:00:00 +0900
 categories: notes
