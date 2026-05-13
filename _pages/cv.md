@@ -20,7 +20,10 @@ title: "CV"
     <p>Chung-Ang University</p>
     <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
     <p>Advisor: Jongwoong Park</p>
-    <p><strong>Selected coursework:</strong> Concrete Time-Dependent Behavior; Advanced Steel Structures; Structural Dynamics; Bridge Design Special Topics; Linear Control Systems; Sensor and Measurement Methods; Introduction to Machine Learning and Deep Learning; Computer Programming and AI Applications.</p>
+    <details class="coursework">
+      <summary>Selected coursework</summary>
+      <p>Concrete Time-Dependent Behavior; Advanced Steel Structures; Structural Dynamics; Bridge Design Special Topics; Linear Control Systems; Sensor and Measurement Methods; Introduction to Machine Learning and Deep Learning; Computer Programming and AI Applications.</p>
+    </details>
   </div>
 </div>
 
@@ -29,7 +32,10 @@ title: "CV"
   <div class="entry__body">
     <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong></p>
     <p>Chung-Ang University</p>
-    <p><strong>Selected coursework:</strong> Materials Mechanics; Materials Mechanics Lab; Open Channel Hydraulics; Soil Mechanics I-II; Soil Mechanics Lab I-II; Rock Mechanics; Surveying and Surveying Practice; Construction Planning and Execution; Structural Mechanics; Reinforced Concrete Engineering; Geotechnical Design; Civil Infrastructure Capstone Design; Calculus; Linear Algebra; Statistics; Numerical Analysis; Geometry; Differential Equations I-II; Differential Geometry I-II; Analysis I-II; Partial Differential Equations; Modern Algebra; Probability and Statistics; Python Basics and Machine Learning Lab; Basic Scientific Data Analysis.</p>
+    <details class="coursework">
+      <summary>Selected coursework</summary>
+      <p>Materials Mechanics; Materials Mechanics Lab; Open Channel Hydraulics; Soil Mechanics I-II; Soil Mechanics Lab I-II; Rock Mechanics; Surveying and Surveying Practice; Construction Planning and Execution; Structural Mechanics; Reinforced Concrete Engineering; Geotechnical Design; Civil Infrastructure Capstone Design; Calculus; Linear Algebra; Statistics; Numerical Analysis; Geometry; Differential Equations I-II; Differential Geometry I-II; Analysis I-II; Partial Differential Equations; Modern Algebra; Probability and Statistics; Python Basics and Machine Learning Lab; Basic Scientific Data Analysis.</p>
+    </details>
   </div>
 </div>
 
@@ -52,7 +58,6 @@ title: "CV"
   <div class="entry__body">
     <p><strong>Researcher, UDNS</strong></p>
     <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
-    <p>AI 기반 화물차 운송 안전 기술 분야에서 고속 WIM, OBM, 센서 시스템, 임베디드 기술, 데이터 분석 및 현장 적용 기술을 연구·개발하고 있습니다.</p>
   </div>
 </div>
 

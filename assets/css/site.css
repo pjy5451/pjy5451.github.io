@@ -83,6 +83,19 @@ a:hover {
 
 .nav a {
   color: var(--muted);
+  padding: 4px 0;
+  border-bottom: 2px solid transparent;
+}
+
+.nav a.is-active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+  font-weight: 700;
+}
+
+.nav a:hover {
+  color: var(--text);
+  text-decoration: none;
 }
 
 .theme-toggle {
@@ -260,6 +273,26 @@ strong {
 .entry__body p:last-child,
 .entry__body ul:last-child {
   margin-bottom: 0;
+}
+
+.coursework {
+  margin-top: 8px;
+}
+
+.coursework summary {
+  display: inline-block;
+  cursor: pointer;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.coursework summary:hover {
+  color: var(--link);
+}
+
+.coursework p {
+  margin: 8px 0 0;
+  color: var(--muted);
 }
 
 .pub {
