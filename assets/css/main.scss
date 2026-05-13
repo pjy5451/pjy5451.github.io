@@ -612,6 +612,8 @@ html[data-theme="dark"] .feature-metrics span {
 	width: 100%;
 	max-width: none;
 	margin: 0;
+	padding-top: 28px;
+	padding-bottom: 28px;
 	padding-right: 0;
 	padding-left: 0;
 }
@@ -623,6 +625,15 @@ html[data-theme="dark"] .feature-metrics span {
 .section-heading {
 	max-width: 700px;
 	margin-bottom: 30px;
+}
+
+.home-content-shell .section-heading {
+	margin-bottom: 16px;
+}
+
+.home-content-shell .section-heading h2 {
+	font-size: 28px;
+	line-height: 1.22;
 }
 
 .section-heading h2 {
@@ -3232,6 +3243,8 @@ html[data-theme="dark"] .course-tags span {
 
 	.home-content-shell > .section-band {
 		grid-column: auto;
+		padding-top: 28px;
+		padding-bottom: 28px;
 	}
 
 	.home-with-profile .site-profile-card {
