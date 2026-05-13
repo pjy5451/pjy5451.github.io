@@ -1389,27 +1389,28 @@ html[data-theme="dark"] .search-dialog {
 
 .cv-page-template .page-shell {
 	grid-template-columns: 230px minmax(0, 1fr);
-	max-width: 1120px;
+	max-width: 1080px;
+	gap: 40px;
 }
 
 .cv-page-template .page-shell > .post {
-	max-width: 980px;
+	max-width: 840px;
 }
 
 .cv-page-template .post-content {
-	font-size: 16px;
+	font-size: 15.5px;
 }
 
 .cv-page-template .post-content h2 {
-	margin: 30px 0 10px;
-	padding-bottom: 6px;
+	margin: 24px 0 8px;
+	padding-bottom: 5px;
 	border-bottom: 1px solid var(--line);
-	font-size: 26px;
-	line-height: 1.22;
+	font-size: 22px;
+	line-height: 1.2;
 }
 
 .cv-page-template .post-content h2:first-of-type {
-	margin-top: 16px;
+	margin-top: 10px;
 }
 
 .post-template .post-content {
@@ -1651,14 +1652,25 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .cv-heading {
-	margin: 0 0 22px;
-	text-align: center;
+	margin: 0 0 14px;
+	text-align: left;
 }
 
 .cv-heading .cv-download-button {
-	min-height: 52px;
-	padding: 0 26px;
-	font-size: 17px;
+	min-height: auto;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
+	font-size: 15px;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+}
+
+.cv-heading .cv-download-button:hover {
+	border-color: transparent;
+	background: transparent;
+	transform: none;
 }
 
 .cv-heading h1 {
@@ -1759,47 +1771,56 @@ html[data-theme="dark"] .search-dialog {
 
 .research-interest-list {
 	display: grid;
-	gap: 8px;
-	margin: 0 0 22px;
+	gap: 4px;
+	margin: 0 0 18px;
+	padding-left: 18px;
+	list-style: disc;
 }
 
 .research-interest-list section {
-	padding: 7px 0;
-	border-top: 1px solid var(--line);
+	display: list-item;
+	padding: 2px 0;
+	border-top: 0;
 }
 
 .research-interest-list h3 {
-	margin: 0 0 3px;
+	display: inline;
+	margin: 0;
 	color: var(--ink);
-	font-size: 16px;
+	font-size: 15.5px;
 	line-height: 1.3;
 }
 
+.research-interest-list h3::after {
+	content: ": ";
+}
+
 .research-interest-list p {
+	display: inline;
 	margin: 0;
 	color: var(--muted);
 	font-size: 14.5px;
-	line-height: 1.45;
+	line-height: 1.4;
 }
 
 .cv-publication-list {
 	display: grid;
-	gap: 12px;
+	gap: 8px;
 	margin-top: 4px;
 	padding: 0;
 }
 
 .cv-publication-section h3 {
-	margin: 0 0 6px;
+	margin: 0 0 4px;
 	color: var(--accent-strong);
-	font-size: 17px;
+	font-size: 16px;
 	line-height: 1.3;
 }
 
 .cv-publication-item {
 	display: list-item;
 	margin-left: 18px;
-	padding: 5px 0;
+	padding: 3px 0;
 	border-top: 0;
 	color: var(--accent-strong);
 }
@@ -1821,7 +1842,7 @@ html[data-theme="dark"] .search-dialog {
 .cv-publication-title {
 	display: block;
 	color: var(--ink);
-	font-size: 15px;
+	font-size: 14.5px;
 	line-height: 1.25;
 }
 
@@ -1841,8 +1862,8 @@ html[data-theme="dark"] .search-dialog {
 .cv-publication-item p {
 	margin: 0;
 	color: var(--muted);
-	font-size: 13.5px;
-	line-height: 1.3;
+	font-size: 13.25px;
+	line-height: 1.25;
 }
 
 .cv-publication-authors {
@@ -2932,15 +2953,15 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .cv-page-template .timeline {
-	margin-bottom: 22px;
+	margin: 2px 0 18px;
 	border-top: 0;
 }
 
 .cv-page-template .timeline-item {
 	position: relative;
 	grid-template-columns: 112px minmax(0, 1fr);
-	gap: 18px;
-	padding: 8px 0 8px 18px;
+	gap: 14px;
+	padding: 5px 0 5px 16px;
 	border-bottom: 0;
 }
 
@@ -2953,7 +2974,7 @@ html[data-theme="dark"] .field-gallery article:hover {
 .cv-page-template .timeline-item::before {
 	content: "";
 	position: absolute;
-	top: 17px;
+	top: 14px;
 	left: 2px;
 	width: 5px;
 	height: 5px;
@@ -2962,27 +2983,29 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .cv-page-template .timeline-content h3 {
-	font-size: 16.5px;
+	margin-bottom: 2px;
+	font-size: 15.5px;
 }
 
 .cv-page-template .timeline-content p {
-	margin-top: 2px;
-	line-height: 1.38;
+	margin-top: 1px;
+	font-size: 14px;
+	line-height: 1.34;
 }
 
 .coursework-toggle {
-	margin-top: 8px;
+	margin-top: 5px;
 }
 
 .coursework-toggle summary {
 	display: inline-flex;
 	align-items: center;
 	gap: 6px;
-	min-height: 26px;
-	padding: 0 10px;
-	border: 1px solid var(--line);
-	border-radius: 999px;
-	background: var(--button-bg);
+	min-height: auto;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
 	color: var(--accent-strong);
 	font-size: 12px;
 	font-weight: 800;
@@ -3003,8 +3026,7 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .coursework-toggle[open] summary {
-	border-color: rgba(31, 111, 120, .36);
-	background: rgba(31, 111, 120, .08);
+	background: transparent;
 }
 
 .coursework-toggle[open] summary::after {
@@ -3014,14 +3036,14 @@ html[data-theme="dark"] .field-gallery article:hover {
 .coursework-groups {
 	display: grid;
 	grid-template-columns: 1fr;
-	gap: 8px;
-	margin-top: 8px;
+	gap: 5px;
+	margin-top: 6px;
 }
 
 .coursework-groups section {
-	padding: 10px 12px;
-	border: 1px solid var(--line);
-	border-radius: 8px;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
 	background: transparent;
 }
 
@@ -3036,19 +3058,12 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .coursework-icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	flex: 0 0 auto;
-	width: 24px;
-	height: 24px;
-	border: 1px solid rgba(31, 111, 120, .28);
-	border-radius: 50%;
-	background: rgba(31, 111, 120, .08);
+	display: none;
+}
+
+.coursework-groups h4::before {
+	content: "- ";
 	color: var(--accent-strong);
-	font-size: 10px;
-	font-weight: 900;
-	letter-spacing: 0;
 }
 
 .coursework-groups p {
@@ -3059,28 +3074,35 @@ html[data-theme="dark"] .field-gallery article:hover {
 }
 
 .course-tags {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 6px;
-	margin-top: 8px;
+	display: block;
+	margin-top: 3px;
+	padding-left: 14px;
 }
 
 .course-tags span {
-	display: inline-flex;
+	display: inline;
 	max-width: 100%;
-	padding: 5px 8px;
-	border: 1px solid rgba(31, 111, 120, .16);
-	border-radius: 999px;
-	background: var(--wash);
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
 	color: var(--muted);
-	font-size: 12.5px;
+	font-size: 12.75px;
 	font-weight: 700;
-	line-height: 1.25;
+	line-height: 1.35;
+}
+
+.course-tags span::after {
+	content: ", ";
+}
+
+.course-tags span:last-child::after {
+	content: "";
 }
 
 html[data-theme="dark"] .coursework-toggle[open] summary {
-	border-color: rgba(121, 201, 208, .36);
-	background: rgba(121, 201, 208, .1);
+	border-color: transparent;
+	background: transparent;
 }
 
 html[data-theme="dark"] .coursework-icon {
@@ -3089,29 +3111,25 @@ html[data-theme="dark"] .coursework-icon {
 }
 
 html[data-theme="dark"] .course-tags span {
-	border-color: rgba(121, 201, 208, .18);
-	background: rgba(255, 255, 255, .03);
+	border-color: transparent;
+	background: transparent;
 }
 
 .award-list {
-	display: grid;
-	gap: 0;
-	margin: 14px 0 30px;
-	padding: 0;
-	list-style: none;
-	border-top: 1px solid var(--line);
+	display: block;
+	margin: 6px 0 20px;
+	padding-left: 18px;
+	list-style: disc;
+	border-top: 0;
 }
 
 .award-list li {
-	display: grid;
-	grid-template-columns: 62px minmax(220px, .95fr) minmax(220px, 1fr);
-	column-gap: 18px;
-	row-gap: 4px;
-	padding: 9px 0;
-	border-bottom: 1px solid var(--line);
+	display: list-item;
+	padding: 3px 0;
+	border-bottom: 0;
 	color: var(--muted);
 	font-size: 14px;
-	line-height: 1.45;
+	line-height: 1.38;
 }
 
 .award-year {
@@ -3119,9 +3137,21 @@ html[data-theme="dark"] .course-tags span {
 	font-weight: 700;
 }
 
+.award-year::after {
+	content: " - ";
+	color: var(--muted);
+	font-weight: 400;
+}
+
 .award-title {
 	color: var(--ink);
-	font-weight: 600;
+	font-weight: 700;
+}
+
+.award-title::after {
+	content: ", ";
+	color: var(--muted);
+	font-weight: 400;
 }
 
 .award-organization {
@@ -3129,44 +3159,55 @@ html[data-theme="dark"] .course-tags span {
 }
 
 .skills-grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 0;
-	margin: 14px 0 30px;
-	border-top: 1px solid var(--line);
+	display: block;
+	margin: 6px 0 20px;
+	padding-left: 18px;
+	border-top: 0;
+	list-style: disc;
 }
 
 .skills-grid section {
-	padding: 10px 0;
+	display: list-item;
+	padding: 3px 0;
 	border-top: 0;
-	border-bottom: 1px solid var(--line);
+	border-bottom: 0;
 }
 
 .skills-grid h3 {
-	margin: 0 0 8px;
+	display: inline;
+	margin: 0;
 	color: var(--ink);
-	font-size: 16px;
+	font-size: 14.5px;
 	line-height: 1.35;
 }
 
+.skills-grid h3::after {
+	content: ": ";
+}
+
 .skill-tags {
-	display: flex;
-	flex-wrap: wrap;
-	gap: 8px;
+	display: inline;
 }
 
 .skill-tags span {
-	display: inline-flex;
-	align-items: center;
-	min-height: 28px;
-	padding: 0 10px;
-	border: 1px solid var(--line);
-	border-radius: 999px;
-	background: var(--button-bg);
+	display: inline;
+	min-height: auto;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	background: transparent;
 	color: var(--muted);
-	font-size: 13.5px;
+	font-size: 14px;
 	font-weight: 700;
-	line-height: 1.2;
+	line-height: 1.35;
+}
+
+.skill-tags span::after {
+	content: ", ";
+}
+
+.skill-tags span:last-child::after {
+	content: "";
 }
 
 .archive-list {
