@@ -7,23 +7,30 @@ author_profile: true
 
 My work focuses on field-deployable sensing systems for data-driven infrastructure. I connect sensors, embedded systems, cloud workflows, and structural engineering interpretation so that field data can support monitoring and decision making.
 
-Infrastructure Monitoring
+Structural and Infrastructure Monitoring
 ======
 
-- Bridge monitoring with long-term field measurements.
-- Displacement estimation and response interpretation using sensor data.
-- Structural Health Monitoring workflows for real infrastructure systems.
+- **Bridge monitoring with long-term field measurements:** IoT strain/acceleration sensing, field installation, cloud upload, and dashboard-based data review.
+- **Displacement estimation and response interpretation:** Multimetric data fusion, vibration analysis, and reference-free displacement estimation for bridge monitoring.
+- **Lifecycle-oriented monitoring:** QR-based data acquisition, low-power sensing, cloud reporting, and bridge maintenance records.
 
 Transportation Monitoring
 ======
 
-- High-speed WIM system development.
-- OBM (On-Board Mass) system development.
-- Freight train monitoring and transportation-stage monitoring of prefabricated structures.
+- **High-speed WIM:** DAQ design, 50 kHz-class signal acquisition, filtering, downsampling, and load-event interval detection.
+- **OBM systems:** Vehicle-state sensing, dynamic operating-weight correction, and field validation under real driving conditions.
+- **Freight and prefabricated structure monitoring:** Transportation-stage sensing for freight safety and precast member response during lifting, loading, driving, and installation.
 
 Smart Sensing Systems
 ======
 
-- Smart concrete sensing systems.
-- Seismic sensing systems.
-- Portable IoT sensing and cloud-based monitoring workflows.
+- **Smart concrete sensing:** Crack trajectory sensing and long-term measurement-history visualization.
+- **Seismic sensing:** Low-cost IoT earthquake sensing using STA/LTA triggering, time/frequency-domain classification, and BLE notification.
+- **Ruggedized monitoring:** Waterproof sensor packaging, solar/self-powered operation concepts, LTE-M/MQTT-style cloud communication, and event-triggered monitoring.
+
+Applied AI and Data Analysis
+======
+
+- YOLO-based automatic load segment detection for high-speed WIM systems.
+- AI-assisted event recognition for quay wall and port-structure monitoring.
+- Sensor data preprocessing, event labeling, dashboard visualization, and engineering interpretation of field data.

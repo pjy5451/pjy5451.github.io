@@ -18,6 +18,13 @@ Research Interests
 - **Sensing Systems:** Smart IoT sensors, embedded systems, wireless sensing, and field deployment.
 - **Data & Physical Systems:** AI-based data analysis, structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.
 
+Current Work
+======
+
+- **High-speed WIM and OBM systems:** DAQ development, high-speed load signals, load-event interval detection, and dynamic truck-weight correction.
+- **Field-deployable sensing systems:** IoT sensors, wireless sensing, embedded measurement logic, field packaging, installation, and data validation.
+- **Infrastructure data workflows:** Cloud upload, database storage, dashboard visualization, signal preprocessing, and engineering interpretation of field records.
+
 Education
 ======
 
@@ -37,8 +44,15 @@ Skills
 ======
 
 - **Programming:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
-- **Systems:** IoT sensors, wireless sensing, cloud-based monitoring, field testing.
-- **Research:** Structural Health Monitoring, WIM/OBM, sensor data analysis, AI-based event detection.
+- **Sensing and systems:** IoT sensors, wireless sensing, DAQ workflows, cloud-based monitoring, embedded systems, field testing.
+- **Research and analysis:** Structural Health Monitoring, WIM/OBM, sensor data analysis, AI-based event detection, displacement estimation, signal processing.
+
+Selected Project Areas
+======
+
+- **Bridge monitoring:** Long-term bridge sensing with strain, acceleration, displacement estimation, cloud dashboards, and field validation.
+- **Transportation monitoring:** High-speed WIM, OBM, freight-truck safety monitoring, and transportation-stage monitoring for prefabricated structures.
+- **Smart sensing:** Concrete crack trajectory sensing, QR-based lifecycle monitoring, low-power seismic sensing, and ruggedized port-structure monitoring.
 
 Contact
 ======
