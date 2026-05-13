@@ -13,6 +13,7 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
         <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">
             <span>CV 다운로드</span>
         </a>
+        <p class="cv-updated">Last updated: May 2026</p>
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="박준영 프로필 사진" />
         <h2>Junyoung Park</h2>
         <p class="bio-role">Researcher, UDNS<br />M.S. in Civil Engineering</p>
@@ -54,7 +55,8 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                 <div class="timeline-content">
                     <h3>구조공학 석사</h3>
                     <p>중앙대학교</p>
-                    <p>학위논문: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> (지도교수: 박종웅 교수).</p>
+                    <p>학위논문: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
+                    <p>지도교수: 박종웅 교수</p>
                     <details class="coursework-toggle">
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
@@ -147,10 +149,11 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             </article>
         </div>
 
-        <h2>논문 및 특허</h2>
+        <h2>논문</h2>
 
         <div class="cv-publication-list">
             {% for section in site.data.publications.sections %}
+                {% unless section.title.en == "Patents" %}
                 <section class="cv-publication-section">
                     <h3>{{ section.title.ko }}</h3>
                     {% for entry in section.entries %}
@@ -158,16 +161,37 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                             <span class="cv-publication-year">{{ entry.year }}</span>
                             <div>
                                 <strong>{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
-                                <p>{{ entry.authors.ko }}</p>
+                                <p class="cv-publication-authors">{{ entry.authors.ko }}</p>
                                 <p>{{ entry.venue.ko }}</p>
                             </div>
                         </article>
                     {% endfor %}
                 </section>
+                {% endunless %}
             {% endfor %}
         </div>
 
         <a class="cv-section-link" href="{{ '/ko/publications.html' | relative_url }}">필터와 링크가 있는 전체 목록 보기</a>
+
+        <h2>특허</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% if section.title.en == "Patents" %}
+                    <section class="cv-publication-section">
+                        {% for entry in section.entries %}
+                            <article class="cv-publication-item">
+                                <span class="cv-publication-year">{{ entry.year }}</span>
+                                <div>
+                                    <strong>{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
+                                    <p>{{ entry.venue.ko }}</p>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </div>
 
         <h2>기술 역량</h2>
 

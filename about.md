@@ -13,6 +13,7 @@ description: Research profile, selected background, technical skills, awards, an
         <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">
             <span>Download CV</span>
         </a>
+        <p class="cv-updated">Last updated: May 2026</p>
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of Junyoung Park" />
         <h2>Junyoung Park</h2>
         <p class="bio-role">Researcher, UDNS<br />M.S. in Civil Engineering</p>
@@ -54,7 +55,8 @@ description: Research profile, selected background, technical skills, awards, an
                 <div class="timeline-content">
                     <h3>MS in Structural Engineering</h3>
                     <p>Chung-Ang University</p>
-                    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> (advisor: Jongwoong Park).</p>
+                    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
+                    <p>Advisor: Jongwoong Park</p>
                     <details class="coursework-toggle">
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
@@ -147,10 +149,11 @@ description: Research profile, selected background, technical skills, awards, an
             </article>
         </div>
 
-        <h2>Publications & Patents</h2>
+        <h2>Publications</h2>
 
         <div class="cv-publication-list">
             {% for section in site.data.publications.sections %}
+                {% unless section.title.en == "Patents" %}
                 <section class="cv-publication-section">
                     <h3>{{ section.title.en }}</h3>
                     {% for entry in section.entries %}
@@ -158,16 +161,37 @@ description: Research profile, selected background, technical skills, awards, an
                             <span class="cv-publication-year">{{ entry.year }}</span>
                             <div>
                                 <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                <p>{{ entry.authors.en }}</p>
+                                <p class="cv-publication-authors">{{ entry.authors.en }}</p>
                                 <p>{{ entry.venue.en }}</p>
                             </div>
                         </article>
                     {% endfor %}
                 </section>
+                {% endunless %}
             {% endfor %}
         </div>
 
         <a class="cv-section-link" href="{{ '/publications.html' | relative_url }}">View publication filters and links</a>
+
+        <h2>Patents</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                {% if section.title.en == "Patents" %}
+                    <section class="cv-publication-section">
+                        {% for entry in section.entries %}
+                            <article class="cv-publication-item">
+                                <span class="cv-publication-year">{{ entry.year }}</span>
+                                <div>
+                                    <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
+                                    <p>{{ entry.venue.en }}</p>
+                                </div>
+                            </article>
+                        {% endfor %}
+                    </section>
+                {% endif %}
+            {% endfor %}
+        </div>
 
         <h2>Technical Skills</h2>
 
