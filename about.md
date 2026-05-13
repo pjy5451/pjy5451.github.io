@@ -10,10 +10,6 @@ description: Research profile, selected background, technical skills, awards, an
 
 <div class="bio-layout">
     <aside class="bio-sidebar">
-        <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">
-            <span>Download CV</span>
-        </a>
-        <p class="cv-updated">Last updated: May 2026</p>
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of Junyoung Park" />
         <h2>Junyoung Park</h2>
         <p class="bio-role">Researcher, UDNS<br />M.S. in Civil Engineering</p>
@@ -28,6 +24,12 @@ description: Research profile, selected background, technical skills, awards, an
     </aside>
 
     <div class="bio-main">
+        <section class="cv-heading">
+            <h1>CV</h1>
+            <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">Download CV</a>
+            <p class="cv-updated">Last updated: May 2026</p>
+        </section>
+
         <section class="research-statement">
             <h2>Profile</h2>
             <p>I developed IoT sensor and cloud-based systems for structural monitoring and real-world data analysis. I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.</p>
@@ -137,6 +139,10 @@ description: Research profile, selected background, technical skills, awards, an
             </article>
         </div>
 
+        <h2>Scholarships</h2>
+
+        <p class="cv-pending-note">Scholarship details will be added after confirmation.</p>
+
         <h2>Experience</h2>
 
         <div class="timeline">
@@ -144,7 +150,7 @@ description: Research profile, selected background, technical skills, awards, an
                 <div class="timeline-date">2024 - Present</div>
                 <div class="timeline-content">
                     <h3>Researcher, UDNS</h3>
-                    <p>Working on research and applied development related to sensing, infrastructure monitoring, data analysis, and field-oriented engineering systems.</p>
+                    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
                 </div>
             </article>
         </div>
@@ -161,8 +167,8 @@ description: Research profile, selected background, technical skills, awards, an
                             <span class="cv-publication-year">{{ entry.year }}</span>
                             <div>
                                 <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                <p class="cv-publication-authors">{{ entry.authors.en }}</p>
-                                <p>{{ entry.venue.en }}</p>
+                                <p class="cv-publication-authors">{{ entry.authors.en | strip_newlines }}</p>
+                                <p>{{ entry.venue.en | strip_newlines }}</p>
                             </div>
                         </article>
                     {% endfor %}
@@ -184,7 +190,7 @@ description: Research profile, selected background, technical skills, awards, an
                                 <span class="cv-publication-year">{{ entry.year }}</span>
                                 <div>
                                     <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
-                                    <p>{{ entry.venue.en }}</p>
+                                    <p>{{ entry.venue.en | strip_newlines }}</p>
                                 </div>
                             </article>
                         {% endfor %}

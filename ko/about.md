@@ -10,10 +10,6 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
 
 <div class="bio-layout">
     <aside class="bio-sidebar">
-        <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">
-            <span>CV 다운로드</span>
-        </a>
-        <p class="cv-updated">Last updated: May 2026</p>
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="박준영 프로필 사진" />
         <h2>Junyoung Park</h2>
         <p class="bio-role">Researcher, UDNS<br />M.S. in Civil Engineering</p>
@@ -28,6 +24,12 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
     </aside>
 
     <div class="bio-main">
+        <section class="cv-heading">
+            <h1>CV</h1>
+            <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">CV 다운로드</a>
+            <p class="cv-updated">Last updated: May 2026</p>
+        </section>
+
         <section class="research-statement">
             <h2>프로필</h2>
             <p>저는 IoT 센서 및 클라우드 기반 시스템을 개발하여 구조물의 상태를 모니터링하고 실제 현장 데이터를 분석하는 연구를 수행해 왔습니다. 성산대교, 서소문고가, 팔당육교 등 실제 구조물에 시스템을 설치하고 장기간 운영한 경험이 있습니다. 현재는 WIM(Weigh-in-Motion) 및 OBM(On-Board Mass) 시스템을 중심으로 지능형 교통 및 인프라 모니터링 연구를 수행하고 있습니다.</p>
@@ -137,6 +139,10 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             </article>
         </div>
 
+        <h2>장학</h2>
+
+        <p class="cv-pending-note">장학 내역을 확인한 뒤 추가할 예정입니다.</p>
+
         <h2>경력</h2>
 
         <div class="timeline">
@@ -144,7 +150,7 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                 <div class="timeline-date">2024 - Present</div>
                 <div class="timeline-content">
                     <h3>연구원, UDNS</h3>
-                    <p>센싱, 인프라 모니터링, 데이터 분석, 현장 적용형 엔지니어링 시스템과 관련된 연구 및 개발을 수행하고 있습니다.</p>
+                    <p>AI 기반 화물차 운송 안전 기술 분야에서 고속 WIM, OBM, 센서 시스템, 임베디드 기술, 데이터 분석 및 현장 적용 기술을 연구·개발하고 있습니다.</p>
                 </div>
             </article>
         </div>
@@ -161,8 +167,8 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                             <span class="cv-publication-year">{{ entry.year }}</span>
                             <div>
                                 <strong>{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
-                                <p class="cv-publication-authors">{{ entry.authors.ko }}</p>
-                                <p>{{ entry.venue.ko }}</p>
+                                <p class="cv-publication-authors">{{ entry.authors.ko | strip_newlines }}</p>
+                                <p>{{ entry.venue.ko | strip_newlines }}</p>
                             </div>
                         </article>
                     {% endfor %}
@@ -184,7 +190,7 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                                 <span class="cv-publication-year">{{ entry.year }}</span>
                                 <div>
                                     <strong>{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
-                                    <p>{{ entry.venue.ko }}</p>
+                                    <p>{{ entry.venue.ko | strip_newlines }}</p>
                                 </div>
                             </article>
                         {% endfor %}
