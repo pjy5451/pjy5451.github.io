@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 소개
+title: CV
 no_site_suffix: true
 body_class: wide-page-template
 lang: ko
@@ -10,20 +10,13 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
 
 <div class="bio-layout">
     <aside class="bio-sidebar">
+        <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">
+            <span>CV 다운로드</span>
+        </a>
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="박준영 프로필 사진" />
-        <div class="bio-name-row">
-            <h2>Junyoung Park</h2>
-            <a class="cv-icon-link" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download" aria-label="Download CV">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"></path>
-                    <path d="M14 2v5h5"></path>
-                    <path d="M12 11v6"></path>
-                    <path d="m9 14 3 3 3-3"></path>
-                </svg>
-                <span>이력서</span>
-            </a>
-        </div>
-        <p>UDNS 연구원. 현장 센싱 시스템, 구조물 모니터링, 데이터 기반 인프라 기술을 연구하고 개발합니다.</p>
+        <h2>Junyoung Park</h2>
+        <p class="bio-role">Researcher, UDNS<br />M.S. in Civil Engineering</p>
+        <p>구조물 모니터링, IoT 센싱, WIM/OBM, 현장형 인프라 데이터 시스템을 다룹니다.</p>
         <div class="bio-links">
             <a href="mailto:pjy5451@gmail.com">E-mail</a>
             <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
@@ -35,29 +28,22 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
 
     <div class="bio-main">
         <section class="research-statement">
+            <h2>프로필</h2>
             <p>저는 IoT 센서 및 클라우드 기반 시스템을 개발하여 구조물의 상태를 모니터링하고 실제 현장 데이터를 분석하는 연구를 수행해 왔습니다. 성산대교, 서소문고가, 팔당육교 등 실제 구조물에 시스템을 설치하고 장기간 운영한 경험이 있습니다. 현재는 WIM(Weigh-in-Motion) 및 OBM(On-Board Mass) 시스템을 중심으로 지능형 교통 및 인프라 모니터링 연구를 수행하고 있습니다.</p>
             <p>주요 관심 분야는 Structural Health Monitoring (SHM), WIM/OBM 시스템, 스마트 IoT 센서, AI 기반 데이터 분석이며, 최근에는 구조동역학, 구조신뢰성, 우주항공, 그리고 피지컬 AI 분야에도 관심을 가지고 있습니다.</p>
         </section>
 
-        <h2>연구 주제</h2>
+        <h2>연구 분야</h2>
 
-        <div class="theme-grid">
-            <section>
-                <h3>교량 모니터링</h3>
-                <p>장기 현장 계측, 재하시험, 변위 추정, 클라우드 기반 SHM 워크플로를 다룹니다.</p>
-            </section>
-            <section>
-                <h3>WIM / OBM</h3>
-                <p>차량 하중 센싱, 하중 이벤트 탐지, 동적 중량 보정, 교량 내하력 평가를 연결합니다.</p>
-            </section>
-            <section>
-                <h3>스마트 IoT 센서</h3>
-                <p>저전력 센싱 하드웨어, 무선 데이터 수집, 임베디드 계측 로직, 현장 적용형 패키징을 다룹니다.</p>
-            </section>
-            <section>
-                <h3>물리 시스템 및 AI</h3>
-                <p>구조동역학, 구조신뢰성, 우주항공, 피지컬 AI 등 물리 시스템을 위한 분석 방법에 관심을 두고 있습니다.</p>
-            </section>
+        <div class="cv-chip-list">
+            <span>Bridge Monitoring</span>
+            <span>WIM / OBM</span>
+            <span>Smart IoT Sensors</span>
+            <span>AI-Based Data Analysis</span>
+            <span>Structural Dynamics</span>
+            <span>Structural Reliability</span>
+            <span>Aerospace Engineering</span>
+            <span>Physical AI</span>
         </div>
 
         <h2>학력</h2>
@@ -160,6 +146,28 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                 </div>
             </article>
         </div>
+
+        <h2>논문 및 특허</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                <section class="cv-publication-section">
+                    <h3>{{ section.title.ko }}</h3>
+                    {% for entry in section.entries %}
+                        <article class="cv-publication-item">
+                            <span class="cv-publication-year">{{ entry.year }}</span>
+                            <div>
+                                <strong>{% if entry.href.ko %}<a href="{{ entry.href.ko }}">{{ entry.title.ko }}</a>{% else %}{{ entry.title.ko }}{% endif %}</strong>
+                                <p>{{ entry.authors.ko }}</p>
+                                <p>{{ entry.venue.ko }}</p>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </section>
+            {% endfor %}
+        </div>
+
+        <a class="cv-section-link" href="{{ '/ko/publications.html' | relative_url }}">필터와 링크가 있는 전체 목록 보기</a>
 
         <h2>기술 역량</h2>
 

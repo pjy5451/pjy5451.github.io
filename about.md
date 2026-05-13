@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: CV
 no_site_suffix: true
 body_class: wide-page-template
 lang: en
@@ -10,20 +10,13 @@ description: Research profile, selected background, technical skills, awards, an
 
 <div class="bio-layout">
     <aside class="bio-sidebar">
+        <a class="cv-download-button" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download">
+            <span>Download CV</span>
+        </a>
         <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of Junyoung Park" />
-        <div class="bio-name-row">
-            <h2>Junyoung Park</h2>
-            <a class="cv-icon-link" href="{{ '/assets/files/Junyoung_Park_CV.pdf' | relative_url }}" data-analytics-event="cv_download" aria-label="Download CV">
-                <svg viewBox="0 0 24 24" aria-hidden="true">
-                    <path d="M14 2H7a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7z"></path>
-                    <path d="M14 2v5h5"></path>
-                    <path d="M12 11v6"></path>
-                    <path d="m9 14 3 3 3-3"></path>
-                </svg>
-                <span>CV</span>
-            </a>
-        </div>
-        <p>Researcher in field sensing systems, structural monitoring, and data-driven infrastructure.</p>
+        <h2>Junyoung Park</h2>
+        <p class="bio-role">Researcher, UDNS<br />M.S. in Civil Engineering</p>
+        <p>Structural monitoring, IoT sensing, WIM/OBM, and field-oriented infrastructure data systems.</p>
         <div class="bio-links">
             <a href="mailto:pjy5451@gmail.com">E-mail</a>
             <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
@@ -35,29 +28,22 @@ description: Research profile, selected background, technical skills, awards, an
 
     <div class="bio-main">
         <section class="research-statement">
+            <h2>Profile</h2>
             <p>I developed IoT sensor and cloud-based systems for structural monitoring and real-world data analysis. I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.</p>
             <p>My research interests include Structural Health Monitoring (SHM), WIM/OBM systems, smart IoT sensors, and AI-based data analysis. More recently, I have also been exploring structural dynamics, structural reliability, aerospace engineering, and AI for physical systems.</p>
         </section>
 
-        <h2>Research Themes</h2>
+        <h2>Research Areas</h2>
 
-        <div class="theme-grid">
-            <section>
-                <h3>Bridge Monitoring</h3>
-                <p>Long-term field monitoring, load testing, displacement estimation, and cloud-based SHM workflows.</p>
-            </section>
-            <section>
-                <h3>WIM / OBM</h3>
-                <p>Vehicle load sensing, load-event detection, dynamic weight correction, and bridge load assessment.</p>
-            </section>
-            <section>
-                <h3>Smart IoT Sensors</h3>
-                <p>Low-power sensing hardware, wireless acquisition, embedded measurement logic, and field-ready packaging.</p>
-            </section>
-            <section>
-                <h3>Physical Systems & AI</h3>
-                <p>Structural dynamics, reliability, aerospace engineering, and AI methods for physical systems.</p>
-            </section>
+        <div class="cv-chip-list">
+            <span>Bridge Monitoring</span>
+            <span>WIM / OBM</span>
+            <span>Smart IoT Sensors</span>
+            <span>AI-Based Data Analysis</span>
+            <span>Structural Dynamics</span>
+            <span>Structural Reliability</span>
+            <span>Aerospace Engineering</span>
+            <span>Physical AI</span>
         </div>
 
         <h2>Education</h2>
@@ -160,6 +146,28 @@ description: Research profile, selected background, technical skills, awards, an
                 </div>
             </article>
         </div>
+
+        <h2>Publications & Patents</h2>
+
+        <div class="cv-publication-list">
+            {% for section in site.data.publications.sections %}
+                <section class="cv-publication-section">
+                    <h3>{{ section.title.en }}</h3>
+                    {% for entry in section.entries %}
+                        <article class="cv-publication-item">
+                            <span class="cv-publication-year">{{ entry.year }}</span>
+                            <div>
+                                <strong>{% if entry.href.en %}<a href="{{ entry.href.en }}">{{ entry.title.en }}</a>{% else %}{{ entry.title.en }}{% endif %}</strong>
+                                <p>{{ entry.authors.en }}</p>
+                                <p>{{ entry.venue.en }}</p>
+                            </div>
+                        </article>
+                    {% endfor %}
+                </section>
+            {% endfor %}
+        </div>
+
+        <a class="cv-section-link" href="{{ '/publications.html' | relative_url }}">View publication filters and links</a>
 
         <h2>Technical Skills</h2>
 
