@@ -94,6 +94,9 @@ html {
 }
 
 body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 	color: var(--ink);
 	background: var(--paper);
 	font-family: "Pretendard Variable", Pretendard, "Noto Sans KR", "Apple SD Gothic Neo", "Open Sans", Arial, sans-serif;
@@ -584,6 +587,7 @@ html[data-theme="dark"] .feature-metrics span {
 }
 
 .profile-main {
+	flex: 1 0 auto;
 	background: var(--paper);
 }
 
@@ -1183,6 +1187,7 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .site-footer {
+	margin-top: auto;
 	border-top: 1px solid var(--line);
 	background: var(--wash);
 }
@@ -1285,12 +1290,14 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .post-template .content {
+	flex: 1 0 auto;
 	max-width: 1040px;
 	margin: 0 auto;
 	padding: 0 28px;
 }
 
 .page-template .content {
+	flex: 1 0 auto;
 	max-width: min(1220px, calc(100vw - 32px));
 	padding-top: 28px;
 	padding-right: 16px;
