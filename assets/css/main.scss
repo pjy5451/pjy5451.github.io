@@ -2062,6 +2062,47 @@ html[data-theme="dark"] .pub-filter-bar button.is-active {
 	padding-bottom: 15px;
 }
 
+.project-category-list {
+	display: grid;
+	gap: 34px;
+	margin: 30px 0 18px;
+}
+
+.project-category {
+	padding-top: 18px;
+	border-top: 1px solid var(--line);
+}
+
+.project-category-heading {
+	display: grid;
+	grid-template-columns: 42px minmax(0, 1fr);
+	gap: 14px;
+	align-items: start;
+	margin: 0 0 16px;
+}
+
+.project-category-heading > span {
+	color: var(--accent-strong);
+	font-size: 14px;
+	font-weight: 800;
+	line-height: 1.35;
+}
+
+.project-category-heading h2 {
+	margin: 0 0 5px;
+	color: var(--ink);
+	font-size: 22px;
+	line-height: 1.25;
+}
+
+.project-category-heading p {
+	max-width: 760px;
+	margin: 0;
+	color: var(--muted);
+	font-size: 14.5px;
+	line-height: 1.55;
+}
+
 .project-grid {
 	display: grid;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -2069,6 +2110,12 @@ html[data-theme="dark"] .pub-filter-bar button.is-active {
 	width: min(1360px, calc(100vw - 32px));
 	margin-left: 50%;
 	transform: translateX(-50%);
+}
+
+.project-category .project-grid {
+	width: auto;
+	margin: 0;
+	transform: none;
 }
 
 .project-card {
@@ -3188,6 +3235,11 @@ html[data-theme="dark"] .course-tags span {
 		width: auto;
 		margin-left: 0;
 		transform: none;
+	}
+
+	.project-category-heading {
+		grid-template-columns: 1fr;
+		gap: 4px;
 	}
 
 	.field-gallery,
