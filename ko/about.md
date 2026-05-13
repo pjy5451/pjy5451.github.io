@@ -66,9 +66,9 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             <article class="timeline-item">
                 <div class="timeline-date">2022 - 2024</div>
                 <div class="timeline-content">
-                    <h3>토목공학 석사</h3>
-                    <p>중앙대학교 토목공학과. 세부전공: 구조공학. 지도교수: 박종웅 교수.</p>
-                    <p>학위논문: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em>.</p>
+                    <h3>구조공학 석사</h3>
+                    <p>중앙대학교</p>
+                    <p>학위논문: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> (지도교수: 박종웅 교수).</p>
                     <details class="coursework-toggle">
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
@@ -103,8 +103,8 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
             <article class="timeline-item">
                 <div class="timeline-date">2017 - 2022</div>
                 <div class="timeline-content">
-                    <h3>사회기반시스템공학 및 수학 학사</h3>
-                    <p>중앙대학교. 전공: 사회기반시스템공학부. 복수전공: 수학과.</p>
+                    <h3>토목공학 및 수학 학사 (복수전공)</h3>
+                    <p>중앙대학교</p>
                     <details class="coursework-toggle">
                         <summary>주요 수강 과목</summary>
                         <div class="coursework-groups">
@@ -139,11 +139,6 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
                                     <span>편미분방정식</span>
                                     <span>현대대수학</span>
                                     <span>확률과통계</span>
-                                </div>
-                            </section>
-                            <section>
-                                <h4><span class="coursework-icon" aria-hidden="true">CS</span>컴퓨터</h4>
-                                <div class="course-tags">
                                     <span>파이썬 기초 및 머신러닝 실습</span>
                                     <span>기초과학데이터분석</span>
                                 </div>

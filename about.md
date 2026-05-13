@@ -66,9 +66,9 @@ description: Research profile, selected background, technical skills, awards, an
             <article class="timeline-item">
                 <div class="timeline-date">2022 - 2024</div>
                 <div class="timeline-content">
-                    <h3>M.S. in Civil Engineering</h3>
-                    <p>Chung-Ang University. Major: Structural Engineering. Advisor: Prof. Jongwoong Park.</p>
-                    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em>.</p>
+                    <h3>MS in Structural Engineering</h3>
+                    <p>Chung-Ang University</p>
+                    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> (advisor: Jongwoong Park).</p>
                     <details class="coursework-toggle">
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
@@ -103,8 +103,8 @@ description: Research profile, selected background, technical skills, awards, an
             <article class="timeline-item">
                 <div class="timeline-date">2017 - 2022</div>
                 <div class="timeline-content">
-                    <h3>B.S. in Civil, Environmental & Plant Engineering and Mathematics</h3>
-                    <p>Chung-Ang University. Major: Civil, Environmental & Plant Engineering. Double major: Mathematics.</p>
+                    <h3>BS in Civil Engineering and Mathematics (Double major)</h3>
+                    <p>Chung-Ang University</p>
                     <details class="coursework-toggle">
                         <summary>Selected Coursework</summary>
                         <div class="coursework-groups">
@@ -139,11 +139,6 @@ description: Research profile, selected background, technical skills, awards, an
                                     <span>Partial Differential Equations</span>
                                     <span>Modern Algebra</span>
                                     <span>Probability and Statistics</span>
-                                </div>
-                            </section>
-                            <section>
-                                <h4><span class="coursework-icon" aria-hidden="true">CS</span>Computing</h4>
-                                <div class="course-tags">
                                     <span>Python Basics and Machine Learning Lab</span>
                                     <span>Basic Scientific Data Analysis</span>
                                 </div>
