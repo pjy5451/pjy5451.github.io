@@ -55,7 +55,7 @@ facebook:
   username:
   app_id:
   publisher:
-og_image: "/assets/images/social-preview.png"
+og_image: "/images/profile.png"
 og_description:
 social:
   type: "Person"
@@ -76,21 +76,7 @@ include:
   - files
 
 exclude:
-  - index.html
-  - about.md
-  - publications.md
-  - projects.md
-  - field-work.md
-  - blog.md
-  - study.md
-  - search.html
-  - search.json
-  - feed.xml
-  - sitemap.xml
-  - ko
-  - projects
   - README.md
-  - LICENSE.txt
   - task.md
   - website_checklist.xlsx
   - website_checklist_backup.xlsx

@@ -27,17 +27,25 @@ author_profile: true
         <p><i>{{ item.venue[pub_lang] | default: item.venue.en }}</i>, {{ item.year }}</p>
         {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
         {% if actions %}
-          <p>
+          {% assign has_visible_action = false %}
+          {% for action in actions %}
+            {% unless action.label == "Source Document" or action.label == "Project" %}
+              {% assign has_visible_action = true %}
+            {% endunless %}
+          {% endfor %}
+          {% if has_visible_action %}
+          <p class="pub-links">
             {% for action in actions %}
-              {% unless action.label == "Source Document" %}
+              {% unless action.label == "Source Document" or action.label == "Project" %}
                 {% if action.href %}
-                  <a href="{{ action.href }}">{{ action.label }}</a>{% unless forloop.last %} | {% endunless %}
+                  <a href="{{ action.href }}">{{ action.label }}</a>
                 {% else %}
-                  {{ action.label }}{% unless forloop.last %} | {% endunless %}
+                  <span>{{ action.label }}</span>
                 {% endif %}
               {% endunless %}
             {% endfor %}
           </p>
+          {% endif %}
         {% endif %}
       </article>
     </div>
