@@ -5,11 +5,26 @@
   <p class="profile__degree">{{ site.author.degree }}</p>
 
   <div class="profile__links">
-    <a href="mailto:{{ site.author.email }}">Email</a>
-    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-    <a href="{{ site.author.orcid }}">ORCID</a>
-    <a href="{{ site.author.linkedin }}">LinkedIn</a>
-    <a href="{{ site.author.github }}">GitHub</a>
+    <a href="mailto:{{ site.author.email }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 5.5h17v13h-17z"/><path d="m4 6 8 7 8-7"/></svg>
+      <span>Email</span>
+    </a>
+    <a href="{{ site.author.googlescholar }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 6-9 6-9-6z"/><path d="M7 12v4.5c0 1.4 2.2 2.5 5 2.5s5-1.1 5-2.5V12"/></svg>
+      <span>Google Scholar</span>
+    </a>
+    <a href="{{ site.author.orcid }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M9 8v8M12 8h2.2c2.1 0 3.8 1.8 3.8 4s-1.7 4-3.8 4H12z"/></svg>
+      <span>ORCID</span>
+    </a>
+    <a href="{{ site.author.linkedin }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 10v7.5M10.5 17.5v-4.2c0-2.2 3.4-2.7 3.4 0v4.2M10.5 10v1.2M17.5 17.5v-4.7c0-2.9-3.4-3.3-4.7-1.5"/><circle cx="6.5" cy="7" r="1.2"/></svg>
+      <span>LinkedIn</span>
+    </a>
+    <a href="{{ site.author.github }}">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4 1.2-4-2-5.5-2.5M15 21v-3.2c0-.9.3-1.6.8-2.1 2.7-.3 5.2-1.3 5.2-6a4.7 4.7 0 0 0-1.3-3.3c.1-.4.5-1.9-.2-3.4 0 0-1.1-.3-3.5 1.3a12 12 0 0 0-6 0C7.6 2.7 6.5 3 6.5 3c-.7 1.5-.3 3-.2 3.4A4.7 4.7 0 0 0 5 9.7c0 4.7 2.5 5.7 5.2 6 .5.5.8 1.2.8 2.1V21"/></svg>
+      <span>GitHub</span>
+    </a>
   </div>
 
   <a class="profile__cv" href="{{ site.author.cv | relative_url }}">Download CV</a>

@@ -58,9 +58,9 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 26px;
-  min-height: 54px;
-  padding: 0 24px;
+  gap: 34px;
+  min-height: 58px;
+  padding: 0 30px;
   border-bottom: 1px solid var(--line);
   background: var(--topbar-bg);
   backdrop-filter: blur(6px);
@@ -69,14 +69,16 @@ a:hover {
 .topbar__name {
   color: var(--text);
   font-weight: 700;
+  font-size: 1.08rem;
 }
 
 .nav {
   display: flex;
-  gap: 18px;
+  gap: 26px;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 0.98rem;
+  font-size: 1.08rem;
+  font-weight: 500;
 }
 
 .nav a {
@@ -140,14 +142,35 @@ a:hover {
 
 .profile__links {
   display: grid;
-  gap: 5px;
-  margin: 20px 0 18px;
+  gap: 7px;
+  margin: 22px auto 20px;
+  max-width: 205px;
   text-align: left;
-  padding-left: 48px;
 }
 
 .profile__links a {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  min-height: 30px;
   color: var(--text);
+  font-size: 0.98rem;
+}
+
+.profile__links a:hover {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.profile__links svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .profile__cv {
@@ -291,7 +314,7 @@ strong {
 
   .nav {
     justify-content: flex-start;
-    gap: 12px;
+    gap: 16px;
   }
 
   .site {
@@ -308,7 +331,6 @@ strong {
     max-width: 210px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 22px;
   }
 
   .entry {
