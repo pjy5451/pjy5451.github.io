@@ -8,7 +8,8 @@ description: Junyoung Park's research portfolio on data-driven infrastructure, s
 ---
 
 <header class="profile-hero">
-    <section class="hero-grid">
+    <section class="hero-grid home-with-profile">
+        {% include profile_card.html %}
         <div class="hero-copy">
             <p class="eyebrow">Structural Health Monitoring / IoT Sensing</p>
             <h1>Field Sensing Systems for Data-Driven Infrastructure</h1>
@@ -24,7 +25,7 @@ description: Junyoung Park's research portfolio on data-driven infrastructure, s
             </div>
         </div>
 
-        <aside class="profile-card">
+        <aside class="profile-card legacy-home-profile">
             <div class="profile-card-top">
                 <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Portrait of {{ site.name }}" />
             </div>

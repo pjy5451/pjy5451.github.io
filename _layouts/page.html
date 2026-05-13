@@ -9,6 +9,10 @@ post_class: post-template page-template
 
 
 <main class="content" role="main">
+    <div class="page-shell{% if page.hide_profile_card %} no-profile-card{% endif %}">
+    {% unless page.hide_profile_card %}
+        {% include profile_card.html %}
+    {% endunless %}
     <article class="post">
         {% unless page.hide_title %}
         <h1 class="post-title">{{ page.title }}</h1>
@@ -19,5 +23,6 @@ post_class: post-template page-template
         </section>
 
     </article>
+    </div>
 
 </main>
