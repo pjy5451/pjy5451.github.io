@@ -1193,6 +1193,14 @@ html[data-theme="dark"] .search-dialog {
 	box-sizing: border-box;
 }
 
+.page-template .main-header.post-head,
+.page-template .main-header.post-head.no-cover {
+	min-height: 0;
+	padding: 0;
+	border-bottom: 0;
+	background: transparent;
+}
+
 .post-template .post-title {
 	margin-bottom: 10px;
 	color: var(--ink);
@@ -1388,6 +1396,9 @@ html[data-theme="dark"] .search-dialog {
 
 .profile-cv-link {
 	margin: 0 auto;
+	min-height: 38px;
+	padding: 0 16px;
+	font-size: 13px;
 }
 
 .bio-sidebar h2 {
@@ -1520,8 +1531,14 @@ html[data-theme="dark"] .search-dialog {
 }
 
 .cv-heading {
-	margin: 0 0 20px;
+	margin: 0 0 22px;
 	text-align: center;
+}
+
+.cv-heading .cv-download-button {
+	min-height: 44px;
+	padding: 0 20px;
+	font-size: 15px;
 }
 
 .cv-heading h1 {
