@@ -141,7 +141,29 @@ description: Research profile, selected background, technical skills, awards, an
 
         <h2>Scholarships</h2>
 
-        <p class="cv-pending-note">Scholarship details will be added after confirmation.</p>
+        <ul class="award-list compact-cv-list">
+            <li>
+                <span class="award-year">2020</span>
+                <span class="award-title">Seah Haiam Scholarship</span>
+                <span class="award-organization">Seah Haiam Academic Scholarship Foundation</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hyeeum Scholarship</span>
+                <span class="award-organization">Chung-Ang University Department of Civil Engineering Alumni Association</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hwanju Scholarship</span>
+                <span class="award-organization">Chung-Ang University</span>
+            </li>
+            <li>
+                <span class="award-year">2018</span>
+                <span class="award-title">Academic Excellence Scholarship</span>
+                <span class="award-organization">Gwangju Seo-gu Scholarship Foundation</span>
+            </li>
+        </ul>
+
 
         <h2>Experience</h2>
 

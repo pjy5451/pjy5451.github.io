@@ -141,7 +141,29 @@ description: 박준영의 연구 프로필, 주요 이력, 기술 역량, 수상
 
         <h2>장학</h2>
 
-        <p class="cv-pending-note">장학 내역을 확인한 뒤 추가할 예정입니다.</p>
+        <ul class="award-list compact-cv-list">
+            <li>
+                <span class="award-year">2020</span>
+                <span class="award-title">Seah Haiam Scholarship</span>
+                <span class="award-organization">Seah Haiam Academic Scholarship Foundation</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hyeeum Scholarship</span>
+                <span class="award-organization">중앙대학교 토목공학과 동문회</span>
+            </li>
+            <li>
+                <span class="award-year">2019</span>
+                <span class="award-title">Hwanju Scholarship</span>
+                <span class="award-organization">중앙대학교</span>
+            </li>
+            <li>
+                <span class="award-year">2018</span>
+                <span class="award-title">Academic Excellence Scholarship</span>
+                <span class="award-organization">광주광역시 서구 장학재단</span>
+            </li>
+        </ul>
+
 
         <h2>경력</h2>
 
