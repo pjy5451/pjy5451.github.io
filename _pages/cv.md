@@ -6,8 +6,8 @@ title: "CV"
 
 # Curriculum Vitae
 
-<div class="quick-links">
-  <a href="/assets/files/Junyoung_Park_CV.pdf">Download CV</a>
+<div class="quick-links cv-actions">
+  <a class="cv-download" href="/assets/files/Junyoung_Park_CV.pdf">Download CV</a>
   <span>Last updated: May 2026</span>
 </div>
 
