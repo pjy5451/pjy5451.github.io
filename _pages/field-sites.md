@@ -12,7 +12,7 @@ This page summarizes real-world sites where I have deployed, operated, or review
   <h2>{{ group.title }}</h2>
   <div class="field-site-grid">
     {% for field_site in group.sites %}
-      <article class="field-site-card">
+      <a class="field-site-card" href="{{ field_site.href | relative_url }}">
         <div class="field-site-card__intro">
           <h3>{{ field_site.name }}</h3>
           <p>{{ field_site.summary }}</p>
@@ -25,7 +25,7 @@ This page summarizes real-world sites where I have deployed, operated, or review
             {% endfor %}
           </ul>
         </div>
-      </article>
+      </a>
     {% endfor %}
   </div>
 {% endfor %}

@@ -1,0 +1,31 @@
+{% assign field_site_found = false %}
+
+{% for group in site.data.field_sites.groups %}
+{% for field_site in group.sites %}
+{% if field_site.key == page.field_site_key %}
+{% assign field_site_found = true %}
+<p class="field-site-detail__category">{{ group.title }}</p>
+<h1>{{ field_site.name }}</h1>
+<p class="intro">{{ field_site.summary }}</p>
+
+<section class="field-site-detail">
+<h2>Data handled</h2>
+<ul class="field-site-detail__data">
+{% for datum in field_site.data %}
+<li>{{ datum }}</li>
+{% endfor %}
+</ul>
+</section>
+
+<section class="field-site-detail">
+<h2>Field context</h2>
+<p>This page records the field context behind the sensing and monitoring work connected to this site. It is intended to separate practical deployment experience and handled data types from the broader Research project categories.</p>
+</section>
+{% endif %}
+{% endfor %}
+{% endfor %}
+
+{% unless field_site_found %}
+<h1>Field Site</h1>
+<p class="note-empty">Field site information is not available.</p>
+{% endunless %}
