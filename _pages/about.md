@@ -6,9 +6,20 @@ title: "About"
 
 # Junyoung Park
 
-<p class="intro">I develop field-deployable sensing systems for structural monitoring, transportation monitoring, and infrastructure data analysis. My work connects IoT sensors, embedded measurement systems, cloud workflows, and engineering interpretation of real-world field data.</p>
+<p class="intro">I develop <strong>field-deployable sensing systems</strong> for <strong>structural monitoring</strong>, <strong>transportation monitoring</strong>, and <strong>infrastructure data analysis</strong>. My work connects <strong>IoT sensors</strong>, <strong>embedded measurement systems</strong>, <strong>cloud workflows</strong>, and engineering interpretation of <strong>real-world field data</strong>.</p>
 
-I have experience deploying and operating monitoring systems on actual structures, including Seongsan Bridge, Seosomun Overpass, and Paldang Bridge in Korea. Currently, I am working on WIM (Weigh-in-Motion) and OBM (On-Board Mass) systems for intelligent transportation and infrastructure monitoring.
+<p>I have experience <strong>deploying and operating monitoring systems on actual structures</strong>, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
+
+<div class="keyword-chips" aria-label="Representative research keywords">
+  <span>Structural Health Monitoring</span>
+  <span>Bridge Monitoring</span>
+  <span>WIM / OBM Systems</span>
+  <span>IoT Sensing</span>
+  <span>Embedded Measurement Systems</span>
+  <span>Cloud-based Monitoring</span>
+  <span>Field Data Analysis</span>
+  <span>AI-based Signal Interpretation</span>
+</div>
 
 <div class="quick-links">
   <a href="/cv/">CV</a>
@@ -28,8 +39,7 @@ I have experience deploying and operating monitoring systems on actual structure
 <div class="entry">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
-    <p><strong>M.S. in Structural Engineering</strong></p>
-    <p>Chung-Ang University</p>
+    <p><strong>M.S. in Structural Engineering</strong>, Chung-Ang University, Seoul, South Korea</p>
     <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
     <p>Advisor: Jongwoong Park</p>
   </div>
@@ -38,8 +48,8 @@ I have experience deploying and operating monitoring systems on actual structure
 <div class="entry">
   <div class="entry__date">2017 - 2022</div>
   <div class="entry__body">
-    <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong></p>
-    <p>Chung-Ang University</p>
+    <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong>, Chung-Ang University, Seoul, South Korea</p>
+    <p>Dissertation: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></p>
   </div>
 </div>
 

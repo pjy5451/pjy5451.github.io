@@ -16,13 +16,21 @@ title: "CV"
 <div class="entry">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
-    <p><strong>M.S. in Structural Engineering</strong></p>
-    <p>Chung-Ang University</p>
+    <p><strong>M.S. in Structural Engineering</strong>, Chung-Ang University, Seoul, South Korea</p>
     <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
     <p>Advisor: Jongwoong Park</p>
     <details class="coursework">
-      <summary>Selected coursework</summary>
-      <p>Concrete Time-Dependent Behavior; Advanced Steel Structures; Structural Dynamics; Bridge Design Special Topics; Linear Control Systems; Sensor and Measurement Methods; Introduction to Machine Learning and Deep Learning; Computer Programming and AI Applications.</p>
+      <summary>Selected Coursework</summary>
+      <ul class="chip-list chip-list--coursework">
+        <li>Concrete Time-Dependent Behavior</li>
+        <li>Advanced Steel Structures</li>
+        <li>Structural Dynamics</li>
+        <li>Bridge Design Special Topics</li>
+        <li>Linear Control Systems</li>
+        <li>Sensor and Measurement Methods</li>
+        <li>Introduction to Machine Learning and Deep Learning</li>
+        <li>Computer Programming and AI Applications</li>
+      </ul>
     </details>
   </div>
 </div>
@@ -30,11 +38,37 @@ title: "CV"
 <div class="entry">
   <div class="entry__date">2017 - 2022</div>
   <div class="entry__body">
-    <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong></p>
-    <p>Chung-Ang University</p>
+    <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong>, Chung-Ang University, Seoul, South Korea</p>
+    <p>Dissertation: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></p>
     <details class="coursework">
-      <summary>Selected coursework</summary>
-      <p>Materials Mechanics; Materials Mechanics Lab; Open Channel Hydraulics; Soil Mechanics I-II; Soil Mechanics Lab I-II; Rock Mechanics; Surveying and Surveying Practice; Construction Planning and Execution; Structural Mechanics; Reinforced Concrete Engineering; Geotechnical Design; Civil Infrastructure Capstone Design; Calculus; Linear Algebra; Statistics; Numerical Analysis; Geometry; Differential Equations I-II; Differential Geometry I-II; Analysis I-II; Partial Differential Equations; Modern Algebra; Probability and Statistics; Python Basics and Machine Learning Lab; Basic Scientific Data Analysis.</p>
+      <summary>Selected Coursework</summary>
+      <ul class="chip-list chip-list--coursework">
+        <li>Materials Mechanics</li>
+        <li>Materials Mechanics Lab</li>
+        <li>Open Channel Hydraulics</li>
+        <li>Soil Mechanics I-II</li>
+        <li>Soil Mechanics Lab I-II</li>
+        <li>Rock Mechanics</li>
+        <li>Surveying and Surveying Practice</li>
+        <li>Construction Planning and Execution</li>
+        <li>Structural Mechanics</li>
+        <li>Reinforced Concrete Engineering</li>
+        <li>Geotechnical Design</li>
+        <li>Civil Infrastructure Capstone Design</li>
+        <li>Calculus</li>
+        <li>Linear Algebra</li>
+        <li>Statistics</li>
+        <li>Numerical Analysis</li>
+        <li>Geometry</li>
+        <li>Differential Equations I-II</li>
+        <li>Differential Geometry I-II</li>
+        <li>Analysis I-II</li>
+        <li>Partial Differential Equations</li>
+        <li>Modern Algebra</li>
+        <li>Probability and Statistics</li>
+        <li>Python Basics and Machine Learning Lab</li>
+        <li>Basic Scientific Data Analysis</li>
+      </ul>
     </details>
   </div>
 </div>

@@ -9,6 +9,9 @@
   --topbar-bg: rgba(255, 255, 255, 0.96);
   --soft: #f7f8fa;
   --button-bg: #ffffff;
+  --chip-bg: #eef8ff;
+  --chip-border: #9bd6f2;
+  --chip-text: #0077c8;
   --sidebar: 255px;
   --gap: 48px;
   color-scheme: light;
@@ -26,6 +29,9 @@ html[data-theme="dark"] {
   --topbar-bg: rgba(16, 20, 24, 0.94);
   --soft: #171d23;
   --button-bg: #151b21;
+  --chip-bg: rgba(45, 131, 193, 0.16);
+  --chip-border: rgba(130, 183, 255, 0.46);
+  --chip-text: #9bd1ff;
   color-scheme: dark;
 }
 
@@ -284,6 +290,31 @@ strong {
   font-weight: 600;
 }
 
+.keyword-chips,
+.chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 14px 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.keyword-chips span,
+.chip-list li {
+  display: inline-flex;
+  align-items: center;
+  min-height: 31px;
+  padding: 4px 12px;
+  border: 1px solid var(--chip-border);
+  border-radius: 999px;
+  color: var(--chip-text);
+  background: var(--chip-bg);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .entry {
   display: grid;
   grid-template-columns: 130px minmax(0, 1fr);
@@ -302,23 +333,47 @@ strong {
 }
 
 .coursework {
-  margin-top: 8px;
+  margin-top: 10px;
 }
 
 .coursework summary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 32px;
+  padding: 4px 11px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  background: var(--button-bg);
   cursor: pointer;
   color: var(--text);
   font-weight: 700;
+  line-height: 1.2;
+  list-style: none;
+}
+
+.coursework summary::-webkit-details-marker {
+  display: none;
+}
+
+.coursework summary::after {
+  content: "+";
+  color: var(--muted);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.coursework[open] summary::after {
+  content: "-";
 }
 
 .coursework summary:hover {
+  border-color: var(--link);
   color: var(--link);
 }
 
-.coursework p {
-  margin: 8px 0 0;
-  color: var(--muted);
+.coursework .chip-list {
+  margin: 12px 0 0;
 }
 
 .pub {
@@ -327,8 +382,23 @@ strong {
 
 .pub__title {
   display: block;
-  color: var(--text);
   font-weight: 700;
+  line-height: 1.35;
+}
+
+a.pub__title {
+  color: var(--link);
+}
+
+a.pub__title:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+span.pub__title {
+  color: var(--text);
 }
 
 .pub__authors,
