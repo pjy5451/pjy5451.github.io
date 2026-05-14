@@ -6,9 +6,9 @@ title: "About"
 
 # Junyoung Park
 
-<p class="intro">I develop <strong>field-deployable sensing systems</strong> for <strong>structural monitoring</strong>, <strong>transportation monitoring</strong>, and <strong>infrastructure data analysis</strong>. My work connects <strong>IoT sensors</strong>, <strong>embedded measurement systems</strong>, <strong>cloud workflows</strong>, and engineering interpretation of <strong>real-world field data</strong>.</p>
+<p class="intro">I developed <strong>IoT sensor and cloud-based systems</strong> for <strong>structural monitoring</strong> and <strong>real-world data analysis</strong>. I have experience deploying and operating monitoring systems on actual structures, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
 
-<p>I have experience <strong>deploying and operating monitoring systems on actual structures</strong>, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
+<p>My research interests include <strong>Structural Health Monitoring (SHM)</strong>, <strong>WIM/OBM systems</strong>, <strong>smart IoT sensors</strong>, and <strong>AI-based data analysis</strong>. More recently, I have also been exploring <strong>structural dynamics</strong>, <strong>structural reliability</strong>, <strong>aerospace engineering</strong>, and <strong>AI for physical systems</strong>.</p>
 
 ## Research Interests
 
