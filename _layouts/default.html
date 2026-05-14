@@ -17,7 +17,7 @@
         document.documentElement.setAttribute('data-theme', theme);
       })();
     </script>
-    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     {% if site.analytics.provider == "google-analytics-4" and site.analytics.google.tracking_id %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"></script>
     <script>
