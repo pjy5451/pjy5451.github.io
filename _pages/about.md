@@ -10,14 +10,6 @@ title: "About"
 
 <p>I have experience <strong>deploying and operating monitoring systems on actual structures</strong>, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
 
-<div class="quick-links">
-  <a href="/cv/">CV</a>
-  <a href="/publications/">Publications</a>
-  <a href="/talks/">Talks</a>
-  <a href="/research/">Research</a>
-  <a href="/projects/">Projects</a>
-</div>
-
 ## Research Interests
 
 <div class="keyword-chips keyword-chips--section" aria-label="Representative research keywords">
