@@ -17,9 +17,7 @@ title: "About"
   <span>Bridge Monitoring</span>
   <span>WIM / OBM Systems</span>
   <span>IoT Sensing</span>
-  <span>Embedded Measurement Systems</span>
   <span>Cloud-based Monitoring</span>
-  <span>Field Data Analysis</span>
   <span>AI-based Signal Interpretation</span>
 </div>
 

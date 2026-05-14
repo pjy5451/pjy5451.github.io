@@ -149,9 +149,9 @@ title: "CV"
 - SU Khayam, A Ajmal, **Junyoung Park**, IH Kim, Jongwoong Park. "Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model." <em>Sensors</em>, 23(11), 5040, 2023.
 - **Junyoung Park**, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park. "A Scalable Bridge Health Monitoring System Using IoT Sensor and Cloud Computing." Preprint, 2022.
 
-## Talks
+## Conference Presentations
 
-Selected conference presentations and talks are listed on the <a href="/talks/">Talks</a> page.
+Selected conference presentations are listed on the <a href="/talks/">Conference Presentations</a> page.
 
 ## Honors and Awards
 
