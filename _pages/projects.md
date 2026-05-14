@@ -6,8 +6,6 @@ title: "Projects"
 
 # Projects
 
-<p class="intro">Selected projects across transportation monitoring, structural monitoring, and smart sensing systems.</p>
-
 {% for group in site.data.projects.groups %}
   <h2>{{ group.title }}</h2>
   <div class="project-grid">
