@@ -13,14 +13,18 @@ This page summarizes real-world sites where I have deployed, operated, or review
   <div class="field-site-grid">
     {% for field_site in group.sites %}
       <article class="field-site-card">
-        <h3>{{ field_site.name }}</h3>
-        <p>{{ field_site.summary }}</p>
-        <p class="field-site-card__label">Data handled</p>
-        <ul class="field-site-card__data">
-          {% for datum in field_site.data %}
-            <li>{{ datum }}</li>
-          {% endfor %}
-        </ul>
+        <div class="field-site-card__intro">
+          <h3>{{ field_site.name }}</h3>
+          <p>{{ field_site.summary }}</p>
+        </div>
+        <div class="field-site-card__details">
+          <p class="field-site-card__label">Data handled</p>
+          <ul class="field-site-card__data">
+            {% for datum in field_site.data %}
+              <li>{{ datum }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </article>
     {% endfor %}
   </div>
