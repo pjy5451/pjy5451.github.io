@@ -64,7 +64,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 34px;
+  gap: 24px;
   min-height: 58px;
   padding: 0 30px;
   border-bottom: 1px solid var(--line);
@@ -80,23 +80,24 @@ a:hover {
 
 .nav {
   display: flex;
-  gap: 26px;
+  gap: 18px;
   flex-wrap: wrap;
   justify-content: center;
-  font-size: 1.08rem;
-  font-weight: 500;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 .nav a {
   color: var(--muted);
   padding: 4px 0;
   border-bottom: 2px solid transparent;
+  white-space: nowrap;
 }
 
 .nav a.is-active {
   color: var(--text);
   border-bottom-color: var(--accent);
-  font-weight: 700;
 }
 
 .nav a:hover {
@@ -458,6 +459,51 @@ span.pub__title {
   font-size: 0.95rem;
 }
 
+.talk-list {
+  margin-top: 12px;
+}
+
+.talk {
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 18px;
+  padding: 15px 0 16px;
+  border-bottom: 1px solid var(--line);
+}
+
+.talk__year {
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.talk__title {
+  margin: 0 0 5px;
+  padding: 0;
+  border: 0;
+  color: var(--text);
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.talk__venue,
+.talk__authors {
+  margin: 2px 0;
+  line-height: 1.45;
+}
+
+.talk__venue {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.talk__authors {
+  color: var(--text);
+  font-size: 0.94rem;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -625,5 +671,10 @@ span.pub__title {
 
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .talk {
+    grid-template-columns: 1fr;
+    gap: 4px;
   }
 }
