@@ -6,13 +6,20 @@ title: "Notes"
 
 <h1>Notes</h1>
 
-<ul class="note-list">
-  {% assign english_posts = site.posts | where: "lang", "en" %}
-  {% for post in english_posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <div class="note-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-      {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% assign english_posts = site.posts | where: "lang", "en" %}
+{% if english_posts.size > 0 %}
+  <div class="note-card-list">
+    {% for post in english_posts %}
+      <a class="note-card" href="{{ post.url | relative_url }}">
+        <div class="note-card__meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+          {% if post.note_category %}<span>{{ post.note_category }}</span>{% endif %}
+        </div>
+        <h2>{{ post.title }}</h2>
+        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+      </a>
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="note-empty">Notes will be added here.</p>
+{% endif %}
