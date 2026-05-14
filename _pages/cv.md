@@ -19,7 +19,7 @@ title: "CV"
     <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea</p>
     <ul class="degree-notes">
       <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></li>
-      <li>Advisor: Jongwoong Park</li>
+      <li>Advisor: <a href="https://scholar.google.com/citations?user=Ev80LNcAAAAJ">Jongwoong Park</a></li>
     </ul>
     <details class="coursework">
       <summary>Selected Coursework</summary>
