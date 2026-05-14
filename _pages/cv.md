@@ -147,7 +147,12 @@ title: "CV"
 - Junsik Shin, **Junyoung Park**, Jongbin Won, Jongwoong Park, Jiyoung Min. "Development of AI-Based Multisensory System for Monitoring Quay Wall Events." <em>Journal of Marine Science and Engineering</em>, 12(11), 1902, 2024.
 - **Junyoung Park**, Jinsik Kim, Jongwoo Kim, Yunbeom Cho. "Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving." <em>Journal of the Korean Society of Mechanical Technology</em>, 26(5), 1041-1046, 2024.
 - SU Khayam, A Ajmal, **Junyoung Park**, IH Kim, Jongwoong Park. "Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model." <em>Sensors</em>, 23(11), 5040, 2023.
-- **Junyoung Park**, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park. "A Scalable Bridge Health Monitoring System Using IoT Sensor and Cloud Computing." Preprint, 2022.
+- SU Khayam, Jongbin Won, Junsik Shin, **Junyoung Park**, Jongwoong Park. "Monitoring Precast Structures During Transportation Using a Portable Sensing System." <em>Automation in Construction</em>, 145, 104639, 2023.
+- Jongbin Won, Jongwoong Park, **Junyoung Park**, Junsik Shin, Minyong Park. "Development of a Reference-Free Indirect Bridge Displacement Sensing System." <em>Sensors</em>, 21(16), 5647, 2021.
+- HV Le, TU Kim, S Khan, **Junyoung Park**, Jongwoong Park, SE Kim, Y Jang, DJ Kim. "Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete." <em>Sensors</em>, 21(19), 6386, 2021.
+- S Khan, Jongbin Won, Junsik Shin, **Junyoung Park**, Jongwoong Park, SE Kim, Y Jang, DJ Kim. "SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring." <em>Sensors</em>, 21(6), 2211, 2021.
+- **Junyoung Park**, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park. "Development of Low-Power IoT Sensor and Cloud-Based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring." <em>Journal of the Computational Structural Engineering Institute of Korea</em>, 34(5), 2021.
+- Jongbin Won, **Junyoung Park**, Jongwoong Park, IH Kim. "BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification." <em>Sensors</em>, 20(10), 2963, 2020.
 
 ## Conference Presentations
 
