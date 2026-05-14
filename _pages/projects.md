@@ -18,11 +18,7 @@ title: "Projects"
           <h3>{{ project.title }}</h3>
           <p class="project-card__period">{{ project.period }}</p>
           <p>{{ project.summary }}</p>
-          <ul class="project-card__tags" aria-label="Project keywords">
-            {% for tag in project.tags %}
-              <li>{{ tag }}</li>
-            {% endfor %}
-          </ul>
+          <span class="project-card__tag">{{ project.tags | first }}</span>
         </div>
       </a>
     {% endfor %}

@@ -611,17 +611,12 @@ span.pub__title {
   margin-bottom: 10px;
 }
 
-.project-card__tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin: auto 0 12px;
-  padding: 0;
-  list-style: none;
-}
-
-.project-card__tags li {
-  margin: 0;
+.project-card__tag {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin-top: auto;
   padding: 3px 8px;
   border: 1px solid var(--line);
   border-radius: 999px;
