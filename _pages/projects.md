@@ -12,7 +12,7 @@ title: "Projects"
   <h2>{{ group.title }}</h2>
   <div class="project-grid">
     {% for project in group.projects %}
-      <article class="project-card">
+      <a class="project-card" href="{{ project.href | relative_url }}">
         <div class="project-card__media">
           <span>{{ project.tags | first }}</span>
         </div>
@@ -26,9 +26,8 @@ title: "Projects"
               <li>{{ tag }}</li>
             {% endfor %}
           </ul>
-          <a class="project-card__link" href="{{ project.href | relative_url }}">View details</a>
         </div>
-      </article>
+      </a>
     {% endfor %}
   </div>
 {% endfor %}
