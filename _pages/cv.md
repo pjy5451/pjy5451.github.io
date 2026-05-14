@@ -155,23 +155,61 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
 
 ## Honors and Awards
 
-- Outstanding Paper Presentation Award, 2023 Fall Conference, Korea Institute for Structural Maintenance and Inspection, Apr. 4, 2024. Topic: Scalable IoT sensor and cloud-computing-based framework for continuous bridge monitoring.
-- Gold Prize, 2022 Korea Future Talent Festival, National Research Foundation of Korea, Nov. 25, 2022. Topic: Smart monitoring system for stability and quality management during prefabricated structure transportation using IoT.
-- Excellence Award, 12th LH Land Development Technology Competition, Korea Land and Housing Corporation, Nov. 25, 2021. Topic: Citizen-participatory smart city using QR-code visualization of sensor data.
-- Korea National Railway Chairperson Award, Smart Construction Challenge 2021 (IoT, AI, and Sensing Division), Ministry of Land, Infrastructure and Transport, Nov. 17, 2021. Topic: IoT sensor and cloud-based continuous bridge displacement monitoring system.
-- Korea Environment Corporation President Award, 8th University Student Water Environment Policy and Technology Competition, Ministry of Environment, Oct. 12, 2021. Topic: Smart water grid based on IoT and deep learning, focusing on sewer and water supply pipelines.
-- Excellence Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021. Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.
-- Popularity Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021. Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.
-- Dean's Award, 2020 CAU Engineering Academic Festival, Chung-Ang University College of Engineering, Dec. 10, 2020. Topic: Bridge maintenance system using IoT sensors.
-- Encouragement Award, 3rd X-Corps Festival, Chung-Ang University Center for Engineering Education Innovation, Nov. 29, 2019. Topic: Integrated temporary-structure safety monitoring system using smart sensors and IoT.
-- Minister Award, 2019 Smart Earthquake Response Idea Competition, Ministry of the Interior and Safety, Jul. 25, 2019. Topic: Earthquake notification system using multimodal media and smart sensors.
+<ul class="award-list">
+  <li>
+    Outstanding Paper Presentation Award, 2023 Fall Conference, Korea Institute for Structural Maintenance and Inspection, Apr. 4, 2024.
+    <ul><li>Topic: Scalable IoT sensor and cloud-computing-based framework for continuous bridge monitoring.</li></ul>
+  </li>
+  <li>
+    Gold Prize, 2022 Korea Future Talent Festival, National Research Foundation of Korea, Nov. 25, 2022.
+    <ul><li>Topic: Smart monitoring system for stability and quality management during prefabricated structure transportation using IoT.</li></ul>
+  </li>
+  <li>
+    Excellence Award, 12th LH Land Development Technology Competition, Korea Land and Housing Corporation, Nov. 25, 2021.
+    <ul><li>Topic: Citizen-participatory smart city using QR-code visualization of sensor data.</li></ul>
+  </li>
+  <li>
+    Korea National Railway Chairperson Award, Smart Construction Challenge 2021 (IoT, AI, and Sensing Division), Ministry of Land, Infrastructure and Transport, Nov. 17, 2021.
+    <ul><li>Topic: IoT sensor and cloud-based continuous bridge displacement monitoring system.</li></ul>
+  </li>
+  <li>
+    Korea Environment Corporation President Award, 8th University Student Water Environment Policy and Technology Competition, Ministry of Environment, Oct. 12, 2021.
+    <ul><li>Topic: Smart water grid based on IoT and deep learning, focusing on sewer and water supply pipelines.</li></ul>
+  </li>
+  <li>
+    Excellence Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021.
+    <ul><li>Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.</li></ul>
+  </li>
+  <li>
+    Popularity Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021.
+    <ul><li>Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.</li></ul>
+  </li>
+  <li>
+    Dean's Award, 2020 CAU Engineering Academic Festival, Chung-Ang University College of Engineering, Dec. 10, 2020.
+    <ul><li>Topic: Bridge maintenance system using IoT sensors.</li></ul>
+  </li>
+  <li>
+    Encouragement Award, 3rd X-Corps Festival, Chung-Ang University Center for Engineering Education Innovation, Nov. 29, 2019.
+    <ul><li>Topic: Integrated temporary-structure safety monitoring system using smart sensors and IoT.</li></ul>
+  </li>
+  <li>
+    Minister Award, 2019 Smart Earthquake Response Idea Competition, Ministry of the Interior and Safety, Jul. 25, 2019.
+    <ul><li>Topic: Earthquake notification system using multimodal media and smart sensors.</li></ul>
+  </li>
+</ul>
 
 ## Scholarships
 
-- Seah Haiam Scholarship, Seah Haiam Academic Scholarship Foundation, 2020.
-- Hyeeum Scholarship, Chung-Ang University Department of Civil Engineering Alumni Association, 2019.
-- Hwanju Scholarship, Chung-Ang University, 2019.
-- Academic Excellence Scholarship, Gwangju Seo-gu Scholarship Foundation, 2018.
+- Graduate Research Scholarship (CAU GRS, ~$21,500), Chung-Ang University, Mar. 2022 - Feb. 2024.
+- Full Tuition Scholarship for Junior and Senior Years (SeAH Haeam Academic Scholarship Foundation, ~$7,300), Mar. 2020 - Dec. 2021.
+- Alumni Association Scholarship (~$750), Chung-Ang University, Mar. 2021 - Jun. 2021.
+- Specialization Scholarship (~$150), Chung-Ang University, Feb. 2022.
+- Academic Excellence Scholarship (~$1,200), Chung-Ang University, Sep. 2019 - Feb. 2020.
+- Designated Fund Scholarship (~$1,800), Chung-Ang University, Mar. 2019 - Feb. 2020.
+- Hwanju Scholarship (~$1,500), Chung-Ang University, Mar. 2019 - Jun. 2019.
+- Academic Excellence Scholarship (~$1,200), Chung-Ang University, Sep. 2018 - Feb. 2019.
+- Gwangju Seo-gu Scholarship Foundation Scholarship (~$1,100), Gwangju Seo-gu Scholarship Foundation, Sep. 2018 - Feb. 2019.
+- University Innovation Support Scholarship (~$2,000), Chung-Ang University, Sep. 2018 - Feb. 2022.
 
 ## Teaching & Other Activities
 

@@ -378,6 +378,20 @@ strong {
   margin: 2px 0;
 }
 
+.award-list > li {
+  margin: 10px 0;
+}
+
+.award-list ul {
+  margin: 3px 0 0;
+  padding-left: 24px;
+}
+
+.award-list ul li {
+  margin: 2px 0;
+  color: var(--muted);
+}
+
 .coursework {
   margin-top: 10px;
 }
