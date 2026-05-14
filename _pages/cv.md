@@ -155,11 +155,16 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
 
 ## Honors and Awards
 
-- Best Paper Presentation Award, Korea Institute for Structural Maintenance and Inspection, 2024.
-- Gold Prize, Korea Future Talent Festival, National Research Foundation of Korea, 2022.
-- Excellence Award, LH Land Development Technology Competition, Korea Land and Housing Corporation, 2021.
-- Smart Construction Challenge Award, Korea National Railway, 2021.
-- Minister Award, Smart Earthquake Response Idea Competition, Ministry of the Interior and Safety, 2019.
+- Outstanding Paper Presentation Award, 2023 Fall Conference, Korea Institute for Structural Maintenance and Inspection, Apr. 4, 2024. Topic: Scalable IoT sensor and cloud-computing-based framework for continuous bridge monitoring.
+- Gold Prize, 2022 Korea Future Talent Festival, National Research Foundation of Korea, Nov. 25, 2022. Topic: Smart monitoring system for stability and quality management during prefabricated structure transportation using IoT.
+- Excellence Award, 12th LH Land Development Technology Competition, Korea Land and Housing Corporation, Nov. 25, 2021. Topic: Citizen-participatory smart city using QR-code visualization of sensor data.
+- Korea National Railway Chairperson Award, Smart Construction Challenge 2021 (IoT, AI, and Sensing Division), Ministry of Land, Infrastructure and Transport, Nov. 17, 2021. Topic: IoT sensor and cloud-based continuous bridge displacement monitoring system.
+- Korea Environment Corporation President Award, 8th University Student Water Environment Policy and Technology Competition, Ministry of Environment, Oct. 12, 2021. Topic: Smart water grid based on IoT and deep learning, focusing on sewer and water supply pipelines.
+- Excellence Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021. Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.
+- Popularity Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021. Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.
+- Dean's Award, 2020 CAU Engineering Academic Festival, Chung-Ang University College of Engineering, Dec. 10, 2020. Topic: Bridge maintenance system using IoT sensors.
+- Encouragement Award, 3rd X-Corps Festival, Chung-Ang University Center for Engineering Education Innovation, Nov. 29, 2019. Topic: Integrated temporary-structure safety monitoring system using smart sensors and IoT.
+- Minister Award, 2019 Smart Earthquake Response Idea Competition, Ministry of the Interior and Safety, Jul. 25, 2019. Topic: Earthquake notification system using multimodal media and smart sensors.
 
 ## Scholarships
 
