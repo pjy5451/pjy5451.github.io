@@ -39,6 +39,11 @@ html[data-theme="dark"] {
   box-sizing: border-box;
 }
 
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+}
+
 body {
   margin: 0;
   color: var(--text);
@@ -362,6 +367,10 @@ strong {
   font-weight: 700;
 }
 
+.entry__date--nowrap {
+  white-space: nowrap;
+}
+
 .entry__body p:last-child,
 .entry__body ul:last-child {
   margin-bottom: 0;
@@ -376,20 +385,6 @@ strong {
 .degree-notes li,
 .compact-list li {
   margin: 2px 0;
-}
-
-.award-list > li {
-  margin: 10px 0;
-}
-
-.award-list ul {
-  margin: 3px 0 0;
-  padding-left: 24px;
-}
-
-.award-list ul li {
-  margin: 2px 0;
-  color: var(--muted);
 }
 
 .coursework {

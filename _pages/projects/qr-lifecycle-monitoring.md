@@ -6,10 +6,6 @@ title: "QR-Based Bridge Maintenance Monitoring System"
 
 # QR-Based Bridge Maintenance Monitoring System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-</div>
-
 QR-based monitoring connects field maintenance records with low-power sensing, visualization, and cloud reporting.
 
 ## Focus

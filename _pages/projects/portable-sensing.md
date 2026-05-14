@@ -6,11 +6,6 @@ title: "Prefabricated Structure Transportation Monitoring System"
 
 # Prefabricated Structure Transportation Monitoring System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-  <a href="/publications/">Related Publications</a>
-</div>
-
 Portable sensing work focused on monitoring precast concrete members during transportation-stage operations.
 
 ## Focus

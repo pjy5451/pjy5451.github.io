@@ -6,10 +6,6 @@ title: "Smart Concrete Sensing System"
 
 # Smart Concrete Sensing System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-</div>
-
 Smart concrete sensing work explores crack trajectory monitoring and long-term measurement-history visualization.
 
 ## Focus

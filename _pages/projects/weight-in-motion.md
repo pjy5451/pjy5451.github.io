@@ -6,11 +6,6 @@ title: "High-Speed WIM System Development"
 
 # High-Speed WIM System Development
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-  <a href="/publications/">Related Publications</a>
-</div>
-
 High-speed WIM work focuses on acquiring and interpreting vehicle load signals under field driving conditions.
 
 ## Focus
@@ -20,7 +15,7 @@ High-speed WIM work focuses on acquiring and interpreting vehicle load signals u
 - Filtering, downsampling, and data preprocessing for field measurements.
 - YOLO-based automatic load segment detection for WIM data.
 
-## Related Work
+## Related Publications
 
 - YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems.
 - Development of a Cloud-Based Integrated Enforcement Platform Technology.

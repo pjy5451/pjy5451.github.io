@@ -1,10 +1,10 @@
 ---
 layout: default
-permalink: /projects/
-title: "Projects"
+permalink: /research/
+title: "Research"
 ---
 
-# Projects
+# Research
 
 {% for group in site.data.projects.groups %}
   <h2>{{ group.title }}</h2>

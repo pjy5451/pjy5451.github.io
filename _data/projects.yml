@@ -18,7 +18,7 @@ groups:
     - Vehicle Sensing
     - Dynamic Weight
   - title: Freight Train Monitoring System
-    period: Field monitoring
+    period: 2024
     href: /projects/freight-train-monitoring/
     summary: Event-oriented sensing and signal review for freight monitoring.
     tags:
@@ -44,7 +44,7 @@ groups:
     - IoT
     - Cloud
   - title: Bridge Load-Carrying Capacity Evaluation System
-    period: Field testing
+    period: 2020-2024
     href: /projects/bridge-load-capacity/
     summary: Field sensing and response interpretation for bridge load testing.
     tags:

@@ -6,10 +6,6 @@ title: "Seismic Sensing System"
 
 # Seismic Sensing System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-</div>
-
 This early sensing project developed a low-cost IoT earthquake detection and notification workflow.
 
 ## Focus

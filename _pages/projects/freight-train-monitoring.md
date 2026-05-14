@@ -6,10 +6,6 @@ title: "Freight Train Monitoring System"
 
 # Freight Train Monitoring System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-</div>
-
 This project organizes field sensing workflows for freight and rail-related monitoring.
 
 ## Focus

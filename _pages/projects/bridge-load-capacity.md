@@ -6,10 +6,6 @@ title: "Bridge Load-Carrying Capacity Evaluation System"
 
 # Bridge Load-Carrying Capacity Evaluation System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-</div>
-
 This work supports bridge load testing and load-carrying capacity evaluation through field sensing and response interpretation.
 
 ## Focus

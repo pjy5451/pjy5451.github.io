@@ -160,48 +160,16 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
 
 ## Honors and Awards
 
-<ul class="award-list">
-  <li>
-    Outstanding Paper Presentation Award, 2023 Fall Conference, Korea Institute for Structural Maintenance and Inspection, Apr. 4, 2024.
-    <ul><li>Topic: Scalable IoT sensor and cloud-computing-based framework for continuous bridge monitoring.</li></ul>
-  </li>
-  <li>
-    Gold Prize, 2022 Korea Future Talent Festival, National Research Foundation of Korea, Nov. 25, 2022.
-    <ul><li>Topic: Smart monitoring system for stability and quality management during prefabricated structure transportation using IoT.</li></ul>
-  </li>
-  <li>
-    Excellence Award, 12th LH Land Development Technology Competition, Korea Land and Housing Corporation, Nov. 25, 2021.
-    <ul><li>Topic: Citizen-participatory smart city using QR-code visualization of sensor data.</li></ul>
-  </li>
-  <li>
-    Korea National Railway Chairperson Award, Smart Construction Challenge 2021 (IoT, AI, and Sensing Division), Ministry of Land, Infrastructure and Transport, Nov. 17, 2021.
-    <ul><li>Topic: IoT sensor and cloud-based continuous bridge displacement monitoring system.</li></ul>
-  </li>
-  <li>
-    Korea Environment Corporation President Award, 8th University Student Water Environment Policy and Technology Competition, Ministry of Environment, Oct. 12, 2021.
-    <ul><li>Topic: Smart water grid based on IoT and deep learning, focusing on sewer and water supply pipelines.</li></ul>
-  </li>
-  <li>
-    Excellence Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021.
-    <ul><li>Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.</li></ul>
-  </li>
-  <li>
-    Popularity Award, 2021 LINC+ Capstone Design Award, Chung-Ang University LINC+ Project Group, Dec. 28, 2021.
-    <ul><li>Topic: IoT monitoring system for cloud-based three-dimensional bridge displacement measurement.</li></ul>
-  </li>
-  <li>
-    Dean's Award, 2020 CAU Engineering Academic Festival, Chung-Ang University College of Engineering, Dec. 10, 2020.
-    <ul><li>Topic: Bridge maintenance system using IoT sensors.</li></ul>
-  </li>
-  <li>
-    Encouragement Award, 3rd X-Corps Festival, Chung-Ang University Center for Engineering Education Innovation, Nov. 29, 2019.
-    <ul><li>Topic: Integrated temporary-structure safety monitoring system using smart sensors and IoT.</li></ul>
-  </li>
-  <li>
-    Minister Award, 2019 Smart Earthquake Response Idea Competition, Ministry of the Interior and Safety, Jul. 25, 2019.
-    <ul><li>Topic: Earthquake notification system using multimodal media and smart sensors.</li></ul>
-  </li>
-</ul>
+- Outstanding Paper Presentation Award, Korea Institute for Structural Maintenance and Inspection.
+- Gold Prize, National Research Foundation of Korea.
+- Excellence Award, Korea Land and Housing Corporation.
+- Korea National Railway Chairperson Award, Ministry of Land, Infrastructure and Transport.
+- Korea Environment Corporation President Award, Ministry of Environment.
+- Excellence Award, Chung-Ang University LINC+ Project Group.
+- Popularity Award, Chung-Ang University LINC+ Project Group.
+- Dean's Award, Chung-Ang University College of Engineering.
+- Encouragement Award, Chung-Ang University Center for Engineering Education Innovation.
+- Minister Award, Ministry of the Interior and Safety.
 
 ## Scholarships
 
@@ -216,10 +184,10 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
 - Gwangju Seo-gu Scholarship Foundation Scholarship (~$1,100), Gwangju Seo-gu Scholarship Foundation, Sep. 2018 - Feb. 2019.
 - University Innovation Support Scholarship (~$2,000), Chung-Ang University, Sep. 2018 - Feb. 2022.
 
-## Volunteer & Service
+## Other activities
 
 <div class="entry">
-  <div class="entry__date">2021.12 - 2022.01</div>
+  <div class="entry__date entry__date--nowrap">2021.12 - 2022.01</div>
   <div class="entry__body">
     <p><strong>Da Vinci Dream Discovery Program</strong>, Chung-Ang University</p>
     <ul class="compact-list">

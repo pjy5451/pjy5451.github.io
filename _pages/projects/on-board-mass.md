@@ -6,10 +6,6 @@ title: "OBM System Development"
 
 # OBM (On-Board Mass) System Development
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-</div>
-
 OBM work focuses on vehicle-mounted sensing and dynamic mass estimation under real operating conditions.
 
 ## Focus

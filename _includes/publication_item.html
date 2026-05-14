@@ -13,7 +13,9 @@
     <span class="pub__title">{{ item_title }}</span>
   {% endif %}
   <p class="pub__venue"><em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>, {{ item.year }}</p>
-  <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
+  {% unless include.hide_authors %}
+    <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
+  {% endunless %}
   {% if item.actions %}
     {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
     {% assign has_visible_action = false %}

@@ -6,11 +6,6 @@ title: "Port Structure Monitoring System"
 
 # Port Structure Monitoring System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-  <a href="/publications/">Related Publications</a>
-</div>
-
 Port structure monitoring work focused on multisensory event monitoring for quay wall and waterfront infrastructure.
 
 ## Focus

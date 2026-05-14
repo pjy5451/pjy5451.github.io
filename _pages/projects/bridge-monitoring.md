@@ -6,11 +6,6 @@ title: "Cloud-Based Long-Term Bridge Monitoring System"
 
 # Cloud-Based Long-Term Bridge Monitoring System
 
-<div class="quick-links">
-  <a href="/projects/">Back to Projects</a>
-  <a href="/publications/">Related Publications</a>
-</div>
-
 This project developed long-term bridge monitoring workflows using IoT sensors, cloud infrastructure, and engineering interpretation of field data.
 
 ## Focus
