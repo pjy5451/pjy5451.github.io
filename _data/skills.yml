@@ -1,6 +1,6 @@
 groups:
 - category: Programming & Data
-  tools: Python, MATLAB, R, C, JavaScript/Node.js, SQL
+  tools: Python, MATLAB, R, C, JavaScript/Node.js, SQL, PostgreSQL
 - category: AI/ML Libraries
   tools: PyTorch, TensorFlow, scikit-learn, pandas, NumPy, YOLO
 - category: Engineering Software
