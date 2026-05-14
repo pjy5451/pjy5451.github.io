@@ -564,8 +564,8 @@ span.pub__title {
 
 .project-card {
   display: grid;
-  grid-template-rows: 112px minmax(0, 1fr);
-  min-height: 265px;
+  grid-template-rows: 145px minmax(0, 1fr);
+  min-height: 300px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
@@ -580,26 +580,10 @@ span.pub__title {
 }
 
 .project-card__media {
-  display: flex;
-  align-items: flex-end;
-  padding: 16px;
   border-bottom: 1px solid var(--line);
   background:
     linear-gradient(135deg, rgba(29, 95, 159, 0.14), transparent 58%),
     var(--soft);
-}
-
-.project-card__media span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 25px;
-  padding: 3px 8px;
-  border: 1px solid var(--chip-border);
-  border-radius: 999px;
-  color: var(--chip-text);
-  background: var(--chip-bg);
-  font-size: 0.76rem;
-  font-weight: 800;
 }
 
 .project-card__body {
