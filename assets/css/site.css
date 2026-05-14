@@ -315,6 +315,10 @@ strong {
   line-height: 1.25;
 }
 
+.keyword-chips--section {
+  margin: 8px 0 12px;
+}
+
 .entry {
   display: grid;
   grid-template-columns: 130px minmax(0, 1fr);
@@ -330,6 +334,17 @@ strong {
 .entry__body p:last-child,
 .entry__body ul:last-child {
   margin-bottom: 0;
+}
+
+.degree-notes,
+.compact-list {
+  margin: 3px 0 0;
+  padding-left: 20px;
+}
+
+.degree-notes li,
+.compact-list li {
+  margin: 2px 0;
 }
 
 .coursework {
@@ -373,7 +388,31 @@ strong {
 }
 
 .coursework .chip-list {
-  margin: 12px 0 0;
+  margin: 4px 0 0;
+}
+
+.coursework-groups {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.coursework-groups h3 {
+  margin: 0 0 3px;
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.chip-list--coursework {
+  gap: 5px;
+}
+
+.chip-list--coursework li {
+  min-height: 25px;
+  padding: 3px 9px;
+  font-size: 0.82rem;
+  font-weight: 600;
 }
 
 .pub {
@@ -416,6 +455,76 @@ span.pub__title {
   display: inline-block;
   margin-right: 12px;
   font-size: 0.95rem;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 12px 0 28px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 210px;
+  padding: 17px 18px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.project-card:hover {
+  border-color: var(--link);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.project-card__type {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+}
+
+.project-card h3 {
+  margin: 8px 0 4px;
+  color: var(--link);
+  font-size: 1.08rem;
+  line-height: 1.3;
+}
+
+.project-card__period {
+  color: var(--accent);
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+}
+
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: auto 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project-card__tags li {
+  margin: 0;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
 .note-list {
@@ -468,5 +577,9 @@ span.pub__title {
 
   .entry__date {
     margin-bottom: 4px;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
   }
 }

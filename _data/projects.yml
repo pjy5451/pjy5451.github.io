@@ -1,0 +1,87 @@
+groups:
+- title: Transportation Monitoring Systems
+  projects:
+  - title: High-Speed WIM System Development
+    period: 2025-present
+    href: /projects/weight-in-motion/
+    summary: High-speed vehicle load sensing workflows for WIM DAQ, signal processing, and automatic load-event interval detection.
+    tags:
+    - WIM
+    - DAQ
+    - Load Detection
+  - title: OBM (On-Board Mass) System Development
+    period: 2024-present
+    href: /projects/on-board-mass/
+    summary: Vehicle-mounted state sensing and dynamic operating-weight correction under real driving conditions.
+    tags:
+    - OBM
+    - Vehicle Sensing
+    - Dynamic Weight
+  - title: Freight Train Monitoring System
+    period: Field monitoring
+    href: /projects/freight-train-monitoring/
+    summary: Event-oriented sensing and signal review workflows for freight and rail-related transportation monitoring.
+    tags:
+    - Freight
+    - Field Data
+    - Safety
+  - title: Prefabricated Structure Transportation Monitoring System
+    period: 2020-2023
+    href: /projects/portable-sensing/
+    summary: Portable sensing for precast concrete members during lifting, loading, transportation, and erection.
+    tags:
+    - Portable Sensing
+    - Precast
+    - Field Deployment
+- title: Structural Monitoring Systems
+  projects:
+  - title: Cloud-Based Long-Term Bridge Monitoring System
+    period: 2021-2024
+    href: /projects/bridge-monitoring/
+    summary: Long-term bridge monitoring using IoT sensors, synchronized strain and acceleration data, cloud storage, and dashboard review.
+    tags:
+    - Bridge Monitoring
+    - IoT
+    - Cloud
+  - title: Bridge Load-Carrying Capacity Evaluation System
+    period: Field testing
+    href: /projects/bridge-load-capacity/
+    summary: Sensor installation, response-history review, vibration analysis, and load-related interpretation for bridge evaluation.
+    tags:
+    - Load Test
+    - Bridge
+    - Evaluation
+  - title: QR-Based Bridge Maintenance Monitoring System
+    period: 2020-2023
+    href: /projects/qr-lifecycle-monitoring/
+    summary: QR-linked maintenance records using low-power strain sensing, e-paper visualization, cloud databases, and AI-assisted reports.
+    tags:
+    - QR Monitoring
+    - Lifecycle
+    - Cloud Reports
+  - title: Port Structure Monitoring System
+    period: 2021-2023
+    href: /projects/quay-wall-monitoring/
+    summary: Multisensory quay wall monitoring with ruggedized packaging, waterproof enclosures, cloud communication, and event recognition.
+    tags:
+    - Port Structure
+    - Event Detection
+    - AI
+- title: Smart Sensing Systems
+  projects:
+  - title: Smart Concrete Sensing System
+    period: 2024-2025
+    href: /projects/smart-concrete-sensing/
+    summary: Concrete crack trajectory monitoring using a resistive touchpad-based sensing concept and measurement-history visualization.
+    tags:
+    - Smart Concrete
+    - Crack Sensing
+    - Visualization
+  - title: Seismic Sensing System
+    period: 2019
+    href: /projects/seismic-sensing/
+    summary: Low-cost IoT earthquake sensing using STA/LTA triggering, time and frequency-domain classification, and BLE notification.
+    tags:
+    - Seismic Sensing
+    - IoT
+    - BLE

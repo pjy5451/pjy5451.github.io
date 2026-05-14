@@ -10,7 +10,17 @@ title: "About"
 
 <p>I have experience <strong>deploying and operating monitoring systems on actual structures</strong>, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
 
-<div class="keyword-chips" aria-label="Representative research keywords">
+<div class="quick-links">
+  <a href="/cv/">CV</a>
+  <a href="/publications/">Publications</a>
+  <a href="/talks/">Talks</a>
+  <a href="/research/">Research</a>
+  <a href="/projects/">Projects</a>
+</div>
+
+## Research Interests
+
+<div class="keyword-chips keyword-chips--section" aria-label="Representative research keywords">
   <span>Structural Health Monitoring</span>
   <span>Bridge Monitoring</span>
   <span>WIM / OBM Systems</span>
@@ -20,15 +30,6 @@ title: "About"
   <span>Field Data Analysis</span>
   <span>AI-based Signal Interpretation</span>
 </div>
-
-<div class="quick-links">
-  <a href="/cv/">CV</a>
-  <a href="/publications/">Publications</a>
-  <a href="/research/">Research</a>
-  <a href="/projects/">Projects</a>
-</div>
-
-## Research
 
 - **Structural Health Monitoring:** bridge monitoring, long-term field measurements, displacement estimation, and response interpretation.
 - **Sensing Systems:** IoT sensing, wireless data acquisition, portable monitoring systems, embedded measurement logic, and field packaging.
@@ -40,8 +41,10 @@ title: "About"
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
     <p><strong>M.S. in Structural Engineering</strong>, Chung-Ang University, Seoul, South Korea</p>
-    <p>Thesis: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></p>
-    <p>Advisor: Jongwoong Park</p>
+    <ul class="degree-notes">
+      <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></li>
+      <li>Advisor: Jongwoong Park</li>
+    </ul>
   </div>
 </div>
 
@@ -49,7 +52,9 @@ title: "About"
   <div class="entry__date">2017 - 2022</div>
   <div class="entry__body">
     <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong>, Chung-Ang University, Seoul, South Korea</p>
-    <p>Dissertation: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></p>
+    <ul class="degree-notes">
+      <li>Dissertation: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></li>
+    </ul>
   </div>
 </div>
 
@@ -59,9 +64,36 @@ title: "About"
   <div class="entry__date">2024 - Present</div>
   <div class="entry__body">
     <p><strong>Researcher, UDNS</strong></p>
-    <p>I am involved in the research and development of high-speed WIM, OBM, sensor systems, embedded technologies, data analysis, and field deployment technologies in the field of AI-based freight transportation safety technologies.</p>
+    <ul class="compact-list">
+      <li>Develop high-speed WIM and OBM systems for AI-based freight transportation safety.</li>
+      <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
+      <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
+    </ul>
   </div>
 </div>
+
+<div class="entry">
+  <div class="entry__date">2019 - 2024</div>
+  <div class="entry__body">
+    <p><strong>Researcher, Chung-Ang University</strong></p>
+    <ul class="compact-list">
+      <li>Developed IoT sensor and cloud-based systems for long-term bridge monitoring.</li>
+      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
+      <li>Installed and operated monitoring systems on bridges and field structures in Korea.</li>
+      <li>Built portable sensing systems for precast member transportation and load-testing applications.</li>
+      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
+      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
+    </ul>
+  </div>
+</div>
+
+## Skills
+
+- **Programming and AI:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
+- **Cloud and deployment:** AWS, Docker, cloud-based monitoring workflows, databases, dashboard systems.
+- **Sensing and embedded systems:** IoT sensors, wireless sensing, DAQ workflows, embedded systems, field testing.
+- **Engineering and design tools:** SolidWorks, Altium, Simulink.
+- **Media and documentation:** Adobe Premiere Pro, technical reporting, field data visualization.
 
 ## Selected Work
 

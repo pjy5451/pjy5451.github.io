@@ -6,44 +6,24 @@ title: "Publications"
 
 <h1>Publications</h1>
 
-<p>You can also find my articles on my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.</p>
-
 {% assign pub_lang = "en" %}
+
+<h2>Articles</h2>
 {% for section in site.data.publications.sections %}
-  <h2>{{ section.title[pub_lang] | default: section.title.en }}</h2>
-  {% for item in section.entries %}
-    {% assign item_title = item.title[pub_lang] | default: item.title.en %}
-    {% assign item_href = item.href[pub_lang] | default: item.href.en %}
-    <article class="pub">
-      {% if item_href %}
-        <a class="pub__title" href="{{ item_href }}">{{ item_title }}</a>
-      {% else %}
-        <span class="pub__title">{{ item_title }}</span>
-      {% endif %}
-      <p class="pub__venue"><em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>, {{ item.year }}</p>
-      <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
-      {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
-      {% if actions %}
-        {% assign has_visible_action = false %}
-        {% for action in actions %}
-          {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label contains "Cited by" %}
-            {% assign has_visible_action = true %}
-          {% endunless %}
-        {% endfor %}
-        {% if has_visible_action %}
-        <p class="pub__links">
-          {% for action in actions %}
-            {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label contains "Cited by" %}
-              {% if action.href %}
-                <a href="{{ action.href }}">{{ action.label }}</a>
-              {% else %}
-                <span>{{ action.label }}</span>
-              {% endif %}
-            {% endunless %}
-          {% endfor %}
-        </p>
-        {% endif %}
-      {% endif %}
-    </article>
-  {% endfor %}
+  {% assign section_title = section.title.en %}
+  {% if section_title == "Journal Articles" or section_title == "Technical Articles" or section_title == "Preprints" %}
+    {% for item in section.entries %}
+      {% include publication_item.html item=item pub_lang=pub_lang %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+{% for section in site.data.publications.sections %}
+  {% assign section_title = section.title.en %}
+  {% if section_title == "Patents" %}
+    <h2>Patents</h2>
+    {% for item in section.entries %}
+      {% include publication_item.html item=item pub_lang=pub_lang %}
+    {% endfor %}
+  {% endif %}
 {% endfor %}

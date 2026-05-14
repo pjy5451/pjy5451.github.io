@@ -6,38 +6,23 @@ title: "Projects"
 
 # Projects
 
-## Transportation Monitoring Systems
+<p class="intro">Selected projects across transportation monitoring, structural monitoring, and smart sensing systems.</p>
 
-- **High-Speed WIM System Development**
-  2025-present. Load segment detection, high-speed vehicle sensing, WIM DAQ development, filtering/downsampling, and dynamic truck-weight correction workflows.
-
-- **OBM (On-Board Mass) System Development**
-  2024-present. Vehicle-mounted state sensing, sensor-based mass estimation, and FIR-filter-based dynamic operating-weight correction under real driving conditions.
-
-- **Freight Train Monitoring System**
-  Field sensing workflows for freight and rail-related monitoring, including signal review, event-oriented measurement records, and data interpretation for transportation safety.
-
-- **Prefabricated Structure Transportation Monitoring System**
-  2020-2023. Portable JANET sensing for transportation-stage monitoring of precast concrete members during lifting, loading, driving, and erection.
-
-## Structural Monitoring Systems
-
-- **Cloud-Based Long-Term Bridge Monitoring System**
-  2021-2024. Long-term bridge response monitoring using stand-alone IoT sensors, synchronized strain/acceleration sensing, cloud databases, FFT analysis, displacement estimation, and dashboard visualization.
-
-- **Bridge Load-Carrying Capacity Evaluation System**
-  Field data workflows for bridge load testing and performance evaluation, including sensor installation, response history review, vibration characteristics, and load-related interpretation.
-
-- **QR-Based Bridge Maintenance Monitoring System**
-  2020-2023. QR-linked lifecycle and maintenance monitoring records using ultra-low-power strain sensing, e-paper QR visualization, chatbot upload, cloud databases, and AI-assisted report generation.
-
-- **Port Structure Monitoring System**
-  2021-2023. Multisensory monitoring for quay wall and port structure events using ruggedized sensor packaging, waterproof enclosures, cloud communication, event triggering, and AI-assisted event recognition.
-
-## Smart Sensing Systems
-
-- **Smart Concrete Sensing System**
-  2024-2025. Concrete crack trajectory monitoring using a resistive touchpad-based sensing concept and long-term measurement-history visualization.
-
-- **Seismic Sensing System**
-  2019. Low-cost IoT earthquake sensing using STA/LTA event triggering, time-domain and frequency-domain classification, BLE notification, and shaking-table validation.
+{% for group in site.data.projects.groups %}
+  <h2>{{ group.title }}</h2>
+  <div class="project-grid">
+    {% for project in group.projects %}
+      <a class="project-card" href="{{ project.href | relative_url }}">
+        <span class="project-card__type">{{ group.title }}</span>
+        <h3>{{ project.title }}</h3>
+        <p class="project-card__period">{{ project.period }}</p>
+        <p>{{ project.summary }}</p>
+        <ul class="project-card__tags" aria-label="Project keywords">
+          {% for tag in project.tags %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      </a>
+    {% endfor %}
+  </div>
+{% endfor %}

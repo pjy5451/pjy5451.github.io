@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /talks/
+title: "Talks"
+---
+
+<h1>Talks</h1>
+
+{% assign pub_lang = "en" %}
+{% for section in site.data.publications.sections %}
+  {% assign section_title = section.title.en %}
+  {% if section_title == "Conference Presentations" %}
+    {% for item in section.entries %}
+      {% include publication_item.html item=item pub_lang=pub_lang %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

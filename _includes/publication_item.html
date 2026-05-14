@@ -1,0 +1,39 @@
+{% assign item = include.item %}
+{% assign pub_lang = include.pub_lang | default: "en" %}
+{% assign item_title = item.title[pub_lang] | default: item.title.en %}
+{% assign item_href = "" %}
+{% if item.href %}
+  {% assign item_href = item.href[pub_lang] | default: item.href.en %}
+{% endif %}
+
+<article class="pub">
+  {% if item_href != "" %}
+    <a class="pub__title" href="{{ item_href }}">{{ item_title }}</a>
+  {% else %}
+    <span class="pub__title">{{ item_title }}</span>
+  {% endif %}
+  <p class="pub__venue"><em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>, {{ item.year }}</p>
+  <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
+  {% if item.actions %}
+    {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
+    {% assign has_visible_action = false %}
+    {% for action in actions %}
+      {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label contains "Cited by" %}
+        {% assign has_visible_action = true %}
+      {% endunless %}
+    {% endfor %}
+    {% if has_visible_action %}
+    <p class="pub__links">
+      {% for action in actions %}
+        {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label contains "Cited by" %}
+          {% if action.href %}
+            <a href="{{ action.href }}">{{ action.label }}</a>
+          {% else %}
+            <span>{{ action.label }}</span>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </p>
+    {% endif %}
+  {% endif %}
+</article>
