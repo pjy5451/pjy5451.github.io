@@ -107,7 +107,7 @@ title: "CV"
 
 - **Programming and AI:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
 - **Cloud and deployment:** AWS, Docker, cloud-based monitoring workflows, databases, dashboard systems.
-- **Engineering and design tools:** SolidWorks, Altium, Simulink.
+- **Engineering and design tools:** SolidWorks, Altium, Simulink, NI DIAdem.
 - **Research and analysis:** SHM, WIM/OBM, sensor data analysis, AI-based event detection, displacement estimation, signal processing.
 - **Media and documentation:** Adobe Premiere Pro, technical reporting, field data visualization.
 
@@ -216,6 +216,16 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
 - Gwangju Seo-gu Scholarship Foundation Scholarship (~$1,100), Gwangju Seo-gu Scholarship Foundation, Sep. 2018 - Feb. 2019.
 - University Innovation Support Scholarship (~$2,000), Chung-Ang University, Sep. 2018 - Feb. 2022.
 
-## Teaching & Other Activities
+## Volunteer & Service
 
-Details will be added after confirmation.
+<div class="entry">
+  <div class="entry__date">2021.12 - 2022.01</div>
+  <div class="entry__body">
+    <p><strong>Da Vinci Dream Discovery Program</strong>, Chung-Ang University</p>
+    <ul class="compact-list">
+      <li>Planned and led the overall program for 1,000 middle and high school students across 48 sessions.</li>
+      <li>Represented a civil and environmental engineering research lab and introduced project-based engineering topics.</li>
+      <li>Organized four technical parts: Arduino introduction, underground exploration, Python visualization, and Arduino-based smart earthquake response system implementation.</li>
+    </ul>
+  </div>
+</div>
