@@ -6,7 +6,7 @@ title: "Field Sites"
 
 # Field Sites
 
-This page summarizes real-world sites where I have deployed, operated, or reviewed sensing and monitoring systems. I keep this page separate from Research because it is more about field context, measured data, and deployment experience than project categories.
+Field sites visited for testing and applying developed sensing systems under real monitoring conditions.
 
 {% for group in site.data.field_sites.groups %}
   <h2>{{ group.title }}</h2>
