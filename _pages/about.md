@@ -81,7 +81,6 @@ title: "About"
 
 - **Programming and AI:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
 - **Cloud and deployment:** AWS, Docker, cloud-based monitoring workflows, databases, dashboard systems.
-- **Sensing and embedded systems:** IoT sensors, wireless sensing, DAQ workflows, embedded systems, field testing.
 - **Engineering and design tools:** SolidWorks, Altium, Simulink.
 - **Media and documentation:** Adobe Premiere Pro, technical reporting, field data visualization.
 

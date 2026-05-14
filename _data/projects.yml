@@ -4,7 +4,7 @@ groups:
   - title: High-Speed WIM System Development
     period: 2025-present
     href: /projects/weight-in-motion/
-    summary: High-speed vehicle load sensing workflows for WIM DAQ, signal processing, and automatic load-event interval detection.
+    summary: WIM DAQ, high-speed load sensing, and automatic load-event detection.
     tags:
     - WIM
     - DAQ
@@ -12,7 +12,7 @@ groups:
   - title: OBM (On-Board Mass) System Development
     period: 2024-present
     href: /projects/on-board-mass/
-    summary: Vehicle-mounted state sensing and dynamic operating-weight correction under real driving conditions.
+    summary: Vehicle-mounted sensing and dynamic weight correction during driving.
     tags:
     - OBM
     - Vehicle Sensing
@@ -20,7 +20,7 @@ groups:
   - title: Freight Train Monitoring System
     period: Field monitoring
     href: /projects/freight-train-monitoring/
-    summary: Event-oriented sensing and signal review workflows for freight and rail-related transportation monitoring.
+    summary: Event-oriented sensing and signal review for freight monitoring.
     tags:
     - Freight
     - Field Data
@@ -28,7 +28,7 @@ groups:
   - title: Prefabricated Structure Transportation Monitoring System
     period: 2020-2023
     href: /projects/portable-sensing/
-    summary: Portable sensing for precast concrete members during lifting, loading, transportation, and erection.
+    summary: Portable sensing for precast members during transportation and erection.
     tags:
     - Portable Sensing
     - Precast
@@ -38,7 +38,7 @@ groups:
   - title: Cloud-Based Long-Term Bridge Monitoring System
     period: 2021-2024
     href: /projects/bridge-monitoring/
-    summary: Long-term bridge monitoring using IoT sensors, synchronized strain and acceleration data, cloud storage, and dashboard review.
+    summary: Long-term bridge monitoring using IoT sensors, cloud storage, and dashboards.
     tags:
     - Bridge Monitoring
     - IoT
@@ -46,7 +46,7 @@ groups:
   - title: Bridge Load-Carrying Capacity Evaluation System
     period: Field testing
     href: /projects/bridge-load-capacity/
-    summary: Sensor installation, response-history review, vibration analysis, and load-related interpretation for bridge evaluation.
+    summary: Field sensing and response interpretation for bridge load testing.
     tags:
     - Load Test
     - Bridge
@@ -54,7 +54,7 @@ groups:
   - title: QR-Based Bridge Maintenance Monitoring System
     period: 2020-2023
     href: /projects/qr-lifecycle-monitoring/
-    summary: QR-linked maintenance records using low-power strain sensing, e-paper visualization, cloud databases, and AI-assisted reports.
+    summary: QR-linked maintenance records with low-power sensing and cloud reports.
     tags:
     - QR Monitoring
     - Lifecycle
@@ -62,7 +62,7 @@ groups:
   - title: Port Structure Monitoring System
     period: 2021-2023
     href: /projects/quay-wall-monitoring/
-    summary: Multisensory quay wall monitoring with ruggedized packaging, waterproof enclosures, cloud communication, and event recognition.
+    summary: Quay wall monitoring with ruggedized sensors and event recognition.
     tags:
     - Port Structure
     - Event Detection
@@ -72,7 +72,7 @@ groups:
   - title: Smart Concrete Sensing System
     period: 2024-2025
     href: /projects/smart-concrete-sensing/
-    summary: Concrete crack trajectory monitoring using a resistive touchpad-based sensing concept and measurement-history visualization.
+    summary: Crack trajectory sensing and long-term measurement visualization.
     tags:
     - Smart Concrete
     - Crack Sensing
@@ -80,7 +80,7 @@ groups:
   - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
-    summary: Low-cost IoT earthquake sensing using STA/LTA triggering, time and frequency-domain classification, and BLE notification.
+    summary: Low-cost IoT earthquake sensing with triggering and BLE notification.
     tags:
     - Seismic Sensing
     - IoT

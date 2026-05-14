@@ -448,6 +448,14 @@ span.pub__title {
   margin: 2px 0;
 }
 
+.pub__authors strong,
+.talk__authors strong {
+  font-weight: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
+
 .pub__venue {
   color: var(--muted);
 }
@@ -513,7 +521,7 @@ span.pub__title {
 
 .project-card {
   display: grid;
-  grid-template-rows: 72px minmax(0, 1fr);
+  grid-template-rows: 112px minmax(0, 1fr);
   min-height: 265px;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -531,7 +539,7 @@ span.pub__title {
 .project-card__media {
   display: flex;
   align-items: flex-end;
-  padding: 12px;
+  padding: 16px;
   border-bottom: 1px solid var(--line);
   background:
     linear-gradient(135deg, rgba(29, 95, 159, 0.14), transparent 58%),
@@ -557,16 +565,8 @@ span.pub__title {
   padding: 13px 13px 14px;
 }
 
-.project-card__type {
-  color: var(--muted);
-  font-size: 0.72rem;
-  font-weight: 700;
-  line-height: 1.25;
-  text-transform: uppercase;
-}
-
 .project-card h3 {
-  margin: 8px 0 4px;
+  margin: 0 0 4px;
   color: var(--link);
   font-size: 0.98rem;
   line-height: 1.3;

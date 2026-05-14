@@ -107,7 +107,6 @@ title: "CV"
 
 - **Programming and AI:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
 - **Cloud and deployment:** AWS, Docker, cloud-based monitoring workflows, databases, dashboard systems.
-- **Sensing and embedded systems:** IoT sensors, wireless sensing, DAQ workflows, embedded systems, field testing.
 - **Engineering and design tools:** SolidWorks, Altium, Simulink.
 - **Research and analysis:** SHM, WIM/OBM, sensor data analysis, AI-based event detection, displacement estimation, signal processing.
 - **Media and documentation:** Adobe Premiere Pro, technical reporting, field data visualization.
@@ -143,9 +142,10 @@ title: "CV"
 
 ## Publications
 
+- **Junyoung Park**, Junsik Shin, Jongbin Won. "Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation." <em>Measurement</em> (under review), 2026.
 - **Junyoung Park**, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung. "YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems." <em>Journal of the Korean Society of Civil Engineers</em>, 46(1), 95-104, 2026.
 - Junsik Shin, **Junyoung Park**, Jongbin Won, Jongwoong Park, Jiyoung Min. "Development of AI-Based Multisensory System for Monitoring Quay Wall Events." <em>Journal of Marine Science and Engineering</em>, 12(11), 1902, 2024.
-- **Junyoung Park**, Jinsik Kim, Jongwoo Kim, Yunbeom Cho. "Stability Assurance of a Dynamic State Information Measurement System for Trucks in Motion." <em>Journal of the Korean Society of Mechanical Technology</em>, 26(5), 1041-1046, 2024.
+- **Junyoung Park**, Jinsik Kim, Jongwoo Kim, Yunbeom Cho. "Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving." <em>Journal of the Korean Society of Mechanical Technology</em>, 26(5), 1041-1046, 2024.
 - SU Khayam, A Ajmal, **Junyoung Park**, IH Kim, Jongwoong Park. "Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model." <em>Sensors</em>, 23(11), 5040, 2023.
 - **Junyoung Park**, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park. "A Scalable Bridge Health Monitoring System Using IoT Sensor and Cloud Computing." Preprint, 2022.
 

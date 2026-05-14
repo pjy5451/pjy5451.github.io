@@ -5,6 +5,30 @@ sections:
   entries:
   - year: '2026'
     tags:
+    - Bridge
+    - Sensor
+    - Load Test
+    title:
+      en: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
+      ko: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won
+      ko: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won
+    venue:
+      en: Measurement (under review)
+      ko: Measurement (under review)
+    actions:
+      en:
+      - label: Source Document
+        href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+      ko:
+      - label: Source Document
+        href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+    href:
+      en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+      ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+  - year: '2026'
+    tags:
     - WIM
     - AI
     - Data
@@ -67,7 +91,7 @@ sections:
     - OBM
     - Signal
     title:
-      en: Stability Assurance of a Dynamic State Information Measurement System for Trucks in Motion
+      en: Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving
       ko: 주행 중 트럭의 동적 상태 정보 측정 시스템 안정성 확보
     authors:
       en: <strong>Junyoung Park</strong>, Jinsik Kim, Jongwoo Kim, Yunbeom Cho
@@ -317,32 +341,6 @@ sections:
     en: Preprints
     ko: Preprints
   entries:
-  - year: '2026'
-    tags:
-    - Bridge
-    - Sensor
-    - Load Test
-    title:
-      en: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
-      ko: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
-    authors:
-      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won
-      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won
-    venue:
-      en: SSRN working paper. Manuscript in progress.
-      ko: SSRN working paper. Manuscript in progress.
-    actions:
-      en:
-      - label: SSRN
-        href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
-      - label: In Progress
-      ko:
-      - label: SSRN
-        href: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
-      - label: In Progress
-    href:
-      en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
-      ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
   - year: '2022'
     tags:
     - Bridge
@@ -440,8 +438,8 @@ sections:
       ko: 'QR SENSOR: A Citizen-Assisted, QR-Based Sensory Data Acquisition and Cloud Computing Approach for Structural Health
         Monitoring'
     authors:
-      en: Jong-Woong Park, <strong>Junyoung Park</strong>, C. Min
-      ko: 박종웅, <strong>박준영</strong>, 민찬홍
+      en: Jong-Woong Park, <strong>Junyoung Park</strong>, Chaemin Kim
+      ko: 박종웅, <strong>박준영</strong>, 김채민
     venue:
       en: EMI/EMC 2024. International conference presentation, 2024-05-20.
       ko: EMI/EMC 2024. 국제학술대회 발표, 2024-05-20.

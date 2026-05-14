@@ -9,13 +9,21 @@ title: "Publications"
 {% assign pub_lang = "en" %}
 
 <h2>Articles</h2>
-{% for section in site.data.publications.sections %}
-  {% assign section_title = section.title.en %}
-  {% if section_title == "Journal Articles" or section_title == "Technical Articles" or section_title == "Preprints" %}
-    {% for item in section.entries %}
-      {% include publication_item.html item=item pub_lang=pub_lang %}
+{% assign article_years = "2026,2024,2023,2022,2021,2020" | split: "," %}
+{% assign article_sections = "Journal Articles,Preprints,Technical Articles" | split: "," %}
+{% for article_year in article_years %}
+  {% for article_section in article_sections %}
+    {% for section in site.data.publications.sections %}
+      {% assign section_title = section.title.en %}
+      {% if section_title == article_section %}
+        {% for item in section.entries %}
+          {% if item.year == article_year %}
+            {% include publication_item.html item=item pub_lang=pub_lang %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     {% endfor %}
-  {% endif %}
+  {% endfor %}
 {% endfor %}
 
 {% for section in site.data.publications.sections %}

@@ -13,7 +13,7 @@ title: "Conference Presentations"
     <div class="talk-list">
     {% for item in section.entries %}
       {% assign item_title = item.title[pub_lang] | default: item.title.en %}
-      {% assign item_authors = item.authors[pub_lang] | default: item.authors.en | replace: "<strong>", "" | replace: "</strong>", "" %}
+      {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
       <article class="talk">
         <div class="talk__year">{{ item.year }}</div>
         <div class="talk__body">

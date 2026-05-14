@@ -17,7 +17,6 @@ title: "Projects"
           <span>{{ project.tags | first }}</span>
         </div>
         <div class="project-card__body">
-          <span class="project-card__type">{{ group.title }}</span>
           <h3>{{ project.title }}</h3>
           <p class="project-card__period">{{ project.period }}</p>
           <p>{{ project.summary }}</p>
