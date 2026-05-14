@@ -83,4 +83,7 @@ title: "About"
 
 ## Hobbies
 
-Swimming and drumming.
+<div class="hobby-list" aria-label="Hobbies">
+  <span><span aria-hidden="true">🏊</span> Swimming</span>
+  <span><span aria-hidden="true">🥁</span> Drumming</span>
+</div>

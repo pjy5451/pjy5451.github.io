@@ -355,6 +355,28 @@ strong {
   margin: 8px 0 12px;
 }
 
+.hobby-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 24px;
+}
+
+.hobby-list span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 32px;
+  padding: 5px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text);
+  background: var(--soft);
+  font-size: 0.92rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .entry {
   display: grid;
   grid-template-columns: 130px minmax(0, 1fr);
