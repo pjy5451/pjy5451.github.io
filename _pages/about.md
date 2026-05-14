@@ -18,7 +18,7 @@ title: "About"
   <span>WIM / OBM Systems</span>
   <span>IoT Sensing</span>
   <span>Cloud-based Monitoring</span>
-  <span>AI-based Signal Interpretation</span>
+  <span>AI for Physical Systems</span>
 </div>
 
 - **Structural Health Monitoring:** bridge monitoring, long-term field measurements, displacement estimation, and response interpretation.
