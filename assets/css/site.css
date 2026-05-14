@@ -387,6 +387,31 @@ strong {
   margin: 2px 0;
 }
 
+.skills-table {
+  width: 100%;
+  margin: 10px 0 24px;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.skills-table th,
+.skills-table td {
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.skills-table th {
+  width: 180px;
+  color: var(--text);
+  font-weight: 700;
+  text-align: left;
+}
+
+.skills-table td {
+  color: var(--text);
+}
+
 .coursework {
   margin-top: 10px;
 }
@@ -606,12 +631,18 @@ span.pub__title {
   margin-bottom: 10px;
 }
 
-.project-card__tag {
+.project-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  margin-top: auto;
+}
+
+.project-card__tags span {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  align-self: center;
-  margin-top: auto;
   padding: 3px 8px;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -686,5 +717,23 @@ span.pub__title {
 @media (max-width: 620px) {
   .project-grid {
     grid-template-columns: 1fr;
+  }
+
+  .skills-table,
+  .skills-table tbody,
+  .skills-table tr,
+  .skills-table th,
+  .skills-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .skills-table th {
+    padding: 9px 0 2px;
+    border-bottom: 0;
+  }
+
+  .skills-table td {
+    padding: 0 0 9px;
   }
 }

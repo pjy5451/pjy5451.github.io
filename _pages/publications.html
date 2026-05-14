@@ -31,7 +31,7 @@ title: "Publications"
   {% if section_title == "Patents" %}
     <h2>Patents</h2>
     {% for item in section.entries %}
-      {% include publication_item.html item=item pub_lang=pub_lang hide_authors=true %}
+      {% include publication_item.html item=item pub_lang=pub_lang hide_authors=true hide_year=true %}
     {% endfor %}
   {% endif %}
 {% endfor %}

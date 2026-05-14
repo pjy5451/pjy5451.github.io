@@ -30,7 +30,7 @@ title: "About"
 <div class="entry">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
-    <p><strong>M.S. in Structural Engineering</strong>, Chung-Ang University, Seoul, South Korea</p>
+    <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea</p>
     <ul class="degree-notes">
       <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></li>
       <li>Advisor: Jongwoong Park</li>
@@ -79,13 +79,43 @@ title: "About"
 
 ## Skills
 
-- **Programming and AI:** Python, MATLAB, C, JavaScript/Node.js, PyTorch, TensorFlow.
-- **Cloud and deployment:** AWS, Docker, cloud-based monitoring workflows, databases, dashboard systems.
-- **Engineering and design tools:** SolidWorks, Altium, Simulink.
-- **Media and documentation:** Adobe Premiere Pro, technical reporting, field data visualization.
+<table class="skills-table">
+  <tbody>
+    <tr>
+      <th>Programming</th>
+      <td>Python, MATLAB, C, JavaScript/Node.js</td>
+    </tr>
+    <tr>
+      <th>AI/ML</th>
+      <td>PyTorch, TensorFlow, YOLO, machine learning, deep learning</td>
+    </tr>
+    <tr>
+      <th>Data & Statistics</th>
+      <td>Statistics, signal processing, sensor data analysis, event detection</td>
+    </tr>
+    <tr>
+      <th>Simulation & Modeling</th>
+      <td>Simulink, structural dynamics, displacement estimation, surrogate modeling</td>
+    </tr>
+    <tr>
+      <th>CAD & Hardware Design</th>
+      <td>SolidWorks, Altium, CAD, embedded systems</td>
+    </tr>
+    <tr>
+      <th>Measurement & DAQ</th>
+      <td>NI DIAdem, DAQ workflows, IoT sensors, WIM/OBM systems</td>
+    </tr>
+    <tr>
+      <th>Cloud & Dev Tools</th>
+      <td>AWS, Docker, Git</td>
+    </tr>
+    <tr>
+      <th>Media</th>
+      <td>Adobe Premiere Pro</td>
+    </tr>
+  </tbody>
+</table>
 
-## Selected Work
+## Hobbies
 
-- **High-speed WIM and OBM systems:** DAQ development, high-speed load signals, load-event interval detection, and dynamic truck-weight correction.
-- **Bridge monitoring systems:** synchronized strain/acceleration sensing, cloud upload, database storage, dashboard visualization, FFT analysis, and displacement estimation.
-- **Portable field sensing:** transportation-stage monitoring for precast members, port-structure event monitoring, and ruggedized multisensory deployment.
+Swimming and drumming.

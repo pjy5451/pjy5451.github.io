@@ -12,7 +12,7 @@
   {% else %}
     <span class="pub__title">{{ item_title }}</span>
   {% endif %}
-  <p class="pub__venue"><em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>, {{ item.year }}</p>
+  <p class="pub__venue"><em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}</p>
   {% unless include.hide_authors %}
     <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
   {% endunless %}

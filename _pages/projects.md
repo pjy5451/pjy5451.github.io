@@ -16,7 +16,11 @@ title: "Research"
           <h3>{{ project.title }}</h3>
           <p class="project-card__period">{{ project.period }}</p>
           <p>{{ project.summary }}</p>
-          <span class="project-card__tag">{{ project.tags | first }}</span>
+          <div class="project-card__tags">
+            {% for tag in project.tags limit:2 %}
+              <span>{{ tag }}</span>
+            {% endfor %}
+          </div>
         </div>
       </a>
     {% endfor %}

@@ -2,7 +2,7 @@ groups:
 - title: Transportation Monitoring Systems
   projects:
   - title: High-Speed WIM System Development
-    period: 2025-present
+    period: 2024-present
     href: /projects/weight-in-motion/
     summary: WIM DAQ, high-speed load sensing, and automatic load-event detection.
     tags:
