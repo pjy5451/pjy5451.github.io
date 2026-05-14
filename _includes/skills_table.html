@@ -1,0 +1,10 @@
+<table class="skills-table">
+  <tbody>
+    {% for group in site.data.skills.groups %}
+      <tr>
+        <th>{{ group.category }}</th>
+        <td>{{ group.tools }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

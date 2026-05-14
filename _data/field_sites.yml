@@ -1,0 +1,61 @@
+groups:
+- title: Bridge and Infrastructure Sites
+  sites:
+  - name: Seongsan Bridge
+    summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
+    data:
+    - Strain and acceleration records
+    - Vibration characteristics and displacement-related estimation data
+    - Cloud upload status and monitoring logs
+  - name: Seosomun Overpass
+    summary: Field deployment and bridge response monitoring under real operating conditions.
+    data:
+    - Strain, acceleration, and temperature records
+    - Vibration response and sensor communication status
+    - System operation and field maintenance records
+  - name: Paldang Bridge / Paldang Overpass
+    summary: Bridge monitoring and inspection-related measurement experience.
+    data:
+    - Structural response histories
+    - Vibration characteristics and installation records
+    - Monitoring-system reliability data
+  - name: Cheongdam Bridge and Other Bridge Sites
+    summary: Bridge inspection, diagnosis, and monitoring support across multiple field campaigns in Korea.
+    data:
+    - Sensor installation records
+    - Response histories and environmental conditions
+    - Engineering interpretation notes
+- title: Transportation and Vehicle Monitoring Sites
+  sites:
+  - name: WIM Field Tests
+    summary: High-speed vehicle load sensing and WIM DAQ validation under driving conditions.
+    data:
+    - High-speed load signals and load-event intervals
+    - Filtered and downsampled signal records
+    - Axle-related records and event labels
+  - name: OBM Field Validation
+    summary: Vehicle-mounted sensing for dynamic operating-weight estimation.
+    data:
+    - Vehicle-state signals
+    - Dynamic weight correction data
+    - Validation records against WIM-related conditions
+  - name: Freight and Rail-related Monitoring
+    summary: Event-oriented field sensing and signal review for transportation safety monitoring.
+    data:
+    - Event records and time histories
+    - Field measurement logs
+    - Signal review notes
+- title: Prefabricated and Port Structure Sites
+  sites:
+  - name: Precast Transportation Monitoring
+    summary: Portable sensing for precast members during lifting, loading, transportation, and erection.
+    data:
+    - Strain and acceleration records
+    - Movement-stage and transportation-event records
+    - Installation-stage response histories
+  - name: Port / Quay Wall Monitoring
+    summary: Ruggedized multisensory monitoring for quay wall and port-structure events.
+    data:
+    - Event-triggered sensor records
+    - Waterproof sensor operation logs
+    - Cloud communication data and AI-assisted event labels

@@ -8,7 +8,7 @@ title: "CV"
 
 <div class="quick-links cv-actions">
   <a class="cv-download" href="/assets/files/Junyoung_Park_CV.pdf">Download CV</a>
-  <span>Last updated: May 2026</span>
+  <span>Last updated: October 2023</span>
 </div>
 
 ## Education
@@ -105,42 +105,7 @@ title: "CV"
 
 ## Skills
 
-<table class="skills-table">
-  <tbody>
-    <tr>
-      <th>Programming</th>
-      <td>Python, MATLAB, C, JavaScript/Node.js</td>
-    </tr>
-    <tr>
-      <th>AI/ML</th>
-      <td>PyTorch, TensorFlow, YOLO, machine learning, deep learning</td>
-    </tr>
-    <tr>
-      <th>Data & Statistics</th>
-      <td>Statistics, signal processing, sensor data analysis, event detection</td>
-    </tr>
-    <tr>
-      <th>Simulation & Modeling</th>
-      <td>Simulink, structural dynamics, displacement estimation, surrogate modeling</td>
-    </tr>
-    <tr>
-      <th>CAD & Hardware Design</th>
-      <td>SolidWorks, Altium, CAD, embedded systems</td>
-    </tr>
-    <tr>
-      <th>Measurement & DAQ</th>
-      <td>NI DIAdem, DAQ workflows, IoT sensors, WIM/OBM systems</td>
-    </tr>
-    <tr>
-      <th>Cloud & Dev Tools</th>
-      <td>AWS, Docker, Git</td>
-    </tr>
-    <tr>
-      <th>Media</th>
-      <td>Adobe Premiere Pro</td>
-    </tr>
-  </tbody>
-</table>
+{% include skills_table.html %}
 
 ## Work Experience
 
