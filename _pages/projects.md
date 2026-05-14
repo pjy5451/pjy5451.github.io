@@ -26,3 +26,25 @@ title: "Research"
     {% endfor %}
   </div>
 {% endfor %}
+
+<h2>Funded Research</h2>
+
+{% assign funded_entries = site.data.funding.entries %}
+{% if funded_entries.size > 0 %}
+  <div class="funding-list">
+    {% for item in funded_entries %}
+      <article class="funding-item">
+        <div>
+          <h3>{{ item.title }}</h3>
+          {% if item.agency %}<p>{{ item.agency }}</p>{% endif %}
+        </div>
+        <div class="funding-item__meta">
+          {% if item.period %}<span>{{ item.period }}</span>{% endif %}
+          {% if item.role %}<span>{{ item.role }}</span>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="note-empty">Funding information will be added after project-level funding details are organized.</p>
+{% endif %}

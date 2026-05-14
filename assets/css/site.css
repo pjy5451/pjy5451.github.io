@@ -409,6 +409,41 @@ strong {
   margin: 2px 0;
 }
 
+.degree-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 8px;
+}
+
+.inline-action {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+a.inline-action {
+  color: var(--link);
+}
+
+a.inline-action:hover {
+  border-color: var(--link);
+  text-decoration: none;
+}
+
+.inline-action--disabled {
+  color: var(--muted);
+  background: var(--soft);
+  cursor: default;
+}
+
 .skills-table {
   width: 100%;
   margin: 10px 0 24px;
@@ -676,6 +711,53 @@ span.pub__title {
   line-height: 1.25;
 }
 
+.funding-list {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 28px;
+}
+
+.funding-item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, auto);
+  gap: 14px;
+  align-items: start;
+  padding: 14px 15px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--bg);
+}
+
+.funding-item h3 {
+  margin: 0 0 4px;
+  color: var(--link);
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.funding-item p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.funding-item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.funding-item__meta span {
+  display: inline-flex;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
 .field-site-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -929,6 +1011,14 @@ p.field-site-card__label {
 
   .field-site-grid {
     grid-template-columns: 1fr;
+  }
+
+  .funding-item {
+    grid-template-columns: 1fr;
+  }
+
+  .funding-item__meta {
+    justify-content: flex-start;
   }
 
   .field-site-card {
