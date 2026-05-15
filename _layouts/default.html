@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{% if page.url == "/" %}{{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" sizes="any">
     <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" type="image/svg+xml">
     <link rel="alternate icon" href="{{ '/images/favicon.ico' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}">
-    <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ '/images/apple-touch-icon-180x180.png' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+    <link rel="manifest" href="{{ '/images/manifest.json' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
     <script>
       (function() {
         var savedTheme = localStorage.getItem('theme');
