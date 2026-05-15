@@ -21,9 +21,9 @@ title: "About"
   <span>AI for Physical Systems</span>
 </div>
 
-- **Structural Health Monitoring:** bridge monitoring, long-term field measurements, displacement estimation, and response interpretation.
-- **Sensing Systems:** IoT sensing, wireless data acquisition, portable monitoring systems, embedded measurement logic, and field packaging.
-- **Data & AI:** WIM/OBM signal analysis, event detection, surrogate modeling, and AI-assisted interpretation of infrastructure data.
+- **Infrastructure Monitoring:** Structural Health Monitoring, bridge monitoring, WIM/OBM systems, long-term field measurements, and deployment-based validation.
+- **Sensing & Measurement Systems:** smart IoT sensors, embedded DAQ, wireless sensing, cloud-connected workflows, and field-ready packaging.
+- **AI for Engineering Data:** signal interpretation, event detection, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
 
 ## Education
 

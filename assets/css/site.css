@@ -185,10 +185,18 @@ html[data-theme="dark"] .theme-toggle__icon--sun {
 }
 
 .profile__role,
-.profile__degree {
+.profile__degree,
+.profile__location {
   margin: 4px 0 0;
   color: var(--muted);
   font-size: 0.98rem;
+}
+
+.profile__location {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
 }
 
 .profile__links {
