@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/bridge-monitoring/
 title: "Cloud-Based Long-Term Bridge Monitoring System"
+project_key: bridge-monitoring
 ---
 
 # Cloud-Based Long-Term Bridge Monitoring System
@@ -15,3 +16,5 @@ This project developed long-term bridge monitoring workflows using IoT sensors, 
 - FFT analysis and vibration-characteristic review.
 - Strain-acceleration data fusion for bridge displacement estimation.
 - Field deployment on actual bridge structures in Korea.
+
+{% include project_funding.html %}

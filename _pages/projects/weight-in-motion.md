@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/weight-in-motion/
 title: "High-Speed WIM System Development"
+project_key: weight-in-motion
 ---
 
 # High-Speed WIM System Development
@@ -19,3 +20,5 @@ High-speed WIM work focuses on acquiring and interpreting vehicle load signals u
 
 - YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems.
 - Development of a Cloud-Based Integrated Enforcement Platform Technology.
+
+{% include project_funding.html %}

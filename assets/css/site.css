@@ -758,6 +758,19 @@ span.pub__title {
   font-weight: 700;
 }
 
+.project-funding {
+  margin-top: 24px;
+}
+
+.project-funding__list {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.project-funding__list li {
+  margin: 4px 0;
+}
+
 .field-site-grid {
   display: grid;
   grid-template-columns: 1fr;

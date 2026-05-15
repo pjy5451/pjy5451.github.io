@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/portable-sensing/
 title: "Prefabricated Structure Transportation Monitoring System"
+project_key: portable-sensing
 ---
 
 # Prefabricated Structure Transportation Monitoring System
@@ -14,3 +15,5 @@ Portable sensing work focused on monitoring precast concrete members during tran
 - Portable JANET sensing workflows for field deployment.
 - Response-history review for precast transportation safety.
 - Data interpretation for measured structural behavior during movement.
+
+{% include project_funding.html %}

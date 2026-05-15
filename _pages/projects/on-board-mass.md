@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/on-board-mass/
 title: "OBM System Development"
+project_key: on-board-mass
 ---
 
 # OBM (On-Board Mass) System Development
@@ -14,3 +15,5 @@ OBM work focuses on vehicle-mounted sensing and dynamic mass estimation under re
 - FIR-filter-based dynamic weight correction.
 - Field validation against WIM-related driving conditions.
 - Sensor data review for transportation safety workflows.
+
+{% include project_funding.html %}

@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/bridge-load-capacity/
 title: "Bridge Load-Carrying Capacity Evaluation System"
+project_key: bridge-load-capacity
 ---
 
 # Bridge Load-Carrying Capacity Evaluation System
@@ -14,3 +15,5 @@ This work supports bridge load testing and load-carrying capacity evaluation thr
 - Response-history review using measured field data.
 - Vibration characteristic analysis and structural interpretation.
 - Load-related data organization for evaluation workflows.
+
+{% include project_funding.html %}

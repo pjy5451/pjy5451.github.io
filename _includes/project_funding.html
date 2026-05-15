@@ -1,0 +1,17 @@
+{% assign matching_funding = site.data.project_funding.entries | where: "key", page.project_key %}
+{% assign project_funding = matching_funding | first %}
+
+<section class="project-funding">
+<h2>Funded by</h2>
+{% if project_funding and project_funding.funders.size > 0 %}
+<ul class="project-funding__list">
+{% for funder in project_funding.funders %}
+<li>
+<strong>{{ funder.name }}</strong>{% if funder.period %}, {{ funder.period }}{% endif %}{% if funder.role %} · {{ funder.role }}{% endif %}
+</li>
+{% endfor %}
+</ul>
+{% else %}
+<p class="note-empty">Funding information will be added after project-level funding details are organized.</p>
+{% endif %}
+</section>

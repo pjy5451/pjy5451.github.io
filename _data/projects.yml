@@ -85,3 +85,11 @@ groups:
     - Seismic Sensing
     - IoT
     - BLE
+  - title: Sewer Monitoring Sensor System
+    period: 2020
+    href: /projects/sewer-monitoring-sensor/
+    summary: Field-oriented sensing concept for sewer and underground infrastructure monitoring.
+    tags:
+    - Sewer Monitoring
+    - IoT
+    - Infrastructure

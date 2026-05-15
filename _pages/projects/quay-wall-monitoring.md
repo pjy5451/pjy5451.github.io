@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/quay-wall-monitoring/
 title: "Port Structure Monitoring System"
+project_key: quay-wall-monitoring
 ---
 
 # Port Structure Monitoring System
@@ -14,3 +15,5 @@ Port structure monitoring work focused on multisensory event monitoring for quay
 - Cloud communication and event-triggered monitoring.
 - AI-assisted event recognition for port-structure data.
 - Field-ready sensing workflows for harsh monitoring environments.
+
+{% include project_funding.html %}

@@ -16,9 +16,9 @@ title: "CV"
 <div class="entry">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
-    <p class="degree-line"><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea <a class="inline-action" href="/assets/files/Junyoung_Park_Master_Thesis.pdf">Read Thesis</a></p>
+    <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea</p>
     <ul class="degree-notes">
-      <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em></li>
+      <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> <a class="inline-action" href="/assets/files/Junyoung_Park_Master_Thesis.pdf">Read Thesis</a></li>
       <li>Advisor: <a href="https://scholar.google.com/citations?user=Ev80LNcAAAAJ">Jongwoong Park</a></li>
     </ul>
     <details class="coursework">

@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/qr-lifecycle-monitoring/
 title: "QR-Based Bridge Maintenance Monitoring System"
+project_key: qr-lifecycle-monitoring
 ---
 
 # QR-Based Bridge Maintenance Monitoring System
@@ -14,3 +15,5 @@ QR-based monitoring connects field maintenance records with low-power sensing, v
 - Ultra-low-power strain sensing and e-paper QR visualization.
 - Chatbot upload and cloud database workflows.
 - AI-assisted report generation for maintenance records.
+
+{% include project_funding.html %}

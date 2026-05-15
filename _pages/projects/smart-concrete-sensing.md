@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/smart-concrete-sensing/
 title: "Smart Concrete Sensing System"
+project_key: smart-concrete-sensing
 ---
 
 # Smart Concrete Sensing System
@@ -14,3 +15,5 @@ Smart concrete sensing work explores crack trajectory monitoring and long-term m
 - Crack trajectory monitoring for concrete specimens.
 - Long-term measurement-history visualization.
 - Sensor-system design for smart material monitoring.
+
+{% include project_funding.html %}
