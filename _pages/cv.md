@@ -97,7 +97,7 @@ title: "CV"
   </div>
 </div>
 
-## Research Interests
+## Research
 
 - **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
 - **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
