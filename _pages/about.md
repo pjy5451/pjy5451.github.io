@@ -86,4 +86,5 @@ title: "About"
 <div class="hobby-list" aria-label="Hobbies">
   <span><span aria-hidden="true">🏊</span> Swimming</span>
   <span><span aria-hidden="true">🥁</span> Drumming</span>
+  <span><span aria-hidden="true">🧠</span> PKM</span>
 </div>
