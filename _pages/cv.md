@@ -99,9 +99,9 @@ title: "CV"
 
 ## Research Interests
 
-- **Infrastructure Monitoring:** Structural Health Monitoring, bridge monitoring, WIM/OBM systems, long-term field measurements, and deployment-based validation.
-- **Sensing & Measurement Systems:** smart IoT sensors, embedded DAQ, wireless sensing, cloud-connected workflows, and field-ready packaging.
-- **AI for Engineering Data:** signal interpretation, event detection, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
+- **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
+- **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
+- **Physics-Aware AI for Engineering Systems:** connecting signal interpretation, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
 
 ## Skills
 
