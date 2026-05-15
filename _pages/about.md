@@ -10,7 +10,7 @@ title: "About"
 
 <p>My research interests include <strong>Structural Health Monitoring (SHM)</strong>, <strong>WIM/OBM systems</strong>, <strong>smart IoT sensors</strong>, and <strong>AI-based data analysis</strong>. More recently, I have also been exploring <strong>structural dynamics</strong>, <strong>structural reliability</strong>, <strong>aerospace engineering</strong>, and <strong>AI for physical systems</strong>.</p>
 
-## Research
+## Research Interests
 
 <div class="keyword-chips keyword-chips--section" aria-label="Representative research keywords">
   <span>Structural Health Monitoring</span>
