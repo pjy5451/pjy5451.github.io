@@ -1,9 +1,7 @@
 groups:
-- title_ko: 교통·운송 모니터링 시스템
-  title_en: Transportation Monitoring Systems
+- title: Transportation Monitoring Systems
   projects:
-  - title_ko: 고속 WIM 시스템 개발
-    title: High-Speed WIM System Development
+  - title: High-Speed WIM System Development
     period: 2024-present
     href: /projects/weight-in-motion/
     summary: WIM DAQ, high-speed load sensing, and automatic load-event detection.
@@ -11,8 +9,7 @@ groups:
     - WIM
     - DAQ
     - Load Detection
-  - title_ko: OBM(On-Board Mass) 시스템 개발
-    title: OBM (On-Board Mass) System Development
+  - title: OBM (On-Board Mass) System Development
     period: 2024-present
     href: /projects/on-board-mass/
     summary: Vehicle-mounted sensing and dynamic weight correction during driving.
@@ -20,8 +17,7 @@ groups:
     - OBM
     - Vehicle Sensing
     - Dynamic Weight
-  - title_ko: 화물열차 모니터링 시스템
-    title: Freight Train Monitoring System
+  - title: Freight Train Monitoring System
     period: 2024
     href: /projects/freight-train-monitoring/
     summary: Event-oriented sensing and signal review for freight monitoring.
@@ -29,8 +25,7 @@ groups:
     - Freight
     - Field Data
     - Safety
-  - title_ko: 프리팹 운송 모니터링 시스템
-    title: Prefabricated Structure Transportation Monitoring System
+  - title: Prefabricated Structure Transportation Monitoring System
     period: 2020-2023
     href: /projects/portable-sensing/
     summary: Portable sensing for precast members during transportation and erection.
@@ -38,11 +33,9 @@ groups:
     - Portable Sensing
     - Precast
     - Field Deployment
-- title_ko: 구조물 모니터링 시스템
-  title_en: Structural Monitoring Systems
+- title: Structural Monitoring Systems
   projects:
-  - title_ko: 클라우드 기반 교량 장기 모니터링 시스템
-    title: Cloud-Based Long-Term Bridge Monitoring System
+  - title: Cloud-Based Long-Term Bridge Monitoring System
     period: 2021-2024
     href: /projects/bridge-monitoring/
     summary: Long-term bridge monitoring using IoT sensors, cloud storage, and dashboards.
@@ -50,8 +43,7 @@ groups:
     - Bridge Monitoring
     - IoT
     - Cloud
-  - title_ko: 교량 내하력 평가 시스템
-    title: Bridge Load-Carrying Capacity Evaluation System
+  - title: Bridge Load-Carrying Capacity Evaluation System
     period: 2020-2024
     href: /projects/bridge-load-capacity/
     summary: Field sensing and response interpretation for bridge load testing.
@@ -59,8 +51,7 @@ groups:
     - Load Test
     - Bridge
     - Evaluation
-  - title_ko: QR 기반 교량 유지관리 모니터링 시스템
-    title: QR-Based Bridge Maintenance Monitoring System
+  - title: QR-Based Bridge Maintenance Monitoring System
     period: 2020-2023
     href: /projects/qr-lifecycle-monitoring/
     summary: QR-linked maintenance records with low-power sensing and cloud reports.
@@ -68,8 +59,7 @@ groups:
     - QR Monitoring
     - Lifecycle
     - Cloud Reports
-  - title_ko: 항만 구조물 모니터링 시스템
-    title: Port Structure Monitoring System
+  - title: Port Structure Monitoring System
     period: 2021-2023
     href: /projects/quay-wall-monitoring/
     summary: Quay wall monitoring with ruggedized sensors and event recognition.
@@ -77,20 +67,9 @@ groups:
     - Port Structure
     - Event Detection
     - AI
-  - title_ko: 숭실대학교 구조물 모니터링 시스템
-    title: Soongsil University Structural Monitoring System
-    period: 2024
-    href: /projects/soongsil-structural-monitoring/
-    summary: Structural monitoring application and sensing-data review for a university infrastructure site.
-    tags:
-    - Structural Monitoring
-    - Field Data
-    - Sensing
-- title_ko: 스마트 센싱 시스템
-  title_en: Smart Sensing Systems
+- title: Smart Sensing Systems
   projects:
-  - title_ko: 스마트 콘크리트 센싱 시스템
-    title: Smart Concrete Sensing System
+  - title: Smart Concrete Sensing System
     period: 2020-2021
     href: /projects/smart-concrete-sensing/
     summary: Crack trajectory sensing and long-term measurement visualization.
@@ -98,8 +77,7 @@ groups:
     - Smart Concrete
     - Crack Sensing
     - Visualization
-  - title_ko: 지진 감지 센서 시스템
-    title: Seismic Sensing System
+  - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
     summary: Low-cost IoT earthquake sensing with triggering and BLE notification.
@@ -107,8 +85,7 @@ groups:
     - Seismic Sensing
     - IoT
     - BLE
-  - title_ko: 하수도 모니터링 센서 시스템
-    title: Sewer Monitoring Sensor System
+  - title: Sewer Monitoring Sensor System
     period: 2020
     href: /projects/sewer-monitoring-sensor/
     summary: Field-oriented sensing concept for sewer and underground infrastructure monitoring.

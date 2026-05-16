@@ -15,8 +15,6 @@ entries:
   funders: []
 - key: quay-wall-monitoring
   funders: []
-- key: soongsil-structural-monitoring
-  funders: []
 - key: smart-concrete-sensing
   funders: []
 - key: seismic-sensing

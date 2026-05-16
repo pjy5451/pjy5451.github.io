@@ -6,10 +6,7 @@ title: "About"
 
 # Junyoung Park
 
-<div class="intro-stack">
-  <p class="intro">I developed <strong>IoT sensor and cloud-based systems</strong> for <strong>structural monitoring</strong> and <strong>real-world data analysis</strong>. I have experience deploying and operating monitoring systems on actual structures, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
-  <p class="intro intro--ko">저는 <strong>구조물 모니터링</strong>과 <strong>실제 현장 데이터 분석</strong>을 위한 <strong>IoT 센서 및 클라우드 기반 시스템</strong>을 개발해 왔습니다. 성산대교, 서소문고가, 팔당육교 등 실제 구조물에서 모니터링 시스템을 설치·운영한 경험이 있으며, 현재는 지능형 교통 및 인프라 모니터링을 위한 <strong>WIM</strong> 및 <strong>OBM</strong> 시스템을 연구하고 있습니다.</p>
-</div>
+<p class="intro">I developed <strong>IoT sensor and cloud-based systems</strong> for <strong>structural monitoring</strong> and <strong>real-world data analysis</strong>. I have experience deploying and operating monitoring systems on actual structures, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
 
 <p>My research interests include <strong>Structural Health Monitoring (SHM)</strong>, <strong>WIM/OBM systems</strong>, <strong>smart IoT sensors</strong>, and <strong>AI-based data analysis</strong>. More recently, I have also been exploring <strong>structural dynamics</strong>, <strong>structural reliability</strong>, <strong>aerospace engineering</strong>, and <strong>AI for physical systems</strong>.</p>
 
@@ -30,7 +27,7 @@ title: "About"
 
 ## Education
 
-<div class="entry">
+<div class="entry entry--summary">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
     <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea</p>
@@ -38,85 +35,22 @@ title: "About"
       <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> <a class="inline-action" href="/assets/files/Junyoung_Park_Master_Thesis.pdf">Read Thesis</a></li>
       <li>Advisor: <a href="https://scholar.google.com/citations?user=Ev80LNcAAAAJ">Jongwoong Park</a></li>
     </ul>
-    <details class="coursework">
-      <summary>Selected Coursework</summary>
-      <div class="coursework-groups">
-        <div>
-          <h3>Structural Engineering</h3>
-          <ul class="chip-list chip-list--coursework">
-            <li>Concrete Time-Dependent Behavior</li>
-            <li>Advanced Steel Structures</li>
-            <li>Structural Dynamics</li>
-            <li>Bridge Design Special Topics</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Systems and Data</h3>
-          <ul class="chip-list chip-list--coursework">
-            <li>Linear Control Systems</li>
-            <li>Sensor and Measurement Methods</li>
-            <li>Introduction to Machine Learning and Deep Learning</li>
-            <li>Computer Programming and AI Applications</li>
-          </ul>
-        </div>
-      </div>
-    </details>
   </div>
 </div>
 
-<div class="entry">
+<div class="entry entry--summary">
   <div class="entry__date">2017 - 2022</div>
   <div class="entry__body">
     <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong>, Chung-Ang University, Seoul, South Korea</p>
     <ul class="degree-notes">
       <li>Dissertation: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></li>
     </ul>
-    <details class="coursework">
-      <summary>Selected Coursework</summary>
-      <div class="coursework-groups">
-        <div>
-          <h3>Civil Engineering</h3>
-          <ul class="chip-list chip-list--coursework">
-            <li>Materials Mechanics</li>
-            <li>Materials Mechanics Lab</li>
-            <li>Open Channel Hydraulics</li>
-            <li>Soil Mechanics I-II</li>
-            <li>Soil Mechanics Lab I-II</li>
-            <li>Rock Mechanics</li>
-            <li>Surveying and Surveying Practice</li>
-            <li>Construction Planning and Execution</li>
-            <li>Structural Mechanics</li>
-            <li>Reinforced Concrete Engineering</li>
-            <li>Geotechnical Design</li>
-            <li>Civil Infrastructure Capstone Design</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Mathematics</h3>
-          <ul class="chip-list chip-list--coursework">
-            <li>Calculus</li>
-            <li>Linear Algebra</li>
-            <li>Statistics</li>
-            <li>Numerical Analysis</li>
-            <li>Geometry</li>
-            <li>Differential Equations I-II</li>
-            <li>Differential Geometry I-II</li>
-            <li>Analysis I-II</li>
-            <li>Partial Differential Equations</li>
-            <li>Modern Algebra</li>
-            <li>Probability and Statistics</li>
-            <li>Python Basics and Machine Learning Lab</li>
-            <li>Basic Scientific Data Analysis</li>
-          </ul>
-        </div>
-      </div>
-    </details>
   </div>
 </div>
 
 ## Work Experience
 
-<div class="entry">
+<div class="entry entry--summary">
   <div class="entry__date">2024 - Present</div>
   <div class="entry__body">
     <p><strong>Researcher, UDNS</strong></p>
@@ -128,7 +62,7 @@ title: "About"
   </div>
 </div>
 
-<div class="entry">
+<div class="entry entry--summary">
   <div class="entry__date">2019 - 2024</div>
   <div class="entry__body">
     <p><strong>Researcher, Chung-Ang University</strong></p>
@@ -147,12 +81,10 @@ title: "About"
 
 {% include skills_table.html %}
 
-## Contact
+## Hobbies
 
-<div class="contact-list" aria-label="Contact links">
-  <a href="mailto:{{ site.author.email }}">E-mail</a>
-  <a href="{{ site.author.googlescholar }}">Google Scholar</a>
-  <a href="{{ site.author.orcid }}">ORCID</a>
-  <a href="{{ site.author.linkedin }}">LinkedIn</a>
-  <a href="{{ site.author.github }}">GitHub</a>
+<div class="hobby-list" aria-label="Hobbies">
+  <span><span aria-hidden="true">🏊</span> Swimming</span>
+  <span><span aria-hidden="true">🥁</span> Drumming</span>
+  <span><span aria-hidden="true">🧠</span> PKM</span>
 </div>
