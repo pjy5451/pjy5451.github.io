@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /field-sites/precast-transportation-monitoring/
-title: "Precast Transportation Monitoring"
+title: "Seoul Bus-Only Lane Transportation Monitoring"
 field_site_key: precast-transportation-monitoring
 ---
 

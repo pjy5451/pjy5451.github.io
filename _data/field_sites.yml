@@ -5,6 +5,7 @@ groups:
     key: seongsan-bridge
     href: /field-sites/seongsan-bridge/
     summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
+    location: Mapo-gu / Yeongdeungpo-gu, Seoul, South Korea
     sites:
     - Seongsan Bridge
     data:
@@ -15,6 +16,7 @@ groups:
     key: seosomun-overpass
     href: /field-sites/seosomun-overpass/
     summary: Field deployment and bridge response monitoring under real operating conditions.
+    location: Jung-gu, Seoul, South Korea
     sites:
     - Seosomun Overpass
     data:
@@ -25,6 +27,7 @@ groups:
     key: paldang-bridge-overpass
     href: /field-sites/paldang-bridge-overpass/
     summary: Bridge monitoring and inspection-related measurement experience.
+    location: Paldang area, Gyeonggi-do, South Korea
     sites:
     - Paldang Overpass
     data:
@@ -35,6 +38,7 @@ groups:
     key: cheongdam-1-bridge
     href: /field-sites/cheongdam-1-bridge/
     summary: Bridge monitoring and field response review connected to bridge sensing applications.
+    location: Seoul, South Korea
     sites:
     - Cheongdam 1 Bridge
     data:
@@ -47,6 +51,7 @@ groups:
     key: wim-field-tests
     href: /field-sites/wim-field-tests/
     summary: High-speed vehicle load sensing and WIM DAQ validation at Saemangeum and Bongdong field sites.
+    location: Saemangeum / Bongdong, Jeonbuk, South Korea
     sites:
     - Saemangeum
     - Bongdong
@@ -74,12 +79,13 @@ groups:
     - Signal review notes
 - title: Prefabricated and Port Structure Sites
   sites:
-  - name: Precast Transportation Monitoring
+  - name: Seoul Bus-Only Lane Transportation Monitoring
     key: precast-transportation-monitoring
     href: /field-sites/precast-transportation-monitoring/
-    summary: Portable sensing for precast members during lifting, loading, transportation, and erection at Cheonma Remicon.
+    summary: Transportation monitoring for prefabricated members using sensing systems on Seoul bus-only lane routes.
+    location: Seoul, South Korea
     sites:
-    - Cheonma Remicon
+    - Seoul bus-only lane
     data:
     - Strain and acceleration records
     - Movement-stage and transportation-event records
@@ -88,6 +94,7 @@ groups:
     key: port-quay-wall-monitoring
     href: /field-sites/port-quay-wall-monitoring/
     summary: Ruggedized multisensory monitoring for quay wall and port-structure events at Incheon Port.
+    location: Incheon, South Korea
     sites:
     - Incheon Port
     data:
