@@ -16,18 +16,25 @@
   {% unless include.hide_authors %}
     <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
   {% endunless %}
+  {% if item.tags %}
+    <div class="pub__tags" aria-label="Publication keywords">
+      {% for tag in item.tags limit:2 %}
+        <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
+  {% endif %}
   {% if item.actions %}
     {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
     {% assign has_visible_action = false %}
     {% for action in actions %}
-      {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label == "Patent Application" or action.label == "Registered Patent" or action.label contains "Cited by" %}
+      {% unless action.label == "Source Document" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label == "Patent Application" or action.label == "Registered Patent" or action.label contains "Cited by" %}
         {% assign has_visible_action = true %}
       {% endunless %}
     {% endfor %}
     {% if has_visible_action %}
     <p class="pub__links">
       {% for action in actions %}
-        {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label == "Patent Application" or action.label == "Registered Patent" or action.label contains "Cited by" %}
+        {% unless action.label == "Source Document" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label == "Patent Application" or action.label == "Registered Patent" or action.label contains "Cited by" %}
           {% if action.href %}
             <a href="{{ action.href }}">{{ action.label }}</a>
           {% else %}

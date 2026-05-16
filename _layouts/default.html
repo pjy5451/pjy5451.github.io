@@ -32,11 +32,12 @@
     <header class="topbar">
       <a class="topbar__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <nav class="nav" aria-label="Main navigation">
-        <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv/' %} class="is-active"{% endif %}>CV</a>
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-active"{% endif %}>About</a>
         <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications/' %} class="is-active"{% endif %}>Publications</a>
-        <a href="{{ '/talks/' | relative_url }}"{% if page.url contains '/talks/' %} class="is-active"{% endif %}>Talks</a>
         <a href="{{ '/research/' | relative_url }}"{% if page.url contains '/research/' or page.url contains '/projects/' %} class="is-active"{% endif %}>Research</a>
         <a href="{{ '/field-sites/' | relative_url }}"{% if page.url contains '/field-sites/' %} class="is-active"{% endif %}>Field Sites</a>
+        <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv/' %} class="is-active"{% endif %}>CV</a>
+        <a href="{{ '/talks/' | relative_url }}"{% if page.url contains '/talks/' %} class="is-active"{% endif %}>Talks</a>
         <a href="{{ '/study/' | relative_url }}"{% if page.url contains '/study/' %} class="is-active"{% endif %}>Study</a>
         <a href="{{ '/notes/' | relative_url }}"{% if page.url contains '/notes/' %} class="is-active"{% endif %}>Notes</a>
       </nav>
@@ -57,6 +58,7 @@
         {{ content }}
       </main>
     </div>
+    {% include footer.html %}
     <script>
       (function() {
         var button = document.querySelector('[data-theme-toggle]');
