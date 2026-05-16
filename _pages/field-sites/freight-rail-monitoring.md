@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /field-sites/freight-rail-monitoring/
-title: "Freight and Rail-related Monitoring"
+title: "Freight Car Bearing Monitoring System"
 field_site_key: freight-rail-monitoring
 ---
 

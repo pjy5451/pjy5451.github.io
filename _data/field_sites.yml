@@ -5,6 +5,8 @@ groups:
     key: seongsan-bridge
     href: /field-sites/seongsan-bridge/
     summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
+    sites:
+    - Seongsan Bridge
     data:
     - Strain and acceleration records
     - Vibration characteristics and displacement-related estimation data
@@ -13,22 +15,28 @@ groups:
     key: seosomun-overpass
     href: /field-sites/seosomun-overpass/
     summary: Field deployment and bridge response monitoring under real operating conditions.
+    sites:
+    - Seosomun Overpass
     data:
     - Strain, acceleration, and temperature records
     - Vibration response and sensor communication status
     - System operation and field maintenance records
-  - name: Paldang Bridge / Paldang Overpass
+  - name: Paldang Overpass
     key: paldang-bridge-overpass
     href: /field-sites/paldang-bridge-overpass/
     summary: Bridge monitoring and inspection-related measurement experience.
+    sites:
+    - Paldang Overpass
     data:
     - Structural response histories
     - Vibration characteristics and installation records
     - Monitoring-system reliability data
-  - name: Cheongdam Bridge and Other Bridge Sites
-    key: bridge-field-campaigns
-    href: /field-sites/bridge-field-campaigns/
-    summary: Bridge inspection, diagnosis, and monitoring support across multiple field campaigns in Korea.
+  - name: Cheongdam 1 Bridge
+    key: cheongdam-1-bridge
+    href: /field-sites/cheongdam-1-bridge/
+    summary: Bridge monitoring and field response review connected to bridge sensing applications.
+    sites:
+    - Cheongdam 1 Bridge
     data:
     - Sensor installation records
     - Response histories and environmental conditions
@@ -38,7 +46,10 @@ groups:
   - name: WIM Field Tests
     key: wim-field-tests
     href: /field-sites/wim-field-tests/
-    summary: High-speed vehicle load sensing and WIM DAQ validation under driving conditions.
+    summary: High-speed vehicle load sensing and WIM DAQ validation at Saemangeum and Bongdong field sites.
+    sites:
+    - Saemangeum
+    - Bongdong
     data:
     - High-speed load signals and load-event intervals
     - Filtered and downsampled signal records
@@ -51,12 +62,14 @@ groups:
     - Vehicle-state signals
     - Dynamic weight correction data
     - Validation records against WIM-related conditions
-  - name: Freight and Rail-related Monitoring
+  - name: Freight Car Bearing Monitoring System
     key: freight-rail-monitoring
     href: /field-sites/freight-rail-monitoring/
-    summary: Event-oriented field sensing and signal review for transportation safety monitoring.
+    summary: Bearing monitoring system field context for freight-car safety monitoring.
+    sites:
+    - Koryeo Hwacha
     data:
-    - Event records and time histories
+    - Freight-car bearing monitoring records
     - Field measurement logs
     - Signal review notes
 - title: Prefabricated and Port Structure Sites
@@ -64,7 +77,9 @@ groups:
   - name: Precast Transportation Monitoring
     key: precast-transportation-monitoring
     href: /field-sites/precast-transportation-monitoring/
-    summary: Portable sensing for precast members during lifting, loading, transportation, and erection.
+    summary: Portable sensing for precast members during lifting, loading, transportation, and erection at Cheonma Remicon.
+    sites:
+    - Cheonma Remicon
     data:
     - Strain and acceleration records
     - Movement-stage and transportation-event records
@@ -72,7 +87,9 @@ groups:
   - name: Port / Quay Wall Monitoring
     key: port-quay-wall-monitoring
     href: /field-sites/port-quay-wall-monitoring/
-    summary: Ruggedized multisensory monitoring for quay wall and port-structure events.
+    summary: Ruggedized multisensory monitoring for quay wall and port-structure events at Incheon Port.
+    sites:
+    - Incheon Port
     data:
     - Event-triggered sensor records
     - Waterproof sensor operation logs

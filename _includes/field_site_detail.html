@@ -8,6 +8,17 @@
 <h1>{{ field_site.name }}</h1>
 <p class="intro">{{ field_site.summary }}</p>
 
+{% if field_site.sites %}
+<section class="field-site-detail">
+<h2>Sites</h2>
+<ul class="field-site-detail__data">
+{% for site_name in field_site.sites %}
+<li>{{ site_name }}</li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
 <section class="field-site-detail">
 <h2>Data handled</h2>
 <ul class="field-site-detail__data">

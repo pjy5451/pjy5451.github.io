@@ -861,12 +861,21 @@ p.field-site-card__label {
   font-weight: 700;
 }
 
+p.field-site-card__label:not(:first-child) {
+  margin-top: 10px;
+}
+
 .field-site-card__data {
   margin: 0;
   padding-left: 18px;
   color: var(--muted);
   font-size: 0.86rem;
   line-height: 1.42;
+}
+
+.field-site-card__data--sites {
+  color: var(--text);
+  font-weight: 600;
 }
 
 .field-site-card__data li {

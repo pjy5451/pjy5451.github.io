@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /field-sites/paldang-bridge-overpass/
-title: "Paldang Bridge / Paldang Overpass"
+title: "Paldang Overpass"
 field_site_key: paldang-bridge-overpass
 ---
 

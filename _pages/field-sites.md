@@ -23,6 +23,14 @@ Field sites visited for testing and applying developed sensing systems under rea
           <p>{{ field_site.summary }}</p>
         </div>
         <div class="field-site-card__details">
+          {% if field_site.sites %}
+            <p class="field-site-card__label">Sites</p>
+            <ul class="field-site-card__data field-site-card__data--sites">
+              {% for site_name in field_site.sites %}
+                <li>{{ site_name }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
           <p class="field-site-card__label">Data handled</p>
           <ul class="field-site-card__data">
             {% for datum in field_site.data %}
