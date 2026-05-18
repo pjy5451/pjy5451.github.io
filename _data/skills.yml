@@ -1,13 +1,11 @@
 groups:
-- category: Programming & Data
-  tools: Python, MATLAB, R, C, JavaScript/Node.js, SQL, PostgreSQL
-- category: AI/ML Libraries
-  tools: PyTorch, TensorFlow, scikit-learn, pandas, NumPy, YOLO
-- category: Engineering Software
-  tools: Abaqus, Simulink, SolidWorks, Altium
-- category: Measurement & DAQ
-  tools: LabVIEW, NI DIAdem
-- category: Cloud & Development
-  tools: AWS, Docker, Git
-- category: Media
-  tools: Adobe Premiere Pro
+- category: Programming
+  tools: Python, MATLAB, C, JavaScript/Node.js, SQL
+- category: ML
+  tools: PyTorch, scikit-learn, pandas, NumPy, YOLO
+- category: Software
+  tools: MATLAB/Simulink, SolidWorks, Altium Designer
+- category: Data
+  tools: AWS, Docker, MySQL, InfluxDB, LabVIEW
+- category: Languages
+  tools: English (TOEFL iBT 100/120, 2026), Korean (native)

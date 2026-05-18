@@ -10,18 +10,41 @@ title: "Conference Presentations"
 {% for section in site.data.publications.sections %}
   {% assign section_title = section.title.en %}
   {% if section_title == "Conference Presentations" %}
+    <h2>International Conferences</h2>
     <div class="talk-list">
     {% for item in section.entries %}
+      {% assign item_venue = item.venue[pub_lang] | default: item.venue.en %}
+      {% if item_venue contains "International conference presentation" %}
       {% assign item_title = item.title[pub_lang] | default: item.title.en %}
       {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
       <article class="talk">
         <div class="talk__year">{{ item.year }}</div>
         <div class="talk__body">
           <h2 class="talk__title">{{ item_title }}</h2>
-          <p class="talk__venue">{{ item.venue[pub_lang] | default: item.venue.en }}</p>
+          <p class="talk__venue">{{ item_venue }}</p>
           <p class="talk__authors">{{ item_authors }}</p>
         </div>
       </article>
+      {% endif %}
+    {% endfor %}
+    </div>
+
+    <h2>Domestic Conferences</h2>
+    <div class="talk-list">
+    {% for item in section.entries %}
+      {% assign item_venue = item.venue[pub_lang] | default: item.venue.en %}
+      {% if item_venue contains "Domestic conference presentation" %}
+      {% assign item_title = item.title[pub_lang] | default: item.title.en %}
+      {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
+      <article class="talk">
+        <div class="talk__year">{{ item.year }}</div>
+        <div class="talk__body">
+          <h2 class="talk__title">{{ item_title }}</h2>
+          <p class="talk__venue">{{ item_venue }}</p>
+          <p class="talk__authors">{{ item_authors }}</p>
+        </div>
+      </article>
+      {% endif %}
     {% endfor %}
     </div>
   {% endif %}
