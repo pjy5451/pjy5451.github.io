@@ -6,22 +6,22 @@ title: "Study"
 
 # Study
 
-This page collects study notes and learning traces related to structural engineering, sensing systems, data analysis, and physical AI.
+A small collection of notes from topics I am currently studying.
 
-## Current Topics
+## Topics
 
 <div class="study-topic-grid">
   <article class="study-topic-card">
-    <h3>Structural Dynamics and Reliability</h3>
-    <p>Vibration, uncertainty, reliability-based interpretation, and structural response modeling.</p>
+    <h3>Structural Dynamics</h3>
+    <p>Vibration, modal response, and field-measured structural behavior.</p>
   </article>
   <article class="study-topic-card">
-    <h3>Sensing and Embedded Systems</h3>
-    <p>DAQ workflows, field sensor packaging, wireless sensing, and low-power monitoring systems.</p>
+    <h3>Reliability</h3>
+    <p>Uncertainty, probability, and reliability-based interpretation.</p>
   </article>
   <article class="study-topic-card">
     <h3>AI for Physical Systems</h3>
-    <p>Signal preprocessing, event detection, surrogate modeling, and data-driven interpretation of infrastructure behavior.</p>
+    <p>Data-driven models for sensing, monitoring, and engineering systems.</p>
   </article>
 </div>
 
@@ -42,5 +42,5 @@ This page collects study notes and learning traces related to structural enginee
     {% endfor %}
   </div>
 {% else %}
-  <p class="note-empty">Study notes will be added here as they are organized.</p>
+  <p class="note-empty">Study notes will appear here as they are organized.</p>
 {% endif %}
