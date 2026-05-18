@@ -299,6 +299,13 @@ strong {
   font-size: 1.05rem;
 }
 
+.intro--lead {
+  margin-bottom: 8px;
+  color: var(--text);
+  font-size: 1.18rem;
+  line-height: 1.45;
+}
+
 .quick-links {
   display: flex;
   gap: 10px;

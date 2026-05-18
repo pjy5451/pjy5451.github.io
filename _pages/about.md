@@ -6,9 +6,9 @@ title: "About"
 
 # Junyoung Park
 
-<p class="intro">I developed <strong>IoT sensor and cloud-based systems</strong> for <strong>structural monitoring</strong> and <strong>real-world data analysis</strong>. I have experience deploying and operating monitoring systems on actual structures, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
+<p class="intro intro--lead"><strong>I build field-deployable sensing and data systems that turn real infrastructure measurements into engineering insight.</strong></p>
 
-<p>My research interests include <strong>Structural Health Monitoring (SHM)</strong>, <strong>WIM/OBM systems</strong>, <strong>smart IoT sensors</strong>, and <strong>AI-based data analysis</strong>. More recently, I have also been exploring <strong>structural dynamics</strong>, <strong>structural reliability</strong>, <strong>aerospace engineering</strong>, and <strong>AI for physical systems</strong>.</p>
+<p>My work connects <strong>IoT hardware</strong>, <strong>embedded measurement systems</strong>, <strong>cloud workflows</strong>, and <strong>AI-assisted data interpretation</strong> for structural and transportation monitoring. I have deployed and operated monitoring systems on actual structures, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
 
 ## Research Interests
 
@@ -24,6 +24,12 @@ title: "About"
 - **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
 - **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
 - **Physics-Aware AI for Engineering Systems:** connecting signal interpretation, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
+
+### Research Fit
+
+- **AI, digital twin, and reliability groups:** field measurement data for physics-aware AI, structural response interpretation, and uncertainty-aware monitoring.
+- **Smart sensing and IoT groups:** low-power sensors, embedded DAQ, wireless sensing, and edge-to-cloud workflows tested under real deployment conditions.
+- **Vehicle-bridge and transportation monitoring groups:** WIM/OBM systems, vehicle-induced structural response, and field validation of transportation sensing systems.
 
 ## Education
 

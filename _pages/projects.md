@@ -6,7 +6,7 @@ title: "Research"
 
 # Research
 
-<p class="intro">Building intelligent sensing systems for transportation and infrastructure.</p>
+<p class="intro">Research projects organized around deployable sensing systems, field data, and engineering interpretation for infrastructure and transportation monitoring.</p>
 
 {% for group in site.data.projects.groups %}
   <h2>{{ group.title }}</h2>
