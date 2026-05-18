@@ -30,6 +30,7 @@ include:
 
 exclude:
   - README.md
+  - CONTENT_EDITING_GUIDE.md
   - task.md
   - website_checklist.xlsx
   - website_checklist_backup.xlsx
