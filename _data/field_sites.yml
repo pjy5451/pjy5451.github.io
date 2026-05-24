@@ -6,6 +6,12 @@ groups:
     href: /field-sites/seongsan-bridge/
     summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
     location: Mapo-gu / Yeongdeungpo-gu, Seoul, South Korea
+    field_focus: Long-term structural response monitoring and real-time dashboard visualization.
+    period: Field deployment and operation
+    video:
+      id: sJ2qWYvAp-c
+      title: Seongsan Bridge real-time monitoring dashboard demonstration
+      caption: Real-time dashboard visualization developed for Seongsan Bridge monitoring results.
     sites:
     - Seongsan Bridge
     data:
@@ -17,6 +23,8 @@ groups:
     href: /field-sites/seosomun-overpass/
     summary: Field deployment and bridge response monitoring under real operating conditions.
     location: Jung-gu, Seoul, South Korea
+    field_focus: Bridge response monitoring under real operating conditions.
+    period: Field deployment and monitoring
     sites:
     - Seosomun Overpass
     data:
@@ -28,6 +36,8 @@ groups:
     href: /field-sites/paldang-bridge-overpass/
     summary: Bridge monitoring and inspection-related measurement experience.
     location: Paldang area, Gyeonggi-do, South Korea
+    field_focus: Bridge monitoring and inspection-related measurement support.
+    period: Field deployment and review
     sites:
     - Paldang Overpass
     data:
@@ -39,6 +49,8 @@ groups:
     href: /field-sites/cheongdam-1-bridge/
     summary: Bridge monitoring and field response review connected to bridge sensing applications.
     location: Seoul, South Korea
+    field_focus: Bridge sensing application and field response review.
+    period: Field deployment and review
     sites:
     - Cheongdam 1 Bridge
     data:
@@ -52,6 +64,8 @@ groups:
     href: /field-sites/wim-field-tests/
     summary: High-speed vehicle load sensing and WIM DAQ validation at Saemangeum and Bongdong field sites.
     location: Saemangeum / Bongdong, Jeonbuk, South Korea
+    field_focus: High-speed vehicle load sensing and WIM DAQ validation.
+    period: Field validation tests
     sites:
     - Saemangeum
     - Bongdong
@@ -63,6 +77,8 @@ groups:
     key: obm-field-validation
     href: /field-sites/obm-field-validation/
     summary: Vehicle-mounted sensing for dynamic operating-weight estimation.
+    field_focus: Vehicle-mounted sensing for dynamic operating-weight estimation.
+    period: Field validation tests
     data:
     - Vehicle-state signals
     - Dynamic weight correction data
@@ -71,6 +87,8 @@ groups:
     key: freight-rail-monitoring
     href: /field-sites/freight-rail-monitoring/
     summary: Bearing monitoring system field context for freight-car safety monitoring.
+    field_focus: Freight-car bearing condition monitoring under field-oriented operation.
+    period: Field application and review
     sites:
     - Koryeo Hwacha
     data:
@@ -84,6 +102,8 @@ groups:
     href: /field-sites/precast-transportation-monitoring/
     summary: Transportation monitoring for prefabricated members using sensing systems on Seoul bus-only lane routes.
     location: Seoul, South Korea
+    field_focus: Transportation-stage monitoring for prefabricated structural members.
+    period: Field transportation monitoring
     sites:
     - Seoul bus-only lane
     data:
@@ -95,6 +115,8 @@ groups:
     href: /field-sites/port-quay-wall-monitoring/
     summary: Ruggedized multisensory monitoring for quay wall and port-structure events at Incheon Port.
     location: Incheon, South Korea
+    field_focus: Ruggedized event monitoring for port and quay wall structures.
+    period: Field deployment and event monitoring
     sites:
     - Incheon Port
     data:

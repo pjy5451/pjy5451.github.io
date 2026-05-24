@@ -942,6 +942,40 @@ span.pub__title {
   border-left: 1px solid var(--line);
 }
 
+.field-site-card__meta,
+.field-site-detail__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.field-site-card__meta {
+  margin-bottom: 10px;
+}
+
+.field-site-detail__meta {
+  margin: 8px 0 22px;
+}
+
+.field-site-card__meta span,
+.field-site-detail__meta span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--soft);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.field-site-detail__meta span {
+  font-size: 0.82rem;
+}
+
 p.field-site-card__label {
   margin-bottom: 6px;
   color: var(--accent);

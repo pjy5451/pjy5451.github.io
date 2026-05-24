@@ -6,7 +6,7 @@ title: "Field Sites"
 
 # Field Sites
 
-Field sites visited for testing and applying developed sensing systems under real monitoring conditions.
+Field sites where sensing systems were tested, deployed, or reviewed under real monitoring conditions.
 
 {% for group in site.data.field_sites.groups %}
   <h2>{{ group.title }}</h2>
@@ -23,19 +23,30 @@ Field sites visited for testing and applying developed sensing systems under rea
           <p>{{ field_site.summary }}</p>
         </div>
         <div class="field-site-card__details">
-          {% if field_site.location %}
-            <p class="field-site-card__label">Location</p>
-            <p class="field-site-card__location">{{ field_site.location }}</p>
+          <div class="field-site-card__meta">
+            {% if field_site.location %}
+              <span>{{ field_site.location }}</span>
+            {% endif %}
+            {% if field_site.period %}
+              <span>{{ field_site.period }}</span>
+            {% endif %}
+            {% if field_site.sites and field_site.sites.size > 1 %}
+              <span>{{ field_site.sites.size }} field sites</span>
+            {% endif %}
+          </div>
+          {% if field_site.field_focus %}
+            <p class="field-site-card__label">Field focus</p>
+            <p class="field-site-card__location">{{ field_site.field_focus }}</p>
           {% endif %}
-          {% if field_site.sites %}
-            <p class="field-site-card__label">Sites</p>
+          {% if field_site.sites and field_site.sites.size > 1 %}
+            <p class="field-site-card__label">Test sites</p>
             <ul class="field-site-card__data field-site-card__data--sites">
               {% for site_name in field_site.sites %}
                 <li>{{ site_name }}</li>
               {% endfor %}
             </ul>
           {% endif %}
-          <p class="field-site-card__label">Data handled</p>
+          <p class="field-site-card__label">Measurements / outputs</p>
           <ul class="field-site-card__data">
             {% for datum in field_site.data %}
               <li>{{ datum }}</li>

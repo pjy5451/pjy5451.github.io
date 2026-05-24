@@ -8,16 +8,28 @@
 <h1>{{ field_site.name }}</h1>
 <p class="intro">{{ field_site.summary }}</p>
 
+<div class="field-site-detail__meta">
 {% if field_site.location %}
+<span>{{ field_site.location }}</span>
+{% endif %}
+{% if field_site.period %}
+<span>{{ field_site.period }}</span>
+{% endif %}
+{% if field_site.sites and field_site.sites.size > 1 %}
+<span>{{ field_site.sites.size }} field sites</span>
+{% endif %}
+</div>
+
+{% if field_site.field_focus %}
 <section class="field-site-detail">
-<h2>Location</h2>
-<p>{{ field_site.location }}</p>
+<h2>Field focus</h2>
+<p>{{ field_site.field_focus }}</p>
 </section>
 {% endif %}
 
-{% if field_site.sites %}
+{% if field_site.sites and field_site.sites.size > 1 %}
 <section class="field-site-detail">
-<h2>Sites</h2>
+<h2>Test sites</h2>
 <ul class="field-site-detail__data">
 {% for site_name in field_site.sites %}
 <li>{{ site_name }}</li>
@@ -27,7 +39,7 @@
 {% endif %}
 
 <section class="field-site-detail">
-<h2>Data handled</h2>
+<h2>Measurements / outputs</h2>
 <ul class="field-site-detail__data">
 {% for datum in field_site.data %}
 <li>{{ datum }}</li>
@@ -35,9 +47,21 @@
 </ul>
 </section>
 
+{% if field_site.video %}
+<section class="field-site-detail">
+<h2>Dashboard demonstration</h2>
+<figure class="project-video">
+  <div class="project-video__frame">
+    <iframe src="https://www.youtube.com/embed/{{ field_site.video.id }}" title="{{ field_site.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <figcaption>{{ field_site.video.caption }}</figcaption>
+</figure>
+</section>
+{% endif %}
+
 <section class="field-site-detail">
 <h2>Field context</h2>
-<p>This page records the field context behind the sensing and monitoring work connected to this site. It is intended to separate practical deployment experience and handled data types from the broader Research project categories.</p>
+<p>This page records the practical field context behind the sensing and monitoring work connected to this site, separate from the broader Research project categories.</p>
 </section>
 {% endif %}
 {% endfor %}
