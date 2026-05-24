@@ -37,6 +37,15 @@ Conventional bridge inspection and load testing depend on periodic field campaig
 - Natural frequency histories, displacement-related estimates, and response trends.
 - Field lessons on power management, communication reliability, installation efficiency, and dashboard operation.
 
+## Dashboard Demonstration
+
+<figure class="project-video">
+  <div class="project-video__frame">
+    <iframe src="https://www.youtube.com/embed/sJ2qWYvAp-c" title="Seongsan Bridge real-time monitoring dashboard demonstration" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  <figcaption>Real-time dashboard visualization developed for Seongsan Bridge monitoring results.</figcaption>
+</figure>
+
 ## Related Publications / Outputs
 
 - Development of Low-Power IoT Sensor and Cloud-Based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring.
