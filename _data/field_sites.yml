@@ -8,6 +8,7 @@ groups:
     location: Mapo-gu / Yeongdeungpo-gu, Seoul, South Korea
     field_focus: Long-term structural response monitoring and real-time dashboard visualization.
     period: Field deployment and operation
+    data_summary: Strain, acceleration, vibration characteristics, displacement-related estimates, cloud upload status, and dashboard operation logs.
     video:
       id: sJ2qWYvAp-c
       title: Seongsan Bridge real-time monitoring dashboard demonstration
@@ -25,6 +26,7 @@ groups:
     location: Jung-gu, Seoul, South Korea
     field_focus: Bridge response monitoring under real operating conditions.
     period: Field deployment and monitoring
+    data_summary: Strain, acceleration, temperature, vibration response, sensor communication status, and system maintenance records.
     sites:
     - Seosomun Overpass
     data:
@@ -38,6 +40,7 @@ groups:
     location: Paldang area, Gyeonggi-do, South Korea
     field_focus: Bridge monitoring and inspection-related measurement support.
     period: Field deployment and review
+    data_summary: Structural response histories, vibration characteristics, installation records, and monitoring-system reliability data.
     sites:
     - Paldang Overpass
     data:
@@ -51,6 +54,7 @@ groups:
     location: Seoul, South Korea
     field_focus: Bridge sensing application and field response review.
     period: Field deployment and review
+    data_summary: Sensor installation records, response histories, environmental conditions, and engineering interpretation notes.
     sites:
     - Cheongdam 1 Bridge
     data:
@@ -66,6 +70,7 @@ groups:
     location: Saemangeum / Bongdong, Jeonbuk, South Korea
     field_focus: High-speed vehicle load sensing and WIM DAQ validation.
     period: Field validation tests
+    data_summary: High-speed load signals, load-event intervals, filtered and downsampled signal records, and axle-related event labels.
     sites:
     - Saemangeum
     - Bongdong
@@ -79,6 +84,7 @@ groups:
     summary: Vehicle-mounted sensing for dynamic operating-weight estimation.
     field_focus: Vehicle-mounted sensing for dynamic operating-weight estimation.
     period: Field validation tests
+    data_summary: Vehicle-state signals, dynamic weight correction data, and validation records against WIM-related driving conditions.
     data:
     - Vehicle-state signals
     - Dynamic weight correction data
@@ -89,6 +95,7 @@ groups:
     summary: Bearing monitoring system field context for freight-car safety monitoring.
     field_focus: Freight-car bearing condition monitoring under field-oriented operation.
     period: Field application and review
+    data_summary: Freight-car bearing monitoring records, field measurement logs, vibration/temperature traces, and signal review notes.
     sites:
     - Koryeo Hwacha
     data:
@@ -104,6 +111,7 @@ groups:
     location: Seoul, South Korea
     field_focus: Transportation-stage monitoring for prefabricated structural members.
     period: Field transportation monitoring
+    data_summary: Strain, acceleration, movement-stage records, transportation events, and installation-stage response histories.
     sites:
     - Seoul bus-only lane
     data:
@@ -117,6 +125,7 @@ groups:
     location: Incheon, South Korea
     field_focus: Ruggedized event monitoring for port and quay wall structures.
     period: Field deployment and event monitoring
+    data_summary: Event-triggered sensor records, waterproof sensor operation logs, cloud communication data, and AI-assisted event labels.
     sites:
     - Incheon Port
     data:
