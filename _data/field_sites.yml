@@ -22,17 +22,19 @@ groups:
   - name: Seosomun Overpass
     key: seosomun-overpass
     href: /field-sites/seosomun-overpass/
-    summary: Field deployment and bridge response monitoring under real operating conditions.
+    summary: Long-term cloud-connected monitoring deployment on a concrete overpass in central Seoul.
     location: Jung-gu, Seoul, South Korea
-    field_focus: Bridge response monitoring under real operating conditions.
-    period: Field deployment and monitoring
-    data_summary: Strain, acceleration, temperature, vibration response, sensor communication status, and system maintenance records.
+    image: /images/field-sites/seosomun-overpass/system-overview.jpg
+    field_focus: Long-term bridge response monitoring using acceleration, strain, and temperature sensing.
+    period: Long-term field monitoring
+    date_range: 2023.12.28 - 2025.02.06
+    data_summary: Three-axis acceleration, three-channel strain, one-channel temperature, and cloud-uploaded operation records collected from the installed field system.
     sites:
     - Seosomun Overpass
     data:
-    - Strain, acceleration, and temperature records
-    - Vibration response and sensor communication status
-    - System operation and field maintenance records
+    - Three-axis acceleration, three-channel strain, and one-channel temperature records
+    - 100 Hz measurements collected in 10-minute windows every hour
+    - Cloud upload status, system operation logs, and field maintenance records
   - name: Paldang Overpass
     key: paldang-bridge-overpass
     href: /field-sites/paldang-bridge-overpass/

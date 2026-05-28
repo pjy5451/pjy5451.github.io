@@ -28,7 +28,8 @@ Conventional bridge inspection and load testing depend on periodic field campaig
 
 ## Field Deployment
 
-- Applied monitoring workflows to actual bridge structures in Korea, including Paldang Overpass, Cheongdam 1 Bridge, and Seongsan Bridge.
+- Applied monitoring workflows to actual bridge structures in Korea, including Seosomun Overpass, Paldang Overpass, Cheongdam 1 Bridge, and Seongsan Bridge.
+- Deployed a cloud-connected Seosomun Overpass field system for three-axis acceleration, multi-channel strain, and temperature measurement.
 - Supported long-term operation, maintenance checks, and sensor reliability improvements under real field conditions.
 
 ## Data / Outputs

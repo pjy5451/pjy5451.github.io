@@ -12,7 +12,9 @@
 {% if field_site.location %}
 <span>{{ field_site.location }}</span>
 {% endif %}
-{% if field_site.period %}
+{% if field_site.date_range %}
+<span>{{ field_site.date_range }}</span>
+{% elsif field_site.period %}
 <span>{{ field_site.period }}</span>
 {% endif %}
 {% if field_site.sites and field_site.sites.size > 1 %}
