@@ -6,6 +6,7 @@ groups:
     href: /field-sites/seongsan-bridge/
     summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
     location: Mapo-gu / Yeongdeungpo-gu, Seoul, South Korea
+    image: /images/field-sites/seongsan-bridge/seongsan-bridge-monitoring-installation.png
     field_focus: Long-term structural response monitoring and real-time dashboard visualization.
     period: Field deployment and operation
     data_summary: Strain, acceleration, vibration characteristics, displacement-related estimates, cloud upload status, and dashboard operation logs.
