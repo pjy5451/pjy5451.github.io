@@ -51,7 +51,7 @@
 
 {% if field_site.video %}
 <section class="field-site-detail">
-<h2>Dashboard demonstration</h2>
+<h2>{% if field_site.video.heading %}{{ field_site.video.heading }}{% else %}Dashboard demonstration{% endif %}</h2>
 <figure class="project-video">
   <div class="project-video__frame">
     <iframe src="https://www.youtube.com/embed/{{ field_site.video.id }}" title="{{ field_site.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

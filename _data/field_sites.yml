@@ -108,6 +108,26 @@ groups:
     - Signal review notes
 - title: Prefabricated and Port Structure Sites
   sites:
+  - name: Choha-cheon Bridge
+    key: choha-cheon-bridge
+    href: /field-sites/choha-cheon-bridge/
+    summary: QR-code-based data acquisition and weekly strain monitoring for a prefabricated bridge member lifecycle monitoring system.
+    location: South Korea
+    field_focus: Lifecycle monitoring of prefabricated bridge members using QR-linked strain data acquisition.
+    period: Long-term field monitoring
+    date_range: 2022.10 - Present
+    data_summary: Weekly simultaneous eight-channel strain measurements and QR-code-based data acquisition records for prefabricated member lifecycle monitoring.
+    video:
+      id: oE50q7iXPcs
+      heading: System demonstration
+      title: Choha-cheon Bridge QR-based data acquisition system demonstration
+      caption: Demonstration of the QR-code-based data acquisition workflow used for prefabricated member lifecycle monitoring.
+    sites:
+    - Choha-cheon Bridge
+    data:
+    - Weekly simultaneous eight-channel strain measurements
+    - QR-code-based data acquisition records
+    - Lifecycle monitoring records for prefabricated bridge members
   - name: Seoul Bus-Only Lane Transportation Monitoring
     key: precast-transportation-monitoring
     href: /field-sites/precast-transportation-monitoring/
