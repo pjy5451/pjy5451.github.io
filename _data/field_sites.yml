@@ -24,7 +24,7 @@ groups:
     href: /field-sites/seosomun-overpass/
     summary: Long-term cloud-connected monitoring deployment on a concrete overpass in central Seoul.
     location: Jung-gu, Seoul, South Korea
-    image: /images/field-sites/seosomun-overpass/system-overview.jpg
+    image: /images/field-sites/seosomun-overpass/annotated-system-overview.jpg
     field_focus: Long-term bridge response monitoring using acceleration, strain, and temperature sensing.
     period: Long-term field monitoring
     date_range: 2023.12.28 - 2025.02.06

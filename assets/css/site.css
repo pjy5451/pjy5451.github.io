@@ -985,7 +985,7 @@ p.field-site-card__label:not(:first-child) {
 }
 
 .field-site-card__period {
-  margin: 0 0 12px;
+  margin: 0 0 18px;
   color: var(--text);
   font-size: 0.9rem;
   font-weight: 700;
