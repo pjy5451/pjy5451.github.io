@@ -1,11 +1,11 @@
 groups:
 - category: Programming
-  tools: Python, MATLAB, C, JavaScript/Node.js, SQL
+  tools: Python, MATLAB, C, Arduino, JavaScript/Node.js, SQL
 - category: ML
   tools: PyTorch, scikit-learn, pandas, NumPy, YOLO
 - category: Software
   tools: MATLAB/Simulink, SolidWorks, Altium Designer
-- category: Data
-  tools: AWS, Docker, MySQL, InfluxDB, LabVIEW
+- category: Data / DAQ
+  tools: AWS, Docker, MySQL, InfluxDB, LabVIEW, NI DIAdem
 - category: Languages
   tools: English (TOEFL iBT 100/120, 2026), Korean (native)
