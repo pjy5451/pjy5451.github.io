@@ -769,9 +769,13 @@ span.pub__title {
 
 .project-figure figcaption,
 .content-figure figcaption {
-  margin-top: 7px;
+  margin-top: 8px;
+  padding: 8px 10px;
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
   color: var(--muted);
-  font-size: 0.9rem;
+  background: var(--soft);
+  font-size: 0.86rem;
   line-height: 1.45;
 }
 
@@ -939,6 +943,14 @@ span.pub__title {
   border-left: 1px solid var(--line);
 }
 
+.field-site-card__location-line {
+  margin: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.86rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
 .field-site-card__meta,
 .field-site-detail__meta {
   display: flex;
@@ -985,7 +997,7 @@ p.field-site-card__label:not(:first-child) {
 }
 
 .field-site-card__period {
-  margin: 0 0 18px;
+  margin: 0 0 22px;
   color: var(--text);
   font-size: 0.9rem;
   font-weight: 700;

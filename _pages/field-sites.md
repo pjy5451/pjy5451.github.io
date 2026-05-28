@@ -20,6 +20,9 @@ Field sites where sensing systems were tested, deployed, or reviewed under real 
         </div>
         <div class="field-site-card__intro">
           <h3>{{ field_site.name }}</h3>
+          {% if field_site.location %}
+            <p class="field-site-card__location-line">📍 {{ field_site.location }}</p>
+          {% endif %}
           <p class="field-site-card__label">Field period</p>
           <p class="field-site-card__period">
             {% if field_site.date_range %}

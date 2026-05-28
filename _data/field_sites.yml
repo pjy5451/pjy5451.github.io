@@ -84,6 +84,7 @@ groups:
     key: obm-field-validation
     href: /field-sites/obm-field-validation/
     summary: Vehicle-mounted sensing for dynamic operating-weight estimation.
+    location: South Korea
     field_focus: Vehicle-mounted sensing for dynamic operating-weight estimation.
     period: Field validation tests
     data_summary: Vehicle-state signals, dynamic weight correction data, and validation records against WIM-related driving conditions.
@@ -95,6 +96,7 @@ groups:
     key: freight-rail-monitoring
     href: /field-sites/freight-rail-monitoring/
     summary: Bearing monitoring system field context for freight-car safety monitoring.
+    location: South Korea
     field_focus: Freight-car bearing condition monitoring under field-oriented operation.
     period: Field application and review
     data_summary: Freight-car bearing monitoring records, field measurement logs, vibration/temperature traces, and signal review notes.
