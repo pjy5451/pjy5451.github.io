@@ -1,5 +1,5 @@
 groups:
-- title: Bridge and Infrastructure Sites
+- title: Long-Term Monitoring Sites
   sites:
   - name: Seongsan Bridge
     key: seongsan-bridge
@@ -36,35 +36,28 @@ groups:
     - Three-axis acceleration, three-channel strain, and one-channel temperature records
     - 100 Hz measurements collected in 10-minute windows every hour
     - Cloud upload status, system operation logs, and field maintenance records
-  - name: Paldang Overpass
-    key: paldang-bridge-overpass
-    href: /field-sites/paldang-bridge-overpass/
-    summary: Bridge monitoring and inspection-related measurement experience.
-    location: Paldang area, Gyeonggi-do, South Korea
-    field_focus: Bridge monitoring and inspection-related measurement support.
-    period: Field deployment and review
-    data_summary: Structural response histories, vibration characteristics, installation records, and monitoring-system reliability data.
+  - name: Choha-cheon Bridge
+    key: choha-cheon-bridge
+    href: /field-sites/choha-cheon-bridge/
+    summary: QR-code-based data acquisition and weekly strain monitoring for a prefabricated bridge member lifecycle monitoring system.
+    location: South Korea
+    image: /images/field-sites/choha-cheon-bridge/choha-cheon-bridge-qr-monitoring.jpg
+    field_focus: Lifecycle monitoring of prefabricated bridge members using QR-linked strain data acquisition.
+    period: Long-term field monitoring
+    date_range: 2022.10 - Present
+    data_summary: Weekly simultaneous eight-channel strain measurements and QR-code-based data acquisition records for prefabricated member lifecycle monitoring.
+    video:
+      id: oE50q7iXPcs
+      heading: System demonstration
+      title: Choha-cheon Bridge QR-based data acquisition system demonstration
+      caption: Demonstration of the QR-code-based data acquisition workflow used for prefabricated member lifecycle monitoring.
     sites:
-    - Paldang Overpass
+    - Choha-cheon Bridge
     data:
-    - Structural response histories
-    - Vibration characteristics and installation records
-    - Monitoring-system reliability data
-  - name: Cheongdam 1 Bridge
-    key: cheongdam-1-bridge
-    href: /field-sites/cheongdam-1-bridge/
-    summary: Bridge monitoring and field response review connected to bridge sensing applications.
-    location: Seoul, South Korea
-    field_focus: Bridge sensing application and field response review.
-    period: Field deployment and review
-    data_summary: Sensor installation records, response histories, environmental conditions, and engineering interpretation notes.
-    sites:
-    - Cheongdam 1 Bridge
-    data:
-    - Sensor installation records
-    - Response histories and environmental conditions
-    - Engineering interpretation notes
-- title: Transportation and Vehicle Monitoring Sites
+    - Weekly simultaneous eight-channel strain measurements
+    - QR-code-based data acquisition records
+    - Lifecycle monitoring records for prefabricated bridge members
+- title: Transportation and Specialized Field Tests
   sites:
   - name: WIM Field Tests
     key: wim-field-tests
@@ -93,6 +86,21 @@ groups:
     - Vehicle-state signals
     - Dynamic weight correction data
     - Validation records against WIM-related conditions
+  - name: Seoul Bus-Only Lane Transportation Monitoring
+    key: precast-transportation-monitoring
+    href: /field-sites/precast-transportation-monitoring/
+    summary: Transportation monitoring for prefabricated members using sensing systems on Seoul bus-only lane routes.
+    location: Seoul, South Korea
+    image: /images/field-sites/precast-transportation-monitoring/bus-intersection-installation.jpg
+    field_focus: Transportation-stage monitoring for prefabricated structural members.
+    period: Field transportation monitoring
+    data_summary: Strain, acceleration, movement-stage records, transportation events, and installation-stage response histories.
+    sites:
+    - Seoul bus-only lane
+    data:
+    - Strain and acceleration records
+    - Movement-stage and transportation-event records
+    - Installation-stage response histories
   - name: Freight Car Bearing Monitoring System
     key: freight-rail-monitoring
     href: /field-sites/freight-rail-monitoring/
@@ -107,47 +115,12 @@ groups:
     - Freight-car bearing monitoring records
     - Field measurement logs
     - Signal review notes
-- title: Prefabricated and Port Structure Sites
-  sites:
-  - name: Choha-cheon Bridge
-    key: choha-cheon-bridge
-    href: /field-sites/choha-cheon-bridge/
-    summary: QR-code-based data acquisition and weekly strain monitoring for a prefabricated bridge member lifecycle monitoring system.
-    location: South Korea
-    field_focus: Lifecycle monitoring of prefabricated bridge members using QR-linked strain data acquisition.
-    period: Long-term field monitoring
-    date_range: 2022.10 - Present
-    data_summary: Weekly simultaneous eight-channel strain measurements and QR-code-based data acquisition records for prefabricated member lifecycle monitoring.
-    video:
-      id: oE50q7iXPcs
-      heading: System demonstration
-      title: Choha-cheon Bridge QR-based data acquisition system demonstration
-      caption: Demonstration of the QR-code-based data acquisition workflow used for prefabricated member lifecycle monitoring.
-    sites:
-    - Choha-cheon Bridge
-    data:
-    - Weekly simultaneous eight-channel strain measurements
-    - QR-code-based data acquisition records
-    - Lifecycle monitoring records for prefabricated bridge members
-  - name: Seoul Bus-Only Lane Transportation Monitoring
-    key: precast-transportation-monitoring
-    href: /field-sites/precast-transportation-monitoring/
-    summary: Transportation monitoring for prefabricated members using sensing systems on Seoul bus-only lane routes.
-    location: Seoul, South Korea
-    field_focus: Transportation-stage monitoring for prefabricated structural members.
-    period: Field transportation monitoring
-    data_summary: Strain, acceleration, movement-stage records, transportation events, and installation-stage response histories.
-    sites:
-    - Seoul bus-only lane
-    data:
-    - Strain and acceleration records
-    - Movement-stage and transportation-event records
-    - Installation-stage response histories
   - name: Port / Quay Wall Monitoring
     key: port-quay-wall-monitoring
     href: /field-sites/port-quay-wall-monitoring/
     summary: Ruggedized multisensory monitoring for quay wall and port-structure events at Incheon Port.
     location: Incheon, South Korea
+    image: /images/field-sites/port-quay-wall-monitoring/port-quay-wall-sensor-installation.jpg
     field_focus: Ruggedized event monitoring for port and quay wall structures.
     period: Field deployment and event monitoring
     data_summary: Event-triggered sensor records, waterproof sensor operation logs, cloud communication data, and AI-assisted event labels.
@@ -157,3 +130,34 @@ groups:
     - Event-triggered sensor records
     - Waterproof sensor operation logs
     - Cloud communication data and AI-assisted event labels
+- title: Short-Term Bridge Applications
+  sites:
+  - name: Paldang Overpass
+    key: paldang-bridge-overpass
+    href: /field-sites/paldang-bridge-overpass/
+    summary: Bridge monitoring and inspection-related measurement experience.
+    location: Paldang area, Gyeonggi-do, South Korea
+    field_focus: Bridge monitoring and inspection-related measurement support.
+    period: Field deployment and review
+    data_summary: Structural response histories, vibration characteristics, installation records, and monitoring-system reliability data.
+    sites:
+    - Paldang Overpass
+    data:
+    - Structural response histories
+    - Vibration characteristics and installation records
+    - Monitoring-system reliability data
+  - name: Cheongdam 1 Bridge
+    key: cheongdam-1-bridge
+    href: /field-sites/cheongdam-1-bridge/
+    summary: Bridge monitoring and field response review connected to bridge sensing applications.
+    location: Seoul, South Korea
+    image: /images/field-sites/cheongdam-1-bridge/cheongdam-1-bridge-field-view.jpg
+    field_focus: Bridge sensing application and field response review.
+    period: Field deployment and review
+    data_summary: Sensor installation records, response histories, environmental conditions, and engineering interpretation notes.
+    sites:
+    - Cheongdam 1 Bridge
+    data:
+    - Sensor installation records
+    - Response histories and environmental conditions
+    - Engineering interpretation notes
