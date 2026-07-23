@@ -137,6 +137,7 @@ groups:
     href: /field-sites/paldang-bridge-overpass/
     summary: Bridge monitoring and inspection-related measurement experience.
     location: Paldang area, Gyeonggi-do, South Korea
+    image: /images/field-sites/paldang-bridge-overpass/paldang-overpass-sensor-installation.png
     field_focus: Bridge monitoring and inspection-related measurement support.
     period: Field deployment and review
     data_summary: Structural response histories, vibration characteristics, installation records, and monitoring-system reliability data.
