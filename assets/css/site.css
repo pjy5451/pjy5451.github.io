@@ -890,9 +890,10 @@ span.pub__title {
 
 .field-site-card {
   display: grid;
-  grid-template-columns: minmax(320px, 1.15fr) minmax(0, 0.85fr);
+  grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.92fr);
   gap: 0;
   align-items: stretch;
+  overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 12px;
@@ -907,8 +908,10 @@ span.pub__title {
 }
 
 .field-site-card__media {
+  min-width: 0;
   aspect-ratio: 16 / 9;
   min-height: 190px;
+  max-height: 270px;
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 6px;
@@ -938,6 +941,7 @@ span.pub__title {
 }
 
 .field-site-card__intro {
+  min-width: 0;
   align-self: center;
   padding-left: 18px;
   border-left: 1px solid var(--line);
