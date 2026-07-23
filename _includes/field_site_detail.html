@@ -22,55 +22,79 @@
 {% endif %}
 </div>
 
-{% if field_site.image %}
-<figure class="field-site-detail__figure">
-  <img src="{{ field_site.image | relative_url }}" alt="{{ field_site.name }} field monitoring installation">
-  <figcaption>{{ field_site.name }} field monitoring context.</figcaption>
-</figure>
-{% endif %}
-
 {% if field_site.field_focus %}
 <section class="field-site-detail">
-<h2>Field focus</h2>
+<h2>Site Overview</h2>
 <p>{{ field_site.field_focus }}</p>
-</section>
-{% endif %}
-
 {% if field_site.sites and field_site.sites.size > 1 %}
-<section class="field-site-detail">
-<h2>Test sites</h2>
+<h3>Field locations</h3>
 <ul class="field-site-detail__data">
 {% for site_name in field_site.sites %}
 <li>{{ site_name }}</li>
 {% endfor %}
 </ul>
+{% endif %}
 </section>
 {% endif %}
 
+{% if field_site.equipment %}
 <section class="field-site-detail">
-<h2>Measurements / outputs</h2>
+<h2>Sensor / Equipment Setup</h2>
+<ul class="field-site-detail__data">
+{% for item in field_site.equipment %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
+{% if field_site.development_highlights %}
+<section class="field-site-detail">
+<h2>Development Highlights</h2>
+<ul class="field-site-detail__data">
+{% for item in field_site.development_highlights %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
+{% if field_site.image %}
+<section class="field-site-detail">
+<h2>Installation Photo</h2>
+<figure class="field-site-detail__figure">
+  <img src="{{ field_site.image | relative_url }}" alt="{{ field_site.name }} field monitoring installation">
+  <figcaption>{{ field_site.name }} field monitoring context.</figcaption>
+</figure>
+</section>
+{% endif %}
+
+{% if field_site.data %}
+<section class="field-site-detail">
+<h2>Monitoring Results</h2>
 <ul class="field-site-detail__data">
 {% for datum in field_site.data %}
 <li>{{ datum }}</li>
 {% endfor %}
 </ul>
 </section>
+{% endif %}
 
 {% if field_site.video %}
 <section class="field-site-detail">
-<h2>{% if field_site.video.heading %}{{ field_site.video.heading }}{% else %}Dashboard demonstration{% endif %}</h2>
+<h2>Video / Demo</h2>
 <figure class="project-video">
   <div class="project-video__frame">
     <iframe src="https://www.youtube.com/embed/{{ field_site.video.id }}" title="{{ field_site.video.title }}" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
-  <figcaption>{{ field_site.video.caption }}</figcaption>
+  <figcaption>{% if field_site.video.heading %}{{ field_site.video.heading }}. {% endif %}{{ field_site.video.caption }}</figcaption>
 </figure>
 </section>
 {% endif %}
 
 <section class="field-site-detail">
-<h2>Field context</h2>
-<p>This page records the practical field context behind the sensing and monitoring work connected to this site, separate from the broader Research project categories.</p>
+<h2>Field Context</h2>
+<p>{% if field_site.field_context %}{{ field_site.field_context }}{% else %}This page records the practical field context behind the sensing and monitoring work connected to this site, separate from the broader Research project categories.{% endif %}</p>
 </section>
 {% endif %}
 {% endfor %}

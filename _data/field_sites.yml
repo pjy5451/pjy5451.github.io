@@ -10,6 +10,15 @@ groups:
     field_focus: Long-term structural response monitoring and real-time dashboard visualization.
     period: Field deployment and operation
     data_summary: Strain, acceleration, vibration characteristics, displacement-related estimates, cloud upload status, and dashboard operation logs.
+    equipment:
+    - Stand-alone IoT sensing units for bridge response monitoring
+    - Strain and acceleration measurement channels connected to a cloud dashboard workflow
+    - Field power, communication, and operation-status review setup
+    development_highlights:
+    - Built sensor-to-cloud monitoring workflow for long-term bridge deployment
+    - Reviewed dashboard operation, cloud upload status, and field signal reliability
+    - Connected field measurements with displacement-related interpretation and monitoring records
+    field_context: Seongsan Bridge is used here as a representative long-term bridge monitoring case, showing the connection between field installation, cloud visualization, and engineering interpretation.
     video:
       id: sJ2qWYvAp-c
       title: Seongsan Bridge real-time monitoring dashboard demonstration
@@ -30,6 +39,15 @@ groups:
     period: Long-term field monitoring
     date_range: 2023.12.28 - 2025.02.06
     data_summary: Three-axis acceleration, three-channel strain, one-channel temperature, and cloud-uploaded operation records collected from the installed field system.
+    equipment:
+    - Three-axis acceleration, three-channel strain, and one-channel temperature measurement setup
+    - Solar panel, battery housing, sensor enclosure, and cloud-connected field logger
+    - Hourly 100 Hz measurement windows for long-term operation review
+    development_highlights:
+    - Configured field deployment layout for an urban concrete overpass
+    - Organized periodic measurement records and cloud-uploaded operation logs
+    - Reviewed installation reliability, sensor placement, and field maintenance conditions
+    field_context: This site records the practical system configuration and field operation experience from a long-term overpass monitoring deployment in central Seoul.
     sites:
     - Seosomun Overpass
     data:
@@ -46,6 +64,15 @@ groups:
     period: Long-term field monitoring
     date_range: 2022.10 - Present
     data_summary: Weekly simultaneous eight-channel strain measurements and QR-code-based data acquisition records for prefabricated member lifecycle monitoring.
+    equipment:
+    - Eight-channel strain measurement setup for a prefabricated bridge member
+    - QR-code-based data acquisition interface for recurring field measurements
+    - Weekly measurement workflow for lifecycle monitoring records
+    development_highlights:
+    - Implemented QR-linked field data acquisition for prefabricated member monitoring
+    - Organized recurring strain measurements into lifecycle-oriented records
+    - Connected field inspection workflow with measured response histories
+    field_context: Choha-cheon Bridge is a long-term lifecycle monitoring example, emphasizing repeated measurements and QR-linked field data management.
     video:
       id: oE50q7iXPcs
       heading: System demonstration
@@ -68,6 +95,15 @@ groups:
     field_focus: High-speed vehicle load sensing and WIM DAQ validation.
     period: Field validation tests
     data_summary: High-speed load signals, load-event intervals, filtered and downsampled signal records, and axle-related event labels.
+    equipment:
+    - Roadside WIM field setup for high-speed vehicle load signal acquisition
+    - DAQ workflow for raw, filtered, and downsampled signal review
+    - Field test environment for axle-related event labeling and validation
+    development_highlights:
+    - Reviewed load-event intervals from high-speed field signals
+    - Organized WIM DAQ validation records across multiple field sites
+    - Connected signal preprocessing with event-label preparation for analysis workflows
+    field_context: These tests support vehicle-load monitoring work by grounding WIM signal processing and event detection in real roadside measurements.
     sites:
     - Saemangeum
     - Bongdong
@@ -84,6 +120,15 @@ groups:
     field_focus: Vehicle-mounted sensing for dynamic operating-weight estimation.
     period: Field validation tests
     data_summary: Vehicle-state signals, dynamic weight correction data, and validation records against WIM-related driving conditions.
+    equipment:
+    - Vehicle-mounted sensor installation for operating-weight related response measurement
+    - On-board wiring and sensor attachment around vehicle suspension components
+    - Validation workflow connected to WIM-related driving conditions
+    development_highlights:
+    - Supported vehicle-mounted sensing for dynamic operating-weight estimation
+    - Reviewed vehicle-state signals and correction data from field driving conditions
+    - Connected OBM validation records with WIM-related reference conditions
+    field_context: This site focuses on the vehicle-side sensing required for OBM development, separate from roadside WIM measurement.
     data:
     - Vehicle-state signals
     - Dynamic weight correction data
@@ -97,6 +142,15 @@ groups:
     field_focus: Field sensing and response review during prefabricated member transportation.
     period: Field transportation monitoring
     data_summary: Transportation-stage acceleration, strain, tilt, movement-stage records, and handling-event response histories.
+    equipment:
+    - Portable sensing setup for prefabricated member transportation-stage response
+    - Acceleration, strain, and tilt measurement channels for hauling and handling review
+    - Field installation workflow for temporary monitoring during movement and staging
+    development_highlights:
+    - Organized movement-stage and handling-event records from transportation monitoring
+    - Reviewed field response histories during hauling and installation preparation
+    - Connected temporary sensing setup with practical transportation safety interpretation
+    field_context: This entry separates prefabricated member transportation monitoring from fixed-site bridge monitoring, emphasizing short-term field deployment during hauling and handling.
     sites:
     - Prefab transportation route
     data:
@@ -112,6 +166,15 @@ groups:
     field_focus: Transportation-stage monitoring for prefabricated structural members.
     period: Field transportation monitoring
     data_summary: Strain, acceleration, movement-stage records, transportation events, and installation-stage response histories.
+    equipment:
+    - Sensing setup for prefabricated members transported through Seoul bus-only lane routes
+    - Strain and acceleration measurement workflow for movement-stage response review
+    - Temporary field installation and post-transport data review setup
+    development_highlights:
+    - Reviewed transportation and installation-stage response histories
+    - Organized movement-stage records for field interpretation
+    - Connected measured response data with prefabricated member handling conditions
+    field_context: This field site documents transportation monitoring under urban route conditions, where temporary sensing must be practical and interpretable.
     sites:
     - Seoul bus-only lane
     data:
@@ -127,6 +190,15 @@ groups:
     field_focus: Ruggedized event monitoring for port and quay wall structures.
     period: Field deployment and event monitoring
     data_summary: Event-triggered sensor records, waterproof sensor operation logs, cloud communication data, and AI-assisted event labels.
+    equipment:
+    - Ruggedized multisensory package for quay wall and port-structure monitoring
+    - Waterproof sensor operation setup with cloud communication records
+    - Event-triggered measurement workflow for harsh field environments
+    development_highlights:
+    - Reviewed waterproof packaging and field operation reliability
+    - Organized event-triggered records and cloud communication data
+    - Connected field signals with AI-assisted event labeling concepts
+    field_context: This port monitoring case highlights ruggedized sensing and event-oriented data review under harsher field conditions than typical bridge monitoring sites.
     sites:
     - Incheon Port
     data:
@@ -144,6 +216,15 @@ groups:
     field_focus: Bridge monitoring and inspection-related measurement support.
     period: Field deployment and review
     data_summary: Structural response histories, vibration characteristics, installation records, and monitoring-system reliability data.
+    equipment:
+    - Bridge underside sensor installation for response measurement support
+    - Field enclosure, wiring, and attachment setup for short-term monitoring review
+    - Installation records connected to monitoring-system reliability checks
+    development_highlights:
+    - Supported bridge field deployment and sensor installation review
+    - Reviewed structural response histories and vibration characteristics
+    - Documented field conditions affecting monitoring-system reliability
+    field_context: Paldang Overpass is included as a short-term bridge application showing practical installation and response review experience.
     sites:
     - Paldang Overpass
     data:
@@ -159,6 +240,15 @@ groups:
     field_focus: Bridge sensing application and structural response review under urban overpass field conditions.
     period: Field deployment and review
     data_summary: Sensor installation records, response histories, vibration characteristics, and field condition notes.
+    equipment:
+    - Bridge underside sensing setup for short-term response measurement
+    - Temporary sensor wiring, mounting, and field-condition documentation
+    - Response history and vibration review workflow for an urban overpass
+    development_highlights:
+    - Supported short-term field installation under urban bridge conditions
+    - Reviewed response histories and vibration characteristics from field measurements
+    - Documented field-condition notes for monitoring setup evaluation
+    field_context: Guro Overpass is a short-term bridge application focused on installation practicality and field response review.
     sites:
     - Guro Overpass
     data:
@@ -174,6 +264,15 @@ groups:
     field_focus: Bridge sensing application and field response review.
     period: Field deployment and review
     data_summary: Sensor installation records, response histories, environmental conditions, and engineering interpretation notes.
+    equipment:
+    - Bridge sensing setup for field response review
+    - Installation and environmental-condition records for short-term monitoring
+    - Response history review workflow connected to engineering interpretation notes
+    development_highlights:
+    - Supported bridge sensing application under real field conditions
+    - Reviewed measured response histories and environmental context
+    - Connected short-term field records with monitoring interpretation notes
+    field_context: Cheongdam 1 Bridge is included as a short-term bridge application for practical sensing, response review, and field-condition documentation.
     sites:
     - Cheongdam 1 Bridge
     data:
