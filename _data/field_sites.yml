@@ -88,6 +88,21 @@ groups:
     - Vehicle-state signals
     - Dynamic weight correction data
     - Validation records against WIM-related conditions
+  - name: Prefab Member Transportation Monitoring
+    key: prefab-transportation-monitoring
+    href: /field-sites/prefab-transportation-monitoring/
+    summary: Transportation-stage monitoring for prefabricated structural members during hauling and field handling.
+    location: South Korea
+    image: /images/field-sites/prefab-transportation-monitoring/prefab-transportation-monitoring-setup.jpg
+    field_focus: Field sensing and response review during prefabricated member transportation.
+    period: Field transportation monitoring
+    data_summary: Transportation-stage acceleration, strain, tilt, movement-stage records, and handling-event response histories.
+    sites:
+    - Prefab transportation route
+    data:
+    - Transportation-stage acceleration, strain, and tilt records
+    - Movement-stage and handling-event records
+    - Field response histories during hauling and installation preparation
   - name: Seoul Bus-Only Lane Transportation Monitoring
     key: precast-transportation-monitoring
     href: /field-sites/precast-transportation-monitoring/
@@ -135,6 +150,21 @@ groups:
     - Structural response histories
     - Vibration characteristics and installation records
     - Monitoring-system reliability data
+  - name: Guro Overpass
+    key: guro-overpass
+    href: /field-sites/guro-overpass/
+    summary: Short-term bridge monitoring and field response review for an urban overpass.
+    location: Guro-gu, Seoul, South Korea
+    image: /images/field-sites/guro-overpass/guro-overpass-sensor-installation.jpg
+    field_focus: Bridge sensing application and structural response review under urban overpass field conditions.
+    period: Field deployment and review
+    data_summary: Sensor installation records, response histories, vibration characteristics, and field condition notes.
+    sites:
+    - Guro Overpass
+    data:
+    - Sensor installation records
+    - Response histories and vibration characteristics
+    - Field condition and monitoring-system review notes
   - name: Cheongdam 1 Bridge
     key: cheongdam-1-bridge
     href: /field-sites/cheongdam-1-bridge/
