@@ -5,10 +5,11 @@ groups:
     key: seongsan-bridge
     href: /field-sites/seongsan-bridge/
     summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
-    location: Mapo-gu / Yeongdeungpo-gu, Seoul, South Korea
+    location: Mapo-gu, Seoul, South Korea
     image: /images/field-sites/seongsan-bridge/seongsan-bridge-monitoring-installation.png
     field_focus: Seongsan Bridge was used as a real-world long-term monitoring site for validating a JANET-based IoT sensing and cloud-computing system. The system was installed on the south side of the bridge on July 6, 2023, targeting the S13 span around the G5 to G6 girders. The deployment focused on collecting bridge response data and reviewing whether sensor-to-cloud monitoring could support practical bridge condition assessment.
     period: Field deployment and operation
+    date_range: 2023.07.06 - 2023.11
     data_summary: Strain, acceleration, vibration characteristics, displacement-related estimates, cloud upload status, and dashboard operation logs.
     equipment:
     - Installed one JANET IoT sensing unit, three welded strain gauges, and one crack meter around the CB2 to CB6 sections of the S13 span.
