@@ -64,6 +64,7 @@ groups:
     href: /field-sites/wim-field-tests/
     summary: High-speed vehicle load sensing and WIM DAQ validation at Saemangeum and Bongdong field sites.
     location: Saemangeum / Bongdong, Jeonbuk, South Korea
+    image: /images/field-sites/wim-field-tests/wim-field-test-roadside.jpg
     field_focus: High-speed vehicle load sensing and WIM DAQ validation.
     period: Field validation tests
     data_summary: High-speed load signals, load-event intervals, filtered and downsampled signal records, and axle-related event labels.
@@ -79,6 +80,7 @@ groups:
     href: /field-sites/obm-field-validation/
     summary: Vehicle-mounted sensing for dynamic operating-weight estimation.
     location: South Korea
+    image: /images/field-sites/obm-field-validation/obm-vehicle-sensor-installation.jpg
     field_focus: Vehicle-mounted sensing for dynamic operating-weight estimation.
     period: Field validation tests
     data_summary: Vehicle-state signals, dynamic weight correction data, and validation records against WIM-related driving conditions.
@@ -101,20 +103,6 @@ groups:
     - Strain and acceleration records
     - Movement-stage and transportation-event records
     - Installation-stage response histories
-  - name: Freight Car Bearing Monitoring System
-    key: freight-rail-monitoring
-    href: /field-sites/freight-rail-monitoring/
-    summary: Bearing monitoring system field context for freight-car safety monitoring.
-    location: South Korea
-    field_focus: Freight-car bearing condition monitoring under field-oriented operation.
-    period: Field application and review
-    data_summary: Freight-car bearing monitoring records, field measurement logs, vibration/temperature traces, and signal review notes.
-    sites:
-    - Koryeo Hwacha
-    data:
-    - Freight-car bearing monitoring records
-    - Field measurement logs
-    - Signal review notes
   - name: Port / Quay Wall Monitoring
     key: port-quay-wall-monitoring
     href: /field-sites/port-quay-wall-monitoring/
