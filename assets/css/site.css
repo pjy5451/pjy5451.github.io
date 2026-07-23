@@ -1069,6 +1069,16 @@ p.field-site-card__label:not(:first-child) {
   line-height: 1.45;
 }
 
+.field-site-detail__figures {
+  display: grid;
+  gap: 14px;
+  margin-top: 14px;
+}
+
+.field-site-detail__figures .content-figure {
+  margin: 0;
+}
+
 .field-site-detail__data {
   margin: 0;
   padding-left: 20px;

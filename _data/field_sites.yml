@@ -4,21 +4,32 @@ groups:
   - name: Seongsan Bridge
     key: seongsan-bridge
     href: /field-sites/seongsan-bridge/
-    summary: Bridge monitoring and field data review using sensing systems for structural response measurement.
+    summary: Long-term bridge monitoring deployment from my master's thesis, using a JANET IoT sensor and cloud-computing workflow for structural response measurement.
     location: Mapo-gu / Yeongdeungpo-gu, Seoul, South Korea
     image: /images/field-sites/seongsan-bridge/seongsan-bridge-monitoring-installation.png
-    field_focus: Long-term structural response monitoring and real-time dashboard visualization.
-    period: Field deployment and operation
-    data_summary: Strain, acceleration, vibration characteristics, displacement-related estimates, cloud upload status, and dashboard operation logs.
+    field_focus: Seongsan Bridge was used as a real-world long-term monitoring site for validating a JANET-based IoT sensing and cloud-computing system. The system was installed on the south side of the bridge on July 6, 2023, targeting the S13 span around the G5 to G6 girders. The deployment focused on collecting bridge response data and reviewing whether sensor-to-cloud monitoring could support practical bridge condition assessment.
+    period: Installed on 2023.07.06; initial four-month field validation
+    data_summary: Three-axis acceleration, strain response, crack gauge records, displacement-related estimates, natural-frequency information, cloud upload status, and dashboard operation logs.
     equipment:
-    - Stand-alone IoT sensing units for bridge response monitoring
-    - Strain and acceleration measurement channels connected to a cloud dashboard workflow
-    - Field power, communication, and operation-status review setup
+    - Installed one JANET IoT sensing unit, three welded strain gauges, and one crack meter around the CB2 to CB6 sections of the S13 span.
+    - Configured JANET to measure three-axis acceleration and multi-channel analog sensor data from a single node.
+    - Transmitted field measurements through an LTE Cat.1 modem to an Amazon EC2-based cloud server.
+    - Used Node.js for data acquisition, Python for analysis, InfluxDB for time-series data, MySQL for representative indices, and Grafana for dashboard visualization.
+    - Collected measurement metadata including battery voltage, LTE signal strength, trigger type, and vibration trigger count.
+    equipment_figures:
+    - image: /images/field-sites/seongsan-bridge/seongsan-sensor-setup.png
+      alt: Seongsan Bridge JANET sensor, crack gauge, and strain gauge installation layout
+      caption: Sensor and equipment configuration used for the Seongsan Bridge deployment, including the packaged JANET unit, crack gauge, system overview, and welded strain gauges.
     development_highlights:
-    - Built sensor-to-cloud monitoring workflow for long-term bridge deployment
-    - Reviewed dashboard operation, cloud upload status, and field signal reliability
-    - Connected field measurements with displacement-related interpretation and monitoring records
-    field_context: Seongsan Bridge is used here as a representative long-term bridge monitoring case, showing the connection between field installation, cloud visualization, and engineering interpretation.
+    - Developed and validated an end-to-end bridge monitoring workflow connecting field sensing, LTE communication, cloud storage, cloud-side analysis, and dashboard visualization.
+    - Designed the system to acquire acceleration and strain data simultaneously from a single sensor node, reducing synchronization issues in field monitoring.
+    - Implemented cloud-side data handling for raw measurements, representative indices, and web-based visualization.
+    - Reviewed field data quality, system operation history, and monitoring reliability during the Seongsan Bridge deployment.
+    installation_figures:
+    - image: /images/field-sites/seongsan-bridge/seongsan-installation-collage.png
+      alt: Seongsan Bridge solar panel, sensor enclosure, and bridge underside installation overview
+      caption: On-site installation views from the thesis, showing the solar panel, sensor system, and bridge underside monitoring layout.
+    field_context: The Seongsan Bridge deployment is one of the central field applications from my master's thesis. It demonstrates my work on building a scalable bridge health monitoring system that connects sensor hardware, field installation, wireless communication, cloud computing, data analysis, and dashboard-based engineering interpretation.
     video:
       id: sJ2qWYvAp-c
       title: Seongsan Bridge real-time monitoring dashboard demonstration
@@ -26,9 +37,18 @@ groups:
     sites:
     - Seongsan Bridge
     data:
-    - Strain and acceleration records
-    - Vibration characteristics and displacement-related estimation data
-    - Cloud upload status and monitoring logs
+    - Collected three-axis acceleration, strain response, crack gauge, and system-operation records from the installed field system.
+    - Verified sensor noise levels of approximately 0.1 mg for acceleration and 1.52 microstrain for strain in lab-scale testing.
+    - Identified vertical acceleration frequency peaks at 3.271 Hz and 5.176 Hz from field measurements.
+    - Estimated a maximum displacement of 2.61 mm, below the L/1000 allowable deflection value of 37.6 mm for the monitored section.
+    - Observed a maximum crack width of 66.8 micrometer, below the 0.3 mm allowable crack-width criterion for wet reinforced-concrete conditions.
+    result_figures:
+    - image: /images/field-sites/seongsan-bridge/seongsan-raw-response-data.png
+      alt: Seongsan Bridge raw acceleration, strain, displacement, and crack gauge response data
+      caption: Representative raw response data from the Seongsan Bridge monitoring system, including acceleration, strain, displacement-related response, and crack gauge records.
+    - image: /images/field-sites/seongsan-bridge/seongsan-dashboard-grafana.png
+      alt: Seongsan Bridge southern end Grafana monitoring dashboard
+      caption: Web-based Grafana dashboard connected to the cloud database for visualizing Seongsan Bridge monitoring results and system status.
   - name: Seosomun Overpass
     key: seosomun-overpass
     href: /field-sites/seosomun-overpass/

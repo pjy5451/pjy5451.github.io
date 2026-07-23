@@ -45,6 +45,16 @@
 <li>{{ item }}</li>
 {% endfor %}
 </ul>
+{% if field_site.equipment_figures %}
+<div class="field-site-detail__figures">
+{% for figure in field_site.equipment_figures %}
+<figure class="content-figure">
+  <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | default: field_site.name }}">
+  <figcaption>{{ figure.caption }}</figcaption>
+</figure>
+{% endfor %}
+</div>
+{% endif %}
 </section>
 {% endif %}
 
@@ -66,6 +76,16 @@
   <img src="{{ field_site.image | relative_url }}" alt="{{ field_site.name }} field monitoring installation">
   <figcaption>{{ field_site.name }} field monitoring context.</figcaption>
 </figure>
+{% if field_site.installation_figures %}
+<div class="field-site-detail__figures">
+{% for figure in field_site.installation_figures %}
+<figure class="content-figure">
+  <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | default: field_site.name }}">
+  <figcaption>{{ figure.caption }}</figcaption>
+</figure>
+{% endfor %}
+</div>
+{% endif %}
 </section>
 {% endif %}
 
@@ -77,6 +97,16 @@
 <li>{{ datum }}</li>
 {% endfor %}
 </ul>
+{% if field_site.result_figures %}
+<div class="field-site-detail__figures">
+{% for figure in field_site.result_figures %}
+<figure class="content-figure">
+  <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | default: field_site.name }}">
+  <figcaption>{{ figure.caption }}</figcaption>
+</figure>
+{% endfor %}
+</div>
+{% endif %}
 </section>
 {% endif %}
 
