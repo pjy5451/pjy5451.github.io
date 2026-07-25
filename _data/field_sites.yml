@@ -206,27 +206,45 @@ groups:
   - name: Prefab Member Transportation Monitoring
     key: prefab-transportation-monitoring
     href: /field-sites/prefab-transportation-monitoring/
-    summary: Transportation-stage monitoring for prefabricated structural members during hauling and field handling.
+    summary: IoT-based monitoring for prefabricated structural members during lifting, hauling, and site delivery.
     location: South Korea
     image: /images/field-sites/prefab-transportation-monitoring/prefab-transportation-monitoring-setup.jpg
-    field_focus: Field sensing and response review during prefabricated member transportation.
+    field_focus: >-
+      This field project focused on monitoring prefabricated structural members during transportation and handling, where the monitored object is a moving component rather than a fixed bridge or building. The work used field sensing to review vibration, tilt, strain, impact-related response, and movement-stage behavior during lifting, loading, hauling, and delivery.
     period: Field transportation monitoring
-    data_summary: Transportation-stage acceleration, strain, tilt, movement-stage records, and handling-event response histories.
+    data_summary: Transportation-stage acceleration, strain, tilt, route-linked movement records, handling-event response histories, and cloud monitoring records.
     equipment:
-    - Portable sensing setup for prefabricated member transportation-stage response
-    - Acceleration, strain, and tilt measurement channels for hauling and handling review
-    - Field installation workflow for temporary monitoring during movement and staging
+    - IoT sensor installation attached directly to prefabricated structural members during transport-related operations
+    - Acceleration, strain, tilt, and impact-related response measurements for handling and hauling review
+    - Base-station and cloud-connected monitoring workflow for collecting field data during moving operations
+    - Route-linked monitoring concept for connecting structural response with transportation and delivery stages
     development_highlights:
-    - Organized movement-stage and handling-event records from transportation monitoring
-    - Reviewed field response histories during hauling and installation preparation
-    - Connected temporary sensing setup with practical transportation safety interpretation
-    field_context: This entry separates prefabricated member transportation monitoring from fixed-site bridge monitoring, emphasizing short-term field deployment during hauling and handling.
+    - Supported field application of IoT sensing to prefabricated members under practical lifting, loading, hauling, and delivery conditions
+    - Reviewed temporary sensor attachment, field deployment constraints, and movement-stage data acquisition
+    - Organized acceleration, strain, tilt, and handling-event records for transportation-stage response interpretation
+    - Connected structural response data with movement-stage information to support field quality management and abnormal-event review
+    validation_heading: Transportation Monitoring Workflow
+    validation_protocol:
+    - Field records are organized around transport stages such as lifting, loading, driving, unloading, and delivery.
+    - Sensor response histories are interpreted together with route or movement information so that transport-induced events can be separated from stationary or handling conditions.
+    - Result summaries should distinguish measured field response, stage identification, and abnormal-event review from final quality-control acceptance criteria.
+    field_context: >-
+      This entry expands my field portfolio beyond fixed bridge monitoring by showing how sensing systems can be applied to mobile structural assets during construction logistics. It connects structural engineering with practical field operations, where sensing, communication, and data interpretation must remain reliable while the monitored component is being moved.
     sites:
     - Prefab transportation route
     data:
-    - Transportation-stage acceleration, strain, and tilt records
-    - Movement-stage and handling-event records
-    - Field response histories during hauling and installation preparation
+    - Transportation-stage acceleration, strain, tilt, and impact-related response records
+    - Movement-stage and handling-event histories during lifting, loading, hauling, and delivery
+    - Route-linked monitoring records connecting transport movement with structural response
+    result_groups:
+    - title: Stage and Event Review
+      items:
+      - Multi-stage response plots can show how measured signals change during lifting, loading, driving, unloading, and delivery.
+      - Event summaries can highlight abnormal vibration, impact, tilt, or support-condition changes once confirmed field criteria are available.
+    - title: Cloud Monitoring Workflow
+      items:
+      - Dashboard screenshots can show how field sensor nodes, base-station communication, cloud storage, and response review are connected.
+      - Route-linked records can help explain how transportation location and movement context are paired with structural response data.
   - name: Seoul Bus-Only Lane Transportation Monitoring
     key: precast-transportation-monitoring
     href: /field-sites/precast-transportation-monitoring/
@@ -328,24 +346,42 @@ groups:
   - name: Cheongdam 1 Bridge
     key: cheongdam-1-bridge
     href: /field-sites/cheongdam-1-bridge/
-    summary: Bridge monitoring and field response review connected to bridge sensing applications.
+    summary: Cloud-connected bridge monitoring using IoT sensing, acceleration-strain response review, and displacement-estimation workflows.
     location: Seoul, South Korea
     image: /images/field-sites/cheongdam-1-bridge/cheongdam-1-bridge-field-view.jpg
-    field_focus: Bridge sensing application and field response review.
+    field_focus: >-
+      Cheongdam 1 Bridge was used as a real bridge field site for validating an IoT-based structural monitoring workflow under operating conditions. The monitoring work connected low-power sensing hardware, continuous response measurement, cloud-based data transfer, database management, and dashboard-based review for practical bridge response interpretation.
     period: Field deployment and review
-    data_summary: Sensor installation records, response histories, environmental conditions, and engineering interpretation notes.
+    data_summary: Acceleration, strain, displacement-related response, sensor operation records, cloud transfer logs, dashboard review outputs, and engineering interpretation notes.
     equipment:
-    - Bridge sensing setup for field response review
-    - Installation and environmental-condition records for short-term monitoring
-    - Response history review workflow connected to engineering interpretation notes
+    - Low-power IoT sensing setup for bridge acceleration and strain response monitoring
+    - Cloud-connected data transfer and storage workflow for continuous field records
+    - Data-fusion workflow for indirect displacement-related response estimation from acceleration and strain measurements
+    - Dashboard-based monitoring interface for reviewing sensor status and field response histories
     development_highlights:
-    - Supported bridge sensing application under real field conditions
-    - Reviewed measured response histories and environmental context
-    - Connected short-term field records with monitoring interpretation notes
-    field_context: Cheongdam 1 Bridge is included as a short-term bridge application for practical sensing, response review, and field-condition documentation.
+    - Participated in field deployment and monitoring setup for an operating bridge environment
+    - Supported integration of sensing hardware, communication modules, cloud transfer, database workflows, and dashboard visualization
+    - Reviewed acceleration and strain response histories for long-term bridge monitoring interpretation
+    - Worked with displacement-estimation concepts based on acceleration-strain data fusion and field response review
+    validation_heading: Monitoring Workflow
+    validation_protocol:
+    - Field records are organized around the full monitoring chain, from sensor deployment and data acquisition to cloud transfer, database storage, and dashboard review.
+    - Response interpretation focuses on acceleration, strain, and displacement-related behavior rather than isolated sensor readings.
+    - System reliability is reviewed through sensor operation status, data-transfer continuity, and the practical usability of long-term monitoring records.
+    field_context: >-
+      Cheongdam 1 Bridge strengthens my portfolio by showing experience with long-term bridge monitoring beyond one-time field measurements. It connects structural engineering with IoT sensing, cloud-connected data management, and data-driven response interpretation for infrastructure monitoring under real service conditions.
     sites:
     - Cheongdam 1 Bridge
     data:
-    - Sensor installation records
-    - Response histories and environmental conditions
-    - Engineering interpretation notes
+    - Long-term acceleration and strain response histories
+    - Displacement-related response estimated through acceleration-strain data fusion workflows
+    - Sensor operation, cloud transfer, database, and dashboard monitoring records
+    result_groups:
+    - title: Structural Response Review
+      items:
+      - Representative acceleration and strain time histories can show the bridge response captured under service conditions.
+      - Displacement-estimation workflow figures can explain how multi-metric sensing supports bridge response interpretation.
+    - title: Monitoring-System Operation
+      items:
+      - Dashboard screenshots can document data availability, sensor status, and long-term monitoring records.
+      - System-operation summaries can show whether the sensing, communication, storage, and visualization chain remained usable in the field.
