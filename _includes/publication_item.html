@@ -5,6 +5,10 @@
 {% if item.href %}
   {% assign item_href = item.href[pub_lang] | default: item.href.en %}
 {% endif %}
+{% assign item_pdf = "" %}
+{% if item.pdf %}
+  {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
+{% endif %}
 
 <article class="pub">
   {% if item_href != "" %}
@@ -12,7 +16,17 @@
   {% else %}
     <span class="pub__title">{{ item_title }}</span>
   {% endif %}
-  <p class="pub__venue"><em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}</p>
+  <p class="pub__venue">
+    <em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}
+    {% if item_pdf != "" %}
+      {% if item_pdf contains "://" %}
+        {% assign pdf_href = item_pdf %}
+      {% else %}
+        {% assign pdf_href = item_pdf | relative_url %}
+      {% endif %}
+      <a class="pub__pdf-link" href="{{ pdf_href }}" aria-label="Open PDF for {{ item_title }}">PDF</a>
+    {% endif %}
+  </p>
   {% unless include.hide_authors %}
     <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
   {% endunless %}
