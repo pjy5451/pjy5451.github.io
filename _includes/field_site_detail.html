@@ -69,6 +69,17 @@
 </section>
 {% endif %}
 
+{% if field_site.validation_protocol %}
+<section class="field-site-detail">
+<h2>{{ field_site.validation_heading | default: "Validation Workflow" }}</h2>
+<ul class="field-site-detail__data">
+{% for item in field_site.validation_protocol %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
 {% if field_site.image %}
 <section class="field-site-detail">
 <h2>Installation Photo</h2>
@@ -89,14 +100,26 @@
 </section>
 {% endif %}
 
-{% if field_site.data %}
+{% if field_site.data or field_site.result_groups or field_site.result_figures %}
 <section class="field-site-detail">
 <h2>Monitoring Results</h2>
+{% if field_site.data %}
 <ul class="field-site-detail__data">
 {% for datum in field_site.data %}
 <li>{{ datum }}</li>
 {% endfor %}
 </ul>
+{% endif %}
+{% if field_site.result_groups %}
+{% for result_group in field_site.result_groups %}
+<h3>{{ result_group.title }}</h3>
+<ul class="field-site-detail__data">
+{% for item in result_group.items %}
+<li>{{ item }}</li>
+{% endfor %}
+</ul>
+{% endfor %}
+{% endif %}
 {% if field_site.result_figures %}
 <div class="field-site-detail__figures">
 {% for figure in field_site.result_figures %}

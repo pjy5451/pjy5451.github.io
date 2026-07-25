@@ -128,6 +128,11 @@ groups:
     - Analyzed axle peaks across multiple rows and channels to support axle-event matching and vehicle-passage interpretation
     - Linked signal records with vehicle speed, axle configuration, image records, and monitoring outputs where available
     - Prepared visualization and validation workflows for reviewing axle loads, gross vehicle weight, channel balance, timing differences, and abnormal waveforms
+    validation_heading: Validation Workflow
+    validation_protocol:
+    - Field records are organized around the complete WIM monitoring path, from roadway installation and channel mapping to axle-event detection and vehicle-level record generation.
+    - Representative passages are reviewed through raw signal acquisition, baseline correction, filtering, event segmentation, cross-row axle matching, and monitoring-record creation.
+    - Validation outputs are separated into signal-quality review, vehicle-event interpretation, and reference-comparison results so exploratory waveform analysis is not presented as certified performance evidence.
     field_context: >-
       These tests show the field-facing side of my WIM research: connecting embedded roadway sensing, DAQ configuration, signal processing, vehicle-event detection, image-linked records, and dashboard-oriented review. The work supports data-driven infrastructure monitoring by turning real traffic loading into structured records that can be used for overload screening, traffic-load characterization, sensor-health review, and bridge or roadway load assessment.
     sites:
@@ -138,6 +143,19 @@ groups:
     - Cross-row axle matching and timing-difference review between repeated sensor measurements
     - Channel response comparison for checking wheel-path effects, noise, drift, and abnormal signal shapes
     - Vehicle-level monitoring records combining WIM results, passage timing, vehicle information, and image-based review
+    result_groups:
+    - title: Signal Processing and Event Detection
+      items:
+      - Raw and filtered WIM signals can be used to show how short-duration wheel-load responses are segmented into axle events.
+      - Cross-row axle matching can document timing consistency between repeated sensor measurements for the same vehicle passage.
+    - title: Validation Results
+      items:
+      - Reference-weight comparison plots or compact validation tables should be added only for approved datasets and clearly labeled by test campaign.
+      - Channel-health summaries can show noise, drift, abnormal waveforms, and response imbalance without overstating performance claims.
+    - title: Operational Monitoring
+      items:
+      - Dashboard screenshots can connect passage time, vehicle image, speed, axle configuration, axle loads, gross weight, and system status into a single reviewable record.
+      - A field-test video would be most useful if it synchronizes the vehicle crossing, WIM signals, detected axle events, and dashboard output.
   - name: OBM Field Validation
     key: obm-field-validation
     href: /field-sites/obm-field-validation/
@@ -160,6 +178,11 @@ groups:
     - Compared OBM responses across loading and driving conditions to evaluate repeatability, drift, dynamic variation, and speed-dependent behavior
     - Aligned OBM records with WIM vehicle passages to compare vehicle-side load estimates with roadway-based axle-load measurements
     - Reviewed relationships among mass-sensing signals, IMU response, suspension movement, vehicle speed, loading condition, and WIM reference records
+    validation_heading: Validation Protocol
+    validation_protocol:
+    - Validation records are organized around vehicle instrumentation, loading condition, driving condition, reference measurement, and repeated field runs.
+    - OBM, IMU, underbody video, and roadside WIM records are compared after passage matching, timestamp alignment, filtering, and stable-window selection.
+    - Static mass, vehicle-mounted OBM estimates, and instantaneous roadside WIM axle forces are treated as related but distinct quantities during interpretation.
     field_context: >-
       This validation expands my field experience from fixed infrastructure sensing to vehicle-mounted monitoring. It connects sensor installation, embedded acquisition, vehicle dynamics, signal synchronization, video-based motion review, and WIM comparison around the same load-observation problem. Together with the WIM field tests, the OBM work supports a broader research direction in data-driven infrastructure evaluation under actual operating conditions.
     data:
@@ -167,6 +190,19 @@ groups:
     - Load-condition and speed-dependent response comparisons across repeated runs
     - Time-aligned OBM and WIM records for the same vehicle passages
     - Suspension-motion observations and sensor-fusion review linking vehicle response with load-related measurements
+    result_groups:
+    - title: Multi-Sensor Signal Processing
+      items:
+      - Time-aligned OBM, IMU, speed, and vehicle-operation signals can show how load-related behavior is separated from acceleration, braking, vibration, and road excitation.
+      - Underbody video frames and marker-tracking results can support physical interpretation of suspension or axle motion during selected runs.
+    - title: Reference and Cross-System Validation
+      items:
+      - OBM estimates should be compared with static reference weights, roadside WIM records, or both, while clearly stating the physical meaning of each reference.
+      - Matched OBM and WIM passages can show the same vehicle-road interaction from both vehicle-mounted and infrastructure-mounted sensing perspectives.
+    - title: Test Matrix
+      items:
+      - A compact table should summarize vehicle configuration, loading condition, speed condition, road section, reference method, and repeated runs once those details are finalized.
+      - Validation plots should distinguish approved performance metrics from exploratory signal-processing or synchronization checks.
   - name: Prefab Member Transportation Monitoring
     key: prefab-transportation-monitoring
     href: /field-sites/prefab-transportation-monitoring/
