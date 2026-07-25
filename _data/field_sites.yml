@@ -110,50 +110,63 @@ groups:
   - name: WIM Field Tests
     key: wim-field-tests
     href: /field-sites/wim-field-tests/
-    summary: High-speed vehicle load sensing and WIM DAQ validation at Saemangeum and Bongdong field sites.
+    summary: Real-road validation of high-speed WIM sensing, vehicle-event detection, and vehicle-level monitoring records.
     location: Saemangeum / Bongdong, Jeonbuk, South Korea
     image: /images/field-sites/wim-field-tests/wim-field-test-roadside.jpg
-    field_focus: High-speed vehicle load sensing and WIM DAQ validation.
+    field_focus: >-
+      The WIM field tests were conducted to validate high-speed Weigh-in-Motion sensing under real roadway conditions rather than controlled laboratory loading. The campaigns focused on capturing short-duration tire-sensor interactions from moving vehicles and converting raw roadway signals into interpretable vehicle-level records, including axle events, gross-weight estimates, passage timing, and reviewable monitoring outputs.
     period: Field validation tests
-    data_summary: High-speed load signals, load-event intervals, filtered and downsampled signal records, and axle-related event labels.
+    data_summary: Multi-channel WIM signals, axle-event intervals, filtered signal records, vehicle-passage metadata, and validation review outputs.
     equipment:
-    - Roadside WIM field setup for high-speed vehicle load signal acquisition
-    - DAQ workflow for raw, filtered, and downsampled signal review
-    - Field test environment for axle-related event labeling and validation
+    - Multi-channel roadway WIM sensor array installed across operational traffic lanes
+    - Two-row load-sensing configuration used to compare repeated axle measurements from the same vehicle passage
+    - Roadside vehicle-detection and image-acquisition workflow for associating WIM events with vehicle records
+    - DAQ and database workflow for reviewing raw, filtered, and vehicle-level WIM records
     development_highlights:
-    - Reviewed load-event intervals from high-speed field signals
-    - Organized WIM DAQ validation records across multiple field sites
-    - Connected signal preprocessing with event-label preparation for analysis workflows
-    field_context: These tests support vehicle-load monitoring work by grounding WIM signal processing and event detection in real roadside measurements.
+    - Reviewed field installation conditions, sensor-channel mapping, signal quality, and vehicle-event acquisition under live traffic
+    - Processed WIM signals using baseline correction, filtering, smoothing, event segmentation, and channel-level response checks
+    - Analyzed axle peaks across multiple rows and channels to support axle-event matching and vehicle-passage interpretation
+    - Linked signal records with vehicle speed, axle configuration, image records, and monitoring outputs where available
+    - Prepared visualization and validation workflows for reviewing axle loads, gross vehicle weight, channel balance, timing differences, and abnormal waveforms
+    field_context: >-
+      These tests show the field-facing side of my WIM research: connecting embedded roadway sensing, DAQ configuration, signal processing, vehicle-event detection, image-linked records, and dashboard-oriented review. The work supports data-driven infrastructure monitoring by turning real traffic loading into structured records that can be used for overload screening, traffic-load characterization, sensor-health review, and bridge or roadway load assessment.
     sites:
     - Saemangeum
     - Bongdong
     data:
-    - High-speed load signals and load-event intervals
-    - Filtered and downsampled signal records
-    - Axle-related records and event labels
+    - Multi-channel WIM waveforms with detected axle-event intervals
+    - Cross-row axle matching and timing-difference review between repeated sensor measurements
+    - Channel response comparison for checking wheel-path effects, noise, drift, and abnormal signal shapes
+    - Vehicle-level monitoring records combining WIM results, passage timing, vehicle information, and image-based review
   - name: OBM Field Validation
     key: obm-field-validation
     href: /field-sites/obm-field-validation/
-    summary: Vehicle-mounted sensing for dynamic operating-weight estimation.
+    summary: Vehicle-mounted sensing validation for dynamic operating-weight estimation and WIM comparison.
     location: South Korea
     image: /images/field-sites/obm-field-validation/obm-vehicle-sensor-installation.jpg
-    field_focus: Vehicle-mounted sensing for dynamic operating-weight estimation.
+    field_focus: >-
+      The OBM field validation focused on evaluating an on-board monitoring system installed directly on a heavy vehicle. Unlike roadway WIM systems, which observe tire loads at a fixed road section, OBM records load-related vehicle responses during driving. The validation examined whether vehicle-mounted sensing could provide stable and interpretable operating-weight information under real driving, loading, and road-input conditions.
     period: Field validation tests
-    data_summary: Vehicle-state signals, dynamic weight correction data, and validation records against WIM-related driving conditions.
+    data_summary: Vehicle-mounted sensor signals, IMU response, dynamic weight correction data, suspension-motion observations, and WIM-linked validation records.
     equipment:
-    - Vehicle-mounted sensor installation for operating-weight related response measurement
-    - On-board wiring and sensor attachment around vehicle suspension components
-    - Validation workflow connected to WIM-related driving conditions
+    - Vehicle-mounted mass-sensing unit, inertial measurement unit, and electronic control unit for on-board data acquisition
+    - Underbody installation with wiring, sensor attachment, and vehicle-side logging during repeated driving tests
+    - Camera-based observation workflow for reviewing suspension or axle movement during selected runs
+    - Validation workflow linking OBM records with roadside WIM measurements and known loading conditions where available
     development_highlights:
-    - Supported vehicle-mounted sensing for dynamic operating-weight estimation
-    - Reviewed vehicle-state signals and correction data from field driving conditions
-    - Connected OBM validation records with WIM-related reference conditions
-    field_context: This site focuses on the vehicle-side sensing required for OBM development, separate from roadside WIM measurement.
+    - Supported vehicle sensor installation, cable routing, equipment checks, and pre-test inspection for field driving runs
+    - Reviewed ECU and DAQ settings, channel definitions, timestamps, logging intervals, and data-storage formats
+    - Preprocessed vehicle-mounted signals using filtering, offset removal, resampling, event segmentation, and invalid-data screening
+    - Compared OBM responses across loading and driving conditions to evaluate repeatability, drift, dynamic variation, and speed-dependent behavior
+    - Aligned OBM records with WIM vehicle passages to compare vehicle-side load estimates with roadway-based axle-load measurements
+    - Reviewed relationships among mass-sensing signals, IMU response, suspension movement, vehicle speed, loading condition, and WIM reference records
+    field_context: >-
+      This validation expands my field experience from fixed infrastructure sensing to vehicle-mounted monitoring. It connects sensor installation, embedded acquisition, vehicle dynamics, signal synchronization, video-based motion review, and WIM comparison around the same load-observation problem. Together with the WIM field tests, the OBM work supports a broader research direction in data-driven infrastructure evaluation under actual operating conditions.
     data:
-    - Vehicle-state signals
-    - Dynamic weight correction data
-    - Validation records against WIM-related conditions
+    - Vehicle-mounted mass-sensing and inertial response signals collected during field driving tests
+    - Load-condition and speed-dependent response comparisons across repeated runs
+    - Time-aligned OBM and WIM records for the same vehicle passages
+    - Suspension-motion observations and sensor-fusion review linking vehicle response with load-related measurements
   - name: Prefab Member Transportation Monitoring
     key: prefab-transportation-monitoring
     href: /field-sites/prefab-transportation-monitoring/
