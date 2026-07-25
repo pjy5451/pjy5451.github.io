@@ -804,6 +804,17 @@ span.pub__title {
   background: var(--soft);
 }
 
+.content-figure--compact img {
+  width: min(100%, 420px);
+  margin: 0 auto;
+}
+
+.content-figure--compact figcaption {
+  max-width: 520px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .project-figure figcaption,
 .content-figure figcaption {
   margin-top: 8px;

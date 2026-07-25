@@ -84,7 +84,7 @@ groups:
     field_focus: >-
       Choha-cheon Bridge was used as a lifecycle-monitoring field case for a prefabricated bridge member instrumented with embedded strain sensing. The monitoring workflow combined repeated field measurements, QR-code-based data access, and spreadsheet-based response review so that member behavior could be tracked beyond a single construction or inspection event.
     period: Long-term field monitoring
-    date_range: 2022.10 - Present
+    date_range: 2022.10 - 2023.04
     data_summary: Eight-channel embedded strain-gauge records, thermometer readings, post-tensioning stage measurements, QR-code-based data acquisition records, and selected-channel monitoring histories.
     equipment:
     - Eight KM-100B embedded strain transducers installed across a prefabricated bridge member, with one thermometer channel recorded for field context
@@ -139,6 +139,7 @@ groups:
     - image: /images/field-sites/choha-cheon-bridge/choha-cheon-qr-data-capture.png
       alt: Choha-cheon Bridge QR-based data acquisition screen
       caption: QR-based data retrieval screen used for field-friendly access to member-level monitoring records.
+      variant: compact
 - title: Transportation and Specialized Field Tests
   sites:
   - name: WIM Field Tests

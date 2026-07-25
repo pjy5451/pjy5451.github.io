@@ -48,7 +48,7 @@
 {% if field_site.equipment_figures %}
 <div class="field-site-detail__figures">
 {% for figure in field_site.equipment_figures %}
-<figure class="content-figure">
+<figure class="content-figure{% if figure.variant %} content-figure--{{ figure.variant }}{% endif %}">
   <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | default: field_site.name }}">
   <figcaption>{{ figure.caption }}</figcaption>
 </figure>
@@ -90,7 +90,7 @@
 {% if field_site.installation_figures %}
 <div class="field-site-detail__figures">
 {% for figure in field_site.installation_figures %}
-<figure class="content-figure">
+<figure class="content-figure{% if figure.variant %} content-figure--{{ figure.variant }}{% endif %}">
   <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | default: field_site.name }}">
   <figcaption>{{ figure.caption }}</figcaption>
 </figure>
@@ -123,7 +123,7 @@
 {% if field_site.result_figures %}
 <div class="field-site-detail__figures">
 {% for figure in field_site.result_figures %}
-<figure class="content-figure">
+<figure class="content-figure{% if figure.variant %} content-figure--{{ figure.variant }}{% endif %}">
   <img src="{{ figure.image | relative_url }}" alt="{{ figure.alt | default: field_site.name }}">
   <figcaption>{{ figure.caption }}</figcaption>
 </figure>
