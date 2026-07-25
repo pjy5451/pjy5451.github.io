@@ -55,6 +55,7 @@ sections:
     href:
       en: https://kscejournal.or.kr/jksce/XmlViewer/f450650
       ko: https://kscejournal.or.kr/jksce/XmlViewer/f450650
+    pdf: /assets/files/publications/2026-ksce-yolo-wim-load-segment-detection.pdf
   - year: '2024'
     tags:
     - Port
@@ -85,6 +86,7 @@ sections:
     href:
       en: https://www.mdpi.com/2077-1312/12/11/1902
       ko: https://www.mdpi.com/2077-1312/12/11/1902
+    pdf: /assets/files/publications/2024-jmse-quay-wall-event-monitoring.pdf
   - year: '2024'
     tags:
     - WIM
@@ -135,6 +137,7 @@ sections:
     href:
       en: https://www.mdpi.com/1424-8220/23/11/5040
       ko: https://www.mdpi.com/1424-8220/23/11/5040
+    pdf: /assets/files/publications/2023-sensors-tendon-stress-surrogate-model.pdf
   - year: '2023'
     tags:
     - Precast
@@ -165,6 +168,7 @@ sections:
     href:
       en: https://www.sciencedirect.com/science/article/pii/S092658052200509X
       ko: https://www.sciencedirect.com/science/article/pii/S092658052200509X
+    pdf: /assets/files/publications/2023-automation-precast-transportation-monitoring.pdf
   - year: '2021'
     tags:
     - Bridge
@@ -195,6 +199,7 @@ sections:
     href:
       en: https://www.mdpi.com/1424-8220/21/16/5647
       ko: https://www.mdpi.com/1424-8220/21/16/5647
+    pdf: /assets/files/publications/2021-sensors-reference-free-bridge-displacement.pdf
   - year: '2021'
     tags:
     - Sensor
@@ -221,6 +226,7 @@ sections:
     href:
       en: https://www.mdpi.com/1424-8220/21/19/6386
       ko: https://www.mdpi.com/1424-8220/21/19/6386
+    pdf: /assets/files/publications/2021-sensors-smart-uhpc-wireless-sensing.pdf
   - year: '2021'
     tags:
     - Sensor
@@ -247,6 +253,7 @@ sections:
     href:
       en: https://www.mdpi.com/1424-8220/21/6/2211
       ko: https://www.mdpi.com/1424-8220/21/6/2211
+    pdf: /assets/files/publications/2021-sensors-ssvm-strain-sensing-module.pdf
   - year: '2021'
     tags:
     - Bridge
@@ -278,6 +285,7 @@ sections:
     href:
       en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:IjCSPb-OGe4C
       ko: https://www.jcoseik.or.kr/articles/xml/o4yP/
+    pdf: /assets/files/publications/2021-coseik-iot-cloud-bridge-displacement.pdf
   - year: '2020'
     tags:
     - Sensor
@@ -304,6 +312,7 @@ sections:
     href:
       en: https://www.mdpi.com/1424-8220/20/10/2963
       ko: https://www.mdpi.com/1424-8220/20/10/2963
+    pdf: /assets/files/publications/2020-sensors-bleseis-earthquake-sensor.pdf
 - title:
     en: Technical Articles
     ko: Technical Articles
@@ -371,6 +380,7 @@ sections:
     href:
       en: https://arxiv.org/abs/2209.12186
       ko: https://arxiv.org/abs/2209.12186
+    pdf: /assets/files/publications/2022-arxiv-iot-sensor-cloud-bridge-monitoring.pdf
   - year: '2022'
     tags:
     - Port
@@ -401,6 +411,7 @@ sections:
     href:
       en: https://arxiv.org/abs/2209.13646
       ko: https://arxiv.org/abs/2209.13646
+    pdf: /assets/files/publications/2022-arxiv-port-monitoring-smart-sensor.pdf
 - title:
     en: Conference Presentations
     ko: Conference Presentations
@@ -654,6 +665,7 @@ sections:
     href:
       en: https://doi.org/10.8080/1020220123693
       ko: https://doi.org/10.8080/1020220123693
+    pdf: /assets/files/patents/2025-kr-10-2853678-load-event-interval-recognition.pdf
   - year: '2024'
     tags:
     - WIM
@@ -695,6 +707,7 @@ sections:
     href:
       en: https://doi.org/10.8080/1020240017869
       ko: https://doi.org/10.8080/1020240017869
+    pdf: /assets/files/patents/2024-kr-10-2024-0017869-concrete-crack-monitoring.pdf
   - year: '2022'
     tags:
     - Precast
@@ -716,6 +729,7 @@ sections:
     href:
       en: https://doi.org/10.8080/1020220159449
       ko: https://doi.org/10.8080/1020220159449
+    pdf: /assets/files/patents/2022-kr-10-2022-0159449-precast-transportation-monitoring.pdf
   - year: '2022'
     tags:
     - Cloud
@@ -739,6 +753,7 @@ sections:
     href:
       en: https://doi.org/10.8080/1020220021506
       ko: https://doi.org/10.8080/1020220021506
+    pdf: /assets/files/patents/2022-kr-10-2022-0021506-cloud-iot-data-preprocessing.pdf
   - year: '2021'
     tags:
     - Sensor
@@ -761,6 +776,7 @@ sections:
     href:
       en: https://doi.org/10.8080/1020210126695
       ko: https://doi.org/10.8080/1020210126695
+    pdf: /assets/files/patents/2021-kr-10-2021-0126695-smart-city-sensor-visualization.pdf
   - year: '2020'
     tags:
     - Sensor
@@ -783,3 +799,4 @@ sections:
     href:
       en: https://doi.org/10.8080/1020200059559
       ko: https://doi.org/10.8080/1020200059559
+    pdf: /assets/files/patents/2020-kr-10-2020-0059559-smart-iot-earthquake-sensor.pdf
