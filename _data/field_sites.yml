@@ -78,22 +78,39 @@ groups:
   - name: Choha-cheon Bridge
     key: choha-cheon-bridge
     href: /field-sites/choha-cheon-bridge/
-    summary: QR-code-based data acquisition and weekly strain monitoring for a prefabricated bridge member lifecycle monitoring system.
+    summary: QR-code-based data acquisition and repeated strain monitoring for a prefabricated bridge member lifecycle monitoring system.
     location: South Korea
     image: /images/field-sites/choha-cheon-bridge/choha-cheon-bridge-qr-monitoring.jpg
-    field_focus: Lifecycle monitoring of prefabricated bridge members using QR-linked strain data acquisition.
+    field_focus: >-
+      Choha-cheon Bridge was used as a lifecycle-monitoring field case for a prefabricated bridge member instrumented with embedded strain sensing. The monitoring workflow combined repeated field measurements, QR-code-based data access, and spreadsheet-based response review so that member behavior could be tracked beyond a single construction or inspection event.
     period: Long-term field monitoring
     date_range: 2022.10 - Present
-    data_summary: Weekly simultaneous eight-channel strain measurements and QR-code-based data acquisition records for prefabricated member lifecycle monitoring.
+    data_summary: Eight-channel embedded strain-gauge records, thermometer readings, post-tensioning stage measurements, QR-code-based data acquisition records, and selected-channel monitoring histories.
     equipment:
-    - Eight-channel strain measurement setup for a prefabricated bridge member
-    - QR-code-based data acquisition interface for recurring field measurements
-    - Weekly measurement workflow for lifecycle monitoring records
+    - Eight KM-100B embedded strain transducers installed across a prefabricated bridge member, with one thermometer channel recorded for field context
+    - Gauge layout arranged across multiple section locations and web/flange positions for member-level response review
+    - QR-code-based data acquisition interface used to retrieve field records during recurring measurements
+    - Spreadsheet-based workflow for organizing direct readings, calculated stress values, and post-tensioning stage records
+    equipment_figures:
+    - image: /images/field-sites/choha-cheon-bridge/choha-cheon-gauge-layout.jpg
+      alt: Choha-cheon Bridge embedded strain gauge layout
+      caption: Embedded strain gauge layout for the prefabricated member, showing eight strain transducer positions and one thermometer channel across the member sections.
     development_highlights:
-    - Implemented QR-linked field data acquisition for prefabricated member monitoring
-    - Organized recurring strain measurements into lifecycle-oriented records
-    - Connected field inspection workflow with measured response histories
-    field_context: Choha-cheon Bridge is a long-term lifecycle monitoring example, emphasizing repeated measurements and QR-linked field data management.
+    - Implemented QR-linked field data access so recurring measurements could be collected and reviewed without a conventional fixed monitoring dashboard
+    - Organized embedded strain-gauge records from installation and post-tensioning stages into lifecycle-oriented field records
+    - Reviewed direct channel readings, calculated stress values, and thermometer records to track member response across repeated measurement dates
+    - Connected field-friendly QR acquisition with long-term data management for prefabricated member monitoring
+    validation_heading: Lifecycle Monitoring Workflow
+    validation_protocol:
+    - Field records are organized around the prefabricated member lifecycle, including initial readings, post-tensioning measurements, repeated field checks, and long-term response review.
+    - QR-linked data capture is used to make field measurements accessible at the member level, supporting recurring inspection and data management.
+    - Response histories are interpreted as monitoring records rather than final structural acceptance criteria unless the corresponding design or reference values are explicitly available.
+    field_context: >-
+      Choha-cheon Bridge is a useful lifecycle-monitoring example because it connects prefabricated-member instrumentation, QR-based field data retrieval, repeated strain measurement, and response-history management. It shows a practical monitoring workflow for structural components that need to be tracked across construction, prestressing, installation, and service-stage records.
+    installation_figures:
+    - image: /images/field-sites/choha-cheon-bridge/choha-cheon-strain-gauge-installation.jpg
+      alt: Choha-cheon Bridge surface strain gauge installation
+      caption: Field installation example of a strain gauge attached to a prefabricated concrete member during monitoring preparation.
     video:
       id: oE50q7iXPcs
       heading: System demonstration
@@ -102,9 +119,26 @@ groups:
     sites:
     - Choha-cheon Bridge
     data:
-    - Weekly simultaneous eight-channel strain measurements
-    - QR-code-based data acquisition records
-    - Lifecycle monitoring records for prefabricated bridge members
+    - Eight-channel embedded strain-gauge direct readings and calculated stress records
+    - Post-tensioning stage records from November 2022 and selected follow-up measurements through April 2023
+    - QR-code-based data acquisition records for field-friendly member-level monitoring
+    - Thermometer channel records used as environmental context for the sensing data
+    result_groups:
+    - title: Strain Monitoring Records
+      items:
+      - Selected channel histories can show how repeated field measurements were organized across construction and early monitoring stages.
+      - Direct readings and calculated stress values should be interpreted with the corresponding initial-value assumption and measurement stage.
+    - title: QR-Based Field Data Access
+      items:
+      - QR scan outputs demonstrate how member-level field records were retrieved and reviewed without requiring a fixed on-site workstation.
+      - The workflow supports lifecycle monitoring by linking physical member identification with recurring strain and temperature records.
+    result_figures:
+    - image: /images/field-sites/choha-cheon-bridge/choha-cheon-strain-monitoring-records.png
+      alt: Choha-cheon Bridge selected strain channel monitoring records
+      caption: Representative selected-channel records reconstructed from the Choha-cheon Bridge field sensing spreadsheet, showing repeated measurements between late 2022 and early 2023.
+    - image: /images/field-sites/choha-cheon-bridge/choha-cheon-qr-data-capture.png
+      alt: Choha-cheon Bridge QR-based data acquisition screen
+      caption: QR-based data retrieval screen used for field-friendly access to member-level monitoring records.
 - title: Transportation and Specialized Field Tests
   sites:
   - name: WIM Field Tests
