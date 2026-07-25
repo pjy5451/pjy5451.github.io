@@ -17,11 +17,25 @@ title: "Conference Presentations"
       {% if item_venue contains "International conference presentation" %}
       {% assign item_title = item.title[pub_lang] | default: item.title.en %}
       {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
+      {% assign item_pdf = "" %}
+      {% if item.pdf %}
+        {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
+      {% endif %}
       <article class="talk">
         <div class="talk__year">{{ item.year }}</div>
         <div class="talk__body">
           <h2 class="talk__title">{{ item_title }}</h2>
-          <p class="talk__venue">{{ item_venue }}</p>
+          <p class="talk__venue">
+            {{ item_venue }}
+            {% if item_pdf != "" %}
+              {% if item_pdf contains "://" %}
+                {% assign pdf_href = item_pdf %}
+              {% else %}
+                {% assign pdf_href = item_pdf | relative_url %}
+              {% endif %}
+              <a class="talk__pdf-link" href="{{ pdf_href }}" aria-label="Open presentation PDF for {{ item_title }}">PDF</a>
+            {% endif %}
+          </p>
           <p class="talk__authors">{{ item_authors }}</p>
         </div>
       </article>
@@ -36,11 +50,25 @@ title: "Conference Presentations"
       {% if item_venue contains "Domestic conference presentation" %}
       {% assign item_title = item.title[pub_lang] | default: item.title.en %}
       {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
+      {% assign item_pdf = "" %}
+      {% if item.pdf %}
+        {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
+      {% endif %}
       <article class="talk">
         <div class="talk__year">{{ item.year }}</div>
         <div class="talk__body">
           <h2 class="talk__title">{{ item_title }}</h2>
-          <p class="talk__venue">{{ item_venue }}</p>
+          <p class="talk__venue">
+            {{ item_venue }}
+            {% if item_pdf != "" %}
+              {% if item_pdf contains "://" %}
+                {% assign pdf_href = item_pdf %}
+              {% else %}
+                {% assign pdf_href = item_pdf | relative_url %}
+              {% endif %}
+              <a class="talk__pdf-link" href="{{ pdf_href }}" aria-label="Open presentation PDF for {{ item_title }}">PDF</a>
+            {% endif %}
+          </p>
           <p class="talk__authors">{{ item_authors }}</p>
         </div>
       </article>

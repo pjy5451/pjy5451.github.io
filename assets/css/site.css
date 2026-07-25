@@ -623,7 +623,8 @@ span.pub__title {
   color: var(--muted);
 }
 
-.pub__pdf-link {
+.pub__pdf-link,
+.talk__pdf-link {
   display: inline-flex;
   align-items: center;
   gap: 4px;
@@ -642,7 +643,8 @@ span.pub__title {
   white-space: nowrap;
 }
 
-.pub__pdf-link::before {
+.pub__pdf-link::before,
+.talk__pdf-link::before {
   content: "";
   width: 8px;
   height: 10px;
@@ -651,7 +653,8 @@ span.pub__title {
   box-sizing: border-box;
 }
 
-.pub__pdf-link:hover {
+.pub__pdf-link:hover,
+.talk__pdf-link:hover {
   background: var(--accent-soft);
   color: var(--link-hover);
   text-decoration: none;
