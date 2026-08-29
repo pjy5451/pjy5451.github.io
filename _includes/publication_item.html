@@ -9,15 +9,19 @@
 {% if item.pdf %}
   {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
 {% endif %}
+{% assign item_authors = item.authors[pub_lang] | default: item.authors.en | default: "" %}
+{% assign item_venue = item.venue[pub_lang] | default: item.venue.en | default: "" %}
+{% assign item_tags = item.tags | join: "|" | downcase %}
+{% capture item_search %}{{ item_title }} {{ item_authors | strip_html }} {{ item_venue }} {{ item.year }} {{ item.tags | join: " " }}{% endcapture %}
 
-<article class="pub">
+<article class="pub" data-pub-item data-pub-kind="{{ include.kind | default: 'article' }}" data-pub-tags="{{ item_tags | escape }}" data-pub-search="{{ item_search | strip_newlines | downcase | escape }}">
   {% if item_href != "" %}
     <a class="pub__title" href="{{ item_href }}">{{ item_title }}</a>
   {% else %}
     <span class="pub__title">{{ item_title }}</span>
   {% endif %}
   <p class="pub__venue">
-    <em>{{ item.venue[pub_lang] | default: item.venue.en }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}
+    <em>{{ item_venue }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}
     {% if item_pdf != "" %}
       {% if item_pdf contains "://" %}
         {% assign pdf_href = item_pdf %}
@@ -28,7 +32,7 @@
     {% endif %}
   </p>
   {% unless include.hide_authors %}
-    <p class="pub__authors">{{ item.authors[pub_lang] | default: item.authors.en }}</p>
+    <p class="pub__authors">{{ item_authors }}</p>
   {% endunless %}
   {% if item.actions %}
     {% assign actions = item.actions[pub_lang] | default: item.actions.en %}

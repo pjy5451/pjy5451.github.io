@@ -7,11 +7,38 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
 
 # Junyoung Park
 
-<p class="intro intro--lead"><strong>I build field-deployable sensing and data systems that turn real infrastructure measurements into engineering insight.</strong></p>
+<p class="intro intro--lead"><strong>I develop field sensing systems for data-driven infrastructure.</strong></p>
 
-<p>My work connects <strong>IoT hardware</strong>, <strong>embedded measurement systems</strong>, <strong>cloud workflows</strong>, and <strong>AI-assisted data interpretation</strong> for structural and transportation monitoring. I have deployed and operated monitoring systems on actual structures, including <strong>Seongsan Bridge</strong>, <strong>Seosomun Overpass</strong>, and <strong>Paldang Bridge</strong> in Korea. Currently, I am working on <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for intelligent transportation and infrastructure monitoring.</p>
+<p>I am a structural monitoring researcher with hands-on experience across more than 50 field tests involving bridges, vehicles, and prefabricated structural components. My work spans sensor and DAQ design, field installation, edge-to-cloud data pipelines, signal processing, and engineering interpretation, with the goal of turning measurements collected under real operating conditions into reliable engineering evidence.</p>
 
-## Research Interests
+<p>At UDNS, I currently develop and validate <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for freight transportation safety. My previous research focused on IoT-based bridge monitoring, displacement estimation, and scalable cloud-connected sensing systems.</p>
+
+## Research Workflow
+
+<div class="research-workflow" aria-label="Research workflow from field sensing to validation">
+  <article class="research-workflow__item">
+    <span class="research-workflow__step">01</span>
+    <h3>Field Sensing</h3>
+    <p>IoT sensors, vehicle-mounted sensing, and structural response measurement under real operating conditions.</p>
+  </article>
+  <article class="research-workflow__item">
+    <span class="research-workflow__step">02</span>
+    <h3>Edge-to-Cloud Systems</h3>
+    <p>Embedded DAQ, wireless communication, databases, and dashboards designed as one measurement workflow.</p>
+  </article>
+  <article class="research-workflow__item">
+    <span class="research-workflow__step">03</span>
+    <h3>Signal &amp; AI Interpretation</h3>
+    <p>Event detection, data fusion, dynamic weight correction, and engineering analysis of field measurements.</p>
+  </article>
+  <article class="research-workflow__item">
+    <span class="research-workflow__step">04</span>
+    <h3>Field Validation</h3>
+    <p>Repeated testing on bridges, vehicles, and structural components to evaluate system reliability and practical value.</p>
+  </article>
+</div>
+
+## Core Areas
 
 <div class="keyword-chips keyword-chips--section" aria-label="Representative research keywords">
   <span>Structural Health Monitoring</span>
@@ -21,16 +48,6 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
   <span>Cloud-based Monitoring</span>
   <span>AI for Physical Systems</span>
 </div>
-
-- **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
-- **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
-- **Physics-Aware AI for Engineering Systems:** connecting signal interpretation, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
-
-### Research Fit
-
-- **AI, digital twin, and reliability groups:** field measurement data for physics-aware AI, structural response interpretation, and uncertainty-aware monitoring.
-- **Smart sensing and IoT groups:** low-power sensors, embedded DAQ, wireless sensing, and edge-to-cloud workflows tested under real deployment conditions.
-- **Vehicle-bridge and transportation monitoring groups:** WIM/OBM systems, vehicle-induced structural response, and field validation of transportation sensing systems.
 
 ## Education
 
