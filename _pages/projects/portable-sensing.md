@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/portable-sensing/
 title: "Prefabricated Structure Transportation Monitoring System"
+description: "Project page on portable sensing systems for monitoring prefabricated structural members during transportation, handling, and field erection."
 project_key: portable-sensing
 ---
 

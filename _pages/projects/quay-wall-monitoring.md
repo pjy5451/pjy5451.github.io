@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/quay-wall-monitoring/
 title: "Port Structure Monitoring System"
+description: "Project page on port and quay wall monitoring using ruggedized multisensory systems, cloud workflows, and AI-assisted event recognition."
 project_key: quay-wall-monitoring
 ---
 

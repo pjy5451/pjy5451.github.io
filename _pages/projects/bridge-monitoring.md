@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/bridge-monitoring/
 title: "Cloud-Based Long-Term Bridge Monitoring System"
+description: "Project page on cloud-based long-term bridge monitoring using IoT sensors, acceleration and strain measurements, databases, and dashboards."
 project_key: bridge-monitoring
 ---
 

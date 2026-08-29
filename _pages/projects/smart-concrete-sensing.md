@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/smart-concrete-sensing/
 title: "Smart Concrete Sensing System"
+description: "Project page on smart concrete sensing for crack trajectory monitoring, resistive touchpad measurement, and long-term visualization of concrete damage."
 project_key: smart-concrete-sensing
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/seismic-sensing/
 title: "Seismic Sensing System"
+description: "Project page on low-cost IoT seismic sensing, earthquake event triggering, BLE notification, and smart sensor development for field monitoring."
 project_key: seismic-sensing
 ---
 

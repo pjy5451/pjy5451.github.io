@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/qr-lifecycle-monitoring/
 title: "QR-Based Bridge Maintenance Monitoring System"
+description: "Project page on QR-based bridge maintenance monitoring that connects field sensing, member-level records, cloud reports, and lifecycle data management."
 project_key: qr-lifecycle-monitoring
 ---
 

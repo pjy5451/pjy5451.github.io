@@ -2,6 +2,7 @@
 layout: default
 permalink: /field-sites/seosomun-overpass/
 title: "Seosomun Overpass"
+description: "Field site page for Seosomun Overpass, covering long-term concrete overpass monitoring with acceleration, strain, temperature, and cloud-uploaded records."
 field_site_key: seosomun-overpass
 ---
 

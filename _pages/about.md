@@ -2,6 +2,7 @@
 layout: default
 permalink: /
 title: "About"
+description: "Junyoung Park is a structural monitoring researcher working on IoT sensing, WIM/OBM systems, field deployment, and data-driven infrastructure evaluation."
 ---
 
 # Junyoung Park

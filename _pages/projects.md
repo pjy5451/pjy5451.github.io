@@ -2,6 +2,7 @@
 layout: default
 permalink: /research/
 title: "Research"
+description: "Research projects by Junyoung Park on field-deployable sensing systems, WIM/OBM, bridge monitoring, IoT sensors, and infrastructure data analysis."
 ---
 
 # Research

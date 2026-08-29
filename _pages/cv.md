@@ -2,6 +2,7 @@
 layout: default
 permalink: /cv/
 title: "CV"
+description: "CV of Junyoung Park, including education, research experience, publications, patents, awards, and field sensing work in structural monitoring."
 ---
 
 # Curriculum Vitae

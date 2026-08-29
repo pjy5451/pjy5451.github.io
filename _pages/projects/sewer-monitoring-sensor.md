@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/sewer-monitoring-sensor/
 title: "Sewer Monitoring Sensor System"
+description: "Project page on field-oriented sewer monitoring sensor concepts for underground infrastructure sensing, deployment review, and data collection."
 project_key: sewer-monitoring-sensor
 ---
 

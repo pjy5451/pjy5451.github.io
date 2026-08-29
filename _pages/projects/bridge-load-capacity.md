@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/bridge-load-capacity/
 title: "Bridge Load-Carrying Capacity Evaluation System"
+description: "Project page on bridge load-carrying capacity evaluation using field sensing, structural response interpretation, and load testing workflows."
 project_key: bridge-load-capacity
 ---
 

@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/freight-train-monitoring/
 title: "Freight Train Monitoring System"
+description: "Project page on freight train monitoring using event-oriented sensing, signal review, and field data workflows for transportation infrastructure."
 project_key: freight-train-monitoring
 ---
 

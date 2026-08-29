@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/on-board-mass/
 title: "OBM System Development"
+description: "Project page on OBM system development for vehicle-mounted sensing, dynamic weight correction, field driving validation, and WIM comparison."
 project_key: on-board-mass
 ---
 

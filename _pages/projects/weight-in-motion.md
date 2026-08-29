@@ -2,6 +2,7 @@
 layout: default
 permalink: /projects/weight-in-motion/
 title: "High-Speed WIM System Development"
+description: "Project page on high-speed WIM system development, including DAQ workflows, load-event detection, vehicle load sensing, and field signal processing."
 project_key: weight-in-motion
 ---
 

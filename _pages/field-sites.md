@@ -2,6 +2,7 @@
 layout: default
 permalink: /field-sites/
 title: "Field Sites"
+description: "Field sites where Junyoung Park tested and deployed sensing systems for bridges, WIM/OBM, prefabricated members, and infrastructure monitoring."
 ---
 
 # Field Sites

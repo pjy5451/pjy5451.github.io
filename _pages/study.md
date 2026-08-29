@@ -2,6 +2,7 @@
 layout: default
 permalink: /study/
 title: "Study"
+description: "Study notes by Junyoung Park on structural dynamics, reliability, AI for physical systems, and engineering topics connected to infrastructure monitoring."
 ---
 
 # Study
