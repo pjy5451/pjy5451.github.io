@@ -29,6 +29,7 @@ include:
   - _pages
 
 exclude:
+  - index.html
   - README.md
   - CONTENT_EDITING_GUIDE.md
   - task.md
