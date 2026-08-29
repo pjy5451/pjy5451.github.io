@@ -5,7 +5,8 @@ date: 2026-05-07 00:00:00 +0900
 categories: notes
 lang: en
 ko_url: /notes/2026/05/07/personal-website/
-note_category: Personal Log
+note_category: Personal
+note_group: personal
 description: A first short note on restarting the long-postponed work of organizing my personal website.
 ---
 

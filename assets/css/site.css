@@ -1221,6 +1221,115 @@ p.field-site-card__label:not(:first-child) {
   font-weight: 600;
 }
 
+.note-intro {
+  max-width: 660px;
+  margin: -4px 0 20px;
+  color: var(--muted);
+}
+
+.note-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0 0 16px;
+}
+
+.note-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 30px;
+  padding: 4px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--button-bg);
+  font: inherit;
+  font-size: 0.84rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.note-filter span {
+  color: inherit;
+  font-size: 0.75rem;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.76;
+}
+
+.note-filter:hover {
+  border-color: var(--link);
+  color: var(--link);
+}
+
+.note-filter.is-active {
+  border-color: var(--accent);
+  color: var(--bg);
+  background: var(--accent);
+}
+
+.note-archive {
+  margin: 0 0 28px;
+  border-bottom: 1px solid var(--line);
+}
+
+.note-archive__item {
+  display: grid;
+  grid-template-columns: 92px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 18px;
+  padding: 17px 2px;
+  border-top: 1px solid var(--line);
+}
+
+.note-archive__item[hidden] {
+  display: none;
+}
+
+.note-archive__date {
+  padding-top: 2px;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.note-archive__body h2 {
+  margin: 0 0 4px;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.note-archive__body h2 a {
+  color: var(--text);
+}
+
+.note-archive__body h2 a:hover {
+  color: var(--link);
+}
+
+.note-archive__body p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+
+.note-archive__tag {
+  margin-top: 1px;
+  padding: 2px 7px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--soft);
+  font-size: 0.73rem;
+  font-weight: 650;
+  line-height: 1.4;
+  white-space: nowrap;
+}
+
 .note-empty {
   color: var(--muted);
 }
@@ -1438,6 +1547,28 @@ p.field-site-card__label:not(:first-child) {
 
   .study-topic-grid {
     grid-template-columns: 1fr;
+  }
+
+  .note-archive__item {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 5px 10px;
+    padding: 15px 0;
+  }
+
+  .note-archive__date {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .note-archive__body {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .note-archive__tag {
+    grid-column: 2;
+    grid-row: 1;
+    margin-top: 0;
   }
 
   .skills-table,

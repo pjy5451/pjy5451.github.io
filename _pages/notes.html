@@ -7,20 +7,62 @@ description: "Personal notes and reflections by Junyoung Park on research, field
 
 <h1>Notes</h1>
 
+<p class="note-intro">Short essays and reflections on field work, research practice, and the process of building things.</p>
+
 {% assign english_posts = site.posts | where: "lang", "en" %}
 {% if english_posts.size > 0 %}
-  <div class="note-card-list">
+  {% assign field_posts = english_posts | where: "note_group", "field" %}
+  {% assign personal_posts = english_posts | where: "note_group", "personal" %}
+
+  <div class="note-filters" role="group" aria-label="Filter notes">
+    <button class="note-filter is-active" type="button" data-note-filter="all" aria-pressed="true">All <span>{{ english_posts.size }}</span></button>
+    {% if field_posts.size > 0 %}<button class="note-filter" type="button" data-note-filter="field" aria-pressed="false">Field <span>{{ field_posts.size }}</span></button>{% endif %}
+    {% if personal_posts.size > 0 %}<button class="note-filter" type="button" data-note-filter="personal" aria-pressed="false">Personal <span>{{ personal_posts.size }}</span></button>{% endif %}
+  </div>
+
+  <div class="note-archive">
     {% for post in english_posts %}
-      <a class="note-card" href="{{ post.url | relative_url }}">
-        <div class="note-card__meta">
-          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-          {% if post.note_category %}<span>{{ post.note_category }}</span>{% endif %}
+      <article class="note-archive__item" data-note-item data-note-group="{{ post.note_group | default: 'personal' }}">
+        <time class="note-archive__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        <div class="note-archive__body">
+          <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+          {% if post.description %}<p>{{ post.description }}</p>{% endif %}
         </div>
-        <h2>{{ post.title }}</h2>
-        {% if post.description %}<p>{{ post.description }}</p>{% endif %}
-      </a>
+        {% if post.note_category %}<span class="note-archive__tag">{{ post.note_category }}</span>{% endif %}
+      </article>
     {% endfor %}
   </div>
+  <p class="note-empty" data-note-empty hidden>No notes in this category yet.</p>
 {% else %}
   <p class="note-empty">Notes will be added here.</p>
 {% endif %}
+
+<script>
+  (function() {
+    var filters = document.querySelectorAll('[data-note-filter]');
+    var items = document.querySelectorAll('[data-note-item]');
+    var empty = document.querySelector('[data-note-empty]');
+    if (!filters.length || !items.length) return;
+
+    filters.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var selected = button.getAttribute('data-note-filter');
+        var visibleCount = 0;
+
+        filters.forEach(function(filter) {
+          var isActive = filter === button;
+          filter.classList.toggle('is-active', isActive);
+          filter.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        });
+
+        items.forEach(function(item) {
+          var isVisible = selected === 'all' || item.getAttribute('data-note-group') === selected;
+          item.hidden = !isVisible;
+          if (isVisible) visibleCount += 1;
+        });
+
+        if (empty) empty.hidden = visibleCount !== 0;
+      });
+    });
+  })();
+</script>
