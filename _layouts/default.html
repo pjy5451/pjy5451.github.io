@@ -28,7 +28,7 @@
     </script>
     {% endif %}
   </head>
-  <body>
+  <body class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}">
     <header class="topbar">
       <a class="topbar__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
