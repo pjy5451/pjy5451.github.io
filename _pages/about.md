@@ -9,7 +9,7 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
 
 <p class="intro intro--lead"><strong>I develop field sensing systems for data-driven infrastructure.</strong></p>
 
-<p>I am a structural monitoring researcher with hands-on experience across more than 50 field tests involving bridges, vehicles, and prefabricated structural components. My work spans sensor and DAQ design, field installation, edge-to-cloud data pipelines, signal processing, and engineering interpretation, with the goal of turning measurements collected under real operating conditions into reliable engineering evidence.</p>
+<p>I am a structural monitoring researcher with hands-on experience across more than 10 field tests involving bridges, vehicles, and prefabricated structural components. My work spans sensor and DAQ design, field installation, edge-to-cloud data pipelines, signal processing, and engineering interpretation, with the goal of turning measurements collected under real operating conditions into reliable engineering evidence.</p>
 
 <p>At UDNS, I currently develop and validate <strong>WIM (Weigh-in-Motion)</strong> and <strong>OBM (On-Board Mass)</strong> systems for freight transportation safety. My previous research focused on IoT-based bridge monitoring, displacement estimation, and scalable cloud-connected sensing systems.</p>
 
