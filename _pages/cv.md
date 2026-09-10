@@ -9,7 +9,7 @@ description: "CV of Junyoung Park, including education, research experience, pub
 
 <div class="quick-links cv-actions">
   <a class="cv-download" href="/assets/files/Junyoung_Park_CV.pdf">Download CV</a>
-  <span>Last updated: May 2026</span>
+  <span>Last updated: September 2026</span>
 </div>
 
 ## Education
@@ -140,6 +140,10 @@ description: "CV of Junyoung Park, including education, research experience, pub
 ## Publications
 
 - **Junyoung Park**, Junsik Shin, Jongbin Won. "Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation." <em>Measurement</em> (under review), 2026.
+- **Junyoung Park**, Y. Jho, J. W. Kim. "Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety." <em>Journal of the Korean Society of Civil Engineers</em> (under review), 2026.
+- Y. Kim, H. Jung, **Junyoung Park**, Y. Lee, Y. Jung, J. W. Kim, I. Yoon. "Analysis of Freight Vehicle Operation Restriction Violations and Improvement of the Enforcement System Based on Real-World Road Data." <em>The Journal of the Korea Institute of Intelligent Transport Systems</em> (under review), 2026.
+- S. Khan, **Junyoung Park**, J. W. Park, I. H. Kim, J. Won. "Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin." <em>Journal of Civil Structural Health Monitoring</em> (under review), 2026.
+- **Junyoung Park**, Y. Jho, J. W. Kim. "Fault-Tolerant Reconstruction of Multi-Channel Weigh-in-Motion Signals Using Deep Learning." In preparation for <em>IEEE Transactions on Instrumentation and Measurement</em>.
 - **Junyoung Park**, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung. "YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems." <em>Journal of the Korean Society of Civil Engineers</em>, 46(1), 95-104, 2026.
 - Junsik Shin, **Junyoung Park**, Jongbin Won, Jongwoong Park, Jiyoung Min. "Development of AI-Based Multisensory System for Monitoring Quay Wall Events." <em>Journal of Marine Science and Engineering</em>, 12(11), 1902, 2024.
 - **Junyoung Park**, Jinsik Kim, Jongwoo Kim, Yunbeom Cho. "Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving." <em>Journal of the Korean Society of Mechanical Technology</em>, 26(5), 1041-1046, 2024.

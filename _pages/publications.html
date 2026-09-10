@@ -49,7 +49,8 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     {% assign section_title = section.title.en %}
     {% if section_title == "Patents" %}
       <h2>Patents</h2>
-      {% for item in section.entries %}
+      {% assign patent_entries = section.entries | sort: "year" | reverse %}
+      {% for item in patent_entries %}
         {% include publication_item.html item=item pub_lang=pub_lang kind="patent" hide_authors=true hide_year=true %}
       {% endfor %}
     {% endif %}

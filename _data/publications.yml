@@ -33,6 +33,62 @@ sections:
     - AI
     - Data
     title:
+      en: Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety
+      ko: 화물 운송 안전을 위한 WIM 운영 데이터 기반 하이브리드 LLM 질의응답에서 클라우드 및 로컬 모델의 성능 비교
+    authors:
+      en: <strong>Junyoung Park</strong>, Y. Jho, J. W. Kim
+      ko: <strong>박준영</strong>, Y. Jho, J. W. Kim
+    venue:
+      en: Journal of the Korean Society of Civil Engineers (under review)
+      ko: 대한토목학회논문집 (심사 중)
+  - year: '2026'
+    tags:
+    - WIM
+    - Data
+    - Transport
+    title:
+      en: Analysis of Freight Vehicle Operation Restriction Violations and Improvement of the Enforcement System Based on Real-World Road Data
+      ko: 실도로 데이터 기반 화물차 운행제한 위반 분석 및 단속 체계 개선
+    authors:
+      en: Y. Kim, H. Jung, <strong>Junyoung Park</strong>, Y. Lee, Y. Jung, J. W. Kim, I. Yoon
+      ko: Y. Kim, H. Jung, <strong>박준영</strong>, Y. Lee, Y. Jung, J. W. Kim, I. Yoon
+    venue:
+      en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
+      ko: 한국ITS학회논문지 (심사 중)
+  - year: '2026'
+    tags:
+    - Sensor
+    - Strain
+    - Digital Twin
+    title:
+      en: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
+      ko: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
+    authors:
+      en: S. Khan, <strong>Junyoung Park</strong>, J. W. Park, I. H. Kim, J. Won
+      ko: S. Khan, <strong>박준영</strong>, J. W. Park, I. H. Kim, J. Won
+    venue:
+      en: Journal of Civil Structural Health Monitoring (under review)
+      ko: Journal of Civil Structural Health Monitoring (심사 중)
+  - year: '2026'
+    tags:
+    - WIM
+    - AI
+    - Signal
+    title:
+      en: Fault-Tolerant Reconstruction of Multi-Channel Weigh-in-Motion Signals Using Deep Learning
+      ko: 딥러닝을 활용한 다채널 WIM 신호의 결함 허용 복원
+    authors:
+      en: <strong>Junyoung Park</strong>, Y. Jho, J. W. Kim
+      ko: <strong>박준영</strong>, Y. Jho, J. W. Kim
+    venue:
+      en: In preparation; target journal, IEEE Transactions on Instrumentation and Measurement
+      ko: 투고 준비 중; 목표 저널, IEEE Transactions on Instrumentation and Measurement
+  - year: '2026'
+    tags:
+    - WIM
+    - AI
+    - Data
+    title:
       en: YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems
       ko: YOLO 기반 고속축중기 하중 구간 자동 검출 기법
     authors:
@@ -416,6 +472,29 @@ sections:
     en: Conference Presentations
     ko: Conference Presentations
   entries:
+  - year: '2027'
+    tags:
+    - WIM
+    - OBM
+    - Data
+    title:
+      en: Cross-Analysis of WIM and OBM Signals for Dynamic Load Assessment and Measurement Error Correction
+      ko: 동적 하중 평가 및 계측 오차 보정을 위한 WIM 및 OBM 신호 교차 분석
+    authors:
+      en: <strong>Junyoung Park</strong>, M. Song, Y. Jho, J. W. Kim
+      ko: <strong>박준영</strong>, M. Song, Y. Jho, J. W. Kim
+    venue:
+      en: ICWIM-10 / HVTT-19. Accepted. International conference presentation, May 2027.
+      ko: ICWIM-10 / HVTT-19. 채택된 국제학술대회 발표, 2027-05.
+    actions:
+      en:
+      - label: Accepted
+      - label: Project
+        href: /projects/weight-in-motion/
+      ko:
+      - label: 발표 채택
+      - label: 프로젝트
+        href: /projects/weight-in-motion/
   - year: '2025'
     tags:
     - WIM
@@ -531,20 +610,43 @@ sections:
       - label: Conference
       - label: Project
         href: /projects/bridge-monitoring/
+  - year: '2023'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: Bridge Monitoring System Using an IoT Sensor and a Cloud Server
+      ko: IoT 센서 및 클라우드 서버를 활용한 교량 모니터링 시스템
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+      ko: <strong>박준영</strong>, 신준식, 박종웅
+    venue:
+      en: Korean Society for Noise and Vibration Engineering. Domestic conference presentation, 2023.
+      ko: 한국소음진동공학회. 국내학술대회 발표, 2023.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring/
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring/
   - year: '2022'
     tags:
     - Bridge
     - IoT
     - Cloud
     title:
-      en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
-      ko: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
+      en: Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation
+      ko: 교량 내하력 평가를 위한 IoT 센서 시스템 및 웹 기반 문서 자동화 개발
     authors:
       en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
       ko: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
     venue:
-      en: Korea Institute of Construction Engineering and Management. International conference presentation, 2022-11-18.
-      ko: 한국건설관리학회. 국제학술대회 발표, 2022-11-18.
+      en: CONVR 2022. International conference presentation, 2022-11-18.
+      ko: CONVR 2022. 국제학술대회 발표, 2022-11-18.
     actions:
       en:
       - label: Conference
@@ -587,8 +689,54 @@ sections:
       en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
       ko: <strong>박준영</strong>, 신준식, 박종웅
     venue:
-      en: Korean Society for Noise and Vibration Engineering. Domestic conference presentation, 2022-05-26.
-      ko: 한국소음진동공학회. 국내학술대회 발표, 2022-05-26.
+      en: COSEIK and KSNVE Annual Conferences. Domestic conference presentations, 2022 (KSNVE, 2022-05-26).
+      ko: 한국전산구조공학회 및 한국소음진동공학회 학술대회. 국내학술대회 발표, 2022 (한국소음진동공학회, 2022-05-26).
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring/
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring/
+  - year: '2021'
+    tags:
+    - Bridge
+    - IoT
+    - Cloud
+    title:
+      en: Cloud-Based Long-Term Bridge Monitoring System
+      ko: 클라우드 기반 교량 장기 모니터링 시스템
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Sohaeng Kang, Jongbin Won, Jong-Woong Park
+      ko: <strong>박준영</strong>, 신준식, 강소행, 원종빈, 박종웅
+    venue:
+      en: Korea Institute for Structural Maintenance and Inspection. Domestic conference presentation, 2021.
+      ko: 한국구조물진단유지관리공학회. 국내학술대회 발표, 2021.
+    actions:
+      en:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring/
+      ko:
+      - label: Conference
+      - label: Project
+        href: /projects/bridge-monitoring/
+  - year: '2021'
+    tags:
+    - Bridge
+    - AI
+    - SHM
+    title:
+      en: Estimation of a Bridge's Damaged Cable Using Deep Learning
+      ko: 딥러닝을 활용한 교량 손상 케이블 추정
+    authors:
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jong-Woong Park, Young Jang
+      ko: <strong>박준영</strong>, 신준식, 원종빈, 박종웅, 장영
+    venue:
+      en: Korea Institute for Structural Maintenance and Inspection. Domestic conference presentation, 2021.
+      ko: 한국구조물진단유지관리공학회. 국내학술대회 발표, 2021.
     actions:
       en:
       - label: Conference
@@ -624,6 +772,44 @@ sections:
     en: Patents
     ko: Patents
   entries:
+  - year: '2026'
+    tags:
+    - LiDAR
+    - AI
+    - Transport
+    title:
+      en: Vehicle Recognition Method and Apparatus Using Two-Dimensional Projection Images of LiDAR Point Clouds
+      ko: LiDAR 포인트 클라우드의 2차원 투영 이미지를 이용한 차량 인식 방법 및 장치
+    authors:
+      en: Vehicle recognition method and apparatus using two-dimensional projection images of LiDAR point clouds.
+      ko: LiDAR 포인트 클라우드의 2차원 투영 이미지를 이용한 차량 인식 방법 및 장치.
+    venue:
+      en: In preparation.
+      ko: 출원 준비 중.
+    actions:
+      en:
+      - label: In Preparation
+      ko:
+      - label: 출원 준비
+  - year: '2026'
+    tags:
+    - LiDAR
+    - WIM
+    - Transport
+    title:
+      en: Vehicle Dimension Measurement System and Method
+      ko: 차량 제원 측정 시스템 및 방법
+    authors:
+      en: Vehicle dimension measurement system and method.
+      ko: 차량 제원 측정 시스템 및 방법.
+    venue:
+      en: KR 10-2026-0101228. Application filed in 2026.
+      ko: 'KR 10-2026-0101228. 2026년 출원.'
+    actions:
+      en:
+      - label: Patent Application
+      ko:
+      - label: 특허 출원
   - year: '2025'
     tags:
     - Bridge
@@ -666,7 +852,7 @@ sections:
       en: https://doi.org/10.8080/1020220123693
       ko: https://doi.org/10.8080/1020220123693
     pdf: /assets/files/patents/2025-kr-10-2853678-load-event-interval-recognition.pdf
-  - year: '2024'
+  - year: '2026'
     tags:
     - WIM
     - Signal
@@ -677,14 +863,14 @@ sections:
       en: Real-time correction method and device for dynamic truck operating weight based on an FIR filter.
       ko: FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치.
     venue:
-      en: KR 10-2025-0068214. Application filed on 2024-12-30.
-      ko: 'KR 10-2025-0068214. 출원일: 2024-12-30.'
+      en: KR 10-2951213. Registered in 2026.
+      ko: KR 10-2951213. 2026년 등록.
     actions:
       en:
-      - label: Patent Application
+      - label: Registered Patent
       ko:
-      - label: 특허 출원
-  - year: '2024'
+      - label: 등록 특허
+  - year: '2025'
     tags:
     - Concrete
     - Crack
@@ -697,8 +883,8 @@ sections:
         system.
       ko: 저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템.
     venue:
-      en: KR 10-2024-0017869. Registered on 2024-02-06.
-      ko: 'KR 10-2024-0017869. 등록일: 2024-02-06.'
+      en: KR 10-2892584. Registered in 2025.
+      ko: KR 10-2892584. 2025년 등록.
     actions:
       en:
       - label: Registered Patent
@@ -708,7 +894,7 @@ sections:
       en: https://doi.org/10.8080/1020240017869
       ko: https://doi.org/10.8080/1020240017869
     pdf: /assets/files/patents/2024-kr-10-2024-0017869-concrete-crack-monitoring.pdf
-  - year: '2022'
+  - year: '2023'
     tags:
     - Precast
     - IoT
@@ -719,8 +905,8 @@ sections:
       en: Integrated precast transportation monitoring system and method based on IoT sensors.
       ko: IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법.
     venue:
-      en: KR 10-2022-0159449. Registered on 2022-11-24.
-      ko: 'KR 10-2022-0159449. 등록일: 2022-11-24.'
+      en: KR 10-2558124. Registered in 2023.
+      ko: KR 10-2558124. 2023년 등록.
     actions:
       en:
       - label: Registered Patent
@@ -730,7 +916,7 @@ sections:
       en: https://doi.org/10.8080/1020220159449
       ko: https://doi.org/10.8080/1020220159449
     pdf: /assets/files/patents/2022-kr-10-2022-0159449-precast-transportation-monitoring.pdf
-  - year: '2022'
+  - year: '2024'
     tags:
     - Cloud
     - AI
@@ -743,8 +929,8 @@ sections:
         for structural monitoring.
       ko: 클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법 및 딥러닝 기반 이상치 감지 자동화시스템.
     venue:
-      en: KR 10-2022-0021506. Registered on 2022-02-18.
-      ko: 'KR 10-2022-0021506. 등록일: 2022-02-18.'
+      en: KR 10-2705761. Registered in 2024.
+      ko: KR 10-2705761. 2024년 등록.
     actions:
       en:
       - label: Registered Patent
@@ -754,7 +940,7 @@ sections:
       en: https://doi.org/10.8080/1020220021506
       ko: https://doi.org/10.8080/1020220021506
     pdf: /assets/files/patents/2022-kr-10-2022-0021506-cloud-iot-data-preprocessing.pdf
-  - year: '2021'
+  - year: '2022'
     tags:
     - Sensor
     - QR
@@ -766,8 +952,8 @@ sections:
       en: Citizen-participatory smart city system using sensor measurement and data visualization.
       ko: 센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템.
     venue:
-      en: KR 10-2021-0126695. Registered on 2021-09-24.
-      ko: 'KR 10-2021-0126695. 등록일: 2021-09-24.'
+      en: KR 10-2389222. Registered in 2022.
+      ko: KR 10-2389222. 2022년 등록.
     actions:
       en:
       - label: Registered Patent
@@ -777,7 +963,7 @@ sections:
       en: https://doi.org/10.8080/1020210126695
       ko: https://doi.org/10.8080/1020210126695
     pdf: /assets/files/patents/2021-kr-10-2021-0126695-smart-city-sensor-visualization.pdf
-  - year: '2020'
+  - year: '2022'
     tags:
     - Sensor
     - IoT
@@ -789,8 +975,8 @@ sections:
       en: Smart IoT earthquake sensor unit and notification method.
       ko: 스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법.
     venue:
-      en: KR 10-2020-0059559. Registered on 2020-05-19.
-      ko: 'KR 10-2020-0059559. 등록일: 2020-05-19.'
+      en: KR 10-2353297. Registered in 2022.
+      ko: KR 10-2353297. 2022년 등록.
     actions:
       en:
       - label: Registered Patent
