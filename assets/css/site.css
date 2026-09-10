@@ -189,6 +189,7 @@ html[data-theme="dark"] .profile {
   width: 178px;
   height: 178px;
   object-fit: cover;
+  object-position: 50% 58%;
   border-radius: 50%;
   display: block;
   margin: 0 auto 18px;
