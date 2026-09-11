@@ -11,7 +11,7 @@ Field sites where sensing systems were tested, deployed, or reviewed under real 
 
 {% for group in site.data.field_sites.groups %}
   <h2>{{ group.title }}</h2>
-  <div class="field-site-grid field-site-grid--{{ forloop.index }}">
+  <div class="field-site-grid">
     {% for field_site in group.sites %}
       <a class="field-site-card" href="{{ field_site.href | relative_url }}">
         <div class="field-site-card__media" aria-hidden="true">

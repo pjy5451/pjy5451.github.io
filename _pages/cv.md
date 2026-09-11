@@ -21,7 +21,7 @@ body_class: "page-cv"
 
 ## Education
 
-<div class="entry">
+<div class="entry entry--education">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
     <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea</p>
@@ -55,7 +55,7 @@ body_class: "page-cv"
   </div>
 </div>
 
-<div class="entry">
+<div class="entry entry--education">
   <div class="entry__date">2017 - 2022</div>
   <div class="entry__body">
     <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong>, Chung-Ang University, Seoul, South Korea</p>
@@ -107,7 +107,7 @@ body_class: "page-cv"
 
 ## Research Experience
 
-<div class="entry">
+<div class="entry entry--experience">
   <div class="entry__date">2024 - Present</div>
   <div class="entry__body">
     <p><strong>Researcher, UDNS</strong></p>
@@ -119,7 +119,7 @@ body_class: "page-cv"
   </div>
 </div>
 
-<div class="entry">
+<div class="entry entry--experience">
   <div class="entry__date">2019 - 2024</div>
   <div class="entry__body">
     <p><strong>Researcher, Chung-Ang University</strong></p>
@@ -134,7 +134,7 @@ body_class: "page-cv"
   </div>
 </div>
 
-<div class="entry">
+<div class="entry entry--experience">
   <div class="entry__date">2022</div>
   <div class="entry__body">
     <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong></p>

@@ -14,8 +14,6 @@
   --chip-text: #0077c8;
   --system: #0f766e;
   --system-soft: #e9f7f5;
-  --research: #2563eb;
-  --research-soft: #eef4ff;
   --field: #c4512d;
   --field-soft: #fff2ec;
   --sidebar: 255px;
@@ -40,8 +38,6 @@ html[data-theme="dark"] {
   --chip-text: #9bd1ff;
   --system: #5eead4;
   --system-soft: rgba(45, 212, 191, 0.11);
-  --research: #8ab8ff;
-  --research-soft: rgba(59, 130, 246, 0.14);
   --field: #f3a184;
   --field-soft: rgba(234, 112, 72, 0.13);
   color-scheme: dark;
@@ -326,31 +322,19 @@ strong {
 }
 
 .page-home,
-.page-about {
+.page-cv {
   --page-accent: var(--system);
   --page-accent-soft: var(--system-soft);
 }
 
-.page-research {
-  --page-accent: var(--research);
-  --page-accent-soft: var(--research-soft);
-}
-
-.page-field-sites {
-  --page-accent: var(--field);
-  --page-accent-soft: var(--field-soft);
-}
-
 .page-home .content > h1:first-child,
-.page-research .content > h1:first-child,
-.page-field-sites .content > h1:first-child {
+.page-cv .content > h1:first-child {
   position: relative;
   padding-bottom: 12px;
 }
 
 .page-home .content > h1:first-child::after,
-.page-research .content > h1:first-child::after,
-.page-field-sites .content > h1:first-child::after {
+.page-cv .content > h1:first-child::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -362,11 +346,27 @@ strong {
 }
 
 .page-home .content > h2,
-.page-research .content > h2,
-.page-field-sites .content > h2 {
+.page-cv .content > h2 {
   padding-left: 10px;
   border-left: 3px solid var(--page-accent);
   border-bottom-color: color-mix(in srgb, var(--page-accent) 34%, var(--line));
+}
+
+.text-highlight {
+  padding: 0 2px;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.text-highlight--system {
+  color: var(--system);
+  background: linear-gradient(transparent 66%, var(--system-soft) 66%);
+}
+
+.text-highlight--metric {
+  color: var(--field);
+  background: linear-gradient(transparent 66%, var(--field-soft) 66%);
 }
 
 .quick-links {
@@ -464,42 +464,25 @@ strong {
 }
 
 .page-home .research-workflow__item {
-  --workflow-color: var(--system);
-  --workflow-soft: var(--system-soft);
-  border-top-color: var(--workflow-color);
-  background: var(--workflow-soft);
-}
-
-.page-home .research-workflow__item:nth-child(2) {
-  --workflow-color: var(--research);
-  --workflow-soft: var(--research-soft);
-}
-
-.page-home .research-workflow__item:nth-child(3) {
-  --workflow-color: var(--field);
-  --workflow-soft: var(--field-soft);
+  border-top-color: var(--system);
+  background: var(--soft);
 }
 
 .page-home .research-workflow__step {
-  color: var(--workflow-color);
+  color: var(--system);
 }
 
-.page-home .keyword-chips--section span:nth-child(3n + 1) {
-  border-color: color-mix(in srgb, var(--system) 42%, var(--line));
+.page-home .profile__role {
+  display: inline-block;
+  justify-self: start;
+  width: max-content;
+  margin-top: 8px;
+  padding: 2px 8px;
+  border: 1px solid color-mix(in srgb, var(--system) 34%, var(--line));
+  border-radius: 999px;
   color: var(--system);
   background: var(--system-soft);
-}
-
-.page-home .keyword-chips--section span:nth-child(3n + 2) {
-  border-color: color-mix(in srgb, var(--research) 42%, var(--line));
-  color: var(--research);
-  background: var(--research-soft);
-}
-
-.page-home .keyword-chips--section span:nth-child(3n) {
-  border-color: color-mix(in srgb, var(--field) 42%, var(--line));
-  color: var(--field);
-  background: var(--field-soft);
+  font-weight: 700;
 }
 
 .research-workflow__step {
@@ -727,7 +710,14 @@ a.inline-action:hover {
 
 .page-cv .quick-links .cv-download {
   padding: 5px 11px;
+  border-color: var(--system);
+  background: var(--system);
   font-size: 0.84rem;
+}
+
+.page-cv .quick-links .cv-download:hover {
+  border-color: color-mix(in srgb, var(--system) 78%, var(--text));
+  background: color-mix(in srgb, var(--system) 78%, var(--text));
 }
 
 .page-cv .cv-actions span {
@@ -738,6 +728,27 @@ a.inline-action:hover {
   margin: 23px 0 8px;
   padding-bottom: 4px;
   font-size: 1.25rem;
+}
+
+.page-cv #research-interests + ul {
+  display: grid;
+  gap: 6px;
+  margin: 5px 0 16px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.page-cv #research-interests + ul li {
+  margin: 0;
+  padding: 5px 9px;
+  border-left: 2px solid color-mix(in srgb, var(--system) 68%, var(--line));
+  background: color-mix(in srgb, var(--system-soft) 58%, transparent);
+}
+
+.page-cv #research-interests + ul strong,
+.page-cv .entry--education .entry__body > p:first-child strong,
+.page-cv .entry--experience .entry__body > p:first-child strong {
+  color: var(--system);
 }
 
 .page-cv .entry {
@@ -1130,8 +1141,6 @@ span.pub__title {
 }
 
 .project-card {
-  --card-accent: var(--research);
-  --card-soft: var(--research-soft);
   display: grid;
   grid-template-rows: 145px minmax(0, 1fr);
   min-height: 300px;
@@ -1140,21 +1149,19 @@ span.pub__title {
   border-radius: 8px;
   color: var(--text);
   background: var(--bg);
-  box-shadow: inset 0 3px 0 var(--card-accent);
 }
 
 .project-card:hover {
-  border-color: var(--card-accent);
+  border-color: var(--link);
   color: var(--text);
-  box-shadow: inset 0 3px 0 var(--card-accent), 0 8px 22px color-mix(in srgb, var(--card-accent) 13%, transparent);
   text-decoration: none;
 }
 
 .project-card__media {
   border-bottom: 1px solid var(--line);
   background:
-    linear-gradient(135deg, color-mix(in srgb, var(--card-accent) 18%, transparent), transparent 58%),
-    var(--card-soft);
+    linear-gradient(135deg, rgba(29, 95, 159, 0.14), transparent 58%),
+    var(--soft);
 }
 
 .project-card__body {
@@ -1165,13 +1172,13 @@ span.pub__title {
 
 .project-card h3 {
   margin: 0 0 4px;
-  color: var(--card-accent);
+  color: var(--link);
   font-size: 0.98rem;
   line-height: 1.3;
 }
 
 .project-card__period {
-  color: var(--card-accent);
+  color: var(--accent);
   font-size: 0.84rem;
   font-weight: 700;
 }
@@ -1195,10 +1202,9 @@ span.pub__title {
   align-items: center;
   justify-content: center;
   padding: 3px 8px;
-  border: 1px solid color-mix(in srgb, var(--card-accent) 38%, var(--line));
+  border: 1px solid var(--line);
   border-radius: 999px;
-  color: var(--card-accent);
-  background: var(--card-soft);
+  color: var(--muted);
   font-size: 0.72rem;
   font-weight: 700;
   line-height: 1.25;
@@ -1352,8 +1358,6 @@ span.pub__title {
 }
 
 .field-site-card {
-  --site-accent: var(--system);
-  --site-soft: var(--system-soft);
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(300px, 0.92fr);
   gap: 0;
@@ -1364,13 +1368,11 @@ span.pub__title {
   padding: 12px;
   color: var(--text);
   background: var(--bg);
-  box-shadow: inset 3px 0 0 var(--site-accent);
 }
 
 .field-site-card:hover {
-  border-color: var(--site-accent);
+  border-color: var(--link);
   color: var(--text);
-  box-shadow: inset 3px 0 0 var(--site-accent), 0 8px 22px color-mix(in srgb, var(--site-accent) 12%, transparent);
   text-decoration: none;
 }
 
@@ -1383,8 +1385,8 @@ span.pub__title {
   border: 1px solid var(--line);
   border-radius: 6px;
   background:
-    linear-gradient(135deg, color-mix(in srgb, var(--site-accent) 20%, transparent), transparent),
-    var(--site-soft);
+    linear-gradient(135deg, rgba(29, 95, 159, 0.2), rgba(180, 74, 43, 0.08)),
+    var(--soft);
 }
 
 .field-site-card__media img {
@@ -1396,7 +1398,7 @@ span.pub__title {
 
 .field-site-card h3 {
   margin: 0 0 8px;
-  color: var(--site-accent);
+  color: var(--link);
   font-size: 1.08rem;
   line-height: 1.3;
 }
@@ -1452,35 +1454,15 @@ span.pub__title {
   line-height: 1.25;
 }
 
-.project-grid--2 .project-card {
-  --card-accent: var(--system);
-  --card-soft: var(--system-soft);
-}
-
-.project-grid--3 .project-card {
-  --card-accent: var(--field);
-  --card-soft: var(--field-soft);
-}
-
 .field-site-detail__meta span {
   font-size: 0.82rem;
 }
 
 p.field-site-card__label {
   margin: 0 0 5px;
-  color: var(--site-accent);
+  color: var(--accent);
   font-size: 0.8rem;
   font-weight: 700;
-}
-
-.field-site-grid--2 .field-site-card {
-  --site-accent: var(--field);
-  --site-soft: var(--field-soft);
-}
-
-.field-site-grid--3 .field-site-card {
-  --site-accent: var(--research);
-  --site-soft: var(--research-soft);
 }
 
 p.field-site-card__label:not(:first-child) {
