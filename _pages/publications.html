@@ -53,7 +53,7 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
   {% for section in site.data.publications.sections %}
     {% assign section_title = section.title.en %}
     {% if section_title == "Patents" %}
-      <h2>Patents</h2>
+      <h2 id="patents">Patents</h2>
       {% assign patent_years = "2026,2025,2024,2023,2022" | split: "," %}
       {% for patent_year in patent_years %}
         <div class="pub-year-group" data-pub-year-group>

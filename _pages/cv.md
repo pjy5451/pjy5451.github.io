@@ -13,6 +13,12 @@ body_class: "page-cv"
   <span>Last updated: September 2026</span>
 </div>
 
+## Research Interests
+
+- **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
+- **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
+- **Physics-Aware AI for Engineering Systems:** connecting signal interpretation, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
+
 ## Education
 
 <div class="entry">
@@ -99,17 +105,7 @@ body_class: "page-cv"
   </div>
 </div>
 
-## Research Interests
-
-- **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
-- **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
-- **Physics-Aware AI for Engineering Systems:** connecting signal interpretation, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
-
-## Skills
-
-{% include skills_table.html %}
-
-## Work Experience
+## Research Experience
 
 <div class="entry">
   <div class="entry__date">2024 - Present</div>
@@ -138,6 +134,17 @@ body_class: "page-cv"
   </div>
 </div>
 
+<div class="entry">
+  <div class="entry__date">2022</div>
+  <div class="entry__body">
+    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong></p>
+    <ul class="compact-list">
+      <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
+      <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
+    </ul>
+  </div>
+</div>
+
 ## Publications
 
 - **Junyoung Park**, Junsik Shin, Jongbin Won. "Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation." <em>Measurement</em> (under review), 2026.
@@ -159,6 +166,10 @@ body_class: "page-cv"
 ## Conference Presentations
 
 Selected conference presentations are listed on the <a href="/talks/">Conference</a> page.
+
+## Patents
+
+The patent portfolio includes **7 registered Korean patents**, **2 filed applications**, and **1 invention in preparation** across structural sensing, WIM, precast transportation, and infrastructure monitoring. See the complete records on the <a href="/publications/#patents">Publications</a> page.
 
 ## Honors and Awards
 
@@ -205,12 +216,41 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
   </div>
 </div>
 
-## Other activities
+## Mentoring
+
+<div class="entry">
+  <div class="entry__date">2023</div>
+  <div class="entry__body">
+    <p><strong>Long-Term Monitoring of Quay Walls with Wireless Sensors</strong></p>
+    <p>Mentored Junsik Shin through Chung-Ang University's Undergraduate Research Program; the work later developed into a peer-reviewed journal article.</p>
+  </div>
+</div>
+
+<div class="entry">
+  <div class="entry__date">2022</div>
+  <div class="entry__body">
+    <p><strong>Vision-Based Long-Term 6-DOF Monitoring of Bridge Bearings</strong></p>
+    <p>Mentored Gunhee Kim through Chung-Ang University's Undergraduate Research Program.</p>
+  </div>
+</div>
+
+## Other Activities
 
 <div class="entry">
   <div class="entry__date entry__date--nowrap">2021.12 - 2022.01</div>
   <div class="entry__body">
     <p><strong>Da Vinci Dream Discovery Program</strong>, Chung-Ang University</p>
     <p>Planned the overall program for 1,000 middle and high school students across 48 sessions, introducing civil engineering research and hands-on technical activities.</p>
+  </div>
+</div>
+
+## Skills & Languages
+
+{% include skills_table.html %}
+
+<div class="entry">
+  <div class="entry__date">Languages</div>
+  <div class="entry__body">
+    <p><strong>English</strong> — TOEFL iBT 100/120 (C1, 2026) · <strong>Korean</strong> — Native</p>
   </div>
 </div>
