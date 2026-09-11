@@ -2,6 +2,7 @@
 layout: default
 permalink: /research/
 title: "Research"
+body_class: "page-research"
 description: "Research projects by Junyoung Park on field-deployable sensing systems, WIM/OBM, bridge monitoring, IoT sensors, and infrastructure data analysis."
 ---
 
@@ -11,7 +12,7 @@ description: "Research projects by Junyoung Park on field-deployable sensing sys
 
 {% for group in site.data.projects.groups %}
   <h2>{{ group.title }}</h2>
-  <div class="project-grid">
+  <div class="project-grid project-grid--{{ forloop.index }}">
     {% for project in group.projects %}
       <a class="project-card" href="{{ project.href | relative_url }}">
         <div class="project-card__media" aria-hidden="true"></div>

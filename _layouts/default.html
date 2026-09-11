@@ -28,7 +28,7 @@
     </script>
     {% endif %}
   </head>
-  <body class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+  <body class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}{% if page.url contains '/projects/' %} page-research{% endif %}{% if page.url contains '/field-sites/' %} page-field-sites{% endif %}">
     <header class="topbar">
       <a class="topbar__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
