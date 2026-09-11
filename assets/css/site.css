@@ -618,6 +618,95 @@ a.inline-action:hover {
   font-weight: 700;
 }
 
+.page-cv .content > h1 {
+  margin-bottom: 8px;
+}
+
+.page-cv .cv-actions {
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin: 6px 0 18px;
+}
+
+.page-cv .quick-links .cv-download {
+  padding: 5px 11px;
+  font-size: 0.84rem;
+}
+
+.page-cv .cv-actions span {
+  font-size: 0.82rem;
+}
+
+.page-cv .content > h2 {
+  margin: 23px 0 8px;
+  padding-bottom: 4px;
+  font-size: 1.25rem;
+}
+
+.page-cv .entry {
+  grid-template-columns: 108px minmax(0, 1fr);
+  gap: 8px 18px;
+  margin: 8px 0 14px;
+  font-size: 0.91rem;
+  line-height: 1.4;
+}
+
+.page-cv .entry__date {
+  font-size: 0.84rem;
+}
+
+.page-cv .entry__body p {
+  margin-bottom: 3px;
+}
+
+.page-cv .degree-notes,
+.page-cv .compact-list {
+  margin-top: 2px;
+  padding-left: 18px;
+}
+
+.page-cv .degree-notes li,
+.page-cv .compact-list li {
+  margin: 1px 0;
+}
+
+.page-cv .coursework {
+  margin-top: 6px;
+}
+
+.page-cv .coursework summary {
+  min-height: 27px;
+  padding: 3px 8px;
+  font-size: 0.8rem;
+}
+
+.page-cv .skills-table {
+  margin: 6px 0 16px;
+  font-size: 0.82rem;
+}
+
+.page-cv .skills-table th,
+.page-cv .skills-table td {
+  padding: 5px 8px;
+}
+
+.page-cv .skills-table th {
+  width: 148px;
+}
+
+.page-cv .content > ul {
+  margin: 4px 0 12px;
+  padding-left: 18px;
+  font-size: 0.89rem;
+  line-height: 1.38;
+}
+
+.page-cv .content > ul > li {
+  margin: 3px 0;
+}
+
 .chip-list--coursework {
   gap: 4px 6px;
 }
@@ -1862,5 +1951,27 @@ p.field-site-card__label:not(:first-child) {
     padding: 0 0 9px;
     border: 0;
     border-bottom: 1px solid var(--line);
+  }
+
+  .page-cv .entry {
+    display: block;
+    margin: 7px 0 13px;
+  }
+
+  .page-cv .entry__date {
+    margin-bottom: 2px;
+  }
+
+  .page-cv .skills-table th,
+  .page-cv .skills-table td {
+    width: 100%;
+  }
+
+  .page-cv .skills-table th {
+    padding: 6px 0 1px;
+  }
+
+  .page-cv .skills-table td {
+    padding: 0 0 6px;
   }
 }
