@@ -145,6 +145,20 @@
 </section>
 {% endif %}
 
+{% if field_site.related_outputs %}
+<section class="field-site-detail">
+<h2>Related Publication</h2>
+<ul class="field-site-detail__data">
+{% for output in field_site.related_outputs %}
+<li>
+  {% if output.href %}<a href="{{ output.href }}">{{ output.title }}</a>{% else %}{{ output.title }}{% endif %}
+  {% if output.pdf %}<a class="inline-action" href="{{ output.pdf | relative_url }}">PDF</a>{% endif %}
+</li>
+{% endfor %}
+</ul>
+</section>
+{% endif %}
+
 <section class="field-site-detail">
 <h2>Field Context</h2>
 <p>{% if field_site.field_context %}{{ field_site.field_context }}{% else %}This page records the practical field context behind the sensing and monitoring work connected to this site, separate from the broader Research project categories.{% endif %}</p>

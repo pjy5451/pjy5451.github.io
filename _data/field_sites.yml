@@ -241,45 +241,51 @@ groups:
   - name: Prefab Member Transportation Monitoring
     key: prefab-transportation-monitoring
     href: /field-sites/prefab-transportation-monitoring/
-    summary: IoT-based monitoring for prefabricated structural members during lifting, hauling, and site delivery.
-    location: South Korea
+    summary: Full-scale validation of a portable multimetric sensing system during the lifting and road transportation of a precast concrete deck panel.
+    location: Chungbuk, South Korea
     image: /images/field-sites/prefab-transportation-monitoring/prefab-transportation-monitoring-setup.jpg
     field_focus: >-
-      This field project focused on monitoring prefabricated structural members during transportation and handling, where the monitored object is a moving component rather than a fixed bridge or building. The work used field sensing to review vibration, tilt, strain, impact-related response, and movement-stage behavior during lifting, loading, hauling, and delivery.
-    period: Field transportation monitoring
-    data_summary: Transportation-stage acceleration, strain, tilt, route-linked movement records, handling-event response histories, and cloud monitoring records.
+      The field experiment validated a precast delivery monitoring system (PDMS) on a 12.14 m-long concrete deck panel at the Bricon R&BD plant in Chungbuk. The asymmetric panel, which varied from 240 to 360 mm in thickness, was monitored through ground resting, crane lifting, truck resting, road transportation, and return handling. The test examined whether a portable system could continuously capture the structural response needed to assess lifting balance, transport vibration, strain demand, and support-condition effects.
+    period: Full-scale delivery field test
+    data_summary: Continuous 100 Hz three-axis acceleration, tilt, three-channel strain, delivery-stage timing, and FE-assisted safety-assessment records.
     equipment:
-    - IoT sensor installation attached directly to prefabricated structural members during transport-related operations
-    - Acceleration, strain, tilt, and impact-related response measurements for handling and hauling review
-    - Base-station and cloud-connected monitoring workflow for collecting field data during moving operations
-    - Route-linked monitoring concept for connecting structural response with transportation and delivery stages
+    - Portable PDMS integrating a Teensy 4.1 MCU, multichannel ADC, ADXL354 three-axis accelerometer, three 120-ohm concrete strain gauges, and SD-card storage
+    - Six-channel data acquired at 1,000 Hz, low-pass filtered with an FIR filter, and downsampled to 100 Hz for continuous recording
+    - Six rechargeable 18650 batteries providing 21,000 mAh capacity; measured system current was 165.5 mA, corresponding to an estimated 4.2 days of continuous operation
+    - Thin steel plates bonded to the concrete with epoxy and a four-magnet sensor mount, avoiding direct permanent fixation of the enclosure to the panel
     development_highlights:
-    - Supported field application of IoT sensing to prefabricated members under practical lifting, loading, hauling, and delivery conditions
-    - Reviewed temporary sensor attachment, field deployment constraints, and movement-stage data acquisition
-    - Organized acceleration, strain, tilt, and handling-event records for transportation-stage response interpretation
-    - Connected structural response data with movement-stage information to support field quality management and abnormal-event review
-    validation_heading: Transportation Monitoring Workflow
+    - Developed a self-contained multimetric logger that operated without a base-station computer during lifting and transportation
+    - Used a lifting-stage finite-element model to place three strain gauges near predicted zero-strain locations and establish a reference for absolute-strain offset correction
+    - Converted three-axis acceleration into panel tilt and combined measured top-surface strain with the FE neutral axis to estimate bottom-surface strain
+    - Structured the safety assessment around a 133 microstrain cracking threshold, with low-, medium-, and high-risk bands for transport review
+    validation_heading: Field Validation Workflow
     validation_protocol:
-    - Field records are organized around transport stages such as lifting, loading, driving, unloading, and delivery.
-    - Sensor response histories are interpreted together with route or movement information so that transport-induced events can be separated from stationary or handling conditions.
-    - Result summaries should distinguish measured field response, stage identification, and abnormal-event review from final quality-control acceptance criteria.
+    - The delivery sequence covered ground resting, eight-point crane lifting, truck resting, road transportation, a second truck-resting period, return lifting, and final ground resting.
+    - Three-axis acceleration was recorded continuously for 80 minutes; stage timing was used to separate handling response from road-induced vibration.
+    - Raw strain was adjusted using the near-zero lifting condition, then compared with the calculated cracking strain limit and FE-estimated bottom-surface response.
+    - Field and FE results were compared to explain how uneven timber-support contact changed strain distribution in both ground- and truck-resting stages.
     field_context: >-
-      This entry expands my field portfolio beyond fixed bridge monitoring by showing how sensing systems can be applied to mobile structural assets during construction logistics. It connects structural engineering with practical field operations, where sensing, communication, and data interpretation must remain reliable while the monitored component is being moved.
+      This case extends structural monitoring from fixed infrastructure to a moving construction component. It shows that reliable delivery assessment depends not only on recording vibration, but also on reconstructing meaningful strain from installation offsets and interpreting the contact condition beneath an asymmetric member. The study used post-processed field data rather than real-time cloud decision support; online anomaly alerts were identified as future work.
     sites:
-    - Prefab transportation route
+    - Bricon R&BD plant
     data:
-    - Transportation-stage acceleration, strain, tilt, and impact-related response records
-    - Movement-stage and handling-event histories during lifting, loading, hauling, and delivery
-    - Route-linked monitoring records connecting transport movement with structural response
+    - The vertical axis showed the strongest transportation vibration, with a 48.62 mg standard deviation and a 682.59 mg peak; measured peaks remained below the road-transport vibration limits used in the study.
+    - Pitch and yaw shifted to approximately 2.1 and -0.5 degrees during lifting and remained stable, indicating balanced lifting without overturning or force transfer between cables.
+    - Offset-adjusted top strain reached 127 microstrain in the ground-resting stage, while the estimated bottom strain at S3 reached 195 microstrain and exceeded the 133 microstrain cracking threshold.
+    - Only three of seven timber supports were found to be in effective contact on the truck; the FE study indicated that five evenly spaced, fully contacted 100 mm supports could keep strains below 50 microstrain.
     result_groups:
-    - title: Stage and Event Review
+    - title: Dynamic Response
       items:
-      - Multi-stage response plots can show how measured signals change during lifting, loading, driving, unloading, and delivery.
-      - Event summaries can highlight abnormal vibration, impact, tilt, or support-condition changes once confirmed field criteria are available.
-    - title: Cloud Monitoring Workflow
+      - Acceleration and tilt histories separated the stationary, lifting, truck-resting, and transportation stages while confirming stable lifting behavior.
+      - Short-duration acceleration peaks were evaluated against the transport limits cited in the paper rather than treated as damage indicators by themselves.
+    - title: Strain and Support Assessment
       items:
-      - Dashboard screenshots can show how field sensor nodes, base-station communication, cloud storage, and response review are connected.
-      - Route-linked records can help explain how transportation location and movement context are paired with structural response data.
+      - Offset correction exposed high-risk strain that was not visible when the initially zeroed raw strain was interpreted directly.
+      - Field observations and FE models linked uneven strain distribution to incomplete timber-support contact beneath the asymmetric panel.
+    related_outputs:
+    - title: Monitoring Precast Structures During Transportation Using a Portable Sensing System
+      href: https://doi.org/10.1016/j.autcon.2022.104639
+      pdf: /assets/files/publications/2023-automation-precast-transportation-monitoring.pdf
   - name: Seoul Bus-Only Lane Transportation Monitoring
     key: precast-transportation-monitoring
     href: /field-sites/precast-transportation-monitoring/

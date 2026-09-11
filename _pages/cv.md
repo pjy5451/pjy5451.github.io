@@ -157,7 +157,7 @@ description: "CV of Junyoung Park, including education, research experience, pub
 
 ## Conference Presentations
 
-Selected conference presentations are listed on the <a href="/talks/">Conference Presentations</a> page.
+Selected conference presentations are listed on the <a href="/talks/">Conference</a> page.
 
 ## Honors and Awards
 
