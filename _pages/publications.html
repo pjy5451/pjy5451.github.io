@@ -61,7 +61,7 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
           <div class="pub-year-list">
             {% for item in section.entries %}
               {% if item.year == patent_year %}
-                {% include publication_item.html item=item pub_lang=pub_lang kind="patent" hide_authors=true hide_year=true %}
+                {% include publication_item.html item=item pub_lang=pub_lang kind="patent" hide_year=true %}
               {% endif %}
             {% endfor %}
           </div>

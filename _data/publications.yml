@@ -781,8 +781,8 @@ sections:
       en: Vehicle Recognition Method and Apparatus Using Two-Dimensional Projection Images of LiDAR Point Clouds
       ko: LiDAR 포인트 클라우드의 2차원 투영 이미지를 이용한 차량 인식 방법 및 장치
     authors:
-      en: Vehicle recognition method and apparatus using two-dimensional projection images of LiDAR point clouds.
-      ko: LiDAR 포인트 클라우드의 2차원 투영 이미지를 이용한 차량 인식 방법 및 장치.
+      en: J. W. Kim, Y. Jho, Y. Jung, <strong>Junyoung Park</strong>
+      ko: J. W. Kim, Y. Jho, Y. Jung, <strong>박준영</strong>
     venue:
       en: In preparation.
       ko: 출원 준비 중.
@@ -800,8 +800,8 @@ sections:
       en: Vehicle Dimension Measurement System and Method
       ko: 차량 제원 측정 시스템 및 방법
     authors:
-      en: Vehicle dimension measurement system and method.
-      ko: 차량 제원 측정 시스템 및 방법.
+      en: J. W. Kim, Y. Jho, Y. Jung, <strong>Junyoung Park</strong>
+      ko: J. W. Kim, Y. Jho, Y. Jung, <strong>박준영</strong>
     venue:
       en: KR 10-2026-0101228. Application filed in 2026.
       ko: 'KR 10-2026-0101228. 2026년 출원.'
@@ -818,8 +818,8 @@ sections:
       en: Continuous Bridge Load-Carrying Capacity Assessment System and Method
       ko: 교량 상시 내하력 평가 시스템 및 방법
     authors:
-      en: Continuous bridge load-carrying capacity assessment system and method.
-      ko: 교량 상시 내하력 평가 시스템 및 방법.
+      en: J. W. Kim, Y. Jho, <strong>Junyoung Park</strong>
+      ko: J. W. Kim, Y. Jho, <strong>박준영</strong>
     venue:
       en: KR 10-2025-0174354. Application filed on 2025-11-18.
       ko: 'KR 10-2025-0174354. 출원일: 2025-11-18.'
@@ -837,9 +837,8 @@ sections:
       en: Automatic Load-Event Interval Recognition Using IoT Sensors for Structural Capacity Assessment
       ko: 구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법
     authors:
-      en: Automatic load-event interval recognition and analysis system using IoT sensors for structural load-carrying capacity
-        assessment.
-      ko: 구조물 내하력 평가용 IoT 센서를 이용한 하중발생 구간 자동인식 분석시스템 및 자동인식 분석방법.
+      en: Jong-Woong Park, <strong>Junyoung Park</strong>, Junsik Shin
+      ko: 박종웅, <strong>박준영</strong>, 신준식
     venue:
       en: KR 10-2853678. Registered on 2025-08-28.
       ko: 'KR 10-2853678. 등록일: 2025-08-28.'
@@ -860,8 +859,8 @@ sections:
       en: Real-Time Dynamic Truck Operating Weight Correction Based on an FIR Filter
       ko: FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치
     authors:
-      en: Real-time correction method and device for dynamic truck operating weight based on an FIR filter.
-      ko: FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치.
+      en: J. W. Kim, Y. Jho, <strong>Junyoung Park</strong>
+      ko: J. W. Kim, Y. Jho, <strong>박준영</strong>
     venue:
       en: KR 10-2951213. Registered in 2026.
       ko: KR 10-2951213. 2026년 등록.
@@ -879,9 +878,8 @@ sections:
       en: Concrete Crack Trajectory Monitoring and Long-Term History Visualization
       ko: 저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템
     authors:
-      en: Concrete crack trajectory monitoring device using a resistive touchpad and long-term measurement history visualization
-        system.
-      ko: 저항식 터치패드를 이용한 콘크리트 균열 궤적 모니터링 장치 및 이를 이용한 장기 계측이력 시각화 시스템.
+      en: Jong-Woong Park, K. H. Kim, <strong>Junyoung Park</strong>
+      ko: 박종웅, K. H. Kim, <strong>박준영</strong>
     venue:
       en: KR 10-2892584. Registered in 2025.
       ko: KR 10-2892584. 2025년 등록.
@@ -902,8 +900,8 @@ sections:
       en: IoT Sensor-Based Integrated Monitoring for Precast Transportation
       ko: IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법
     authors:
-      en: Integrated precast transportation monitoring system and method based on IoT sensors.
-      ko: IoT 센서 기반 프리캐스트 운반 통합 모니터링시스템 및 모니터링방법.
+      en: Jong-Woong Park, <strong>Junyoung Park</strong>, Junsik Shin, J. Lee
+      ko: 박종웅, <strong>박준영</strong>, 신준식, J. Lee
     venue:
       en: KR 10-2558124. Registered in 2023.
       ko: KR 10-2558124. 2023년 등록.
@@ -925,9 +923,8 @@ sections:
       en: Cloud-Based IoT Sensor Data Preprocessing and Deep-Learning Anomaly Detection
       ko: 클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법, 및 딥러닝 기반 이상치 감지 자동화시스템
     authors:
-      en: Cloud-based smart IoT sensor data preprocessing method and deep-learning-based anomaly detection automation system
-        for structural monitoring.
-      ko: 클라우드 컴퓨팅을 이용한 구조물 모니터링용 스마트 IoT 센서 데이터 전처리 방법 및 딥러닝 기반 이상치 감지 자동화시스템.
+      en: Jong-Woong Park, Jongbin Won, <strong>Junyoung Park</strong>, Junsik Shin
+      ko: 박종웅, 원종빈, <strong>박준영</strong>, 신준식
     venue:
       en: KR 10-2705761. Registered in 2024.
       ko: KR 10-2705761. 2024년 등록.
@@ -949,8 +946,8 @@ sections:
       en: Citizen-Participatory Smart City System Using Sensor Measurement and Data Visualization
       ko: 센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템
     authors:
-      en: Citizen-participatory smart city system using sensor measurement and data visualization.
-      ko: 센서 계측 및 데이터 시각화를 통한 시민참여형 스마트 시티 시스템.
+      en: S. Park, Junsik Shin, <strong>Junyoung Park</strong>
+      ko: S. Park, 신준식, <strong>박준영</strong>
     venue:
       en: KR 10-2389222. Registered in 2022.
       ko: KR 10-2389222. 2022년 등록.
@@ -972,8 +969,8 @@ sections:
       en: Smart IoT Earthquake Sensor Unit and Notification Method
       ko: 스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법
     authors:
-      en: Smart IoT earthquake sensor unit and notification method.
-      ko: 스마트 IoT 지진 센서유닛 및 이를 이용한 통보방법.
+      en: Jong-Woong Park, <strong>Junyoung Park</strong>
+      ko: 박종웅, <strong>박준영</strong>
     venue:
       en: KR 10-2353297. Registered in 2022.
       ko: KR 10-2353297. 2022년 등록.

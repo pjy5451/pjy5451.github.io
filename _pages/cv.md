@@ -162,29 +162,48 @@ Selected conference presentations are listed on the <a href="/talks/">Conference
 
 ## Honors and Awards
 
-- Outstanding Paper Presentation Award, Korea Institute for Structural Maintenance and Inspection.
-- Gold Prize, National Research Foundation of Korea.
-- Excellence Award, Korea Land and Housing Corporation.
-- Korea National Railway Chairperson Award, Ministry of Land, Infrastructure and Transport.
-- Korea Environment Corporation President Award, Ministry of Environment.
-- Excellence Award, Chung-Ang University LINC+ Project Group.
-- Popularity Award, Chung-Ang University LINC+ Project Group.
-- Dean's Award, Chung-Ang University College of Engineering.
-- Encouragement Award, Chung-Ang University Center for Engineering Education Innovation.
-- Minister Award, Ministry of the Interior and Safety.
+<div class="recognition-list">
+  <div class="recognition-item">
+    <div class="recognition-item__year">2024</div>
+    <div class="recognition-item__title">Best Paper Presentation Award</div>
+    <div class="recognition-item__meta">Korea Institute for Structural Maintenance and Inspection</div>
+  </div>
+  <div class="recognition-item">
+    <div class="recognition-item__year">2022</div>
+    <div class="recognition-item__title">Gold Award, X-Corps Plus Festival</div>
+    <div class="recognition-item__meta">National Research Foundation of Korea</div>
+  </div>
+  <div class="recognition-item">
+    <div class="recognition-item__year">2021</div>
+    <div class="recognition-item__title">Innovation Award, Smart Construction Challenge</div>
+    <div class="recognition-item__meta">IoT / AI / Sensing · MOLIT · Korea National Railway</div>
+  </div>
+  <div class="recognition-item">
+    <div class="recognition-item__year">2019</div>
+    <div class="recognition-item__title">Minister of the Interior and Safety Award</div>
+    <div class="recognition-item__meta">Smart Earthquake Detection Competition</div>
+  </div>
+</div>
 
 ## Scholarships
 
-- Graduate Research Scholarship (CAU GRS, ~$21,500), Chung-Ang University, Mar. 2022 - Feb. 2024.
-- Full Tuition Scholarship for Junior and Senior Years (SeAH Haeam Academic Scholarship Foundation, ~$7,300), Mar. 2020 - Dec. 2021.
-- Alumni Association Scholarship (~$750), Chung-Ang University, Mar. 2021 - Jun. 2021.
-- Specialization Scholarship (~$150), Chung-Ang University, Feb. 2022.
-- Academic Excellence Scholarship (~$1,200), Chung-Ang University, Sep. 2019 - Feb. 2020.
-- Designated Fund Scholarship (~$1,800), Chung-Ang University, Mar. 2019 - Feb. 2020.
-- Hwanju Scholarship (~$1,500), Chung-Ang University, Mar. 2019 - Jun. 2019.
-- Academic Excellence Scholarship (~$1,200), Chung-Ang University, Sep. 2018 - Feb. 2019.
-- Gwangju Seo-gu Scholarship Foundation Scholarship (~$1,100), Gwangju Seo-gu Scholarship Foundation, Sep. 2018 - Feb. 2019.
-- University Innovation Support Scholarship (~$2,000), Chung-Ang University, Sep. 2018 - Feb. 2022.
+<div class="recognition-list">
+  <div class="recognition-item">
+    <div class="recognition-item__year">2022 - 2023</div>
+    <div class="recognition-item__title">CAU Graduate Research Scholarship</div>
+    <div class="recognition-item__meta">Full graduate tuition · Chung-Ang University</div>
+  </div>
+  <div class="recognition-item">
+    <div class="recognition-item__year">2020 - 2021</div>
+    <div class="recognition-item__title">SeAH Haiam Scholarship</div>
+    <div class="recognition-item__meta">Full undergraduate tuition · SeAH Haiam Scholarship Foundation</div>
+  </div>
+  <div class="recognition-item">
+    <div class="recognition-item__year">2017 - 2018</div>
+    <div class="recognition-item__title">CAU Academic Excellence Scholarships</div>
+    <div class="recognition-item__meta">Fall 2017 and Spring 2018 · Chung-Ang University</div>
+  </div>
+</div>
 
 ## Other activities
 
