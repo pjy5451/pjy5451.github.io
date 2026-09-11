@@ -29,18 +29,23 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
   {% assign article_years = "2026,2024,2023,2022,2021,2020" | split: "," %}
   {% assign article_sections = "Journal Articles,Preprints,Technical Articles" | split: "," %}
   {% for article_year in article_years %}
-    {% for article_section in article_sections %}
-      {% for section in site.data.publications.sections %}
-        {% assign section_title = section.title.en %}
-        {% if section_title == article_section %}
-          {% for item in section.entries %}
-            {% if item.year == article_year %}
-              {% include publication_item.html item=item pub_lang=pub_lang kind="article" %}
+    <div class="pub-year-group" data-pub-year-group>
+      <h3 class="pub-year-heading">{{ article_year }}</h3>
+      <div class="pub-year-list">
+        {% for article_section in article_sections %}
+          {% for section in site.data.publications.sections %}
+            {% assign section_title = section.title.en %}
+            {% if section_title == article_section %}
+              {% for item in section.entries %}
+                {% if item.year == article_year %}
+                  {% include publication_item.html item=item pub_lang=pub_lang kind="article" hide_year=true %}
+                {% endif %}
+              {% endfor %}
             {% endif %}
           {% endfor %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
+        {% endfor %}
+      </div>
+    </div>
   {% endfor %}
 </section>
 
@@ -49,9 +54,18 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     {% assign section_title = section.title.en %}
     {% if section_title == "Patents" %}
       <h2>Patents</h2>
-      {% assign patent_entries = section.entries | sort: "year" | reverse %}
-      {% for item in patent_entries %}
-        {% include publication_item.html item=item pub_lang=pub_lang kind="patent" hide_authors=true hide_year=true %}
+      {% assign patent_years = "2026,2025,2024,2023,2022" | split: "," %}
+      {% for patent_year in patent_years %}
+        <div class="pub-year-group" data-pub-year-group>
+          <h3 class="pub-year-heading">{{ patent_year }}</h3>
+          <div class="pub-year-list">
+            {% for item in section.entries %}
+              {% if item.year == patent_year %}
+                {% include publication_item.html item=item pub_lang=pub_lang kind="patent" hide_authors=true hide_year=true %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
       {% endfor %}
     {% endif %}
   {% endfor %}
@@ -64,6 +78,7 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     var input = document.querySelector('[data-pub-search-input]');
     var filters = document.querySelectorAll('[data-pub-filter]');
     var items = document.querySelectorAll('[data-pub-item]');
+    var yearGroups = document.querySelectorAll('[data-pub-year-group]');
     var sections = document.querySelectorAll('[data-pub-section]');
     var count = document.querySelector('[data-pub-result-count]');
     var empty = document.querySelector('[data-pub-empty]');
@@ -94,6 +109,10 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
         var visible = matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
         item.hidden = !visible;
         if (visible) visibleCount += 1;
+      });
+
+      yearGroups.forEach(function(group) {
+        group.hidden = !group.querySelector('[data-pub-item]:not([hidden])');
       });
 
       sections.forEach(function(section) {

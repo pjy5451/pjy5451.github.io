@@ -20,6 +20,9 @@
   {% else %}
     <span class="pub__title">{{ item_title }}</span>
   {% endif %}
+  {% unless include.hide_authors %}
+    <p class="pub__authors">{{ item_authors }}</p>
+  {% endunless %}
   <p class="pub__venue">
     <em>{{ item_venue }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}
     {% if item_pdf != "" %}
@@ -31,9 +34,6 @@
       <a class="pub__pdf-link" href="{{ pdf_href }}" aria-label="Open PDF for {{ item_title }}">PDF</a>
     {% endif %}
   </p>
-  {% unless include.hide_authors %}
-    <p class="pub__authors">{{ item_authors }}</p>
-  {% endunless %}
   {% if item.actions %}
     {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
     {% assign has_visible_action = false %}
