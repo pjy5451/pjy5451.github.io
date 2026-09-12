@@ -461,19 +461,6 @@ strong {
   margin: 8px 0 12px;
 }
 
-.page-home .profile__role {
-  display: inline-block;
-  justify-self: start;
-  width: max-content;
-  margin-top: 8px;
-  padding: 2px 8px;
-  border: 1px solid color-mix(in srgb, var(--system) 34%, var(--line));
-  border-radius: 999px;
-  color: var(--system);
-  background: var(--system-soft);
-  font-weight: 700;
-}
-
 .entry {
   display: grid;
   grid-template-columns: 130px minmax(0, 1fr);
