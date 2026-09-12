@@ -15,31 +15,6 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
 
 <p>At UDNS, I currently develop and validate <strong class="text-highlight text-highlight--system">WIM (Weigh-in-Motion)</strong> and <strong class="text-highlight text-highlight--system">OBM (On-Board Mass)</strong> systems for freight transportation safety. My previous research focused on IoT-based bridge monitoring, displacement estimation, and scalable cloud-connected sensing systems.</p>
 
-## Research Workflow
-
-<div class="research-workflow" aria-label="Research workflow from field sensing to validation">
-  <article class="research-workflow__item">
-    <span class="research-workflow__step">01</span>
-    <h3>Field Sensing</h3>
-    <p>IoT sensors, vehicle-mounted sensing, and structural response measurement under real operating conditions.</p>
-  </article>
-  <article class="research-workflow__item">
-    <span class="research-workflow__step">02</span>
-    <h3>Edge-to-Cloud Systems</h3>
-    <p>Embedded DAQ, wireless communication, databases, and dashboards designed as one measurement workflow.</p>
-  </article>
-  <article class="research-workflow__item">
-    <span class="research-workflow__step">03</span>
-    <h3>Signal &amp; AI Interpretation</h3>
-    <p>Event detection, data fusion, dynamic weight correction, and engineering analysis of field measurements.</p>
-  </article>
-  <article class="research-workflow__item">
-    <span class="research-workflow__step">04</span>
-    <h3>Field Validation</h3>
-    <p>Repeated testing on bridges, vehicles, and structural components to evaluate system reliability and practical value.</p>
-  </article>
-</div>
-
 ## Research Keywords
 
 <div class="keyword-chips keyword-chips--section" aria-label="Representative research keywords">
