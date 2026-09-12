@@ -387,6 +387,59 @@ strong {
   background: linear-gradient(transparent 56%, var(--highlight-soft) 56%);
 }
 
+.home-narrative {
+  display: grid;
+  gap: 8px;
+  margin: 16px 0 18px 7px;
+  padding-left: 16px;
+  border-left: 2px solid color-mix(in srgb, var(--system) 48%, var(--line));
+}
+
+.home-narrative p {
+  position: relative;
+  margin: 0;
+  padding: 9px 12px;
+  border-radius: 6px;
+  background: var(--soft);
+}
+
+.home-narrative p::before {
+  position: absolute;
+  top: 16px;
+  left: -22px;
+  width: 8px;
+  height: 8px;
+  border: 2px solid var(--bg);
+  border-radius: 50%;
+  background: var(--system);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--system) 36%, var(--line));
+  content: "";
+}
+
+.home-current-focus {
+  display: grid;
+  grid-template-columns: 108px minmax(0, 1fr);
+  gap: 12px;
+  align-items: baseline;
+  margin: 0 0 24px;
+  padding: 10px 2px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.home-current-focus__label {
+  color: var(--system);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.home-current-focus__body strong {
+  background: linear-gradient(transparent 62%, var(--highlight-soft) 62%);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .quick-links {
   display: flex;
   gap: 10px;
