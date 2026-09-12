@@ -373,12 +373,12 @@ strong {
 }
 
 .text-highlight--system {
-  color: var(--system);
+  color: inherit;
   background: linear-gradient(transparent 64%, var(--highlight-soft) 64%);
 }
 
 .text-highlight--metric {
-  color: color-mix(in srgb, var(--highlight) 62%, var(--text));
+  color: inherit;
   background: linear-gradient(transparent 56%, var(--highlight-soft) 56%);
 }
 
@@ -681,24 +681,10 @@ a.inline-action:hover {
   background: color-mix(in srgb, var(--system-soft) 58%, transparent);
 }
 
-.page-cv #research-interests + ul strong,
-.page-cv .entry--education .entry__body > p:first-child strong,
-.page-cv .entry--experience .entry__body > p:first-child strong {
-  color: var(--system);
-  background: linear-gradient(transparent 68%, var(--highlight-soft) 68%);
-  box-decoration-break: clone;
-  -webkit-box-decoration-break: clone;
-}
-
 .page-cv .entry__date,
 .page-cv .recognition-item__year {
-  width: max-content;
-  color: color-mix(in srgb, var(--highlight) 58%, var(--text));
-  background: linear-gradient(transparent 56%, var(--highlight-soft) 56%);
-}
-
-.page-cv .entry__date {
-  align-self: start;
+  color: var(--muted);
+  background: none;
 }
 
 .page-cv .entry {
