@@ -6,12 +6,19 @@ description: "CV of Junyoung Park, including education, research experience, pub
 body_class: "page-cv"
 ---
 
-# Curriculum Vitae
-
-<div class="quick-links cv-actions">
-  <a class="cv-download" href="/assets/files/Junyoung_Park_CV.pdf">Download CV</a>
-  <span>Last updated: September 2026</span>
-</div>
+<header class="cv-document-header">
+  <div>
+    <p class="cv-document-header__eyebrow">Curriculum Vitae</p>
+    <h1>Junyoung Park</h1>
+    <p class="cv-document-header__role">Researcher, UDNS · Seoul, South Korea</p>
+  </div>
+  <div class="cv-document-header__actions">
+    <a href="mailto:pjy5451@gmail.com">Email</a>
+    <a href="https://scholar.google.com/citations?user=Y00UTgQAAAAJ&hl=en">Google Scholar</a>
+    <a class="cv-download" href="/assets/files/Junyoung_Park_CV.pdf">Download PDF</a>
+    <span>Updated September 2026</span>
+  </div>
+</header>
 
 ## Research Interests
 

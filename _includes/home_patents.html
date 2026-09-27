@@ -1,0 +1,14 @@
+{% assign pub_lang = "en" %}
+<section class="home-section home-section--patents" id="patents" data-home-section>
+  <h2>Patents</h2>
+  <div class="publication-card-list">
+    {% assign patent_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
+    {% for section in site.data.publications.sections %}{% assign section_title = section.title.en %}{% if section_title == "Patents" %}
+      {% for patent_year in patent_years %}{% for item in section.entries %}{% if item.year == patent_year %}
+        {% include publication_item.html item=item pub_lang=pub_lang kind="patent" %}
+      {% endif %}{% endfor %}{% endfor %}
+    {% endif %}{% endfor %}
+  </div>
+  <button class="publication-patent-toggle" type="button" data-pub-expand-patents aria-expanded="false"></button>
+</section>
+<script src="{{ '/assets/js/home-publications.js' | relative_url }}"></script>

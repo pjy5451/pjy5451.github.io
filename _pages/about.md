@@ -5,6 +5,8 @@ title: "About"
 description: "Junyoung Park is a structural monitoring researcher working on IoT sensing, WIM/OBM systems, field deployment, and data-driven infrastructure evaluation."
 ---
 
+<section class="home-section home-section--about" id="about" data-home-section markdown="1">
+
 # Junyoung Park
 
 <p class="intro intro--lead"><strong>From field measurements to <span class="text-highlight text-highlight--system">principled inference</span> for infrastructure.</strong></p>
@@ -41,3 +43,13 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
     </div>
   </div>
 </div>
+
+</section>
+
+{% include home_publications.html %}
+
+{% include home_projects.html %}
+
+{% include home_conferences.html %}
+
+{% include home_patents.html %}

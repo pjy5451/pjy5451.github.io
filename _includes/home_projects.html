@@ -1,0 +1,24 @@
+<section class="home-section" id="projects" data-home-section>
+  <h2>Projects</h2>
+  <p class="home-section__intro">Selected sensing and monitoring systems developed and validated across infrastructure and transportation applications.</p>
+  {% for group in site.data.projects.groups %}
+    <h3 class="home-project-group-title">{{ group.title }}</h3>
+    <div class="project-grid">
+      {% for project in group.projects %}
+        {% unless project.title == "Freight Train Monitoring System" or project.title == "Sewer Monitoring Sensor System" %}
+          <a class="project-card" href="{{ project.href | relative_url }}">
+            <div class="project-card__media" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <h3>{{ project.title }}</h3>
+              <p class="project-card__period">{{ project.period }}</p>
+              <p>{{ project.summary }}</p>
+              <div class="project-card__tags">
+                {% for tag in project.tags limit:2 %}<span>{{ tag }}</span>{% endfor %}
+              </div>
+            </div>
+          </a>
+        {% endunless %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+</section>

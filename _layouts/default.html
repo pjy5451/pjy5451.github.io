@@ -28,9 +28,9 @@
     </script>
     {% endif %}
   </head>
-  <body class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
+  <body id="top" class="{% if page.url == '/' %}page-home{% else %}page-inner{% endif %}{% if page.body_class %} {{ page.body_class }}{% endif %}">
     <header class="topbar">
-      <a class="topbar__name" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <a class="topbar__name" href="{{ '/#top' | relative_url }}">{{ site.title }}</a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
         <span class="nav-toggle__label">Menu</span>
         <span class="nav-toggle__bars" aria-hidden="true">
@@ -40,12 +40,12 @@
         </span>
       </button>
       <nav class="nav" id="site-nav" aria-label="Main navigation">
-        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="is-active"{% endif %}>About</a>
+        <a href="{{ '/#about' | relative_url }}" data-section-link="about"{% if page.url == '/' %} class="is-active"{% endif %}>About</a>
+        <a href="{{ '/#publications' | relative_url }}" data-section-link="publications">Publications</a>
+        <a href="{{ '/#projects' | relative_url }}" data-section-link="projects">Projects</a>
+        <a href="{{ '/#conferences' | relative_url }}" data-section-link="conferences">Conferences</a>
+        <a href="{{ '/#patents' | relative_url }}" data-section-link="patents">Patents</a>
         <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv/' %} class="is-active"{% endif %}>CV</a>
-        <a href="{{ '/publications/' | relative_url }}"{% if page.url contains '/publications/' %} class="is-active"{% endif %}>Publications</a>
-        <a href="{{ '/talks/' | relative_url }}"{% if page.url contains '/talks/' %} class="is-active"{% endif %}>Conference</a>
-        <a href="{{ '/field-sites/' | relative_url }}"{% if page.url contains '/field-sites/' %} class="is-active"{% endif %}>Field Sites</a>
-        <a href="{{ '/notes/' | relative_url }}"{% if page.url contains '/notes/' %} class="is-active"{% endif %}>Notes</a>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Switch color theme" data-theme-toggle>
         <svg class="theme-toggle__icon theme-toggle__icon--moon" viewBox="0 0 24 24" aria-hidden="true">
@@ -59,7 +59,7 @@
     </header>
 
     <div class="site">
-      {% include sidebar.html %}
+      {% unless page.body_class contains "page-cv" %}{% include sidebar.html %}{% endunless %}
       <main class="content">
         {{ content }}
       </main>
@@ -107,6 +107,28 @@
           var current = document.documentElement.getAttribute('data-theme') || 'light';
           setTheme(current === 'dark' ? 'light' : 'dark');
         });
+      })();
+
+      (function() {
+        if (!document.body.classList.contains('page-home')) return;
+        var links = Array.from(document.querySelectorAll('[data-section-link]'));
+        var sections = Array.from(document.querySelectorAll('[data-home-section]'));
+        if (!links.length || !sections.length) return;
+
+        function setActive(id) {
+          links.forEach(function(link) {
+            link.classList.toggle('is-active', link.getAttribute('data-section-link') === id);
+          });
+        }
+
+        var observer = new IntersectionObserver(function(entries) {
+          var visible = entries.filter(function(entry) { return entry.isIntersecting; });
+          if (!visible.length) return;
+          visible.sort(function(a, b) { return b.intersectionRatio - a.intersectionRatio; });
+          setActive(visible[0].target.id);
+        }, { rootMargin: '-20% 0px -65% 0px', threshold: [0, 0.1, 0.3] });
+
+        sections.forEach(function(section) { observer.observe(section); });
       })();
     </script>
   </body>

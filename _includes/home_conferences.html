@@ -1,0 +1,31 @@
+<section class="home-section" id="conferences" data-home-section>
+  <h2>Conferences</h2>
+  {% assign pub_lang = "en" %}
+  {% for section in site.data.publications.sections %}
+    {% assign section_title = section.title.en %}
+    {% if section_title == "Conference Presentations" %}
+      {% assign conference_types = "International conference presentation,Domestic conference presentation" | split: "," %}
+      {% for conference_type in conference_types %}
+        <h3 class="home-conference-group-title">{% if conference_type contains "International" %}International{% else %}Domestic{% endif %}</h3>
+        <div class="talk-list">
+          {% for item in section.entries %}
+            {% assign item_venue = item.venue[pub_lang] | default: item.venue.en %}
+            {% if item_venue contains conference_type %}
+              {% assign item_title = item.title[pub_lang] | default: item.title.en %}
+              {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
+              {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
+              <article class="talk">
+                <div class="talk__year">{{ item.year }}</div>
+                <div class="talk__body">
+                  <h3 class="talk__title">{{ item_title }}</h3>
+                  <p class="talk__venue">{{ item_venue }}{% if item_pdf %} <a class="talk__pdf-link" href="{{ item_pdf | relative_url }}" aria-label="Open presentation PDF for {{ item_title }}">PDF</a>{% endif %}</p>
+                  <p class="talk__authors">{{ item_authors }}</p>
+                </div>
+              </article>
+            {% endif %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</section>
