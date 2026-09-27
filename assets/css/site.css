@@ -472,7 +472,7 @@ strong {
   margin-top: 0;
 }
 
-.keyword-chips--outline span {
+.research-keyword-group .keyword-chips--outline span {
   min-height: 0;
   padding: 2px 8px;
   border-color: #fca5a5;
