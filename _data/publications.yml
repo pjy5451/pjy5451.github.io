@@ -350,6 +350,8 @@ sections:
     - Sensor
     - IoT
     - Event
+    thumbnail: /images/publications/2020-bleseis-vibration-classification.png
+    thumbnail_alt: BLESeis acceleration signals and STA/LTA responses for random, structural, and earthquake vibrations
     title:
       en: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
       ko: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
