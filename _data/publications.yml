@@ -233,6 +233,8 @@ sections:
     - Bridge
     - Data
     - SHM
+    thumbnail: /images/publications/2021-reference-free-bridge-displacement-sensor.png
+    thumbnail_alt: Multimetric bridge sensing boards with strain gauge inputs, accelerometer, Wheatstone bridge, radio, and microcontroller
     title:
       en: Development of a Reference-Free Indirect Bridge Displacement Sensing System
       ko: Development of a Reference-Free Indirect Bridge Displacement Sensing System
@@ -320,6 +322,8 @@ sections:
     - Bridge
     - IoT
     - Cloud
+    thumbnail: /images/publications/2021-iot-cloud-bridge-displacement.png
+    thumbnail_alt: Cloud data acquisition and multimetric bridge displacement estimation database architecture
     title:
       en: Development of Low-Power IoT Sensor and Cloud-Based Data Fusion Displacement Estimation Method for Ambient Bridge
         Monitoring
