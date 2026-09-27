@@ -6,9 +6,8 @@ sections:
   - year: '2026'
     selected: true
     tags:
-    - Bridge
-    - Sensor
-    - Load Test
+    - Structural Health Monitoring
+    - Wireless Sensing
     title:
       en: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
       ko: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
@@ -30,9 +29,8 @@ sections:
       ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
   - year: '2026'
     tags:
-    - WIM
-    - AI
-    - Data
+    - Weigh-in-Motion
+    - Machine Learning
     title:
       en: Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety
       ko: 화물 운송 안전을 위한 WIM 운영 데이터 기반 하이브리드 LLM 질의응답에서 클라우드 및 로컬 모델의 성능 비교
@@ -44,9 +42,7 @@ sections:
       ko: 대한토목학회논문집 (심사 중)
   - year: '2026'
     tags:
-    - WIM
-    - Data
-    - Transport
+    - Weigh-in-Motion
     title:
       en: Analysis of Freight Vehicle Operation Restriction Violations and Improvement of the Enforcement System Based on Real-World Road Data
       ko: 실도로 데이터 기반 화물차 운행제한 위반 분석 및 단속 체계 개선
@@ -58,9 +54,7 @@ sections:
       ko: 한국ITS학회논문지 (심사 중)
   - year: '2026'
     tags:
-    - Sensor
-    - Strain
-    - Digital Twin
+    - Structural Health Monitoring
     title:
       en: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
       ko: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
@@ -72,9 +66,8 @@ sections:
       ko: Journal of Civil Structural Health Monitoring (심사 중)
   - year: '2026'
     tags:
-    - WIM
-    - AI
-    - Signal
+    - Weigh-in-Motion
+    - Machine Learning
     title:
       en: Fault-Tolerant Reconstruction of Multi-Channel Weigh-in-Motion Signals Using Deep Learning
       ko: 딥러닝을 활용한 다채널 WIM 신호의 결함 허용 복원
@@ -86,9 +79,8 @@ sections:
       ko: 투고 준비 중; 목표 저널, IEEE Transactions on Instrumentation and Measurement
   - year: '2026'
     tags:
-    - WIM
-    - AI
-    - Data
+    - Weigh-in-Motion
+    - Machine Learning
     title:
       en: YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems
       ko: YOLO 기반 고속축중기 하중 구간 자동 검출 기법
@@ -116,9 +108,9 @@ sections:
   - year: '2024'
     selected: true
     tags:
-    - Port
-    - AI
-    - IoT
+    - Structural Health Monitoring
+    - Wireless Sensing
+    - Machine Learning
     title:
       en: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
       ko: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
@@ -147,9 +139,7 @@ sections:
     pdf: /assets/files/publications/2024-jmse-quay-wall-event-monitoring.pdf
   - year: '2024'
     tags:
-    - WIM
-    - OBM
-    - Signal
+    - Weigh-in-Motion
     title:
       en: Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving
       ko: 주행 중 트럭의 동적 상태 정보 측정 시스템 안정성 확보
@@ -171,9 +161,8 @@ sections:
       ko: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
   - year: '2023'
     tags:
-    - Bridge
-    - AI
-    - SHM
+    - Structural Health Monitoring
+    - Machine Learning
     title:
       en: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
       ko: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
@@ -199,9 +188,8 @@ sections:
   - year: '2023'
     selected: true
     tags:
-    - Precast
-    - IoT
-    - Sensor
+    - Structural Health Monitoring
+    - Wireless Sensing
     title:
       en: Monitoring Precast Structures During Transportation Using a Portable Sensing System
       ko: Monitoring Precast Structures During Transportation Using a Portable Sensing System
@@ -230,9 +218,7 @@ sections:
     pdf: /assets/files/publications/2023-automation-precast-transportation-monitoring.pdf
   - year: '2021'
     tags:
-    - Bridge
-    - Data
-    - SHM
+    - Structural Health Monitoring
     thumbnail: /images/publications/2021-reference-free-bridge-displacement-sensor.png
     thumbnail_alt: Multimetric bridge sensing boards with strain gauge inputs, accelerometer, Wheatstone bridge, radio, and microcontroller
     title:
@@ -263,9 +249,7 @@ sections:
     pdf: /assets/files/publications/2021-sensors-reference-free-bridge-displacement.pdf
   - year: '2021'
     tags:
-    - Sensor
-    - Concrete
-    - Material
+    - Wireless Sensing
     title:
       en: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
       ko: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
@@ -290,9 +274,7 @@ sections:
     pdf: /assets/files/publications/2021-sensors-smart-uhpc-wireless-sensing.pdf
   - year: '2021'
     tags:
-    - Sensor
-    - Low Power
-    - SHM
+    - Structural Health Monitoring
     thumbnail: /images/publications/2021-ssvm-prototype.png
     thumbnail_alt: SSVM prototype hardware, strain sensing circuit, and electronic-paper QR code display
     title:
@@ -319,9 +301,8 @@ sections:
     pdf: /assets/files/publications/2021-sensors-ssvm-strain-sensing-module.pdf
   - year: '2021'
     tags:
-    - Bridge
-    - IoT
-    - Cloud
+    - Structural Health Monitoring
+    - Wireless Sensing
     thumbnail: /images/publications/2021-iot-cloud-bridge-displacement.png
     thumbnail_alt: Cloud data acquisition and multimetric bridge displacement estimation database architecture
     title:
@@ -353,9 +334,7 @@ sections:
     pdf: /assets/files/publications/2021-coseik-iot-cloud-bridge-displacement.pdf
   - year: '2020'
     tags:
-    - Sensor
-    - IoT
-    - Event
+    - Wireless Sensing
     thumbnail: /images/publications/2020-bleseis-vibration-classification.png
     thumbnail_alt: BLESeis acceleration signals and STA/LTA responses for random, structural, and earthquake vibrations
     title:
@@ -386,9 +365,8 @@ sections:
   entries:
   - year: '2021'
     tags:
-    - Bridge
-    - IoT
-    - Cloud
+    - Structural Health Monitoring
+    - Wireless Sensing
     title:
       en: IoT Sensor and Cloud-Computing-Based Continuous Bridge Displacement Monitoring System Capable of Acceleration and
         Strain Sensing
@@ -419,9 +397,8 @@ sections:
   entries:
   - year: '2022'
     tags:
-    - Bridge
-    - Cloud
-    - IoT
+    - Structural Health Monitoring
+    - Wireless Sensing
     title:
       en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
       ko: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
@@ -450,9 +427,11 @@ sections:
     pdf: /assets/files/publications/2022-arxiv-iot-sensor-cloud-bridge-monitoring.pdf
   - year: '2022'
     tags:
-    - Port
-    - AI
-    - Cloud
+    - Structural Health Monitoring
+    - Wireless Sensing
+    - Machine Learning
+    thumbnail: /images/publications/2022-port-wireless-smart-sensor.png
+    thumbnail_alt: Wireless port monitoring hardware with field acceleration events and AI-based vessel detection
     title:
       en: Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring
       ko: Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring

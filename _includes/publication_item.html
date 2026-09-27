@@ -56,9 +56,9 @@
       <div class="publication-card__tags" aria-label="Research keywords">
         {% for tag in item.tags %}
           {% assign tag_lower = tag | downcase %}{% assign tag_tone = "blue" %}
-          {% if tag_lower contains "wim" or tag_lower contains "obm" or tag_lower contains "transport" %}{% assign tag_tone = "orange" %}
-          {% elsif tag_lower contains "ai" or tag_lower contains "data" or tag_lower contains "signal" %}{% assign tag_tone = "violet" %}
-          {% elsif tag_lower contains "iot" or tag_lower contains "sensor" %}{% assign tag_tone = "teal" %}
+          {% if tag_lower contains "weigh-in-motion" or tag_lower contains "wim" or tag_lower contains "obm" or tag_lower contains "transport" %}{% assign tag_tone = "orange" %}
+          {% elsif tag_lower contains "machine learning" or tag_lower contains "ai" or tag_lower contains "data" or tag_lower contains "signal" %}{% assign tag_tone = "violet" %}
+          {% elsif tag_lower contains "wireless sensing" or tag_lower contains "iot" or tag_lower contains "sensor" %}{% assign tag_tone = "teal" %}
           {% elsif tag_lower contains "precast" or tag_lower contains "concrete" %}{% assign tag_tone = "green" %}
           {% elsif tag_lower contains "port" or tag_lower contains "quay" %}{% assign tag_tone = "cyan" %}{% endif %}
           <span class="publication-card__tag publication-card__tag--{{ tag_tone }}">{{ tag }}</span>

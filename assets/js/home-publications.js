@@ -16,15 +16,13 @@
   var activeTopic = 'all';
   var patentsExpanded = false;
   var topicTerms = {
-    bridge: ['bridge', 'shm', 'load test'],
-    transport: ['wim', 'obm', 'transport'],
-    sensing: ['iot', 'sensor', 'cloud', 'low power'],
-    data: ['ai', 'data', 'signal', 'machine learning', 'deep learning'],
-    precast: ['precast'],
-    port: ['port', 'quay']
+    shm: ['structural health monitoring'],
+    wireless: ['wireless sensing'],
+    wim: ['weigh-in-motion'],
+    ml: ['machine learning']
   };
   var scopeLabels = { all: 'Show all', selected: 'Selected', first: 'First-author' };
-  var topicLabels = { bridge: 'Bridge / SHM', transport: 'WIM / OBM', sensing: 'IoT / Sensing', data: 'AI / Data', precast: 'Precast', port: 'Port' };
+  var topicLabels = { shm: 'Structural Health Monitoring', wireless: 'Wireless Sensing', wim: 'Weigh-in-Motion', ml: 'Machine Learning' };
 
   function matchesScope(item) {
     if (activeScope === 'selected') return item.getAttribute('data-pub-selected') === 'true';

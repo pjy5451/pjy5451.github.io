@@ -27,12 +27,10 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
   </label>
   <div class="publication-keywords">
     <span class="publication-keywords__label">Keywords</span>
-    <button class="publication-keyword publication-keyword--blue" type="button" data-pub-topic="bridge" aria-pressed="false">Bridge / SHM</button>
-    <button class="publication-keyword publication-keyword--orange" type="button" data-pub-topic="transport" aria-pressed="false">WIM / OBM</button>
-    <button class="publication-keyword publication-keyword--teal" type="button" data-pub-topic="sensing" aria-pressed="false">IoT / Sensing</button>
-    <button class="publication-keyword publication-keyword--violet" type="button" data-pub-topic="data" aria-pressed="false">AI / Data</button>
-    <button class="publication-keyword publication-keyword--green" type="button" data-pub-topic="precast" aria-pressed="false">Precast</button>
-    <button class="publication-keyword publication-keyword--cyan" type="button" data-pub-topic="port" aria-pressed="false">Port</button>
+    <button class="publication-keyword publication-keyword--blue" type="button" data-pub-topic="shm" aria-pressed="false">Structural Health Monitoring</button>
+    <button class="publication-keyword publication-keyword--teal" type="button" data-pub-topic="wireless" aria-pressed="false">Wireless Sensing</button>
+    <button class="publication-keyword publication-keyword--orange" type="button" data-pub-topic="wim" aria-pressed="false">Weigh-in-Motion</button>
+    <button class="publication-keyword publication-keyword--violet" type="button" data-pub-topic="ml" aria-pressed="false">Machine Learning</button>
   </div>
   <p class="publication-filter-status" aria-live="polite" data-pub-filter-status></p>
 </div>
@@ -83,12 +81,13 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     var activeTopic = 'all';
     var patentsExpanded = false;
     var topicTerms = {
-      bridge: ['bridge', 'shm', 'load test'], transport: ['wim', 'obm', 'transport'],
-      sensing: ['iot', 'sensor', 'cloud', 'low power'], data: ['ai', 'data', 'signal', 'machine learning', 'deep learning'],
-      precast: ['precast'], port: ['port', 'quay']
+      shm: ['structural health monitoring'],
+      wireless: ['wireless sensing'],
+      wim: ['weigh-in-motion'],
+      ml: ['machine learning']
     };
     var scopeLabels = { all: 'Show all', selected: 'Selected', first: 'First-author' };
-    var topicLabels = { bridge: 'Bridge / SHM', transport: 'WIM / OBM', sensing: 'IoT / Sensing', data: 'AI / Data', precast: 'Precast', port: 'Port' };
+    var topicLabels = { shm: 'Structural Health Monitoring', wireless: 'Wireless Sensing', wim: 'Weigh-in-Motion', ml: 'Machine Learning' };
     function matchesScope(item) {
       if (activeScope === 'selected') return item.getAttribute('data-pub-selected') === 'true';
       if (activeScope === 'first') return item.getAttribute('data-pub-first-author') === 'true';
