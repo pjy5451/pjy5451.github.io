@@ -35,7 +35,7 @@
             </div>
             <div class="project-index-card__body">
               <p class="project-index-card__group">{{ group.title }}</p>
-              <h3><a href="{{ project.href | relative_url }}">{{ project.title }}</a></h3>
+              <h3>{{ project.title }}</h3>
               <p class="project-index-card__summary">{{ project.summary }}</p>
               <div class="publication-card__tags" aria-label="Project keywords">
                 {% for tag in project.tags %}
@@ -48,7 +48,6 @@
                 {% endfor %}
                 {% for tag in project.detail_tags %}<span class="publication-card__tag publication-card__tag--detail">{{ tag }}</span>{% endfor %}
               </div>
-              <a class="project-index-card__action" href="{{ project.href | relative_url }}">View project <span aria-hidden="true">→</span></a>
             </div>
           </article>
         {% endunless %}
