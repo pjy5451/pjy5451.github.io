@@ -168,6 +168,8 @@ sections:
     tags:
     - Structural Health Monitoring
     - Machine Learning
+    detail_tags:
+    - Surrogate Modeling
     thumbnail: /images/publications/2023-tendon-stress-surrogate-workflow.png
     thumbnail_alt: Workflow for training and selecting a machine-learning model for tendon stress estimation from strain measurements
     title:
@@ -346,6 +348,8 @@ sections:
     selected: true
     tags:
     - Wireless Sensing
+    detail_tags:
+    - Seismic Analysis
     thumbnail: /images/publications/2020-bleseis-vibration-classification.png
     thumbnail_alt: BLESeis acceleration signals and STA/LTA responses for random, structural, and earthquake vibrations
     title:

@@ -1632,6 +1632,12 @@ span.pub__title {
 .publication-card__tag--green { --tag-text: #278449; --tag-bg: #ebf8ef; --tag-border: #b8dfc3; }
 .publication-keyword--cyan,
 .publication-card__tag--cyan { --tag-text: #08729a; --tag-bg: #e9f7fc; --tag-border: #adddeb; }
+.publication-card__tag--detail {
+  --tag-text: var(--muted);
+  --tag-bg: transparent;
+  --tag-border: color-mix(in srgb, var(--muted) 38%, var(--line));
+  font-weight: 650;
+}
 
 .publication-filter-status {
   margin: 7px 0 0;

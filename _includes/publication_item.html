@@ -17,7 +17,7 @@
 {% assign author_start = author_plain | slice: 0, 13 %}
 {% assign is_first_author = false %}
 {% if author_start == "Junyoung Park" %}{% assign is_first_author = true %}{% endif %}
-{% capture item_search %}{{ item_title }} {{ author_plain }} {{ item_venue }} {{ item.year }} {{ item.tags | join: " " }}{% endcapture %}
+{% capture item_search %}{{ item_title }} {{ author_plain }} {{ item_venue }} {{ item.year }} {{ item.tags | join: " " }} {{ item.detail_tags | join: " " }}{% endcapture %}
 {% assign item_status = "Published" %}
 {% assign item_venue_display = item_venue %}
 {% if include.kind == "patent" %}
@@ -63,6 +63,9 @@
           {% elsif tag_lower contains "precast" or tag_lower contains "concrete" %}{% assign tag_tone = "green" %}
           {% elsif tag_lower contains "port" or tag_lower contains "quay" %}{% assign tag_tone = "cyan" %}{% endif %}
           <span class="publication-card__tag publication-card__tag--{{ tag_tone }}">{{ tag }}</span>
+        {% endfor %}
+        {% for tag in item.detail_tags %}
+          <span class="publication-card__tag publication-card__tag--detail">{{ tag }}</span>
         {% endfor %}
       </div>
     {% endif %}
