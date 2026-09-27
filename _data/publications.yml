@@ -111,6 +111,8 @@ sections:
     - Structural Health Monitoring
     - Wireless Sensing
     - Machine Learning
+    thumbnail: /images/publications/2024-quay-wall-berthing-events.png
+    thumbnail_alt: Acceleration and distance measurements from twelve quay-wall berthing mooring and unberthing events
     title:
       en: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
       ko: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
