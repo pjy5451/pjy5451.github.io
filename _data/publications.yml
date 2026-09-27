@@ -163,6 +163,8 @@ sections:
     tags:
     - Structural Health Monitoring
     - Machine Learning
+    thumbnail: /images/publications/2023-tendon-stress-surrogate-framework.png
+    thumbnail_alt: Surrogate-model framework linking finite-element tendon stress and girder strain data to machine-learning estimation
     title:
       en: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
       ko: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
