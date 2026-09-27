@@ -4,6 +4,7 @@ sections:
     ko: Journal Articles
   entries:
   - year: '2026'
+    selected: true
     tags:
     - Bridge
     - Sensor
@@ -113,6 +114,7 @@ sections:
       ko: https://kscejournal.or.kr/jksce/XmlViewer/f450650
     pdf: /assets/files/publications/2026-ksce-yolo-wim-load-segment-detection.pdf
   - year: '2024'
+    selected: true
     tags:
     - Port
     - AI
@@ -195,6 +197,7 @@ sections:
       ko: https://www.mdpi.com/1424-8220/23/11/5040
     pdf: /assets/files/publications/2023-sensors-tendon-stress-surrogate-model.pdf
   - year: '2023'
+    selected: true
     tags:
     - Precast
     - IoT

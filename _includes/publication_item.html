@@ -2,58 +2,65 @@
 {% assign pub_lang = include.pub_lang | default: "en" %}
 {% assign item_title = item.title[pub_lang] | default: item.title.en %}
 {% assign item_href = "" %}
-{% if item.href %}
-  {% assign item_href = item.href[pub_lang] | default: item.href.en %}
-{% endif %}
+{% if item.href %}{% assign item_href = item.href[pub_lang] | default: item.href.en %}{% endif %}
 {% assign item_pdf = "" %}
-{% if item.pdf %}
-  {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
-{% endif %}
+{% if item.pdf %}{% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}{% endif %}
 {% assign item_authors = item.authors[pub_lang] | default: item.authors.en | default: "" %}
 {% assign item_venue = item.venue[pub_lang] | default: item.venue.en | default: "" %}
+{% assign venue_lower = item_venue | downcase %}
 {% assign item_tags = item.tags | join: "|" | downcase %}
-{% capture item_search %}{{ item_title }} {{ item_authors | strip_html }} {{ item_venue }} {{ item.year }} {{ item.tags | join: " " }}{% endcapture %}
+{% assign author_plain = item_authors | strip_html | strip %}
+{% assign author_start = author_plain | slice: 0, 13 %}
+{% assign is_first_author = false %}
+{% if author_start == "Junyoung Park" %}{% assign is_first_author = true %}{% endif %}
+{% capture item_search %}{{ item_title }} {{ author_plain }} {{ item_venue }} {{ item.year }} {{ item.tags | join: " " }}{% endcapture %}
+{% assign item_status = "Published" %}
+{% if include.kind == "patent" %}
+  {% if venue_lower contains "registered" %}{% assign item_status = "Registered" %}
+  {% elsif venue_lower contains "preparation" %}{% assign item_status = "In preparation" %}
+  {% else %}{% assign item_status = "Application" %}{% endif %}
+{% elsif venue_lower contains "under review" %}{% assign item_status = "Under review" %}
+{% elsif venue_lower contains "preparation" %}{% assign item_status = "In preparation" %}
+{% endif %}
 
-<article class="pub" data-pub-item data-pub-kind="{{ include.kind | default: 'article' }}" data-pub-tags="{{ item_tags | escape }}" data-pub-search="{{ item_search | strip_newlines | downcase | escape }}">
-  {% if item_href != "" %}
-    <a class="pub__title" href="{{ item_href }}">{{ item_title }}</a>
-  {% else %}
-    <span class="pub__title">{{ item_title }}</span>
-  {% endif %}
-  {% unless include.hide_authors %}
-    <p class="pub__authors">{{ item_authors }}</p>
-  {% endunless %}
-  <p class="pub__venue">
-    <em>{{ item_venue }}</em>{% unless include.hide_year %}, {{ item.year }}{% endunless %}
+<article class="publication-card{% if item.selected %} is-selected{% endif %}"
+  data-pub-item data-pub-kind="{{ include.kind | default: 'article' }}"
+  data-pub-selected="{% if item.selected %}true{% else %}false{% endif %}"
+  data-pub-first-author="{{ is_first_author }}"
+  data-pub-tags="{{ item_tags | escape }}"
+  data-pub-search="{{ item_search | strip_newlines | downcase | escape }}">
+  <div class="publication-card__media">
+    {% if item.thumbnail %}
+      <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.thumbnail_alt | default: item_title | escape }}" loading="lazy">
+    {% else %}
+      <span class="publication-card__status">{{ item_status }}</span>
+    {% endif %}
+  </div>
+  <div class="publication-card__body">
+    <p class="publication-card__meta"><span>{{ item_venue | replace: " (under review)", "" }}</span><span aria-hidden="true">&middot;</span><span>{{ item.year }}</span></p>
+    <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
+    <p class="publication-card__authors">{{ item_authors }}</p>
+    {% if item.tags %}
+      <div class="publication-card__tags" aria-label="Research keywords">
+        {% for tag in item.tags %}
+          {% assign tag_lower = tag | downcase %}{% assign tag_tone = "blue" %}
+          {% if tag_lower contains "wim" or tag_lower contains "obm" or tag_lower contains "transport" %}{% assign tag_tone = "orange" %}
+          {% elsif tag_lower contains "ai" or tag_lower contains "data" or tag_lower contains "signal" %}{% assign tag_tone = "violet" %}
+          {% elsif tag_lower contains "iot" or tag_lower contains "sensor" %}{% assign tag_tone = "teal" %}
+          {% elsif tag_lower contains "precast" or tag_lower contains "concrete" %}{% assign tag_tone = "green" %}
+          {% elsif tag_lower contains "port" or tag_lower contains "quay" %}{% assign tag_tone = "cyan" %}{% endif %}
+          <span class="publication-card__tag publication-card__tag--{{ tag_tone }}">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
     {% if item_pdf != "" %}
-      {% if item_pdf contains "://" %}
-        {% assign pdf_href = item_pdf %}
-      {% else %}
-        {% assign pdf_href = item_pdf | relative_url %}
-      {% endif %}
-      <a class="pub__pdf-link" href="{{ pdf_href }}" aria-label="Open PDF for {{ item_title }}">PDF</a>
+      {% if item_pdf contains "://" %}{% assign pdf_href = item_pdf %}{% else %}{% assign pdf_href = item_pdf | relative_url %}{% endif %}
+      <div class="publication-card__actions">
+        <a class="publication-card__paper" href="{{ pdf_href }}" aria-label="Open {% if include.kind == 'patent' %}patent{% else %}paper{% endif %} PDF for {{ item_title }}">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"></path><path d="M15 3v4h4M9 12h6M9 16h6"></path></svg>
+          {% if include.kind == "patent" %}Patent{% else %}Paper{% endif %}
+        </a>
+      </div>
     {% endif %}
-  </p>
-  {% if item.actions %}
-    {% assign actions = item.actions[pub_lang] | default: item.actions.en %}
-    {% assign has_visible_action = false %}
-    {% for action in actions %}
-      {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label == "Patent Application" or action.label == "Registered Patent" or action.label contains "Cited by" %}
-        {% assign has_visible_action = true %}
-      {% endunless %}
-    {% endfor %}
-    {% if has_visible_action %}
-    <p class="pub__links">
-      {% for action in actions %}
-        {% unless action.label == "Source Document" or action.label == "Project" or action.label == "Scholar" or action.label == "SSRN" or action.label == "Preprint" or action.label == "Conference" or action.label == "In Progress" or action.label == "Patent Application" or action.label == "Registered Patent" or action.label contains "Cited by" %}
-          {% if action.href %}
-            <a href="{{ action.href }}">{{ action.label }}</a>
-          {% else %}
-            <span>{{ action.label }}</span>
-          {% endif %}
-        {% endunless %}
-      {% endfor %}
-    </p>
-    {% endif %}
-  {% endif %}
+  </div>
 </article>

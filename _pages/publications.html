@@ -2,139 +2,137 @@
 layout: default
 permalink: /publications/
 title: "Publications"
+body_class: "page-publications"
 description: "Journal articles, preprints, patents, and research outputs by Junyoung Park on structural monitoring, IoT sensing, WIM/OBM, and infrastructure data systems."
 ---
 
-<h1>Publications</h1>
-
 {% assign pub_lang = "en" %}
 
-<div class="pub-toolbar" data-pub-toolbar>
-  <label class="pub-search" for="publication-search">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
-    <input id="publication-search" type="search" placeholder="Search title, author, venue, or year" autocomplete="off" data-pub-search-input>
-  </label>
-  <div class="pub-topic-filters" role="group" aria-label="Filter publications by research topic">
-    <button class="pub-topic-filter is-active" type="button" data-pub-filter="all" aria-pressed="true">All</button>
-    <button class="pub-topic-filter" type="button" data-pub-filter="bridge" aria-pressed="false">Bridge</button>
-    <button class="pub-topic-filter" type="button" data-pub-filter="transport" aria-pressed="false">WIM / OBM</button>
-    <button class="pub-topic-filter" type="button" data-pub-filter="sensing" aria-pressed="false">IoT / Sensing</button>
-    <button class="pub-topic-filter" type="button" data-pub-filter="data" aria-pressed="false">AI / Data</button>
+<header class="publication-heading">
+  <h1 class="publication-heading__title">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5.5A3.5 3.5 0 0 1 7.5 2H11v18H7.5A3.5 3.5 0 0 0 4 23z"></path><path d="M20 5.5A3.5 3.5 0 0 0 16.5 2H13v18h3.5A3.5 3.5 0 0 1 20 23z"></path></svg>
+    Publications
+  </h1>
+  <div class="publication-scope" role="group" aria-label="Filter publications by authorship">
+    <button class="publication-scope__button is-active" type="button" data-pub-scope="all" aria-pressed="true">Show all</button>
+    <button class="publication-scope__button" type="button" data-pub-scope="selected" aria-pressed="false">Selected</button>
+    <button class="publication-scope__button" type="button" data-pub-scope="first" aria-pressed="false">First-author</button>
   </div>
-  <p class="pub-result-count" aria-live="polite" data-pub-result-count></p>
+</header>
+
+<div class="publication-toolbar">
+  <label class="publication-search" for="publication-search">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+    <input id="publication-search" type="search" placeholder="Search title, author, venue, keyword..." autocomplete="off" data-pub-search-input>
+  </label>
+  <div class="publication-keywords">
+    <span class="publication-keywords__label">Keywords</span>
+    <button class="publication-keyword publication-keyword--blue" type="button" data-pub-topic="bridge" aria-pressed="false">Bridge / SHM</button>
+    <button class="publication-keyword publication-keyword--orange" type="button" data-pub-topic="transport" aria-pressed="false">WIM / OBM</button>
+    <button class="publication-keyword publication-keyword--teal" type="button" data-pub-topic="sensing" aria-pressed="false">IoT / Sensing</button>
+    <button class="publication-keyword publication-keyword--violet" type="button" data-pub-topic="data" aria-pressed="false">AI / Data</button>
+    <button class="publication-keyword publication-keyword--green" type="button" data-pub-topic="precast" aria-pressed="false">Precast</button>
+    <button class="publication-keyword publication-keyword--cyan" type="button" data-pub-topic="port" aria-pressed="false">Port</button>
+  </div>
+  <p class="publication-filter-status" aria-live="polite" data-pub-filter-status></p>
 </div>
 
-<section class="pub-section" data-pub-section>
+<section class="publication-section" data-pub-section>
   <h2>Articles</h2>
-  {% assign article_years = "2026,2024,2023,2022,2021,2020" | split: "," %}
-  {% assign article_sections = "Journal Articles,Preprints,Technical Articles" | split: "," %}
-  {% for article_year in article_years %}
-    <div class="pub-year-group" data-pub-year-group>
-      <h3 class="pub-year-heading">{{ article_year }}</h3>
-      <div class="pub-year-list">
-        {% for article_section in article_sections %}
-          {% for section in site.data.publications.sections %}
-            {% assign section_title = section.title.en %}
-            {% if section_title == article_section %}
-              {% for item in section.entries %}
-                {% if item.year == article_year %}
-                  {% include publication_item.html item=item pub_lang=pub_lang kind="article" hide_year=true %}
-                {% endif %}
-              {% endfor %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
+  <div class="publication-card-list">
+    {% assign article_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
+    {% assign article_sections = "Journal Articles,Preprints,Technical Articles" | split: "," %}
+    {% for article_year in article_years %}{% for article_section in article_sections %}{% for section in site.data.publications.sections %}
+      {% assign section_title = section.title.en %}
+      {% if section_title == article_section %}{% for item in section.entries %}{% if item.year == article_year %}
+        {% include publication_item.html item=item pub_lang=pub_lang kind="article" %}
+      {% endif %}{% endfor %}{% endif %}
+    {% endfor %}{% endfor %}{% endfor %}
+  </div>
 </section>
 
-<section class="pub-section" data-pub-section>
-  {% for section in site.data.publications.sections %}
-    {% assign section_title = section.title.en %}
-    {% if section_title == "Patents" %}
-      <h2 id="patents">Patents</h2>
-      {% assign patent_years = "2026,2025,2024,2023,2022" | split: "," %}
-      {% for patent_year in patent_years %}
-        <div class="pub-year-group" data-pub-year-group>
-          <h3 class="pub-year-heading">{{ patent_year }}</h3>
-          <div class="pub-year-list">
-            {% for item in section.entries %}
-              {% if item.year == patent_year %}
-                {% include publication_item.html item=item pub_lang=pub_lang kind="patent" hide_year=true %}
-              {% endif %}
-            {% endfor %}
-          </div>
-        </div>
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
+<section class="publication-section" data-pub-section>
+  <h2 id="patents">Patents</h2>
+  <div class="publication-card-list">
+    {% assign patent_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
+    {% for section in site.data.publications.sections %}{% assign section_title = section.title.en %}{% if section_title == "Patents" %}
+      {% for patent_year in patent_years %}{% for item in section.entries %}{% if item.year == patent_year %}
+        {% include publication_item.html item=item pub_lang=pub_lang kind="patent" %}
+      {% endif %}{% endfor %}{% endfor %}
+    {% endif %}{% endfor %}
+  </div>
 </section>
 
-<p class="pub-empty" data-pub-empty hidden>No publications match this search and filter.</p>
+<p class="publication-empty" data-pub-empty hidden>No records match this search and filter.</p>
 
 <script>
   (function() {
     var input = document.querySelector('[data-pub-search-input]');
-    var filters = document.querySelectorAll('[data-pub-filter]');
+    var scopeButtons = document.querySelectorAll('[data-pub-scope]');
+    var topicButtons = document.querySelectorAll('[data-pub-topic]');
     var items = document.querySelectorAll('[data-pub-item]');
-    var yearGroups = document.querySelectorAll('[data-pub-year-group]');
     var sections = document.querySelectorAll('[data-pub-section]');
-    var count = document.querySelector('[data-pub-result-count]');
+    var status = document.querySelector('[data-pub-filter-status]');
     var empty = document.querySelector('[data-pub-empty]');
-    if (!input || !filters.length || !items.length) return;
-
-    var activeFilter = 'all';
+    if (!input || !items.length) return;
+    var activeScope = 'all';
+    var activeTopic = 'all';
     var topicTerms = {
-      bridge: ['bridge', 'shm', 'load test'],
-      transport: ['wim', 'obm'],
-      sensing: ['iot', 'sensor', 'cloud', 'precast', 'concrete', 'low power', 'port', 'qr', 'event'],
-      data: ['ai', 'data', 'signal', 'machine learning', 'deep learning']
+      bridge: ['bridge', 'shm', 'load test'], transport: ['wim', 'obm', 'transport'],
+      sensing: ['iot', 'sensor', 'cloud', 'low power'], data: ['ai', 'data', 'signal', 'machine learning', 'deep learning'],
+      precast: ['precast'], port: ['port', 'quay']
     };
-
-    function matchesTopic(item) {
-      if (activeFilter === 'all') return true;
-      var tags = item.getAttribute('data-pub-tags') || '';
-      return topicTerms[activeFilter].some(function(term) {
-        return tags.indexOf(term) !== -1;
-      });
+    var scopeLabels = { all: 'Show all', selected: 'Selected', first: 'First-author' };
+    var topicLabels = { bridge: 'Bridge / SHM', transport: 'WIM / OBM', sensing: 'IoT / Sensing', data: 'AI / Data', precast: 'Precast', port: 'Port' };
+    function matchesScope(item) {
+      if (activeScope === 'selected') return item.getAttribute('data-pub-selected') === 'true';
+      if (activeScope === 'first') return item.getAttribute('data-pub-first-author') === 'true';
+      return true;
     }
-
+    function matchesTopic(item) {
+      if (activeTopic === 'all') return true;
+      var tags = item.getAttribute('data-pub-tags') || '';
+      return topicTerms[activeTopic].some(function(term) { return tags.indexOf(term) !== -1; });
+    }
     function update() {
       var query = input.value.trim().toLowerCase();
       var visibleCount = 0;
-
       items.forEach(function(item) {
         var searchText = item.getAttribute('data-pub-search') || '';
-        var visible = matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
+        var visible = matchesScope(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
         item.hidden = !visible;
         if (visible) visibleCount += 1;
       });
-
-      yearGroups.forEach(function(group) {
-        group.hidden = !group.querySelector('[data-pub-item]:not([hidden])');
-      });
-
-      sections.forEach(function(section) {
-        section.hidden = !section.querySelector('[data-pub-item]:not([hidden])');
-      });
-
-      if (count) count.textContent = 'Showing ' + visibleCount + ' of ' + items.length + ' records';
+      sections.forEach(function(section) { section.hidden = !section.querySelector('[data-pub-item]:not([hidden])'); });
+      var label = 'Filtering by: ' + scopeLabels[activeScope];
+      if (activeTopic !== 'all') label += ' + ' + topicLabels[activeTopic];
+      if (query) label += ' + search';
+      if (status) status.textContent = label + ' (' + visibleCount + ')';
       if (empty) empty.hidden = visibleCount !== 0;
     }
-
-    filters.forEach(function(button) {
+    scopeButtons.forEach(function(button) {
       button.addEventListener('click', function() {
-        activeFilter = button.getAttribute('data-pub-filter');
-        filters.forEach(function(filter) {
-          var isActive = filter === button;
-          filter.classList.toggle('is-active', isActive);
-          filter.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+        activeScope = button.getAttribute('data-pub-scope');
+        scopeButtons.forEach(function(candidate) {
+          var active = candidate === button;
+          candidate.classList.toggle('is-active', active);
+          candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
         });
         update();
       });
     });
-
+    topicButtons.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var topic = button.getAttribute('data-pub-topic');
+        activeTopic = activeTopic === topic ? 'all' : topic;
+        topicButtons.forEach(function(candidate) {
+          var active = candidate.getAttribute('data-pub-topic') === activeTopic;
+          candidate.classList.toggle('is-active', active);
+          candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
+        });
+        update();
+      });
+    });
     input.addEventListener('input', update);
     update();
   })();
