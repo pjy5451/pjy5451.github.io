@@ -195,6 +195,8 @@ sections:
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
+    thumbnail: /images/publications/2023-precast-support-conditions.png
+    thumbnail_alt: Finite-element strain distributions for GR transportation, TR transportation, and ideal precast support conditions
     title:
       en: Monitoring Precast Structures During Transportation Using a Portable Sensing System
       ko: Monitoring Precast Structures During Transportation Using a Portable Sensing System
