@@ -1258,6 +1258,25 @@ span.pub__title {
 .publication-section + .publication-section { margin-top: 34px; }
 .publication-section > h2 { margin: 0 0 10px; font-size: 1.18rem; }
 .publication-card-list { display: grid; gap: 12px; }
+.publication-patent-toggle {
+  display: block;
+  min-height: 36px;
+  margin: 12px auto 0;
+  padding: 5px 14px;
+  border: 1px solid color-mix(in srgb, var(--link) 55%, var(--line));
+  border-radius: 999px;
+  color: var(--link);
+  background: var(--button-bg);
+  font: inherit;
+  font-size: 0.78rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+.publication-patent-toggle:hover {
+  border-color: var(--link);
+  background: var(--system-soft);
+}
+.publication-patent-toggle[hidden] { display: none; }
 .publication-card {
   display: grid;
   grid-template-columns: 205px minmax(0, 1fr);

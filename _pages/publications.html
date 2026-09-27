@@ -61,6 +61,7 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
       {% endif %}{% endfor %}{% endfor %}
     {% endif %}{% endfor %}
   </div>
+  <button class="publication-patent-toggle" type="button" data-pub-expand-patents aria-expanded="false"></button>
 </section>
 
 <p class="publication-empty" data-pub-empty hidden>No records match this search and filter.</p>
@@ -74,9 +75,11 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     var sections = document.querySelectorAll('[data-pub-section]');
     var status = document.querySelector('[data-pub-filter-status]');
     var empty = document.querySelector('[data-pub-empty]');
+    var patentToggle = document.querySelector('[data-pub-expand-patents]');
     if (!input || !items.length) return;
     var activeScope = 'all';
     var activeTopic = 'all';
+    var patentsExpanded = false;
     var topicTerms = {
       bridge: ['bridge', 'shm', 'load test'], transport: ['wim', 'obm', 'transport'],
       sensing: ['iot', 'sensor', 'cloud', 'low power'], data: ['ai', 'data', 'signal', 'machine learning', 'deep learning'],
@@ -97,12 +100,26 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     function update() {
       var query = input.value.trim().toLowerCase();
       var visibleCount = 0;
+      var matchingPatentCount = 0;
+      var filteringActive = activeScope !== 'all' || activeTopic !== 'all' || query !== '';
       items.forEach(function(item) {
         var searchText = item.getAttribute('data-pub-search') || '';
-        var visible = matchesScope(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
-        item.hidden = !visible;
-        if (visible) visibleCount += 1;
+        var matches = matchesScope(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
+        var isPatent = item.getAttribute('data-pub-kind') === 'patent';
+        var hiddenByPatentLimit = false;
+        if (matches && isPatent) {
+          matchingPatentCount += 1;
+          hiddenByPatentLimit = !filteringActive && !patentsExpanded && matchingPatentCount > 3;
+        }
+        item.hidden = !matches || hiddenByPatentLimit;
+        if (matches) visibleCount += 1;
       });
+      if (patentToggle) {
+        var hiddenPatentCount = Math.max(0, matchingPatentCount - 3);
+        patentToggle.hidden = filteringActive || hiddenPatentCount === 0;
+        patentToggle.textContent = patentsExpanded ? 'Show fewer patents' : 'Show more patents (' + hiddenPatentCount + ')';
+        patentToggle.setAttribute('aria-expanded', patentsExpanded ? 'true' : 'false');
+      }
       sections.forEach(function(section) { section.hidden = !section.querySelector('[data-pub-item]:not([hidden])'); });
       var label = 'Filtering by: ' + scopeLabels[activeScope];
       if (activeTopic !== 'all') label += ' + ' + topicLabels[activeTopic];
@@ -134,6 +151,12 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
       });
     });
     input.addEventListener('input', update);
+    if (patentToggle) {
+      patentToggle.addEventListener('click', function() {
+        patentsExpanded = !patentsExpanded;
+        update();
+      });
+    }
     update();
   })();
 </script>
