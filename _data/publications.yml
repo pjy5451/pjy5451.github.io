@@ -291,6 +291,8 @@ sections:
     - Sensor
     - Low Power
     - SHM
+    thumbnail: /images/publications/2021-ssvm-prototype.png
+    thumbnail_alt: SSVM prototype hardware, strain sensing circuit, and electronic-paper QR code display
     title:
       en: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
       ko: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'

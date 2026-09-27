@@ -54,14 +54,16 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
 <section class="publication-section" data-pub-section>
   <h2 id="patents">Patents</h2>
   <div class="publication-card-list">
+    {% assign patent_count = 0 %}
     {% assign patent_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
     {% for section in site.data.publications.sections %}{% assign section_title = section.title.en %}{% if section_title == "Patents" %}
       {% for patent_year in patent_years %}{% for item in section.entries %}{% if item.year == patent_year %}
+        {% assign patent_count = patent_count | plus: 1 %}
         {% include publication_item.html item=item pub_lang=pub_lang kind="patent" %}
+        {% if patent_count == 2 %}<button class="publication-patent-toggle" type="button" data-pub-expand-patents aria-expanded="false"></button>{% endif %}
       {% endif %}{% endfor %}{% endfor %}
     {% endif %}{% endfor %}
   </div>
-  <button class="publication-patent-toggle" type="button" data-pub-expand-patents aria-expanded="false"></button>
 </section>
 
 <p class="publication-empty" data-pub-empty hidden>No records match this search and filter.</p>
@@ -117,7 +119,7 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
       if (patentToggle) {
         var hiddenPatentCount = Math.max(0, matchingPatentCount - 2);
         patentToggle.hidden = filteringActive || hiddenPatentCount === 0;
-        patentToggle.textContent = patentsExpanded ? 'Show fewer patents' : 'Show more patents (' + hiddenPatentCount + ')';
+        patentToggle.textContent = patentsExpanded ? '- Hide other patents' : '+ Show more patents (' + hiddenPatentCount + ')';
         patentToggle.setAttribute('aria-expanded', patentsExpanded ? 'true' : 'false');
       }
       sections.forEach(function(section) { section.hidden = !section.querySelector('[data-pub-item]:not([hidden])'); });

@@ -68,7 +68,7 @@
     if (!patentToggle) return;
     var hiddenPatentCount = Math.max(0, patentItems.length - 2);
     patentToggle.hidden = hiddenPatentCount === 0;
-    patentToggle.textContent = patentsExpanded ? 'Show fewer patents' : 'Show more patents (' + hiddenPatentCount + ')';
+    patentToggle.textContent = patentsExpanded ? '- Hide other patents' : '+ Show more patents (' + hiddenPatentCount + ')';
     patentToggle.setAttribute('aria-expanded', patentsExpanded ? 'true' : 'false');
   }
 
