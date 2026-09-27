@@ -453,11 +453,11 @@ strong {
   display: grid;
   grid-template-columns: 82px minmax(0, 1fr);
   gap: 10px;
-  align-items: start;
+  align-items: center;
 }
 
 .research-keyword-group__label {
-  padding-top: 7px;
+  padding-top: 0;
   color: var(--system);
   font-size: 0.74rem;
   font-weight: 800;
