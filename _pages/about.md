@@ -9,7 +9,7 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
 
 <div class="home-identity">
   <h1>Junyoung Park</h1>
-  <span class="home-seeking"><strong>Seeking</strong> PhD position starting Fall 2027</span>
+  <span class="home-seeking"><span aria-hidden="true">🔥</span><strong>Seeking PhD position starting Fall 2027</strong><span aria-hidden="true">🔥</span></span>
 </div>
 
 <p class="intro intro--lead"><strong>From field measurements to <span class="text-highlight text-highlight--system">principled inference</span> for infrastructure.</strong></p>
