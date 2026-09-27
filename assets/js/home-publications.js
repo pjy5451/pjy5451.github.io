@@ -13,7 +13,7 @@
 
   var activeScope = 'all';
   var activeRegion = 'international';
-  var activeTopics = [];
+  var activeTopic = 'all';
   var patentsExpanded = false;
   var topicTerms = {
     bridge: ['bridge', 'shm', 'load test'],
@@ -33,11 +33,9 @@
   }
 
   function matchesTopic(item) {
-    if (!activeTopics.length) return true;
+    if (activeTopic === 'all') return true;
     var tags = item.getAttribute('data-pub-tags') || '';
-    return activeTopics.some(function(topic) {
-      return topicTerms[topic].some(function(term) { return tags.indexOf(term) !== -1; });
-    });
+    return topicTerms[activeTopic].some(function(term) { return tags.indexOf(term) !== -1; });
   }
 
   function matchesRegion(item) {
@@ -57,7 +55,7 @@
       section.hidden = !section.querySelector('[data-pub-item]:not([hidden])');
     });
     var label = 'Filtering by: ' + (activeRegion === 'all' ? 'All venues' : activeRegion.charAt(0).toUpperCase() + activeRegion.slice(1)) + ' + ' + scopeLabels[activeScope];
-    if (activeTopics.length) label += ' + ' + activeTopics.map(function(topic) { return topicLabels[topic]; }).join(' / ');
+    if (activeTopic !== 'all') label += ' + ' + topicLabels[activeTopic];
     if (query) label += ' + search';
     if (status) status.textContent = label + ' (' + visibleCount + ')';
     if (empty) empty.hidden = visibleCount !== 0;
@@ -89,11 +87,12 @@
   topicButtons.forEach(function(button) {
     button.addEventListener('click', function() {
       var topic = button.getAttribute('data-pub-topic');
-      var index = activeTopics.indexOf(topic);
-      if (index === -1) activeTopics.push(topic);
-      else activeTopics.splice(index, 1);
-      button.classList.toggle('is-active', index === -1);
-      button.setAttribute('aria-pressed', index === -1 ? 'true' : 'false');
+      activeTopic = activeTopic === topic ? 'all' : topic;
+      topicButtons.forEach(function(candidate) {
+        var active = candidate.getAttribute('data-pub-topic') === activeTopic;
+        candidate.classList.toggle('is-active', active);
+        candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
       update();
     });
   });

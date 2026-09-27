@@ -6,7 +6,7 @@
   var empty = document.querySelector('[data-project-empty]');
   if (!input || !items.length) return;
 
-  var activeTopics = [];
+  var activeTopic = 'all';
   var topicTerms = {
     transport: ['wim', 'obm', 'vehicle sensing', 'dynamic weight'],
     bridge: ['bridge', 'load test', 'lifecycle'],
@@ -17,11 +17,9 @@
   };
 
   function matchesTopics(item) {
-    if (!activeTopics.length) return true;
+    if (activeTopic === 'all') return true;
     var tags = item.getAttribute('data-project-tags') || '';
-    return activeTopics.some(function(topic) {
-      return topicTerms[topic].some(function(term) { return tags.indexOf(term) !== -1; });
-    });
+    return topicTerms[activeTopic].some(function(term) { return tags.indexOf(term) !== -1; });
   }
 
   function update() {
@@ -33,9 +31,8 @@
       item.hidden = !visible;
       if (visible) visibleCount += 1;
     });
-    var label = activeTopics.length ? activeTopics.map(function(topic) {
-      return document.querySelector('[data-project-topic="' + topic + '"]').textContent;
-    }).join(' + ') : 'All projects';
+    var activeButton = document.querySelector('[data-project-topic="' + activeTopic + '"]');
+    var label = activeButton ? activeButton.textContent : 'All projects';
     if (query) label += ' + search';
     if (status) status.textContent = 'Filtering by: ' + label + ' (' + visibleCount + ')';
     if (empty) empty.hidden = visibleCount !== 0;
@@ -44,11 +41,12 @@
   buttons.forEach(function(button) {
     button.addEventListener('click', function() {
       var topic = button.getAttribute('data-project-topic');
-      var index = activeTopics.indexOf(topic);
-      if (index === -1) activeTopics.push(topic);
-      else activeTopics.splice(index, 1);
-      button.classList.toggle('is-active', index === -1);
-      button.setAttribute('aria-pressed', index === -1 ? 'true' : 'false');
+      activeTopic = activeTopic === topic ? 'all' : topic;
+      buttons.forEach(function(candidate) {
+        var active = candidate.getAttribute('data-project-topic') === activeTopic;
+        candidate.classList.toggle('is-active', active);
+        candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
       update();
     });
   });
