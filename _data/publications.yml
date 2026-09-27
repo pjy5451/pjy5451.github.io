@@ -166,7 +166,7 @@ sections:
     tags:
     - Structural Health Monitoring
     - Machine Learning
-    thumbnail: /images/publications/2023-tendon-stress-surrogate-framework.png
+    thumbnail: /images/publications/2023-tendon-stress-surrogate-framework-padded.png
     thumbnail_alt: Surrogate-model framework linking finite-element tendon stress and girder strain data to machine-learning estimation
     title:
       en: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
@@ -406,7 +406,7 @@ sections:
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
-    thumbnail: /images/publications/2022-bridge-monitoring-fig11-fig12.png
+    thumbnail: /images/publications/2022-bridge-monitoring-fig11-fig12-padded.png
     thumbnail_alt: Bridge sensor installation and damaged locations above long-term monitoring results for natural frequency displacement and neutral axis
     title:
       en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
