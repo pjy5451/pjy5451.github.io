@@ -172,13 +172,22 @@ body_class: "page-cv"
 
 ## Conference Presentations
 
-Selected conference presentations are listed on the <a href="/talks/">Conference</a> page.
+Selected conference presentations are listed in the <a href="/#conferences">Conferences</a> section.
 
-## Patents
+## Skills & Languages
 
-The patent portfolio includes **7 registered Korean patents**, **2 filed applications**, and **1 invention in preparation** across structural sensing, WIM, precast transportation, and infrastructure monitoring. See the complete records on the <a href="/publications/#patents">Publications</a> page.
+{% include skills_table.html %}
 
-## Honors and Awards
+<div class="entry">
+  <div class="entry__date">Languages</div>
+  <div class="entry__body">
+    <p><strong>English</strong> · TOEFL iBT 100/120 (C1, 2026) · <strong>Korean</strong> · Native</p>
+  </div>
+</div>
+
+## Others
+
+### Awards & Honors
 
 <div class="recognition-list">
   <div class="recognition-item">
@@ -203,7 +212,7 @@ The patent portfolio includes **7 registered Korean patents**, **2 filed applica
   </div>
 </div>
 
-## Scholarships
+### Scholarships
 
 <div class="recognition-list">
   <div class="recognition-item">
@@ -223,7 +232,11 @@ The patent portfolio includes **7 registered Korean patents**, **2 filed applica
   </div>
 </div>
 
-## Mentoring
+### Patents
+
+<p class="cv-other-summary">The patent portfolio includes <strong>7 registered Korean patents</strong>, <strong>2 filed applications</strong>, and <strong>1 invention in preparation</strong> across structural sensing, WIM, precast transportation, and infrastructure monitoring. <a href="/#patents">View patent records</a></p>
+
+### Mentoring
 
 <div class="entry">
   <div class="entry__date">2023</div>
@@ -241,23 +254,12 @@ The patent portfolio includes **7 registered Korean patents**, **2 filed applica
   </div>
 </div>
 
-## Other Activities
+### Other Activities
 
 <div class="entry">
   <div class="entry__date entry__date--nowrap">2021.12 - 2022.01</div>
   <div class="entry__body">
     <p><strong>Da Vinci Dream Discovery Program</strong>, Chung-Ang University</p>
     <p>Planned the overall program for 1,000 middle and high school students across 48 sessions, introducing civil engineering research and hands-on technical activities.</p>
-  </div>
-</div>
-
-## Skills & Languages
-
-{% include skills_table.html %}
-
-<div class="entry">
-  <div class="entry__date">Languages</div>
-  <div class="entry__body">
-    <p><strong>English</strong> — TOEFL iBT 100/120 (C1, 2026) · <strong>Korean</strong> — Native</p>
   </div>
 </div>
