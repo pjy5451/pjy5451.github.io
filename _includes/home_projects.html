@@ -10,12 +10,11 @@
     </label>
     <div class="publication-keywords" role="group" aria-label="Filter projects by keyword">
       <span class="publication-keywords__label">Keywords</span>
-      <button class="publication-keyword publication-keyword--orange" type="button" data-project-topic="transport" aria-pressed="false">WIM / OBM</button>
-      <button class="publication-keyword publication-keyword--blue" type="button" data-project-topic="bridge" aria-pressed="false">Bridge / SHM</button>
-      <button class="publication-keyword publication-keyword--teal" type="button" data-project-topic="sensing" aria-pressed="false">IoT / Sensing</button>
-      <button class="publication-keyword publication-keyword--violet" type="button" data-project-topic="data" aria-pressed="false">Data / AI</button>
-      <button class="publication-keyword publication-keyword--green" type="button" data-project-topic="precast" aria-pressed="false">Precast</button>
-      <button class="publication-keyword publication-keyword--cyan" type="button" data-project-topic="port" aria-pressed="false">Port</button>
+      <button class="publication-keyword publication-keyword--blue" type="button" data-project-topic="shm" aria-pressed="false">Structural Health Monitoring</button>
+      <button class="publication-keyword publication-keyword--teal" type="button" data-project-topic="wireless" aria-pressed="false">Wireless Sensing</button>
+      <button class="publication-keyword publication-keyword--orange" type="button" data-project-topic="wim" aria-pressed="false">Weigh-in-Motion</button>
+      <button class="publication-keyword publication-keyword--green" type="button" data-project-topic="load-testing" aria-pressed="false">Bridge Load Testing</button>
+      <button class="publication-keyword publication-keyword--violet" type="button" data-project-topic="ml" aria-pressed="false">Machine Learning</button>
     </div>
     <p class="publication-filter-status" aria-live="polite" data-project-status></p>
   </div>
@@ -25,7 +24,7 @@
       {% for project in group.projects %}
         {% unless project.title == "Freight Train Monitoring System" or project.title == "Sewer Monitoring Sensor System" %}
           {% assign project_tags = project.tags | join: "|" | downcase %}
-          {% capture project_search %}{{ project.title }} {{ project.summary }} {{ project.period }} {{ project.tags | join: " " }} {{ group.title }}{% endcapture %}
+          {% capture project_search %}{{ project.title }} {{ project.summary }} {{ project.period }} {{ project.tags | join: " " }} {{ project.detail_tags | join: " " }} {{ group.title }}{% endcapture %}
           <article class="project-index-card" data-project-item data-project-tags="{{ project_tags | escape }}" data-project-search="{{ project_search | strip_newlines | downcase | escape }}">
             <div class="project-index-card__media">
               {% if project.thumbnail %}
@@ -39,7 +38,15 @@
               <h3><a href="{{ project.href | relative_url }}">{{ project.title }}</a></h3>
               <p class="project-index-card__summary">{{ project.summary }}</p>
               <div class="publication-card__tags" aria-label="Project keywords">
-                {% for tag in project.tags %}<span class="publication-card__tag publication-card__tag--blue">{{ tag }}</span>{% endfor %}
+                {% for tag in project.tags %}
+                  {% assign tag_lower = tag | downcase %}{% assign tag_tone = "blue" %}
+                  {% if tag_lower == "wireless sensing" %}{% assign tag_tone = "teal" %}
+                  {% elsif tag_lower == "weigh-in-motion" %}{% assign tag_tone = "orange" %}
+                  {% elsif tag_lower == "bridge load testing" %}{% assign tag_tone = "green" %}
+                  {% elsif tag_lower == "machine learning" %}{% assign tag_tone = "violet" %}{% endif %}
+                  <span class="publication-card__tag publication-card__tag--{{ tag_tone }}">{{ tag }}</span>
+                {% endfor %}
+                {% for tag in project.detail_tags %}<span class="publication-card__tag publication-card__tag--detail">{{ tag }}</span>{% endfor %}
               </div>
               <a class="project-index-card__action" href="{{ project.href | relative_url }}">View project <span aria-hidden="true">→</span></a>
             </div>

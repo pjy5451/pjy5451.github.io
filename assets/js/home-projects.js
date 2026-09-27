@@ -8,12 +8,11 @@
 
   var activeTopic = 'all';
   var topicTerms = {
-    transport: ['wim', 'obm', 'vehicle sensing', 'dynamic weight'],
-    bridge: ['bridge', 'load test', 'lifecycle'],
-    sensing: ['iot', 'sensing', 'daq', 'ble'],
-    data: ['data', 'ai', 'event detection', 'visualization'],
-    precast: ['precast', 'portable sensing'],
-    port: ['port structure']
+    shm: ['structural health monitoring'],
+    wireless: ['wireless sensing'],
+    wim: ['weigh-in-motion'],
+    'load-testing': ['bridge load testing'],
+    ml: ['machine learning']
   };
 
   function matchesTopics(item) {

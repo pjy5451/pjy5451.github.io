@@ -7,7 +7,9 @@ groups:
     thumbnail: /images/field-sites/wim-field-tests/wim-field-test-roadside.jpg
     summary: WIM DAQ, high-speed load sensing, and automatic load-event detection.
     tags:
-    - WIM
+    - Weigh-in-Motion
+    - Wireless Sensing
+    detail_tags:
     - DAQ
     - Load Detection
   - title: OBM (On-Board Mass) System Development
@@ -16,7 +18,8 @@ groups:
     thumbnail: /images/field-sites/obm-field-validation/obm-vehicle-sensor-installation.jpg
     summary: Vehicle-mounted sensing and dynamic weight correction during driving.
     tags:
-    - OBM
+    - Weigh-in-Motion
+    detail_tags:
     - Vehicle Sensing
     - Dynamic Weight
   - title: Freight Train Monitoring System
@@ -33,9 +36,11 @@ groups:
     thumbnail: /images/field-sites/prefab-transportation-monitoring/prefab-transportation-monitoring-setup.jpg
     summary: Portable sensing for precast members during transportation and erection.
     tags:
-    - Portable Sensing
+    - Structural Health Monitoring
+    - Wireless Sensing
+    detail_tags:
     - Precast
-    - Field Deployment
+    - Portable Sensing
 - title: Structural Monitoring Systems
   projects:
   - title: Cloud-Based Long-Term Bridge Monitoring System
@@ -44,36 +49,39 @@ groups:
     thumbnail: /images/field-sites/seongsan-bridge/seongsan-bridge-monitoring-installation.png
     summary: Long-term bridge monitoring using IoT sensors, cloud storage, and dashboards.
     tags:
-    - Bridge Monitoring
-    - IoT
-    - Cloud
+    - Structural Health Monitoring
+    - Wireless Sensing
+    detail_tags:
+    - Cloud Monitoring
   - title: Bridge Load-Carrying Capacity Evaluation System
     period: 2020-2024
     href: /projects/bridge-load-capacity/
     thumbnail: /images/field-sites/guro-overpass/guro-overpass-sensor-installation.jpg
     summary: Field sensing and response interpretation for bridge load testing.
     tags:
-    - Load Test
-    - Bridge
-    - Evaluation
+    - Structural Health Monitoring
+    - Bridge Load Testing
   - title: QR-Based Bridge Maintenance Monitoring System
     period: 2020-2023
     href: /projects/qr-lifecycle-monitoring/
     thumbnail: /images/field-sites/choha-cheon-bridge/choha-cheon-bridge-qr-monitoring.jpg
     summary: QR-linked maintenance records with low-power sensing and cloud reports.
     tags:
-    - QR Monitoring
-    - Lifecycle
-    - Cloud Reports
+    - Structural Health Monitoring
+    - Wireless Sensing
+    detail_tags:
+    - QR-Based Monitoring
   - title: Port Structure Monitoring System
     period: 2021-2023
     href: /projects/quay-wall-monitoring/
     thumbnail: /images/field-sites/port-quay-wall-monitoring/port-quay-wall-sensor-installation.jpg
     summary: Quay wall monitoring with ruggedized sensors and event recognition.
     tags:
-    - Port Structure
-    - Event Detection
-    - AI
+    - Structural Health Monitoring
+    - Wireless Sensing
+    - Machine Learning
+    detail_tags:
+    - Port Monitoring
 - title: Smart Sensing Systems
   projects:
   - title: Smart Concrete Sensing System
@@ -81,17 +89,18 @@ groups:
     href: /projects/smart-concrete-sensing/
     summary: Crack trajectory sensing and long-term measurement visualization.
     tags:
-    - Smart Concrete
+    - Structural Health Monitoring
+    - Wireless Sensing
+    detail_tags:
     - Crack Sensing
-    - Visualization
   - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
     summary: Low-cost IoT earthquake sensing with triggering and BLE notification.
     tags:
-    - Seismic Sensing
-    - IoT
-    - BLE
+    - Wireless Sensing
+    detail_tags:
+    - Seismic Analysis
   - title: Sewer Monitoring Sensor System
     period: 2020
     href: /projects/sewer-monitoring-sensor/
