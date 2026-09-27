@@ -82,6 +82,8 @@ sections:
     tags:
     - Weigh-in-Motion
     - Machine Learning
+    thumbnail: /images/publications/2026-yolo-wim-threshold-errors.png
+    thumbnail_alt: False and missing axle-load detections caused by low and high thresholds in weigh-in-motion signals
     title:
       en: YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems
       ko: YOLO 기반 고속축중기 하중 구간 자동 검출 기법
