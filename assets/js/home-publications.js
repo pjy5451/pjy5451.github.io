@@ -19,10 +19,11 @@
     shm: ['structural health monitoring'],
     wireless: ['wireless sensing'],
     wim: ['weigh-in-motion'],
+    'load-testing': ['bridge load testing'],
     ml: ['machine learning']
   };
   var scopeLabels = { all: 'Show all', selected: 'Selected', first: 'First-author' };
-  var topicLabels = { shm: 'Structural Health Monitoring', wireless: 'Wireless Sensing', wim: 'Weigh-in-Motion', ml: 'Machine Learning' };
+  var topicLabels = { shm: 'Structural Health Monitoring', wireless: 'Wireless Sensing', wim: 'Weigh-in-Motion', 'load-testing': 'Bridge Load Testing', ml: 'Machine Learning' };
 
   function matchesScope(item) {
     if (activeScope === 'selected') return item.getAttribute('data-pub-selected') === 'true';

@@ -30,6 +30,7 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     <button class="publication-keyword publication-keyword--blue" type="button" data-pub-topic="shm" aria-pressed="false">Structural Health Monitoring</button>
     <button class="publication-keyword publication-keyword--teal" type="button" data-pub-topic="wireless" aria-pressed="false">Wireless Sensing</button>
     <button class="publication-keyword publication-keyword--orange" type="button" data-pub-topic="wim" aria-pressed="false">Weigh-in-Motion</button>
+    <button class="publication-keyword publication-keyword--green" type="button" data-pub-topic="load-testing" aria-pressed="false">Bridge Load Testing</button>
     <button class="publication-keyword publication-keyword--violet" type="button" data-pub-topic="ml" aria-pressed="false">Machine Learning</button>
   </div>
   <p class="publication-filter-status" aria-live="polite" data-pub-filter-status></p>
@@ -84,10 +85,11 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
       shm: ['structural health monitoring'],
       wireless: ['wireless sensing'],
       wim: ['weigh-in-motion'],
+      'load-testing': ['bridge load testing'],
       ml: ['machine learning']
     };
     var scopeLabels = { all: 'Show all', selected: 'Selected', first: 'First-author' };
-    var topicLabels = { shm: 'Structural Health Monitoring', wireless: 'Wireless Sensing', wim: 'Weigh-in-Motion', ml: 'Machine Learning' };
+    var topicLabels = { shm: 'Structural Health Monitoring', wireless: 'Wireless Sensing', wim: 'Weigh-in-Motion', 'load-testing': 'Bridge Load Testing', ml: 'Machine Learning' };
     function matchesScope(item) {
       if (activeScope === 'selected') return item.getAttribute('data-pub-selected') === 'true';
       if (activeScope === 'first') return item.getAttribute('data-pub-first-author') === 'true';
