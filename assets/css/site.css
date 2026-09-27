@@ -1695,6 +1695,7 @@ span.pub__title {
   font-weight: 800;
   text-transform: uppercase;
 }
+.publication-card__meta.is-unpublished { color: var(--accent); }
 .publication-card__title {
   margin: 0;
   padding: 0;
