@@ -15,6 +15,12 @@
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
       <input id="home-publication-search" type="search" placeholder="Search title, author, venue, keyword..." autocomplete="off" data-pub-search-input>
     </label>
+    <div class="publication-language" role="group" aria-label="Filter publications by venue scope">
+      <span class="publication-keywords__label">Venue</span>
+      <button class="publication-language__button is-active" type="button" data-pub-region="international" aria-pressed="true">International</button>
+      <button class="publication-language__button" type="button" data-pub-region="korean" aria-pressed="false">Korean</button>
+      <button class="publication-language__button" type="button" data-pub-region="all" aria-pressed="false">All</button>
+    </div>
     <div class="publication-keywords">
       <span class="publication-keywords__label">Keywords</span>
       <button class="publication-keyword publication-keyword--blue" type="button" data-pub-topic="bridge" aria-pressed="false">Bridge / SHM</button>

@@ -2,6 +2,7 @@
   var input = document.querySelector('[data-pub-search-input]');
   var scopeButtons = document.querySelectorAll('[data-pub-scope]');
   var topicButtons = document.querySelectorAll('[data-pub-topic]');
+  var regionButtons = document.querySelectorAll('.publication-language [data-pub-region]');
   var items = document.querySelectorAll('[data-pub-kind="article"]');
   var patentItems = document.querySelectorAll('[data-pub-kind="patent"]');
   var sections = document.querySelectorAll('[data-pub-section]');
@@ -11,7 +12,8 @@
   if (!input || !items.length) return;
 
   var activeScope = 'all';
-  var activeTopic = 'all';
+  var activeRegion = 'international';
+  var activeTopics = [];
   var patentsExpanded = false;
   var topicTerms = {
     bridge: ['bridge', 'shm', 'load test'],
@@ -31,9 +33,15 @@
   }
 
   function matchesTopic(item) {
-    if (activeTopic === 'all') return true;
+    if (!activeTopics.length) return true;
     var tags = item.getAttribute('data-pub-tags') || '';
-    return topicTerms[activeTopic].some(function(term) { return tags.indexOf(term) !== -1; });
+    return activeTopics.some(function(topic) {
+      return topicTerms[topic].some(function(term) { return tags.indexOf(term) !== -1; });
+    });
+  }
+
+  function matchesRegion(item) {
+    return activeRegion === 'all' || item.getAttribute('data-pub-region') === activeRegion;
   }
 
   function update() {
@@ -41,15 +49,15 @@
     var visibleCount = 0;
     items.forEach(function(item) {
       var searchText = item.getAttribute('data-pub-search') || '';
-      var matches = matchesScope(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
+      var matches = matchesScope(item) && matchesRegion(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
       item.hidden = !matches;
       if (matches) visibleCount += 1;
     });
     sections.forEach(function(section) {
       section.hidden = !section.querySelector('[data-pub-item]:not([hidden])');
     });
-    var label = 'Filtering by: ' + scopeLabels[activeScope];
-    if (activeTopic !== 'all') label += ' + ' + topicLabels[activeTopic];
+    var label = 'Filtering by: ' + (activeRegion === 'all' ? 'All venues' : activeRegion.charAt(0).toUpperCase() + activeRegion.slice(1)) + ' + ' + scopeLabels[activeScope];
+    if (activeTopics.length) label += ' + ' + activeTopics.map(function(topic) { return topicLabels[topic]; }).join(' / ');
     if (query) label += ' + search';
     if (status) status.textContent = label + ' (' + visibleCount + ')';
     if (empty) empty.hidden = visibleCount !== 0;
@@ -81,9 +89,20 @@
   topicButtons.forEach(function(button) {
     button.addEventListener('click', function() {
       var topic = button.getAttribute('data-pub-topic');
-      activeTopic = activeTopic === topic ? 'all' : topic;
-      topicButtons.forEach(function(candidate) {
-        var active = candidate.getAttribute('data-pub-topic') === activeTopic;
+      var index = activeTopics.indexOf(topic);
+      if (index === -1) activeTopics.push(topic);
+      else activeTopics.splice(index, 1);
+      button.classList.toggle('is-active', index === -1);
+      button.setAttribute('aria-pressed', index === -1 ? 'true' : 'false');
+      update();
+    });
+  });
+
+  regionButtons.forEach(function(button) {
+    button.addEventListener('click', function() {
+      activeRegion = button.getAttribute('data-pub-region');
+      regionButtons.forEach(function(candidate) {
+        var active = candidate === button;
         candidate.classList.toggle('is-active', active);
         candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
       });

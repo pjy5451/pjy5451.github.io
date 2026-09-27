@@ -1,24 +1,55 @@
-<section class="home-section" id="projects" data-home-section>
-  <h2>Projects</h2>
-  <p class="home-section__intro">Selected sensing and monitoring systems developed and validated across infrastructure and transportation applications.</p>
-  {% for group in site.data.projects.groups %}
-    <h3 class="home-project-group-title">{{ group.title }}</h3>
-    <div class="project-grid">
+<section class="home-section home-section--projects" id="projects" data-home-section>
+  <header class="project-index-heading">
+    <h2>Projects</h2>
+    <p>Field-deployable sensing and monitoring systems for infrastructure and transportation applications.</p>
+  </header>
+
+  <div class="project-toolbar">
+    <label class="publication-search" for="project-search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+      <input id="project-search" type="search" placeholder="Search project, method, or keyword..." autocomplete="off" data-project-search>
+    </label>
+    <div class="publication-keywords" role="group" aria-label="Filter projects by keyword">
+      <span class="publication-keywords__label">Keywords</span>
+      <button class="publication-keyword publication-keyword--orange" type="button" data-project-topic="transport" aria-pressed="false">WIM / OBM</button>
+      <button class="publication-keyword publication-keyword--blue" type="button" data-project-topic="bridge" aria-pressed="false">Bridge / SHM</button>
+      <button class="publication-keyword publication-keyword--teal" type="button" data-project-topic="sensing" aria-pressed="false">IoT / Sensing</button>
+      <button class="publication-keyword publication-keyword--violet" type="button" data-project-topic="data" aria-pressed="false">Data / AI</button>
+      <button class="publication-keyword publication-keyword--green" type="button" data-project-topic="precast" aria-pressed="false">Precast</button>
+      <button class="publication-keyword publication-keyword--cyan" type="button" data-project-topic="port" aria-pressed="false">Port</button>
+    </div>
+    <p class="publication-filter-status" aria-live="polite" data-project-status></p>
+  </div>
+
+  <div class="project-index-list">
+    {% for group in site.data.projects.groups %}
       {% for project in group.projects %}
         {% unless project.title == "Freight Train Monitoring System" or project.title == "Sewer Monitoring Sensor System" %}
-          <a class="project-card" href="{{ project.href | relative_url }}">
-            <div class="project-card__media" aria-hidden="true"></div>
-            <div class="project-card__body">
-              <h3>{{ project.title }}</h3>
-              <p class="project-card__period">{{ project.period }}</p>
-              <p>{{ project.summary }}</p>
-              <div class="project-card__tags">
-                {% for tag in project.tags limit:2 %}<span>{{ tag }}</span>{% endfor %}
-              </div>
+          {% assign project_tags = project.tags | join: "|" | downcase %}
+          {% capture project_search %}{{ project.title }} {{ project.summary }} {{ project.period }} {{ project.tags | join: " " }} {{ group.title }}{% endcapture %}
+          <article class="project-index-card" data-project-item data-project-tags="{{ project_tags | escape }}" data-project-search="{{ project_search | strip_newlines | downcase | escape }}">
+            <div class="project-index-card__media">
+              {% if project.thumbnail %}
+                <img src="{{ project.thumbnail | relative_url }}" alt="" loading="lazy">
+              {% else %}
+                <span>{{ project.period }}</span>
+              {% endif %}
             </div>
-          </a>
+            <div class="project-index-card__body">
+              <p class="project-index-card__group">{{ group.title }}</p>
+              <h3><a href="{{ project.href | relative_url }}">{{ project.title }}</a></h3>
+              <p class="project-index-card__summary">{{ project.summary }}</p>
+              <div class="publication-card__tags" aria-label="Project keywords">
+                {% for tag in project.tags %}<span class="publication-card__tag publication-card__tag--blue">{{ tag }}</span>{% endfor %}
+              </div>
+              <a class="project-index-card__action" href="{{ project.href | relative_url }}">View project <span aria-hidden="true">→</span></a>
+            </div>
+          </article>
         {% endunless %}
       {% endfor %}
-    </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
+  <p class="publication-empty" data-project-empty hidden>No projects match these filters.</p>
 </section>
+
+<script src="{{ '/assets/js/home-projects.js' | relative_url }}"></script>

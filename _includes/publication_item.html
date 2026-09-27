@@ -9,6 +9,10 @@
 {% assign item_venue = item.venue[pub_lang] | default: item.venue.en | default: "" %}
 {% assign venue_lower = item_venue | downcase %}
 {% assign item_tags = item.tags | join: "|" | downcase %}
+{% assign item_region = "international" %}
+{% if venue_lower contains "korean society" or venue_lower contains "korea institute" or venue_lower contains "journal of the korean" or venue_lower contains "journal of korean" %}
+  {% assign item_region = "korean" %}
+{% endif %}
 {% assign author_plain = item_authors | strip_html | strip %}
 {% assign author_start = author_plain | slice: 0, 13 %}
 {% assign is_first_author = false %}
@@ -34,6 +38,7 @@
   data-pub-item data-pub-kind="{{ include.kind | default: 'article' }}"
   data-pub-selected="{% if item.selected %}true{% else %}false{% endif %}"
   data-pub-first-author="{{ is_first_author }}"
+  data-pub-region="{{ item_region }}"
   data-pub-tags="{{ item_tags | escape }}"
   data-pub-search="{{ item_search | strip_newlines | downcase | escape }}">
   <div class="publication-card__media">
