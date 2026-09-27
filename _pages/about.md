@@ -35,11 +35,11 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
   <div class="research-keyword-group">
     <span class="research-keyword-group__label">Interests</span>
     <div class="keyword-chips keyword-chips--section keyword-chips--outline" aria-label="Research interest keywords">
-      <span>Probabilistic Modeling</span>
-      <span>Inverse Problems</span>
-      <span>Uncertainty Quantification</span>
       <span>Structural Dynamics</span>
+      <span>Inverse Problems</span>
+      <span>Probabilistic Modeling</span>
       <span>Structural Reliability</span>
+      <span>Physics-Informed ML</span>
       <span>Topology Optimization</span>
     </div>
   </div>
