@@ -15,8 +15,15 @@
 {% if author_start == "Junyoung Park" %}{% assign is_first_author = true %}{% endif %}
 {% capture item_search %}{{ item_title }} {{ author_plain }} {{ item_venue }} {{ item.year }} {{ item.tags | join: " " }}{% endcapture %}
 {% assign item_status = "Published" %}
+{% assign item_venue_display = item_venue %}
 {% if include.kind == "patent" %}
-  {% if venue_lower contains "registered" %}{% assign item_status = "Registered" %}
+  {% assign patent_number = item_venue | split: ". " | first %}
+  {% if venue_lower contains "registered" %}
+    {% assign item_status = "Registered" %}
+    {% capture item_venue_display %}Registered in {{ item.year }} ({{ patent_number }}){% endcapture %}
+  {% elsif venue_lower contains "application" %}
+    {% assign item_status = "Application" %}
+    {% capture item_venue_display %}Application filed in {{ item.year }} ({{ patent_number }}){% endcapture %}
   {% elsif venue_lower contains "preparation" %}{% assign item_status = "In preparation" %}
   {% else %}{% assign item_status = "Application" %}{% endif %}
 {% elsif venue_lower contains "under review" %}{% assign item_status = "Under review" %}
@@ -37,7 +44,7 @@
     {% endif %}
   </div>
   <div class="publication-card__body">
-    <p class="publication-card__meta"><span>{{ item_venue | replace: " (under review)", "" }}</span><span aria-hidden="true">&middot;</span><span>{{ item.year }}</span></p>
+    <p class="publication-card__meta"><span>{{ item_venue_display | replace: " (under review)", "" }}</span>{% unless include.kind == "patent" %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endunless %}</p>
     <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
     <p class="publication-card__authors">{{ item_authors }}</p>
     {% if item.tags %}

@@ -109,13 +109,13 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
         var hiddenByPatentLimit = false;
         if (matches && isPatent) {
           matchingPatentCount += 1;
-          hiddenByPatentLimit = !filteringActive && !patentsExpanded && matchingPatentCount > 3;
+          hiddenByPatentLimit = !filteringActive && !patentsExpanded && matchingPatentCount > 2;
         }
         item.hidden = !matches || hiddenByPatentLimit;
         if (matches) visibleCount += 1;
       });
       if (patentToggle) {
-        var hiddenPatentCount = Math.max(0, matchingPatentCount - 3);
+        var hiddenPatentCount = Math.max(0, matchingPatentCount - 2);
         patentToggle.hidden = filteringActive || hiddenPatentCount === 0;
         patentToggle.textContent = patentsExpanded ? 'Show fewer patents' : 'Show more patents (' + hiddenPatentCount + ')';
         patentToggle.setAttribute('aria-expanded', patentsExpanded ? 'true' : 'false');
