@@ -250,6 +250,8 @@ sections:
   - year: '2021'
     tags:
     - Wireless Sensing
+    thumbnail: /images/publications/2021-smart-uhpc-wireless-sensing.png
+    thumbnail_alt: Smart UHPC specimen connected to a battery-powered wireless sensing system and its circuit boards
     title:
       en: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
       ko: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
@@ -399,6 +401,8 @@ sections:
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
+    thumbnail: /images/publications/2022-bridge-monitoring-fig11-fig12.png
+    thumbnail_alt: Bridge sensor installation and damaged locations above long-term monitoring results for natural frequency displacement and neutral axis
     title:
       en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
       ko: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
