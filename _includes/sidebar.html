@@ -5,6 +5,7 @@
   <p class="profile__degree">{{ site.author.degree }}</p>
   <p class="profile__degree profile__degree--undergraduate">{{ site.author.undergraduate_degree }}</p>
   <p class="profile__location"><span aria-hidden="true">📍</span> {{ site.author.location }}</p>
+  <a class="profile__advisor" href="{{ site.author.advisor_url | escape }}">Advised by {{ site.author.advisor }}</a>
 
   <div class="profile__links">
     <a href="mailto:{{ site.author.email }}" aria-label="Email" title="Email">
