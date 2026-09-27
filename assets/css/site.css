@@ -1688,10 +1688,11 @@ span.pub__title {
   display: flex;
   flex-wrap: wrap;
   gap: 5px;
-  margin: 0 0 6px;
-  color: var(--link);
-  font-size: 0.74rem;
-  font-weight: 750;
+  margin: 0 0 4px;
+  color: var(--system);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
 }
 .publication-card__title {
   margin: 0;
