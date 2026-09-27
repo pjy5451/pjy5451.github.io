@@ -49,7 +49,7 @@
     {% endif %}
   </div>
   <div class="publication-card__body">
-    <p class="publication-card__meta{% if venue_lower contains 'under review' or venue_lower contains 'preparation' %} is-unpublished{% endif %}"><span>{{ item_venue_display | replace: " (under review)", "" | remove: "In preparation; " }}</span>{% unless include.kind == "patent" %}{% unless item_status == "In preparation" %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endunless %}{% endunless %}</p>
+    <p class="publication-card__meta"><span>{{ item_venue_display | replace: " (under review)", "" | remove: "In preparation; " }}</span>{% unless include.kind == "patent" %}{% unless item_status == "In preparation" %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endunless %}{% endunless %}</p>
     <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
     <p class="publication-card__authors">{{ item_authors }}</p>
     {% if item.tags %}
