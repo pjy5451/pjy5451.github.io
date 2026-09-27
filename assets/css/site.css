@@ -473,9 +473,18 @@ strong {
 }
 
 .keyword-chips--outline span {
-  border-color: color-mix(in srgb, var(--system) 55%, var(--line));
-  color: var(--system);
-  background: transparent;
+  min-height: 0;
+  padding: 2px 8px;
+  border-color: #fca5a5;
+  color: #ef2b2d;
+  background: color-mix(in srgb, #fee2e2 72%, var(--button-bg));
+  font-size: 0.72rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.research-keyword-group .keyword-chips--outline {
+  gap: 5px;
 }
 
 .home-section {
@@ -2659,6 +2668,16 @@ p.field-site-card__label:not(:first-child) {
     min-height: 28px;
     padding: 3px 9px;
     font-size: 0.82rem;
+  }
+
+  .research-keyword-group .keyword-chips--outline {
+    gap: 5px;
+  }
+
+  .research-keyword-group .keyword-chips--outline span {
+    min-height: 0;
+    padding: 2px 8px;
+    font-size: 0.72rem;
   }
 
   .nav-toggle__label {
