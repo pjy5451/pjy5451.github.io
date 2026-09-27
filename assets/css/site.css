@@ -468,6 +468,10 @@ strong {
   margin: 0;
 }
 
+.research-keyword-group > .publication-card__tags {
+  margin-top: 0;
+}
+
 .keyword-chips--outline span {
   border-color: color-mix(in srgb, var(--system) 55%, var(--line));
   color: var(--system);

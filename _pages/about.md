@@ -24,11 +24,12 @@ description: "Junyoung Park is a structural monitoring researcher working on IoT
 <div class="research-keyword-groups">
   <div class="research-keyword-group">
     <span class="research-keyword-group__label">Experience</span>
-    <div class="keyword-chips keyword-chips--section" aria-label="Research experience keywords">
-      <span>Long-term Field Monitoring</span>
-      <span>Bridge SHM</span>
-      <span>Wireless Sensing</span>
-      <span>WIM &middot; OBM</span>
+    <div class="publication-card__tags" aria-label="Research experience keywords">
+      <span class="publication-card__tag publication-card__tag--blue">Structural Health Monitoring</span>
+      <span class="publication-card__tag publication-card__tag--teal">Wireless Sensing</span>
+      <span class="publication-card__tag publication-card__tag--orange">Weigh-in-Motion</span>
+      <span class="publication-card__tag publication-card__tag--green">Bridge Load Testing</span>
+      <span class="publication-card__tag publication-card__tag--violet">Machine Learning</span>
     </div>
   </div>
   <div class="research-keyword-group">
