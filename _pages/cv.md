@@ -152,8 +152,13 @@ body_class: "page-cv"
 
 ## Research Interests
 
-- **Field-Validated Infrastructure Intelligence:** turning bridge and transportation measurements into SHM, WIM/OBM, and maintenance insight grounded in real deployment data.
-- **Deployable Sensing & Edge-to-Cloud Measurement:** designing IoT sensors, embedded DAQ, wireless sensing, and cloud workflows that operate reliably outside the lab.
-- **Physics-Aware AI for Engineering Systems:** connecting signal interpretation, surrogate modeling, structural dynamics/reliability, and AI for physical systems.
+<div class="cv-interest-chips" aria-label="Research interests">
+  <span>Structural Dynamics</span>
+  <span>Inverse Problems</span>
+  <span>Probabilistic Modeling</span>
+  <span>Structural Reliability</span>
+  <span>Physics-Informed Machine Learning</span>
+  <span>Topology Optimization</span>
+</div>
 
 </section>

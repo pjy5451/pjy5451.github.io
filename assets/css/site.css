@@ -1298,6 +1298,26 @@ a.inline-action:hover {
   background: color-mix(in srgb, var(--system-soft) 58%, transparent);
 }
 
+.cv-interest-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.cv-interest-chips span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 26px;
+  padding: 3px 9px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  background: var(--soft);
+  font-size: 0.76rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
 .recognition-list {
   margin: 4px 0 16px;
   border-top: 1px solid var(--line);
