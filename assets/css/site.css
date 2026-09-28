@@ -685,6 +685,18 @@ strong {
   line-height: 1.42;
 }
 
+.project-index-card__funding {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.35;
+}
+
+.project-index-card__funding span {
+  color: var(--text);
+  font-weight: 750;
+}
+
 .project-index-card__action {
   display: inline-flex;
   gap: 5px;

@@ -24,7 +24,10 @@
       {% for project in group.projects %}
         {% unless project.title == "Freight Train Monitoring System" or project.title == "Sewer Monitoring Sensor System" %}
           {% assign project_tags = project.tags | join: "|" | downcase %}
-          {% capture project_search %}{{ project.title }} {{ project.summary }} {{ project.period }} {{ project.tags | join: " " }} {{ project.detail_tags | join: " " }} {{ group.title }}{% endcapture %}
+          {% assign project_key = project.href | remove: "/projects/" | remove: "/" %}
+          {% assign matching_funding = site.data.project_funding.entries | where: "key", project_key %}
+          {% assign project_funding = matching_funding | first %}
+          {% capture project_search %}{{ project.title }} {{ project.summary }} {{ project.period }} {{ project.tags | join: " " }} {{ project.detail_tags | join: " " }} {{ group.title }}{% if project_funding %}{% for funder in project_funding.funders %} {{ funder.name }}{% endfor %}{% endif %}{% endcapture %}
           <article class="project-index-card" data-project-item data-project-tags="{{ project_tags | escape }}" data-project-search="{{ project_search | strip_newlines | downcase | escape }}">
             <div class="project-index-card__media">
               {% if project.thumbnail %}
@@ -48,6 +51,9 @@
                 {% endfor %}
                 {% for tag in project.detail_tags %}<span class="publication-card__tag publication-card__tag--detail">{{ tag }}</span>{% endfor %}
               </div>
+              {% if project_funding and project_funding.funders.size > 0 %}
+                <p class="project-index-card__funding"><span>Funded by</span> {% for funder in project_funding.funders %}{{ funder.name }}{% unless forloop.last %}; {% endunless %}{% endfor %}</p>
+              {% endif %}
             </div>
           </article>
         {% endunless %}

@@ -1,23 +1,31 @@
 entries:
 - key: weight-in-motion
-  funders: []
+  funders:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: on-board-mass
   funders: []
 - key: freight-train-monitoring
   funders: []
 - key: portable-sensing
-  funders: []
+  funders:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: bridge-monitoring
-  funders: []
+  funders:
+  - name: Seoul Metropolitan Government
 - key: bridge-load-capacity
-  funders: []
+  funders:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: qr-lifecycle-monitoring
-  funders: []
+  funders:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: quay-wall-monitoring
-  funders: []
+  funders:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: smart-concrete-sensing
-  funders: []
+  funders:
+  - name: National Research Foundation of Korea (NRF)
 - key: seismic-sensing
-  funders: []
+  funders:
+  - name: National Research Foundation of Korea (NRF)
 - key: sewer-monitoring-sensor
   funders: []
