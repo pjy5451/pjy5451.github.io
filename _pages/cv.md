@@ -16,10 +16,13 @@ body_class: "page-cv"
       </a>
       <span class="cv-simple-updated">Updated Sep 2026</span>
     </div>
-    <button class="cv-portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-preview" data-portfolio-toggle>
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v13H3z"></path><path d="M8 6V4h8v2"></path><path d="M3 11h18"></path></svg>
-      <span>View Portfolio</span>
-    </button>
+    <div class="cv-simple-header__action">
+      <button class="cv-portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-preview" data-portfolio-toggle>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v13H3z"></path><path d="M8 6V4h8v2"></path><path d="M3 11h18"></path></svg>
+        <span>View Portfolio</span>
+      </button>
+      <span class="cv-simple-updated">Updated Mar 2026</span>
+    </div>
   </div>
 </header>
 
