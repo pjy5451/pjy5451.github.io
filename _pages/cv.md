@@ -110,13 +110,24 @@ body_class: "page-cv"
 ## Research Experience
 
 <div class="entry entry--experience">
-  <div class="entry__date">2024 - Present</div>
+  <div class="entry__date">2019 - 2022</div>
   <div class="entry__body">
-    <p><strong>Researcher, UDNS</strong></p>
+    <p><strong>Undergraduate Researcher, Chung-Ang University</strong></p>
     <ul class="compact-list">
-      <li>Develop high-speed WIM and OBM systems for AI-based freight transportation safety.</li>
-      <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
-      <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
+      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
+      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
+      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="entry entry--experience">
+  <div class="entry__date">2022</div>
+  <div class="entry__body">
+    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong> (Two-week research visit)</p>
+    <ul class="compact-list">
+      <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
+      <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
     </ul>
   </div>
 </div>
@@ -134,24 +145,13 @@ body_class: "page-cv"
 </div>
 
 <div class="entry entry--experience">
-  <div class="entry__date">2022</div>
+  <div class="entry__date">2024 - Present</div>
   <div class="entry__body">
-    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong></p>
+    <p><strong>Researcher, UDNS</strong></p>
     <ul class="compact-list">
-      <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
-      <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="entry entry--experience">
-  <div class="entry__date">2019 - 2022</div>
-  <div class="entry__body">
-    <p><strong>Undergraduate Researcher, Chung-Ang University</strong></p>
-    <ul class="compact-list">
-      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
-      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
-      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
+      <li>Develop high-speed WIM and OBM systems for AI-based freight transportation safety.</li>
+      <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
+      <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
     </ul>
   </div>
 </div>
