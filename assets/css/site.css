@@ -1004,6 +1004,18 @@ a.inline-action:hover {
   text-decoration: none;
 }
 
+a.inline-action--thesis {
+  border-color: var(--system);
+  color: #fff;
+  background: var(--system);
+}
+
+a.inline-action--thesis:hover {
+  border-color: color-mix(in srgb, var(--system) 78%, var(--text));
+  color: #fff;
+  background: color-mix(in srgb, var(--system) 78%, var(--text));
+}
+
 .inline-action--disabled {
   color: var(--muted);
   background: var(--soft);
