@@ -1256,7 +1256,9 @@ a.inline-action--thesis:hover {
   border-radius: 5px;
   color: #fff;
   background: var(--system);
+  font: inherit;
   font-weight: 800;
+  cursor: pointer;
 }
 
 .cv-simple-download:hover {
