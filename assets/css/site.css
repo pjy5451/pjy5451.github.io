@@ -1868,6 +1868,9 @@ span.pub__title {
   background: var(--system-soft);
 }
 .publication-patent-toggle[hidden] { display: none; }
+[data-pub-expand-korean] {
+  margin-top: 14px;
+}
 .publication-section--korean {
   margin-top: 12px;
 }
