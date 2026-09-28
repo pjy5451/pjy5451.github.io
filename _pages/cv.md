@@ -124,7 +124,7 @@ body_class: "page-cv"
 <div class="entry entry--experience">
   <div class="entry__date">2022</div>
   <div class="entry__body">
-    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong> (Two-week research visit)</p>
+    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong> (Two-week research visit hosted by <a href="https://www.cee.hawaii.edu/faculty-staff-main-2/2-faculty/moon-2/">Professor Dosoo Moon</a>)</p>
     <ul class="compact-list">
       <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
       <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
