@@ -3,7 +3,8 @@ entries:
   funders:
   - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: on-board-mass
-  funders: []
+  funders:
+  - name: Ministry of Land, Infrastructure and Transport (MOLIT)
 - key: freight-train-monitoring
   funders: []
 - key: portable-sensing

@@ -693,8 +693,8 @@ strong {
 }
 
 .project-index-card__funding span {
-  color: var(--text);
-  font-weight: 750;
+  color: inherit;
+  font-weight: inherit;
 }
 
 .project-index-card__action {
