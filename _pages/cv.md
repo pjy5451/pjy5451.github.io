@@ -90,6 +90,7 @@ body_class: "page-cv"
             <li>Differential Equations I-II</li>
             <li>Differential Geometry I-II</li>
             <li>Analysis I-II</li>
+            <li>Topology I-II</li>
             <li>Partial Differential Equations</li>
             <li>Modern Algebra</li>
             <li>Probability and Statistics</li>
@@ -121,16 +122,13 @@ body_class: "page-cv"
 </div>
 
 <div class="entry entry--experience">
-  <div class="entry__date">2019 - 2024</div>
+  <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
-    <p><strong>Researcher, Chung-Ang University</strong></p>
+    <p><strong>Graduate Researcher, Chung-Ang University</strong></p>
     <ul class="compact-list">
       <li>Developed IoT sensor and cloud-based systems for long-term bridge monitoring.</li>
-      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
       <li>Installed and operated monitoring systems on bridges and field structures in Korea.</li>
       <li>Built portable sensing systems for precast member transportation and load-testing applications.</li>
-      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
-      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
     </ul>
   </div>
 </div>
@@ -142,6 +140,18 @@ body_class: "page-cv"
     <ul class="compact-list">
       <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
       <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="entry entry--experience">
+  <div class="entry__date">2019 - 2022</div>
+  <div class="entry__body">
+    <p><strong>Undergraduate Researcher, Chung-Ang University</strong></p>
+    <ul class="compact-list">
+      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
+      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
+      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
     </ul>
   </div>
 </div>
