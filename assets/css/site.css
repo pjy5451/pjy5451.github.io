@@ -1242,6 +1242,12 @@ a.inline-action:hover {
   font-size: 1.9rem;
 }
 
+.cv-simple-header__action {
+  display: grid;
+  justify-items: center;
+  gap: 5px;
+}
+
 .cv-simple-download {
   display: inline-flex;
   align-items: center;
@@ -1250,15 +1256,23 @@ a.inline-action:hover {
   padding: 7px 15px;
   border: 1px solid var(--system);
   border-radius: 5px;
-  color: var(--system);
-  background: transparent;
+  color: #fff;
+  background: var(--system);
   font-weight: 800;
 }
 
 .cv-simple-download:hover {
   color: #fff;
-  background: var(--system);
+  border-color: color-mix(in srgb, var(--system) 78%, var(--text));
+  background: color-mix(in srgb, var(--system) 78%, var(--text));
   text-decoration: none;
+}
+
+.cv-simple-updated {
+  color: var(--muted);
+  font-size: 0.7rem;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .cv-simple-download svg {

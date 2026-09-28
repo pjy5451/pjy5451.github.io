@@ -8,10 +8,13 @@ body_class: "page-cv"
 
 <header class="cv-simple-header">
   <h1>CV</h1>
-  <a class="cv-simple-download" href="/assets/files/Junyoung_Park_CV.pdf" aria-label="Download Junyoung Park's CV as a PDF">
-    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M5 20h14"></path></svg>
-    <span>PDF</span>
-  </a>
+  <div class="cv-simple-header__action">
+    <a class="cv-simple-download" href="/assets/files/Junyoung_Park_CV.pdf" aria-label="Download Junyoung Park's CV as a PDF">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M5 20h14"></path></svg>
+      <span>PDF</span>
+    </a>
+    <span class="cv-simple-updated">Updated Sep 2026</span>
+  </div>
 </header>
 
 <section class="cv-simple-panel" markdown="1">
@@ -110,24 +113,13 @@ body_class: "page-cv"
 ## Research Experience
 
 <div class="entry entry--experience">
-  <div class="entry__date">2019 - 2022</div>
+  <div class="entry__date">2024 - Present</div>
   <div class="entry__body">
-    <p><strong>Undergraduate Researcher, Chung-Ang University</strong></p>
+    <p><strong>Researcher, UDNS</strong></p>
     <ul class="compact-list">
-      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
-      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
-      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
-    </ul>
-  </div>
-</div>
-
-<div class="entry entry--experience">
-  <div class="entry__date">2022</div>
-  <div class="entry__body">
-    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong> (Two-week research visit hosted by <a href="https://www.cee.hawaii.edu/faculty-staff-main-2/2-faculty/moon-2/">Professor Dosoo Moon</a>)</p>
-    <ul class="compact-list">
-      <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
-      <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
+      <li>Develop high-speed WIM and OBM systems for AI-based freight transportation safety.</li>
+      <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
+      <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
     </ul>
   </div>
 </div>
@@ -145,13 +137,24 @@ body_class: "page-cv"
 </div>
 
 <div class="entry entry--experience">
-  <div class="entry__date">2024 - Present</div>
+  <div class="entry__date">2022</div>
   <div class="entry__body">
-    <p><strong>Researcher, UDNS</strong></p>
+    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong> (Two-week research visit hosted by <a href="https://www.cee.hawaii.edu/faculty-staff-main-2/2-faculty/moon-2/">Professor Dosoo Moon</a>)</p>
     <ul class="compact-list">
-      <li>Develop high-speed WIM and OBM systems for AI-based freight transportation safety.</li>
-      <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
-      <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
+      <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
+      <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
+    </ul>
+  </div>
+</div>
+
+<div class="entry entry--experience">
+  <div class="entry__date">2019 - 2022</div>
+  <div class="entry__body">
+    <p><strong>Undergraduate Researcher, Chung-Ang University</strong></p>
+    <ul class="compact-list">
+      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
+      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
+      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
     </ul>
   </div>
 </div>
