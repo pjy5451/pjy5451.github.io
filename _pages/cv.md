@@ -8,14 +8,34 @@ body_class: "page-cv"
 
 <header class="cv-simple-header">
   <h1>CV</h1>
-  <div class="cv-simple-header__action">
-    <a class="cv-simple-download" href="/assets/files/Junyoung_Park_CV.pdf" aria-label="Download Junyoung Park's CV as a PDF">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M5 20h14"></path></svg>
-      <span>PDF</span>
-    </a>
-    <span class="cv-simple-updated">Updated Sep 2026</span>
+  <div class="cv-simple-header__actions">
+    <div class="cv-simple-header__action">
+      <a class="cv-simple-download" href="/assets/files/Junyoung_Park_CV.pdf" aria-label="Download Junyoung Park's CV as a PDF">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M5 20h14"></path></svg>
+        <span>CV PDF</span>
+      </a>
+      <span class="cv-simple-updated">Updated Sep 2026</span>
+    </div>
+    <button class="cv-portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-preview" data-portfolio-toggle>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v13H3z"></path><path d="M8 6V4h8v2"></path><path d="M3 11h18"></path></svg>
+      <span>View Portfolio</span>
+    </button>
   </div>
 </header>
+
+<section class="portfolio-preview" id="portfolio-preview" data-portfolio-preview hidden>
+  <header class="portfolio-preview__header">
+    <div>
+      <h2>Portfolio</h2>
+      <p>Selected projects and field experience | Korean</p>
+    </div>
+    <div class="portfolio-preview__actions">
+      <a href="/assets/files/Junyoung_Park_Portfolio.pdf" target="_blank" rel="noopener">Open PDF</a>
+      <a href="/assets/files/Junyoung_Park_Portfolio.pdf" download>Download</a>
+    </div>
+  </header>
+  <iframe title="Junyoung Park portfolio PDF preview" data-portfolio-frame data-src="/assets/files/Junyoung_Park_Portfolio.pdf#view=FitH" loading="lazy"></iframe>
+</section>
 
 <section class="cv-simple-panel" markdown="1">
 
@@ -107,6 +127,23 @@ body_class: "page-cv"
 </div>
 
 </section>
+
+<script>
+  (function() {
+    var toggle = document.querySelector('[data-portfolio-toggle]');
+    var preview = document.querySelector('[data-portfolio-preview]');
+    var frame = document.querySelector('[data-portfolio-frame]');
+    if (!toggle || !preview || !frame) return;
+
+    toggle.addEventListener('click', function() {
+      var expanded = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
+      toggle.querySelector('span').textContent = expanded ? 'View Portfolio' : 'Hide Portfolio';
+      preview.hidden = expanded;
+      if (!expanded && !frame.src) frame.src = frame.getAttribute('data-src');
+    });
+  })();
+</script>
 
 <section class="cv-simple-panel" markdown="1">
 
