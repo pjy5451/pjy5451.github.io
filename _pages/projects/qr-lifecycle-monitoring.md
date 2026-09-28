@@ -8,7 +8,7 @@ project_key: qr-lifecycle-monitoring
 
 # QR-Based Bridge Maintenance Monitoring System
 
-QR-based monitoring connects field maintenance records with low-power sensing, visualization, and cloud reporting.
+This project develops a QR-based bridge maintenance system linking low-power sensing, field records, and cloud reports.
 
 ## Problem
 

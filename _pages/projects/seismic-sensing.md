@@ -8,7 +8,7 @@ project_key: seismic-sensing
 
 # Seismic Sensing System
 
-This early sensing project developed a low-cost IoT earthquake detection and notification workflow.
+This project develops a low-cost IoT seismic sensing system with event triggering and BLE notification.
 
 ## Problem
 

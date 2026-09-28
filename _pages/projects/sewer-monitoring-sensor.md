@@ -8,7 +8,7 @@ project_key: sewer-monitoring-sensor
 
 # Sewer Monitoring Sensor System
 
-This smart sensing project focused on a field-oriented sensor concept for sewer and underground infrastructure monitoring.
+This project develops a field-oriented sensor concept for sewer and underground infrastructure monitoring.
 
 ## Problem
 

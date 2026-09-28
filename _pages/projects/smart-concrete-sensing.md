@@ -8,7 +8,7 @@ project_key: smart-concrete-sensing
 
 # Smart Concrete Sensing System
 
-Smart concrete sensing work explores crack trajectory monitoring and long-term measurement-history visualization.
+This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
 
 ## Problem
 

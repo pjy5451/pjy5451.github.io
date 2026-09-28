@@ -8,7 +8,7 @@ project_key: freight-train-monitoring
 
 # Freight Train Monitoring System
 
-This project organizes field sensing workflows for freight and rail-related monitoring.
+This project develops an event-oriented sensing workflow for freight monitoring and signal review.
 
 ## Problem
 

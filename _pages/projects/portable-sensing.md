@@ -8,7 +8,7 @@ project_key: portable-sensing
 
 # Prefabricated Structure Transportation Monitoring System
 
-Portable sensing work focused on monitoring precast concrete members during transportation-stage operations.
+This project develops a portable sensing system for monitoring precast members during transportation and erection.
 
 ## Problem
 

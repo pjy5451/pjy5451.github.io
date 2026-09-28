@@ -122,8 +122,8 @@ sections:
       en: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
       ko: Development of AI-Based Multisensory System for Monitoring Quay Wall Events
     authors:
-      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jongwoong Park, Jiyoung Min
-      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jongwoong Park, Jiyoung Min
+      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jong-Woong Park, Jiyoung Min
+      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongbin Won, Jong-Woong Park, Jiyoung Min
     venue:
       en: Journal of Marine Science and Engineering, 12(11), 1902
       ko: Journal of Marine Science and Engineering, 12(11), 1902
@@ -178,8 +178,8 @@ sections:
       en: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
       ko: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
     authors:
-      en: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jongwoong Park
-      ko: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jongwoong Park
+      en: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jong-Woong Park
+      ko: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jong-Woong Park
     venue:
       en: Sensors, 23(11), 5040
       ko: Sensors, 23(11), 5040
@@ -206,8 +206,8 @@ sections:
       en: Monitoring Precast Structures During Transportation Using a Portable Sensing System
       ko: Monitoring Precast Structures During Transportation Using a Portable Sensing System
     authors:
-      en: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
-      ko: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
+      en: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
+      ko: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
     venue:
       en: Automation in Construction, 145, 104639
       ko: Automation in Construction, 145, 104639
@@ -237,8 +237,8 @@ sections:
       en: Development of a Reference-Free Indirect Bridge Displacement Sensing System
       ko: Development of a Reference-Free Indirect Bridge Displacement Sensing System
     authors:
-      en: Jongbin Won, Jongwoong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park
-      ko: Jongbin Won, Jongwoong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park
+      en: Jongbin Won, Jong-Woong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park
+      ko: Jongbin Won, Jong-Woong Park, <strong>Junyoung Park</strong>, Junsik Shin, Minyong Park
     venue:
       en: Sensors, 21(16), 5647
       ko: Sensors, 21(16), 5647
@@ -268,8 +268,8 @@ sections:
       en: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
       ko: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
     authors:
-      en: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
-      ko: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
+      en: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
+      ko: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
     venue:
       en: Sensors, 21(19), 6386
       ko: Sensors, 21(19), 6386
@@ -295,8 +295,8 @@ sections:
       en: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
       ko: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
     authors:
-      en: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
-      ko: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park, SE Kim, Y Jang, DJ Kim
+      en: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
+      ko: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
     venue:
       en: Sensors, 21(6), 2211
       ko: Sensors, 21(6), 2211
@@ -324,7 +324,7 @@ sections:
         Monitoring
       ko: 상시 교량 모니터링을 위한 저전력 IoT 센서 및 클라우드 기반 데이터 융합 변위 측정 기법 개발
     authors:
-      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jongwoong Park, Minyong Park
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jong-Woong Park, Minyong Park
       ko: <strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용
     venue:
       en: Journal of the Computational Structural Engineering Institute of Korea, 34(5)
@@ -358,8 +358,8 @@ sections:
       en: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
       ko: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
     authors:
-      en: Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim
-      ko: Jongbin Won, <strong>Junyoung Park</strong>, Jongwoong Park, IH Kim
+      en: Jongbin Won, <strong>Junyoung Park</strong>, Jong-Woong Park, IH Kim
+      ko: Jongbin Won, <strong>Junyoung Park</strong>, Jong-Woong Park, IH Kim
     venue:
       en: Sensors, 20(10), 2963
       ko: Sensors, 20(10), 2963
@@ -389,7 +389,7 @@ sections:
         Strain Sensing
       ko: 가속도, 변형률 센싱이 가능한 IoT 센서 및 클라우드 컴퓨팅 기반 교량 상시 변위 계측 관리 시스템
     authors:
-      en: Jongbin Won, <strong>Junyoung Park</strong>, Junsik Shin, Sohaeng Kang, Jongwoong Park, Minyong Park
+      en: Jongbin Won, <strong>Junyoung Park</strong>, Junsik Shin, Sohaeng Kang, Jong-Woong Park, Minyong Park
       ko: 원종빈, <strong>박준영</strong>, 신준식, 강소행, 박종웅, 박민용
     venue:
       en: Magazine of the Korean Society of Civil Engineers, 69(10), 58-65
@@ -422,8 +422,8 @@ sections:
       en: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
       ko: Development of IoT Sensor and Cloud-Based Server for Bridge Long-Term Monitoring
     authors:
-      en: <strong>Junyoung Park</strong>, Junsik Shin, Jongwoong Park
-      ko: <strong>Junyoung Park</strong>, Junsik Shin, Jongwoong Park
+      en: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
+      ko: <strong>Junyoung Park</strong>, Junsik Shin, Jong-Woong Park
     venue:
       en: arXiv:2209.12186
       ko: arXiv:2209.12186
@@ -455,8 +455,8 @@ sections:
       en: Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring
       ko: Development of AI-Cloud Based High-Sensitivity Wireless Smart Sensor for Port Structure Monitoring
     authors:
-      en: Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
-      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jongwoong Park
+      en: Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
+      ko: Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
     venue:
       en: arXiv:2209.13646
       ko: arXiv:2209.13646

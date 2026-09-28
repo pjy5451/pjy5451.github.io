@@ -5,7 +5,7 @@ groups:
     period: 2024-present
     href: /projects/weight-in-motion/
     thumbnail: /images/field-sites/wim-field-tests/wim-field-test-roadside.jpg
-    summary: WIM DAQ, high-speed load sensing, and automatic load-event detection.
+    summary: This project develops a high-speed weigh-in-motion system for load sensing, DAQ, and automatic load-event detection.
     tags:
     - Weigh-in-Motion
     - Wireless Sensing
@@ -16,7 +16,7 @@ groups:
     period: 2024-present
     href: /projects/on-board-mass/
     thumbnail: /images/field-sites/obm-field-validation/obm-vehicle-sensor-installation.jpg
-    summary: Vehicle-mounted sensing and dynamic weight correction during driving.
+    summary: This project develops an on-board mass monitoring workflow for vehicle-mounted sensing and dynamic weight correction during driving.
     tags:
     - Weigh-in-Motion
     detail_tags:
@@ -25,7 +25,7 @@ groups:
   - title: Freight Train Monitoring System
     period: 2024
     href: /projects/freight-train-monitoring/
-    summary: Event-oriented sensing and signal review for freight monitoring.
+    summary: This project develops an event-oriented sensing workflow for freight monitoring and signal review.
     tags:
     - Freight
     - Field Data
@@ -34,7 +34,7 @@ groups:
     period: 2020-2023
     href: /projects/portable-sensing/
     thumbnail: /images/field-sites/prefab-transportation-monitoring/prefab-transportation-monitoring-setup.jpg
-    summary: Portable sensing for precast members during transportation and erection.
+    summary: This project develops a portable sensing system for monitoring precast members during transportation and erection.
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
@@ -47,7 +47,7 @@ groups:
     period: 2021-2024
     href: /projects/bridge-monitoring/
     thumbnail: /images/field-sites/seongsan-bridge/seongsan-bridge-monitoring-installation.png
-    summary: Long-term bridge monitoring using IoT sensors, cloud storage, and dashboards.
+    summary: This project develops a long-term bridge monitoring system using IoT sensors, cloud storage, and dashboards.
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
@@ -57,7 +57,7 @@ groups:
     period: 2020-2024
     href: /projects/bridge-load-capacity/
     thumbnail: /images/field-sites/guro-overpass/guro-overpass-sensor-installation.jpg
-    summary: Field sensing and response interpretation for bridge load testing.
+    summary: This project develops a field sensing system for bridge load testing and load-carrying capacity evaluation.
     tags:
     - Structural Health Monitoring
     - Bridge Load Testing
@@ -65,7 +65,7 @@ groups:
     period: 2020-2023
     href: /projects/qr-lifecycle-monitoring/
     thumbnail: /images/field-sites/choha-cheon-bridge/choha-cheon-bridge-qr-monitoring.jpg
-    summary: QR-linked maintenance records with low-power sensing and cloud reports.
+    summary: This project develops a QR-based bridge maintenance system linking low-power sensing, field records, and cloud reports.
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
@@ -75,7 +75,7 @@ groups:
     period: 2021-2023
     href: /projects/quay-wall-monitoring/
     thumbnail: /images/field-sites/port-quay-wall-monitoring/port-quay-wall-sensor-installation.jpg
-    summary: Quay wall monitoring with ruggedized sensors and event recognition.
+    summary: This project develops a ruggedized multisensory system for quay wall monitoring and event recognition.
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
@@ -87,7 +87,7 @@ groups:
   - title: Smart Concrete Sensing System
     period: 2020-2021
     href: /projects/smart-concrete-sensing/
-    summary: Crack trajectory sensing and long-term measurement visualization.
+    summary: This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
@@ -96,7 +96,7 @@ groups:
   - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
-    summary: Low-cost IoT earthquake sensing with triggering and BLE notification.
+    summary: This project develops a low-cost IoT seismic sensing system with event triggering and BLE notification.
     tags:
     - Wireless Sensing
     detail_tags:
@@ -104,7 +104,7 @@ groups:
   - title: Sewer Monitoring Sensor System
     period: 2020
     href: /projects/sewer-monitoring-sensor/
-    summary: Field-oriented sensing concept for sewer and underground infrastructure monitoring.
+    summary: This project develops a field-oriented sensor concept for sewer and underground infrastructure monitoring.
     tags:
     - Sewer Monitoring
     - IoT

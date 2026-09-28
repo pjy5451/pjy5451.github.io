@@ -8,7 +8,7 @@ project_key: bridge-load-capacity
 
 # Bridge Load-Carrying Capacity Evaluation System
 
-This work supports bridge load testing and load-carrying capacity evaluation through field sensing and response interpretation.
+This project develops a field sensing system for bridge load testing and load-carrying capacity evaluation.
 
 ## Problem
 

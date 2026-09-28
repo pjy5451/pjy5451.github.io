@@ -8,7 +8,7 @@ project_key: quay-wall-monitoring
 
 # Port Structure Monitoring System
 
-Port structure monitoring work focused on multisensory event monitoring for quay wall and waterfront infrastructure.
+This project develops a ruggedized multisensory system for quay wall monitoring and event recognition.
 
 ## Problem
 

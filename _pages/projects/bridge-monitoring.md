@@ -8,7 +8,7 @@ project_key: bridge-monitoring
 
 # Cloud-Based Long-Term Bridge Monitoring System
 
-This project developed long-term bridge monitoring workflows using IoT sensors, cloud infrastructure, and engineering interpretation of field data.
+This project develops a long-term bridge monitoring system using IoT sensors, cloud storage, and dashboards.
 
 ## Problem
 

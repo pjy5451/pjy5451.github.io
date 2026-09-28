@@ -8,7 +8,7 @@ project_key: on-board-mass
 
 # OBM (On-Board Mass) System Development
 
-OBM work focuses on vehicle-mounted sensing and dynamic mass estimation under real operating conditions.
+This project develops an on-board mass monitoring workflow for vehicle-mounted sensing and dynamic weight correction during driving.
 
 ## Problem
 

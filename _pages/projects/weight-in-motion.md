@@ -8,7 +8,7 @@ project_key: weight-in-motion
 
 # High-Speed WIM System Development
 
-High-speed WIM work focuses on acquiring and interpreting vehicle load signals under field driving conditions.
+This project develops a high-speed weigh-in-motion system for load sensing, DAQ, and automatic load-event detection.
 
 ## Problem
 
