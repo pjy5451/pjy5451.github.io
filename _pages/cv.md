@@ -27,7 +27,7 @@ body_class: "page-cv"
   <header class="portfolio-preview__header">
     <div>
       <h2>Portfolio</h2>
-      <p>Selected projects and field experience | Korean</p>
+      <p>Selected projects and field experience | English</p>
     </div>
     <div class="portfolio-preview__actions">
       <a href="/assets/files/Junyoung_Park_Portfolio.pdf" target="_blank" rel="noopener">Open PDF</a>
