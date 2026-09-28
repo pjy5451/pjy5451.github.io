@@ -589,38 +589,6 @@ strong {
   min-height: 252px;
 }
 
-.publication-language {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  margin-top: 10px;
-}
-
-.publication-language__button {
-  min-height: 27px;
-  padding: 3px 11px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--muted);
-  background: var(--button-bg);
-  font: inherit;
-  font-size: 0.72rem;
-  font-weight: 750;
-  cursor: pointer;
-}
-
-.publication-language__button:hover {
-  border-color: var(--link);
-  color: var(--link);
-}
-
-.publication-language__button.is-active {
-  border-color: var(--system);
-  color: #fff;
-  background: var(--system);
-}
-
 .project-index-heading > h2 {
   margin-bottom: 5px;
 }
@@ -1799,6 +1767,9 @@ span.pub__title {
   background: var(--system-soft);
 }
 .publication-patent-toggle[hidden] { display: none; }
+.publication-section--korean {
+  margin-top: 12px;
+}
 .publication-card {
   display: grid;
   grid-template-columns: 205px minmax(0, 1fr);

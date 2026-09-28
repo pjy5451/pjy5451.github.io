@@ -50,6 +50,11 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
   </div>
 </section>
 
+<button class="publication-patent-toggle" type="button" data-pub-expand-korean aria-expanded="false">+ Show other publications (in Korean)</button>
+<section class="publication-section publication-section--korean" data-pub-section data-pub-korean-section hidden>
+  <div class="publication-card-list" data-pub-korean-list></div>
+</section>
+
 <section class="publication-section" data-pub-section>
   <h2 id="patents">Patents</h2>
   <div class="publication-card-list">
@@ -77,10 +82,14 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
     var status = document.querySelector('[data-pub-filter-status]');
     var empty = document.querySelector('[data-pub-empty]');
     var patentToggle = document.querySelector('[data-pub-expand-patents]');
+    var koreanToggle = document.querySelector('[data-pub-expand-korean]');
+    var koreanList = document.querySelector('[data-pub-korean-list]');
+    var koreanSection = document.querySelector('[data-pub-korean-section]');
     if (!input || !items.length) return;
     var activeScope = 'all';
     var activeTopic = 'all';
     var patentsExpanded = false;
+    var koreanExpanded = false;
     var topicTerms = {
       shm: ['structural health monitoring'],
       wireless: ['wireless sensing'],
@@ -109,13 +118,15 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
         var searchText = item.getAttribute('data-pub-search') || '';
         var matches = matchesScope(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
         var isPatent = item.getAttribute('data-pub-kind') === 'patent';
+        var isKorean = item.getAttribute('data-pub-region') === 'korean';
         var hiddenByPatentLimit = false;
         if (matches && isPatent) {
           matchingPatentCount += 1;
           hiddenByPatentLimit = !filteringActive && !patentsExpanded && matchingPatentCount > 2;
         }
-        item.hidden = !matches || hiddenByPatentLimit;
-        if (matches) visibleCount += 1;
+        var hiddenByKoreanLimit = !isPatent && isKorean && !koreanExpanded;
+        item.hidden = !matches || hiddenByPatentLimit || hiddenByKoreanLimit;
+        if (matches && !hiddenByKoreanLimit) visibleCount += 1;
       });
       if (patentToggle) {
         var hiddenPatentCount = Math.max(0, matchingPatentCount - 2);
@@ -123,7 +134,13 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
         patentToggle.textContent = patentsExpanded ? '- Hide other patents' : '+ Show more patents (' + hiddenPatentCount + ')';
         patentToggle.setAttribute('aria-expanded', patentsExpanded ? 'true' : 'false');
       }
-      sections.forEach(function(section) { section.hidden = !section.querySelector('[data-pub-item]:not([hidden])'); });
+      sections.forEach(function(section) {
+        if (section === koreanSection) {
+          section.hidden = !koreanExpanded || !section.querySelector('[data-pub-item]:not([hidden])');
+          return;
+        }
+        section.hidden = !section.querySelector('[data-pub-item]:not([hidden])');
+      });
       var label = 'Filtering by: ' + scopeLabels[activeScope];
       if (activeTopic !== 'all') label += ' + ' + topicLabels[activeTopic];
       if (query) label += ' + search';
@@ -154,6 +171,19 @@ description: "Journal articles, preprints, patents, and research outputs by Juny
       });
     });
     input.addEventListener('input', update);
+    if (koreanList && koreanToggle) {
+      items.forEach(function(item) {
+        if (item.getAttribute('data-pub-kind') === 'article' && item.getAttribute('data-pub-region') === 'korean') koreanList.appendChild(item);
+      });
+      var koreanCount = koreanList.querySelectorAll('[data-pub-kind="article"]').length;
+      koreanToggle.hidden = koreanCount === 0;
+      koreanToggle.addEventListener('click', function() {
+        koreanExpanded = !koreanExpanded;
+        koreanToggle.textContent = koreanExpanded ? '- Hide other publications (in Korean)' : '+ Show other publications (in Korean)';
+        koreanToggle.setAttribute('aria-expanded', koreanExpanded ? 'true' : 'false');
+        update();
+      });
+    }
     if (patentToggle) {
       patentToggle.addEventListener('click', function() {
         patentsExpanded = !patentsExpanded;

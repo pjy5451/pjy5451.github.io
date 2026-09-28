@@ -2,19 +2,21 @@
   var input = document.querySelector('[data-pub-search-input]');
   var scopeButtons = document.querySelectorAll('[data-pub-scope]');
   var topicButtons = document.querySelectorAll('[data-pub-topic]');
-  var regionButtons = document.querySelectorAll('.publication-language [data-pub-region]');
   var items = document.querySelectorAll('[data-pub-kind="article"]');
   var patentItems = document.querySelectorAll('[data-pub-kind="patent"]');
   var sections = document.querySelectorAll('[data-pub-section]');
   var status = document.querySelector('[data-pub-filter-status]');
   var empty = document.querySelector('[data-pub-empty]');
   var patentToggle = document.querySelector('[data-pub-expand-patents]');
+  var koreanToggle = document.querySelector('[data-pub-expand-korean]');
+  var koreanList = document.querySelector('[data-pub-korean-list]');
+  var koreanSection = document.querySelector('[data-pub-korean-section]');
   if (!input || !items.length) return;
 
   var activeScope = 'all';
-  var activeRegion = 'international';
   var activeTopic = 'all';
   var patentsExpanded = false;
+  var koreanExpanded = false;
   var topicTerms = {
     shm: ['structural health monitoring'],
     wireless: ['wireless sensing'],
@@ -37,23 +39,25 @@
     return topicTerms[activeTopic].some(function(term) { return tags.indexOf(term) !== -1; });
   }
 
-  function matchesRegion(item) {
-    return activeRegion === 'all' || item.getAttribute('data-pub-region') === activeRegion;
-  }
-
   function update() {
     var query = input.value.trim().toLowerCase();
     var visibleCount = 0;
     items.forEach(function(item) {
       var searchText = item.getAttribute('data-pub-search') || '';
-      var matches = matchesScope(item) && matchesRegion(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
-      item.hidden = !matches;
-      if (matches) visibleCount += 1;
+      var isKorean = item.getAttribute('data-pub-region') === 'korean';
+      var matches = matchesScope(item) && matchesTopic(item) && (!query || searchText.indexOf(query) !== -1);
+      var visible = matches && (!isKorean || koreanExpanded);
+      item.hidden = !visible;
+      if (visible) visibleCount += 1;
     });
+    if (koreanSection) {
+      koreanSection.hidden = !koreanExpanded || !koreanSection.querySelector('[data-pub-item]:not([hidden])');
+    }
     sections.forEach(function(section) {
+      if (section === koreanSection) return;
       section.hidden = !section.querySelector('[data-pub-item]:not([hidden])');
     });
-    var label = 'Filtering by: ' + (activeRegion === 'all' ? 'All venues' : activeRegion.charAt(0).toUpperCase() + activeRegion.slice(1)) + ' + ' + scopeLabels[activeScope];
+    var label = 'Filtering by: ' + scopeLabels[activeScope];
     if (activeTopic !== 'all') label += ' + ' + topicLabels[activeTopic];
     if (query) label += ' + search';
     if (status) status.textContent = label + ' (' + visibleCount + ')';
@@ -96,19 +100,20 @@
     });
   });
 
-  regionButtons.forEach(function(button) {
-    button.addEventListener('click', function() {
-      activeRegion = button.getAttribute('data-pub-region');
-      regionButtons.forEach(function(candidate) {
-        var active = candidate === button;
-        candidate.classList.toggle('is-active', active);
-        candidate.setAttribute('aria-pressed', active ? 'true' : 'false');
-      });
+  input.addEventListener('input', update);
+  if (koreanList && koreanToggle) {
+    items.forEach(function(item) {
+      if (item.getAttribute('data-pub-region') === 'korean') koreanList.appendChild(item);
+    });
+    var koreanCount = koreanList.querySelectorAll('[data-pub-kind="article"]').length;
+    koreanToggle.hidden = koreanCount === 0;
+    koreanToggle.addEventListener('click', function() {
+      koreanExpanded = !koreanExpanded;
+      koreanToggle.textContent = koreanExpanded ? '- Hide other publications (in Korean)' : '+ Show other publications (in Korean)';
+      koreanToggle.setAttribute('aria-expanded', koreanExpanded ? 'true' : 'false');
       update();
     });
-  });
-
-  input.addEventListener('input', update);
+  }
   if (patentToggle) {
       patentToggle.addEventListener('click', function() {
         patentsExpanded = !patentsExpanded;
