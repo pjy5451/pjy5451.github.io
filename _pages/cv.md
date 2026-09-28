@@ -160,15 +160,30 @@ body_class: "page-cv"
 
 <section class="cv-simple-panel" markdown="1">
 
-## Research Interests
+## Keywords
 
-<div class="cv-interest-chips" aria-label="Research interests">
-  <span>Structural Dynamics</span>
-  <span>Inverse Problems</span>
-  <span>Probabilistic Modeling</span>
-  <span>Structural Reliability</span>
-  <span>Physics-Informed Machine Learning</span>
-  <span>Topology Optimization</span>
+<div class="research-keyword-groups">
+  <div class="research-keyword-group">
+    <span class="research-keyword-group__label">Experience</span>
+    <div class="publication-card__tags" aria-label="Research experience keywords">
+      <span class="publication-card__tag publication-card__tag--blue">Structural Health Monitoring</span>
+      <span class="publication-card__tag publication-card__tag--teal">Wireless Sensing</span>
+      <span class="publication-card__tag publication-card__tag--orange">Weigh-in-Motion</span>
+      <span class="publication-card__tag publication-card__tag--green">Bridge Load Testing</span>
+      <span class="publication-card__tag publication-card__tag--violet">Machine Learning</span>
+    </div>
+  </div>
+  <div class="research-keyword-group">
+    <span class="research-keyword-group__label">Interests</span>
+    <div class="keyword-chips keyword-chips--section keyword-chips--outline" aria-label="Research interest keywords">
+      <span>Structural Dynamics</span>
+      <span>Inverse Problems</span>
+      <span>Probabilistic Modeling</span>
+      <span>Structural Reliability</span>
+      <span>Physics-Informed ML</span>
+      <span>Topology Optimization</span>
+    </div>
+  </div>
 </div>
 
 </section>

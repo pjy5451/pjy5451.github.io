@@ -1314,37 +1314,6 @@ a.inline-action:hover {
   background: color-mix(in srgb, var(--system-soft) 58%, transparent);
 }
 
-.cv-interest-chips {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0 28px;
-  border-top: 1px solid var(--line);
-}
-
-.cv-interest-chips span {
-  display: flex;
-  align-items: center;
-  min-height: 38px;
-  padding: 7px 2px 7px 15px;
-  border-bottom: 1px solid var(--line);
-  color: var(--text);
-  background: transparent;
-  font-size: 0.84rem;
-  font-weight: 700;
-  line-height: 1.25;
-  position: relative;
-}
-
-.cv-interest-chips span::before {
-  position: absolute;
-  left: 2px;
-  width: 5px;
-  height: 5px;
-  background: var(--system);
-  content: "";
-  transform: rotate(45deg);
-}
-
 .recognition-list {
   margin: 4px 0 16px;
   border-top: 1px solid var(--line);
@@ -2791,10 +2760,6 @@ p.field-site-card__label:not(:first-child) {
 
   .cv-simple-panel {
     padding: 22px 0 24px;
-  }
-
-  .cv-interest-chips {
-    grid-template-columns: 1fr;
   }
 
   .cv-document-header {
