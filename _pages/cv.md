@@ -38,7 +38,7 @@ body_class: "page-cv"
             <li>Bridge Design Special Topics</li>
           </ul>
         </div>
-        <div>
+        <div class="coursework-group--orange">
           <h3>Systems and Data</h3>
           <ul class="chip-list chip-list--coursework">
             <li>Linear Control Systems</li>
@@ -79,7 +79,7 @@ body_class: "page-cv"
             <li>Civil Infrastructure Capstone Design</li>
           </ul>
         </div>
-        <div>
+        <div class="coursework-group--orange">
           <h3>Mathematics</h3>
           <ul class="chip-list chip-list--coursework">
             <li>Calculus</li>

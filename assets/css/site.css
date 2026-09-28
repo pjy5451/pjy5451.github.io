@@ -1094,6 +1094,22 @@ a.inline-action:hover {
   font-weight: 700;
 }
 
+.coursework-group--orange h3 {
+  color: #c85612;
+}
+
+.coursework-group--orange .chip-list--coursework li {
+  border-color: #ffcaa7;
+  color: #a94710;
+  background: #fff2e8;
+}
+
+[data-theme="dark"] .coursework-group--orange .chip-list--coursework li {
+  border-color: color-mix(in srgb, #f59e62 55%, var(--line));
+  color: #ffb27d;
+  background: color-mix(in srgb, #c85612 16%, var(--button-bg));
+}
+
 .page-cv .content > h1 {
   margin-bottom: 8px;
 }
