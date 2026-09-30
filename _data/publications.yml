@@ -44,6 +44,8 @@ sections:
   - year: '2026'
     tags:
     - Weigh-in-Motion
+    thumbnail: /images/publications/2026-freight-vehicle-overweight-ratio-by-hour.png
+    thumbnail_alt: Hourly overweight ratios from real-world freight vehicle data, with daytime operating hours highlighted
     title:
       en: Analysis of Freight Vehicle Operation Restriction Violations and Improvement of the Enforcement System Based on Real-World Road Data
       ko: 실도로 데이터 기반 화물차 운행제한 위반 분석 및 단속 체계 개선
