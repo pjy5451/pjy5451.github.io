@@ -32,6 +32,11 @@ Low-cost seismic alert systems need to detect earthquake-like events quickly whi
 - Validated the system using shaking-table tests with multiple input waveforms.
 - Used the project as an early foundation for later IoT sensing and event-triggered monitoring work.
 
+<figure class="project-figure">
+  <img src="/images/projects/seismic-sensing/smart-earthquake-competition.jpg" alt="BLESeis prototype demonstration at the 2019 smart earthquake response competition" loading="lazy">
+  <figcaption>BLESeis prototype demonstration at the 2019 Structural Seismic Design Competition and Smart Earthquake Response Idea Contest.</figcaption>
+</figure>
+
 ## Data / Outputs
 
 - Triggered acceleration records and classification outputs.

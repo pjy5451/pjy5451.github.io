@@ -96,6 +96,7 @@ groups:
   - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
+    thumbnail: /images/projects/seismic-sensing/smart-earthquake-competition.jpg
     summary: This project develops a low-cost IoT seismic sensing system with event triggering and BLE notification.
     tags:
     - Wireless Sensing
