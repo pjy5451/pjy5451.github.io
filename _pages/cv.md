@@ -14,7 +14,7 @@ body_class: "page-cv"
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M5 20h14"></path></svg>
         <span>View CV</span>
       </button>
-      <span class="cv-simple-updated">Updated Sep 2026</span>
+      <span class="cv-simple-updated">Updated Oct 2026</span>
     </div>
     <div class="cv-simple-header__action">
       <button class="cv-portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-preview" data-document-toggle data-open-label="View Portfolio" data-close-label="Hide Portfolio">
