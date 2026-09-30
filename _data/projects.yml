@@ -87,6 +87,7 @@ groups:
   - title: Smart Concrete Sensing System
     period: 2020-2021
     href: /projects/smart-concrete-sensing/
+    thumbnail: /images/projects/smart-concrete-sensing/smart-concrete-sensing-system.jpg
     summary: This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
     tags:
     - Structural Health Monitoring
