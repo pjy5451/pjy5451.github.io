@@ -147,6 +147,8 @@ sections:
   - year: '2024'
     tags:
     - Weigh-in-Motion
+    thumbnail: /images/publications/2024-commercial-vehicle-dynamic-weight-fig7.png
+    thumbnail_alt: Axle-weight and tilt-sensor responses measured during constant-speed curved driving with zero payload
     title:
       en: Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving
       ko: 주행 중 트럭의 동적 상태 정보 측정 시스템 안정성 확보
@@ -166,6 +168,7 @@ sections:
     href:
       en: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
       ko: https://scholar.google.com/citations?view_op=view_citation&hl=en&user=Y00UTgQAAAAJ&citation_for_view=Y00UTgQAAAAJ:0EnyYjriUFMC
+    pdf: /assets/files/publications/2024-ksmt-commercial-vehicle-dynamic-weight-stabilization.pdf
   - year: '2023'
     tags:
     - Structural Health Monitoring
