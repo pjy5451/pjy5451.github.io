@@ -648,6 +648,12 @@ strong {
   object-fit: contain;
 }
 
+.project-index-card__media--compact img {
+  width: 72%;
+  height: 72%;
+  object-fit: contain;
+}
+
 .project-index-card__media span {
   padding: 6px 11px;
   border: 1px solid var(--line);
