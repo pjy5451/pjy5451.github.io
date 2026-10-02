@@ -25,11 +25,14 @@ groups:
   - title: Freight Train Monitoring System
     period: 2024
     href: /projects/freight-train-monitoring/
+    thumbnail: /images/projects/freight-train-monitoring/freight-car-bearing-monitoring.png
     summary: This project develops an event-oriented sensing workflow for freight monitoring and signal review.
     tags:
-    - Freight
-    - Field Data
-    - Safety
+    - Structural Health Monitoring
+    - Wireless Sensing
+    detail_tags:
+    - Freight Rail
+    - Bearing Monitoring
   - title: Prefabricated Structure Transportation Monitoring System
     period: 2020-2023
     href: /projects/portable-sensing/
@@ -88,6 +91,7 @@ groups:
     period: 2020-2021
     href: /projects/smart-concrete-sensing/
     thumbnail: /images/projects/smart-concrete-sensing/smart-concrete-sensing-system.jpg
+    thumbnail_fit: contain
     summary: This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
     tags:
     - Structural Health Monitoring
@@ -106,8 +110,11 @@ groups:
   - title: Sewer Monitoring Sensor System
     period: 2020
     href: /projects/sewer-monitoring-sensor/
+    thumbnail: /images/projects/sewer-monitoring-sensor/smart-city-sensing.svg
+    thumbnail_fit: contain
     summary: This project develops a field-oriented sensor concept for sewer and underground infrastructure monitoring.
     tags:
+    - Wireless Sensing
+    detail_tags:
     - Sewer Monitoring
-    - IoT
-    - Infrastructure
+    - Underground Infrastructure

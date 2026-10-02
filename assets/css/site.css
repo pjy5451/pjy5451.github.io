@@ -640,6 +640,14 @@ strong {
   object-fit: cover;
 }
 
+.project-index-card__media--contain {
+  padding: 8px;
+}
+
+.project-index-card__media--contain img {
+  object-fit: contain;
+}
+
 .project-index-card__media span {
   padding: 6px 11px;
   border: 1px solid var(--line);
