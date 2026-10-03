@@ -16,9 +16,9 @@ Conventional bridge inspection and load testing depend on periodic field campaig
 
 ## My Role
 
-- Developed stand-alone IoT sensing workflows for acceleration and multi-channel strain measurements.
-- Built cloud data pipelines, database storage, and dashboard-oriented monitoring workflows.
-- Reviewed long-term bridge response data and translated measurements into engineering indicators.
+- Worked on developing JANET, our laboratory's wireless sensor node for acceleration and multi-channel strain measurements.
+- Instrumented four in-service bridges and operated cloud data pipelines, database storage, and monitoring dashboards.
+- Tracked natural-frequency histories and evaluated displacement estimates from acceleration-strain data fusion.
 
 ## System / Methods
 
@@ -29,9 +29,9 @@ Conventional bridge inspection and load testing depend on periodic field campaig
 
 ## Field Deployment
 
-- Applied monitoring workflows to actual bridge structures in Korea, including Seosomun Overpass, Paldang Overpass, Cheongdam 1 Bridge, and Seongsan Bridge.
+- Instrumented Seosomun Overpass, Paldang Overpass, Cheongdam 1 Bridge, and Seongsan Bridge.
 - Deployed a cloud-connected Seosomun Overpass field system for three-axis acceleration, multi-channel strain, and temperature measurement.
-- Supported long-term operation, maintenance checks, and sensor reliability improvements under real field conditions.
+- Operated long-term monitoring, performed maintenance checks, and improved sensor reliability under real field conditions.
 
 ## Data / Outputs
 

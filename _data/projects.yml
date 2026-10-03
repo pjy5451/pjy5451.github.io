@@ -12,11 +12,11 @@ groups:
     detail_tags:
     - DAQ
     - Load Detection
-  - title: OBM (On-Board Mass) System Development
+  - title: OBM (On-Board Mass) System Accuracy Improvement
     period: 2024-present
     href: /projects/on-board-mass/
     thumbnail: /images/field-sites/obm-field-validation/obm-vehicle-sensor-installation.jpg
-    summary: This project develops an on-board mass monitoring workflow for vehicle-mounted sensing and dynamic weight correction during driving.
+    summary: This project improves on-board mass estimation accuracy through vehicle-mounted sensing and dynamic weight correction during driving.
     tags:
     - Weigh-in-Motion
     detail_tags:

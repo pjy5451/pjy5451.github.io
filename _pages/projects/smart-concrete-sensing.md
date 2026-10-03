@@ -16,8 +16,8 @@ Smart concrete and self-sensing materials require measurement systems that can c
 
 ## My Role
 
-- Designed sensing and data collection workflows for smart concrete measurement.
-- Supported resistance-change monitoring and signal filtering for material response data.
+- Designed a low-cost multi-channel wireless sensing circuit for resistance measurement.
+- Implemented measurement and filtering workflows to infer loading state from resistance change.
 - Built Python-based recording and visualization workflows for collected data.
 
 ## System / Methods

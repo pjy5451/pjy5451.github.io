@@ -1,14 +1,14 @@
 ---
 layout: default
 permalink: /projects/on-board-mass/
-title: "OBM System Development"
-description: "Project page on OBM system development for vehicle-mounted sensing, dynamic weight correction, field driving validation, and WIM comparison."
+title: "OBM System Accuracy Improvement"
+description: "Project page on improving OBM accuracy through vehicle-mounted sensing, dynamic weight correction, field driving validation, and WIM comparison."
 project_key: on-board-mass
 ---
 
-# OBM (On-Board Mass) System Development
+# OBM (On-Board Mass) System Accuracy Improvement
 
-This project develops an on-board mass monitoring workflow for vehicle-mounted sensing and dynamic weight correction during driving.
+This project improves on-board mass estimation accuracy through vehicle-mounted sensing and dynamic weight correction during driving.
 
 ## Problem
 

@@ -173,7 +173,7 @@ body_class: "page-cv"
   <div class="entry__body">
     <p><strong>Researcher, UDNS</strong></p>
     <ul class="compact-list">
-      <li>Develop high-speed WIM and OBM systems for AI-based freight transportation safety.</li>
+      <li>Work on high-speed WIM development and OBM accuracy improvement for freight transportation safety.</li>
       <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
       <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
     </ul>

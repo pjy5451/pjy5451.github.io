@@ -16,9 +16,9 @@ Bridge load-carrying capacity evaluation requires reliable field measurements, b
 
 ## My Role
 
-- Planned sensing workflows for bridge load tests and field response measurement.
-- Reviewed measured response histories and organized load-related records.
-- Connected portable multimetric sensing data to structural interpretation.
+- Developed a portable multimetric sensing workflow for bridge load tests and field response measurement.
+- Implemented web-based document automation for load-carrying capacity evaluation.
+- Devised automatic load-event interval recognition for continuous capacity assessment.
 
 ## System / Methods
 
@@ -29,8 +29,8 @@ Bridge load-carrying capacity evaluation requires reliable field measurements, b
 
 ## Field Deployment
 
-- Supported field measurement workflows for bridge load testing and load-carrying capacity evaluation.
-- Used practical installation and response-review experience from bridge monitoring projects.
+- Applied the portable sensing workflow in field bridge load tests.
+- Organized acceleration, strain, and displacement-related response records for capacity evaluation.
 
 ## Data / Outputs
 
