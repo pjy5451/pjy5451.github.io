@@ -240,7 +240,6 @@ body_class: "page-cv"
       <span>Probabilistic Modeling</span>
       <span>Structural Reliability</span>
       <span>Physics-Informed ML</span>
-      <span>Topology Optimization</span>
     </div>
   </div>
 </div>
