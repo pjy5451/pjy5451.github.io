@@ -2,28 +2,34 @@
 layout: default
 permalink: /notes/
 title: "Notes"
-description: "Personal notes and reflections by Junyoung Park on research, field testing, engineering workflows, and maintaining a personal research website."
+description: "Dated notes and photographs from Junyoung Park's research, field work, and laboratory experience."
+body_class: "page-notes"
 ---
 
 <h1>Notes</h1>
 
-<p class="note-intro">Short essays and reflections on field work, research practice, and the process of building things.</p>
+<p class="note-intro">Dated records from research, field work, and life in the laboratory.</p>
 
 {% assign english_posts = site.posts | where: "lang", "en" %}
 {% if english_posts.size > 0 %}
-  {% assign field_posts = english_posts | where: "note_group", "field" %}
-  {% assign personal_posts = english_posts | where: "note_group", "personal" %}
+  {% assign posts_by_year = english_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
-  <div class="note-filters" role="group" aria-label="Filter notes">
-    <button class="note-filter is-active" type="button" data-note-filter="all" aria-pressed="true">All <span>{{ english_posts.size }}</span></button>
-    {% if field_posts.size > 0 %}<button class="note-filter" type="button" data-note-filter="field" aria-pressed="false">Field <span>{{ field_posts.size }}</span></button>{% endif %}
-    {% if personal_posts.size > 0 %}<button class="note-filter" type="button" data-note-filter="personal" aria-pressed="false">Personal <span>{{ personal_posts.size }}</span></button>{% endif %}
+  <div class="note-filters" role="group" aria-label="Filter notes by year">
+    <button class="note-filter is-active" type="button" data-note-year="all" aria-pressed="true">All <span>{{ english_posts.size }}</span></button>
+    {% for year in posts_by_year %}
+      <button class="note-filter" type="button" data-note-year="{{ year.name }}" aria-pressed="false">{{ year.name }} <span>{{ year.items.size }}</span></button>
+    {% endfor %}
   </div>
 
   <div class="note-archive">
     {% for post in english_posts %}
-      <article class="note-archive__item" data-note-item data-note-group="{{ post.note_group | default: 'personal' }}">
+      <article class="note-archive__item{% if post.thumbnail %} note-archive__item--with-image{% endif %}" data-note-item data-note-year="{{ post.date | date: '%Y' }}">
         <time class="note-archive__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+        {% if post.thumbnail %}
+          <a class="note-archive__media" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title | escape }}">
+            <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.thumbnail_alt | default: post.title | escape }}" loading="lazy">
+          </a>
+        {% endif %}
         <div class="note-archive__body">
           <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           {% if post.description %}<p>{{ post.description }}</p>{% endif %}
@@ -32,21 +38,21 @@ description: "Personal notes and reflections by Junyoung Park on research, field
       </article>
     {% endfor %}
   </div>
-  <p class="note-empty" data-note-empty hidden>No notes in this category yet.</p>
+  <p class="note-empty" data-note-empty hidden>No notes from this year yet.</p>
 {% else %}
   <p class="note-empty">Notes will be added here.</p>
 {% endif %}
 
 <script>
   (function() {
-    var filters = document.querySelectorAll('[data-note-filter]');
+    var filters = document.querySelectorAll('.note-filters [data-note-year]');
     var items = document.querySelectorAll('[data-note-item]');
     var empty = document.querySelector('[data-note-empty]');
     if (!filters.length || !items.length) return;
 
     filters.forEach(function(button) {
       button.addEventListener('click', function() {
-        var selected = button.getAttribute('data-note-filter');
+        var selected = button.getAttribute('data-note-year');
         var visibleCount = 0;
 
         filters.forEach(function(filter) {
@@ -56,7 +62,7 @@ description: "Personal notes and reflections by Junyoung Park on research, field
         });
 
         items.forEach(function(item) {
-          var isVisible = selected === 'all' || item.getAttribute('data-note-group') === selected;
+          var isVisible = selected === 'all' || item.getAttribute('data-note-year') === selected;
           item.hidden = !isVisible;
           if (isVisible) visibleCount += 1;
         });
