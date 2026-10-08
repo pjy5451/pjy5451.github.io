@@ -4,8 +4,8 @@ title: "After the Seosomun Overpass Collapse"
 date: 2026-05-28 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Field
-note_group: field
+note_category: Personal
+note_group: personal
 description: A short reflection after the tragic collapse at the Seosomun Overpass demolition site in Seoul.
 ---
 
