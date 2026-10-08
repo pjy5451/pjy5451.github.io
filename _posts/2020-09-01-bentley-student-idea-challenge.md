@@ -11,4 +11,6 @@ description: "Top 8 finalist in Bentley Systems' 2020 Digital Infrastructure Stu
 
 Our team was selected as a Top 8 finalist in Bentley Systems' 2020 Digital Infrastructure Student Idea Challenge. The competition drew more than 3,000 registrants from 35 countries and over 300 colleges, universities, and schools.
 
+I presented our project, **Demand-Based Smart Wireless Sensor**, during the finalist presentation.
+
 [Watch the finalist presentation](https://www.youtube.com/watch?v=1Jtoo1zIXxQ)
