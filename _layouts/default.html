@@ -149,6 +149,30 @@
         window.addEventListener('scroll', activateLastSectionAtPageEnd, { passive: true });
         activateLastSectionAtPageEnd();
       })();
+
+      (function() {
+        document.querySelectorAll('[data-note-gallery]').forEach(function(gallery) {
+          var slides = Array.from(gallery.querySelectorAll('[data-note-slide]'));
+          var current = gallery.querySelector('[data-note-gallery-current]');
+          var index = 0;
+          if (slides.length < 2) return;
+
+          function show(nextIndex) {
+            index = (nextIndex + slides.length) % slides.length;
+            slides.forEach(function(slide, slideIndex) {
+              slide.hidden = slideIndex !== index;
+            });
+            if (current) current.textContent = String(index + 1);
+          }
+
+          gallery.querySelector('[data-note-gallery-prev]').addEventListener('click', function() {
+            show(index - 1);
+          });
+          gallery.querySelector('[data-note-gallery-next]').addEventListener('click', function() {
+            show(index + 1);
+          });
+        });
+      })();
     </script>
   </body>
 </html>

@@ -28,19 +28,17 @@ body_class: "page-notes"
   <div class="note-archive">
     {% for post in english_posts %}
       {% assign post_year = post.date | date: "%Y" %}
-      <article class="note-entry" data-note-item data-note-year="{{ post_year }}"{% unless post_year == note_years.first %} hidden{% endunless %}>
-        <header class="note-entry__header">
-          <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
-          {% if post.note_category %}<span class="note-archive__tag">{{ post.note_category }}</span>{% endif %}
-          <h2>{{ post.title }}</h2>
-        </header>
-        {% if post.thumbnail %}
-          <figure class="note-entry__cover">
-            <img src="{{ post.thumbnail | relative_url }}" alt="{{ post.thumbnail_alt | default: post.title | escape }}" loading="lazy">
-          </figure>
-        {% endif %}
-        <div class="note-entry__content">
-          {{ post.content }}
+      <article class="note-entry{% if post.images or post.thumbnail %} note-entry--with-gallery{% endif %}" data-note-item data-note-year="{{ post_year }}"{% unless post_year == note_years.first %} hidden{% endunless %}>
+        {% include note_gallery.html note=post %}
+        <div class="note-entry__body">
+          <header class="note-entry__header">
+            <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+            {% if post.note_category %}<span class="note-archive__tag">{{ post.note_category }}</span>{% endif %}
+            <h2>{{ post.title }}</h2>
+          </header>
+          <div class="note-entry__content">
+            {{ post.content }}
+          </div>
         </div>
       </article>
     {% endfor %}

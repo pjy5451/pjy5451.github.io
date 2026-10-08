@@ -6,15 +6,15 @@ categories: notes
 lang: en
 note_category: Laboratory
 description: "One-sentence summary shown in the Notes list."
-thumbnail: /images/notes/2024/example/cover.jpg
-thumbnail_alt: "Short description of the cover photograph"
+images:
+  - src: /images/notes/2024/example/photo-01.jpg
+    alt: "Short description of the first photograph"
+    caption: "Optional caption for the first photograph."
+  - src: /images/notes/2024/example/photo-02.jpg
+    alt: "Short description of the second photograph"
+    caption: "Optional caption for the second photograph."
 ---
 
 Opening paragraph.
-
-<figure class="content-figure">
-  <img src="/images/notes/2024/example/photo-01.jpg" alt="Description of the research photograph" loading="lazy">
-  <figcaption>What happened, where it took place, and why this moment mattered.</figcaption>
-</figure>
 
 Closing reflection.

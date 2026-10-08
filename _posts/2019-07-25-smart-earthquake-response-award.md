@@ -6,8 +6,10 @@ categories: notes
 lang: en
 note_category: Award
 description: "Grand Prize and Minister of the Interior and Safety Award at the 2019 Smart Earthquake Response Idea Contest."
-thumbnail: /images/projects/seismic-sensing/smart-earthquake-competition.jpg
-thumbnail_alt: "Sensor Guy team prototype presented at the 2019 Smart Earthquake Response Idea Contest"
+images:
+  - src: /images/projects/seismic-sensing/smart-earthquake-competition.jpg
+    alt: "Sensor Guy team prototype presented at the 2019 Smart Earthquake Response Idea Contest"
+    caption: "Prototype demonstration at the 2019 Smart Earthquake Response Idea Contest."
 ---
 
 Our Chung-Ang University team, Sensor Guy, participated in the 2019 Smart Earthquake Response Idea Contest at the Seismic Research and Test Center of Pusan National University. We presented an earthquake notification system using multisensory media and smart sensors.
