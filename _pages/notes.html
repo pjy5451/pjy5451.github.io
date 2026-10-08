@@ -32,7 +32,7 @@ body_class: "page-notes"
         {% include note_gallery.html note=post %}
         <div class="note-entry__body">
           <header class="note-entry__header">
-            <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y.%m.%d" }}</time>
+            <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
             {% if post.note_category %}<span class="note-archive__tag">{{ post.note_category }}</span>{% endif %}
             <h2>{{ post.title }}</h2>
           </header>

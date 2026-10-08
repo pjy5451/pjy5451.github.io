@@ -1,7 +1,8 @@
 ---
 layout: note
 title: "Excellence Award at the 12th LH Land Development Technology Competition"
-date: 2021-12-01 00:00:00 +0900
+date: 2021-11-01 00:00:00 +0900
+display_date: "2021.11"
 categories: notes
 lang: en
 note_category: Award

@@ -1,7 +1,8 @@
 ---
 layout: note
 title: "Innovation Award at Smart Construction Challenge 2021"
-date: 2021-12-01 00:00:00 +0900
+date: 2021-11-01 00:00:00 +0900
+display_date: "2021.11"
 categories: notes
 lang: en
 note_category: Award
