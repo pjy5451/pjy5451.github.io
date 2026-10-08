@@ -2648,9 +2648,16 @@ p.field-site-card__label:not(:first-child) {
 
 .note-entry__date {
   grid-column: 1;
-  color: var(--muted);
-  font-size: 0.82rem;
+  justify-self: start;
+  padding: 3px 8px;
+  border: 1px solid var(--chip-border);
+  border-radius: 4px;
+  color: var(--system);
+  background: var(--system-soft);
+  font-size: 0.78rem;
+  font-weight: 750;
   font-variant-numeric: tabular-nums;
+  line-height: 1.35;
 }
 
 .note-entry__header h2 {
@@ -2671,6 +2678,49 @@ p.field-site-card__label:not(:first-child) {
 .note-entry__content > :last-child,
 .note-page__content > :last-child {
   margin-bottom: 0;
+}
+
+.note-entry__content > p:last-child > a:only-child,
+.note-page__content > p:last-child > a:only-child {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 34px;
+  margin-top: 6px;
+  padding: 6px 11px;
+  border: 1px solid #162033;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #162033;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.note-entry__content > p:last-child > a:only-child::after,
+.note-page__content > p:last-child > a:only-child::after {
+  content: "\2197";
+  font-size: 0.92rem;
+}
+
+.note-entry__content > p:last-child > a:only-child:hover,
+.note-page__content > p:last-child > a:only-child:hover {
+  border-color: var(--link);
+  color: #ffffff;
+  background: var(--link);
+  text-decoration: none;
+}
+
+html[data-theme="dark"] .note-entry__content > p:last-child > a:only-child,
+html[data-theme="dark"] .note-page__content > p:last-child > a:only-child {
+  border-color: #3b82c4;
+  background: #2b659a;
+}
+
+html[data-theme="dark"] .note-entry__content > p:last-child > a:only-child:hover,
+html[data-theme="dark"] .note-page__content > p:last-child > a:only-child:hover {
+  border-color: #66a7e3;
+  background: #3478b6;
 }
 
 .note-gallery {
@@ -2779,8 +2829,15 @@ p.field-site-card__label:not(:first-child) {
 }
 
 .note-page__header time {
-  color: var(--muted);
-  font-size: 0.88rem;
+  justify-self: start;
+  padding: 4px 9px;
+  border: 1px solid var(--chip-border);
+  border-radius: 4px;
+  color: var(--system);
+  background: var(--system-soft);
+  font-size: 0.82rem;
+  font-weight: 750;
+  line-height: 1.35;
 }
 
 .note-page__back {
