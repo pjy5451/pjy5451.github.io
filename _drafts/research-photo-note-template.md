@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: "Note title"
 date: 2024-01-01 00:00:00 +0900
 categories: notes
@@ -9,10 +9,6 @@ description: "One-sentence summary shown in the Notes list."
 thumbnail: /images/notes/2024/example/cover.jpg
 thumbnail_alt: "Short description of the cover photograph"
 ---
-
-# Note title
-
-<p class="note-date">January 1, 2024</p>
 
 Opening paragraph.
 

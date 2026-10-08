@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: note
 title: "After the Seosomun Overpass Collapse"
 date: 2026-05-28 00:00:00 +0900
 categories: notes
@@ -8,10 +8,6 @@ note_category: Field
 note_group: field
 description: A short reflection after the tragic collapse at the Seosomun Overpass demolition site in Seoul.
 ---
-
-# After the Seosomun Overpass Collapse
-
-<p class="note-date">May 28, 2026</p>
 
 A few days ago, I heard the tragic news about the collapse at the Seosomun Overpass demolition site in Seoul, where three people lost their lives and three others were injured during a safety inspection.
 
