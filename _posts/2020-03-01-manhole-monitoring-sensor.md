@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Manhole Monitoring Sensor"
+title: "Manhole Water-Level and Odor Sensor"
 date: 2020-03-01 00:00:00 +0900
 display_date: "2020.03"
 categories: notes
