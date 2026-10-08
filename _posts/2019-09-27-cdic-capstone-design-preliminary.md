@@ -6,6 +6,8 @@ categories: notes
 lang: en
 note_category: Competition
 description: "Selected to represent Chung-Ang University at the preliminary round of the CDIC Capstone Design Competition."
+images:
+  - { src: /images/notes/2019/cdic-capstone-design-preliminary/1569511355809-1.jpg, alt: "CDIC Capstone Design preliminary presentation in 2019" }
 ---
 
 I participated in the preliminary round of the Capstone Design Competition organized by the Chung-Ang University Doosan Infracore Cooperation Center (CDIC) on September 27, 2019.
