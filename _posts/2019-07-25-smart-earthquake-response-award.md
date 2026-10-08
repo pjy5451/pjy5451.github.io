@@ -11,6 +11,14 @@ images:
     alt: "Sensor Guy team prototype presented at the 2019 Smart Earthquake Response Idea Contest"
   - src: /images/notes/2019/smart-earthquake-response/sensor-guy-minister-award.jpg
     alt: "Four Sensor Guy team members holding the Grand Prize and Minister of the Interior and Safety Award"
+  - src: /images/notes/2019/smart-earthquake-response/contest-demonstration-board.png
+    alt: "Multiple earthquake sensing prototypes mounted on the contest demonstration board"
+  - src: /images/notes/2019/smart-earthquake-response/prototype-bench-setup.png
+    alt: "Earthquake sensing and notification prototype assembled on a laboratory bench"
+  - src: /images/notes/2019/smart-earthquake-response/sensor-prototype-enclosure.png
+    alt: "Arduino-based earthquake sensor prototype installed inside a compact enclosure"
+  - src: /images/notes/2019/smart-earthquake-response/indoor-notification-test.png
+    alt: "Indoor test of the earthquake sensing and map-based notification system"
 ---
 
 Our Chung-Ang University team, Sensor Guy, participated in the 2019 Smart Earthquake Response Idea Contest at the Seismic Research and Test Center of Pusan National University. We presented an earthquake notification system using multisensory media and smart sensors.
