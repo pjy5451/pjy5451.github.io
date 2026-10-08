@@ -1,8 +1,7 @@
 ---
 layout: note
 title: "Hyeeum Scholarship"
-date: 2019-11-01 00:00:00 +0900
-display_date: "2019.11"
+date: 2019-11-29 00:00:00 +0900
 categories: notes
 lang: en
 note_category: Scholarship
