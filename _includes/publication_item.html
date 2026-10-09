@@ -42,7 +42,7 @@
   data-pub-region="{{ item_region }}"
   data-pub-tags="{{ item_tags | escape }}"
   data-pub-search="{{ item_search | strip_newlines | downcase | escape }}">
-  <div class="publication-card__media">
+  <div class="publication-card__media{% if item.thumbnail_fit == 'full' %} publication-card__media--full{% endif %}">
     {% if item.thumbnail %}
       <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.thumbnail_alt | default: item_title | escape }}" loading="lazy">
     {% else %}

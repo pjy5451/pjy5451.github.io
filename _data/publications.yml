@@ -65,6 +65,7 @@ sections:
     - Digital Twin
     thumbnail: /images/publications/2027-low-power-multichannel-strain-digital-twin.png
     thumbnail_alt: Workflow for multichannel strain sensing, QR-based data storage, cloud displacement conversion, and digital-twin shape visualization
+    thumbnail_fit: full
     title:
       en: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
       ko: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
@@ -492,6 +493,19 @@ sections:
     en: Conference Presentations
     ko: Conference Presentations
   entries:
+  - year: '2026'
+    tags:
+    - WIM
+    - Machine Learning
+    title:
+      en: "AI-WIM-Based Detection of Suspected Overweight Vehicles at Highway Speeds: Real-Road Validation and Performance Evaluation"
+      ko: "AI-WIM-Based Detection of Suspected Overweight Vehicles at Highway Speeds: Real-Road Validation and Performance Evaluation"
+    authors:
+      en: <strong>Junyoung Park</strong>
+      ko: <strong>Junyoung Park</strong>
+    venue:
+      en: Korean Society of Civil Engineers. Domestic conference presentation, 2026-10-22.
+      ko: Korean Society of Civil Engineers. Domestic conference presentation, 2026-10-22.
   - year: '2027'
     tags:
     - WIM

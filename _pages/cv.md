@@ -37,7 +37,7 @@ body_class: "page-cv"
       <a href="/assets/files/Junyoung_Park_CV.pdf" download>Download</a>
     </div>
   </header>
-  <iframe title="Junyoung Park CV PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_CV.pdf#view=FitH" loading="lazy"></iframe>
+  <iframe title="Junyoung Park CV PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_CV.pdf#view=FitH" data-mobile-src="https://docs.google.com/gview?embedded=1&amp;url=https%3A%2F%2Fpjy5451.github.io%2Fassets%2Ffiles%2FJunyoung_Park_CV.pdf" loading="lazy"></iframe>
 </section>
 
 <section class="portfolio-preview" id="portfolio-preview" data-portfolio-preview hidden>
@@ -51,7 +51,7 @@ body_class: "page-cv"
       <a href="/assets/files/Junyoung_Park_Portfolio.pdf" download>Download</a>
     </div>
   </header>
-  <iframe title="Junyoung Park portfolio PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_Portfolio.pdf#view=FitH" loading="lazy"></iframe>
+  <iframe title="Junyoung Park portfolio PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_Portfolio.pdf#view=FitH" data-mobile-src="https://docs.google.com/gview?embedded=1&amp;url=https%3A%2F%2Fpjy5451.github.io%2Fassets%2Ffiles%2FJunyoung_Park_Portfolio.pdf" loading="lazy"></iframe>
 </section>
 
 <section class="cv-simple-panel" markdown="1">
@@ -158,7 +158,12 @@ body_class: "page-cv"
         toggle.setAttribute('aria-expanded', expanded ? 'false' : 'true');
         toggle.querySelector('span').textContent = expanded ? toggle.getAttribute('data-open-label') : toggle.getAttribute('data-close-label');
         preview.hidden = expanded;
-        if (!expanded && !frame.src) frame.src = frame.getAttribute('data-src');
+        if (!expanded && !frame.src) {
+          var mobileSource = frame.getAttribute('data-mobile-src');
+          frame.src = window.matchMedia('(max-width: 620px)').matches && mobileSource
+            ? mobileSource
+            : frame.getAttribute('data-src');
+        }
       });
     });
   })();
