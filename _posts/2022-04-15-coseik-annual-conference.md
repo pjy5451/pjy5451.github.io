@@ -11,4 +11,4 @@ images:
     alt: "JANET research presentation at the 2022 COSEIK Annual Conference"
 ---
 
-I participated in the 2022 COSEIK Annual Conference in Jeju on April 15, 2022.
+I participated in the COSEIK Annual Conference in Jeju.

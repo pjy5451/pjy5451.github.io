@@ -8,6 +8,6 @@ note_category: Competition
 description: "X-Corps preliminary presentation on an IoT sensing and cloud-based solution for data-driven bridge field inspection."
 ---
 
-As team lead, I participated in the X-Corps preliminary presentation on November 2, 2023.
+As team lead, I participated in the X-Corps preliminary presentation.
 
 Our project was **Bridge IoT Sensing and Cloud-Based Solution for Data-Driven Field Inspection**.

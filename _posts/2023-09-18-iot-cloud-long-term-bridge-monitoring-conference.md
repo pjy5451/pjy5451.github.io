@@ -8,6 +8,6 @@ note_category: Conference
 description: "Presentation in the YES (Young Engineer's Session) at the Korean Institute of Bridge and Structural Engineers on September 18, 2023."
 ---
 
-I presented this work in the **YES (Young Engineer's Session)** at the Korean Institute of Bridge and Structural Engineers (KIBSE) on September 18, 2023.
+I presented this work in the **YES (Young Engineer's Session)** at the Korean Institute of Bridge and Structural Engineers (KIBSE).
 
 **Authors:** **Junyoung Park**

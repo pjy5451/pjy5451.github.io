@@ -9,4 +9,4 @@ permalink: /notes/pre-scholarship-spring-2020/
 description: "Received the PRE Scholarship from the Chung-Ang University College of Engineering for the Spring 2020 semester."
 ---
 
-I received the PRE Scholarship from the Chung-Ang University College of Engineering for the Spring 2020 semester.
+I received the PRE Scholarship from the Chung-Ang University College of Engineering for the spring semester.

@@ -9,4 +9,4 @@ permalink: /notes/pre-scholarship-fall-2021/
 description: "Received the PRE Scholarship from the Chung-Ang University College of Engineering for the Fall 2021 semester."
 ---
 
-I received the PRE Scholarship from the Chung-Ang University College of Engineering for the Fall 2021 semester.
+I received the PRE Scholarship from the Chung-Ang University College of Engineering for the fall semester.

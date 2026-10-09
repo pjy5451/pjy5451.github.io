@@ -8,4 +8,4 @@ note_category: Academic
 description: "Master's thesis defense on December 9, 2023."
 ---
 
-I presented and defended my master's thesis on December 9, 2023.
+I presented and defended my master's thesis.

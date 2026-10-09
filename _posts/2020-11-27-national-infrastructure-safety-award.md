@@ -11,7 +11,7 @@ images:
     alt: "Banseok Engineering team members at the 2020 National Infrastructure Safety Competition"
 ---
 
-Our Banseok Engineering team received the Top Excellence Award in the Best Practice category at the 2020 National Infrastructure Safety Competition. The award was presented as the Korea Infrastructure Safety Corporation Chairman's Award.
+Our Banseok Engineering team received the Top Excellence Award in the Best Practice category at the National Infrastructure Safety Competition. The award was presented as the Korea Infrastructure Safety Corporation Chairman's Award.
 
 We presented a case study in which JANET, our laboratory's smart sensor node, was installed on an in-service railway bridge for long-term monitoring. The work used acceleration and strain measurements to estimate bridge displacement and analyze structural response, with data transmitted through a low-power LTE network to a cloud server for remote access.
 

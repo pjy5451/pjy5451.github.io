@@ -9,4 +9,4 @@ permalink: /notes/academic-excellence-scholarship-spring-2019/
 description: "Academic Excellence Scholarship from Chung-Ang University for the Spring 2019 semester."
 ---
 
-I received the Academic Excellence Scholarship from Chung-Ang University for the Spring 2019 semester.
+I received the Academic Excellence Scholarship from Chung-Ang University for the spring semester.

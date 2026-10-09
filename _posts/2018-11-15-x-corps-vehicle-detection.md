@@ -15,6 +15,6 @@ images:
     alt: "Raspberry Pi used for data collection in the X-Corps motion detection project"
 ---
 
-In 2018, I participated in an on-campus X-Corps research team at Chung-Ang University. I worked on YOLO-based vehicle detection to identify vehicles in road scenes and examine how the detected traffic conditions could support congestion monitoring.
+I participated in an on-campus X-Corps research team at Chung-Ang University. I worked on YOLO-based vehicle detection to identify vehicles in road scenes and examine how the detected traffic conditions could support congestion monitoring.
 
-On November 15, 2018, I presented the project through a poster on AI-based road congestion modeling. The work explored vehicle detection, Raspberry Pi-based data collection, and traffic-state classification.
+I presented the project through a poster on AI-based road congestion modeling. The work explored vehicle detection, Raspberry Pi-based data collection, and traffic-state classification.

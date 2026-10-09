@@ -12,4 +12,4 @@ images:
     alt: "Team members with the JANET sensor after receiving the College of Engineering Dean's Award"
 ---
 
-Our team presented **Bridge Maintenance System Using IoT Sensors** at the 2020 CAU Engineering Academic Festival and received the College of Engineering Dean's Award.
+Our team presented **Bridge Maintenance System Using IoT Sensors** at the CAU Engineering Academic Festival and received the College of Engineering Dean's Award.

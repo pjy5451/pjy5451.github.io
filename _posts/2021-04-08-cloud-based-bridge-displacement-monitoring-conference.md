@@ -11,6 +11,6 @@ images:
     alt: "Presentation on cloud-based bridge displacement monitoring at the 2021 COSEIK Annual Conference"
 ---
 
-I presented this work at the Computational Structural Engineering Institute of Korea on April 8, 2021.
+I presented this work at the Computational Structural Engineering Institute of Korea.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jongbin Won, Jong-Woong Park, Minyong Park

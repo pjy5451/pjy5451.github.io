@@ -11,6 +11,6 @@ images:
     alt: "SeAH Haiam Academic Scholarship Foundation logo"
 ---
 
-I received a two-year full-tuition scholarship from the SeAH Haiam Academic Scholarship Foundation beginning in March 2020.
+I received a two-year full-tuition scholarship from the SeAH Haiam Academic Scholarship Foundation.
 
 [Read the related news article](https://www.sisaon.co.kr/news/articleView.html?idxno=114072)

@@ -10,6 +10,6 @@ images:
   - { src: /images/news/2019/x-corps-earthquake-monitoring-final/1575004878734-1.jpg, alt: "X-Corps earthquake monitoring final presentation in 2019" }
 ---
 
-Our team was selected to represent Chung-Ang University at the X-Corps final presentation on November 29, 2019.
+Our team was selected to represent Chung-Ang University at the X-Corps final presentation.
 
 We presented **Effective Earthquake Monitoring System Using Smart Sensors and IoT**.

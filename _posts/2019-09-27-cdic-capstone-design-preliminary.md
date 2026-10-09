@@ -10,6 +10,6 @@ images:
   - { src: /images/news/2019/cdic-capstone-design-preliminary/1569511355809-1.jpg, alt: "CDIC Capstone Design preliminary presentation in 2019" }
 ---
 
-I participated in the preliminary round of the Capstone Design Competition organized by the Chung-Ang University Doosan Infracore Cooperation Center (CDIC) on September 27, 2019.
+I participated in the preliminary round of the Capstone Design Competition organized by the Chung-Ang University Doosan Infracore Cooperation Center (CDIC).
 
 Our project, **Smart Earthquake Notification System Using Multisensory Media and Beacon Functionality**, was selected to represent Chung-Ang University.

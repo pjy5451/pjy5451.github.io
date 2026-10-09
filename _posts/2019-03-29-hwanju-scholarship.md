@@ -15,7 +15,7 @@ images:
     alt: "Hwanju Scholarship presentation ceremony at Chung-Ang University"
 ---
 
-I was selected as one of five recipients of the Hwanju Scholarship for the Spring 2019 semester at Chung-Ang University.
+I was selected as one of five recipients of the Hwanju Scholarship for the spring semester at Chung-Ang University.
 
 The scholarship was established by a Chung-Ang University alumnus to support students in continuing their studies.
 

@@ -11,6 +11,6 @@ images:
     alt: "Presentation on acceleration-strain-based displacement estimation at the 2022 KSNVE conference"
 ---
 
-I presented this work at the COSEIK and KSNVE annual conferences in 2022, including the KSNVE presentation on May 26, 2022.
+I presented this work at the COSEIK and KSNVE annual conferences.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

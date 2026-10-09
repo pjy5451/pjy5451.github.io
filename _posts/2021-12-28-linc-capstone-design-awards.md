@@ -8,6 +8,6 @@ note_category: Award
 description: "Excellence and Popularity Awards at Chung-Ang University's 2021 LINC+ Capstone Design Awards."
 ---
 
-I received the Excellence Award and Popularity Award at Chung-Ang University's 2021 LINC+ Capstone Design Awards on December 28, 2021.
+I received the Excellence Award and Popularity Award at Chung-Ang University's LINC+ Capstone Design Awards.
 
 Our project was **Cloud-Based IoT Monitoring System for 3D Displacement Measurement of Bridge Bearings**.

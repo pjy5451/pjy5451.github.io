@@ -9,4 +9,4 @@ note_category: Award
 description: "Team leadership and an award in the 2023 Carbon Neutrality ESG Future-Leading X-Corps program."
 ---
 
-I led a team in the 2023 Carbon Neutrality ESG Future-Leading X-Corps program and received an award.
+I led a team in the Carbon Neutrality ESG Future-Leading X-Corps program and received an award.

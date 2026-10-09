@@ -8,6 +8,6 @@ note_category: Conference
 description: "Domestic conference presentation at the Korea Institute for Structural Maintenance and Inspection on October 12, 2023."
 ---
 
-I presented this work at the Korea Institute for Structural Maintenance and Inspection on October 12, 2023.
+I presented this work at the Korea Institute for Structural Maintenance and Inspection.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

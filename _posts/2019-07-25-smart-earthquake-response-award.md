@@ -21,7 +21,7 @@ images:
     alt: "Indoor test of the earthquake sensing and map-based notification system"
 ---
 
-Our Chung-Ang University team, Sensor Guy, participated in the 2019 Smart Earthquake Response Idea Contest at the Seismic Research and Test Center of Pusan National University. We presented an earthquake notification system using multisensory media and smart sensors.
+Our Chung-Ang University team, Sensor Guy, participated in the Smart Earthquake Response Idea Contest at the Seismic Research and Test Center of Pusan National University. We presented an earthquake notification system using multisensory media and smart sensors.
 
 The project received the Grand Prize, presented as the Minister of the Interior and Safety Award. This experience later became part of our continued work on low-cost sensing and earthquake event notification.
 

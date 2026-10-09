@@ -9,4 +9,4 @@ note_category: Conference
 description: "Scheduled presentation at the KSCE 2026 Convention on October 22, 2026."
 ---
 
-I will present this work at the KSCE 2026 Convention on October 22, 2026.
+I will present this work at the KSCE Convention.

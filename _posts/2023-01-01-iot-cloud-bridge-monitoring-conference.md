@@ -9,6 +9,6 @@ note_category: Conference
 description: "Domestic conference presentation at the Korean Society for Noise and Vibration Engineering in 2023."
 ---
 
-I presented this work at the Korean Society for Noise and Vibration Engineering in 2023.
+I presented this work at the Korean Society for Noise and Vibration Engineering.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

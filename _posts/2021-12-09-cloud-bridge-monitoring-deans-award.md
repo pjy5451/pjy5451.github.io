@@ -8,4 +8,4 @@ note_category: Award
 description: "College of Engineering Dean's Award for a cloud-based long-term bridge monitoring system on December 9, 2021."
 ---
 
-I received the College of Engineering Dean's Award on December 9, 2021, for **Cloud-Based Long-Term Bridge Monitoring System**.
+I received the College of Engineering Dean's Award for **Cloud-Based Long-Term Bridge Monitoring System**.
