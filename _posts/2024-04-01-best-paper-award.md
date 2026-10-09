@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Best Paper Award from the Korea Institute for Structural Maintenance and Inspection"
+title: "Best Paper Award"
 date: 2024-04-01 00:00:00 +0900
 display_date: "2024.04"
 categories: notes

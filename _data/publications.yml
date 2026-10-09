@@ -63,6 +63,8 @@ sections:
     - Structural Health Monitoring
     detail_tags:
     - Digital Twin
+    thumbnail: /images/publications/2027-low-power-multichannel-strain-digital-twin.png
+    thumbnail_alt: Workflow for multichannel strain sensing, QR-based data storage, cloud displacement conversion, and digital-twin shape visualization
     title:
       en: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
       ko: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin

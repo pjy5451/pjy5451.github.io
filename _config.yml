@@ -6,6 +6,7 @@ baseurl: ""
 repository: "pjy5451/pjy5451.github.io"
 timezone: Asia/Seoul
 locale: "en-US"
+future: true
 
 author:
   name: "Junyoung Park"
