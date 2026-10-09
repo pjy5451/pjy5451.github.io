@@ -4,9 +4,11 @@
   var items = document.querySelectorAll('[data-project-item]');
   var status = document.querySelector('[data-project-status]');
   var empty = document.querySelector('[data-project-empty]');
+  var otherToggle = document.querySelector('[data-project-expand-other]');
   if (!input || !items.length) return;
 
   var activeTopic = 'all';
+  var otherExpanded = false;
   var topicTerms = {
     shm: ['structural health monitoring'],
     wireless: ['wireless sensing'],
@@ -26,7 +28,8 @@
     var visibleCount = 0;
     items.forEach(function(item) {
       var searchText = item.getAttribute('data-project-search') || '';
-      var visible = matchesTopics(item) && (!query || searchText.indexOf(query) !== -1);
+      var isOther = item.hasAttribute('data-project-other');
+      var visible = (!isOther || otherExpanded) && matchesTopics(item) && (!query || searchText.indexOf(query) !== -1);
       item.hidden = !visible;
       if (visible) visibleCount += 1;
     });
@@ -50,5 +53,13 @@
     });
   });
   input.addEventListener('input', update);
+  if (otherToggle) {
+    otherToggle.addEventListener('click', function() {
+      otherExpanded = !otherExpanded;
+      otherToggle.setAttribute('aria-expanded', otherExpanded ? 'true' : 'false');
+      otherToggle.textContent = otherExpanded ? '- Hide other projects' : '+ Show other projects';
+      update();
+    });
+  }
   update();
 })();

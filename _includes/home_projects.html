@@ -27,7 +27,7 @@
           {% assign matching_funding = site.data.project_funding.entries | where: "key", project_key %}
           {% assign project_funding = matching_funding | first %}
           {% capture project_search %}{{ project.title }} {{ project.summary }} {{ project.period }} {{ project.tags | join: " " }} {{ project.detail_tags | join: " " }} {{ group.title }}{% if project_funding %}{% for funder in project_funding.funders %} {{ funder.name }}{% endfor %}{% endif %}{% endcapture %}
-          <article class="project-index-card" data-project-item data-project-tags="{{ project_tags | escape }}" data-project-search="{{ project_search | strip_newlines | downcase | escape }}">
+          <article class="project-index-card" data-project-item data-project-tags="{{ project_tags | escape }}" data-project-search="{{ project_search | strip_newlines | downcase | escape }}"{% if group.title == "Other Projects" %} data-project-other hidden{% endif %}>
             <div class="project-index-card__media{% if project.thumbnail_fit == 'contain' %} project-index-card__media--contain{% elsif project.thumbnail_fit == 'compact' %} project-index-card__media--compact{% endif %}">
               {% if project.thumbnail %}
                 <img src="{{ project.thumbnail | relative_url }}" alt="" loading="lazy">
@@ -58,6 +58,7 @@
       {% endfor %}
     {% endfor %}
   </div>
+  <button class="publication-patent-toggle project-other-toggle" type="button" data-project-expand-other aria-expanded="false">+ Show other projects</button>
   <p class="publication-empty" data-project-empty hidden>No projects match these filters.</p>
 </section>
 

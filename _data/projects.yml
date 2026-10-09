@@ -76,17 +76,6 @@ groups:
     - Port Monitoring
 - title: Smart Sensing Systems
   projects:
-  - title: Smart Concrete Sensing System
-    period: 2020-2021
-    href: /projects/smart-concrete-sensing/
-    thumbnail: /images/projects/smart-concrete-sensing/smart-concrete-sensing-system.jpg
-    thumbnail_fit: compact
-    summary: This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
-    tags:
-    - Structural Health Monitoring
-    - Wireless Sensing
-    detail_tags:
-    - Crack Sensing
   - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
@@ -98,6 +87,17 @@ groups:
     - Seismic Analysis
 - title: Other Projects
   projects:
+  - title: Smart Concrete Sensing System
+    period: 2020-2021
+    href: /projects/smart-concrete-sensing/
+    thumbnail: /images/projects/smart-concrete-sensing/smart-concrete-sensing-system.jpg
+    thumbnail_fit: compact
+    summary: This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
+    tags:
+    - Structural Health Monitoring
+    - Wireless Sensing
+    detail_tags:
+    - Crack Sensing
   - title: Freight Train Monitoring System
     period: 2024
     href: /projects/freight-train-monitoring/
