@@ -257,12 +257,18 @@ Explain how this changes the way I think about monitoring, sensing, or analysis.
 - Author, title, venue, year.
 ```
 
-## Where To Put Images For Notes And Study
+## Where To Put Images For News, Research Log, And Study
 
-Put note images under:
+Put News images under:
 
 ```text
-images/notes/<post-slug>/
+images/news/<year>/<post-slug>/
+```
+
+Put Development and Field Work images under:
+
+```text
+images/research-log/<year>/<post-slug>/
 ```
 
 Put study images under:
@@ -274,7 +280,8 @@ images/study/<post-slug>/
 Examples:
 
 ```text
-images/notes/bridge-monitoring-reflection/site-photo.jpg
+images/news/2026/bridge-monitoring-reflection/site-photo.jpg
+images/research-log/2023/bridge-monitoring-installation/site-photo.jpg
 images/study/structural-dynamics-notes/modal-response.png
 ```
 

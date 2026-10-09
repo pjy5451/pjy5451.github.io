@@ -7,7 +7,7 @@ lang: en
 note_category: Award
 description: "Top Excellence Award for the Banseok Engineering team's long-term railway bridge monitoring case study using JANET."
 images:
-  - src: /images/notes/2020/facility-safety-competition/banseok-engineering-team-award.png
+  - src: /images/news/2020/national-infrastructure-safety-award/banseok-engineering-team-award.png
     alt: "Banseok Engineering team members at the 2020 National Infrastructure Safety Competition"
 ---
 

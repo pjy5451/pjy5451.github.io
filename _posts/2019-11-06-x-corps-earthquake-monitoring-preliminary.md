@@ -7,7 +7,7 @@ lang: en
 note_category: Competition
 description: "Preliminary X-Corps presentation on an earthquake monitoring system using smart sensors and IoT."
 images:
-  - { src: /images/notes/2019/x-corps-earthquake-monitoring-preliminary/1573051787860-2.jpg, alt: "X-Corps earthquake monitoring preliminary presentation in 2019" }
+  - { src: /images/news/2019/x-corps-earthquake-monitoring-preliminary/1573051787860-2.jpg, alt: "X-Corps earthquake monitoring preliminary presentation in 2019" }
 ---
 
 I participated in the X-Corps preliminary presentation on November 6, 2019.

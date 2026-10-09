@@ -8,9 +8,9 @@ lang: en
 note_category: Award
 description: "Grand Prize and Korea Institute for Advancement of Technology President's Award at the AI Object Detection Hackathon."
 images:
-  - src: /images/notes/2018/engineering-festival-hackathon/grand-prize-team-blurred.png
+  - src: /images/news/2018/engineering-festival-hackathon/grand-prize-team-blurred.png
     alt: "Grand Prize team at the 2018 Engineering Festival AI Object Detection Hackathon, with other team members' faces blurred"
-  - src: /images/notes/2018/engineering-festival-hackathon/object-detection-demo.jpg
+  - src: /images/news/2018/engineering-festival-hackathon/object-detection-demo.jpg
     alt: "Real-time object detection demonstration at the 2018 Engineering Festival hackathon"
 ---
 

@@ -7,11 +7,11 @@ lang: en
 note_category: Scholarship
 description: "Selected as one of five recipients of the Hwanju Scholarship at Chung-Ang University."
 images:
-  - src: /images/notes/2019/hwanju-scholarship/scholarship-recipients.jpg
+  - src: /images/news/2019/hwanju-scholarship/scholarship-recipients.jpg
     alt: "Hwanju Scholarship recipients and university representatives at Chung-Ang University"
-  - src: /images/notes/2019/hwanju-scholarship/scholarship-ceremony-students.jpg
+  - src: /images/news/2019/hwanju-scholarship/scholarship-ceremony-students.jpg
     alt: "Students attending the 2019 Hwanju Scholarship ceremony"
-  - src: /images/notes/2019/hwanju-scholarship/scholarship-ceremony-room.jpg
+  - src: /images/news/2019/hwanju-scholarship/scholarship-ceremony-room.jpg
     alt: "Hwanju Scholarship presentation ceremony at Chung-Ang University"
 ---
 

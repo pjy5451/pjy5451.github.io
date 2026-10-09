@@ -6,6 +6,9 @@ categories: notes
 lang: en
 note_category: Conference
 description: "Domestic conference presentation at the Korean Society of Civil Engineers on November 14, 2025."
+images:
+  - src: /images/news/2025/cloud-enforcement-platform-conference/photo_2026-10-09_15-44-47.jpg
+    alt: "Presentation on the cloud-based integrated enforcement platform at the 2025 Korean Society of Civil Engineers conference"
 ---
 
 I presented this work at the Korean Society of Civil Engineers on November 14, 2025.

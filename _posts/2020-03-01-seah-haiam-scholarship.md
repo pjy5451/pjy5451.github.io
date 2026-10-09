@@ -7,7 +7,7 @@ lang: en
 note_category: Scholarship
 description: "Two-year full-tuition scholarship from the SeAH Haiam Academic Scholarship Foundation."
 images:
-  - src: /images/notes/2020/seah-haiam-scholarship/seah-haiam-scholarship-foundation.jpg
+  - src: /images/news/2020/seah-haiam-scholarship/seah-haiam-scholarship-foundation.jpg
     alt: "SeAH Haiam Academic Scholarship Foundation logo"
 ---
 

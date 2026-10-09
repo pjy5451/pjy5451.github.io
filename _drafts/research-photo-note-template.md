@@ -7,9 +7,9 @@ lang: en
 note_category: Laboratory
 description: "One-sentence summary shown in the Notes list."
 images:
-  - src: /images/notes/2024/example/photo-01.jpg
+  - src: /images/research-log/2024/example/photo-01.jpg
     alt: "Short description of the first photograph"
-  - src: /images/notes/2024/example/photo-02.jpg
+  - src: /images/research-log/2024/example/photo-02.jpg
     alt: "Short description of the second photograph"
 ---
 

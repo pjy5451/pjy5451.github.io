@@ -8,9 +8,9 @@ lang: en
 note_category: Recognition
 description: "Top 8 finalist in Bentley Systems' 2020 Digital Infrastructure Student Idea Challenge."
 images:
-  - src: /images/notes/2020/bentley-student-idea-challenge/bentley-logo.jpg.png
+  - src: /images/news/2020/bentley-student-idea-challenge/bentley-logo.jpg.png
     alt: "Bentley Systems logo"
-  - src: /images/notes/2020/bentley-student-idea-challenge/top-8-finalists.png
+  - src: /images/news/2020/bentley-student-idea-challenge/top-8-finalists.png
     alt: "Top 8 finalist teams in the 2020 Bentley Digital Infrastructure Student Idea Challenge"
 ---
 
