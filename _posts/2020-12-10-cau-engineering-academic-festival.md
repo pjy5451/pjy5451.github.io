@@ -8,6 +8,8 @@ lang: en
 note_category: Award
 description: "College of Engineering Dean's Award for Bridge Maintenance System Using IoT Sensors at the 2020 CAU Engineering Academic Festival."
 images:
+  - src: /images/news/2020/cau-engineering-academic-festival/cau-engineering-festival-entry-first-page.jpg
+    alt: "First page of the Bridge Maintenance System Using IoT Sensors entry for the CAU Engineering Academic Festival"
   - src: /images/news/2020/cau-engineering-academic-festival/cau-engineering-festival-team.jpg
     alt: "Team members with the JANET sensor after receiving the College of Engineering Dean's Award"
 ---
