@@ -4,6 +4,7 @@ sections:
     ko: Journal Articles
   entries:
   - year: '2026'
+    hide_year: true
     selected: true
     tags:
     - Structural Health Monitoring
@@ -29,6 +30,7 @@ sections:
       en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
       ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
   - year: '2026'
+    hide_year: true
     tags:
     - Weigh-in-Motion
     - Machine Learning
@@ -55,7 +57,7 @@ sections:
     venue:
       en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
       ko: 한국ITS학회논문지 (심사 중)
-  - year: '2026'
+  - year: '2027'
     tags:
     - Structural Health Monitoring
     detail_tags:
@@ -67,8 +69,8 @@ sections:
       en: S. Khan, <strong>Junyoung Park</strong>, J. W. Park, I. H. Kim, J. Won
       ko: S. Khan, <strong>박준영</strong>, J. W. Park, I. H. Kim, J. Won
     venue:
-      en: Journal of Civil Structural Health Monitoring (under review)
-      ko: Journal of Civil Structural Health Monitoring (심사 중)
+      en: Journal of Civil Structural Health Monitoring (accepted)
+      ko: Journal of Civil Structural Health Monitoring (accepted)
   - year: '2026'
     selected: true
     tags:
