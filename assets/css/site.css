@@ -2568,11 +2568,33 @@ p.field-site-card__label:not(:first-child) {
   color: var(--muted);
 }
 
+.note-filter-groups {
+  display: grid;
+  gap: 9px;
+  margin: 0 0 18px;
+}
+
+.note-filter-group {
+  display: grid;
+  grid-template-columns: 46px minmax(0, 1fr);
+  align-items: start;
+  gap: 8px;
+}
+
+.note-filter-group__label {
+  padding-top: 6px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 750;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
 .note-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
-  margin: 0 0 16px;
+  margin: 0;
 }
 
 .note-filter {
