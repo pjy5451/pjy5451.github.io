@@ -10,5 +10,3 @@ description: "Scheduled presentation at the KSCE 2026 Convention on October 22, 
 ---
 
 I will present this work at the KSCE 2026 Convention on October 22, 2026.
-
-[Visit the KSCE 2026 Convention website](https://convention.ksce.or.kr/)
