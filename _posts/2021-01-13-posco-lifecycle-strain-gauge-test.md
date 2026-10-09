@@ -4,7 +4,7 @@ title: "Lifecycle Strain-Gauge Test at POSCO"
 date: 2021-01-13 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Surface and embedded strain-gauge installation for lifecycle monitoring at the POSCO Global R&D Center on January 13, 2021."
 ---
 

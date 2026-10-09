@@ -5,7 +5,7 @@ date: 2020-03-01 00:00:00 +0900
 display_date: "2020.03"
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Development of a manhole-mounted sensor for measuring water level and odor in March 2020."
 images:
   - src: /images/notes/2020/manhole-monitoring-sensor/1588733947162.png

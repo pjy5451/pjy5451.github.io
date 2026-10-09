@@ -5,7 +5,7 @@ date: 2023-11-01 00:00:00 +0900
 display_date: "2023.11"
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Preparation and delivery of 20 sensors for bridge load-rating evaluation in November 2023."
 ---
 

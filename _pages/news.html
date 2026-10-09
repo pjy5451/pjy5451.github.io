@@ -1,0 +1,73 @@
+---
+layout: default
+permalink: /news/
+title: "News"
+description: "Awards, presentations, academic milestones, and personal updates from Junyoung Park."
+body_class: "page-notes page-news"
+---
+
+<h1>News</h1>
+<p class="note-intro">Awards, presentations, academic milestones, and occasional personal updates.</p>
+
+{% assign english_posts = site.posts | where: "lang", "en" %}
+{% assign note_years = "2026,2025,2024,2023,2022,2021,2020,2019,2018" | split: "," %}
+{% assign filter_labels = "Award|Conference|Scholarship|Competition|Academic|Personal" | split: "|" %}
+{% assign filter_slugs = "award|conference|scholarship|competition|academic|personal" | split: "|" %}
+
+<div class="note-filter-groups">
+  <div class="note-filter-group">
+    <span class="note-filter-group__label">Year</span>
+    <div class="note-filters" role="group" aria-label="Filter news by year">
+      {% for year in note_years %}
+        {% assign year_count = 0 %}
+        {% for post in english_posts %}
+          {% unless post.note_category == "Development" or post.note_category == "Field Work" %}
+            {% assign post_year = post.date | date: "%Y" %}
+            {% if post_year == year %}{% assign year_count = year_count | plus: 1 %}{% endif %}
+          {% endunless %}
+        {% endfor %}
+        <button class="note-filter{% if forloop.first %} is-active{% endif %}" type="button" data-note-year="{{ year }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ year }} <span>{{ year_count }}</span></button>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="note-filter-group">
+    <span class="note-filter-group__label">Type</span>
+    <div class="note-filters" role="group" aria-label="Filter news by type">
+      {% for label in filter_labels %}
+        {% assign category_count = 0 %}
+        {% for post in english_posts %}
+          {% assign filter_category = post.note_category %}
+          {% if filter_category == "Recognition" %}{% assign filter_category = "Award" %}{% endif %}
+          {% if filter_category == label %}{% assign category_count = category_count | plus: 1 %}{% endif %}
+        {% endfor %}
+        <button class="note-filter" type="button" data-note-category="{{ filter_slugs[forloop.index0] }}" aria-pressed="false">{{ label }} <span>{{ category_count }}</span></button>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="note-archive">
+  {% for post in english_posts %}
+    {% unless post.note_category == "Development" or post.note_category == "Field Work" %}
+      {% assign post_year = post.date | date: "%Y" %}
+      {% assign filter_category = post.note_category %}
+      {% if filter_category == "Recognition" %}{% assign filter_category = "Award" %}{% endif %}
+      {% assign filter_slug = filter_category | downcase | replace: " ", "-" %}
+      <article class="note-entry{% if post.images or post.thumbnail %} note-entry--with-gallery{% endif %}" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == note_years.first %} hidden{% endunless %}>
+        {% include note_gallery.html note=post %}
+        <div class="note-entry__body">
+          <header class="note-entry__header">
+            <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
+            {% if post.note_category %}<span class="note-archive__tag">{{ post.note_category }}</span>{% endif %}
+            <h2>{{ post.title }}</h2>
+          </header>
+          <div class="note-entry__content">{{ post.content }}</div>
+        </div>
+      </article>
+    {% endunless %}
+  {% endfor %}
+</div>
+<p class="note-empty" data-note-empty hidden>No news matches these filters.</p>
+
+{% include timeline_filters.html default_year="2026" storage_prefix="news" %}

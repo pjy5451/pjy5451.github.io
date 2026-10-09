@@ -5,7 +5,7 @@ date: 2020-01-01 00:00:00 +0900
 display_date: "2020.01"
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Development of a smart concrete block in January 2020."
 images:
   - { src: /images/notes/2020/smart-concrete-block-development/20200109_141041.jpg, alt: "Early smart concrete block development" }

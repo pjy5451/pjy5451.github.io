@@ -4,7 +4,7 @@ title: "QR Sensor Firmware Upgrade for Long-Term History Visualization"
 date: 2022-08-29 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Firmware-wide upgrade of the QR sensor to support longer history visualization on August 29, 2022."
 ---
 

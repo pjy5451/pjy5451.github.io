@@ -1,0 +1,92 @@
+<script>
+  (function() {
+    var yearFilters = document.querySelectorAll('.note-filters [data-note-year]');
+    var categoryFilters = document.querySelectorAll('[data-note-category]:not([data-note-item])');
+    var items = document.querySelectorAll('[data-note-item]');
+    var empty = document.querySelector('[data-note-empty]');
+    var defaultYear = '{{ include.default_year }}';
+    var storagePrefix = '{{ include.storage_prefix }}';
+    var selectedYear = defaultYear;
+    var selectedCategory = '';
+    if (!yearFilters.length || !items.length) return;
+
+    function hasFilter(filters, attribute, value) {
+      return Array.prototype.some.call(filters, function(filter) {
+        return filter.getAttribute(attribute) === value;
+      });
+    }
+
+    function restoreFilters() {
+      try {
+        selectedYear = sessionStorage.getItem(storagePrefix + 'Year') || defaultYear;
+        selectedCategory = sessionStorage.getItem(storagePrefix + 'Category') || '';
+      } catch (error) {
+        selectedYear = defaultYear;
+        selectedCategory = '';
+      }
+      if (!hasFilter(yearFilters, 'data-note-year', selectedYear)) selectedYear = defaultYear;
+      if (selectedCategory && !hasFilter(categoryFilters, 'data-note-category', selectedCategory)) selectedCategory = '';
+    }
+
+    function updateButtons() {
+      yearFilters.forEach(function(filter) {
+        var isActive = filter.getAttribute('data-note-year') === selectedYear;
+        filter.classList.toggle('is-active', isActive);
+        filter.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+      categoryFilters.forEach(function(filter) {
+        var isActive = filter.getAttribute('data-note-category') === selectedCategory;
+        filter.classList.toggle('is-active', isActive);
+        filter.setAttribute('aria-pressed', isActive ? 'true' : 'false');
+      });
+    }
+
+    function saveFilters() {
+      try {
+        sessionStorage.setItem(storagePrefix + 'Year', selectedYear);
+        sessionStorage.setItem(storagePrefix + 'Category', selectedCategory);
+      } catch (error) {
+        // Filtering still works when browser storage is unavailable.
+      }
+    }
+
+    function updateItems() {
+      var visibleCount = 0;
+      items.forEach(function(item) {
+        var matchesYear = item.getAttribute('data-note-year') === selectedYear;
+        var matchesCategory = !selectedCategory || item.getAttribute('data-note-category') === selectedCategory;
+        var isVisible = matchesYear && matchesCategory;
+        item.hidden = !isVisible;
+        if (isVisible) visibleCount += 1;
+      });
+      if (empty) empty.hidden = visibleCount !== 0;
+    }
+
+    yearFilters.forEach(function(button) {
+      button.addEventListener('click', function() {
+        selectedYear = button.getAttribute('data-note-year');
+        saveFilters();
+        updateButtons();
+        updateItems();
+      });
+    });
+    categoryFilters.forEach(function(button) {
+      button.addEventListener('click', function() {
+        var category = button.getAttribute('data-note-category');
+        selectedCategory = selectedCategory === category ? '' : category;
+        saveFilters();
+        updateButtons();
+        updateItems();
+      });
+    });
+
+    restoreFilters();
+    updateButtons();
+    updateItems();
+    window.addEventListener('pageshow', function() {
+      restoreFilters();
+      updateButtons();
+      updateItems();
+    });
+  })();
+</script>

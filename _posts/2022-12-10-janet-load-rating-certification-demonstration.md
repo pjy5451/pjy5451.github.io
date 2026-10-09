@@ -4,7 +4,7 @@ title: "JANET Load-Rating Certification Demonstration"
 date: 2022-12-10 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Certification demonstration of a technology-transferred JANET system for bridge load-rating evaluation on December 10, 2022."
 ---
 

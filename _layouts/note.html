@@ -4,7 +4,11 @@ layout: default
 
 <article class="note-page">
   <header class="note-page__header">
-    <a class="note-page__back" href="{{ '/notes/' | relative_url }}">Notes</a>
+    {% if page.note_category == "Development" or page.note_category == "Field Work" %}
+      <a class="note-page__back" href="{{ '/research-log/' | relative_url }}">Research Log</a>
+    {% else %}
+      <a class="note-page__back" href="{{ '/news/' | relative_url }}">News</a>
+    {% endif %}
     <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.display_date %}{{ page.display_date }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</time>
     {% if page.note_category %}<span class="note-archive__tag">{{ page.note_category }}</span>{% endif %}
     <h1>{{ page.title }}</h1>

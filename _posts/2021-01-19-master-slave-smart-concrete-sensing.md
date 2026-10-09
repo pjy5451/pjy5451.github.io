@@ -4,7 +4,7 @@ title: "Master-Slave Smart Concrete Sensing System"
 date: 2021-01-19 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Development of a master-slave system for multichannel smart concrete measurements on January 19, 2021."
 ---
 

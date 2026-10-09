@@ -4,7 +4,7 @@ title: "QR Visualization Sensor Test"
 date: 2021-01-12 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Test of a QR visualization sensor on January 12, 2021."
 ---
 

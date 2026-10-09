@@ -5,7 +5,7 @@ date: 2020-12-02 00:00:00 +0900
 display_date: "2020.12"
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Development and shaking-table testing of Ethernet-based multichannel sensing in December 2020."
 images:
   - { src: /images/notes/2020/ethernet-multichannel-sensing-shaking-table/20201205_195916.jpg, alt: "Ethernet-based multichannel sensing system development" }

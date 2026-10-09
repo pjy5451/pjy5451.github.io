@@ -5,7 +5,7 @@ date: 2021-08-01 00:00:00 +0900
 display_date: "2021.08"
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Development and two-week campus deployment of a solar-powered sensor for vibration, noise, and odor monitoring with QR visualization."
 ---
 

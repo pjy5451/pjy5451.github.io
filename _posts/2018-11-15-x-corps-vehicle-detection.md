@@ -4,7 +4,7 @@ title: "X-Corps Motion Detection Research Team"
 date: 2018-11-15 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Research
+note_category: Development
 description: "Undergraduate research on YOLO-based vehicle detection through Chung-Ang University's X-Corps program."
 images:
   - src: /images/notes/2018/x-corps-vehicle-detection/x-corps-poster-presentation.jpg
