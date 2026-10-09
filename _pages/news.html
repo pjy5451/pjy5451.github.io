@@ -11,8 +11,6 @@ body_class: "page-notes page-news"
 
 {% assign english_posts = site.posts | where: "lang", "en" %}
 {% assign note_years = "2026,2025,2024,2023,2022,2021,2020,2019,2018" | split: "," %}
-{% assign filter_labels = "Award|Conference|Scholarship|Competition|Academic|Personal" | split: "|" %}
-{% assign filter_slugs = "award|conference|scholarship|competition|academic|personal" | split: "|" %}
 
 <div class="note-filter-groups">
   <div class="note-filter-group">
@@ -27,21 +25,6 @@ body_class: "page-notes page-news"
           {% endunless %}
         {% endfor %}
         <button class="note-filter{% if forloop.first %} is-active{% endif %}" type="button" data-note-year="{{ year }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ year }} <span>{{ year_count }}</span></button>
-      {% endfor %}
-    </div>
-  </div>
-
-  <div class="note-filter-group">
-    <span class="note-filter-group__label">Type</span>
-    <div class="note-filters" role="group" aria-label="Filter news by type">
-      {% for label in filter_labels %}
-        {% assign category_count = 0 %}
-        {% for post in english_posts %}
-          {% assign filter_category = post.note_category %}
-          {% if filter_category == "Recognition" %}{% assign filter_category = "Award" %}{% endif %}
-          {% if filter_category == label %}{% assign category_count = category_count | plus: 1 %}{% endif %}
-        {% endfor %}
-        <button class="note-filter" type="button" data-note-category="{{ filter_slugs[forloop.index0] }}" aria-pressed="false">{{ label }} <span>{{ category_count }}</span></button>
       {% endfor %}
     </div>
   </div>
