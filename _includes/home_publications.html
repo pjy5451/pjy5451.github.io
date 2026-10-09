@@ -30,9 +30,16 @@
     <div class="publication-card-list">
       {% assign article_years = "2027,2026,2025,2024,2023,2022,2021,2020" | split: "," %}
       {% assign article_sections = "Journal Articles,Preprints,Technical Articles" | split: "," %}
+      {% assign priority_values = "1,2" | split: "," %}
+      {% for priority in priority_values %}{% for section in site.data.publications.sections %}
+        {% assign section_title = section.title.en %}
+        {% if article_sections contains section_title %}{% for item in section.entries %}{% assign item_priority = item.display_priority | append: "" %}{% if item_priority == priority %}
+          {% include publication_item.html item=item pub_lang=pub_lang kind="article" %}
+        {% endif %}{% endfor %}{% endif %}
+      {% endfor %}{% endfor %}
       {% for article_year in article_years %}{% for article_section in article_sections %}{% for section in site.data.publications.sections %}
         {% assign section_title = section.title.en %}
-        {% if section_title == article_section %}{% for item in section.entries %}{% if item.year == article_year %}
+        {% if section_title == article_section %}{% for item in section.entries %}{% if item.year == article_year and item.display_priority == nil %}
           {% include publication_item.html item=item pub_lang=pub_lang kind="article" %}
         {% endif %}{% endfor %}{% endif %}
       {% endfor %}{% endfor %}{% endfor %}

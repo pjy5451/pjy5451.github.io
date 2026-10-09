@@ -5,6 +5,7 @@ sections:
   entries:
   - year: '2026'
     hide_year: true
+    display_priority: 1
     selected: true
     tags:
     - Structural Health Monitoring
@@ -72,6 +73,7 @@ sections:
       en: Journal of Civil Structural Health Monitoring (accepted)
       ko: Journal of Civil Structural Health Monitoring (accepted)
   - year: '2026'
+    display_priority: 2
     selected: true
     tags:
     - Weigh-in-Motion
