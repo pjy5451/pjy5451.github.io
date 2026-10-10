@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Joined UDNS as a Professional Research Personnel"
-date: 2024-03-31 23:59:00 +0900
+date: 2024-04-02 00:00:00 +0900
 display_date: "2024.04"
 categories: notes
 lang: en
