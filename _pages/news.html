@@ -37,7 +37,7 @@ body_class: "page-notes page-news"
       {% assign filter_category = post.note_category %}
       {% if filter_category == "Recognition" %}{% assign filter_category = "Award" %}{% endif %}
       {% assign filter_slug = filter_category | downcase | replace: " ", "-" %}
-      <article class="note-entry{% if post.images or post.thumbnail %} note-entry--with-gallery{% endif %}" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == note_years.first %} hidden{% endunless %}>
+      <article class="note-entry{% if post.images or post.thumbnail or post.image_placeholder %} note-entry--with-gallery{% endif %}" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == note_years.first %} hidden{% endunless %}>
         {% include note_gallery.html note=post %}
         <div class="note-entry__body">
           <header class="note-entry__header">

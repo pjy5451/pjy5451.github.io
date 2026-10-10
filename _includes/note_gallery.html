@@ -25,4 +25,13 @@
       </div>
     </div>
   </figure>
+{% elsif note.image_placeholder %}
+  <figure class="note-gallery note-gallery--placeholder" aria-label="{{ note.image_placeholder | escape }}">
+    <div class="note-gallery__stage">
+      <div class="note-gallery__placeholder">
+        <span class="note-gallery__photo-icon" aria-hidden="true">&#128247;</span>
+        <span>{{ note.image_placeholder }}</span>
+      </div>
+    </div>
+  </figure>
 {% endif %}
