@@ -11,7 +11,7 @@ body_class: "page-notes page-research-log"
 <p class="research-log-notice" role="status"><strong>Work in progress.</strong> Additional records and images are being added.</p>
 
 {% assign english_posts = site.posts | where: "lang", "en" %}
-{% assign note_years = "2026,2025,2024,2023,2022,2021,2020,2019,2018" | split: "," %}
+{% assign note_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
 {% assign filter_labels = "Development|Field Work" | split: "|" %}
 {% assign filter_slugs = "development|field-work" | split: "|" %}
 
@@ -50,9 +50,10 @@ body_class: "page-notes page-research-log"
   {% for post in english_posts %}
     {% if post.note_category == "Development" or post.note_category == "Field Work" %}
       {% assign post_year = post.date | date: "%Y" %}
+      {% if note_years contains post_year %}
       {% assign filter_slug = post.note_category | downcase | replace: " ", "-" %}
-      <article class="note-entry{% if post.images or post.thumbnail %} note-entry--with-gallery{% endif %}" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == "2023" %} hidden{% endunless %}>
-        {% include note_gallery.html note=post %}
+      <article class="note-entry note-entry--with-gallery" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == "2023" %} hidden{% endunless %}>
+        {% include note_gallery.html note=post placeholder="Image coming soon" %}
         <div class="note-entry__body">
           <header class="note-entry__header">
             <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
@@ -62,6 +63,7 @@ body_class: "page-notes page-research-log"
           <div class="note-entry__content">{{ post.content }}</div>
         </div>
       </article>
+      {% endif %}
     {% endif %}
   {% endfor %}
 </div>
