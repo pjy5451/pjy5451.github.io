@@ -2016,7 +2016,16 @@ span.pub__title {
   .project-index-card { grid-template-columns: 1fr; }
   .project-index-card__media { min-height: 116px; max-height: 170px; }
   .publication-card__media { height: 150px; }
-  .publication-card__media--full { height: auto; }
+  .publication-card__media--image {
+    height: auto;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+  .publication-card__media--image img {
+    width: 100%;
+    height: auto;
+    max-height: none;
+  }
 }
 
 .talk-list {
