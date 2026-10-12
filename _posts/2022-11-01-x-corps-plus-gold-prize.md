@@ -1,8 +1,7 @@
 ---
 layout: note
 title: "Gold Prize at the 2nd X-Corps Plus Festival"
-date: 2022-11-01 00:00:00 +0900
-display_date: "2022.11"
+date: 2022-11-25 00:00:00 +0900
 categories: notes
 lang: en
 note_category: Award
