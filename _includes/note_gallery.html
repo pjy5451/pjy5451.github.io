@@ -5,7 +5,13 @@
     <div class="note-gallery__stage">
       {% for image in note.images %}
         <div class="note-gallery__slide" data-note-slide{% unless forloop.first %} hidden{% endunless %}>
-          <img src="{{ image.src | relative_url }}" alt="{{ image.alt | default: note.title | escape }}" loading="lazy">
+          <picture>
+            {% if image.src contains '/images/news/' %}
+              {% assign optimized_src = image.src | replace: '/images/news/', '/images/news-web/' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
+              <source srcset="{{ optimized_src | relative_url }}" type="image/webp">
+            {% endif %}
+            <img src="{{ image.src | relative_url }}" alt="{{ image.alt | default: note.title | escape }}" loading="lazy" decoding="async">
+          </picture>
         </div>
       {% endfor %}
     </div>
@@ -21,7 +27,13 @@
   <figure class="note-gallery">
     <div class="note-gallery__stage">
       <div class="note-gallery__slide">
-        <img src="{{ note.thumbnail | relative_url }}" alt="{{ note.thumbnail_alt | default: note.title | escape }}" loading="lazy">
+        <picture>
+          {% if note.thumbnail contains '/images/news/' %}
+            {% assign optimized_src = note.thumbnail | replace: '/images/news/', '/images/news-web/' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
+            <source srcset="{{ optimized_src | relative_url }}" type="image/webp">
+          {% endif %}
+          <img src="{{ note.thumbnail | relative_url }}" alt="{{ note.thumbnail_alt | default: note.title | escape }}" loading="lazy" decoding="async">
+        </picture>
       </div>
     </div>
   </figure>

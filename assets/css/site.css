@@ -2806,6 +2806,12 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
   height: 100%;
 }
 
+.note-gallery__slide picture {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .note-gallery__slide[hidden] {
   display: none;
 }
