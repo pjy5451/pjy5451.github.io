@@ -11,8 +11,6 @@ images:
     alt: "Presentation on acceleration-strain-based displacement estimation at the 2022 KSNVE conference"
 ---
 
-## Optimization of an Acceleration-Strain-Based Displacement Estimation Method Considering Bridge Boundary Conditions
-
-I presented this work at the COSEIK and KSNVE annual conferences.
+I presented **Optimization of an Acceleration-Strain-Based Displacement Estimation Method Considering Bridge Boundary Conditions** at the COSEIK and KSNVE annual conferences.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

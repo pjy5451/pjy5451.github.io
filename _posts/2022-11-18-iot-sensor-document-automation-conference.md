@@ -11,8 +11,6 @@ images:
     alt: "Junyoung Park attending CONVR 2022"
 ---
 
-## Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation
-
-I presented this work at the international conference CONVR.
+I presented **Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation** at the international conference CONVR.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

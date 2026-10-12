@@ -8,8 +8,6 @@ note_category: Conference
 description: "Presentation in the YES (Young Engineer's Session) at the Korean Institute of Bridge and Structural Engineers on September 18, 2023."
 ---
 
-## IoT Sensor and Cloud-Computing-Based Long-Term Bridge Monitoring
-
-I presented this work in the **YES (Young Engineer's Session)** at the Korean Institute of Bridge and Structural Engineers (KIBSE).
+I presented **IoT Sensor and Cloud-Computing-Based Long-Term Bridge Monitoring** in the **YES (Young Engineer's Session)** at the Korean Institute of Bridge and Structural Engineers (KIBSE).
 
 **Authors:** **Junyoung Park**

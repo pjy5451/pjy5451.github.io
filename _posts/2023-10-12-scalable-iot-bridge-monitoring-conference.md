@@ -15,8 +15,6 @@ images:
     alt: "Conference session at the 2023 KSMI Fall Conference"
 ---
 
-## A Scalable IoT Sensor and Cloud-Computing-Based Framework for Continuous Bridge Monitoring
-
-I presented this work at the Korea Institute for Structural Maintenance and Inspection.
+I presented **A Scalable IoT Sensor and Cloud-Computing-Based Framework for Continuous Bridge Monitoring** at the Korea Institute for Structural Maintenance and Inspection.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

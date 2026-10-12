@@ -14,8 +14,6 @@ images:
     alt: "Conference trip during the 2021 KSMI Spring Conference"
 ---
 
-## Cloud-Based Long-Term Bridge Monitoring System
-
-I presented this work at the Korea Institute for Structural Maintenance and Inspection.
+I presented **Cloud-Based Long-Term Bridge Monitoring System** at the Korea Institute for Structural Maintenance and Inspection.
 
 **Authors:** **Junyoung Park**, Junsik Shin, Sohaeng Kang, Jongbin Won, Jong-Woong Park

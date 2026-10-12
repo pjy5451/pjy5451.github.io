@@ -11,8 +11,6 @@ images:
     alt: "Presentation on the cloud-based integrated enforcement platform at the 2025 Korean Society of Civil Engineers conference"
 ---
 
-## Development of a Cloud-Based Integrated Enforcement Platform Technology
-
-I presented this work at the Korean Society of Civil Engineers.
+I presented **Development of a Cloud-Based Integrated Enforcement Platform Technology** at the Korean Society of Civil Engineers.
 
 **Authors:** **Junyoung Park**, Jongwoo Kim, Junghoon Kim
