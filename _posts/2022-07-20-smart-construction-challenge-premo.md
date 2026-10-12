@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "PREMO at the 2022 Smart Construction Challenge"
+title: "Smart Construction Challenge 2022"
 date: 2022-07-20 00:00:00 +0900
 categories: notes
 lang: en
