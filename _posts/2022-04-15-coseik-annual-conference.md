@@ -11,4 +11,4 @@ images:
     alt: "JANET research presentation at the 2022 COSEIK Annual Conference"
 ---
 
-I participated in the COSEIK Annual Conference in Jeju.
+I participated in the annual conference of the Computational Structural Engineering Institute of Korea (COSEIK) in Jeju.

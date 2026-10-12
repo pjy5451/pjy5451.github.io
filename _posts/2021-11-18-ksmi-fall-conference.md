@@ -13,4 +13,4 @@ images:
     alt: "Presentation at the 2021 KSMI Fall Conference"
 ---
 
-I attended the 2021 Fall Conference of the Korea Institute for Structural Maintenance and Inspection.
+I attended the 2021 Fall Conference of the Korea Institute for Structural Maintenance and Inspection (KSMI).

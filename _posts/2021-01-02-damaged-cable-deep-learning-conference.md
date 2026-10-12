@@ -14,6 +14,6 @@ images:
     alt: "Conference trip during the 2021 KSMI Spring Conference"
 ---
 
-I presented **Estimation of a Bridge's Damaged Cable Using Deep Learning** at the Korea Institute for Structural Maintenance and Inspection.
+I presented **Estimation of a Bridge's Damaged Cable Using Deep Learning** at the Korea Institute for Structural Maintenance and Inspection (KSMI).
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jongbin Won, Jong-Woong Park, Young Jang

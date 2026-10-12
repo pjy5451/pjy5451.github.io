@@ -15,6 +15,6 @@ images:
     alt: "Conference participants at CONVR 2022"
 ---
 
-I presented **Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation** at the international conference CONVR.
+I presented **Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation** at the International Conference on Construction Applications of Virtual Reality (CONVR).
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

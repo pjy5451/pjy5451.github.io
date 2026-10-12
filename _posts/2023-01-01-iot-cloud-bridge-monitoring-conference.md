@@ -14,6 +14,6 @@ images:
     alt: "Conference venue at the 2023 KSNVE Spring Conference"
 ---
 
-I presented **Bridge Monitoring System Using an IoT Sensor and a Cloud Server** at the Korean Society for Noise and Vibration Engineering.
+I presented **Bridge Monitoring System Using an IoT Sensor and a Cloud Server** at the Korean Society for Noise and Vibration Engineering (KSNVE).
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

@@ -12,4 +12,4 @@ images:
     alt: "On-board weighing system exhibition at BIPC 2026"
 ---
 
-I participated in the 14th Busan International Port Conference (BIPC 2026) and exhibited an on-board weighing system.
+I participated in the 14th Busan International Port Conference (BIPC) and exhibited an on-board weighing system.
