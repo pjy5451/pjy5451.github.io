@@ -6,6 +6,11 @@ categories: notes
 lang: en
 note_category: Conference
 description: "International conference presentation at the Korea Institute of BIM on August 23, 2023."
+images:
+  - src: /images/news/2023/2023-08-23-ambient-bridge-monitoring-conference/1692775554314-1.jpg
+    alt: "Presentation at the Korea Institute of BIM international conference"
+  - src: /images/news/2023/2023-08-23-ambient-bridge-monitoring-conference/1692788518796-1.jpg
+    alt: "Korea Institute of BIM international conference venue"
 ---
 
 I presented this work at the Korea Institute of BIM international conference.

@@ -7,17 +7,17 @@ lang: en
 note_category: Award
 description: "Grand Prize and Minister of the Interior and Safety Award at the 2019 Smart Earthquake Response Idea Contest."
 images:
-  - src: /images/projects/seismic-sensing/smart-earthquake-competition.jpg
+  - src: /images/projects/2019-07-25-seismic-sensing/smart-earthquake-competition.jpg
     alt: "Sensor Guy team prototype presented at the 2019 Smart Earthquake Response Idea Contest"
-  - src: /images/news/2019/smart-earthquake-response-award/sensor-guy-minister-award.jpg
+  - src: /images/news/2019/2019-07-25-smart-earthquake-response-award/sensor-guy-minister-award.jpg
     alt: "Four Sensor Guy team members holding the Grand Prize and Minister of the Interior and Safety Award"
-  - src: /images/news/2019/smart-earthquake-response-award/contest-demonstration-board.png
+  - src: /images/news/2019/2019-07-25-smart-earthquake-response-award/contest-demonstration-board.png
     alt: "Multiple earthquake sensing prototypes mounted on the contest demonstration board"
-  - src: /images/news/2019/smart-earthquake-response-award/prototype-bench-setup.png
+  - src: /images/news/2019/2019-07-25-smart-earthquake-response-award/prototype-bench-setup.png
     alt: "Earthquake sensing and notification prototype assembled on a laboratory bench"
-  - src: /images/news/2019/smart-earthquake-response-award/sensor-prototype-enclosure.png
+  - src: /images/news/2019/2019-07-25-smart-earthquake-response-award/sensor-prototype-enclosure.png
     alt: "Arduino-based earthquake sensor prototype installed inside a compact enclosure"
-  - src: /images/news/2019/smart-earthquake-response-award/indoor-notification-test.png
+  - src: /images/news/2019/2019-07-25-smart-earthquake-response-award/indoor-notification-test.png
     alt: "Indoor test of the earthquake sensing and map-based notification system"
 ---
 

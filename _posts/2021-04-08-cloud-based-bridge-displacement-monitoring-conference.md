@@ -7,7 +7,7 @@ lang: en
 note_category: Conference
 description: "Domestic conference presentation at the Computational Structural Engineering Institute of Korea on April 8, 2021."
 images:
-  - src: /images/news/2021/cloud-based-bridge-displacement-monitoring-conference/presentation-overview.jpg
+  - src: /images/news/2021/2021-04-08-cloud-based-bridge-displacement-monitoring-conference/presentation-overview.jpg
     alt: "Presentation on cloud-based bridge displacement monitoring at the 2021 COSEIK Annual Conference"
 ---
 

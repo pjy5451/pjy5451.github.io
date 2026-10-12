@@ -7,7 +7,7 @@ lang: en
 note_category: Conference
 description: "Participation in the 2022 COSEIK Annual Conference in Jeju on April 15, 2022."
 images:
-  - src: /images/news/2022/coseik-annual-conference/conference-presentation-2.png
+  - src: /images/news/2022/2022-04-15-coseik-annual-conference/conference-presentation-2.png
     alt: "JANET research presentation at the 2022 COSEIK Annual Conference"
 ---
 

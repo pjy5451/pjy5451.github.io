@@ -7,7 +7,7 @@ lang: en
 note_category: Award
 description: "Excellence Award for an IoT- and deep-learning-based smart water grid concept focused on sewer and water-supply pipelines."
 images:
-  - src: /images/news/2021/water-environment-competition-excellence-award/technology-objectives-english.png
+  - src: /images/news/2021/2021-10-12-water-environment-competition-excellence-award/technology-objectives-english.png
     alt: "Technology objectives and scope for the smart water grid project"
 ---
 

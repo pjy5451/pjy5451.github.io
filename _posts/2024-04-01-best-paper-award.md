@@ -8,7 +8,7 @@ lang: en
 note_category: Award
 description: "Best Paper Award in the oral presentation session on maintenance."
 images:
-  - src: /images/news/2024/best-paper-award/photo_2026-10-10_11-51-38.jpg
+  - src: /images/news/2024/2024-04-01-best-paper-award/photo_2026-10-10_11-51-38.jpg
     alt: "Best Paper Award at the Korea Institute for Structural Maintenance and Inspection conference"
 ---
 

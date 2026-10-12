@@ -79,7 +79,7 @@ groups:
   - title: Seismic Sensing System
     period: 2019
     href: /projects/seismic-sensing/
-    thumbnail: /images/projects/seismic-sensing/smart-earthquake-competition.jpg
+    thumbnail: /images/projects/2019-07-25-seismic-sensing/smart-earthquake-competition.jpg
     summary: This project develops a low-cost IoT seismic sensing system with event triggering and BLE notification.
     tags:
     - Wireless Sensing
@@ -90,7 +90,7 @@ groups:
   - title: Smart Concrete Sensing System
     period: 2020-2021
     href: /projects/smart-concrete-sensing/
-    thumbnail: /images/projects/smart-concrete-sensing/smart-concrete-sensing-system.jpg
+    thumbnail: /images/projects/2020-01-01-smart-concrete-sensing/smart-concrete-sensing-system.jpg
     thumbnail_fit: compact
     summary: This project develops a smart concrete sensing system for crack trajectory monitoring and long-term measurement visualization.
     tags:
@@ -101,7 +101,7 @@ groups:
   - title: Freight Train Monitoring System
     period: 2024
     href: /projects/freight-train-monitoring/
-    thumbnail: /images/projects/freight-train-monitoring/freight-car-bearing-monitoring.png
+    thumbnail: /images/projects/2024-01-01-freight-train-monitoring/freight-car-bearing-monitoring.png
     summary: This project develops an event-oriented sensing workflow for freight monitoring and signal review.
     tags:
     - Structural Health Monitoring

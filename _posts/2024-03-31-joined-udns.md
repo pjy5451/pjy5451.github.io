@@ -8,7 +8,7 @@ lang: en
 note_category: Career
 description: "Joined UDNS as a researcher under Korea's Professional Research Personnel program."
 images:
-  - src: /images/news/2024/joined-udns/udns-logo.png
+  - src: /images/news/2024/2024-04-02-joined-udns/udns-logo.png
     alt: "UDNS logo"
 ---
 

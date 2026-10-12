@@ -7,6 +7,11 @@ categories: notes
 lang: en
 note_category: Conference
 description: "Domestic conference presentation at the 2023 KSNVE Spring Conference."
+images:
+  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/20230524_174535.jpg
+    alt: "2023 KSNVE Spring Conference"
+  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/20230524_174551.jpg
+    alt: "Conference venue at the 2023 KSNVE Spring Conference"
 ---
 
 I presented this work at the Korean Society for Noise and Vibration Engineering.
