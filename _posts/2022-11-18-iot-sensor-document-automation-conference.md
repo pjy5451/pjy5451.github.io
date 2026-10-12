@@ -6,6 +6,9 @@ categories: notes
 lang: en
 note_category: Conference
 description: "International conference presentation at CONVR 2022 on November 18, 2022."
+images:
+  - src: /images/news/2022/2022-11-18-iot-sensor-document-automation-conference/20221118_094133.jpg
+    alt: "Junyoung Park attending CONVR 2022"
 ---
 
 I presented this work at the international conference CONVR.

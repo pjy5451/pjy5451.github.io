@@ -8,8 +8,12 @@ lang: en
 note_category: Award
 description: "Excellence Award for a citizen-participatory smart city system based on QR code visualization of sensor data."
 images:
-  - src: /images/news/2021/2021-11-01-lh-land-development-award/lh-land-development-awards.jpg
-    alt: "Chung-Ang University teams with awards from the 12th LH Land Development Technology Competition"
+  - src: /images/news/2021/2021-11-01-lh-land-development-award/1637831558709-17.jpg
+    alt: "Receiving the Excellence Award at the 12th LH Land Development Technology Competition"
+  - src: /images/news/2021/2021-11-01-lh-land-development-award/1637831558709-3.jpg
+    alt: "Team members with the Excellence Award at the 12th LH Land Development Technology Competition"
+  - src: /images/news/2021/2021-11-01-lh-land-development-award/1637831558709-0.jpg
+    alt: "Chung-Ang University award recipients at the 12th LH Land Development Technology Competition"
 ---
 
 Our team received an Excellence Award at the 12th LH Land Development Technology Competition for a citizen-participatory smart city system based on QR code visualization of sensor data.

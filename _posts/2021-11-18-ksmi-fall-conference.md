@@ -6,6 +6,11 @@ categories: notes
 lang: en
 note_category: Conference
 description: "Participation in the 2021 Fall Conference of the Korea Institute for Structural Maintenance and Inspection."
+images:
+  - src: /images/news/2021/2021-11-18-ksmi-fall-conference/1637214800081.jpg
+    alt: "Chung-Ang University researchers at the 2021 KSMI Fall Conference"
+  - src: /images/news/2021/2021-11-18-ksmi-fall-conference/1637222783239-0.jpg
+    alt: "Presentation at the 2021 KSMI Fall Conference"
 ---
 
 I attended the 2021 Fall Conference of the Korea Institute for Structural Maintenance and Inspection.
