@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Cloud-Based Bridge Displacement Monitoring System"
+title: "COSEIK Annual Conference 2021"
 date: 2021-04-08 00:00:00 +0900
 categories: notes
 lang: en
@@ -12,6 +12,8 @@ images:
   - src: /images/news/2021/2021-04-08-cloud-based-bridge-displacement-monitoring-conference/1618193089744-2.jpg
     alt: "At the 2021 COSEIK Annual Conference in Gyeongju"
 ---
+
+## Cloud-Based Bridge Displacement Monitoring System
 
 I presented this work at the Computational Structural Engineering Institute of Korea.
 

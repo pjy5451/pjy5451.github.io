@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Bridge Monitoring System Using an IoT Sensor and a Cloud Server"
+title: "KSNVE Annual Conference 2023"
 date: 2023-05-25 16:05:00 +0900
 display_date: "2023.05.25"
 categories: notes
@@ -13,6 +13,8 @@ images:
   - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/20230524_174551.jpg
     alt: "Conference venue at the 2023 KSNVE Spring Conference"
 ---
+
+## Bridge Monitoring System Using an IoT Sensor and a Cloud Server
 
 I presented this work at the Korean Society for Noise and Vibration Engineering.
 

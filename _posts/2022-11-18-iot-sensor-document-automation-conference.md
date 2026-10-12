@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation"
+title: "CONVR 2022"
 date: 2022-11-18 00:00:00 +0900
 categories: notes
 lang: en
@@ -10,6 +10,8 @@ images:
   - src: /images/news/2022/2022-11-18-iot-sensor-document-automation-conference/20221118_094133.jpg
     alt: "Junyoung Park attending CONVR 2022"
 ---
+
+## Development of an IoT Sensor System and Web-Based Document Automation for Bridge Load-Bearing Capacity Evaluation
 
 I presented this work at the international conference CONVR.
 

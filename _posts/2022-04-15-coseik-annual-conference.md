@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "2022 COSEIK Annual Conference"
+title: "COSEIK Annual Conference 2022"
 date: 2022-04-15 00:00:00 +0900
 categories: notes
 lang: en

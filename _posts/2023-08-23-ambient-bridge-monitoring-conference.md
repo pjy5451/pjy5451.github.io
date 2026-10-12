@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements"
+title: "KIBIM International Conference 2023"
 date: 2023-08-23 00:00:00 +0900
 categories: notes
 lang: en
@@ -12,6 +12,8 @@ images:
   - src: /images/news/2023/2023-08-23-ambient-bridge-monitoring-conference/1692788518796-1.jpg
     alt: "Korea Institute of BIM international conference venue"
 ---
+
+## Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements
 
 I presented this work at the Korea Institute of BIM international conference.
 

@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "A Scalable IoT Sensor and Cloud-Computing-Based Framework for Continuous Bridge Monitoring"
+title: "KSMI Fall Conference 2023"
 date: 2023-10-12 00:00:00 +0900
 categories: notes
 lang: en
@@ -14,6 +14,8 @@ images:
   - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/20231012_125419.jpg
     alt: "Conference session at the 2023 KSMI Fall Conference"
 ---
+
+## A Scalable IoT Sensor and Cloud-Computing-Based Framework for Continuous Bridge Monitoring
 
 I presented this work at the Korea Institute for Structural Maintenance and Inspection.
 

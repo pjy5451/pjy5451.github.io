@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Cloud-Based Long-Term Bridge Monitoring System"
+title: "KSMI Spring Conference 2021"
 date: 2021-06-03 09:00:00 +0900
 display_date: "2021.06.03"
 categories: notes
@@ -13,6 +13,8 @@ images:
   - src: /images/news/2021/2021-06-03-cloud-based-long-term-bridge-monitoring-conference/1622627528678-2.jpg
     alt: "Conference trip during the 2021 KSMI Spring Conference"
 ---
+
+## Cloud-Based Long-Term Bridge Monitoring System
 
 I presented this work at the Korea Institute for Structural Maintenance and Inspection.
 

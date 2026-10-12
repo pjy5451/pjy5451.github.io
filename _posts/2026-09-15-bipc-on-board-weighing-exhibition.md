@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Exhibited an On-Board Weighing System at BIPC 2026"
+title: "BIPC 2026"
 date: 2026-09-15 00:00:00 +0900
 display_date: "2026.09.15"
 categories: notes

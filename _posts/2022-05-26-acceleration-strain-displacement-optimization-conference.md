@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Optimization of an Acceleration-Strain-Based Displacement Estimation Method Considering Bridge Boundary Conditions"
+title: "COSEIK & KSNVE Annual Conferences 2022"
 date: 2022-05-26 00:00:00 +0900
 categories: notes
 lang: en
@@ -10,6 +10,8 @@ images:
   - src: /images/news/2022/2022-05-26-acceleration-strain-displacement-optimization-conference/ksnve-presentation.jpg
     alt: "Presentation on acceleration-strain-based displacement estimation at the 2022 KSNVE conference"
 ---
+
+## Optimization of an Acceleration-Strain-Based Displacement Estimation Method Considering Bridge Boundary Conditions
 
 I presented this work at the COSEIK and KSNVE annual conferences.
 
