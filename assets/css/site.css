@@ -3305,6 +3305,58 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
     border: 0;
   }
 
+  .page-news .profile__links,
+  .page-research-log .profile__links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: stretch;
+    gap: 6px 10px;
+  }
+
+  .page-news .profile__links a,
+  .page-research-log .profile__links a {
+    display: inline-flex;
+    justify-content: flex-start;
+    gap: 8px;
+    width: auto;
+    height: auto;
+    min-height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    line-height: 1.2;
+  }
+
+  .page-news .profile__links span,
+  .page-research-log .profile__links span {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  .project-index-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .project-index-card__media {
+    width: 100%;
+    min-height: 0;
+    aspect-ratio: 16 / 9;
+  }
+
+  .project-index-card__media img,
+  .project-index-card__media--compact img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
   .project-grid {
     grid-template-columns: 1fr;
   }
