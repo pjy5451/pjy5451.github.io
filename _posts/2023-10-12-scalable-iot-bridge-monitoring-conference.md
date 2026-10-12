@@ -7,12 +7,10 @@ lang: en
 note_category: Conference
 description: "Domestic conference presentation at the Korea Institute for Structural Maintenance and Inspection on October 12, 2023."
 images:
-  - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/1697100447007-0.jpg
+  - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/1697100447007-0-cropped.png
     alt: "Presentation at the 2023 KSMI Fall Conference"
-  - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/1697100447007-2.jpg
+  - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/1697100447007-2-cropped.png
     alt: "Conference photograph from the 2023 KSMI Fall Conference"
-  - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/20231011_152851.jpg
-    alt: "2023 KSMI Fall Conference venue"
   - src: /images/news/2023/2023-10-12-scalable-iot-bridge-monitoring-conference/20231012_125419.jpg
     alt: "Conference session at the 2023 KSMI Fall Conference"
 ---
