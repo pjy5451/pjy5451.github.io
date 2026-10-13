@@ -3321,10 +3321,11 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
 
   .page-news .profile__links a,
   .page-research-log .profile__links a {
-    display: inline-flex;
+    display: flex;
+    align-items: center;
     justify-content: flex-start;
     gap: 8px;
-    width: auto;
+    width: 100%;
     height: auto;
     min-height: 28px;
     padding: 0;
@@ -3332,6 +3333,13 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
     border-radius: 0;
     background: transparent;
     line-height: 1.2;
+    text-align: left;
+  }
+
+  .page-news .profile__links svg,
+  .page-research-log .profile__links svg {
+    flex: 0 0 18px;
+    margin: 0;
   }
 
   .page-news .profile__links span,
