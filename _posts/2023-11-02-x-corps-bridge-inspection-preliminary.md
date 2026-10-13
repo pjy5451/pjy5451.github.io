@@ -11,4 +11,8 @@ images:
     alt: "Presenting the bridge inspection solution at the X-Corps preliminary round"
 ---
 
-I led a team in the 2023 Carbon Neutrality ESG Future-Leading X-Corps program, presented **Bridge IoT Sensing and Cloud-Based Solution for Data-Driven Field Inspection** in the preliminary round, and received an award.
+I led a team that received an **Award** in the 2023 Carbon Neutrality ESG Future-Leading X-Corps program.
+
+**Awarded project:** **Bridge IoT Sensing and Cloud-Based Solution for Data-Driven Field Inspection**
+
+I presented the project in the preliminary round as the team lead.

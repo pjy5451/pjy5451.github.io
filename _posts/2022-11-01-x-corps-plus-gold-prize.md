@@ -17,4 +17,4 @@ images:
     alt: "Gold Prize certificate from the 2nd X-Corps Plus Festival"
 ---
 
-Our team received the Gold Prize at the 2nd X-Corps Plus Festival, held as part of the Korea Future Talent Festival. The recognition was presented as the National Research Foundation of Korea Chairman's Award.
+Our team received the **Gold Prize** at the 2nd X-Corps Plus Festival, held as part of the Korea Future Talent Festival. The recognition was presented as the National Research Foundation of Korea Chairman's Award.

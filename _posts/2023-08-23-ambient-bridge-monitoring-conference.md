@@ -13,6 +13,8 @@ images:
     alt: "Korea Institute of BIM international conference venue"
 ---
 
-I presented **Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements** at the international conference of the Korean Institute of Building Information Modeling (KIBIM).
+**Presentation:** **Cloud-Based Ambient Bridge Monitoring Using Strain and Acceleration Measurements**
+
+I presented this work at the international conference of the Korean Institute of Building Information Modeling (KIBIM).
 
 **Authors:** **Junyoung Park**, Junsik Shin, Jong-Woong Park

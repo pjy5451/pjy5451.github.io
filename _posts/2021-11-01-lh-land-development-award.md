@@ -16,7 +16,9 @@ images:
     alt: "Chung-Ang University award recipients at the 12th LH Land Development Technology Competition"
 ---
 
-Our team received an Excellence Award at the 12th LH Land Development Technology Competition for a citizen-participatory smart city system based on QR code visualization of sensor data.
+Our team received the **Excellence Award** from the Korea Land and Housing Corporation (LH) at the 12th LH Land Development Technology Competition.
+
+**Awarded project:** **Citizen-Participatory Smart City System Using QR Code Visualization of Sensor Data**
 
 The proposed system measured urban conditions such as tilt, temperature, humidity, odor, and noise, and allowed citizens to submit QR code data through a KakaoTalk channel.
 

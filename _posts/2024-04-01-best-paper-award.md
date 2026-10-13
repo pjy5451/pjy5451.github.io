@@ -12,6 +12,6 @@ images:
     alt: "Best Paper Award at the Korea Institute for Structural Maintenance and Inspection conference"
 ---
 
-I received the Best Paper Award in the oral presentation session on maintenance from the Korea Institute for Structural Maintenance and Inspection.
+I received the **Best Paper Award** in the oral presentation session on maintenance from the Korea Institute for Structural Maintenance and Inspection (KSMI).
 
-The awarded presentation was titled "A Scalable Framework for Ambient Bridge Monitoring Using IoT Sensor and Cloud Computing."
+**Awarded presentation:** **A Scalable Framework for Ambient Bridge Monitoring Using IoT Sensor and Cloud Computing**

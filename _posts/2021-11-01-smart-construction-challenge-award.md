@@ -16,9 +16,11 @@ images:
     alt: "Junyoung Park presenting the bridge monitoring system at Smart Construction Challenge 2021"
 ---
 
-I led a team in the Construction IoT, AI, and Sensing category of the Smart Construction Challenge. We received the Innovation Award, presented as the Korea National Railway Chairman's Award.
+I led a team that received the **Innovation Award** in the Construction IoT, AI, and Sensing category of Smart Construction Challenge 2021. The recognition was presented as the Korea National Railway Chairman's Award.
 
-We proposed an IoT sensor and cloud-based system for continuous bridge displacement monitoring. The system was demonstrated on Paldang Overpass in Gyeonggi Province and Cheongdam 1 Bridge in Seoul.
+**Awarded project:** **IoT Sensor- and Cloud-Based Continuous Bridge Displacement Monitoring System**
+
+The system was demonstrated on Paldang Overpass in Gyeonggi Province and Cheongdam 1 Bridge in Seoul.
 
 [Read the Chung-Ang University news article](https://news.cau.ac.kr/cms/FR_CON/BoardView.do?SITE_NO=5&MENU_ID=10&CONTENTS_NO=1&P_TAB_NO=1&BOARD_SEQ=1&BBS_SEQ=6508)
 

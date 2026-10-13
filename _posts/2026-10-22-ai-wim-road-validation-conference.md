@@ -10,4 +10,6 @@ description: "Scheduled presentation at the KSCE 2026 Convention on October 22, 
 image_placeholder: "Coming soon"
 ---
 
-I will present **AI-WIM-Based Detection of Suspected Overweight Vehicles at Highway Speeds: Real-Road Validation and Performance Evaluation** at the convention of the Korean Society of Civil Engineers (KSCE).
+**Scheduled presentation:** **AI-WIM-Based Detection of Suspected Overweight Vehicles at Highway Speeds: Real-Road Validation and Performance Evaluation**
+
+I am scheduled to present this work at the convention of the Korean Society of Civil Engineers (KSCE).

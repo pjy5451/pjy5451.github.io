@@ -17,4 +17,6 @@ images:
     alt: "Award recipients at the 2021 CAU Engineering Academic Festival"
 ---
 
-I received the College of Engineering Dean's Award for **Cloud-Based Long-Term Bridge Monitoring System**.
+I received the **College of Engineering Dean's Award** from Chung-Ang University.
+
+**Awarded project:** **Cloud-Based Long-Term Bridge Monitoring System**

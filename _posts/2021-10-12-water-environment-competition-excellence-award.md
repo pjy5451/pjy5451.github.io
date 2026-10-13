@@ -13,6 +13,6 @@ images:
     alt: "Technology objectives and scope for the smart water grid project"
 ---
 
-I received the Excellence Award at the 8th University Student Water Environment Policy and Technology Competition.
+I received the **Excellence Award** at the 8th University Student Water Environment Policy and Technology Competition.
 
-Our project was **IoT- and Deep-Learning-Based Smart Water Grid: Focused on Sewer and Water-Supply Pipelines**.
+**Awarded project:** **IoT- and Deep-Learning-Based Smart Water Grid: Focused on Sewer and Water-Supply Pipelines**
