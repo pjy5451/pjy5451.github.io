@@ -18,5 +18,3 @@ images:
 I represented UDNS as an exhibitor at the Land, Infrastructure and Transport Technology Exchange, hosted by the Ministry of Land, Infrastructure and Transport (MOLIT) and organized by the Korea Agency for Infrastructure Technology Advancement (KAIA) at COEX in Seoul.
 
 I introduced how roadside weigh-in-motion and onboard mass monitoring can support real-time vehicle-weight information and overload prevention in freight transportation.
-
-[Visit the event information page](https://hub.kaia.re.kr/startInsight.do/view?noticeId=37)
