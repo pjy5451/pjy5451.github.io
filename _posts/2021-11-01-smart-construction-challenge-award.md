@@ -10,7 +10,7 @@ description: "Innovation Award for an IoT sensor and cloud-based system for cont
 images:
   - src: /images/news/2021/2021-11-01-smart-construction-challenge-award/1637125038115-6.jpg
     alt: "Receiving the Innovation Award at Smart Construction Challenge 2021"
-  - src: /images/news/2021/2021-11-01-smart-construction-challenge-award/1637125038115-1.jpg
+  - src: /images/news/2021/2021-11-01-smart-construction-challenge-award/innovation-award-recipients-4x3.jpg
     alt: "Innovation Award recipients at Smart Construction Challenge 2021"
   - src: /images/news/2021/2021-11-01-smart-construction-challenge-award/smart-construction-presentation.png
     alt: "Junyoung Park presenting the bridge monitoring system at Smart Construction Challenge 2021"
