@@ -733,6 +733,10 @@ strong {
   width: 100%;
 }
 
+.cv-mobile-profile {
+  display: none;
+}
+
 .cv-document-header {
   display: flex;
   align-items: flex-end;
@@ -2947,6 +2951,10 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
 }
 
 @media (max-width: 860px) {
+  .cv-mobile-profile {
+    display: block;
+  }
+
   .topbar {
     position: sticky;
     display: grid;
@@ -3391,6 +3399,87 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
 
   .page-news .profile__links span,
   .page-research-log .profile__links span {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+    white-space: normal;
+  }
+
+  .page-research-log .profile,
+  .page-cv .profile {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 0 14px;
+    margin: 0 0 24px;
+    padding: 12px 14px;
+  }
+
+  .page-research-log .profile__photo,
+  .page-cv .profile__photo {
+    grid-row: 1 / 6;
+    width: 76px;
+    height: 76px;
+  }
+
+  .page-research-log .profile__name,
+  .page-cv .profile__name {
+    align-self: auto;
+    font-size: 1.24rem;
+  }
+
+  .page-research-log .profile__role,
+  .page-research-log .profile__degree,
+  .page-research-log .profile__location,
+  .page-cv .profile__role,
+  .page-cv .profile__degree,
+  .page-cv .profile__location {
+    display: block;
+    align-self: auto;
+    font-size: 0.9rem;
+  }
+
+  .page-research-log .profile__location,
+  .page-cv .profile__location {
+    display: inline-flex;
+  }
+
+  .page-research-log .profile__advisor,
+  .page-cv .profile__advisor {
+    display: block;
+  }
+
+  .page-research-log .profile__links,
+  .page-cv .profile__links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-content: stretch;
+    gap: 6px 10px;
+    width: 100%;
+    margin: 12px 0 0;
+  }
+
+  .page-research-log .profile__links a,
+  .page-cv .profile__links a {
+    display: grid;
+    grid-template-columns: 22px minmax(0, 1fr);
+    justify-content: initial;
+    place-items: initial;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    min-height: 30px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    line-height: 1.2;
+  }
+
+  .page-research-log .profile__links span,
+  .page-cv .profile__links span {
     position: static;
     width: auto;
     height: auto;

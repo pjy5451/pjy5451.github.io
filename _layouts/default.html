@@ -61,7 +61,11 @@
     </header>
 
     <div class="site">
-      {% unless page.body_class contains "page-cv" %}{% include sidebar.html %}{% endunless %}
+      {% if page.body_class contains "page-cv" %}
+        <div class="cv-mobile-profile">{% include sidebar.html %}</div>
+      {% else %}
+        {% include sidebar.html %}
+      {% endif %}
       <main class="content">
         {{ content }}
       </main>
