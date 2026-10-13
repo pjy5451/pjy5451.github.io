@@ -9,7 +9,7 @@ description: "UDNS exhibition at the 2025 Land, Infrastructure and Transport Tec
 images:
   - src: /images/news/2025/2025-06-19-land-transport-technology-exchange/photo_2026-10-13_12-03-59.jpg
     alt: "UDNS freight-vehicle weight monitoring technology exhibition at the 2025 Land, Infrastructure and Transport Technology Exchange"
-  - src: /images/news/2025/2025-06-19-land-transport-technology-exchange/photo_2026-10-13_12-04-01.jpg
+  - src: /images/news/2025/2025-06-19-land-transport-technology-exchange/technology-exchange-display-cropped.jpg
     alt: "TruckCaliber and JRP-WIM information displayed at the 2025 Land, Infrastructure and Transport Technology Exchange"
 ---
 
