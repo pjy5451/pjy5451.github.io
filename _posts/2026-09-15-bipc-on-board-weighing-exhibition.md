@@ -8,7 +8,7 @@ lang: en
 note_category: Conference
 description: "Participation in the 14th Busan International Port Conference with an on-board weighing system exhibition."
 images:
-  - src: /images/news/2026/2026-09-15-bipc-on-board-weighing-exhibition/photo_2026-10-10_12-01-33.jpg
+  - src: /images/news/2026/2026-09-15-bipc-on-board-weighing-exhibition/bipc-2026-exhibition-cropped.jpg
     alt: "On-board weighing system exhibition at BIPC 2026"
 ---
 
