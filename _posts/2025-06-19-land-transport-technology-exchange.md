@@ -4,7 +4,7 @@ title: "Land, Infrastructure and Transport Technology Exchange 2025"
 date: 2025-06-19 00:00:00 +0900
 categories: notes
 lang: en
-note_category: Conference
+note_category: Exhibition
 description: "UDNS exhibition at the 2025 Land, Infrastructure and Transport Technology Exchange in Seoul."
 images:
   - src: /images/news/2025/2025-06-19-land-transport-technology-exchange/photo_2026-10-13_12-03-59.jpg

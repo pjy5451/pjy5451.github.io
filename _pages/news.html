@@ -38,7 +38,7 @@ body_class: "page-notes page-news"
       {% if filter_category == "Recognition" %}{% assign filter_category = "Award" %}{% endif %}
       {% assign filter_slug = filter_category | downcase | replace: " ", "-" %}
       {% assign needs_image_slot = false %}
-      {% if post.note_category == "Conference" or post.note_category == "Award" %}{% assign needs_image_slot = true %}{% endif %}
+      {% if post.note_category == "Conference" or post.note_category == "Exhibition" or post.note_category == "Award" %}{% assign needs_image_slot = true %}{% endif %}
       <article class="note-entry{% if post.images or post.thumbnail or post.image_placeholder or needs_image_slot %} note-entry--with-gallery{% endif %}" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == note_years.first %} hidden{% endunless %}>
         {% if needs_image_slot %}
           {% include note_gallery.html note=post placeholder="Image coming soon" %}
