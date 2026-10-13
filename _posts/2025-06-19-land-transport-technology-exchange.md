@@ -6,7 +6,11 @@ categories: notes
 lang: en
 note_category: Conference
 description: "UDNS exhibition at the 2025 Land, Infrastructure and Transport Technology Exchange in Seoul."
-image_placeholder: "Image coming soon"
+images:
+  - src: /images/news/2025/2025-06-19-land-transport-technology-exchange/photo_2026-10-13_12-03-59.jpg
+    alt: "UDNS freight-vehicle weight monitoring technology exhibition at the 2025 Land, Infrastructure and Transport Technology Exchange"
+  - src: /images/news/2025/2025-06-19-land-transport-technology-exchange/photo_2026-10-13_12-04-01.jpg
+    alt: "TruckCaliber and JRP-WIM information displayed at the 2025 Land, Infrastructure and Transport Technology Exchange"
 ---
 
 **Exhibition:** **Freight-Vehicle Weight Monitoring Technologies**
