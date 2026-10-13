@@ -9,6 +9,9 @@
             {% if image.src contains '/images/news/' %}
               {% assign optimized_src = image.src | replace: '/images/news/', '/images/news-web/' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
               <source srcset="{{ optimized_src | relative_url }}" type="image/webp">
+            {% elsif image.src contains '/images/research-log/' %}
+              {% assign optimized_src = image.src | replace: '/images/research-log/', '/images/research-log-web/' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
+              <source srcset="{{ optimized_src | relative_url }}" type="image/webp">
             {% endif %}
             <img src="{{ image.src | relative_url }}" alt="{{ image.alt | default: note.title | escape }}" loading="lazy" decoding="async">
           </picture>
@@ -30,6 +33,9 @@
         <picture>
           {% if note.thumbnail contains '/images/news/' %}
             {% assign optimized_src = note.thumbnail | replace: '/images/news/', '/images/news-web/' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
+            <source srcset="{{ optimized_src | relative_url }}" type="image/webp">
+          {% elsif note.thumbnail contains '/images/research-log/' %}
+            {% assign optimized_src = note.thumbnail | replace: '/images/research-log/', '/images/research-log-web/' | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}
             <source srcset="{{ optimized_src | relative_url }}" type="image/webp">
           {% endif %}
           <img src="{{ note.thumbnail | relative_url }}" alt="{{ note.thumbnail_alt | default: note.title | escape }}" loading="lazy" decoding="async">

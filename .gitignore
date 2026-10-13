@@ -5,3 +5,14 @@ _site
 .jekyll-cache
 index.html
 
+# Local working files and source assets
+/*.xlsx
+/task.md
+/assets/files/*_old.pdf
+/assets/files/*_2.pdf
+*.heic
+/images/news/**/*.pdf
+/images/news/2018/2018-11-08-engineering-festival-hackathon/1541763180944.jpg
+/images/news/2025/2025-11-14-cloud-enforcement-platform-conference/photo_2026-10-13_12-05-17.jpg
+/images/news/2025/2025-11-14-cloud-enforcement-platform-conference/photo_2026-10-13_12-05-18.jpg
+

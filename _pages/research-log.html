@@ -14,6 +14,17 @@ body_class: "page-notes page-research-log"
 {% assign note_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
 {% assign filter_labels = "Development|Field Work" | split: "|" %}
 {% assign filter_slugs = "development|field-work" | split: "|" %}
+{% assign default_note_year = "" %}
+{% for year in note_years %}
+  {% assign year_count = 0 %}
+  {% for post in english_posts %}
+    {% if post.note_category == "Development" or post.note_category == "Field Work" %}
+      {% assign post_year = post.date | date: "%Y" %}
+      {% if post_year == year %}{% assign year_count = year_count | plus: 1 %}{% endif %}
+    {% endif %}
+  {% endfor %}
+  {% if default_note_year == "" and year_count > 0 %}{% assign default_note_year = year %}{% endif %}
+{% endfor %}
 
 <div class="note-filter-groups">
   <div class="note-filter-group">
@@ -27,7 +38,9 @@ body_class: "page-notes page-research-log"
             {% if post_year == year %}{% assign year_count = year_count | plus: 1 %}{% endif %}
           {% endif %}
         {% endfor %}
-        <button class="note-filter{% if year == "2023" %} is-active{% endif %}" type="button" data-note-year="{{ year }}" aria-pressed="{% if year == "2023" %}true{% else %}false{% endif %}">{{ year }} <span>{{ year_count }}</span></button>
+        {% if year_count > 0 %}
+          <button class="note-filter{% if year == default_note_year %} is-active{% endif %}" type="button" data-note-year="{{ year }}" aria-pressed="{% if year == default_note_year %}true{% else %}false{% endif %}">{{ year }} <span>{{ year_count }}</span></button>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
@@ -52,7 +65,7 @@ body_class: "page-notes page-research-log"
       {% assign post_year = post.date | date: "%Y" %}
       {% if note_years contains post_year %}
       {% assign filter_slug = post.note_category | downcase | replace: " ", "-" %}
-      <article class="note-entry note-entry--with-gallery" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == "2023" %} hidden{% endunless %}>
+      <article class="note-entry note-entry--with-gallery" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == default_note_year %} hidden{% endunless %}>
         {% include note_gallery.html note=post placeholder="Image coming soon" %}
         <div class="note-entry__body">
           <header class="note-entry__header">
@@ -69,4 +82,4 @@ body_class: "page-notes page-research-log"
 </div>
 <p class="note-empty" data-note-empty hidden>No research log entries match these filters.</p>
 
-{% include timeline_filters.html default_year="2023" storage_prefix="researchLog" %}
+{% include timeline_filters.html default_year=default_note_year storage_prefix="researchLog" %}
