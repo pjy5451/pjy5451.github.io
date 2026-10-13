@@ -10,7 +10,7 @@ description: "Grand Prize and Korea Institute for Advancement of Technology Pres
 images:
   - src: /images/news/2018/2018-11-08-engineering-festival-hackathon/grand-prize-team-blurred.png
     alt: "Grand Prize team at the 2018 Engineering Festival AI Object Detection Hackathon, with other team members' faces blurred"
-  - src: /images/news/2018/2018-11-08-engineering-festival-hackathon/object-detection-demo.jpg
+  - src: /images/news/2018/2018-11-08-engineering-festival-hackathon/object-detection-demo-4x3.jpg
     alt: "Real-time object detection demonstration at the 2018 Engineering Festival hackathon"
 ---
 

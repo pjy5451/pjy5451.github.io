@@ -38,7 +38,7 @@ groups:
   - title: Cloud-Based Long-Term Bridge Monitoring System
     period: 2021-2024
     href: /projects/bridge-monitoring/
-    thumbnail: /images/field-sites/seongsan-bridge/seongsan-bridge-monitoring-installation.png
+    thumbnail: /images/projects/project-cards/bridge-monitoring-cropped.jpg
     summary: This project develops a long-term bridge monitoring system using IoT sensors, cloud storage, and dashboards.
     tags:
     - Structural Health Monitoring
@@ -56,7 +56,7 @@ groups:
   - title: QR-Based Bridge Maintenance Monitoring System
     period: 2020-2023
     href: /projects/qr-lifecycle-monitoring/
-    thumbnail: /images/field-sites/choha-cheon-bridge/choha-cheon-bridge-qr-monitoring.jpg
+    thumbnail: /images/projects/project-cards/qr-monitoring-cropped.jpg
     summary: This project develops a QR-based bridge maintenance system linking low-power sensing, field records, and cloud reports.
     tags:
     - Structural Health Monitoring
@@ -66,7 +66,7 @@ groups:
   - title: Port Structure Monitoring System
     period: 2021-2023
     href: /projects/quay-wall-monitoring/
-    thumbnail: /images/field-sites/port-quay-wall-monitoring/port-quay-wall-sensor-installation.jpg
+    thumbnail: /images/projects/project-cards/port-monitoring-cropped.jpg
     summary: This project develops a ruggedized multisensory system for quay wall monitoring and event recognition.
     tags:
     - Structural Health Monitoring

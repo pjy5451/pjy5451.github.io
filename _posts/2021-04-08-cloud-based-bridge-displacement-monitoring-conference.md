@@ -9,7 +9,7 @@ description: "Domestic conference presentation at the Computational Structural E
 images:
   - src: /images/news/2021/2021-04-08-cloud-based-bridge-displacement-monitoring-conference/presentation-overview.jpg
     alt: "Presentation on cloud-based bridge displacement monitoring at the 2021 COSEIK Annual Conference"
-  - src: /images/news/2021/2021-04-08-cloud-based-bridge-displacement-monitoring-conference/1618193089744-2.jpg
+  - src: /images/news/2021/2021-04-08-cloud-based-bridge-displacement-monitoring-conference/coseik-conference-portrait-cropped.jpg
     alt: "At the 2021 COSEIK Annual Conference in Gyeongju"
 ---
 

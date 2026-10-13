@@ -9,8 +9,6 @@ description: "College of Engineering Dean's Award for a cloud-based long-term br
 images:
   - src: /images/news/2021/2021-12-08-cloud-bridge-monitoring-deans-award/award-presentation-4x3.jpg
     alt: "College of Engineering Dean's Award certificate presentation"
-  - src: /images/news/2021/2021-12-08-cloud-bridge-monitoring-deans-award/receiving-deans-award-4x3.jpg
-    alt: "Receiving the College of Engineering Dean's Award"
   - src: /images/news/2021/2021-12-08-cloud-bridge-monitoring-deans-award/award-recipients-4x3.jpg
     alt: "College of Engineering Dean's Award recipients"
   - src: /images/news/2021/2021-12-08-cloud-bridge-monitoring-deans-award/engineering-festival-award-recipients-4x3.jpg
