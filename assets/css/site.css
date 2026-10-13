@@ -1386,6 +1386,10 @@ a.inline-action--thesis:hover {
   background: #fff;
 }
 
+.document-mobile-preview {
+  display: none;
+}
+
 .cv-simple-panel {
   margin: 0;
   padding: 26px 0 28px;
@@ -3170,8 +3174,51 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
   }
 
   .portfolio-preview iframe {
-    height: 62vh;
-    min-height: 420px;
+    display: none;
+  }
+
+  .document-mobile-preview {
+    display: grid;
+    justify-items: center;
+    gap: 12px;
+  }
+
+  .document-mobile-preview__image {
+    display: block;
+    width: min(100%, 390px);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(31, 41, 51, 0.08);
+  }
+
+  .document-mobile-preview--landscape .document-mobile-preview__image {
+    width: 100%;
+  }
+
+  .document-mobile-preview__image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .document-mobile-preview__open {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    padding: 7px 16px;
+    border: 1px solid var(--system);
+    border-radius: 5px;
+    color: #fff;
+    background: var(--system);
+    font-weight: 800;
+  }
+
+  .document-mobile-preview__open:hover {
+    color: #fff;
+    text-decoration: none;
   }
 
   .cv-simple-panel {

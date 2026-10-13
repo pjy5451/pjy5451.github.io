@@ -38,6 +38,12 @@ body_class: "page-cv"
     </div>
   </header>
   <iframe title="Junyoung Park CV PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_CV.pdf#view=FitH" loading="lazy"></iframe>
+  <div class="document-mobile-preview">
+    <a class="document-mobile-preview__image" href="/assets/files/Junyoung_Park_CV.pdf" target="_blank" rel="noopener" aria-label="View Junyoung Park CV PDF">
+      <img src="/images/documents/junyoung-park-cv-preview.png" alt="First page of Junyoung Park's curriculum vitae" loading="lazy">
+    </a>
+    <a class="document-mobile-preview__open" href="/assets/files/Junyoung_Park_CV.pdf" target="_blank" rel="noopener">View PDF</a>
+  </div>
 </section>
 
 <section class="portfolio-preview" id="portfolio-preview" data-portfolio-preview hidden>
@@ -52,6 +58,12 @@ body_class: "page-cv"
     </div>
   </header>
   <iframe title="Junyoung Park portfolio PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_Portfolio.pdf#view=FitH" loading="lazy"></iframe>
+  <div class="document-mobile-preview document-mobile-preview--landscape">
+    <a class="document-mobile-preview__image" href="/assets/files/Junyoung_Park_Portfolio.pdf" target="_blank" rel="noopener" aria-label="View Junyoung Park portfolio PDF">
+      <img src="/images/documents/junyoung-park-portfolio-preview.png" alt="Cover of Junyoung Park's research portfolio" loading="lazy">
+    </a>
+    <a class="document-mobile-preview__open" href="/assets/files/Junyoung_Park_Portfolio.pdf" target="_blank" rel="noopener">View PDF</a>
+  </div>
 </section>
 
 <section class="cv-simple-panel" markdown="1">
