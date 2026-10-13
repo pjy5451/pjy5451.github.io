@@ -7,7 +7,7 @@ lang: en
 note_category: Conference
 description: "Presentation in the YES (Young Engineer's Session) at the Korean Institute of Bridge and Structural Engineers on September 8, 2023."
 images:
-  - src: /images/news/2023/2023-09-08-iot-cloud-long-term-bridge-monitoring-conference/20230908_083212.jpg
+  - src: /images/news/2023/2023-09-08-iot-cloud-long-term-bridge-monitoring-conference/kibse-venue-4x3.jpg
     alt: "KIBSE Annual Conference 2023 venue at Sejong University"
 ---
 

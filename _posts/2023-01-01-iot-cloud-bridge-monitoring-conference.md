@@ -8,9 +8,9 @@ lang: en
 note_category: Conference
 description: "Domestic conference presentation at the 2023 KSNVE Spring Conference."
 images:
-  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/20230524_174535.jpg
+  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/ksnve-venue-4x3.jpg
     alt: "2023 KSNVE Spring Conference"
-  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/20230524_174551.jpg
+  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/ksnve-program-4x3.jpg
     alt: "Conference venue at the 2023 KSNVE Spring Conference"
   - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/ksnve-2023-group-blurred.png
     alt: "Junyoung Park and colleagues at the 2023 KSNVE Spring Conference"
