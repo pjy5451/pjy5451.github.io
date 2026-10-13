@@ -7,7 +7,7 @@ lang: en
 note_category: Award
 description: "Team leadership, a preliminary presentation, and an award in the 2023 Carbon Neutrality ESG Future-Leading X-Corps program."
 images:
-  - src: /images/news/2023/2023-11-02-x-corps-bridge-inspection-preliminary/20231102_143402.jpg
+  - src: /images/news/2023/2023-11-02-x-corps-bridge-inspection-preliminary/x-corps-presentation-cropped-v2.jpg
     alt: "Presenting the bridge inspection solution at the X-Corps preliminary round"
 ---
 
