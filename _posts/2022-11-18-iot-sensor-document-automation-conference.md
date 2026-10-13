@@ -11,7 +11,7 @@ images:
     alt: "CONVR 2022 conference banner at Chung-Ang University"
   - src: /images/news/2022/2022-11-18-iot-sensor-document-automation-conference/20221118_094133.jpg
     alt: "Junyoung Park attending CONVR 2022"
-  - src: /images/news/2022/2022-11-18-iot-sensor-document-automation-conference/1668761596702-0.jpg
+  - src: /images/news/2022/2022-11-18-iot-sensor-document-automation-conference/convr-2022-group-blurred.png
     alt: "Conference participants at CONVR 2022"
 ---
 
