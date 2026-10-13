@@ -12,6 +12,8 @@ images:
     alt: "2023 KSNVE Spring Conference"
   - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/20230524_174551.jpg
     alt: "Conference venue at the 2023 KSNVE Spring Conference"
+  - src: /images/news/2023/2023-05-25-iot-cloud-bridge-monitoring-conference/ksnve-2023-group-blurred.png
+    alt: "Junyoung Park and colleagues at the 2023 KSNVE Spring Conference"
 ---
 
 **Presentation:** **Bridge Monitoring System Using an IoT Sensor and a Cloud Server**
