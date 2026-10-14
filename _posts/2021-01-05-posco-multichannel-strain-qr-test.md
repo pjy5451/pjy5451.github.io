@@ -6,6 +6,10 @@ categories: notes
 lang: en
 note_category: Development
 description: "Test of a multichannel strain QR visualization sensor at the POSCO Global R&D Center on January 5, 2021."
+images:
+  - src: "/images/research-log/2021/2021-01-05-posco-multichannel-strain-qr-test/20210105_121349.jpg"
+  - src: "/images/research-log/2021/2021-01-05-posco-multichannel-strain-qr-test/20210105_121443.jpg"
+  - src: "/images/research-log/2021/2021-01-05-posco-multichannel-strain-qr-test/20210105_124503.jpg"
 ---
 
 I tested a multichannel strain QR visualization sensor at the POSCO Global R&D Center in Songdo, Incheon, on January 5, 2021.
