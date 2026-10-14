@@ -6,6 +6,10 @@ categories: notes
 lang: en
 note_category: Development
 description: "Surface and embedded strain-gauge installation for lifecycle monitoring at the POSCO Global R&D Center on January 13, 2021."
+images:
+  - src: "/images/research-log/2021/2021-01-13-posco-lifecycle-strain-gauge-test/20210113_102708.jpg"
+  - src: "/images/research-log/2021/2021-01-13-posco-lifecycle-strain-gauge-test/20210113_105115.jpg"
+  - src: "/images/research-log/2021/2021-01-13-posco-lifecycle-strain-gauge-test/20210113_120101.jpg"
 ---
 
 I returned to the POSCO Global R&D Center on January 13, 2021, to install a steel surface strain gauge and an embedded strain gauge for lifecycle monitoring.
