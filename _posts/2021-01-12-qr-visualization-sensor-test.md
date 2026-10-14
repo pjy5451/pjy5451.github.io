@@ -6,6 +6,10 @@ categories: notes
 lang: en
 note_category: Development
 description: "Test of a QR visualization sensor on January 12, 2021."
+images:
+  - src: "/images/research-log/2021/2021-01-12-qr-visualization-sensor-test/20210105_121349.jpg"
+  - src: "/images/research-log/2021/2021-01-12-qr-visualization-sensor-test/20210105_121443.jpg"
+  - src: "/images/research-log/2021/2021-01-12-qr-visualization-sensor-test/20210105_124503.jpg"
 ---
 
 I tested a QR visualization sensor on January 12, 2021.
