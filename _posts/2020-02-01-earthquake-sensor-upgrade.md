@@ -8,11 +8,11 @@ lang: en
 note_category: Development
 description: "Upgrade of an earthquake sensor in February 2020."
 images:
-  - src: /images/research-log/2020/earthquake-sensor-upgrade/20200219_101048.jpg
+  - src: /images/research-log/2020/2020-02-01-earthquake-sensor-upgrade/20200219_101048.jpg
     alt: "Earthquake sensor hardware during the February 2020 upgrade"
-  - src: /images/research-log/2020/earthquake-sensor-upgrade/20200219_102052.jpg
+  - src: /images/research-log/2020/2020-02-01-earthquake-sensor-upgrade/20200219_102052.jpg
     alt: "Earthquake sensor components prepared for the upgrade"
-  - src: /images/research-log/2020/earthquake-sensor-upgrade/20200219_105752.jpg
+  - src: /images/research-log/2020/2020-02-01-earthquake-sensor-upgrade/20200219_105752.jpg
     alt: "Upgraded earthquake sensor assembly"
 ---
 

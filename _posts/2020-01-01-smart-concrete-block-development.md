@@ -8,9 +8,9 @@ lang: en
 note_category: Development
 description: "Development of a smart concrete block in January 2020."
 images:
-  - { src: /images/research-log/2020/smart-concrete-block-development/20200109_141041.jpg, alt: "Early smart concrete block development" }
-  - { src: /images/research-log/2020/smart-concrete-block-development/20200320_113221.jpg, alt: "Smart concrete block sensing setup" }
-  - { src: /images/research-log/2020/smart-concrete-block-development/20200520_194854.jpg, alt: "Smart concrete block test setup" }
+  - { src: /images/research-log/2020/2020-01-01-smart-concrete-block-development/20200109_141041.jpg, alt: "Early smart concrete block development" }
+  - { src: /images/research-log/2020/2020-01-01-smart-concrete-block-development/20200320_113221.jpg, alt: "Smart concrete block sensing setup" }
+  - { src: /images/research-log/2020/2020-01-01-smart-concrete-block-development/20200520_194854.jpg, alt: "Smart concrete block test setup" }
 ---
 
 I worked on developing a smart concrete block in January 2020.
