@@ -6,6 +6,9 @@ categories: notes
 lang: en
 note_category: Field Work
 description: "Installation of one monitoring sensor at Soongsil University on May 3, 2022."
+images:
+  - src: "/images/research-log/2022/2022-05-03-soongsil-monitoring-sensor-installation/20220503_163729.jpg"
+  - src: "/images/research-log/2022/2022-05-03-soongsil-monitoring-sensor-installation/20220503_163737.jpg"
 ---
 
 I installed one monitoring sensor at Soongsil University on May 3, 2022.
