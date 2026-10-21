@@ -3,6 +3,7 @@ name: "Junyoung Park"
 description: "Researcher in structural monitoring, sensing systems, WIM/OBM, and applied AI."
 url: "https://pjy5451.github.io"
 baseurl: ""
+social_image: "/images/profile.png"
 repository: "pjy5451/pjy5451.github.io"
 timezone: Asia/Seoul
 locale: "en-US"

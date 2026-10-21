@@ -192,72 +192,7 @@ Start with one short paragraph explaining why this note exists.
 Write the interpretation in plain language.
 ```
 
-## Where To Write Study Posts
-
-Study posts also live in:
-
-```text
-_posts/
-```
-
-The key difference is the category. To make a post appear on the Study page, set `categories: study`.
-
-Example:
-
-```text
-_posts/2026-05-18-structural-dynamics-notes.md
-```
-
-Use this front matter:
-
-```markdown
----
-layout: default
-title: "Structural Dynamics Notes"
-date: 2026-05-18 00:00:00 +0900
-categories: study
-lang: en
-note_category: Structural Dynamics
-description: Notes on vibration, modal response, and interpretation of measured structural behavior.
----
-```
-
-Suggested `note_category` values:
-
-- Structural Dynamics
-- Reliability
-- Sensing Systems
-- Data Analysis
-- AI for Physical Systems
-- Reading Notes
-
-Study posts can be more technical than general notes. A useful structure is:
-
-```markdown
-# Structural Dynamics Notes
-
-<p class="note-date">May 18, 2026</p>
-
-## Question
-
-What am I trying to understand?
-
-## Key Ideas
-
-- Main concept.
-- Equation, assumption, or modeling point.
-- Connection to field data.
-
-## My Interpretation
-
-Explain how this changes the way I think about monitoring, sensing, or analysis.
-
-## References
-
-- Author, title, venue, year.
-```
-
-## Where To Put Images For News, Research Log, And Study
+## Where To Put Images For News And Research Log
 
 Put News images under:
 
@@ -271,30 +206,23 @@ Put Development and Field Work images under:
 images/research-log/<year>/<post-slug>/
 ```
 
-Put study images under:
-
-```text
-images/study/<post-slug>/
-```
-
 Examples:
 
 ```text
 images/news/2026/bridge-monitoring-reflection/site-photo.jpg
 images/research-log/2023/bridge-monitoring-installation/site-photo.jpg
-images/study/structural-dynamics-notes/modal-response.png
 ```
 
 Use lowercase English file names with hyphens. Avoid spaces and Korean characters in file names.
 
-## How To Add Figures In Notes Or Study Posts
+## How To Add Figures In News Or Research Log Posts
 
 For one figure:
 
 ```html
 <figure class="content-figure">
-  <img src="/images/study/structural-dynamics-notes/modal-response.png" alt="Modal response plot from a structural dynamics note">
-  <figcaption>Example modal response used to connect vibration concepts with measured structural behavior.</figcaption>
+  <img src="/images/news/2026/bridge-monitoring-reflection/site-photo.jpg" alt="Bridge monitoring site referenced in the news post">
+  <figcaption>Field site referenced in the bridge monitoring update.</figcaption>
 </figure>
 ```
 
@@ -303,23 +231,17 @@ For two figures side by side:
 ```html
 <div class="content-figure-grid">
   <figure class="content-figure">
-    <img src="/images/study/structural-dynamics-notes/time-history.png" alt="Measured acceleration time history">
+    <img src="/images/research-log/2023/bridge-monitoring-installation/time-history.png" alt="Measured acceleration time history">
     <figcaption>Measured acceleration time history.</figcaption>
   </figure>
   <figure class="content-figure">
-    <img src="/images/study/structural-dynamics-notes/frequency-spectrum.png" alt="Frequency spectrum from measured acceleration">
+    <img src="/images/research-log/2023/bridge-monitoring-installation/frequency-spectrum.png" alt="Frequency spectrum from measured acceleration">
     <figcaption>Frequency-domain view of the same signal.</figcaption>
   </figure>
 </div>
 ```
 
 The two-column layout automatically becomes one column on mobile.
-
-## Quick Rule For Notes vs Study
-
-Use `Notes` for reflections, website updates, personal logs, research process, and field lessons.
-
-Use `Study` for organized learning notes, technical summaries, equations, paper reading, concepts, and reusable explanations.
 
 ## Build Check
 

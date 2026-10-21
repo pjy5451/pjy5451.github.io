@@ -3,8 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.url == "/" %}{{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ page.description | default: site.description }}">
+    {% capture seo_title %}{% if page.url == "/" %}{{ site.title }}{% elsif page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endcapture %}
+    {% assign seo_title = seo_title | strip %}
+    {% assign seo_description = page.description | default: site.description | strip_html | normalize_whitespace %}
+    {% assign social_image = page.image %}
+    {% if social_image == nil and page.images %}
+      {% assign first_social_image = page.images | first %}
+      {% assign social_image = first_social_image.src | default: first_social_image %}
+    {% endif %}
+    {% assign social_image = social_image | default: site.social_image %}
+    <title>{{ seo_title }}</title>
+    <meta name="description" content="{{ seo_description | escape }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:title" content="{{ seo_title | escape }}">
+    <meta property="og:description" content="{{ seo_description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="{% if page.collection == 'posts' %}article{% else %}website{% endif %}">
+    <meta property="og:locale" content="{{ site.locale | replace: '-', '_' }}">
+    {% if social_image %}<meta property="og:image" content="{{ social_image | absolute_url }}">{% endif %}
+    <meta name="twitter:card" content="{% if social_image %}summary_large_image{% else %}summary{% endif %}">
+    <meta name="twitter:title" content="{{ seo_title | escape }}">
+    <meta name="twitter:description" content="{{ seo_description | escape }}">
+    {% if social_image %}<meta name="twitter:image" content="{{ social_image | absolute_url }}">{% endif %}
     <link rel="icon" href="{{ '/favicon.ico' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" sizes="any">
     <link rel="icon" href="{{ '/images/favicon.svg' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}" type="image/svg+xml">
     <link rel="alternate icon" href="{{ '/images/favicon.ico' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
