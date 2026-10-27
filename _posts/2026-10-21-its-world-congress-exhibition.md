@@ -7,7 +7,13 @@ categories: notes
 lang: en
 note_category: Exhibition
 description: "UDNS exhibition participation at the 2026 ITS World Congress in Gangneung."
-image_placeholder: "Image coming soon"
+images:
+  - src: /images/news/2026/2026-10-21-its-world-congress-exhibition/its-exhibition-team-blurred.jpg
+    alt: "Junyoung Park and a colleague presenting UDNS vehicle-weight sensing technologies at ITS World Congress 2026, with the colleague's face blurred"
+  - src: /images/news/2026/2026-10-21-its-world-congress-exhibition/its-world-congress-sign.jpg
+    alt: "Junyoung Park at the 2026 Gangneung ITS World Congress"
+  - src: /images/news/2026/2026-10-21-its-world-congress-exhibition/its-world-congress-program-board.jpg
+    alt: "Junyoung Park standing in front of the ITS World Congress 2026 program board"
 ---
 
 **Exhibition:** **Vehicle-Weight Sensing and Monitoring Technologies**
