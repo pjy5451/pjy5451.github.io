@@ -2586,14 +2586,16 @@ p.field-site-card__label:not(:first-child) {
 }
 
 .note-filter-groups {
-  display: grid;
-  gap: 9px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 9px 18px;
   margin: 0 0 18px;
 }
 
 .note-filter-group {
-  display: grid;
-  grid-template-columns: 46px minmax(0, 1fr);
+  display: flex;
+  flex: 0 1 auto;
   align-items: start;
   gap: 8px;
 }
