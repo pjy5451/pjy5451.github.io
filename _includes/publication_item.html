@@ -27,7 +27,11 @@
     {% capture item_venue_display %}Registered in {{ item.year }} ({{ patent_number }}){% endcapture %}
   {% elsif venue_lower contains "application" %}
     {% assign item_status = "Application" %}
-    {% capture item_venue_display %}Application filed in {{ item.year }} ({{ patent_number }}){% endcapture %}
+    {% if patent_number contains "KR " %}
+      {% capture item_venue_display %}Application filed in {{ item.year }} ({{ patent_number }}){% endcapture %}
+    {% else %}
+      {% capture item_venue_display %}Application filed in {{ item.year }}{% endcapture %}
+    {% endif %}
   {% elsif venue_lower contains "preparation" %}{% assign item_status = "In preparation" %}
   {% else %}{% assign item_status = "Application" %}{% endif %}
 {% elsif venue_lower contains "under review" %}{% assign item_status = "Under review" %}

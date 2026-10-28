@@ -812,6 +812,25 @@ sections:
   entries:
   - year: '2026'
     tags:
+    - LiDAR
+    - AI
+    - Transport
+    title:
+      en: Method and Apparatus for Vehicle Recognition Using a LiDAR Sensor
+      ko: 라이다 센서를 이용한 차량 인식 방법 및 장치
+    authors:
+      en: J. W. Kim, Y. Jho, Y. Jung, <strong>Junyoung Park</strong>
+      ko: J. W. Kim, Y. Jho, Y. Jung, <strong>박준영</strong>
+    venue:
+      en: Application filed in 2026.
+      ko: 2026년 출원.
+    actions:
+      en:
+      - label: Patent Application
+      ko:
+      - label: 특허 출원
+  - year: '2026'
+    tags:
     - OBM
     - WIM
     - Freight
