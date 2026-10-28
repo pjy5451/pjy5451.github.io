@@ -2864,14 +2864,122 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
 .note-archive__tag {
   margin-top: 1px;
   padding: 2px 7px;
-  border: 1px solid var(--line);
+  border: 1px solid var(--note-tag-border, var(--line));
   border-radius: 999px;
-  color: var(--muted);
-  background: var(--soft);
+  color: var(--note-tag-text, var(--muted));
+  background: var(--note-tag-bg, var(--soft));
   font-size: 0.73rem;
   font-weight: 650;
   line-height: 1.4;
   white-space: nowrap;
+}
+
+.note-archive__tag--conference {
+  --note-tag-text: #175b96;
+  --note-tag-border: #9fc5ea;
+  --note-tag-bg: #edf5ff;
+}
+
+.note-archive__tag--exhibition {
+  --note-tag-text: #146f61;
+  --note-tag-border: #8bc9bb;
+  --note-tag-bg: #eaf8f4;
+}
+
+.note-archive__tag--award {
+  --note-tag-text: #855700;
+  --note-tag-border: #dfbf63;
+  --note-tag-bg: #fff6dd;
+}
+
+.note-archive__tag--scholarship {
+  --note-tag-text: #6940a8;
+  --note-tag-border: #c2ace7;
+  --note-tag-bg: #f4efff;
+}
+
+.note-archive__tag--competition {
+  --note-tag-text: #994713;
+  --note-tag-border: #e5ad82;
+  --note-tag-bg: #fff0e6;
+}
+
+.note-archive__tag--academic {
+  --note-tag-text: #286875;
+  --note-tag-border: #9bcbd4;
+  --note-tag-bg: #edf8fb;
+}
+
+.note-archive__tag--personal {
+  --note-tag-text: #963d53;
+  --note-tag-border: #e3a7b5;
+  --note-tag-bg: #fff0f3;
+}
+
+.note-archive__tag--career {
+  --note-tag-text: #34713a;
+  --note-tag-border: #9dc79e;
+  --note-tag-bg: #edf7ed;
+}
+
+.note-archive__tag--recognition {
+  --note-tag-text: #5147a3;
+  --note-tag-border: #aaa5df;
+  --note-tag-bg: #f1f0ff;
+}
+
+html[data-theme="dark"] .note-archive__tag--conference {
+  --note-tag-text: #9ac8ff;
+  --note-tag-border: #356b9e;
+  --note-tag-bg: rgba(40, 111, 176, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--exhibition {
+  --note-tag-text: #86d7c7;
+  --note-tag-border: #367d70;
+  --note-tag-bg: rgba(35, 125, 106, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--award {
+  --note-tag-text: #f1cf70;
+  --note-tag-border: #8b6c26;
+  --note-tag-bg: rgba(145, 104, 21, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--scholarship {
+  --note-tag-text: #c9afff;
+  --note-tag-border: #7259a5;
+  --note-tag-bg: rgba(105, 71, 167, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--competition {
+  --note-tag-text: #f0b184;
+  --note-tag-border: #92582f;
+  --note-tag-bg: rgba(151, 76, 28, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--academic {
+  --note-tag-text: #91d3df;
+  --note-tag-border: #447d87;
+  --note-tag-bg: rgba(45, 116, 129, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--personal {
+  --note-tag-text: #efa7b8;
+  --note-tag-border: #914f5f;
+  --note-tag-bg: rgba(148, 56, 78, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--career {
+  --note-tag-text: #9ed49f;
+  --note-tag-border: #4f7f52;
+  --note-tag-bg: rgba(61, 123, 66, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--recognition {
+  --note-tag-text: #bdb5ff;
+  --note-tag-border: #625b9d;
+  --note-tag-bg: rgba(83, 72, 154, 0.2);
 }
 
 .note-empty {

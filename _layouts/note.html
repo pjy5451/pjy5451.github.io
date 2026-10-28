@@ -10,7 +10,7 @@ layout: default
       <a class="note-page__back" href="{{ '/news/' | relative_url }}">News</a>
     {% endif %}
     <time datetime="{{ page.date | date_to_xmlschema }}">{% if page.display_date %}{{ page.display_date }}{% else %}{{ page.date | date: "%B %-d, %Y" }}{% endif %}</time>
-    {% if page.note_category %}<span class="note-archive__tag">{{ page.note_category }}</span>{% endif %}
+    {% if page.note_category %}{% assign category_tone = page.note_category | downcase | replace: " ", "-" %}<span class="note-archive__tag note-archive__tag--{{ category_tone }}">{{ page.note_category }}</span>{% endif %}
     <h1>{{ page.title }}</h1>
   </header>
   {% include note_gallery.html note=page %}
