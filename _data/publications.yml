@@ -58,23 +58,27 @@ sections:
     venue:
       en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
       ko: 한국ITS학회논문지 (심사 중)
-  - year: '2027'
+  - year: '2026'
     tags:
     - Structural Health Monitoring
     detail_tags:
     - Digital Twin
-    thumbnail: /images/publications/2027-low-power-multichannel-strain-digital-twin.png
+    thumbnail: /images/publications/2026-low-power-multichannel-strain-digital-twin.png
     thumbnail_alt: Workflow for multichannel strain sensing, QR-based data storage, cloud displacement conversion, and digital-twin shape visualization
     thumbnail_fit: full
     title:
-      en: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
-      ko: Low-Power Multi-Channel Strain Sensing and Instant Shape Visualization for Digital Twin
+      en: Low-Power Multi-Channel Strain Sensing and QR-Enabled Shape Visualization for Digital-Twin-Enabled Structural Health Monitoring
+      ko: Low-Power Multi-Channel Strain Sensing and QR-Enabled Shape Visualization for Digital-Twin-Enabled Structural Health Monitoring
     authors:
       en: S. Khan, <strong>Junyoung Park</strong>, J. W. Park, I. H. Kim, J. Won
       ko: S. Khan, <strong>박준영</strong>, J. W. Park, I. H. Kim, J. Won
     venue:
-      en: Journal of Civil Structural Health Monitoring (accepted)
-      ko: Journal of Civil Structural Health Monitoring (accepted)
+      en: Journal of Civil Structural Health Monitoring, 16, Article 106
+      ko: Journal of Civil Structural Health Monitoring, 16, Article 106
+    href:
+      en: https://doi.org/10.1007/s13349-026-01154-6
+      ko: https://doi.org/10.1007/s13349-026-01154-6
+    pdf: /assets/files/publications/2026-jcshm-low-power-multichannel-strain-qr-visualization.pdf
   - year: '2026'
     display_priority: 2
     selected: true
