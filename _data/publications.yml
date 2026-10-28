@@ -505,11 +505,25 @@ sections:
       en: "AI-WIM-Based Detection of Suspected Overweight Vehicles at Highway Speeds: Real-Road Validation and Performance Evaluation"
       ko: "AI-WIM-Based Detection of Suspected Overweight Vehicles at Highway Speeds: Real-Road Validation and Performance Evaluation"
     authors:
-      en: <strong>Junyoung Park</strong>
-      ko: <strong>Junyoung Park</strong>
+      en: <strong>Junyoung Park</strong>, Jongwoo Kim
+      ko: <strong>박준영</strong>, 김종우
     venue:
       en: Korean Society of Civil Engineers. Domestic conference presentation, 2026-10-22.
-      ko: Korean Society of Civil Engineers. Domestic conference presentation, 2026-10-22.
+      ko: 대한토목학회. 국내학술대회 발표, 2026-10-22.
+  - year: '2026'
+    tags:
+    - WIM
+    - Cloud
+    - Safety Management
+    title:
+      en: Development and Demonstration of a Cloud-Based Integrated Platform for Freight Vehicle Safety Management
+      ko: 클라우드 기반 화물차 안전관리 통합 플랫폼 개발 및 실증
+    authors:
+      en: <strong>Junyoung Park</strong>, Taebong Kim, Junghoon Kim, Jongwoo Kim
+      ko: <strong>박준영</strong>, 김태봉, 김정훈, 김종우
+    venue:
+      en: Korean Society of Civil Engineers. Domestic conference presentation, 2026-10-22.
+      ko: 대한토목학회. 국내학술대회 발표, 2026-10-22.
   - year: '2027'
     tags:
     - WIM
