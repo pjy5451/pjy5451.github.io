@@ -12,8 +12,6 @@ body_class: "page-notes page-research-log"
 
 {% assign english_posts = site.posts | where: "lang", "en" %}
 {% assign note_years = "2026,2025,2024,2023,2022,2021,2020" | split: "," %}
-{% assign filter_labels = "Development|Field Work" | split: "|" %}
-{% assign filter_slugs = "development|field-work" | split: "|" %}
 {% assign default_note_year = "" %}
 {% for year in note_years %}
   {% assign year_count = 0 %}
@@ -45,18 +43,6 @@ body_class: "page-notes page-research-log"
     </div>
   </div>
 
-  <div class="note-filter-group">
-    <span class="note-filter-group__label">Type</span>
-    <div class="note-filters" role="group" aria-label="Filter research log by type">
-      {% for label in filter_labels %}
-        {% assign category_count = 0 %}
-        {% for post in english_posts %}
-          {% if post.note_category == label %}{% assign category_count = category_count | plus: 1 %}{% endif %}
-        {% endfor %}
-        <button class="note-filter" type="button" data-note-category="{{ filter_slugs[forloop.index0] }}" aria-pressed="false">{{ label }} <span>{{ category_count }}</span></button>
-      {% endfor %}
-    </div>
-  </div>
 </div>
 
 <div class="note-archive">
@@ -64,8 +50,7 @@ body_class: "page-notes page-research-log"
     {% if post.note_category == "Development" or post.note_category == "Field Work" %}
       {% assign post_year = post.date | date: "%Y" %}
       {% if note_years contains post_year %}
-      {% assign filter_slug = post.note_category | downcase | replace: " ", "-" %}
-      <article class="note-entry note-entry--with-gallery" data-note-item data-note-year="{{ post_year }}" data-note-category="{{ filter_slug }}"{% unless post_year == default_note_year %} hidden{% endunless %}>
+      <article class="note-entry note-entry--with-gallery" data-note-item data-note-year="{{ post_year }}"{% unless post_year == default_note_year %} hidden{% endunless %}>
         {% include note_gallery.html note=post placeholder="Image coming soon" %}
         <div class="note-entry__body">
           <header class="note-entry__header">
