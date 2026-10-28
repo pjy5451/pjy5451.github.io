@@ -946,7 +946,7 @@ sections:
     - WIM
     - Signal
     title:
-      en: Real-Time Dynamic Truck Operating Weight Correction Based on an FIR Filter
+      en: Method and Apparatus of Real-time Compensation of Commercial Vehicle’s Driving Mass Based on FIR filter
       ko: FIR 필터 기반의 화물차 동적 운행중량 실시간 보정 방법 및 장치
     authors:
       en: J. W. Kim, Y. Jho, <strong>Junyoung Park</strong>
@@ -959,6 +959,10 @@ sections:
       - label: Registered Patent
       ko:
       - label: 등록 특허
+    href:
+      en: https://doi.org/10.8080/1020250068214
+      ko: https://doi.org/10.8080/1020250068214
+    pdf: /assets/files/patents/2026-kr-10-2951213-fir-commercial-vehicle-mass-compensation.pdf
   - year: '2025'
     tags:
     - Concrete
