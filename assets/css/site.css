@@ -2928,6 +2928,18 @@ html[data-theme="dark"] .note-page__content > p > a:only-child:hover {
   --note-tag-bg: #f1f0ff;
 }
 
+.note-archive__tag--development {
+  --note-tag-text: #6840a5;
+  --note-tag-border: #bca7e2;
+  --note-tag-bg: #f3effc;
+}
+
+.note-archive__tag--field-work {
+  --note-tag-text: #2f713d;
+  --note-tag-border: #98c69f;
+  --note-tag-bg: #edf7ef;
+}
+
 html[data-theme="dark"] .note-archive__tag--conference {
   --note-tag-text: #9ac8ff;
   --note-tag-border: #356b9e;
@@ -2980,6 +2992,18 @@ html[data-theme="dark"] .note-archive__tag--recognition {
   --note-tag-text: #bdb5ff;
   --note-tag-border: #625b9d;
   --note-tag-bg: rgba(83, 72, 154, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--development {
+  --note-tag-text: #c8adfa;
+  --note-tag-border: #71599d;
+  --note-tag-bg: rgba(103, 70, 156, 0.2);
+}
+
+html[data-theme="dark"] .note-archive__tag--field-work {
+  --note-tag-text: #9ed3a7;
+  --note-tag-border: #4f7f58;
+  --note-tag-bg: rgba(58, 121, 70, 0.2);
 }
 
 .note-empty {

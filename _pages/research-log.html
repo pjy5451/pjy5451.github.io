@@ -55,7 +55,7 @@ body_class: "page-notes page-research-log"
         <div class="note-entry__body">
           <header class="note-entry__header">
             <time class="note-entry__date" datetime="{{ post.date | date_to_xmlschema }}">{% if post.display_date %}{{ post.display_date }}{% else %}{{ post.date | date: "%Y.%m.%d" }}{% endif %}</time>
-            <span class="note-archive__tag">{{ post.note_category }}</span>
+            {% assign category_tone = post.note_category | downcase | replace: " ", "-" %}<span class="note-archive__tag note-archive__tag--{{ category_tone }}">{{ post.note_category }}</span>
             <h2>{{ post.title }}</h2>
           </header>
           <div class="note-entry__content">{{ post.content }}</div>
