@@ -112,6 +112,8 @@ groups:
   - title: Sewer Monitoring Sensor System
     period: 2020
     href: /projects/sewer-monitoring-sensor/
+    thumbnail: /images/projects/2020-03-01-sewer-monitoring-sensor/manhole-water-level-odor-sensor.png
+    thumbnail_alt: Manhole Water-Level and Odor Sensor mounted inside a manhole
     summary: This project develops a field-oriented sensor concept for sewer and underground infrastructure monitoring.
     tags:
     - Wireless Sensing

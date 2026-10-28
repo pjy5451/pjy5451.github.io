@@ -30,7 +30,7 @@
           <article class="project-index-card" data-project-item data-project-tags="{{ project_tags | escape }}" data-project-search="{{ project_search | strip_newlines | downcase | escape }}"{% if group.title == "Other Projects" %} data-project-other hidden{% endif %}>
             <div class="project-index-card__media{% if project.thumbnail_fit == 'contain' %} project-index-card__media--contain{% elsif project.thumbnail_fit == 'compact' %} project-index-card__media--compact{% endif %}">
               {% if project.thumbnail %}
-                <img src="{{ project.thumbnail | relative_url }}" alt="" loading="lazy">
+                <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.thumbnail_alt | default: project.title | escape }}" loading="lazy">
               {% else %}
                 <span>{{ project.period }}</span>
               {% endif %}
