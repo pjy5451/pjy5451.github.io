@@ -808,6 +808,25 @@ sections:
   entries:
   - year: '2026'
     tags:
+    - OBM
+    - WIM
+    - Freight
+    title:
+      en: Method and Apparatus for Estimating Combined Container Weight Information Using an On-Board Mass System and a Weigh Station
+      ko: 자중계와 계근소를 이용한 콤바인 컨테이너 중량정보 추정 방법 및 장치
+    authors:
+      en: Jongwoo Kim, Yunbeom Cho, <strong>Junyoung Park</strong>, Minhyuk Song
+      ko: 김종우, 조윤범, <strong>박준영</strong>, 송민혁
+    venue:
+      en: In preparation.
+      ko: 출원 준비 중.
+    actions:
+      en:
+      - label: In Preparation
+      ko:
+      - label: 출원 준비 중
+  - year: '2026'
+    tags:
     - LiDAR
     - AI
     - Transport
