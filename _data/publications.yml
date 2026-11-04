@@ -826,25 +826,6 @@ sections:
   entries:
   - year: '2026'
     tags:
-    - LiDAR
-    - AI
-    - Transport
-    title:
-      en: Method and Apparatus for Vehicle Recognition Using a LiDAR Sensor
-      ko: 라이다 센서를 이용한 차량 인식 방법 및 장치
-    authors:
-      en: J. W. Kim, Y. Jho, Y. Jung, <strong>Junyoung Park</strong>
-      ko: J. W. Kim, Y. Jho, Y. Jung, <strong>박준영</strong>
-    venue:
-      en: Application filed in 2026.
-      ko: 2026년 출원.
-    actions:
-      en:
-      - label: Patent Application
-      ko:
-      - label: 특허 출원
-  - year: '2026'
-    tags:
     - OBM
     - WIM
     - Freight
@@ -868,44 +849,26 @@ sections:
     - AI
     - Transport
     title:
-      en: Vehicle Recognition Method and Apparatus Using Two-Dimensional Projection Images of LiDAR Point Clouds
-      ko: LiDAR 포인트 클라우드의 2차원 투영 이미지를 이용한 차량 인식 방법 및 장치
+      en: Method and Apparatus for Vehicle Recognition Using a LiDAR Sensor
+      ko: 라이다 센서를 이용한 차량 인식 방법 및 장치
     authors:
-      en: J. W. Kim, Y. Jho, Y. Jung, <strong>Junyoung Park</strong>
-      ko: J. W. Kim, Y. Jho, Y. Jung, <strong>박준영</strong>
+      en: Jongwoo Kim, Yunbeom Cho, Youngwoo Jung, <strong>Junyoung Park</strong>
+      ko: 김종우, 조윤범, 정영우, <strong>박준영</strong>
     venue:
-      en: In preparation.
-      ko: 출원 준비 중.
-    actions:
-      en:
-      - label: In Preparation
-      ko:
-      - label: 출원 준비
-  - year: '2026'
-    tags:
-    - LiDAR
-    - WIM
-    - Transport
-    title:
-      en: Vehicle Dimension Measurement System and Method
-      ko: 차량 제원 측정 시스템 및 방법
-    authors:
-      en: J. W. Kim, Y. Jho, Y. Jung, <strong>Junyoung Park</strong>
-      ko: J. W. Kim, Y. Jho, Y. Jung, <strong>박준영</strong>
-    venue:
-      en: KR 10-2026-0101228. Application filed in 2026.
-      ko: 'KR 10-2026-0101228. 2026년 출원.'
+      en: KR 10-2026-0209028. Application filed on 2026-10-27.
+      ko: 'KR 10-2026-0209028. 출원일: 2026-10-27.'
     actions:
       en:
       - label: Patent Application
       ko:
       - label: 특허 출원
+    pdf: /assets/files/patents/2026-kr-10-2026-0209028-lidar-vehicle-recognition.pdf
   - year: '2025'
     tags:
     - Bridge
     - WIM
     title:
-      en: Continuous Bridge Load-Carrying Capacity Assessment System and Method
+      en: System and Method for Continuous Evaluation of Bridge Load-Carrying Capacity
       ko: 교량 상시 내하력 평가 시스템 및 방법
     authors:
       en: J. W. Kim, Y. Jho, <strong>Junyoung Park</strong>
