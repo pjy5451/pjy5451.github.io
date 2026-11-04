@@ -31,7 +31,6 @@ sections:
       en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
       ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
   - year: '2026'
-    hide_year: true
     tags:
     - Weigh-in-Motion
     - Machine Learning
@@ -42,8 +41,23 @@ sections:
       en: <strong>Junyoung Park</strong>, Y. Jho, J. W. Kim
       ko: <strong>박준영</strong>, Y. Jho, J. W. Kim
     venue:
-      en: Journal of the Korean Society of Civil Engineers (under review)
-      ko: 대한토목학회논문집 (심사 중)
+      en: Journal of the Korean Society of Civil Engineers (accepted)
+      ko: 대한토목학회논문집 (게재 확정)
+  - year: '2026'
+    hide_year: true
+    tags:
+    - Weigh-in-Motion
+    - Calibration
+    - Load Cell
+    title:
+      en: Continuous Calibration of a Load-Cell High-Speed Weigh-in-Motion System Using Repeated Vehicle Passes
+      ko: Continuous Calibration of a Load-Cell High-Speed Weigh-in-Motion System Using Repeated Vehicle Passes
+    authors:
+      en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
+      ko: <strong>박준영</strong>, 조윤범, 김종우
+    venue:
+      en: The Journal of The Korea Institute of Intelligent Transport Systems (under review)
+      ko: 한국ITS학회논문지 (심사 중)
   - year: '2026'
     tags:
     - Weigh-in-Motion
