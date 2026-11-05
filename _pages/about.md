@@ -2,7 +2,11 @@
 layout: default
 permalink: /
 title: "About"
-description: "Junyoung Park is a structural monitoring researcher working on IoT sensing, WIM/OBM systems, field deployment, and data-driven infrastructure evaluation."
+description: "Research engineer working on field measurement, weigh-in-motion, and uncertainty-aware assessment of civil infrastructure."
+image: "/images/og-image.png"
+image_width: 1200
+image_height: 627
+image_alt: "Junyoung Park — Research engineer in field measurement and civil infrastructure assessment"
 ---
 
 <section class="home-section home-section--about" id="about" data-home-section markdown="1">
