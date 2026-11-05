@@ -36,7 +36,7 @@ sections:
     - Machine Learning
     thumbnail: /images/publications/2026-hybrid-llm-cloud-local-performance.png
     thumbnail_alt: Accuracy and mean response time comparison of cloud and local language models for WIM operational-data question answering
-    thumbnail_fit: full
+    thumbnail_fit: compact
     title:
       en: Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety
       ko: 화물 운송 안전을 위한 WIM 운영 데이터 기반 하이브리드 LLM 질의응답에서 클라우드 및 로컬 모델의 성능 비교
