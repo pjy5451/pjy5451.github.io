@@ -38,8 +38,8 @@ sections:
       en: Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety
       ko: 화물 운송 안전을 위한 WIM 운영 데이터 기반 하이브리드 LLM 질의응답에서 클라우드 및 로컬 모델의 성능 비교
     authors:
-      en: <strong>Junyoung Park</strong>, Y. Jho, J. W. Kim
-      ko: <strong>박준영</strong>, Y. Jho, J. W. Kim
+      en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
+      ko: <strong>박준영</strong>, 조윤범, 김종우
     venue:
       en: Journal of the Korean Society of Civil Engineers (accepted)
       ko: 대한토목학회논문집 (게재 확정)
@@ -67,8 +67,8 @@ sections:
       en: Analysis of Freight Vehicle Operation Restriction Violations and Improvement of the Enforcement System Based on Real-World Road Data
       ko: 실도로 데이터 기반 화물차 운행제한 위반 분석 및 단속 체계 개선
     authors:
-      en: Y. Kim, H. Jung, <strong>Junyoung Park</strong>, Y. Lee, Y. Jung, J. W. Kim, I. Yoon
-      ko: Y. Kim, H. Jung, <strong>박준영</strong>, Y. Lee, Y. Jung, J. W. Kim, I. Yoon
+      en: Y. Kim, H. Jung, <strong>Junyoung Park</strong>, Y. Lee, Y. Jung, Jongwoo Kim, I. Yoon
+      ko: Y. Kim, H. Jung, <strong>박준영</strong>, Y. Lee, Y. Jung, 김종우, I. Yoon
     venue:
       en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
       ko: 한국ITS학회논문지 (심사 중)
@@ -84,8 +84,8 @@ sections:
       en: Low-Power Multi-Channel Strain Sensing and QR-Enabled Shape Visualization for Digital-Twin-Enabled Structural Health Monitoring
       ko: Low-Power Multi-Channel Strain Sensing and QR-Enabled Shape Visualization for Digital-Twin-Enabled Structural Health Monitoring
     authors:
-      en: S. Khan, <strong>Junyoung Park</strong>, J. W. Park, I. H. Kim, J. Won
-      ko: S. Khan, <strong>박준영</strong>, J. W. Park, I. H. Kim, J. Won
+      en: Suleman Khan, <strong>Junyoung Park</strong>, Jongwoong Park, In-Ho Kim, Jongbin Won
+      ko: Suleman Khan, <strong>박준영</strong>, 박종웅, 김인호, 원종빈
     venue:
       en: Journal of Civil Structural Health Monitoring, 16, Article 106
       ko: Journal of Civil Structural Health Monitoring, 16, Article 106
@@ -103,8 +103,8 @@ sections:
       en: Fault-Tolerant Reconstruction of Multi-Channel Weigh-in-Motion Signals Using Deep Learning
       ko: 딥러닝을 활용한 다채널 WIM 신호의 결함 허용 복원
     authors:
-      en: <strong>Junyoung Park</strong>, Y. Jho, J. W. Kim
-      ko: <strong>박준영</strong>, Y. Jho, J. W. Kim
+      en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
+      ko: <strong>박준영</strong>, 조윤범, 김종우
     venue:
       en: In preparation; target journal, IEEE Transactions on Instrumentation and Measurement
       ko: 투고 준비 중; 목표 저널, IEEE Transactions on Instrumentation and Measurement
@@ -208,8 +208,8 @@ sections:
       en: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
       ko: Tendon Stress Estimation from Strain Data of a Bridge Girder Using Machine Learning-Based Surrogate Model
     authors:
-      en: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jong-Woong Park
-      ko: SU Khayam, A Ajmal, <strong>Junyoung Park</strong>, IH Kim, Jong-Woong Park
+      en: Sadia Umer Khayam, Ammar Ajmal, <strong>Junyoung Park</strong>, In-Ho Kim, Jong-Woong Park
+      ko: Sadia Umer Khayam, Ammar Ajmal, <strong>박준영</strong>, 김인호, 박종웅
     venue:
       en: Sensors, 23(11), 5040
       ko: Sensors, 23(11), 5040
@@ -236,8 +236,8 @@ sections:
       en: Monitoring Precast Structures During Transportation Using a Portable Sensing System
       ko: Monitoring Precast Structures During Transportation Using a Portable Sensing System
     authors:
-      en: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
-      ko: SU Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
+      en: Sadia Umer Khayam, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park
+      ko: Sadia Umer Khayam, 원종빈, 신준식, <strong>박준영</strong>, 박종웅
     venue:
       en: Automation in Construction, 145, 104639
       ko: Automation in Construction, 145, 104639
@@ -298,8 +298,8 @@ sections:
       en: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
       ko: Development of Low-Cost Wireless Sensing System for Smart Ultra-High Performance Concrete
     authors:
-      en: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
-      ko: HV Le, TU Kim, S Khan, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
+      en: Huy-Viet Le, Tae-Uk Kim, Suleman Khan, <strong>Junyoung Park</strong>, Jong-Woong Park, Seung-Eock Kim, Yun Jang, Dong-Joo Kim
+      ko: Huy-Viet Le, Tae-Uk Kim, Suleman Khan, <strong>박준영</strong>, 박종웅, Seung-Eock Kim, Yun Jang, Dong-Joo Kim
     venue:
       en: Sensors, 21(19), 6386
       ko: Sensors, 21(19), 6386
@@ -325,8 +325,8 @@ sections:
       en: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
       ko: 'SSVM: An Ultra-Low-Power Strain Sensing and Visualization Module for Long-Term Structural Health Monitoring'
     authors:
-      en: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
-      ko: S Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park, SE Kim, Y Jang, DJ Kim
+      en: Suleman Khan, Jongbin Won, Junsik Shin, <strong>Junyoung Park</strong>, Jong-Woong Park, Seung-Eock Kim, Yun Jang, Dong-Joo Kim
+      ko: Suleman Khan, 원종빈, 신준식, <strong>박준영</strong>, 박종웅, Seung-Eock Kim, Yun Jang, Dong-Joo Kim
     venue:
       en: Sensors, 21(6), 2211
       ko: Sensors, 21(6), 2211
@@ -388,8 +388,8 @@ sections:
       en: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
       ko: 'BLESeis: Low-Cost IoT Sensor for Smart Earthquake Detection and Notification'
     authors:
-      en: Jongbin Won, <strong>Junyoung Park</strong>, Jong-Woong Park, IH Kim
-      ko: Jongbin Won, <strong>Junyoung Park</strong>, Jong-Woong Park, IH Kim
+      en: Jongbin Won, <strong>Junyoung Park</strong>, Jong-Woong Park, In-Ho Kim
+      ko: 원종빈, <strong>박준영</strong>, 박종웅, 김인호
     venue:
       en: Sensors, 20(10), 2963
       ko: Sensors, 20(10), 2963
@@ -414,6 +414,9 @@ sections:
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
+    thumbnail: /images/publications/2021-iot-cloud-bridge-displacement.png
+    thumbnail_alt: Cloud data acquisition, database, and multimetric bridge displacement estimation architecture
+    thumbnail_fit: full
     title:
       en: IoT Sensor and Cloud-Computing-Based Continuous Bridge Displacement Monitoring System Capable of Acceleration and
         Strain Sensing
@@ -548,8 +551,8 @@ sections:
       en: Cross-Analysis of WIM and OBM Signals for Dynamic Load Assessment and Measurement Error Correction
       ko: 동적 하중 평가 및 계측 오차 보정을 위한 WIM 및 OBM 신호 교차 분석
     authors:
-      en: <strong>Junyoung Park</strong>, M. Song, Y. Jho, J. W. Kim
-      ko: <strong>박준영</strong>, M. Song, Y. Jho, J. W. Kim
+      en: <strong>Junyoung Park</strong>, Minhyuk Song, Younbeom Jho, Jongwoo Kim
+      ko: <strong>박준영</strong>, 송민혁, 조윤범, 김종우
     venue:
       en: ICWIM-10 / HVTT-19. Accepted. International conference presentation, May 2027.
       ko: ICWIM-10 / HVTT-19. 채택된 국제학술대회 발표, 2027-05.
