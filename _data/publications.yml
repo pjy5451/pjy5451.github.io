@@ -417,8 +417,8 @@ sections:
     tags:
     - Structural Health Monitoring
     - Wireless Sensing
-    thumbnail: /images/publications/2021-iot-cloud-bridge-displacement.png
-    thumbnail_alt: Cloud data acquisition, database, and multimetric bridge displacement estimation architecture
+    thumbnail: /images/publications/2021-ksce-iot-bridge-field-applications.png
+    thumbnail_alt: JANET structural monitoring sensor and mobile display showing multichannel field measurements
     thumbnail_fit: full
     title:
       en: IoT Sensor and Cloud-Computing-Based Continuous Bridge Displacement Monitoring System Capable of Acceleration and
