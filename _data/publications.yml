@@ -418,8 +418,8 @@ sections:
     - Structural Health Monitoring
     - Wireless Sensing
     thumbnail: /images/publications/2021-ksce-iot-bridge-field-applications.png
-    thumbnail_alt: JANET structural monitoring sensor and mobile display showing multichannel field measurements
-    thumbnail_fit: full
+    thumbnail_alt: Map of JANET bridge-monitoring field applications with installation photographs across South Korea
+    thumbnail_fit: compact
     title:
       en: IoT Sensor and Cloud-Computing-Based Continuous Bridge Displacement Monitoring System Capable of Acceleration and
         Strain Sensing
