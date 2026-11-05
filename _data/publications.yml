@@ -896,6 +896,7 @@ sections:
       - label: Patent Application
       ko:
       - label: 특허 출원
+    pdf: /assets/files/patents/2026-kr-10-2026-0101228-vehicle-specification-measurement.pdf
   - year: '2025'
     tags:
     - Bridge
