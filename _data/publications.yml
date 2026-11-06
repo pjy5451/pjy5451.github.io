@@ -5,6 +5,7 @@ sections:
   entries:
   - year: '2026'
     hide_year: true
+    status: submitted
     display_priority: 1
     selected: true
     tags:
@@ -20,6 +21,7 @@ sections:
     venue:
       en: Measurement (submitted)
       ko: Measurement (submitted)
+    publisher: Elsevier
     actions:
       en:
       - label: Source Document
@@ -31,6 +33,7 @@ sections:
       en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
       ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
   - year: '2026'
+    status: accepted
     tags:
     - Weigh-in-Motion
     - Machine Learning
@@ -46,8 +49,10 @@ sections:
     venue:
       en: Journal of the Korean Society of Civil Engineers (accepted)
       ko: 대한토목학회논문집 (게재 확정)
+    publisher: KSCE
   - year: '2026'
     hide_year: true
+    status: under-review
     tags:
     - Weigh-in-Motion
     - Calibration
@@ -59,9 +64,11 @@ sections:
       en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
       ko: <strong>박준영</strong>, 조윤범, 김종우
     venue:
-      en: The Journal of The Korea Institute of Intelligent Transport Systems (under review)
+      en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
       ko: 한국ITS학회논문지 (심사 중)
+    publisher: KITS
   - year: '2026'
+    status: under-review
     tags:
     - Weigh-in-Motion
     thumbnail: /images/publications/2026-freight-vehicle-overweight-ratio-by-hour.png
@@ -75,6 +82,7 @@ sections:
     venue:
       en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
       ko: 한국ITS학회논문지 (심사 중)
+    publisher: KITS
   - year: '2026'
     tags:
     - Structural Health Monitoring
@@ -92,6 +100,7 @@ sections:
     venue:
       en: Journal of Civil Structural Health Monitoring, 16, Article 106
       ko: Journal of Civil Structural Health Monitoring, 16, Article 106
+    publisher: Springer Nature
     href:
       en: https://link.springer.com/article/10.1007/s13349-026-01154-6
       ko: https://link.springer.com/article/10.1007/s13349-026-01154-6
@@ -99,6 +108,7 @@ sections:
   - year: '2026'
     display_priority: 2
     selected: true
+    status: in-preparation
     tags:
     - Weigh-in-Motion
     - Machine Learning
@@ -109,8 +119,9 @@ sections:
       en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
       ko: <strong>박준영</strong>, 조윤범, 김종우
     venue:
-      en: In preparation; target journal, IEEE Transactions on Instrumentation and Measurement
-      ko: 투고 준비 중; 목표 저널, IEEE Transactions on Instrumentation and Measurement
+      en: IEEE Transactions on Instrumentation and Measurement (in preparation)
+      ko: IEEE Transactions on Instrumentation and Measurement (원고 준비 중)
+    publisher: IEEE
   - year: '2026'
     tags:
     - Weigh-in-Motion
@@ -126,6 +137,7 @@ sections:
     venue:
       en: Journal of the Korean Society of Civil Engineers, 46(1), 95-104
       ko: 대한토목학회논문집, 46(1), 95-104
+    publisher: KSCE
     actions:
       en:
       - label: Source Document
@@ -157,6 +169,7 @@ sections:
     venue:
       en: Journal of Marine Science and Engineering, 12(11), 1902
       ko: Journal of Marine Science and Engineering, 12(11), 1902
+    publisher: MDPI
     actions:
       en:
       - label: Source Document
@@ -188,6 +201,7 @@ sections:
     venue:
       en: Journal of the Korean Society of Mechanical Technology, 26(5), 1041-1046
       ko: 한국기계기술학회지, 26(5), 1041-1046
+    publisher: KSMT
     actions:
       en:
       - label: Scholar
@@ -216,6 +230,7 @@ sections:
     venue:
       en: Sensors, 23(11), 5040
       ko: Sensors, 23(11), 5040
+    publisher: MDPI
     actions:
       en:
       - label: Source Document
@@ -244,6 +259,7 @@ sections:
     venue:
       en: Automation in Construction, 145, 104639
       ko: Automation in Construction, 145, 104639
+    publisher: Elsevier
     actions:
       en:
       - label: Source Document
@@ -275,6 +291,7 @@ sections:
     venue:
       en: Sensors, 21(16), 5647
       ko: Sensors, 21(16), 5647
+    publisher: MDPI
     actions:
       en:
       - label: Source Document
@@ -306,6 +323,7 @@ sections:
     venue:
       en: Sensors, 21(19), 6386
       ko: Sensors, 21(19), 6386
+    publisher: MDPI
     actions:
       en:
       - label: Source Document
@@ -333,6 +351,7 @@ sections:
     venue:
       en: Sensors, 21(6), 2211
       ko: Sensors, 21(6), 2211
+    publisher: MDPI
     actions:
       en:
       - label: Source Document
@@ -360,8 +379,9 @@ sections:
       en: <strong>Junyoung Park</strong>, Junsik Shin, Jongbin Won, Jong-Woong Park, Minyong Park
       ko: <strong>박준영</strong>, 신준식, 원종빈, 박종웅, 박민용
     venue:
-      en: Journal of the Computational Structural Engineering Institute of Korea, 34(5)
+      en: Journal of the Computational Structural Engineering Institute of Korea, 34(5), 301-308
       ko: 한국전산구조공학회논문집, 34(5), 301-308
+    publisher: COSEIK
     actions:
       en:
       - label: Scholar
@@ -396,6 +416,7 @@ sections:
     venue:
       en: Sensors, 20(10), 2963
       ko: Sensors, 20(10), 2963
+    publisher: MDPI
     actions:
       en:
       - label: Source Document

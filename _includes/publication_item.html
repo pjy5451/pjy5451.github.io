@@ -7,6 +7,7 @@
 {% if item.pdf %}{% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}{% endif %}
 {% assign item_authors = item.authors[pub_lang] | default: item.authors.en | default: "" %}
 {% assign item_venue = item.venue[pub_lang] | default: item.venue.en | default: "" %}
+{% assign item_publisher = item.publisher[pub_lang] | default: item.publisher.en | default: item.publisher | default: "" %}
 {% assign venue_lower = item_venue | downcase %}
 {% assign item_tags = item.tags | join: "|" | downcase %}
 {% assign item_region = "international" %}
@@ -34,11 +35,19 @@
     {% endif %}
   {% elsif venue_lower contains "preparation" %}{% assign item_status = "In preparation" %}
   {% else %}{% assign item_status = "Application" %}{% endif %}
+{% elsif item.status == "submitted" %}{% assign item_status = "Submitted" %}
+{% elsif item.status == "under-review" %}{% assign item_status = "Under review" %}
+{% elsif item.status == "accepted" %}{% assign item_status = "Accepted" %}
+{% elsif item.status == "in-preparation" %}{% assign item_status = "In preparation" %}
 {% elsif venue_lower contains "submitted" %}{% assign item_status = "Submitted" %}
 {% elsif venue_lower contains "under review" %}{% assign item_status = "Under review" %}
 {% elsif venue_lower contains "accepted" %}{% assign item_status = "Accepted" %}
 {% elsif venue_lower contains "preparation" %}{% assign item_status = "In preparation" %}
 {% endif %}
+{% assign item_venue_clean = item_venue_display | replace: " (submitted)", "" | replace: " (under review)", "" | replace: " (accepted)", "" | replace: " (in preparation)", "" | replace: " (게재 확정)", "" | replace: " (심사 중)", "" | replace: " (원고 준비 중)", "" | remove: "In preparation; " %}
+{% assign item_venue_parts = item_venue_clean | split: ", " %}
+{% assign show_publication_year = true %}
+{% if item.hide_year or item_status == "Submitted" or item_status == "Under review" or item_status == "In preparation" %}{% assign show_publication_year = false %}{% endif %}
 
 <article class="publication-card{% if item.selected %} is-selected{% endif %}"
   data-pub-item data-pub-kind="{{ include.kind | default: 'article' }}"
@@ -55,7 +64,7 @@
     {% endif %}
   </div>
   <div class="publication-card__body">
-    <p class="publication-card__meta"><span>{{ item_venue_display | replace: " (submitted)", "" | replace: " (under review)", "" | remove: "In preparation; " }}</span>{% unless include.kind == "patent" %}{% unless item_status == "In preparation" or item.hide_year %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endunless %}{% endunless %}</p>
+    <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% if item_publisher != "" %} ({{ item_publisher }}){% endif %}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span>{% unless include.kind == "patent" %}{% if item_status != "Published" %}<span aria-hidden="true">&middot;</span><span>{{ item_status }}</span>{% endif %}{% if show_publication_year %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endif %}{% endunless %}</p>
     <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
     <p class="publication-card__authors">{{ item_authors }}</p>
     {% if item.tags %}
