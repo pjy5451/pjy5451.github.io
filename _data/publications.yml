@@ -878,13 +878,13 @@ sections:
       en: Jongwoo Kim, Younbeom Jho, <strong>Junyoung Park</strong>, Minhyuk Song
       ko: 김종우, 조윤범, <strong>박준영</strong>, 송민혁
     venue:
-      en: In preparation.
-      ko: 출원 준비 중.
+      en: KR 10-2026-0199549. Application filed in 2026.
+      ko: KR 10-2026-0199549. 2026년 출원.
     actions:
       en:
-      - label: In Preparation
+      - label: Patent Application
       ko:
-      - label: 출원 준비 중
+      - label: 특허 출원
   - year: '2026'
     tags:
     - LiDAR
