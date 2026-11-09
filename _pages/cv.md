@@ -14,7 +14,7 @@ body_class: "page-cv"
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"></path><path d="m7.5 10.5 4.5 4.5 4.5-4.5"></path><path d="M5 20h14"></path></svg>
         <span>View CV</span>
       </button>
-      <span class="cv-simple-updated">Updated Oct 2026</span>
+      <span class="cv-simple-updated">Updated Nov 2026</span>
     </div>
     <div class="cv-simple-header__action">
       <button class="cv-portfolio-toggle" type="button" aria-expanded="false" aria-controls="portfolio-preview" data-document-toggle data-open-label="View Portfolio" data-close-label="Hide Portfolio">
@@ -33,16 +33,16 @@ body_class: "page-cv"
       <p>Education, research experience, publications, and professional activities</p>
     </div>
     <div class="portfolio-preview__actions">
-      <a href="/assets/files/Junyoung_Park_CV.pdf" target="_blank" rel="noopener">Open PDF</a>
-      <a href="/assets/files/Junyoung_Park_CV.pdf" download>Download</a>
+      <a href="/assets/files/Junyoung_Park_CV.pdf?v=20261109" target="_blank" rel="noopener">Open PDF</a>
+      <a href="/assets/files/Junyoung_Park_CV.pdf?v=20261109" download>Download</a>
     </div>
   </header>
-  <iframe title="Junyoung Park CV PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_CV.pdf#view=FitH" loading="lazy"></iframe>
+  <iframe title="Junyoung Park CV PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_CV.pdf?v=20261109#view=FitH" loading="lazy"></iframe>
   <div class="document-mobile-preview">
-    <a class="document-mobile-preview__image" href="/assets/files/Junyoung_Park_CV.pdf" target="_blank" rel="noopener" aria-label="View Junyoung Park CV PDF">
+    <a class="document-mobile-preview__image" href="/assets/files/Junyoung_Park_CV.pdf?v=20261109" target="_blank" rel="noopener" aria-label="View Junyoung Park CV PDF">
       <img src="/images/documents/junyoung-park-cv-preview.png" alt="First page of Junyoung Park's curriculum vitae" loading="lazy">
     </a>
-    <a class="document-mobile-preview__open" href="/assets/files/Junyoung_Park_CV.pdf" target="_blank" rel="noopener">View PDF</a>
+    <a class="document-mobile-preview__open" href="/assets/files/Junyoung_Park_CV.pdf?v=20261109" target="_blank" rel="noopener">View PDF</a>
   </div>
 </section>
 
