@@ -132,7 +132,7 @@ sections:
       en: YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems
       ko: YOLO 기반 고속축중기 하중 구간 자동 검출 기법
     authors:
-      en: <strong>Junyoung Park</strong>, Jongwoo Kim, Yunbeom Cho, Youngwoo Jung
+      en: <strong>Junyoung Park</strong>, Jongwoo Kim, Younbeom Jho, Youngwoo Jung
       ko: <strong>박준영</strong>, 김종우, 조윤범, 정영우
     venue:
       en: Journal of the Korean Society of Civil Engineers, 46(1), 95-104
@@ -196,7 +196,7 @@ sections:
       en: Stabilization of Dynamic Weight Estimation Systems for Commercial Vehicles during Driving
       ko: 주행 중 트럭의 동적 상태 정보 측정 시스템 안정성 확보
     authors:
-      en: <strong>Junyoung Park</strong>, Jinsik Kim, Jongwoo Kim, Yunbeom Cho
+      en: <strong>Junyoung Park</strong>, Jinsik Kim, Jongwoo Kim, Younbeom Jho
       ko: <strong>박준영</strong>, 김진식, 김종우, 조윤범
     venue:
       en: Journal of the Korean Society of Mechanical Technology, 26(5), 1041-1046
@@ -875,7 +875,7 @@ sections:
       en: Method and Apparatus for Estimating Combined Container Weight Information Using an On-Board Mass System and a Weigh Station
       ko: 자중계와 계근소를 이용한 콤바인 컨테이너 중량정보 추정 방법 및 장치
     authors:
-      en: Jongwoo Kim, Yunbeom Cho, <strong>Junyoung Park</strong>, Minhyuk Song
+      en: Jongwoo Kim, Younbeom Jho, <strong>Junyoung Park</strong>, Minhyuk Song
       ko: 김종우, 조윤범, <strong>박준영</strong>, 송민혁
     venue:
       en: In preparation.
@@ -894,7 +894,7 @@ sections:
       en: Method and Apparatus for Vehicle Recognition Using a LiDAR Sensor
       ko: 라이다 센서를 이용한 차량 인식 방법 및 장치
     authors:
-      en: Jongwoo Kim, Yunbeom Cho, Youngwoo Jung, <strong>Junyoung Park</strong>
+      en: Jongwoo Kim, Younbeom Jho, Youngwoo Jung, <strong>Junyoung Park</strong>
       ko: 김종우, 조윤범, 정영우, <strong>박준영</strong>
     venue:
       en: KR 10-2026-0209028. Application filed on 2026-10-27.
@@ -914,7 +914,7 @@ sections:
       en: Vehicle Specification Measurement System and Method
       ko: 차량 제원 측정 시스템 및 방법
     authors:
-      en: Jongwoo Kim, Yunbeom Cho, Youngwoo Jung, <strong>Junyoung Park</strong>
+      en: Jongwoo Kim, Younbeom Jho, Youngwoo Jung, <strong>Junyoung Park</strong>
       ko: 김종우, 조윤범, 정영우, <strong>박준영</strong>
     venue:
       en: KR 10-2026-0101228. Application filed in 2026.
