@@ -5,6 +5,8 @@
 {% if item.href %}{% assign item_href = item.href[pub_lang] | default: item.href.en %}{% endif %}
 {% assign item_pdf = "" %}
 {% if item.pdf %}{% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}{% endif %}
+{% assign pdf_href = "" %}
+{% if item_pdf != "" %}{% if item_pdf contains "://" %}{% assign pdf_href = item_pdf %}{% else %}{% assign pdf_href = item_pdf | relative_url %}{% endif %}{% endif %}
 {% assign item_authors = item.authors[pub_lang] | default: item.authors.en | default: "" %}
 {% assign item_venue = item.venue[pub_lang] | default: item.venue.en | default: "" %}
 {% assign item_publisher = item.publisher[pub_lang] | default: item.publisher.en | default: item.publisher | default: "" %}
@@ -68,34 +70,49 @@
     </div>
   {% endif %}
   <div class="publication-card__body">
-    <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% if item_publisher != "" %} ({{ item_publisher }}){% endif %}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span>{% unless include.kind == "patent" %}{% if item_status != "Published" %}<span aria-hidden="true">&middot;</span><span>{{ item_status }}</span>{% endif %}{% if show_publication_year %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endif %}{% endunless %}</p>
-    <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
-    <p class="publication-card__authors">{{ item_authors }}</p>
-    {% if item.tags and include.kind != "patent" %}
-      <div class="publication-card__tags" aria-label="Research keywords">
-        {% for tag in item.tags %}
-          {% assign tag_lower = tag | downcase %}{% assign tag_tone = "blue" %}
-          {% if tag_lower contains "weigh-in-motion" or tag_lower contains "wim" or tag_lower contains "obm" or tag_lower contains "transport" %}{% assign tag_tone = "orange" %}
-          {% elsif tag_lower contains "machine learning" or tag_lower contains "ai" or tag_lower contains "data" or tag_lower contains "signal" %}{% assign tag_tone = "violet" %}
-          {% elsif tag_lower contains "wireless sensing" or tag_lower contains "iot" or tag_lower contains "sensor" %}{% assign tag_tone = "teal" %}
-          {% elsif tag_lower contains "bridge load testing" %}{% assign tag_tone = "green" %}
-          {% elsif tag_lower contains "precast" or tag_lower contains "concrete" %}{% assign tag_tone = "green" %}
-          {% elsif tag_lower contains "port" or tag_lower contains "quay" %}{% assign tag_tone = "cyan" %}{% endif %}
-          <span class="publication-card__tag publication-card__tag--{{ tag_tone }}">{{ tag }}</span>
-        {% endfor %}
-        {% for tag in item.detail_tags %}
-          <span class="publication-card__tag publication-card__tag--detail">{{ tag }}</span>
-        {% endfor %}
+    {% if include.kind == "patent" %}
+      <div class="publication-card__patent-heading">
+        <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
+        <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span></p>
       </div>
-    {% endif %}
-    {% if item_pdf != "" %}
-      {% if item_pdf contains "://" %}{% assign pdf_href = item_pdf %}{% else %}{% assign pdf_href = item_pdf | relative_url %}{% endif %}
-      <div class="publication-card__actions">
-        <a class="publication-card__paper" href="{{ pdf_href }}" aria-label="Open {% if include.kind == 'patent' %}patent{% else %}paper{% endif %} PDF for {{ item_title }}">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"></path><path d="M15 3v4h4M9 12h6M9 16h6"></path></svg>
-          {% if include.kind == "patent" %}Patent{% else %}Paper{% endif %}
-        </a>
+      <div class="publication-card__patent-people">
+        <p class="publication-card__authors">{{ item_authors }}</p>
+        {% if pdf_href != "" %}
+          <a class="publication-card__paper" href="{{ pdf_href }}" aria-label="Open patent PDF for {{ item_title }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"></path><path d="M15 3v4h4M9 12h6M9 16h6"></path></svg>
+            Patent
+          </a>
+        {% endif %}
       </div>
+    {% else %}
+      <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% if item_publisher != "" %} ({{ item_publisher }}){% endif %}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span>{% if item_status != "Published" %}<span aria-hidden="true">&middot;</span><span>{{ item_status }}</span>{% endif %}{% if show_publication_year %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endif %}</p>
+      <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
+      <p class="publication-card__authors">{{ item_authors }}</p>
+      {% if item.tags %}
+        <div class="publication-card__tags" aria-label="Research keywords">
+          {% for tag in item.tags %}
+            {% assign tag_lower = tag | downcase %}{% assign tag_tone = "blue" %}
+            {% if tag_lower contains "weigh-in-motion" or tag_lower contains "wim" or tag_lower contains "obm" or tag_lower contains "transport" %}{% assign tag_tone = "orange" %}
+            {% elsif tag_lower contains "machine learning" or tag_lower contains "ai" or tag_lower contains "data" or tag_lower contains "signal" %}{% assign tag_tone = "violet" %}
+            {% elsif tag_lower contains "wireless sensing" or tag_lower contains "iot" or tag_lower contains "sensor" %}{% assign tag_tone = "teal" %}
+            {% elsif tag_lower contains "bridge load testing" %}{% assign tag_tone = "green" %}
+            {% elsif tag_lower contains "precast" or tag_lower contains "concrete" %}{% assign tag_tone = "green" %}
+            {% elsif tag_lower contains "port" or tag_lower contains "quay" %}{% assign tag_tone = "cyan" %}{% endif %}
+            <span class="publication-card__tag publication-card__tag--{{ tag_tone }}">{{ tag }}</span>
+          {% endfor %}
+          {% for tag in item.detail_tags %}
+            <span class="publication-card__tag publication-card__tag--detail">{{ tag }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if pdf_href != "" %}
+        <div class="publication-card__actions">
+          <a class="publication-card__paper" href="{{ pdf_href }}" aria-label="Open paper PDF for {{ item_title }}">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"></path><path d="M15 3v4h4M9 12h6M9 16h6"></path></svg>
+            Paper
+          </a>
+        </div>
+      {% endif %}
     {% endif %}
   </div>
 </article>

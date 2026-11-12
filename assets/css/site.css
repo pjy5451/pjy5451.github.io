@@ -2156,38 +2156,43 @@ span.pub__title {
 }
 
 .publication-card--patent-list .publication-card__body {
-  display: flex;
-  flex-direction: column;
   align-self: start;
 }
 
-.publication-card--patent-list .publication-card__meta {
-  order: 2;
-  margin-top: 2px;
-  margin-bottom: 0;
+.publication-card__patent-heading,
+.publication-card__patent-people {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 3px 10px;
+}
+
+.publication-card__patent-heading .publication-card__meta {
+  flex: 0 1 auto;
+  margin: 0;
   color: var(--muted);
   font-size: 0.76rem;
   text-transform: none;
 }
 
-.publication-card--patent-list .publication-card__title {
-  order: 1;
+.publication-card__patent-heading .publication-card__title {
+  flex: 0 1 auto;
   font-size: 0.96rem;
   line-height: 1.28;
 }
 
-.publication-card--patent-list .publication-card__authors {
-  order: 3;
+.publication-card__patent-people {
   margin-top: 3px;
+}
+
+.publication-card__patent-people .publication-card__authors {
+  flex: 0 1 auto;
+  margin: 0;
   font-size: 0.8rem;
 }
 
-.publication-card--patent-list .publication-card__actions {
-  order: 4;
-  margin-top: 6px;
-}
-
-.publication-card--patent-list .publication-card__paper {
+.publication-card__patent-people .publication-card__paper {
+  flex: 0 0 auto;
   min-height: 26px;
   padding: 2px 8px;
   border: 1px solid color-mix(in srgb, var(--accent) 48%, var(--line));
@@ -2196,7 +2201,7 @@ span.pub__title {
   font-size: 0.7rem;
 }
 
-.publication-card--patent-list .publication-card__paper:hover {
+.publication-card__patent-people .publication-card__paper:hover {
   border-color: var(--accent);
   color: var(--link-hover);
   background: var(--accent-soft);
