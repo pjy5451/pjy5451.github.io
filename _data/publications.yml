@@ -33,25 +33,6 @@ sections:
       en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
       ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
   - year: '2026'
-    status: accepted
-    tags:
-    - Weigh-in-Motion
-    - Machine Learning
-    thumbnail: /images/publications/2026-hybrid-llm-cloud-local-performance.png
-    thumbnail_alt: Accuracy and mean response time comparison of cloud and local language models for WIM operational-data question answering
-    thumbnail_fit: compact
-    title:
-      en: Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety
-      ko: 화물 운송 안전을 위한 WIM 운영 데이터 기반 하이브리드 LLM 질의응답에서 클라우드 및 로컬 모델의 성능 비교
-    authors:
-      en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
-      ko: <strong>박준영</strong>, 조윤범, 김종우
-    venue:
-      en: Journal of the Korean Society of Civil Engineers (accepted)
-      ko: 대한토목학회논문집 (게재 확정)
-    publisher: KSCE
-    pdf: /assets/files/publications/2026-ksce-hybrid-llm-wim-question-answering.pdf
-  - year: '2026'
     hide_year: true
     status: under-review
     tags:
@@ -154,6 +135,25 @@ sections:
       en: https://kscejournal.or.kr/jksce/XmlViewer/f450650
       ko: https://kscejournal.or.kr/jksce/XmlViewer/f450650
     pdf: /assets/files/publications/2026-ksce-yolo-wim-load-segment-detection.pdf
+  - year: '2026'
+    status: accepted
+    tags:
+    - Weigh-in-Motion
+    - Machine Learning
+    thumbnail: /images/publications/2026-hybrid-llm-cloud-local-performance.png
+    thumbnail_alt: Accuracy and mean response time comparison of cloud and local language models for WIM operational-data question answering
+    thumbnail_fit: compact
+    title:
+      en: Comparative Performance of Cloud and Local Models in Hybrid LLM Question Answering for WIM Operational Data in Freight Transport Safety
+      ko: 화물 운송 안전을 위한 WIM 운영 데이터 기반 하이브리드 LLM 질의응답에서 클라우드 및 로컬 모델의 성능 비교
+    authors:
+      en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
+      ko: <strong>박준영</strong>, 조윤범, 김종우
+    venue:
+      en: Journal of the Korean Society of Civil Engineers (accepted)
+      ko: 대한토목학회논문집 (게재 확정)
+    publisher: KSCE
+    pdf: /assets/files/publications/2026-ksce-hybrid-llm-wim-question-answering.pdf
   - year: '2024'
     tags:
     - Structural Health Monitoring

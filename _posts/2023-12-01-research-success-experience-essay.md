@@ -1,14 +1,14 @@
 ---
 layout: note
 title: "Essay in Bridge and Structural Engineering"
-date: 2023-11-27 00:00:00 +0900
-display_date: "2023.11"
+date: 2023-12-01 00:00:00 +0900
+display_date: "2023.12.01"
 categories: notes
 lang: en
 note_category: Personal
 description: "A personal essay on how early research experiences, setbacks, and a first major success shaped my decision to pursue graduate research."
 images:
-  - src: /images/news/2023/2023-11-27-research-success-experience-essay/essay-first-page.jpg
+  - src: /images/news/2023/2023-12-01-research-success-experience-essay/essay-first-page.jpg
     alt: "First page of Junyoung Park's essay in Bridge and Structural Engineering"
 ---
 
