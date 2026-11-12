@@ -2159,16 +2159,8 @@ span.pub__title {
   align-self: start;
 }
 
-.publication-card__patent-people {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 3px 10px;
-}
-
-.publication-card__patent-people .publication-card__meta {
-  flex: 0 1 auto;
-  margin: 0;
+.publication-card--patent-list .publication-card__meta {
+  margin: 2px 0 0;
   color: var(--muted);
   font-size: 0.76rem;
   text-transform: none;
@@ -2179,18 +2171,9 @@ span.pub__title {
   line-height: 1.28;
 }
 
-.publication-card__patent-people {
-  margin-top: 3px;
-}
-
-.publication-card__patent-people .publication-card__authors {
-  flex: 0 1 auto;
-  margin: 0;
+.publication-card--patent-list .publication-card__authors {
+  margin: 3px 0 0;
   font-size: 0.8rem;
-}
-
-.publication-card__patent-people .publication-card__paper {
-  flex: 0 0 auto;
 }
 
 .project-grid {

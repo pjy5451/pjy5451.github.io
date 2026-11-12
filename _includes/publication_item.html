@@ -74,16 +74,8 @@
       <div class="publication-card__patent-heading">
         <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
       </div>
-      <div class="publication-card__patent-people">
-        <p class="publication-card__authors">{{ item_authors }}</p>
-        <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span></p>
-        {% if pdf_href != "" %}
-          <a class="publication-card__paper" href="{{ pdf_href }}" aria-label="Open patent PDF for {{ item_title }}">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3h9l3 3v15H6z"></path><path d="M15 3v4h4M9 12h6M9 16h6"></path></svg>
-            Patent
-          </a>
-        {% endif %}
-      </div>
+      <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span></p>
+      <p class="publication-card__authors">{{ item_authors }}</p>
     {% else %}
       <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% if item_publisher != "" %} ({{ item_publisher }}){% endif %}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span>{% if item_status != "Published" %}<span aria-hidden="true">&middot;</span><span>{{ item_status }}</span>{% endif %}{% if show_publication_year %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endif %}</p>
       <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
