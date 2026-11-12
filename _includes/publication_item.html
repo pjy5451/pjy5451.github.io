@@ -49,25 +49,29 @@
 {% assign show_publication_year = true %}
 {% if item.hide_year or item_status == "Submitted" or item_status == "Under review" or item_status == "In preparation" %}{% assign show_publication_year = false %}{% endif %}
 
-<article class="publication-card{% if item.selected %} is-selected{% endif %}"
+<article class="publication-card{% if include.kind == 'patent' %} publication-card--patent-list{% endif %}{% if item.selected %} is-selected{% endif %}"
   data-pub-item data-pub-kind="{{ include.kind | default: 'article' }}"
   data-pub-selected="{% if item.selected %}true{% else %}false{% endif %}"
   data-pub-first-author="{{ is_first_author }}"
   data-pub-region="{{ item_region }}"
   data-pub-tags="{{ item_tags | escape }}"
   data-pub-search="{{ item_search | strip_newlines | downcase | escape }}">
-  <div class="publication-card__media{% if item.thumbnail %} publication-card__media--image{% endif %}{% if item.thumbnail_fit == 'full' %} publication-card__media--full{% elsif item.thumbnail_fit == 'compact' %} publication-card__media--compact{% elsif item.thumbnail_fit == 'contained' %} publication-card__media--contained{% endif %}">
-    {% if item.thumbnail %}
-      <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.thumbnail_alt | default: item_title | escape }}" loading="lazy">
-    {% else %}
-      <span class="publication-card__status">{{ item_status }}</span>
-    {% endif %}
-  </div>
+  {% if include.kind == "patent" %}
+    <div class="publication-card__year">{{ item.year }}</div>
+  {% else %}
+    <div class="publication-card__media{% if item.thumbnail %} publication-card__media--image{% endif %}{% if item.thumbnail_fit == 'full' %} publication-card__media--full{% elsif item.thumbnail_fit == 'compact' %} publication-card__media--compact{% elsif item.thumbnail_fit == 'contained' %} publication-card__media--contained{% endif %}">
+      {% if item.thumbnail %}
+        <img src="{{ item.thumbnail | relative_url }}" alt="{{ item.thumbnail_alt | default: item_title | escape }}" loading="lazy">
+      {% else %}
+        <span class="publication-card__status">{{ item_status }}</span>
+      {% endif %}
+    </div>
+  {% endif %}
   <div class="publication-card__body">
     <p class="publication-card__meta"><span>{{ item_venue_parts | first }}{% if item_publisher != "" %} ({{ item_publisher }}){% endif %}{% for venue_part in item_venue_parts offset:1 %}, {{ venue_part }}{% endfor %}</span>{% unless include.kind == "patent" %}{% if item_status != "Published" %}<span aria-hidden="true">&middot;</span><span>{{ item_status }}</span>{% endif %}{% if show_publication_year %}<span aria-hidden="true">&middot;</span><span>{{ item.year }}</span>{% endif %}{% endunless %}</p>
     <h3 class="publication-card__title">{% if item_href != "" %}<a href="{{ item_href }}">{{ item_title }}</a>{% else %}{{ item_title }}{% endif %}</h3>
     <p class="publication-card__authors">{{ item_authors }}</p>
-    {% if item.tags %}
+    {% if item.tags and include.kind != "patent" %}
       <div class="publication-card__tags" aria-label="Research keywords">
         {% for tag in item.tags %}
           {% assign tag_lower = tag | downcase %}{% assign tag_tone = "blue" %}
