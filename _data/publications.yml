@@ -50,6 +50,7 @@ sections:
       en: Journal of the Korean Society of Civil Engineers (accepted)
       ko: 대한토목학회논문집 (게재 확정)
     publisher: KSCE
+    pdf: /assets/files/publications/2026-ksce-hybrid-llm-wim-question-answering.pdf
   - year: '2026'
     hide_year: true
     status: under-review
