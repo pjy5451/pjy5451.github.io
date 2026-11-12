@@ -10,7 +10,15 @@
         <div class="talk-list">
           {% for item in section.entries %}
             {% assign item_venue = item.venue[pub_lang] | default: item.venue.en %}
-            {% if item_venue contains conference_type %}
+            {% assign is_international = false %}
+            {% if item_venue contains "International conference presentation" %}{% assign is_international = true %}{% endif %}
+            {% assign show_conference = false %}
+            {% if conference_type contains "International" and is_international %}
+              {% assign show_conference = true %}
+            {% elsif conference_type contains "Domestic" and is_international == false %}
+              {% assign show_conference = true %}
+            {% endif %}
+            {% if show_conference %}
               {% assign item_title = item.title[pub_lang] | default: item.title.en %}
               {% assign item_authors = item.authors[pub_lang] | default: item.authors.en %}
               {% assign item_pdf = item.pdf[pub_lang] | default: item.pdf.en | default: item.pdf %}
