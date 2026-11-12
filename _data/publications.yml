@@ -925,7 +925,7 @@ sections:
       ko:
       - label: 특허 출원
     pdf: /assets/files/patents/2026-kr-10-2026-0101228-vehicle-specification-measurement.pdf
-  - year: '2025'
+  - year: '2026'
     tags:
     - Bridge
     - WIM
@@ -936,13 +936,14 @@ sections:
       en: Jongwoo Kim, Younbeom Jho, <strong>Junyoung Park</strong>
       ko: 김종우, 조윤범, <strong>박준영</strong>
     venue:
-      en: KR 10-2025-0174354. Application filed on 2025-11-18.
-      ko: 'KR 10-2025-0174354. 출원일: 2025-11-18.'
+      en: KR 10-2026-0218117. Application filed in 2026.
+      ko: KR 10-2026-0218117. 2026년 출원.
     actions:
       en:
       - label: Patent Application
       ko:
       - label: 특허 출원
+    pdf: /assets/files/patents/2026-kr-10-2026-0218117-continuous-bridge-load-capacity-evaluation.pdf
   - year: '2025'
     tags:
     - WIM
