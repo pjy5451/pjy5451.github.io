@@ -612,6 +612,10 @@ strong {
   margin-top: 16px;
 }
 
+.project-index-list--other {
+  margin-top: 16px;
+}
+
 .project-index-card {
   display: grid;
   grid-template-columns: 190px minmax(0, 1fr);

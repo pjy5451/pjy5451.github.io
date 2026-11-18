@@ -5,7 +5,15 @@
   var status = document.querySelector('[data-project-status]');
   var empty = document.querySelector('[data-project-empty]');
   var otherToggle = document.querySelector('[data-project-expand-other]');
+  var otherList = document.querySelector('[data-project-other-list]');
   if (!input || !items.length) return;
+
+  // Keep the toggle in place: other projects open below it, not above it.
+  if (otherList) {
+    items.forEach(function(item) {
+      if (item.hasAttribute('data-project-other')) otherList.appendChild(item);
+    });
+  }
 
   var activeTopic = 'all';
   var otherExpanded = false;
@@ -38,6 +46,7 @@
     if (query) label += ' + search';
     if (status) status.textContent = 'Filtering by: ' + label + ' (' + visibleCount + ')';
     if (empty) empty.hidden = visibleCount !== 0;
+    if (otherList) otherList.hidden = !otherList.querySelector('[data-project-item]:not([hidden])');
   }
 
   buttons.forEach(function(button) {
