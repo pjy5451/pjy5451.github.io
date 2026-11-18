@@ -2,7 +2,7 @@
 layout: default
 permalink: /cv/
 title: "CV"
-description: "CV of Junyoung Park, including education, research experience, and research interests in structural monitoring."
+description: "CV of Junyoung Park, including education, research experience, research interests, and technical skills in structural monitoring."
 body_class: "page-cv"
 ---
 
@@ -257,5 +257,13 @@ body_class: "page-cv"
     </div>
   </div>
 </div>
+
+</section>
+
+<section class="cv-simple-panel" markdown="1">
+
+## Skills
+
+{% include skills_table.html %}
 
 </section>
