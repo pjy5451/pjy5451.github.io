@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Academic Excellence Scholarship"
+title: "Academic Excellence Scholarship (Fall 2018)"
 date: 2018-09-01 00:00:00 +0900
 categories: notes
 lang: en

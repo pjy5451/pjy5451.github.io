@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Academic Excellence Scholarship"
+title: "Academic Excellence Scholarship (Spring 2019)"
 date: 2019-03-01 00:00:00 +0900
 categories: notes
 lang: en

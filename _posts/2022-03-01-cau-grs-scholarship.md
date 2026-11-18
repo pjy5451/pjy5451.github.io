@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "CAU GRS Scholarship"
+title: "CAU GRS Scholarship (Spring 2022 – Fall 2023)"
 date: 2022-03-01 00:00:00 +0900
 categories: notes
 lang: en

@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Academic Excellence Scholarship"
+title: "Gwangju Seo-gu Academic Excellence Scholarship (Fall 2018)"
 date: 2018-11-02 00:00:00 +0900
 categories: notes
 lang: en
