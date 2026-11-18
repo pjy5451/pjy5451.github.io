@@ -13,7 +13,7 @@ images:
     alt: "PREMO exhibition booth at the 2nd X-Corps Plus Festival"
   - src: /images/news/2022/2022-11-01-x-corps-plus-gold-prize/1669369109024-4.jpg
     alt: "Team members with the Gold Prize at the 2nd X-Corps Plus Festival"
-  - src: "/images/news/2022/2022-11-01-x-corps-plus-gold-prize/CamScanner 02-07-2023 13.10.jpg"
+  - src: "/images/news/2022/2022-11-01-x-corps-plus-gold-prize/gold-prize-certificate.jpg"
     alt: "Gold Prize certificate from the 2nd X-Corps Plus Festival"
 ---
 
