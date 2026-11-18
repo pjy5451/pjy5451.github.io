@@ -2668,7 +2668,6 @@ p.field-site-card__label:not(:first-child) {
 }
 
 .note-intro {
-  max-width: 660px;
   margin: -4px 0 20px;
   color: var(--muted);
 }
