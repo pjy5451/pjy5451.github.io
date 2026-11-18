@@ -57,3 +57,5 @@ image_alt: "Junyoung Park — Research engineer in field measurement and civil i
 {% include home_conferences.html %}
 
 {% include home_patents.html %}
+
+{% include home_awards.html %}

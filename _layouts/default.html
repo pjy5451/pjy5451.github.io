@@ -69,6 +69,7 @@
         <a href="{{ '/#projects' | relative_url }}" data-section-link="projects">Projects</a>
         <a href="{{ '/#conferences' | relative_url }}" data-section-link="conferences">Conferences</a>
         <a href="{{ '/#patents' | relative_url }}" data-section-link="patents">Patents</a>
+        <a href="{{ '/#awards' | relative_url }}" data-section-link="awards">Awards</a>
         <a href="{{ '/cv/' | relative_url }}"{% if page.url contains '/cv/' %} class="is-active"{% endif %}>CV</a>
         <a href="{{ '/research-log/' | relative_url }}"{% if page.url contains '/research-log/' or page.note_category == 'Development' or page.note_category == 'Field Work' %} class="is-active"{% endif %}>Research Log</a>
         <a href="{{ '/news/' | relative_url }}"{% if page.url contains '/news/' or page.url contains '/notes/' and page.note_category != 'Development' and page.note_category != 'Field Work' %} class="is-active"{% endif %}>News</a>

@@ -1,0 +1,15 @@
+<section class="home-section home-section--awards" id="awards" data-home-section>
+  <h2>Awards</h2>
+  <div class="talk-list award-list">
+    {% for award in site.data.awards %}
+      <article class="talk award">
+        <div class="talk__year">{{ award.year }}</div>
+        <div class="talk__body">
+          <h3 class="talk__title"><a href="{{ award.url | relative_url }}">{{ award.title }}</a>{% if award.award %} <span class="award__honor">({{ award.award }})</span>{% endif %}</h3>
+          <p class="talk__venue">{{ award.venue }}</p>
+          {% if award.project %}<p class="award__project">{{ award.project }}</p>{% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

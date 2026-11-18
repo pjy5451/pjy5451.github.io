@@ -1,0 +1,61 @@
+# Home "Awards" section. Newest first; within a year, most significant first.
+# url points to the matching News post.
+- year: 2024
+  title: Best Paper Award
+  venue: Korea Institute for Structural Maintenance and Inspection (KSMI), Oral Session on Maintenance
+  project: A Scalable Framework for Ambient Bridge Monitoring Using IoT Sensor and Cloud Computing
+  url: /notes/best-paper-award/
+- year: 2022
+  title: Gold Prize
+  award: National Research Foundation of Korea Chairman's Award
+  venue: 2nd X-Corps Plus Festival
+  url: /notes/x-corps-plus-gold-prize/
+- year: 2021
+  title: Innovation Award
+  award: Korea National Railway Chairman's Award
+  venue: Smart Construction Challenge 2021, Construction IoT, AI, and Sensing Category
+  project: IoT Sensor- and Cloud-Based Continuous Bridge Displacement Monitoring System
+  url: /notes/smart-construction-challenge-award/
+- year: 2021
+  title: Excellence Award
+  award: Korea Land and Housing Corporation (LH)
+  venue: 12th LH Land Development Technology Competition
+  project: Citizen-Participatory Smart City System Using QR Code Visualization of Sensor Data
+  url: /notes/lh-land-development-award/
+- year: 2021
+  title: Excellence Award
+  venue: 8th University Student Water Environment Policy and Technology Competition
+  project: "IoT- and Deep-Learning-Based Smart Water Grid: Focused on Sewer and Water-Supply Pipelines"
+  url: /notes/water-environment-competition-excellence-award/
+- year: 2021
+  title: Dean's Award
+  venue: College of Engineering, Chung-Ang University
+  project: Cloud-Based Long-Term Bridge Monitoring System
+  url: /notes/cloud-bridge-monitoring-deans-award/
+- year: 2020
+  title: Top Excellence Award
+  award: Korea Infrastructure Safety Corporation Chairman's Award
+  venue: National Infrastructure Safety Competition, Best Practice Category
+  project: Long-Term Railway Bridge Monitoring Using JANET
+  url: /notes/national-infrastructure-safety-award/
+- year: 2020
+  title: Top 8 Finalist
+  venue: Bentley Systems Digital Infrastructure Student Idea Challenge (3,000+ registrants from 35 countries)
+  project: Demand-Based Smart Wireless Sensor
+  url: /notes/bentley-student-idea-challenge/
+- year: 2020
+  title: Dean's Award
+  venue: College of Engineering, 2020 CAU Engineering Academic Festival, Chung-Ang University
+  project: Bridge Maintenance System Using IoT Sensors
+  url: /notes/cau-engineering-academic-festival/
+- year: 2019
+  title: Grand Prize
+  award: Minister of the Interior and Safety Award
+  venue: Smart Earthquake Response Idea Contest
+  project: Earthquake Notification System Using Multisensory Media and Smart Sensors
+  url: /notes/smart-earthquake-response-award/
+- year: 2018
+  title: Grand Prize
+  award: Korea Institute for Advancement of Technology President's Award
+  venue: Engineering Festival AI Object Detection Hackathon
+  url: /notes/engineering-festival-hackathon/
