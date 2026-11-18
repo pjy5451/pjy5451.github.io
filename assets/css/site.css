@@ -552,6 +552,17 @@ strong {
   text-transform: uppercase;
 }
 
+@media (max-width: 480px) {
+  .home-seeking {
+    max-width: 100%;
+    gap: 5px;
+    padding: 5px 10px;
+    font-size: 0.74rem;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
 .home-section > h2,
 .home-section .publication-heading__title {
   margin: 0 0 12px;
