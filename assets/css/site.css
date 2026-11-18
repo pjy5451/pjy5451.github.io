@@ -1997,27 +1997,31 @@ span.pub__title {
 .publication-card__title a:hover { color: var(--link); text-decoration: underline; text-underline-offset: 3px; }
 .publication-card__title .publication-card__pdf-icon {
   display: inline-flex;
-  width: 20px;
-  height: 20px;
-  margin-left: 3px;
+  width: 22px;
+  height: 22px;
+  margin-left: 4px;
   align-items: center;
   justify-content: center;
-  color: var(--muted);
+  color: #d93025;
   text-decoration: none;
   vertical-align: -4px;
+  transition: color 0.15s ease, transform 0.15s ease;
 }
 .publication-card__title .publication-card__pdf-icon:hover {
-  color: var(--link);
+  color: #b3261e;
   text-decoration: none;
+  transform: translateY(-1px);
 }
 .publication-card__pdf-icon svg {
-  width: 18px;
-  height: 18px;
-  fill: none;
-  stroke: currentColor;
-  stroke-width: 1.7;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+  width: 22px;
+  height: 22px;
+}
+.publication-card__pdf-icon .pdf-icon__page { fill: currentColor; }
+.publication-card__pdf-icon .pdf-icon__fold { fill: #fff; opacity: 0.45; }
+.publication-card__pdf-icon .pdf-icon__label {
+  fill: #fff;
+  font: 800 6.6px/1 system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  letter-spacing: -0.2px;
 }
 .publication-card__authors { margin: 6px 0 0; color: var(--muted); font-size: 0.82rem; line-height: 1.35; }
 .publication-card__authors strong { color: var(--text); font-weight: 800; text-decoration: underline; text-underline-offset: 2px; }
