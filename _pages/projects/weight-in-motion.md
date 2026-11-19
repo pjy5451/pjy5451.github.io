@@ -41,6 +41,6 @@ High-speed WIM systems must acquire short-duration load signals reliably under r
 ## Related Publications / Outputs
 
 - YOLO-Based Automatic Load Segment Detection for High-Speed Weigh-in-Motion Systems.
-- Development of a Cloud-Based Integrated Enforcement Platform Technology.
+- Development of a Cloud-Based Integrated Platform for Autonomous Enforcement.
 
 {% include project_funding.html %}

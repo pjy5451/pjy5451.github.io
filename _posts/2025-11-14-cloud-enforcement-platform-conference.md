@@ -15,7 +15,7 @@ images:
     alt: "Audience during the cloud-based integrated enforcement platform session at KSCE Convention 2025"
 ---
 
-**Presentation:** **Development of a Cloud-Based Integrated Enforcement Platform Technology**
+**Presentation:** **Development of a Cloud-Based Integrated Platform for Autonomous Enforcement**
 
 I presented this work at the Korean Society of Civil Engineers (KSCE).
 

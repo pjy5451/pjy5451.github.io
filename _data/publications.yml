@@ -595,11 +595,11 @@ sections:
     - WIM
     - Cloud
     title:
-      en: Development of a Cloud-Based Integrated Enforcement Platform Technology
+      en: Development of a Cloud-Based Integrated Platform for Autonomous Enforcement
       ko: 클라우드 기반 자동단속 통합플랫폼 기술 개발
     authors:
-      en: <strong>Junyoung Park</strong>, Jongwoo Kim, Junghoon Kim
-      ko: <strong>박준영</strong>, 김종우, 김정훈
+      en: <strong>Junyoung Park</strong>, Junghoon Kim, Jongwoo Kim
+      ko: <strong>박준영</strong>, 김정훈, 김종우
     venue:
       en: Korean Society of Civil Engineers, 2025-11-14.
       ko: 대한토목학회, 2025-11-14.
