@@ -32,6 +32,7 @@ sections:
     href:
       en: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
       ko: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6192940
+    pdf: /assets/files/publications/2026-ssrn-portable-multimetric-bridge-load-testing.pdf
   - year: '2026'
     hide_year: true
     status: under-review
