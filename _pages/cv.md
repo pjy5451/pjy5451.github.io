@@ -2,7 +2,7 @@
 layout: default
 permalink: /cv/
 title: "CV"
-description: "CV of Junyoung Park, including education, research experience, research interests, and technical skills in structural monitoring."
+description: "CV of Junyoung Park, including education, research experience, research interests, and skills in structural monitoring."
 body_class: "page-cv"
 ---
 
@@ -262,7 +262,7 @@ body_class: "page-cv"
 
 <section class="cv-simple-panel" markdown="1">
 
-## Skills
+## Skills & Languages
 
 {% include skills_table.html %}
 
