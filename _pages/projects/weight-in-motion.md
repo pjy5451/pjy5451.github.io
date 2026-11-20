@@ -10,6 +10,13 @@ project_key: weight-in-motion
 
 This project develops a high-speed weigh-in-motion system for load sensing, DAQ, and automatic load-event detection.
 
+## Key Results
+
+- **YOLO-based axle load segment detection** on real-road HS-WIM data: precision 0.999, recall 1.000, and mAP@0.5 0.995 in validation, with about **95% segment detection accuracy** on an independent test set.
+- **Signal-processing pipeline** that extracts axle load, gross weight, speed, and vehicle dimensions from raw load-cell signals, combining automatic load-segment detection with FIR-filtered dynamic weight estimation.
+- **One year of continuous HS-WIM measurements** analyzed to characterize vehicle class and gross weight by time of day and season.
+- Co-designed the multi-channel signal acquisition PCB for the load cells.
+
 ## Problem
 
 High-speed WIM systems must acquire short-duration load signals reliably under real driving conditions, where noise, speed variation, and field installation conditions make automatic load-event interpretation difficult.

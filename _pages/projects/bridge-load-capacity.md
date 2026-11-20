@@ -10,6 +10,13 @@ project_key: bridge-load-capacity
 
 This project develops a field sensing system for bridge load testing and load-carrying capacity evaluation.
 
+## Key Results
+
+- **Laboratory noise:** 0.47–1.55 mg acceleration noise across three axes and 0.69 µε strain noise.
+- **Synchronization:** smartphone-triggered nodes started within **0.05 s** of each other, without a base-station computer.
+- **Field validation** on an in-service steel box-girder bridge (Bukbu Expressway, Seoul) with a 25.34-t truck: maximum static peak-displacement error of **0.073 mm** against a co-located LVDT, and **R = 0.978** with a mean absolute error of **0.055 mm** for a dynamic pass (10–70 km/h test passes).
+- Load-testing responses obtained without a cabled data logger or a fixed-reference displacement transducer.
+
 ## Problem
 
 Bridge load-carrying capacity evaluation requires reliable field measurements, but conventional load tests can be limited by sensor installation constraints and short measurement windows.

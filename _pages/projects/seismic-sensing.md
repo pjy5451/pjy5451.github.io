@@ -10,6 +10,12 @@ project_key: seismic-sensing
 
 This project develops a low-cost IoT seismic sensing system with event triggering and BLE notification.
 
+## Key Results
+
+- **Under $50 per unit** for an ultra-low-power seismic sensor.
+- **Two-phase detection:** STA/LTA screening in the time domain, then classification by spectral content to separate earthquake motion from random and sinusoidal vibration.
+- **Grand Prize** (Minister of the Interior and Safety Award) at the 2019 Smart Earthquake Response Idea Contest.
+
 ## Problem
 
 Low-cost seismic alert systems need to detect earthquake-like events quickly while distinguishing them from random vibration and sinusoidal non-earthquake motions.

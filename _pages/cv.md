@@ -2,7 +2,7 @@
 layout: default
 permalink: /cv/
 title: "CV"
-description: "CV of Junyoung Park, including education, research experience, research interests, and skills in structural monitoring."
+description: "CV of Junyoung Park, including research interests, education, research experience, and skills in structural monitoring."
 body_class: "page-cv"
 ---
 
@@ -68,15 +68,29 @@ body_class: "page-cv"
 
 <section class="cv-simple-panel" markdown="1">
 
+## Research Interests
+
+<ul class="cv-interest-list">
+  <li>Structural condition assessment from field measurements to support maintenance decisions</li>
+  <li>Inverse problems and parameter estimation in structural systems</li>
+  <li>Probabilistic modeling of uncertainty in structural measurements and models</li>
+  <li>Long-term field monitoring of in-service structures (bridges, pavements, ports, precast members)</li>
+</ul>
+
+</section>
+
+<section class="cv-simple-panel" markdown="1">
+
 ## Education
 
 <div class="entry entry--education">
   <div class="entry__date">2022 - 2024</div>
   <div class="entry__body">
-    <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, South Korea</p>
+    <p><strong>M.S. in Civil Engineering (Structural Engineering)</strong>, Chung-Ang University, Seoul, Republic of Korea</p>
     <ul class="degree-notes">
-      <li>Dissertation: <em>A scalable Bridge Health Monitoring System using an IoT sensor and Cloud computing</em> <a class="inline-action inline-action--thesis" href="/assets/files/Junyoung_Park_Master_Thesis.pdf">Read Thesis</a></li>
-      <li>Advisor: <a href="https://scholar.google.com/citations?user=Ev80LNcAAAAJ">Jong-Woong Park</a></li>
+      <li>Thesis: <em>A Scalable Bridge Health Monitoring System using an IoT Sensor and Cloud Computing</em> <a class="inline-action inline-action--thesis" href="/assets/files/Junyoung_Park_Master_Thesis.pdf">Read Thesis</a></li>
+      <li>Advisor: the late Prof. <a href="https://scholar.google.com/citations?user=Ev80LNcAAAAJ">Jong-Woong Park</a></li>
+      <li>GPA 4.39 / 4.5</li>
     </ul>
     <details class="coursework">
       <summary>Selected Coursework</summary>
@@ -107,9 +121,10 @@ body_class: "page-cv"
 <div class="entry entry--education">
   <div class="entry__date">2017 - 2022</div>
   <div class="entry__body">
-    <p><strong>B.S. in Civil Engineering and Mathematics (Double major)</strong>, Chung-Ang University, Seoul, South Korea</p>
+    <p><strong>B.S. in Civil Engineering &amp; B.S. in Mathematics (Double Degree)</strong>, Chung-Ang University, Seoul, Republic of Korea</p>
     <ul class="degree-notes">
-      <li>Dissertation: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></li>
+      <li>GPA 4.20 / 4.5 (summa cum laude)</li>
+      <li>Undergraduate thesis: <em>Development of Low-power IoT Sensor and a Cloud-based Data Fusion Displacement Estimation Method for Ambient Bridge Monitoring</em></li>
     </ul>
     <details class="coursework">
       <summary>Selected Coursework</summary>
@@ -185,76 +200,101 @@ body_class: "page-cv"
 <div class="entry entry--experience">
   <div class="entry__date">2024 - Present</div>
   <div class="entry__body">
-    <p><strong>Researcher, UDNS</strong></p>
-    <ul class="compact-list">
-      <li>Work on high-speed WIM development and OBM accuracy improvement for freight transportation safety.</li>
-      <li>Build embedded sensing, DAQ, signal processing, and cloud-connected monitoring workflows.</li>
-      <li>Validate field-deployable measurement systems through vehicle and infrastructure monitoring data.</li>
-    </ul>
+    <p><strong>Researcher, UDNS Co., Ltd., R&amp;D Division</strong></p>
+    <p class="cv-entry__note">Industrial Technical Personnel Program (R&amp;D-based alternative to military service), Republic of Korea</p>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Plate-type high-speed weigh-in-motion (HS-WIM) system development and field validation</strong> <span class="cv-project__sponsor">(MOLIT)</span><span class="cv-project__period">2024 – Present</span></p>
+      <ul class="compact-list">
+        <li>Co-designed the multi-channel signal acquisition PCB for the load cells.</li>
+        <li>Developed signal-processing algorithms that extract axle load, gross weight, speed, and vehicle dimensions from raw sensor signals, combining automatic load-segment detection with FIR-filtered dynamic weight estimation.</li>
+        <li>Conducted on-road field tests with loaded trucks to reduce estimation error across vehicle class, speed, and payload.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>HS-WIM signal analysis and accuracy improvement</strong> <span class="cv-project__sponsor">(MOLIT)</span><span class="cv-project__period">2024 – Present</span></p>
+      <ul class="compact-list">
+        <li>Developed deep-learning-based fault-tolerant reconstruction of multi-channel HS-WIM signals.</li>
+        <li>Analyzed paired HS-WIM and on-board mass signals toward auto-calibration without a reference scale.</li>
+        <li>Analyzed traffic patterns from a year of continuous HS-WIM measurements, characterizing vehicle class and gross weight by time of day and season.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>On-board mass (OBM) system for real-time heavy-vehicle load monitoring</strong><span class="cv-project__period">2024 – Present</span></p>
+      <ul class="compact-list">
+        <li>Improved dynamic weight estimation accuracy by estimating payload from multi-channel suspension sensors and compensating vehicle dynamic effects with IMU signals.</li>
+        <li>Conducted environmental, EMC, and ingress-protection testing for TCA Category B type approval.</li>
+        <li>Defined the communication protocol between the network module and the mobile application, and modified the Android application accordingly.</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 <div class="entry entry--experience">
-  <div class="entry__date">2022 - 2024</div>
+  <div class="entry__date">2019 - 2024</div>
   <div class="entry__body">
-    <p><strong>Graduate Researcher, Chung-Ang University</strong></p>
-    <ul class="compact-list">
-      <li>Developed IoT sensor and cloud-based systems for long-term bridge monitoring.</li>
-      <li>Installed and operated monitoring systems on bridges and field structures in Korea.</li>
-      <li>Built portable sensing systems for precast member transportation and load-testing applications.</li>
-    </ul>
+    <p><strong>Graduate Researcher, Smart Infrastructure Technology Laboratory</strong>, Chung-Ang University</p>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Long-term monitoring of in-service bridges</strong> <span class="cv-project__sponsor">(Seoul Metropolitan Government; M.S. thesis)</span><span class="cv-project__period">2020 – 2024</span></p>
+      <ul class="compact-list">
+        <li>Designed JANET, a low-power IoT sensor: 24-bit three-axis accelerometer, eight strain channels, 0.34 mA standby, direct LTE Cat-1 communication.</li>
+        <li>Instrumented Seongsan, Paldang, Seosomun, and Jamsu bridges and collected over one year of continuous data under live traffic at 1 kHz across eight channels (3-axis acceleration, four strain, temperature).</li>
+        <li>Built and operated a scalable data pipeline and dashboards serving all four bridges from a single cloud back end.</li>
+        <li>Tracked natural frequencies over a year, where seasonal temperature variation dominated the observed shifts.</li>
+        <li>Validated sensor-fusion displacement estimation against a laser displacement sensor reference, achieving under 1% error.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Bridge load testing and load-carrying capacity evaluation</strong> <span class="cv-project__sponsor">(MOLIT)</span><span class="cv-project__period">2020 – 2024</span></p>
+      <ul class="compact-list">
+        <li>Developed a portable multimetric sensing system (JANET) and web-based document automation for capacity evaluation.</li>
+        <li>Devised an automatic load-event interval recognition method for continuous load-carrying capacity assessment.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Monitoring of precast members during transportation and construction</strong> <span class="cv-project__sponsor">(MOLIT)</span><span class="cv-project__period">2020 – 2024</span></p>
+      <ul class="compact-list">
+        <li>Developed a portable gateway-and-JANET system for real-time safety monitoring of prefabricated members in transit.</li>
+        <li>Monitored acceleration, tilt, strain, and temperature throughout lifting, loading, and transport, with chatbot anomaly alerts.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Strain visualization module with E-paper QR display</strong> <span class="cv-project__sponsor">(MOLIT)</span><span class="cv-project__period">2021 – 2024</span></p>
+      <ul class="compact-list">
+        <li>Developed an ultra-low-power multi-channel module that records strain history from fabrication to service and holds it on an embedded E-paper display that remains readable with no power.</li>
+        <li>Built a chatbot-based QR acquisition pipeline and automated reporting.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Smart port berthing monitoring</strong> <span class="cv-project__sponsor">(MOLIT)</span><span class="cv-project__period">2021 – 2023</span></p>
+      <ul class="compact-list">
+        <li>Developed a wireless sensing system for long-term monitoring of caisson-type quay walls, integrating a high-sensitivity accelerometer with tilt, temperature, camera, and rangefinder modules.</li>
+        <li>Triggered vibration measurement on vessel berthing and unberthing, with an AI classifier to identify quay-wall events.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Self-stress sensing circuit for ultra-high-performance concrete</strong> <span class="cv-project__sponsor">(NRF)</span><span class="cv-project__period">2020 – 2021</span></p>
+      <ul class="compact-list">
+        <li>Designed a low-cost multi-channel wireless sensing circuit that infers the loading state of self-sensing concrete from resistance change.</li>
+      </ul>
+    </div>
+    <div class="cv-project">
+      <p class="cv-project__title"><strong>Low-cost IoT seismic sensor</strong> <span class="cv-project__sponsor">(NRF)</span><span class="cv-project__period">2019</span></p>
+      <ul class="compact-list">
+        <li>Designed an ultra-low-power seismic sensor built for under $50 per unit.</li>
+        <li>Developed a two-phase detection algorithm: STA/LTA screening in the time domain, then classification by spectral content.</li>
+      </ul>
+    </div>
   </div>
 </div>
 
 <div class="entry entry--experience">
   <div class="entry__date">2022</div>
   <div class="entry__body">
-    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong> (Two-week research visit hosted by <a href="https://www.cee.hawaii.edu/faculty-staff-main-2/2-faculty/moon-2/">Professor Dosoo Moon</a>)</p>
+    <p><strong>Visiting Researcher, University of Hawaii at Manoa</strong>, Dept. of Civil, Environmental and Construction Engineering (two-week visit hosted by <a href="https://www.cee.hawaii.edu/faculty-staff-main-2/2-faculty/moon-2/">Prof. DoSoo Moon</a>)</p>
     <ul class="compact-list">
-      <li>Implemented GPS-based time synchronization for multi-point road-surface vibration measurement.</li>
-      <li>Configured the sensing setup for the host laboratory and presented the platform in a lab seminar.</li>
+      <li>Implemented GPS-based time synchronization on JANET for multi-point road-surface vibration measurement.</li>
+      <li>Configured and demonstrated the measurement setup for the host lab, and gave a lab seminar on the sensing platform.</li>
     </ul>
-  </div>
-</div>
-
-<div class="entry entry--experience">
-  <div class="entry__date">2019 - 2022</div>
-  <div class="entry__body">
-    <p><strong>Undergraduate Researcher, Chung-Ang University</strong></p>
-    <ul class="compact-list">
-      <li>Designed displacement estimation workflows using strain, acceleration, and data fusion.</li>
-      <li>Developed QR-linked maintenance monitoring workflows with low-power sensing and cloud reporting.</li>
-      <li>Supported smart sensing projects for port structures, smart concrete, and seismic monitoring.</li>
-    </ul>
-  </div>
-</div>
-
-</section>
-
-<section class="cv-simple-panel" markdown="1">
-
-## Keywords
-
-<div class="research-keyword-groups">
-  <div class="research-keyword-group">
-    <span class="research-keyword-group__label">Experience</span>
-    <div class="publication-card__tags" aria-label="Research experience keywords">
-      <span class="publication-card__tag publication-card__tag--blue">Structural Health Monitoring</span>
-      <span class="publication-card__tag publication-card__tag--teal">Wireless Sensing</span>
-      <span class="publication-card__tag publication-card__tag--orange">Weigh-in-Motion</span>
-      <span class="publication-card__tag publication-card__tag--green">Bridge Load Testing</span>
-      <span class="publication-card__tag publication-card__tag--violet">Machine Learning</span>
-    </div>
-  </div>
-  <div class="research-keyword-group">
-    <span class="research-keyword-group__label">Interests</span>
-    <div class="keyword-chips keyword-chips--section keyword-chips--outline" aria-label="Research interest keywords">
-      <span>Structural Dynamics</span>
-      <span>Inverse Problems</span>
-      <span>Probabilistic Modeling</span>
-      <span>Structural Reliability</span>
-      <span>Physics-Informed ML</span>
-    </div>
   </div>
 </div>
 

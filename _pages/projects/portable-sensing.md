@@ -10,6 +10,12 @@ project_key: portable-sensing
 
 This project develops a portable sensing system for monitoring precast members during transportation and erection.
 
+## Key Results
+
+- **Portable gateway-and-JANET system** for real-time safety monitoring of prefabricated members in transit.
+- **Acceleration, tilt, strain, and temperature** monitored throughout lifting, loading, and transportation, with chatbot anomaly alerts.
+- Results published in *Automation in Construction* (2023) and protected by a granted patent on IoT-based integrated monitoring for precast transportation (KR 10-2558124).
+
 ## Problem
 
 Prefabricated members can be damaged during lifting, loading, transportation, and erection, but their structural response is rarely monitored continuously during these stages.

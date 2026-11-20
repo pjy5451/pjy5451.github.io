@@ -10,6 +10,13 @@ project_key: on-board-mass
 
 This project improves on-board mass estimation accuracy through vehicle-mounted sensing and dynamic weight correction during driving.
 
+## Key Results
+
+- **Dynamic weight correction:** payload estimated from multi-channel suspension sensors, with vehicle dynamic effects compensated using IMU signals.
+- **Type approval testing:** completed environmental, EMC, and ingress-protection tests for TCA Category B type approval.
+- **Granted patent** on real-time FIR-filter-based correction of the dynamic operating weight of freight vehicles (KR 10-2951213).
+- Defined the communication protocol between the network module and the mobile application, and modified the Android application accordingly.
+
 ## Problem
 
 Vehicle-mounted mass estimation is affected by dynamic driving states, road conditions, and vibration, so raw measurements must be corrected before they can support transportation safety decisions.

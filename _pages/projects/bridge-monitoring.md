@@ -10,6 +10,13 @@ project_key: bridge-monitoring
 
 This project develops a long-term bridge monitoring system using IoT sensors, cloud storage, and dashboards.
 
+## Key Results
+
+- **0.34 mA standby current** for JANET, a low-power IoT node with a 24-bit three-axis accelerometer, eight strain channels, and direct LTE Cat-1 upload.
+- **Four in-service bridges** monitored for **over one year** of continuous data under live traffic at **1 kHz** across eight channels, all served from a single cloud back end.
+- **Under 1% error** in sensor-fusion displacement estimates against a laser displacement sensor reference.
+- Year-long natural-frequency tracking showed that seasonal temperature variation dominated the observed frequency shifts.
+
 ## Problem
 
 Conventional bridge inspection and load testing depend on periodic field campaigns, which makes it difficult to track structural behavior continuously between inspection cycles.
