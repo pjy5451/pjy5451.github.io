@@ -100,10 +100,6 @@ sections:
     authors:
       en: <strong>Junyoung Park</strong>, Younbeom Jho, Jongwoo Kim
       ko: <strong>박준영</strong>, 조윤범, 김종우
-    venue:
-      en: IEEE Transactions on Instrumentation and Measurement (in preparation)
-      ko: IEEE Transactions on Instrumentation and Measurement (원고 준비 중)
-    publisher: IEEE
   - year: '2026'
     tags:
     - Weigh-in-Motion
