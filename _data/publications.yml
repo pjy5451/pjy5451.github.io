@@ -12,6 +12,8 @@ sections:
     - Structural Health Monitoring
     - Wireless Sensing
     - Bridge Load Testing
+    thumbnail: /images/publications/2026-portable-multimetric-bukbu-field-validation.jpg
+    thumbnail_alt: Field validation on the Bukbu Expressway, showing the tested span and sensor nodes installed on girders G1 and G2
     title:
       en: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
       ko: Development of a Portable Multimetric Sensing System for Bridge Load Testing and Load-Carrying Capacity Evaluation
