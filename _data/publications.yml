@@ -59,8 +59,8 @@ sections:
       en: Analysis of Freight Vehicle Operation Restriction Violations and Improvement of the Enforcement System Based on Real-World Road Data
       ko: 실도로 데이터 기반 화물차 운행제한 위반 분석 및 단속 체계 개선
     authors:
-      en: Yejin Kim, Hansol Jung, <strong>Junyoung Park</strong>, Myungwoo Jung, Youngwoo Jung, Jongwoo Kim, Ilsoo Yoon
-      ko: 김예진, 정한솔, <strong>박준영</strong>, 정명우, 정영우, 김종우, 윤일수
+      en: Yejin Kim, Hansol Jung, <strong>Junyoung Park</strong>, Yeeun Lee, Youngwoo Jung, Jongwoo Kim, Ilsoo Yoon
+      ko: 김예진, 정한솔, <strong>박준영</strong>, 이예은, 정영우, 김종우, 윤일수
     venue:
       en: The Journal of the Korea Institute of Intelligent Transport Systems (under review)
       ko: 한국ITS학회논문지 (심사 중)
