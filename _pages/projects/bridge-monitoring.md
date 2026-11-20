@@ -36,7 +36,7 @@ Conventional bridge inspection and load testing depend on periodic field campaig
 
 ## Field Deployment
 
-- Instrumented Seosomun Overpass, Paldang Overpass, Cheongdam 1 Bridge, and Seongsan Bridge.
+- Instrumented Seongsan Bridge, Paldang Overpass, Seosomun Overpass, and Jamsu Bridge.
 - Deployed a cloud-connected Seosomun Overpass field system for three-axis acceleration, multi-channel strain, and temperature measurement.
 - Operated long-term monitoring, performed maintenance checks, and improved sensor reliability under real field conditions.
 
