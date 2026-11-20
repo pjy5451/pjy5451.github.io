@@ -97,6 +97,8 @@ sections:
     tags:
     - Weigh-in-Motion
     - Machine Learning
+    thumbnail: /images/publications/2026-wim-fault-tolerant-reconstruction-method.svg
+    thumbnail_alt: Method overview in which faulty WIM channels are masked, passed with observed channels through a temporal neural network, and replaced with reconstructed signals
     title:
       en: Fault-Tolerant Reconstruction of Multi-Channel Weigh-in-Motion Signals Using Deep Learning
       ko: 딥러닝을 활용한 다채널 WIM 신호의 결함 허용 복원
