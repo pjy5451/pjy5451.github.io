@@ -53,16 +53,16 @@ body_class: "page-cv"
       <p>Selected projects and field experience | English</p>
     </div>
     <div class="portfolio-preview__actions">
-      <a href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121" target="_blank" rel="noopener">Open PDF</a>
-      <a href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121" download>Download</a>
+      <a href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121b" target="_blank" rel="noopener">Open PDF</a>
+      <a href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121b" download>Download</a>
     </div>
   </header>
-  <iframe title="Junyoung Park portfolio PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121#view=FitH" loading="lazy"></iframe>
+  <iframe title="Junyoung Park portfolio PDF preview" data-document-frame data-src="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121b#view=FitH" loading="lazy"></iframe>
   <div class="document-mobile-preview document-mobile-preview--landscape">
-    <a class="document-mobile-preview__image" href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121" target="_blank" rel="noopener" aria-label="View Junyoung Park portfolio PDF">
+    <a class="document-mobile-preview__image" href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121b" target="_blank" rel="noopener" aria-label="View Junyoung Park portfolio PDF">
       <img src="/images/documents/junyoung-park-portfolio-preview.png" alt="Cover of Junyoung Park's research portfolio" loading="lazy">
     </a>
-    <a class="document-mobile-preview__open" href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121" target="_blank" rel="noopener">View PDF</a>
+    <a class="document-mobile-preview__open" href="/assets/files/Junyoung_Park_Portfolio.pdf?v=20261121b" target="_blank" rel="noopener">View PDF</a>
   </div>
 </section>
 
